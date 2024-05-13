@@ -1,0 +1,55 @@
+{
+    "shared_item_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Characters",
+                        "content": {
+                            "type": "itemgrid",
+                            "item_margin": "10, 10",
+                            "h_alignment": "left",
+                            "rows": [
+                                [
+                                    "vaan",
+                                    "balthier",
+                                    "fran"
+                                ],
+                                [
+                                    "basch",
+                                    "ashe",
+                                    "penelo"
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "rows": [
+                            [
+                                "sw_chop",
+                                "pw_chop",
+                                "black_orb"
+                            ],
+                            [
+                                "access_key",
+                                "writ"
+                            ],
+                            [
+                                "dawn_shard"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

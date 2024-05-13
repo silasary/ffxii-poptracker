@@ -1,0 +1,204 @@
+[
+    {
+        "name": "Vaan",
+        "type": "toggle",
+        "img": "images/items/vaan.png",
+        "codes": "vaan"
+    },
+    {
+        "name": "Balthier",
+        "type": "toggle",
+        "img": "images/items/balthier.png",
+        "codes": "balthier"
+    },
+    {
+        "name": "Fran",
+        "type": "toggle",
+        "img": "images/items/fran.png",
+        "codes": "fran"
+    },
+    {
+        "name": "Basch",
+        "type": "toggle",
+        "img": "images/items/basch.png",
+        "codes": "basch"
+    },
+    {
+        "name": "Ashe",
+        "type": "toggle",
+        "img": "images/items/ashe.png",
+        "codes": "ashe"
+    },
+    {
+        "name": "Penelo",
+        "type": "toggle",
+        "img": "images/items/penelo.png",
+        "codes": "penelo"
+    },
+    {
+        "name": "Sandalwood Chop",
+        "type": "toggle",
+        "img": "images/items/sw_chop.png",
+        "codes": "sw_chop"
+    },
+    {
+        "name": "Pinewood Chop",
+        "type": "consumable",
+        "img": "images/items/pw_chop.png",
+        "codes": "pw_chop",
+        "max_quantity": 24,
+        "overlay_background": "#000"
+    },
+    {
+        "name": "Black Orb",
+        "type": "consumable",
+        "img": "images/items/black_orb.png",
+        "codes": "black_orb",
+        "overlay_background": "#000"
+    },
+    {
+        "name": "Systems Access Key",
+        "type": "consumable",
+        "img": "images/items/access_key.png",
+        "codes": "access_key",
+        "overlay_background": "#000",
+        "max_quantity": 3
+    },
+    {
+        "name": "Writ of Transit",
+        "type": "toggle",
+        "img": "images/items/writ.png",
+        "codes": "writ"
+    },
+    {
+        "name": "Clan Primer",
+        "type": "toggle",
+        "img": "images/items/clan_primer.png",
+        "codes": "clan_primer"
+    },
+    {
+        "name": "Cactus Flower",
+        "type": "toggle",
+        "img": "images/items/cactus_flower.png",
+        "codes": "cactus_flower"
+    },
+    {
+        "name": "Tube Fuse",
+        "type": "toggle",
+        "img": "images/items/tube_fuse.png",
+        "codes": "tube_fuse"
+    },
+    {
+        "name": "Sword of the Order",
+        "type": "toggle",
+        "img": "images/items/sword_of_the_order.png",
+        "codes": "sword_of_the_order"
+    },
+    {
+        "name": "No. 1 Brig Key",
+        "type": "toggle",
+        "img": "images/items/brig_key.png",
+        "codes": "brig_key"
+    },
+    {
+        "name": "Dawn Shard",
+        "type": "toggle",
+        "img": "images/items/dawn_shard.png",
+        "codes": "dawn_shard"
+    },
+    {
+        "name": "Shadestone",
+        "type": "toggle",
+        "img": "images/items/shadestone.png",
+        "codes": "shadestone"
+    },
+    {
+        "name": "Sunstone",
+        "type": "toggle",
+        "img": "images/items/sunstone.png",
+        "codes": "sunstone"
+    },
+    {
+        "name": "Ring of the Toad",
+        "type": "toggle",
+        "img": "images/items/ring_of_the_toad.png",
+        "codes": "ring_of_the_toad"
+    },
+    {
+        "name": "Silent Urn",
+        "type": "toggle",
+        "img": "images/items/silent_urn.png",
+        "codes": "silent_urn"
+    },
+    {
+        "name": "Site 3 Key",
+        "type": "toggle",
+        "img": "images/items/site_3_key.png",
+        "codes": "site_3_key"
+    },
+    {
+        "name": "Site 11 Key",
+        "type": "toggle",
+        "img": "images/items/site_11_key.png",
+        "codes": "site_11_key"
+    },
+    {
+        "name": "Crescent Stone",
+        "type": "toggle",
+        "img": "images/items/crescent_stone.png",
+        "codes": "crescent_stone"
+    },
+    {
+        "name": "Toggle",
+        "type": "toggle",
+        "img": "images/items/toggle.png",
+        "codes": "toggle"
+    },
+    {
+        "name": "Progressive",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/progressive.png",
+                "codes": "progressive",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "progressive_2",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Consumable",
+        "type": "consumable",
+        "img": "images/items/consumable.png",
+        "max_quantity": 8,
+        "increment": 1,
+        "decrement": 1,
+        "initial_quantity": 1,
+        "overlay_background": "#000000",
+        "overlay_font_size": 8,
+        "codes": "consumable"
+    },
+    {
+        "name": "Progressive Toggle",
+        "type": "progressive_toggle",
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/progressive.png",
+                "codes": "progressive_toggle",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "progressive_toggle_2",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

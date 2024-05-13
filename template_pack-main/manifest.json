@@ -1,0 +1,15 @@
+﻿{
+    "name": "FFXII Open World Randomizer",
+    "game_name": "FFXII",
+    "package_version": "1.0.0.0",
+    "package_uid": "ffxii_open_world",
+    "author": "jeeves833",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker"
+        },
+        "var_itemsonly": {
+            "display_name": "Items Only"
+        }
+    }
+}
