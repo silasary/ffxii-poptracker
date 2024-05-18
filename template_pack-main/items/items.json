@@ -149,56 +149,325 @@
         "codes": "crescent_stone"
     },
     {
-        "name": "Toggle",
+        "name": "Medallion of Bravery",
         "type": "toggle",
-        "img": "images/items/toggle.png",
-        "codes": "toggle"
+        "img": "images/items/med_bravery.png",
+        "codes": "med_bravery"
     },
     {
-        "name": "Progressive",
-        "type": "progressive",
-        "allow_disabled": true,
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Medallion of Might",
+        "type": "toggle",
+        "img": "images/items/med_might.png",
+        "codes": "med_might"
     },
     {
-        "name": "Consumable",
+        "name": "Medallion of Love",
+        "type": "toggle",
+        "img": "images/items/med_love.png",
+        "codes": "med_love"
+    },
+    {
+        "name": "Lusterless Medallion",
+        "type": "toggle",
+        "img": "images/items/med_lusterless.png",
+        "codes": "med_lusterless"
+    },
+    {
+        "name": "Stone of the Condemner",
+        "type": "toggle",
+        "img": "images/items/stone_of_condemner.png",
+        "codes": "stone_of_condemner"
+    },
+    {
+        "name": "Errmonea Leaf",
+        "type": "toggle",
+        "img": "images/items/errmonea_leaf.png",
+        "codes": "errmonea_leaf"
+    },
+    {
+        "name": "Rabbit's Tail",
+        "type": "toggle",
+        "img": "images/items/rabbit_tail.png",
+        "codes": "rabbit_tail"
+    },
+    {
+        "name": "Ann's Letter",
+        "type": "toggle",
+        "img": "images/items/anns_letter.png",
+        "codes": "anns_letter"
+    },
+    {
+        "name": "Manufacted Nethicite",
+        "type": "toggle",
+        "img": "images/items/nethicite.png",
+        "codes": "nethicite"
+    },
+    {
+        "name": "Rusted Scrap of Armor",
+        "type": "toggle",
+        "img": "images/items/rusted_scrap_of_armor.png",
+        "codes": "rusted_scrap_of_armor"
+    },
+    {
+        "name": "Sword of Kings",
+        "type": "toggle",
+        "img": "images/items/sword_of_kings.png",
+        "codes": "sword_of_kings"
+    },
+    {
+        "name": "Treaty Blade",
+        "type": "toggle",
+        "img": "images/items/treaty_blade.png",
+        "codes": "treaty_blade"
+    },
+    {
+        "name": "Serpentwyne Must",
+        "type": "toggle",
+        "img": "images/items/serpentwyne.png",
+        "codes": "serpentwyne"
+    },
+    {
+        "name": "Fragments (Dull, Blackened, Grimy)",
         "type": "consumable",
-        "img": "images/items/consumable.png",
-        "max_quantity": 8,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 1,
-        "overlay_background": "#000000",
-        "overlay_font_size": 8,
-        "codes": "consumable"
+        "img": "images/items/fragments.png",
+        "codes": "fragments",
+        "overlay_background": "#000",
+        "max_quantity": 3
     },
     {
-        "name": "Progressive Toggle",
-        "type": "progressive_toggle",
-        "initial_stage_idx": 0,
-        "stages": [
-            {
-                "img": "images/items/progressive.png",
-                "codes": "progressive_toggle",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/items/progressive_2.png",
-                "codes": "progressive_toggle_2",
-                "inherit_codes": false
-            }
-        ]
+        "name": "Stolen Articles",
+        "type": "toggle",
+        "img": "images/items/stolen_articles.png",
+        "codes": "stolen_articles"
+    },
+    {
+        "name": "Barheim Key",
+        "type": "toggle",
+        "img": "images/items/barheim_key.png",
+        "codes": "barheim_key"
+    },
+    {
+        "name": "Merchant's Armband",
+        "type": "toggle",
+        "img": "images/items/merchants_armband.png",
+        "codes": "merchants_armband"
+    },
+    {
+        "name": "Pilika's Diary",
+        "type": "toggle",
+        "img": "images/items/pilikas_diary.png",
+        "codes": "pilikas_diary"
+    },
+    {
+        "name": "Ring of the Light",
+        "type": "toggle",
+        "img": "images/items/ring_of_light.png",
+        "codes": "ring_of_light"
+    },
+    {
+        "name": "Viera Rucksack",
+        "type": "toggle",
+        "img": "images/items/viera_rucksack.png",
+        "codes": "viera_rucksack"
+    },
+    {
+        "name": "Lab Access Card",
+        "type": "toggle",
+        "img": "images/items/lab_access_card.png",
+        "codes": "lab_access_card"
+    },
+    {
+        "name": "Moonsilver Medallion",
+        "type": "toggle",
+        "img": "images/items/moonsilver_medallion.png",
+        "codes": "moonsilver_medallion"
+    },
+    {
+        "name": "Goddess's Magicite",
+        "type": "toggle",
+        "img": "images/items/goddess_magicite.png",
+        "codes": "goddess_magicite"
+    },
+    {
+        "name": "Broken Key",
+        "type": "toggle",
+        "img": "images/items/broken_key.png",
+        "codes": "broken_key"
+    },
+    {
+        "name": "Sluice Gate Key",
+        "type": "toggle",
+        "img": "images/items/sluice_gate_key.png",
+        "codes": "sluice_gate_key"
+    },
+    {
+        "name": "Wind Globe",
+        "type": "toggle",
+        "img": "images/items/wind_globe.png",
+        "codes": "wind_globe"
+    },
+    {
+        "name": "Windvane",
+        "type": "toggle",
+        "img": "images/items/windvane.png",
+        "codes": "windvane"
+    },
+    {
+        "name": "Dragon Scale",
+        "type": "toggle",
+        "img": "images/items/dragon_scale.png",
+        "codes": "dragon_scale"
+    },
+    {
+        "name": "Ageworn Key",
+        "type": "toggle",
+        "img": "images/items/ageworn_key.png",
+        "codes": "ageworn_key"
+    },
+    {
+        "name": "Soul Ward Key",
+        "type": "toggle",
+        "img": "images/items/soul_ward_key.png",
+        "codes": "soul_ward_key"
+    },
+    {
+        "name": "Lente's Tear",
+        "type": "toggle",
+        "img": "images/items/lentes_tear.png",
+        "codes": "lentes_tear"
+    },
+    {
+        "name": "Shelled Trophy",
+        "type": "toggle",
+        "img": "images/items/shelled_trophy.png",
+        "codes": "shelled_trophy"
+    },
+    {
+        "name": "Hunt Club Trophies",
+        "type": "consumable",
+        "img": "images/items/trophies.png",
+        "codes": "trophies",
+        "overlay_background": "#000",
+        "max_quantity": 30
+    },
+    {
+        "name": "Rainstone",
+        "type": "toggle",
+        "img": "images/items/rainstone.png",
+        "codes": "rainstone"
+    },
+    {
+        "name": "Rabanastre Aeropass",
+        "type": "toggle",
+        "img": "images/items/rab.png",
+        "codes": "rab_aero"
+    },
+    {
+        "name": "Nalbina Aeropass",
+        "type": "toggle",
+        "img": "images/items/nal.png",
+        "codes": "nal_aero"
+    },
+    {
+        "name": "Bhujerba Aeropass",
+        "type": "toggle",
+        "img": "images/items/bhu.png",
+        "codes": "bhu_aero"
+    },
+    {
+        "name": "Archades Aeropass",
+        "type": "toggle",
+        "img": "images/items/arc.png",
+        "codes": "arc_aero"
+    },
+    {
+        "name": "Balfonheim Aeropass",
+        "type": "toggle",
+        "img": "images/items/bal.png",
+        "codes": "bal_aero"
+    },
+    {
+        "name": "Belias",
+        "type": "toggle",
+        "img": "images/items/belias.png",
+        "codes": "belias"
+    },
+    {
+        "name": "Chaos",
+        "type": "toggle",
+        "img": "images/items/chaos.png",
+        "codes": "chaos"
+    },
+    {
+        "name": "Zalera",
+        "type": "toggle",
+        "img": "images/items/zalera.png",
+        "codes": "zalera"
+    },
+    {
+        "name": "Zeromus",
+        "type": "toggle",
+        "img": "images/items/zeromus.png",
+        "codes": "zeromus"
+    },
+    {
+        "name": "Hashmal",
+        "type": "toggle",
+        "img": "images/items/hashmal.png",
+        "codes": "hashmal"
+    },
+    {
+        "name": "Ultima",
+        "type": "toggle",
+        "img": "images/items/ultima.png",
+        "codes": "ultima"
+    },
+    {
+        "name": "Exodus",
+        "type": "toggle",
+        "img": "images/items/exodus.png",
+        "codes": "exodus"
+    },
+    {
+        "name": "Cuchulainn",
+        "type": "toggle",
+        "img": "images/items/cuchulainn.png",
+        "codes": "cuchulainn"
+    },
+    {
+        "name": "Shemhazai",
+        "type": "toggle",
+        "img": "images/items/shemhazai.png",
+        "codes": "shemhazai"
+    },
+    {
+        "name": "Adrammelech",
+        "type": "toggle",
+        "img": "images/items/adrammelech.png",
+        "codes": "adrammelech"
+    },
+    {
+        "name": "Famfrit",
+        "type": "toggle",
+        "img": "images/items/famfrit.png",
+        "codes": "famfrit"
+    },
+    {
+        "name": "Mateus",
+        "type": "toggle",
+        "img": "images/items/mateus.png",
+        "codes": "mateus"
+    },
+    {
+        "name": "Zodiark",
+        "type": "toggle",
+        "img": "images/items/zodiark.png",
+        "codes": "zodiark"
+    },
+    {
+        "name": "Second Board",
+        "type": "toggle",
+        "img": "images/items/second_board.png",
+        "codes": "second_board"
     }
 ]
