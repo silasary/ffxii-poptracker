@@ -1,6 +1,6 @@
 [
     {
-        "name": "Rabanastre",
+        "name": "Main",
         "children": [
             {
                 "name": "Rabanastre",
@@ -72,6 +72,54 @@
                         "name": "Grimy Fragment",
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Giza Plains Dry",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 780,
+                        "y": 770
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Shadestone",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Sunstone",
+                        "access_rules": [
+                            "shadestone,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 33: Cluckatrice",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 36: Gil Snapper",
+                        "access_rules": [
+                            "clan_primer,silent_urn,rainstone,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Give Errmonea Leaf",
+                        "access_rules": [
+                            "errmonea_leaf,$ozmone_plain,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Nazarnir - Maned Trophy",
+                        "access_rules": [
+                            "shelled_trophy,$hunt_club_start,$scaled_difficulty|7"
                         ]
                     }
                 ]

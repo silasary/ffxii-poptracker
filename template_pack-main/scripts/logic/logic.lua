@@ -63,3 +63,7 @@ function tchita_uplands()
     return defeat_bergen() or Tracker:ProviderCountForCode('cactus_flower') > 0 or earth_tyrant() or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or aero('bal_aero')
 end
+
+function hunt_club_start()
+    return tchita_uplands()
+end
