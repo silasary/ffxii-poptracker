@@ -18,6 +18,10 @@
                             "h_alignment": "left",
                             "rows": [
                                 [
+                                    "scaled",
+                                    "second_board"
+                                ],
+                                [
                                     "vaan",
                                     "balthier",
                                     "fran"
@@ -47,6 +51,10 @@
                                 "dawn_shard"
                             ]
                         ]
+                    },
+                    {
+                        "type": "item",
+                        "item": "broken_key"
                     }
                 ]
             }

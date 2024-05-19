@@ -36,6 +36,12 @@
         "codes": "penelo"
     },
     {
+        "name": "Any Guest",
+        "type": "toggle",
+        "img": "images/items/guest.png",
+        "codes": "guest"
+    },
+    {
         "name": "Sandalwood Chop",
         "type": "toggle",
         "img": "images/items/sw_chop.png",
@@ -469,5 +475,12 @@
         "type": "toggle",
         "img": "images/items/second_board.png",
         "codes": "second_board"
+    },
+    {
+        "name": "Difficulty Scaled Depth",
+        "type": "toggle",
+        "img": "images/items/scaling.png",
+        "codes": "scaled",
+        "initial_active_state": true
     }
 ]

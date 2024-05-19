@@ -1,5 +1,84 @@
 [
     {
+        "name": "Rabanastre",
+        "children": [
+            {
+                "name": "Rabanastre",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 760,
+                        "y": 680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Tomaj",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "Hunt 1: Rogue Tomato",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 2: Thextera",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Viera Rendezvous",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Windvane",
+                        "access_rules": [
+                            "wind_globe,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 8: Wyvern Lord",
+                        "access_rules": [
+                            "$sandseas,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Ktjn Reward",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 6: White Mousse",
+                        "access_rules": [
+                            "broken_key,$scaled_difficulty|5"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Hunt 9: Marilith",
+                        "access_rules": [
+                            "serpentwyne,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Grimy Fragment",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|5"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Example Parent",
         "children": [
             {
@@ -7,7 +86,7 @@
                 "access_rules": [
                     //read as: progressive_2 or toggle                    
                     "progressive_2",
-                    "toggle"                    
+                    "toggle"
                 ],
                 "sections": [
                     {
@@ -36,7 +115,7 @@
                 "name": "Example Location 2",
                 "access_rules": [
                     //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
+                    "progressive_toggle_2, $has_more_then_n_consumable|4"
                 ],
                 "sections": [
                     {
@@ -51,7 +130,7 @@
                         "y": 400
                     }
                 ]
-            }            
+            }
         ]
     }
 ]
