@@ -123,6 +123,68 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Lowtown",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 812,
+                        "y": 680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dalan Crescent Stone",
+                        "access_rules": [
+                            "sunstone,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Dalan Sword of the Order",
+                        "access_rules": [
+                            "goddess_magicite,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Balzac Sword of the Order Turn In",
+                        "access_rules": [
+                            "sword_of_the_order,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 4: Wraith",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Dusty Letter",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 7: Ring Wyrm",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 35: Orthros",
+                        "access_rules": [
+                            "clan_primer,stolen_articles,fran,ashe,penelo,$scaled_difficulty|5"
+                        ],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Hunt 42: Behemoth King",
+                        "access_rules": [
+                            "$paramina_rift,clan_primer,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
+
             }
         ]
     },
