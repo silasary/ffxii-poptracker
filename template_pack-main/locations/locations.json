@@ -184,7 +184,39 @@
                         ]
                     }
                 ]
-
+            },
+            {
+                "name": "Dreadnought Leviathan",
+                "access_rules": [
+                    "$leviathan"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1400,
+                        "y": 700
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "No. 1 Brig Key",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Systems Access Key",
+                        "access_rules": [
+                            "brig_key,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Manufacted Nethicite",
+                        "access_rules": [
+                            "brig_key,$scaled_difficulty|1"
+                        ]
+                    }
+                ]
             }
         ]
     },
