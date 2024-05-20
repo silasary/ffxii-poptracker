@@ -217,6 +217,33 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Nam-Yensa Sandsea",
+                "access_rules": [
+                    "$sandseas"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 345,
+                        "y": 680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Eksir Berries",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Victanir - Maverick Trophy",
+                        "access_rules": [
+                            "shelled_trophy,$hunt_club_start,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -226,7 +253,6 @@
             {
                 "name": "Example Location 1",
                 "access_rules": [
-                    //read as: progressive_2 or toggle                    
                     "progressive_2",
                     "toggle"
                 ],
@@ -256,7 +282,6 @@
             {
                 "name": "Example Location 2",
                 "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
                     "progressive_toggle_2, $has_more_then_n_consumable|4"
                 ],
                 "sections": [
