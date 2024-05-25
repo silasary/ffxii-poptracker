@@ -289,6 +289,36 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Barheim Passage",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 812,
+                        "y": 546
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Burrough Tube Fuse",
+                        "access_rules": [
+                            "crescent_stone,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Zalera",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|4"
+                        ]
+                    },
+                    {
+                        "name": "Ishteen - Bony Trophy",
+                        "access_rules": [
+                            "barheim_key,shelled_trophy,$hunt_club_start,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
             }
         ]
     },
