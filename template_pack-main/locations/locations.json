@@ -120,7 +120,8 @@
                         "name": "Nazarnir - Maned Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
-                        ]
+                        ],
+                        "hosted_item": "nazarnir"
                     }
                 ]
             },
@@ -247,7 +248,8 @@
                         "name": "Victanir - Maverick Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
-                        ]
+                        ],
+                        "hosted_item": "victanir"
                     }
                 ]
             },
@@ -286,7 +288,8 @@
                         "name": "Zombie Lord - Soulless Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|6"
-                        ]
+                        ],
+                        "hosted_item": "zombie_lord"
                     }
                 ]
             },
@@ -316,7 +319,8 @@
                         "name": "Ishteen - Bony Trophy",
                         "access_rules": [
                             "barheim_key,$hunt_club_start,$scaled_difficulty|7"
-                        ]
+                        ],
+                        "hosted_item": "ishteen"
                     }
                 ]
             },
@@ -433,7 +437,8 @@
                         "name": "Myath - Eternal Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
-                        ]
+                        ],
+                        "hosted_item": "myath"
                     }
                 ]
             },
@@ -472,13 +477,15 @@
                         "name": "Kris - Odiferous Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
-                        ]
+                        ],
+                        "hosted_item": "kris"
                     },
                     {
                         "name": "Grimalkin - Whiskered Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
-                        ]
+                        ],
+                        "hosted_item": "grimalkin"
                     }
                 ]
             },
@@ -505,6 +512,82 @@
                         "name": "Defeat Cid 1",
                         "access_rules": [
                             "lab_access_card,$scaled_difficulty|5"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Archades",
+                "access_rules": [
+                    "$archades"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1214,
+                        "y": 104
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Chops",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ],
+                        "item_count": 28
+                    },
+                    {
+                        "name": "Sandalwood Chop",
+                        "access_rules": [
+                            "$has_n_chops|28,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 20: Darksteel",
+                        "access_rules": [
+                            "$sochen_cave_palace,$scaled_difficulty|4"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 23: Overlord",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Hunt Club Owner: 5",
+                        "access_rules": [
+                            "sw_chop,$hunt_club_kills|5"
+                        ]
+                    },
+                    {
+                        "name": "Hunt Club Owner: 10",
+                        "access_rules": [
+                            "sw_chop,$hunt_club_kills|10"
+                        ]
+                    },
+                    {
+                        "name": "Hunt Club Owner: 15",
+                        "access_rules": [
+                            "sw_chop,$hunt_club_kills|15"
+                        ]
+                    },
+                    {
+                        "name": "Hunt Club Owner: 20",
+                        "access_rules": [
+                            "sw_chop,$hunt_club_kills|20"
+                        ]
+                    },
+                    {
+                        "name": "Hunt Club Owner: 25",
+                        "access_rules": [
+                            "sw_chop,$hunt_club_kills|25"
+                        ]
+                    },
+                    {
+                        "name": "Hunt Club Owner: 30",
+                        "access_rules": [
+                            "sw_chop,$hunt_club_kills|30"
                         ]
                     }
                 ]

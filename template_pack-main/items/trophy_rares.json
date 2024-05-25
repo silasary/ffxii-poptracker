@@ -1,0 +1,188 @@
+[
+    {
+        "name": "Gavial kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "gavial"
+    },
+    {
+        "name": "Ishteen kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "ishteen"
+    },
+    {
+        "name": "Kaiser Wolf kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "kaiser_wolf"
+    },
+    {
+        "name": "Terror Tyrant kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "terror_tyrant"
+    },
+    {
+        "name": "Nazarnir kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "nazarnir"
+    },
+    {
+        "name": "Alteci kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "alteci"
+    },
+    {
+        "name": "Disma kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "disma"
+    },
+    {
+        "name": "Bull Chocobo kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "bull_chocobo"
+    },
+    {
+        "name": "Victanir kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "victanir"
+    },
+    {
+        "name": "Zombie Lord kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "zombie_lord"
+    },
+    {
+        "name": "Dheed kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "dheed"
+    },
+    {
+        "name": "Razorclaw kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "razorclaw"
+    },
+    {
+        "name": "Arioch kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "arioch"
+    },
+    {
+        "name": "Vorres kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "vorres"
+    },
+    {
+        "name": "Killbug kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "killbug"
+    },
+    {
+        "name": "Melt kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "melt"
+    },
+    {
+        "name": "Biding Mantis kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "biding_mantis"
+    },
+    {
+        "name": "Dreadguard kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "dreadguard"
+    },
+    {
+        "name": "Crystal Knight kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "crystal_knight"
+    },
+    {
+        "name": "Ancbolder kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "ancbolder"
+    },
+    {
+        "name": "Myath kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "myath"
+    },
+    {
+        "name": "Skullash kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "skullash"
+    },
+    {
+        "name": "Kris kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "kris"
+    },
+    {
+        "name": "Grimalkin kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "grimalkin"
+    },
+    {
+        "name": "Wendice kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "wendice"
+    },
+    {
+        "name": "Anubys kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "anubys"
+    },
+    {
+        "name": "Bluesang kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "bluesang"
+    },
+    {
+        "name": "Aspidochelon kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "aspidochelon"
+    },
+    {
+        "name": "Abelisk kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "abelisk"
+    },
+    {
+        "name": "Avenger kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "avenger"
+    },
+    {
+        "name": "Thalassinon kill",
+        "type": "toggle",
+        "img": "images/items/trophy_rare.png",
+        "codes": "thalassinon"
+    }
+]

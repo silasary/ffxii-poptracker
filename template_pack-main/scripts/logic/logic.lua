@@ -83,3 +83,7 @@ end
 function draklor_laboratory()
     return (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and archades()
 end
+
+function has_n_chops(n)
+    return Tracker:ProviderCountForCode('pw_chop') >= n
+end

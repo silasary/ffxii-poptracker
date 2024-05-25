@@ -52,7 +52,7 @@
         "type": "consumable",
         "img": "images/items/pw_chop.png",
         "codes": "pw_chop",
-        "max_quantity": 24,
+        "max_quantity": 28,
         "overlay_background": "#000"
     },
     {
