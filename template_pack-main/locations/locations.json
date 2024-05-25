@@ -141,6 +141,12 @@
                         ]
                     },
                     {
+                        "name": "Royal Palace - Goddess's Magicite",
+                        "access_rules": [
+                            "crescent_stone,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Dalan Sword of the Order",
                         "access_rules": [
                             "goddess_magicite,$scaled_difficulty|0"
