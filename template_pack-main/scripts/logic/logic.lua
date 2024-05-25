@@ -79,3 +79,7 @@ end
 function sochen_cave_palace()
     return Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades())
 end
+
+function draklor_laboratory()
+    return (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and archades()
+end

@@ -481,6 +481,33 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Draklor Laboratory",
+                "access_rules": [
+                    "$draklor_laboratory"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1262,
+                        "y": 56
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lab Access Card",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Cid 1",
+                        "access_rules": [
+                            "lab_access_card,$scaled_difficulty|5"
+                        ]
+                    }
+                ]
             }
         ]
     },
