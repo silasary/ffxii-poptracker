@@ -591,6 +591,45 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Giruvegan",
+                "access_rules": [
+                    "belias,$paramina_rift"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 640,
+                        "y": 1140
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Shemhazai",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Treaty-Blade",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Ultima",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Crystal Knight - Skull Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ]
+                    }
+                ]
             }
         ]
     },
