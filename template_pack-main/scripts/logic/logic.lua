@@ -34,7 +34,7 @@ end
 
 function paramina_rift()
     return Tracker:ProviderCountForCode('access_key') >= 2 or
-    (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear'))
+        (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear'))
 end
 
 function defeat_bergen()
@@ -66,4 +66,8 @@ end
 
 function hunt_club_start()
     return tchita_uplands()
+end
+
+function defeat_vossler()
+    return Tracker:ProviderCountForCode('dawn_shard') > 0 and sandseas()
 end

@@ -319,6 +319,51 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Jahara",
+                "access_rules": [
+                    "$ozmone_plain"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 620,
+                        "y": 970
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Great-chief Elder After Defeating Vossler",
+                        "access_rules": [
+                            "$defeat_vossler,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 10: Enkelados",
+                        "access_rules": [
+                            "errmonea_leaf,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 12: Ixtab",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 15: Mindflayer",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 30: Catoblepas",
+                        "access_rules": [
+                            "rainstone,$scaled_difficulty|6"
+                        ]
+                    }
+                ]
             }
         ]
     },
