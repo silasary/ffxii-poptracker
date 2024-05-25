@@ -119,7 +119,7 @@
                     {
                         "name": "Nazarnir - Maned Trophy",
                         "access_rules": [
-                            "shelled_trophy,$hunt_club_start,$scaled_difficulty|7"
+                            "$hunt_club_start,$scaled_difficulty|7"
                         ]
                     }
                 ]
@@ -246,7 +246,7 @@
                     {
                         "name": "Victanir - Maverick Trophy",
                         "access_rules": [
-                            "shelled_trophy,$hunt_club_start,$scaled_difficulty|7"
+                            "$hunt_club_start,$scaled_difficulty|7"
                         ]
                     }
                 ]
@@ -285,7 +285,7 @@
                     {
                         "name": "Zombie Lord - Soulless Trophy",
                         "access_rules": [
-                            "shelled_trophy,$hunt_club_start,$scaled_difficulty|6"
+                            "$hunt_club_start,$scaled_difficulty|6"
                         ]
                     }
                 ]
@@ -315,7 +315,7 @@
                     {
                         "name": "Ishteen - Bony Trophy",
                         "access_rules": [
-                            "barheim_key,shelled_trophy,$hunt_club_start,$scaled_difficulty|7"
+                            "barheim_key,$hunt_club_start,$scaled_difficulty|7"
                         ]
                     }
                 ]
@@ -394,6 +394,45 @@
                         "name": "Hunt 29: Wild Malboro",
                         "access_rules": [
                             "$paramina_rift,$scaled_difficulty|6"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Stilshrine of Miriam",
+                "access_rules": [
+                    "$paramina_rift,dawn_shard"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1200,
+                        "y": 1160
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Mateus",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Sword of Kings",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Zeromus",
+                        "access_rules": [
+                            "stone_of_condemner,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Myath - Eternal Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
                         ]
                     }
                 ]

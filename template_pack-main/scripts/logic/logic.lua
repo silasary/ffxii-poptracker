@@ -65,7 +65,7 @@ function tchita_uplands()
 end
 
 function hunt_club_start()
-    return tchita_uplands()
+    return tchita_uplands() and Tracker:ProviderCountForCode('shelled_trophy') > 0
 end
 
 function defeat_vossler()
