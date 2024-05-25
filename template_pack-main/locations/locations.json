@@ -364,6 +364,39 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Eruyt Village",
+                "access_rules": [
+                    "$ozmone_plain"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 980,
+                        "y": 970
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lente's Tear",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 14: Vorpal Bunny",
+                        "access_rules": [
+                            "$paramina_rift,rabbit_tail,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 29: Wild Malboro",
+                        "access_rules": [
+                            "$paramina_rift,$scaled_difficulty|6"
+                        ]
+                    }
+                ]
             }
         ]
     },
