@@ -71,3 +71,11 @@ end
 function defeat_vossler()
     return Tracker:ProviderCountForCode('dawn_shard') > 0 and sandseas()
 end
+
+function archades()
+    return aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace())
+end
+
+function sochen_cave_palace()
+    return Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades())
+end

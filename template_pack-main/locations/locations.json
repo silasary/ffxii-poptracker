@@ -436,6 +436,51 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Tchita Uplands",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1192,
+                        "y": 256
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Soul Ward Key",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Mandragora Reward",
+                        "access_rules": [
+                            "$sochen_cave_palace,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Lindwyrm Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Kris - Odiferous Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Grimalkin - Whiskered Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
             }
         ]
     },
