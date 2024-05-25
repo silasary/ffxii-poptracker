@@ -244,6 +244,45 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Tomb of Raithwall",
+                "access_rules": [
+                    "$sandseas"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 250,
+                        "y": 625
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Belias",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Dawn Shard",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Vossler",
+                        "access_rules": [
+                            "dawn_shard,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Zombie Lord - Soulless Trophy",
+                        "access_rules": [
+                            "shelled_trophy,$hunt_club_start,$scaled_difficulty|6"
+                        ]
+                    }
+                ]
             }
         ]
     },
