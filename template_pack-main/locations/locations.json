@@ -870,6 +870,51 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Mt. Bur-Omisace",
+                "access_rules": [
+                    "$paramina_rift"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1380,
+                        "y": 980
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 13: Feral Retriever",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 28: Piscodaemon",
+                        "access_rules": [
+                            "belias,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 31: Fafnir",
+                        "access_rules": [
+                            "ring_of_light,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 37: Trickster",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Acolyte Stone of the Condemner",
+                        "access_rules": [
+                            "sword_of_kings,$scaled_difficulty|3"
+                        ]
+                    }
+                ]
             }
         ]
     },
