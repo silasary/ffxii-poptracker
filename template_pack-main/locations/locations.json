@@ -771,6 +771,69 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Bhujerba",
+                "access_rules": [
+                    "$aero|bhu_aero"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1458,
+                        "y": 710
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 5: Nidhogg",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 27: Diabolos",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 34: Rocktoise",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 38: Antlion",
+                        "access_rules": [
+                            "clan_primer,site_3_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Pilika Merchant's Armband",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Clio's Technicks Pilika's Diary",
+                        "access_rules": [
+                            "clan_primer,merchants_armband,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Pilika Give Pilika's Diary",
+                        "access_rules": [
+                            "clan_primer,merchants_armband,pilikas_diary,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Niray Site 3 Key",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|0"
+                        ]
+                    }
+                ]
             }
         ]
     },
