@@ -1057,6 +1057,43 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Skyferry",
+                "access_rules": [
+                    "$aeroNoStrahl|rab_aero",
+                    "$aeroNoStrahl|nal_aero",
+                    "$aeroNoStrahl|bhu_aero",
+                    "$aeroNoStrahl|arc_aero",
+                    "$aeroNoStrahl|bal_aero"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1200,
+                        "y": 600
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 26: Deathgaze",
+                        "access_rules": [
+                            "$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Ann's Letter",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Ann's Sisters Quest",
+                        "access_rules": [
+                            "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero"
+                        ]
+                    }
+                ]
             }
         ]
     },

@@ -45,7 +45,9 @@ DESTINATION_STRAHL_KEYS_NEEDED = {
 }
 
 function aero(dest, allowStrahl)
-    allowStrahl = allowStrahl or true
+    if allowStrahl == nil then
+        allowStrahl = true
+    end
     if allowStrahl then
         return Tracker:ProviderCountForCode(SYSTEMS_ACCESS_KEY) >= DESTINATION_STRAHL_KEYS_NEEDED[dest]
     end
@@ -65,4 +67,8 @@ end
 
 function isOriginAvailable(origin, allowStrahl)
     return DESTINATION_REQS[origin]() or aero(origin, allowStrahl)
+end
+
+function aeroNoStrahl(dest)
+    return aero(dest, false)
 end
