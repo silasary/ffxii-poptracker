@@ -955,6 +955,12 @@
                         "access_rules": [
                             "clan_primer,$tchita_uplands,$scaled_difficulty|7"
                         ]
+                    },
+                    {
+                        "name": "Hunt 39: Carrot",
+                        "access_rules": [
+                            "clan_primer,$tchita_uplands,$scaled_difficulty|7"
+                        ]
                     }
                 ]
             },
