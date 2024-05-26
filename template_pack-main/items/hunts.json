@@ -1,0 +1,272 @@
+[
+    {
+        "name": "Rogue Tomato",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "rogue_tomato"
+    },
+    {
+        "name": "Thextera",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "thextera"
+    },
+    {
+        "name": "Flowering Cactoid",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "flowering_cactoid"
+    },
+    {
+        "name": "Wraith",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "wraith"
+    },
+    {
+        "name": "Nidhogg",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "nidhogg"
+    },
+    {
+        "name": "White Mousse",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "white_mousse"
+    },
+    {
+        "name": "Ring Wyrm",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "ring_wyrm"
+    },
+    {
+        "name": "Wyvern Lord",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "wyvern_lord"
+    },
+    {
+        "name": "Marilith",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "marilith"
+    },
+    {
+        "name": "Enkelados",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "enkelados"
+    },
+    {
+        "name": "Croakadile",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "croakadile"
+    },
+    {
+        "name": "Ixtab",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "ixtab"
+    },
+    {
+        "name": "Feral Retriever",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "feral_retriever"
+    },
+    {
+        "name": "Vorpal Bunny",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "vorpal_bunny"
+    },
+    {
+        "name": "Mindflayer",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "mindflayer"
+    },
+    {
+        "name": "Bloodwing",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "bloodwing"
+    },
+    {
+        "name": "Atomos",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "atomos"
+    },
+    {
+        "name": "Roblon",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "roblon"
+    },
+    {
+        "name": "Braegh",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "braegh"
+    },
+    {
+        "name": "Darksteel",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "darksteel"
+    },
+    {
+        "name": "Vyraal",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "vyraal"
+    },
+    {
+        "name": "Lindwyrm",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "lindwyrm"
+    },
+    {
+        "name": "Overlord",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "overlord"
+    },
+    {
+        "name": "Goliath",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "goliath"
+    },
+    {
+        "name": "Deathscythe",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "deathscythe"
+    },
+    {
+        "name": "Deathgaze",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "deathgaze"
+    },
+    {
+        "name": "Diabolos",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "diabolos"
+    },
+    {
+        "name": "Piscodaemon",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "piscodaemon"
+    },
+    {
+        "name": "Wild Malboro",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "wild_malboro"
+    },
+    {
+        "name": "Catoblepas",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "catoblepas"
+    },
+    {
+        "name": "Fafnir",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "fafnir"
+    },
+    {
+        "name": "Pylraster",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "pylraster"
+    },
+    {
+        "name": "Cluckatrice",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "cluckatrice"
+    },
+    {
+        "name": "Rocktoise",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "rocktoise"
+    },
+    {
+        "name": "Orthros",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "orthros"
+    },
+    {
+        "name": "Gil Snapper",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "gil_snapper"
+    },
+    {
+        "name": "Trickster",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "trickster"
+    },
+    {
+        "name": "Antlion",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "antlion"
+    },
+    {
+        "name": "Carrot",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "carrot"
+    },
+    {
+        "name": "Gilgamesh",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "gilgamesh"
+    },
+    {
+        "name": "Belito",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "belito"
+    },
+    {
+        "name": "Behemoth King",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "behemoth_king"
+    },
+    {
+        "name": "Ixion",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "ixion"
+    },
+    {
+        "name": "Shadowseer",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "shadowseer"
+    },
+    {
+        "name": "Yiazmat",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "yiazmat"
+    }
+]

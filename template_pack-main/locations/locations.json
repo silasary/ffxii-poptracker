@@ -99,6 +99,13 @@
                         ]
                     },
                     {
+                        "name": "Defeat Cluckatrice",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "cluckatrice"
+                    },
+                    {
                         "name": "Hunt 33: Cluckatrice",
                         "access_rules": [
                             "clan_primer,$scaled_difficulty|1"
@@ -139,10 +146,11 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hunt 11: Croakadile",
+                        "name": "Defeat Croakadile",
                         "access_rules": [
-                            "ring_of_the_toad,$scaled_difficulty|2"
-                        ]
+                            "$scaled_difficulty|2"
+                        ],
+                        "hosted_item": "croakadile"
                     },
                     {
                         "name": "Croakadile Drop",
@@ -151,10 +159,23 @@
                         ]
                     },
                     {
+                        "name": "Hunt 11: Croakadile",
+                        "access_rules": [
+                            "ring_of_the_toad,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
                         "name": "Nomads Silent Urn",
                         "access_rules": [
                             "clan_primer,$scaled_difficulty|3"
                         ]
+                    },
+                    {
+                        "name": "Defeat Gil Snapper",
+                        "access_rules": [
+                            "clan_primer,silent_urn,$scaled_difficulty|3"
+                        ],
+                        "hosted_item": "gil_snapper"
                     }
                 ]
             },
@@ -278,6 +299,20 @@
                         ]
                     },
                     {
+                        "name": "Defeat Wyvern Lord",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ],
+                        "hosted_item": "wyvern_lord"
+                    },
+                    {
+                        "name": "Defeat Belito",
+                        "access_rules": [
+                            "clan_primer,$ozmone_plain,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "belito"
+                    },
+                    {
                         "name": "Victanir - Maverick Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
@@ -341,6 +376,13 @@
                         "access_rules": [
                             "crescent_stone,$scaled_difficulty|1"
                         ]
+                    },
+                    {
+                        "name": "Defeat Bloodwing",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "bloodwing"
                     },
                     {
                         "name": "Defeat Zalera",
@@ -501,6 +543,13 @@
                         ]
                     },
                     {
+                        "name": "Defeat Lindwyrm",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "lindwyrm"
+                    },
+                    {
                         "name": "Lindwyrm Drop",
                         "access_rules": [
                             "$scaled_difficulty|5"
@@ -639,6 +688,13 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Piscodaemon",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "piscodaemon"
+                    },
+                    {
                         "name": "Defeat Shemhazai",
                         "access_rules": [
                             "$scaled_difficulty|5"
@@ -699,6 +755,13 @@
                         ]
                     },
                     {
+                        "name": "Defeat Pylraster",
+                        "access_rules": [
+                            "$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "pylraster"
+                    },
+                    {
                         "name": "Avenger - Vile Trophy",
                         "access_rules": [
                             "$hunt_club_start,$has_n_black_orbs|3,$scaled_difficulty|7"
@@ -720,6 +783,13 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Ixion",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "ixion"
+                    },
                     {
                         "name": "Black Orbs 4-8",
                         "access_rules": [
@@ -743,6 +813,12 @@
                         ],
                         "item_count": 9,
                         "clear_as_group": false
+                    },
+                    {
+                        "name": "Defeat Shadowseer",
+                        "access_rules": [
+                            "clan_primer,$has_n_black_orbs|24,$scaled_difficulty|6"
+                        ]
                     }
                 ]
             },
@@ -757,6 +833,26 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Rogue Tomato",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "rogue_tomato"
+                    },
+                    {
+                        "name": "Defeat Flowering Cactoid",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "flowering_cactoid"
+                    },
+                    {
+                        "name": "Flowering Cactoid Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Hunt 3: Flowering Cactoid",
                         "access_rules": [
                             "cactus_flower,$scaled_difficulty|1"
@@ -766,12 +862,6 @@
                         "name": "Hunt 16: Bloodwing",
                         "access_rules": [
                             "barheim_key,$scaled_difficulty|5"
-                        ]
-                    },
-                    {
-                        "name": "Flowering Cactoid Drop",
-                        "access_rules": [
-                            "$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -978,6 +1068,13 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Atomos",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ],
+                        "hosted_item": "atomos"
+                    },
+                    {
                         "name": "Hunt 19: Braegh",
                         "access_rules": [
                             "$scaled_difficulty|4"
@@ -1082,6 +1179,13 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Deathgaze",
+                        "access_rules": [
+                            "$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "deathgaze"
+                    },
+                    {
                         "name": "Hunt 26: Deathgaze",
                         "access_rules": [
                             "$scaled_difficulty|7"
@@ -1096,7 +1200,109 @@
                     {
                         "name": "Ann's Sisters Quest",
                         "access_rules": [
-                            "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero"
+                            "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Clan Hall",
+                "access_rules": [
+                    "clan_primer"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 710,
+                        "y": 630
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 40: Gilgamesh",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$aero|bhu_aero,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 41: Belito",
+                        "access_rules": [
+                            "$sandseas,$ozmone_plain,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 44: Shadowseer",
+                        "access_rules": [
+                            "$has_n_system_access_keys|2,$has_n_black_orbs|24,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 45: Yiazmat",
+                        "access_rules": [
+                            "$has_n_system_access_keys|2,$scaled_difficulty|8"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Moppet"
+                    },
+                    {
+                        "name": "Clan Rank: Hedge Knight",
+                        "access_rules": [
+                            "$hunts_defeated|2"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Rear Guard",
+                        "access_rules": [
+                            "$hunts_defeated|4"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Vanguard",
+                        "access_rules": [
+                            "$hunts_defeated|8"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Headhunter",
+                        "access_rules": [
+                            "$hunts_defeated|10"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Ward of Justice",
+                        "access_rules": [
+                            "$hunts_defeated|12"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Brave Companion",
+                        "access_rules": [
+                            "$hunts_defeated|14"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Riskbreaker",
+                        "access_rules": [
+                            "$hunts_defeated|16"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Paragon of Justice",
+                        "access_rules": [
+                            "$hunts_defeated|24"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: High Guardian",
+                        "access_rules": [
+                            "$hunts_defeated|28"
+                        ]
+                    },
+                    {
+                        "name": "Clan Rank: Knight of the Round",
+                        "access_rules": [
+                            "$hunts_defeated|32"
                         ]
                     }
                 ]
