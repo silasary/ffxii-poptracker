@@ -991,6 +991,45 @@
                         "hosted_item": "dheed"
                     }
                 ]
+            },
+            {
+                "name": "Balfonheim",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1578,
+                        "y": 500
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 21: Vyraal",
+                        "access_rules": [
+                            "viera_rucksack,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 32: Pylraster",
+                        "access_rules": [
+                            "$has_n_system_access_keys|2,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 43: Ixion",
+                        "access_rules": [
+                            "clan_primer,$has_n_system_access_keys|2,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Footrace",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    }
+                ]
             }
         ]
     },
