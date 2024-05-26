@@ -710,6 +710,67 @@
                         "clear_as_group": false
                     }
                 ]
+            },
+            {
+                "name": "Dalmasca Estersand",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 880,
+                        "y": 632
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 3: Flowering Cactoid",
+                        "access_rules": [
+                            "cactus_flower,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 16: Bloodwing",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Flowering Cactoid Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Patient Barheim Key",
+                        "access_rules": [
+                            "cactus_flower,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Dantro's Wife Give Cactus Flower",
+                        "access_rules": [
+                            "cactus_flower,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Cactus Family Quest",
+                        "access_rules": [
+                            "cactus_flower,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Outpost Mysterious Glints",
+                        "item_count": 5,
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Terror Tyrant - Hide-covered Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
             }
         ]
     },
