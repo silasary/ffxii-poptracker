@@ -1030,6 +1030,33 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Old Archades",
+                "access_rules": [
+                    "$archades"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1164,
+                        "y": 154
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 22: Lindwyrm",
+                        "access_rules": [
+                            "rusted_scrap_of_armor,$tchita_uplands,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Moonsilver Medallion",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|5"
+                        ]
+                    }
+                ]
             }
         ]
     },
