@@ -85,5 +85,21 @@ function draklor_laboratory()
 end
 
 function has_n_chops(n)
-    return Tracker:ProviderCountForCode('pw_chop') >= n
+    return Tracker:ProviderCountForCode('pw_chop') >= tonumber(n)
+end
+
+function has_n_system_access_keys(n)
+    return Tracker:ProviderCountForCode('access_key') >= tonumber(n)
+end
+
+function has_n_black_orbs(n)
+    return Tracker:ProviderCountForCode('black_orb') >= tonumber(n)
+end
+
+function cid2()
+    local swordCount = Tracker:ProviderCountForCode('sword_of_kings') + Tracker:ProviderCountForCode('treaty_blade')
+    local stoneCount = Tracker:ProviderCountForCode('goddess_magicite') + Tracker:ProviderCountForCode('nethicite') +
+        Tracker:ProviderCountForCode('dawn_shard')
+
+    return swordCount >= 1 and stoneCount >= 2
 end
