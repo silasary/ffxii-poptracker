@@ -915,6 +915,48 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Nalbina Fortress",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 882,
+                        "y": 501
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 17: Atomos",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 18: Roblon",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 24: Goliath",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 25: Deathscythe",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Jovy Reward",
+                        "access_rules": [
+                            "clan_primer,$tchita_uplands,$scaled_difficulty|7"
+                        ]
+                    }
+                ]
             }
         ]
     },
