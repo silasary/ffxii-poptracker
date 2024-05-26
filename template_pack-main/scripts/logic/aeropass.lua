@@ -20,10 +20,10 @@ DESTINATION_REQS = {
     end,
     [ARCHADES] = function()
         return Tracker:ProviderCountForCode(SOUL_WARD_KEY) > 0 and
-            (defeat_bergen() or Tracker:ProviderCountForCode("cactus_flower") > 0 or earth_tyrant() or aero(BALFONHEIM))
+            (defeat_bergan() or Tracker:ProviderCountForCode("cactus_flower") > 0 or earth_tyrant() or aero(BALFONHEIM))
     end,
     [BALFONHEIM] = function()
-        return defeat_bergen() or Tracker:ProviderCountForCode("cactus_flower") > 0 or earth_tyrant() or
+        return defeat_bergan() or Tracker:ProviderCountForCode("cactus_flower") > 0 or earth_tyrant() or
             (Tracker:ProviderCountForCode(SOUL_WARD_KEY) > 0 and aero(ARCHADES))
     end
 }

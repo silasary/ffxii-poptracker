@@ -957,6 +957,40 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Mosphoran Highwaste",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 862,
+                        "y": 421
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Hunt 19: Braegh",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Exodus",
+                        "access_rules": [
+                            "$defeat_bergan,$scaled_difficulty|4"
+                        ]
+                    },
+                    {
+                        "name": "Dheed - Leathern Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "dheed"
+                    }
+                ]
             }
         ]
     },

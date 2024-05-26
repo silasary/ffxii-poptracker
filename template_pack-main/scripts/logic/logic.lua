@@ -37,7 +37,7 @@ function paramina_rift()
         (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear'))
 end
 
-function defeat_bergen()
+function defeat_bergan()
     return paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0
 end
 
@@ -60,7 +60,7 @@ function sandseas()
 end
 
 function tchita_uplands()
-    return defeat_bergen() or Tracker:ProviderCountForCode('cactus_flower') > 0 or earth_tyrant() or
+    return defeat_bergan() or Tracker:ProviderCountForCode('cactus_flower') > 0 or earth_tyrant() or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or aero('bal_aero')
 end
 
