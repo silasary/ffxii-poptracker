@@ -20,6 +20,7 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 ScriptHost:LoadScript("scripts/logic/aeropass.lua")
 ScriptHost:LoadScript("scripts/logic/huntclub.lua")
 ScriptHost:LoadScript("scripts/logic/hunts.lua")
+ScriptHost:LoadScript("scripts/logic/esper.lua")
 
 -- Custom Items
 ScriptHost:LoadScript("scripts/custom_items/class.lua")
