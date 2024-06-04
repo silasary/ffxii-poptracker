@@ -1704,6 +1704,54 @@
                         "hosted_item": "alteci"
                     }
                 ]
+            },
+            {
+                "name": "Cerobi Steppe",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1528,
+                        "y": 350
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Vyraal",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "vyraal"
+                    },
+                    {
+                        "name": "Vyraal Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Wyrm Philosopher Ageworn Key",
+                        "access_rules": [
+                            "viera_rucksack,dragon_scale,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Bluesang - Cruel Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "bluesang"
+                    },
+                    {
+                        "name": "Aspidochelon - Adamantine Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "aspidochelon"
+                    }
+                ]
             }
         ]
     },
