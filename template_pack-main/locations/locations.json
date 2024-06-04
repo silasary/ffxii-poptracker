@@ -1468,6 +1468,20 @@
                         ]
                     },
                     {
+                        "name": "Defeat Thextera",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "thextera"
+                    },
+                    {
+                        "name": "Defeat Ring Wyrm",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ],
+                        "hosted_item": "ring_wyrm"
+                    },
+                    {
                         "name": "Kaiser Wolf - Fanged Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
@@ -1486,6 +1500,13 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Wraith",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "wraith"
+                    },
                     {
                         "name": "Defeat White Mousse",
                         "access_rules": [
@@ -1646,6 +1667,20 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Feral Retriever",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ],
+                        "hosted_item": "feral_retriever"
+                    },
+                    {
+                        "name": "Defeat Trickster",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "trickster"
+                    },
+                    {
                         "name": "Defeat Fafnir",
                         "access_rules": [
                             "$scaled_difficulty|7"
@@ -1689,6 +1724,13 @@
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
+                    },
+                    {
+                        "name": "Defeat Catoblepas",
+                        "access_rules": [
+                            "rainstone,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "catoblepas"
                     },
                     {
                         "name": "Defeat Adrammelech",
@@ -1767,6 +1809,13 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Roblon",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "roblon"
+                    },
+                    {
                         "name": "Nabreus Medallion",
                         "access_rules": [
                             "dull_fragment,blackened_fragment,grimy_fragment,moonsilver_medallion,$scaled_difficulty|6"
@@ -1796,6 +1845,20 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Goliath",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "goliath"
+                    },
+                    {
+                        "name": "Defeat Deathscythe",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "deathscythe"
+                    },
                     {
                         "name": "Medallion of Might",
                         "access_rules": [
@@ -1831,6 +1894,20 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Ixtab",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ],
+                        "hosted_item": "ixtab"
+                    },
+                    {
+                        "name": "Defeat Mindflayer",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ],
+                        "hosted_item": "mindflayer"
+                    },
+                    {
                         "name": "Defeat Zodiark",
                         "access_rules": [
                             "$espers_controlled|10,$scaled_difficulty|7"
@@ -1858,6 +1935,41 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Nidhogg",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "nidhogg"
+                    },
+                    {
+                        "name": "Defeat Rocktoise",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "rocktoise"
+                    },
+                    {
+                        "name": "Defeat Antlion",
+                        "access_rules": [
+                            "clan_primer,site_3_key,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "antlion"
+                    },
+                    {
+                        "name": "Defeat Diabolos",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "diabolos"
+                    },
+                    {
+                        "name": "Defeat Gilgamesh",
+                        "access_rules": [
+                            "site_3_key,site_11_key,clan_primer,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "gilgamesh"
+                    },
                     {
                         "name": "Disma - Accursed Trophy",
                         "access_rules": [
@@ -1903,6 +2015,20 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Braegh",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ],
+                        "hosted_item": "braegh"
+                    },
+                    {
+                        "name": "Defeat Carrot",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "carrot"
+                    },
+                    {
                         "name": "Razorclaw - Sickle Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
@@ -1925,6 +2051,20 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Wild Malboro",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "wild_malboro"
+                    },
+                    {
+                        "name": "Defeat Behemoth King",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "behemoth_king"
+                    },
+                    {
                         "name": "Dreadguard - Feathered Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
@@ -1946,6 +2086,20 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Darksteel",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ],
+                        "hosted_item": "darksteel"
+                    },
+                    {
+                        "name": "Defeat Overlord",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "overlord"
+                    },
                     {
                         "name": "Wendice - Frigid Trophy",
                         "access_rules": [
@@ -1975,6 +2129,13 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Yiazmat",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|8"
+                        ],
+                        "hosted_item": "yiazmat"
+                    },
                     {
                         "name": "Abelisk - Reptilian Trophy",
                         "access_rules": [
