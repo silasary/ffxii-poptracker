@@ -1866,6 +1866,28 @@
                         "hosted_item": "disma"
                     }
                 ]
+            },
+            {
+                "name": "Ogir-Yensa Sandsea",
+                "access_rules": [
+                    "$sandseas"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 550,
+                        "y": 650
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Bull Chocobo - Beaked Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "bull_chocobo"
+                    }
+                ]
             }
         ]
     },
