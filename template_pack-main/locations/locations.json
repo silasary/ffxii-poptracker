@@ -1782,6 +1782,40 @@
                         "hosted_item": "arioch"
                     }
                 ]
+            },
+            {
+                "name": "Necrohol of Nabudis",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 822,
+                        "y": 251
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Medallion of Might",
+                        "access_rules": [
+                            "med_bravery,med_love,med_lusterless,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Chaos",
+                        "access_rules": [
+                            "med_might,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Vorres - Gravesoil Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "vorres"
+                    }
+                ]
             }
         ]
     },
