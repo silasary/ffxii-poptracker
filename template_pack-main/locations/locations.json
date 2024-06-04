@@ -1450,6 +1450,31 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Dalmasca Westersand",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 650,
+                        "y": 680
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Earth Tyrant Quest Wind Globe",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Kaiser Wolf - Fanged Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "kaiser_wolf"
+                    }
+                ]
             }
         ]
     },
