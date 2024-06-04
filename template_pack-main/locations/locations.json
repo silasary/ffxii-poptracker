@@ -1532,6 +1532,41 @@
                         "hosted_item": "gavial"
                     }
                 ]
+            },
+            {
+                "name": "Ozmone Plain",
+                "access_rules": [
+                    "$ozmone_plain"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 800,
+                        "y": 870
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Enkelados",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ],
+                        "hosted_item": "enkelados"
+                    },
+                    {
+                        "name": "Enkelados Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Killbug - Metallic Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "killbug"
+                    }
+                ]
             }
         ]
     },
