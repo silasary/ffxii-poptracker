@@ -1475,6 +1475,63 @@
                         "hosted_item": "kaiser_wolf"
                     }
                 ]
+            },
+            {
+                "name": "Garamsythe Waterway",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 782,
+                        "y": 596
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat White Mousse",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "white_mousse"
+                    },
+                    {
+                        "name": "White Mousse Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Orthros",
+                        "access_rules": [
+                            "clan_primer,fran,ashe,penelo,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "orthros"
+                    },
+                    {
+                        "name": "Orthros Drop",
+                        "access_rules": [
+                            "clan_primer,fran,ashe,penelo,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Dull Fragment",
+                        "access_rules": [
+                            "sluice_gate_key,$tchita_uplands,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Cuchulainn",
+                        "access_rules": [
+                            "sluice_gate_key,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Gavial - Fur-scaled Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "gavial"
+                    }
+                ]
             }
         ]
     },
