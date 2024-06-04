@@ -1752,6 +1752,36 @@
                         "hosted_item": "aspidochelon"
                     }
                 ]
+            },
+            {
+                "name": "Nabreus Deadlands",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 802,
+                        "y": 301
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Nabreus Medallion",
+                        "access_rules": [
+                            "dull_fragment,blackened_fragment,grimy_fragment,moonsilver_medallion,$scaled_difficulty|6"
+                        ],
+                        "item_count": 3,
+                        "clear_as_group": true
+                    },
+                    {
+                        "name": "Arioch - Vengeful Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "arioch"
+                    }
+                ]
             }
         ]
     },
