@@ -1961,6 +1961,28 @@
                         "hosted_item": "anubys"
                     }
                 ]
+            },
+            {
+                "name": "Ridorana Cataract",
+                "access_rules": [
+                    "$has_n_system_access_keys|2"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1880,
+                        "y": 850
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Abelisk - Reptilian Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "abelisk"
+                    }
+                ]
             }
         ]
     },
