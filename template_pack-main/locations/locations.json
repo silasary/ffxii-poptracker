@@ -293,6 +293,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Main Area Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Withering Shores Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Eksir Berries",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -372,6 +384,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Main Path Chests",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Deep Barheim Chests",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Burrough Tube Fuse",
                         "access_rules": [
                             "crescent_stone,$scaled_difficulty|1"
@@ -412,6 +436,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Elderknoll Chest",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
                     {
                         "name": "Great-chief Elder After Defeating Vossler",
                         "access_rules": [
@@ -591,6 +621,12 @@
                         ]
                     },
                     {
+                        "name": "Chests (6613, 6711, 6801, 7002)",
+                        "access_rules": [
+                            "lab_access_card,$scaled_difficulty|4"
+                        ]
+                    },
+                    {
                         "name": "Defeat Cid 1",
                         "access_rules": [
                             "lab_access_card,$scaled_difficulty|5"
@@ -634,6 +670,12 @@
                         "name": "Hunt 23: Overlord",
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Grand Arcade chest",
+                        "access_rules": [
+                            "sw_chop,$scaled_difficulty|7"
                         ]
                     },
                     {
@@ -687,6 +729,18 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Main Path Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ]
+                    },
+                    {
+                        "name": "Upper Crystal Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|8"
+                        ]
+                    },
                     {
                         "name": "Defeat Piscodaemon",
                         "access_rules": [
@@ -833,6 +887,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Southern Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Northern Chests",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
                         "name": "Defeat Rogue Tomato",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -974,6 +1040,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Temple Grounds chest",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
                     {
                         "name": "Hunt 13: Feral Retriever",
                         "access_rules": [
@@ -1148,6 +1220,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Hunt 22: Lindwyrm",
                         "access_rules": [
                             "rusted_scrap_of_armor,$tchita_uplands,$scaled_difficulty|5"
@@ -1178,6 +1256,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Air Deck chest",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
                     {
                         "name": "Defeat Deathgaze",
                         "access_rules": [
@@ -1501,6 +1585,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Unchanged Water Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Drained Water Chests",
+                        "access_rules": [
+                            "sluice_gate_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Defeat Wraith",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -1591,6 +1687,9 @@
             },
             {
                 "name": "Golmore Jungle",
+                "access_rules": [
+                    "$paramina_rift"
+                ],
                 "map_locations": [
                     {
                         "map": "world_map",
@@ -1600,22 +1699,34 @@
                 ],
                 "sections": [
                     {
+                        "name": "Early Chests",
+                        "access_rules": [
+                            "$ozmone_plain,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Late Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
                         "name": "Defeat Vorpal Bunny",
                         "access_rules": [
-                            "$paramina_rift,$scaled_difficulty|3"
+                            "$scaled_difficulty|3"
                         ],
                         "hosted_item": "vorpal_bunny"
                     },
                     {
                         "name": "Vorpal Bunny Drop",
                         "access_rules": [
-                            "$paramina_rift,$scaled_difficulty|3"
+                            "$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Biding Mantis - Scythe Trophy",
                         "access_rules": [
-                            "$hunt_club_start,$paramina_rift,$scaled_difficulty|6"
+                            "$hunt_club_start,$scaled_difficulty|6"
                         ],
                         "hosted_item": "biding_mantis"
                     }
@@ -1631,6 +1742,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|2"
+                        ]
+                    },
                     {
                         "name": "Site 11 Key",
                         "access_rules": [
@@ -1809,6 +1926,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Defeat Roblon",
                         "access_rules": [
                             "$scaled_difficulty|6"
@@ -1845,6 +1968,30 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Main Area Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Chaos Room Chest",
+                        "access_rules": [
+                            "med_might,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Humbaba Mistant Room Chest",
+                        "access_rules": [
+                            "med_bravery,med_lusterless,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Fury Room Chest",
+                        "access_rules": [
+                            "med_love,med_lusterless,$scaled_difficulty|7"
+                        ]
+                    },
                     {
                         "name": "Defeat Goliath",
                         "access_rules": [
@@ -1894,6 +2041,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "Main Path Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Deep Henne Chests",
+                        "access_rules": [
+                            "$espers_controlled|10,$scaled_difficulty|8"
+                        ]
+                    },
+                    {
                         "name": "Defeat Ixtab",
                         "access_rules": [
                             "$scaled_difficulty|2"
@@ -1935,6 +2094,24 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests up to Site 2",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Site 3 Chest",
+                        "access_rules": [
+                            "site_3_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Site 11+ Chests",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$scaled_difficulty|6"
+                        ]
+                    },
                     {
                         "name": "Defeat Nidhogg",
                         "access_rules": [
@@ -1993,6 +2170,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Bull Chocobo - Beaked Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
@@ -2014,6 +2197,18 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Pre King Bomb Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Post King Bomb Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
                     {
                         "name": "Defeat Braegh",
                         "access_rules": [
@@ -2050,6 +2245,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ]
+                    },
                     {
                         "name": "Defeat Wild Malboro",
                         "access_rules": [
