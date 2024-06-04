@@ -1888,6 +1888,28 @@
                         "hosted_item": "bull_chocobo"
                     }
                 ]
+            },
+            {
+                "name": "Salikawood",
+                "access_rules": [
+                    "$tchita_uplands"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 902,
+                        "y": 356
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Razorclaw - Sickle Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "razorclaw"
+                    }
+                ]
             }
         ]
     },
