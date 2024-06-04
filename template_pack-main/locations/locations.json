@@ -1844,6 +1844,28 @@
                         "hosted_item": "melt"
                     }
                 ]
+            },
+            {
+                "name": "Lhusu Mines",
+                "access_rules": [
+                    "$aero|bhu_aero"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1488,
+                        "y": 660
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Disma - Accursed Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,site_3_key,site_11_key,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "disma"
+                    }
+                ]
             }
         ]
     },
