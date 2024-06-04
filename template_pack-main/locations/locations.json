@@ -1910,6 +1910,28 @@
                         "hosted_item": "razorclaw"
                     }
                 ]
+            },
+            {
+                "name": "Feywood",
+                "access_rules": [
+                    "$paramina_rift"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 810,
+                        "y": 1100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Dreadguard - Feathered Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "dreadguard"
+                    }
+                ]
             }
         ]
     },
