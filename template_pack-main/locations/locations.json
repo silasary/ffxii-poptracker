@@ -1666,6 +1666,44 @@
                         "hosted_item": "ancbolder"
                     }
                 ]
+            },
+            {
+                "name": "Zertinan Caverns",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 550,
+                        "y": 790
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Marilith",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "marilith"
+                    },
+                    {
+                        "name": "Marilith Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Adrammelech",
+                        "access_rules": [
+                            "rainstone,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Alteci - Fell Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,rainstone,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "alteci"
+                    }
+                ]
             }
         ]
     },
