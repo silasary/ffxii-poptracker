@@ -1631,6 +1631,41 @@
                         "hosted_item": "skullash"
                     }
                 ]
+            },
+            {
+                "name": "Paramina Rift",
+                "access_rules": [
+                    "$paramina_rift"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1180,
+                        "y": 1100
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Fafnir",
+                        "access_rules": [
+                            "$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "fafnir"
+                    },
+                    {
+                        "name": "Fafnir Drop",
+                        "access_rules": [
+                            "$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Ancbolder - Mind Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "ancbolder"
+                    }
+                ]
             }
         ]
     },
