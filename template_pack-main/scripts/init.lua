@@ -34,7 +34,7 @@ Tracker:AddItems("items/hunts.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
-    Tracker:AddMaps("maps/maps.json")    
+    Tracker:AddMaps("maps/maps.json")
     -- Locations
     Tracker:AddLocations("locations/locations.json")
 end
