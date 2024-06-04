@@ -1932,6 +1932,35 @@
                         "hosted_item": "dreadguard"
                     }
                 ]
+            },
+            {
+                "name": "Sochen Cave Palace",
+                "access_rules": [
+                    "$sochen_cave_palace"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1242,
+                        "y": 206
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Wendice - Frigid Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "wendice"
+                    },
+                    {
+                        "name": "Anubys - Ensanguined Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "anubys"
+                    }
+                ]
             }
         ]
     },
