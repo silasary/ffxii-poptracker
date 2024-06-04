@@ -1567,6 +1567,38 @@
                         "hosted_item": "killbug"
                     }
                 ]
+            },
+            {
+                "name": "Golmore Jungle",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 1010,
+                        "y": 1060
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Vorpal Bunny",
+                        "access_rules": [
+                            "$paramina_rift,$scaled_difficulty|3"
+                        ],
+                        "hosted_item": "vorpal_bunny"
+                    },
+                    {
+                        "name": "Vorpal Bunny Drop",
+                        "access_rules": [
+                            "$paramina_rift,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Biding Mantis - Scythe Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$paramina_rift,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "biding_mantis"
+                    }
+                ]
             }
         ]
     },
