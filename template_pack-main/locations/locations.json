@@ -1816,6 +1816,34 @@
                         "hosted_item": "vorres"
                     }
                 ]
+            },
+            {
+                "name": "Henne Mines",
+                "access_rules": [
+                    "$ozmone_plain"
+                ],
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 800,
+                        "y": 1000
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Zodiark",
+                        "access_rules": [
+                            "$espers_controlled|10,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Melt - Slimy Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "melt"
+                    }
+                ]
             }
         ]
     },
