@@ -1599,6 +1599,38 @@
                         "hosted_item": "biding_mantis"
                     }
                 ]
+            },
+            {
+                "name": "Phon Coast",
+                "map_locations": [
+                    {
+                        "map": "world_map",
+                        "x": 972,
+                        "y": 306
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Site 11 Key",
+                        "access_rules": [
+                            "clan_primer,site_3_key,$aero|bhu_aero,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Thalassinon - Shelled Trophy",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "thalassinon"
+                    },
+                    {
+                        "name": "Skullash - Clawed Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$tchita_uplands,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "skullash"
+                    }
+                ]
             }
         ]
     },
