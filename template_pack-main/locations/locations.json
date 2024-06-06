@@ -510,7 +510,7 @@
             {
                 "name": "Stilshrine of Miriam",
                 "access_rules": [
-                    "$paramina_rift,dawn_shard"
+                    "$paramina_rift"
                 ],
                 "map_locations": [
                     {
@@ -521,27 +521,39 @@
                 ],
                 "sections": [
                     {
-                        "name": "Defeat Mateus",
+                        "name": "Entrance Chests",
                         "access_rules": [
                             "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Interior Chests",
+                        "access_rules": [
+                            "dawn_shard,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Mateus",
+                        "access_rules": [
+                            "dawn_shard,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Sword of Kings",
                         "access_rules": [
-                            "$scaled_difficulty|2"
+                            "dawn_shard,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Defeat Zeromus",
                         "access_rules": [
-                            "stone_of_condemner,$scaled_difficulty|5"
+                            "dawn_shard,stone_of_condemner,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Myath - Eternal Trophy",
                         "access_rules": [
-                            "$hunt_club_start,$scaled_difficulty|5"
+                            "dawn_shard,$hunt_club_start,$scaled_difficulty|5"
                         ],
                         "hosted_item": "myath"
                     }
@@ -560,6 +572,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|3"
+                        ]
+                    },
                     {
                         "name": "Soul Ward Key",
                         "access_rules": [
@@ -789,6 +807,18 @@
                 ],
                 "sections": [
                     {
+                        "name": "First Floor Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Ascent Chests",
+                        "access_rules": [
+                            "$has_n_black_orbs|3,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Black Orbs 1-3",
                         "access_rules": [
                             "$scaled_difficulty|6"
@@ -837,6 +867,24 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Penumbra Chests",
+                        "access_rules": [
+                            "$has_n_black_orbs|3,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Umbra Chests",
+                        "access_rules": [
+                            "$has_n_black_orbs|8,$scaled_difficulty|7"
+                        ]
+                    },
+                    {
+                        "name": "Abyssal Chests",
+                        "access_rules": [
+                            "$has_n_black_orbs|15,$scaled_difficulty|7"
+                        ]
+                    },
                     {
                         "name": "Defeat Ixion",
                         "access_rules": [
@@ -1139,6 +1187,18 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Chests Past Chocobo Trail",
+                        "access_rules": [
+                            "$defeat_bergan,$scaled_difficulty|2"
+                        ]
+                    },
                     {
                         "name": "Defeat Atomos",
                         "access_rules": [
@@ -1664,6 +1724,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Defeat Enkelados",
                         "access_rules": [
                             "$scaled_difficulty|3"
@@ -1783,6 +1849,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
                     {
                         "name": "Defeat Feral Retriever",
                         "access_rules": [
