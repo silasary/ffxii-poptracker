@@ -87,6 +87,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Shadestone",
                         "access_rules": [
                             "$scaled_difficulty|0"
@@ -146,6 +152,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Defeat Croakadile",
                         "access_rules": [
                             "$scaled_difficulty|2"
@@ -189,6 +201,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
                     {
                         "name": "Dalan Crescent Stone",
                         "access_rules": [
@@ -259,6 +277,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
                     {
                         "name": "No. 1 Brig Key",
                         "access_rules": [
@@ -346,6 +370,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
                     {
                         "name": "Defeat Belias",
                         "access_rules": [
@@ -1241,6 +1271,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Hunt 21: Vyraal",
                         "access_rules": [
                             "viera_rucksack,$scaled_difficulty|5"
@@ -1950,6 +1986,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Defeat Vyraal",
                         "access_rules": [
                             "$scaled_difficulty|5"
@@ -2348,9 +2390,6 @@
             },
             {
                 "name": "Sochen Cave Palace",
-                "access_rules": [
-                    "$sochen_cave_palace"
-                ],
                 "map_locations": [
                     {
                         "map": "world_map",
@@ -2360,30 +2399,48 @@
                 ],
                 "sections": [
                     {
+                        "name": "Entrance Chests",
+                        "access_rules": [
+                            "$tchita_uplands,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Interior Chests",
+                        "access_rules": [
+                            "$sochen_cave_palace,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Hell Wyrm Chest",
+                        "access_rules": [
+                            "$sochen_cave_palace,ageworn_key,$scaled_difficulty|8"
+                        ]
+                    },
+                    {
                         "name": "Defeat Darksteel",
                         "access_rules": [
-                            "$scaled_difficulty|4"
+                            "$sochen_cave_palace,$scaled_difficulty|4"
                         ],
                         "hosted_item": "darksteel"
                     },
                     {
                         "name": "Defeat Overlord",
                         "access_rules": [
-                            "$scaled_difficulty|5"
+                            "$sochen_cave_palace,$scaled_difficulty|5"
                         ],
                         "hosted_item": "overlord"
                     },
                     {
                         "name": "Wendice - Frigid Trophy",
                         "access_rules": [
-                            "$hunt_club_start,$scaled_difficulty|5"
+                            "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|5"
                         ],
                         "hosted_item": "wendice"
                     },
                     {
                         "name": "Anubys - Ensanguined Trophy",
                         "access_rules": [
-                            "$hunt_club_start,$scaled_difficulty|7"
+                            "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|7"
                         ],
                         "hosted_item": "anubys"
                     }
@@ -2402,6 +2459,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|4"
+                        ]
+                    },
                     {
                         "name": "Defeat Yiazmat",
                         "access_rules": [
