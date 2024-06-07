@@ -518,6 +518,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Lente's Tear",
                         "access_rules": [
                             "$scaled_difficulty|2"
@@ -1642,6 +1648,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Earth Tyrant Quest Wind Globe",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -1937,6 +1949,24 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Westersand Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Ozmone Chests",
+                        "access_rules": [
+                            "$ozmone_plain,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Remaining Chests",
+                        "access_rules": [
+                            "$rainstone,$scaled_difficulty|5"
+                        ]
+                    },
                     {
                         "name": "Defeat Marilith",
                         "access_rules": [
