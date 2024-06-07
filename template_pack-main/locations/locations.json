@@ -87,15 +87,15 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chests",
-                        "access_rules": [
-                            "$scaled_difficulty|1"
-                        ]
-                    },
-                    {
                         "name": "Shadestone",
                         "access_rules": [
                             "$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -202,21 +202,9 @@
                 ],
                 "sections": [
                     {
-                        "name": "Chests",
-                        "access_rules": [
-                            "$scaled_difficulty|1"
-                        ]
-                    },
-                    {
                         "name": "Dalan Crescent Stone",
                         "access_rules": [
                             "sunstone,$scaled_difficulty|0"
-                        ]
-                    },
-                    {
-                        "name": "Royal Palace - Goddess's Magicite",
-                        "access_rules": [
-                            "crescent_stone,$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -229,6 +217,18 @@
                         "name": "Balzac Sword of the Order Turn In",
                         "access_rules": [
                             "sword_of_the_order,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
+                        "name": "Royal Palace - Goddess's Magicite",
+                        "access_rules": [
+                            "crescent_stone,$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -323,12 +323,6 @@
                         ]
                     },
                     {
-                        "name": "Withering Shores Chests",
-                        "access_rules": [
-                            "$scaled_difficulty|5"
-                        ]
-                    },
-                    {
                         "name": "Eksir Berries",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -340,6 +334,12 @@
                             "$scaled_difficulty|2"
                         ],
                         "hosted_item": "wyvern_lord"
+                    },
+                    {
+                        "name": "Withering Shores Chests",
+                        "access_rules": [
+                            "$scaled_difficulty|5"
+                        ]
                     },
                     {
                         "name": "Defeat Belito",
@@ -414,9 +414,21 @@
                 ],
                 "sections": [
                     {
+                        "name": "Burrough Tube Fuse",
+                        "access_rules": [
+                            "crescent_stone,$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Main Path Chests",
                         "access_rules": [
                             "barheim_key,$scaled_difficulty|3"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Zalera",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|4"
                         ]
                     },
                     {
@@ -426,23 +438,11 @@
                         ]
                     },
                     {
-                        "name": "Burrough Tube Fuse",
-                        "access_rules": [
-                            "crescent_stone,$scaled_difficulty|1"
-                        ]
-                    },
-                    {
                         "name": "Defeat Bloodwing",
                         "access_rules": [
                             "barheim_key,$scaled_difficulty|5"
                         ],
                         "hosted_item": "bloodwing"
-                    },
-                    {
-                        "name": "Defeat Zalera",
-                        "access_rules": [
-                            "barheim_key,$scaled_difficulty|4"
-                        ]
                     },
                     {
                         "name": "Ishteen - Bony Trophy",
@@ -790,12 +790,6 @@
                         ]
                     },
                     {
-                        "name": "Upper Crystal Chests",
-                        "access_rules": [
-                            "$scaled_difficulty|8"
-                        ]
-                    },
-                    {
                         "name": "Defeat Piscodaemon",
                         "access_rules": [
                             "$scaled_difficulty|5"
@@ -815,17 +809,23 @@
                         ]
                     },
                     {
+                        "name": "Crystal Knight - Skull Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "crystal_knight"
+                    },
+                    {
                         "name": "Defeat Ultima",
                         "access_rules": [
                             "$scaled_difficulty|6"
                         ]
                     },
                     {
-                        "name": "Crystal Knight - Skull Trophy",
+                        "name": "Upper Crystal Chests",
                         "access_rules": [
-                            "$hunt_club_start,$scaled_difficulty|5"
-                        ],
-                        "hosted_item": "crystal_knight"
+                            "$scaled_difficulty|8"
+                        ]
                     }
                 ]
             },
@@ -904,6 +904,20 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Ixion",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "ixion"
+                    },
+                    {
+                        "name": "Defeat Shadowseer",
+                        "access_rules": [
+                            "clan_primer,$has_n_black_orbs|24,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "shadowseer"
+                    },
+                    {
                         "name": "Penumbra Chests",
                         "access_rules": [
                             "$has_n_black_orbs|3,$scaled_difficulty|7"
@@ -920,13 +934,6 @@
                         "access_rules": [
                             "$has_n_black_orbs|15,$scaled_difficulty|7"
                         ]
-                    },
-                    {
-                        "name": "Defeat Ixion",
-                        "access_rules": [
-                            "clan_primer,$scaled_difficulty|6"
-                        ],
-                        "hosted_item": "ixion"
                     },
                     {
                         "name": "Black Orbs 4-8",
@@ -951,12 +958,6 @@
                         ],
                         "item_count": 9,
                         "clear_as_group": false
-                    },
-                    {
-                        "name": "Defeat Shadowseer",
-                        "access_rules": [
-                            "clan_primer,$has_n_black_orbs|24,$scaled_difficulty|6"
-                        ]
                     }
                 ]
             },
@@ -971,15 +972,16 @@
                 ],
                 "sections": [
                     {
-                        "name": "Southern Chests",
+                        "name": "Outpost Mysterious Glints",
+                        "item_count": 5,
                         "access_rules": [
-                            "$scaled_difficulty|1"
+                            "$scaled_difficulty|0"
                         ]
                     },
                     {
-                        "name": "Northern Chests",
+                        "name": "Southern Chests",
                         "access_rules": [
-                            "$tchita_uplands,$scaled_difficulty|2"
+                            "$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -1009,18 +1011,6 @@
                         ]
                     },
                     {
-                        "name": "Hunt 16: Bloodwing",
-                        "access_rules": [
-                            "barheim_key,$scaled_difficulty|5"
-                        ]
-                    },
-                    {
-                        "name": "Patient Barheim Key",
-                        "access_rules": [
-                            "cactus_flower,$scaled_difficulty|2"
-                        ]
-                    },
-                    {
                         "name": "Dantro's Wife Give Cactus Flower",
                         "access_rules": [
                             "cactus_flower,$scaled_difficulty|1"
@@ -1033,10 +1023,21 @@
                         ]
                     },
                     {
-                        "name": "Outpost Mysterious Glints",
-                        "item_count": 5,
+                        "name": "Northern Chests",
                         "access_rules": [
-                            "$scaled_difficulty|0"
+                            "$tchita_uplands,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Patient Barheim Key",
+                        "access_rules": [
+                            "cactus_flower,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 16: Bloodwing",
+                        "access_rules": [
+                            "barheim_key,$scaled_difficulty|5"
                         ]
                     },
                     {
@@ -1062,27 +1063,21 @@
                 ],
                 "sections": [
                     {
+                        "name": "Niray Site 3 Key",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
                         "name": "Hunt 5: Nidhogg",
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
                     },
                     {
-                        "name": "Hunt 27: Diabolos",
-                        "access_rules": [
-                            "site_3_key,site_11_key,$scaled_difficulty|7"
-                        ]
-                    },
-                    {
                         "name": "Hunt 34: Rocktoise",
                         "access_rules": [
                             "clan_primer,$scaled_difficulty|1"
-                        ]
-                    },
-                    {
-                        "name": "Hunt 38: Antlion",
-                        "access_rules": [
-                            "clan_primer,site_3_key,$scaled_difficulty|5"
                         ]
                     },
                     {
@@ -1104,9 +1099,15 @@
                         ]
                     },
                     {
-                        "name": "Niray Site 3 Key",
+                        "name": "Hunt 38: Antlion",
                         "access_rules": [
-                            "clan_primer,$scaled_difficulty|0"
+                            "clan_primer,site_3_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 27: Diabolos",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$scaled_difficulty|7"
                         ]
                     }
                 ]
@@ -1137,15 +1138,15 @@
                         ]
                     },
                     {
-                        "name": "Hunt 28: Piscodaemon",
+                        "name": "Acolyte Stone of the Condemner",
                         "access_rules": [
-                            "belias,$scaled_difficulty|5"
+                            "sword_of_kings,$scaled_difficulty|3"
                         ]
                     },
                     {
-                        "name": "Hunt 31: Fafnir",
+                        "name": "Hunt 28: Piscodaemon",
                         "access_rules": [
-                            "ring_of_light,$scaled_difficulty|7"
+                            "belias,$scaled_difficulty|5"
                         ]
                     },
                     {
@@ -1155,9 +1156,9 @@
                         ]
                     },
                     {
-                        "name": "Acolyte Stone of the Condemner",
+                        "name": "Hunt 31: Fafnir",
                         "access_rules": [
-                            "sword_of_kings,$scaled_difficulty|3"
+                            "ring_of_light,$scaled_difficulty|7"
                         ]
                     }
                 ]
@@ -1277,6 +1278,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Footrace",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    },
+                    {
                         "name": "Chests",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -1289,21 +1296,15 @@
                         ]
                     },
                     {
-                        "name": "Hunt 32: Pylraster",
-                        "access_rules": [
-                            "$has_n_system_access_keys|2,$scaled_difficulty|7"
-                        ]
-                    },
-                    {
                         "name": "Hunt 43: Ixion",
                         "access_rules": [
                             "clan_primer,$has_n_system_access_keys|2,$scaled_difficulty|6"
                         ]
                     },
                     {
-                        "name": "Footrace",
+                        "name": "Hunt 32: Pylraster",
                         "access_rules": [
-                            "$scaled_difficulty|0"
+                            "$has_n_system_access_keys|2,$scaled_difficulty|7"
                         ]
                     }
                 ]
@@ -1365,6 +1366,12 @@
                         ]
                     },
                     {
+                        "name": "Ann's Letter",
+                        "access_rules": [
+                            "$scaled_difficulty|2"
+                        ]
+                    },
+                    {
                         "name": "Defeat Deathgaze",
                         "access_rules": [
                             "$scaled_difficulty|7"
@@ -1375,12 +1382,6 @@
                         "name": "Hunt 26: Deathgaze",
                         "access_rules": [
                             "$scaled_difficulty|7"
-                        ]
-                    },
-                    {
-                        "name": "Ann's Letter",
-                        "access_rules": [
-                            "$scaled_difficulty|2"
                         ]
                     },
                     {
@@ -1405,12 +1406,6 @@
                 ],
                 "sections": [
                     {
-                        "name": "Hunt 40: Gilgamesh",
-                        "access_rules": [
-                            "site_3_key,site_11_key,$aero|bhu_aero,$scaled_difficulty|7"
-                        ]
-                    },
-                    {
                         "name": "Hunt 41: Belito",
                         "access_rules": [
                             "$sandseas,$ozmone_plain,$scaled_difficulty|5"
@@ -1420,6 +1415,12 @@
                         "name": "Hunt 44: Shadowseer",
                         "access_rules": [
                             "$has_n_system_access_keys|2,$has_n_black_orbs|24,$scaled_difficulty|6"
+                        ]
+                    },
+                    {
+                        "name": "Hunt 40: Gilgamesh",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$aero|bhu_aero,$scaled_difficulty|7"
                         ]
                     },
                     {
@@ -1693,6 +1694,19 @@
                 ],
                 "sections": [
                     {
+                        "name": "Dull Fragment",
+                        "access_rules": [
+                            "sluice_gate_key,$tchita_uplands,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Wraith",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ],
+                        "hosted_item": "wraith"
+                    },
+                    {
                         "name": "Unchanged Water Chests",
                         "access_rules": [
                             "$scaled_difficulty|5"
@@ -1703,13 +1717,6 @@
                         "access_rules": [
                             "sluice_gate_key,$scaled_difficulty|5"
                         ]
-                    },
-                    {
-                        "name": "Defeat Wraith",
-                        "access_rules": [
-                            "$scaled_difficulty|1"
-                        ],
-                        "hosted_item": "wraith"
                     },
                     {
                         "name": "Defeat White Mousse",
@@ -1735,12 +1742,6 @@
                         "name": "Orthros Drop",
                         "access_rules": [
                             "clan_primer,fran,ashe,penelo,$scaled_difficulty|5"
-                        ]
-                    },
-                    {
-                        "name": "Dull Fragment",
-                        "access_rules": [
-                            "sluice_gate_key,$tchita_uplands,$scaled_difficulty|0"
                         ]
                     },
                     {
@@ -1918,6 +1919,13 @@
                         "hosted_item": "trickster"
                     },
                     {
+                        "name": "Ancbolder - Mind Trophy",
+                        "access_rules": [
+                            "$hunt_club_start,$scaled_difficulty|5"
+                        ],
+                        "hosted_item": "ancbolder"
+                    },
+                    {
                         "name": "Defeat Fafnir",
                         "access_rules": [
                             "$scaled_difficulty|7"
@@ -1929,13 +1937,6 @@
                         "access_rules": [
                             "$scaled_difficulty|7"
                         ]
-                    },
-                    {
-                        "name": "Ancbolder - Mind Trophy",
-                        "access_rules": [
-                            "$hunt_club_start,$scaled_difficulty|5"
-                        ],
-                        "hosted_item": "ancbolder"
                     }
                 ]
             },
@@ -1949,6 +1950,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Defeat Adrammelech",
+                        "access_rules": [
+                            "rainstone,$scaled_difficulty|3"
+                        ]
+                    },
                     {
                         "name": "Westersand Chests",
                         "access_rules": [
@@ -1981,24 +1988,18 @@
                         ]
                     },
                     {
-                        "name": "Defeat Catoblepas",
-                        "access_rules": [
-                            "rainstone,$scaled_difficulty|6"
-                        ],
-                        "hosted_item": "catoblepas"
-                    },
-                    {
-                        "name": "Defeat Adrammelech",
-                        "access_rules": [
-                            "rainstone,$scaled_difficulty|3"
-                        ]
-                    },
-                    {
                         "name": "Alteci - Fell Trophy",
                         "access_rules": [
                             "$hunt_club_start,rainstone,$scaled_difficulty|5"
                         ],
                         "hosted_item": "alteci"
+                    },
+                    {
+                        "name": "Defeat Catoblepas",
+                        "access_rules": [
+                            "rainstone,$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "catoblepas"
                     }
                 ]
             },
@@ -2113,10 +2114,30 @@
                 ],
                 "sections": [
                     {
+                        "name": "Defeat Chaos",
+                        "access_rules": [
+                            "med_might,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Main Area Chests",
                         "access_rules": [
                             "$scaled_difficulty|6"
                         ]
+                    },
+                    {
+                        "name": "Defeat Goliath",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "goliath"
+                    },
+                    {
+                        "name": "Defeat Deathscythe",
+                        "access_rules": [
+                            "$scaled_difficulty|6"
+                        ],
+                        "hosted_item": "deathscythe"
                     },
                     {
                         "name": "Chaos Room Chest",
@@ -2137,29 +2158,9 @@
                         ]
                     },
                     {
-                        "name": "Defeat Goliath",
-                        "access_rules": [
-                            "$scaled_difficulty|6"
-                        ],
-                        "hosted_item": "goliath"
-                    },
-                    {
-                        "name": "Defeat Deathscythe",
-                        "access_rules": [
-                            "$scaled_difficulty|6"
-                        ],
-                        "hosted_item": "deathscythe"
-                    },
-                    {
                         "name": "Medallion of Might",
                         "access_rules": [
                             "med_bravery,med_love,med_lusterless,$scaled_difficulty|7"
-                        ]
-                    },
-                    {
-                        "name": "Defeat Chaos",
-                        "access_rules": [
-                            "med_might,$scaled_difficulty|5"
                         ]
                     },
                     {
@@ -2191,12 +2192,6 @@
                         ]
                     },
                     {
-                        "name": "Deep Henne Chests",
-                        "access_rules": [
-                            "$espers_controlled|10,$scaled_difficulty|8"
-                        ]
-                    },
-                    {
                         "name": "Defeat Ixtab",
                         "access_rules": [
                             "$scaled_difficulty|2"
@@ -2222,6 +2217,12 @@
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
                         "hosted_item": "melt"
+                    },
+                    {
+                        "name": "Deep Henne Chests",
+                        "access_rules": [
+                            "$espers_controlled|10,$scaled_difficulty|8"
+                        ]
                     }
                 ]
             },
@@ -2245,18 +2246,6 @@
                         ]
                     },
                     {
-                        "name": "Site 3 Chest",
-                        "access_rules": [
-                            "site_3_key,$scaled_difficulty|5"
-                        ]
-                    },
-                    {
-                        "name": "Site 11+ Chests",
-                        "access_rules": [
-                            "site_3_key,site_11_key,$scaled_difficulty|6"
-                        ]
-                    },
-                    {
                         "name": "Defeat Nidhogg",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -2271,11 +2260,23 @@
                         "hosted_item": "rocktoise"
                     },
                     {
+                        "name": "Site 3 Chest",
+                        "access_rules": [
+                            "site_3_key,$scaled_difficulty|5"
+                        ]
+                    },
+                    {
                         "name": "Defeat Antlion",
                         "access_rules": [
                             "clan_primer,site_3_key,$scaled_difficulty|5"
                         ],
                         "hosted_item": "antlion"
+                    },
+                    {
+                        "name": "Site 11+ Chests",
+                        "access_rules": [
+                            "site_3_key,site_11_key,$scaled_difficulty|6"
+                        ]
                     },
                     {
                         "name": "Defeat Diabolos",
@@ -2348,12 +2349,6 @@
                         ]
                     },
                     {
-                        "name": "Post King Bomb Chests",
-                        "access_rules": [
-                            "$scaled_difficulty|5"
-                        ]
-                    },
-                    {
                         "name": "Defeat Braegh",
                         "access_rules": [
                             "$scaled_difficulty|4"
@@ -2361,11 +2356,10 @@
                         "hosted_item": "braegh"
                     },
                     {
-                        "name": "Defeat Carrot",
+                        "name": "Post King Bomb Chests",
                         "access_rules": [
-                            "clan_primer,$scaled_difficulty|7"
-                        ],
-                        "hosted_item": "carrot"
+                            "$scaled_difficulty|5"
+                        ]
                     },
                     {
                         "name": "Razorclaw - Sickle Trophy",
@@ -2373,6 +2367,13 @@
                             "$hunt_club_start,$scaled_difficulty|5"
                         ],
                         "hosted_item": "razorclaw"
+                    },
+                    {
+                        "name": "Defeat Carrot",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|7"
+                        ],
+                        "hosted_item": "carrot"
                     }
                 ]
             },
@@ -2441,12 +2442,6 @@
                         ]
                     },
                     {
-                        "name": "Hell Wyrm Chest",
-                        "access_rules": [
-                            "$sochen_cave_palace,ageworn_key,$scaled_difficulty|8"
-                        ]
-                    },
-                    {
                         "name": "Defeat Darksteel",
                         "access_rules": [
                             "$sochen_cave_palace,$scaled_difficulty|4"
@@ -2473,6 +2468,12 @@
                             "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|7"
                         ],
                         "hosted_item": "anubys"
+                    },
+                    {
+                        "name": "Hell Wyrm Chest",
+                        "access_rules": [
+                            "$sochen_cave_palace,ageworn_key,$scaled_difficulty|8"
+                        ]
                     }
                 ]
             },
@@ -2496,18 +2497,18 @@
                         ]
                     },
                     {
-                        "name": "Defeat Yiazmat",
-                        "access_rules": [
-                            "clan_primer,$scaled_difficulty|8"
-                        ],
-                        "hosted_item": "yiazmat"
-                    },
-                    {
                         "name": "Abelisk - Reptilian Trophy",
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
                         "hosted_item": "abelisk"
+                    },
+                    {
+                        "name": "Defeat Yiazmat",
+                        "access_rules": [
+                            "clan_primer,$scaled_difficulty|8"
+                        ],
+                        "hosted_item": "yiazmat"
                     }
                 ]
             }
