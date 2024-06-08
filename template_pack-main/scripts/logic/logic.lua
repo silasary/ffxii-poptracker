@@ -1,5 +1,5 @@
 function scaled_difficulty(n)
-    if Tracker:ProviderCountForCode('scaled') == 0 then
+    if Tracker:ProviderCountForCode('character_scaled_depth') == 0 then
         return 1
     end
 

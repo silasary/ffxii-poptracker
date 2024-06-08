@@ -477,10 +477,10 @@
         "codes": "second_board"
     },
     {
-        "name": "Difficulty Scaled Depth",
+        "name": "Character Scaled Depth",
         "type": "toggle",
         "img": "images/items/scaling.png",
-        "codes": "scaled",
+        "codes": "character_scaled_depth",
         "initial_active_state": true
     }
 ]
