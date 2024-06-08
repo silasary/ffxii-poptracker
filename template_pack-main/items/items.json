@@ -494,5 +494,11 @@
         "type": "toggle",
         "img": "images/items/hunts.png",
         "codes": "place_hunts"
+    },
+    {
+        "name": "Key Item Placement - Clan Rank",
+        "type": "toggle",
+        "img": "images/items/clan_rank.png",
+        "codes": "place_clan_rank"
     }
 ]

@@ -49,21 +49,13 @@
                                             "rows": [
                                                 [
                                                     "character_scaled_depth"
+                                                ],
+                                                [
+                                                    "place_treasures",
+                                                    "place_hunts",
+                                                    "place_clan_rank"
                                                 ]
                                             ]
-                                        },
-                                        {
-                                            "type": "group",
-                                            "header": "Enabled Locations",
-                                            "content": {
-                                                "type": "itemgrid",
-                                                "rows": [
-                                                    [
-                                                        "place_treasures",
-                                                        "place_hunts"
-                                                    ]
-                                                ]
-                                            }
                                         }
                                     ]
                                 }
