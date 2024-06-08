@@ -2025,24 +2025,36 @@
                     },
                     {
                         "name": "Clan Esper: Control 1",
+                        "visibility_rules": [
+                            "place_clan_esper"
+                        ],
                         "access_rules": [
                             "$espers_controlled|1"
                         ]
                     },
                     {
                         "name": "Clan Esper: Control 4",
+                        "visibility_rules": [
+                            "place_clan_esper"
+                        ],
                         "access_rules": [
                             "$espers_controlled|4"
                         ]
                     },
                     {
                         "name": "Clan Esper: Control 8",
+                        "visibility_rules": [
+                            "place_clan_esper"
+                        ],
                         "access_rules": [
                             "$espers_controlled|8"
                         ]
                     },
                     {
                         "name": "Clan Esper: Control 13",
+                        "visibility_rules": [
+                            "place_clan_esper"
+                        ],
                         "access_rules": [
                             "$espers_controlled|13"
                         ]

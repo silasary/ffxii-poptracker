@@ -52,9 +52,12 @@
                                                 ],
                                                 [
                                                     "place_treasures",
-                                                    "place_hunts",
+                                                    "place_hunts"
+                                                ],
+                                                [
                                                     "place_clan_rank",
-                                                    "place_clan_boss"
+                                                    "place_clan_boss",
+                                                    "place_clan_esper"
                                                 ]
                                             ]
                                         }

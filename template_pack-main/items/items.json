@@ -506,5 +506,11 @@
         "type": "toggle",
         "img": "images/items/clan_boss.png",
         "codes": "place_clan_boss"
+    },
+    {
+        "name": "Key Item Placement - Clan Esper",
+        "type": "toggle",
+        "img": "images/items/clan_esper.png",
+        "codes": "place_clan_esper"
     }
 ]
