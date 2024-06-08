@@ -482,5 +482,17 @@
         "img": "images/items/scaling.png",
         "codes": "character_scaled_depth",
         "initial_active_state": true
+    },
+    {
+        "name": "Key Item Placement - Treasures",
+        "type": "toggle",
+        "img": "images/items/treasures.png",
+        "codes": "place_treasures"
+    },
+    {
+        "name": "Key Item Placement - Hunts",
+        "type": "toggle",
+        "img": "images/items/hunts.png",
+        "codes": "place_hunts"
     }
 ]

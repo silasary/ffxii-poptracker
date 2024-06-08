@@ -27,12 +27,18 @@
                     },
                     {
                         "name": "Hunt 1: Rogue Tomato",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Hunt 2: Thextera",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -51,6 +57,9 @@
                     },
                     {
                         "name": "Hunt 8: Wyvern Lord",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$sandseas,$scaled_difficulty|2"
                         ]
@@ -63,6 +72,9 @@
                     },
                     {
                         "name": "Hunt 6: White Mousse",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "broken_key,$scaled_difficulty|5"
                         ],
@@ -70,6 +82,9 @@
                     },
                     {
                         "name": "Hunt 9: Marilith",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "serpentwyne,$scaled_difficulty|5"
                         ]
@@ -106,6 +121,9 @@
                     },
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -125,12 +143,18 @@
                     },
                     {
                         "name": "Hunt 33: Cluckatrice",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Hunt 36: Gil Snapper",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,silent_urn,rainstone,$scaled_difficulty|3"
                         ]
@@ -165,6 +189,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -184,6 +211,9 @@
                     },
                     {
                         "name": "Hunt 11: Croakadile",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "ring_of_the_toad,$scaled_difficulty|2"
                         ]
@@ -239,6 +269,9 @@
                     },
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -251,6 +284,9 @@
                     },
                     {
                         "name": "Hunt 4: Wraith",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -263,12 +299,18 @@
                     },
                     {
                         "name": "Hunt 7: Ring Wyrm",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Hunt 35: Orthros",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,stolen_articles,fran,ashe,penelo,$scaled_difficulty|5"
                         ],
@@ -276,6 +318,9 @@
                     },
                     {
                         "name": "Hunt 42: Behemoth King",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$paramina_rift,clan_primer,$scaled_difficulty|7"
                         ]
@@ -303,6 +348,9 @@
                     },
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -342,6 +390,9 @@
                 "sections": [
                     {
                         "name": "Main Area Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -361,6 +412,9 @@
                     },
                     {
                         "name": "Withering Shores Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
@@ -396,6 +450,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -445,6 +502,9 @@
                     },
                     {
                         "name": "Main Path Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "barheim_key,$scaled_difficulty|3"
                         ]
@@ -457,6 +517,9 @@
                     },
                     {
                         "name": "Deep Barheim Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "barheim_key,$scaled_difficulty|5"
                         ]
@@ -492,6 +555,9 @@
                 "sections": [
                     {
                         "name": "Elderknoll Chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
@@ -504,24 +570,36 @@
                     },
                     {
                         "name": "Hunt 10: Enkelados",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "errmonea_leaf,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Hunt 12: Ixtab",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Hunt 15: Mindflayer",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|4"
                         ]
                     },
                     {
                         "name": "Hunt 30: Catoblepas",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "rainstone,$scaled_difficulty|6"
                         ]
@@ -543,6 +621,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -555,12 +636,18 @@
                     },
                     {
                         "name": "Hunt 14: Vorpal Bunny",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$paramina_rift,rabbit_tail,$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Hunt 29: Wild Malboro",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$paramina_rift,$scaled_difficulty|6"
                         ]
@@ -582,12 +669,18 @@
                 "sections": [
                     {
                         "name": "Entrance Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Interior Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "dawn_shard,$scaled_difficulty|2"
                         ]
@@ -634,6 +727,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|3"
                         ]
@@ -700,6 +796,9 @@
                     },
                     {
                         "name": "Chests (6613, 6711, 6801, 7002)",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "lab_access_card,$scaled_difficulty|4"
                         ]
@@ -740,18 +839,27 @@
                     },
                     {
                         "name": "Hunt 20: Darksteel",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,$scaled_difficulty|4"
                         ]
                     },
                     {
                         "name": "Hunt 23: Overlord",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Grand Arcade chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "sw_chop,$scaled_difficulty|7"
                         ]
@@ -809,6 +917,9 @@
                 "sections": [
                     {
                         "name": "Main Path Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|4"
                         ]
@@ -847,6 +958,9 @@
                     },
                     {
                         "name": "Upper Crystal Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|8"
                         ]
@@ -868,12 +982,18 @@
                 "sections": [
                     {
                         "name": "First Floor Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Ascent Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$has_n_black_orbs|3,$scaled_difficulty|5"
                         ]
@@ -943,18 +1063,27 @@
                     },
                     {
                         "name": "Penumbra Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$has_n_black_orbs|3,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Umbra Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$has_n_black_orbs|8,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Abyssal Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$has_n_black_orbs|15,$scaled_difficulty|7"
                         ]
@@ -1004,6 +1133,9 @@
                     },
                     {
                         "name": "Southern Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -1030,6 +1162,9 @@
                     },
                     {
                         "name": "Hunt 3: Flowering Cactoid",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "cactus_flower,$scaled_difficulty|1"
                         ]
@@ -1048,6 +1183,9 @@
                     },
                     {
                         "name": "Northern Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|2"
                         ]
@@ -1060,6 +1198,9 @@
                     },
                     {
                         "name": "Hunt 16: Bloodwing",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "barheim_key,$scaled_difficulty|5"
                         ]
@@ -1094,12 +1235,18 @@
                     },
                     {
                         "name": "Hunt 5: Nidhogg",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Hunt 34: Rocktoise",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,$scaled_difficulty|1"
                         ]
@@ -1124,12 +1271,18 @@
                     },
                     {
                         "name": "Hunt 38: Antlion",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,site_3_key,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Hunt 27: Diabolos",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "site_3_key,site_11_key,$scaled_difficulty|7"
                         ]
@@ -1151,12 +1304,18 @@
                 "sections": [
                     {
                         "name": "Temple Grounds chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Hunt 13: Feral Retriever",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|3"
                         ]
@@ -1169,18 +1328,27 @@
                     },
                     {
                         "name": "Hunt 28: Piscodaemon",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "belias,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Hunt 37: Trickster",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Hunt 31: Fafnir",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "ring_of_light,$scaled_difficulty|7"
                         ]
@@ -1199,24 +1367,36 @@
                 "sections": [
                     {
                         "name": "Hunt 17: Atomos",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Hunt 18: Roblon",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|6"
                         ]
                     },
                     {
                         "name": "Hunt 24: Goliath",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|6"
                         ]
                     },
                     {
                         "name": "Hunt 25: Deathscythe",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|6"
                         ]
@@ -1229,6 +1409,9 @@
                     },
                     {
                         "name": "Hunt 39: Carrot",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,$tchita_uplands,$scaled_difficulty|7"
                         ]
@@ -1250,12 +1433,18 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Chests Past Chocobo Trail",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$defeat_bergan,$scaled_difficulty|2"
                         ]
@@ -1269,6 +1458,9 @@
                     },
                     {
                         "name": "Hunt 19: Braegh",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|4"
                         ]
@@ -1315,24 +1507,36 @@
                     },
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Hunt 21: Vyraal",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "viera_rucksack,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Hunt 43: Ixion",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "clan_primer,$has_n_system_access_keys|2,$scaled_difficulty|6"
                         ]
                     },
                     {
                         "name": "Hunt 32: Pylraster",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$has_n_system_access_keys|2,$scaled_difficulty|7"
                         ]
@@ -1354,12 +1558,18 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Hunt 22: Lindwyrm",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "rusted_scrap_of_armor,$tchita_uplands,$scaled_difficulty|5"
                         ]
@@ -1391,6 +1601,9 @@
                 "sections": [
                     {
                         "name": "Air Deck chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -1410,6 +1623,9 @@
                     },
                     {
                         "name": "Hunt 26: Deathgaze",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|7"
                         ]
@@ -1437,24 +1653,36 @@
                 "sections": [
                     {
                         "name": "Hunt 41: Belito",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$sandseas,$ozmone_plain,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Hunt 44: Shadowseer",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$has_n_system_access_keys|2,$has_n_black_orbs|24,$scaled_difficulty|6"
                         ]
                     },
                     {
                         "name": "Hunt 40: Gilgamesh",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "site_3_key,site_11_key,$aero|bhu_aero,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Hunt 45: Yiazmat",
+                        "visibility_rules": [
+                            "place_hunts"
+                        ],
                         "access_rules": [
                             "$has_n_system_access_keys|2,$scaled_difficulty|8"
                         ]
@@ -1680,6 +1908,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -1744,12 +1975,18 @@
                     },
                     {
                         "name": "Unchanged Water Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Drained Water Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "sluice_gate_key,$scaled_difficulty|5"
                         ]
@@ -1810,6 +2047,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -1851,12 +2091,18 @@
                 "sections": [
                     {
                         "name": "Early Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$ozmone_plain,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Late Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
@@ -1895,6 +2141,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|2"
                         ]
@@ -1936,6 +2185,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
@@ -1994,18 +2246,27 @@
                     },
                     {
                         "name": "Westersand Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Ozmone Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$ozmone_plain,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Remaining Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$rainstone,$scaled_difficulty|5"
                         ]
@@ -2054,6 +2315,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
@@ -2108,6 +2372,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
@@ -2157,6 +2424,9 @@
                     },
                     {
                         "name": "Main Area Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|6"
                         ]
@@ -2177,18 +2447,27 @@
                     },
                     {
                         "name": "Chaos Room Chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "med_might,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Humbaba Mistant Room Chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "med_bravery,med_lusterless,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Fury Room Chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "med_love,med_lusterless,$scaled_difficulty|7"
                         ]
@@ -2223,6 +2502,9 @@
                 "sections": [
                     {
                         "name": "Main Path Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
@@ -2256,6 +2538,9 @@
                     },
                     {
                         "name": "Deep Henne Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$espers_controlled|10,$scaled_difficulty|8"
                         ]
@@ -2277,6 +2562,9 @@
                 "sections": [
                     {
                         "name": "Chests up to Site 2",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -2297,6 +2585,9 @@
                     },
                     {
                         "name": "Site 3 Chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "site_3_key,$scaled_difficulty|5"
                         ]
@@ -2310,6 +2601,9 @@
                     },
                     {
                         "name": "Site 11+ Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "site_3_key,site_11_key,$scaled_difficulty|6"
                         ]
@@ -2352,6 +2646,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|1"
                         ]
@@ -2380,6 +2677,9 @@
                 "sections": [
                     {
                         "name": "Pre King Bomb Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|2"
                         ]
@@ -2393,6 +2693,9 @@
                     },
                     {
                         "name": "Post King Bomb Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|5"
                         ]
@@ -2428,6 +2731,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|3"
                         ]
@@ -2467,12 +2773,18 @@
                 "sections": [
                     {
                         "name": "Entrance Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Interior Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,$scaled_difficulty|3"
                         ]
@@ -2507,6 +2819,9 @@
                     },
                     {
                         "name": "Hell Wyrm Chest",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,ageworn_key,$scaled_difficulty|8"
                         ]
@@ -2528,6 +2843,9 @@
                 "sections": [
                     {
                         "name": "Chests",
+                        "visibility_rules": [
+                            "place_treasures"
+                        ],
                         "access_rules": [
                             "$scaled_difficulty|4"
                         ]

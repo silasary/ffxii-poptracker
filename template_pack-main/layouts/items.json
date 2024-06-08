@@ -41,11 +41,30 @@
                             {
                                 "title": "Settings",
                                 "content": {
-                                    "type": "itemgrid",
-                                    "rows": [
-                                        [
-                                            "character_scaled_depth"
-                                        ]
+                                    "type": "array",
+                                    "orientation": "vertical",
+                                    "content": [
+                                        {
+                                            "type": "itemgrid",
+                                            "rows": [
+                                                [
+                                                    "character_scaled_depth"
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "type": "group",
+                                            "header": "Enabled Locations",
+                                            "content": {
+                                                "type": "itemgrid",
+                                                "rows": [
+                                                    [
+                                                        "place_treasures",
+                                                        "place_hunts"
+                                                    ]
+                                                ]
+                                            }
+                                        }
                                     ]
                                 }
                             }
