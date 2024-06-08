@@ -103,3 +103,7 @@ function cid2()
 
     return swordCount >= 1 and stoneCount >= 2
 end
+
+function defeat_cid()
+    return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0
+end

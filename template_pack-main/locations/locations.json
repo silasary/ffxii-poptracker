@@ -13,6 +13,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Party Member (Vaan)",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    },
+                    {
                         "name": "Tomaj",
                         "access_rules": [
                             "$scaled_difficulty|0"
@@ -86,6 +92,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Party Member (Penelo)",
+                        "access_rules": [
+                            "$scaled_difficulty|0"
+                        ]
+                    },
                     {
                         "name": "Shadestone",
                         "access_rules": [
@@ -220,6 +232,12 @@
                         ]
                     },
                     {
+                        "name": "Party Member (Basch)",
+                        "access_rules": [
+                            "sword_of_the_order,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
                         "name": "Chests",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -277,6 +295,12 @@
                     }
                 ],
                 "sections": [
+                    {
+                        "name": "Party Member (Ashe)",
+                        "access_rules": [
+                            "brig_key,$scaled_difficulty|1"
+                        ]
+                    },
                     {
                         "name": "Chests",
                         "access_rules": [
@@ -1284,6 +1308,12 @@
                         ]
                     },
                     {
+                        "name": "Guest (Reddas)",
+                        "access_rules": [
+                            "$defeat_cid,treaty_blade,$scaled_difficulty|0"
+                        ]
+                    },
+                    {
                         "name": "Chests",
                         "access_rules": [
                             "$scaled_difficulty|1"
@@ -1705,6 +1735,12 @@
                             "$scaled_difficulty|1"
                         ],
                         "hosted_item": "wraith"
+                    },
+                    {
+                        "name": "Party Members (Balthier, Fran, Guest)",
+                        "access_rules": [
+                            "goddess_magicite,$scaled_difficulty|1"
+                        ]
                     },
                     {
                         "name": "Unchanged Water Chests",

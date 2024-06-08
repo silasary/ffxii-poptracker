@@ -10,29 +10,46 @@
                 "margin": "0,0",
                 "content": [
                     {
-                        "type": "group",
-                        "header": "Characters",
-                        "content": {
-                            "type": "itemgrid",
-                            "item_margin": "10, 10",
-                            "h_alignment": "left",
-                            "rows": [
-                                [
-                                    "scaled",
-                                    "second_board"
-                                ],
-                                [
-                                    "vaan",
-                                    "balthier",
-                                    "fran"
-                                ],
-                                [
-                                    "basch",
-                                    "ashe",
-                                    "penelo"
-                                ]
-                            ]
-                        }
+                        "type": "tabbed",
+                        "tabs": [
+                            {
+                                "title": "Characters",
+                                "content": {
+                                    "type": "itemgrid",
+                                    "item_margin": "10, 10",
+                                    "h_alignment": "center",
+                                    "rows": [
+                                        [
+                                            "second_board"
+                                        ],
+                                        [
+                                            "vaan",
+                                            "balthier",
+                                            "fran"
+                                        ],
+                                        [
+                                            "basch",
+                                            "ashe",
+                                            "penelo"
+                                        ],
+                                        [
+                                            "guest"
+                                        ]
+                                    ]
+                                }
+                            },
+                            {
+                                "title": "Settings",
+                                "content": {
+                                    "type": "itemgrid",
+                                    "rows": [
+                                        [
+                                            "scaled"
+                                        ]
+                                    ]
+                                }
+                            }
+                        ]
                     },
                     {
                         "type": "itemgrid",
