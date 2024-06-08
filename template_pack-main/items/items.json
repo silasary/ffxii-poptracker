@@ -500,5 +500,11 @@
         "type": "toggle",
         "img": "images/items/clan_rank.png",
         "codes": "place_clan_rank"
+    },
+    {
+        "name": "Key Item Placement - Clan Boss",
+        "type": "toggle",
+        "img": "images/items/clan_boss.png",
+        "codes": "place_clan_boss"
     }
 ]

@@ -1845,120 +1845,180 @@
                     },
                     {
                         "name": "Clan Boss: Flans",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "crescent_stone,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Clan Boss: Firemane",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "crescent_stone,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Clan Boss: Earth Tyrant",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$earth_tyrant,$scaled_difficulty|4"
                         ]
                     },
                     {
                         "name": "Clan Boss: Mimic Queen",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "crescent_stone,tube_fuse,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Clan Boss: Demon Wall 1",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$sandseas,$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Clan Boss: Demon Wall 2",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$sandseas,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Clan Boss: Elder Wyrm",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$paramina_rift,$scaled_difficulty|3"
                         ]
                     },
                     {
                         "name": "Clan Boss: Tiamat",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$ozmone_plain,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Clan Boss: Vinuskar",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$paramina_rift,dawn_shard,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Clan Boss: King Bomb",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Clan Boss: Mandragoras",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,$scaled_difficulty|4"
                         ]
                     },
                     {
                         "name": "Clan Boss: Ahriman",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Clan Boss: Hell Wyrm",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "ageworn_key,$sochen_cave_palace,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Clan Boss: Rafflesia",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$paramina_rift,$scaled_difficulty|4"
                         ]
                     },
                     {
                         "name": "Clan Boss: Daedalus",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$paramina_rift,belias,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Clan Boss: Tyrant",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$paramina_rift,belias,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Clan Boss: Hydro",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$has_n_system_access_keys|2,$scaled_difficulty|5"
                         ]
                     },
                     {
                         "name": "Clan Boss: Humbaba Mistant",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "med_bravery,med_lusterless,$tchita_uplands,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Clan Boss: Fury",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "med_love,med_lusterless,$tchita_uplands,$scaled_difficulty|7"
                         ]
                     },
                     {
                         "name": "Clan Boss: Omega Mark XII",
+                        "visibility_rules": [
+                            "place_clan_boss"
+                        ],
                         "access_rules": [
                             "$paramina_rift,belias,$scaled_difficulty|8"
                         ]
