@@ -69,6 +69,94 @@
                         ]
                     },
                     {
+                        "type": "group",
+                        "header": "Espers",
+                        "content": {
+                            "type": "canvas",
+                            "width": 160,
+                            "height": 160,
+                            "content": [
+                                {
+                                    "type": "item",
+                                    "item": "belias",
+                                    "canvas_left": 64
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "chaos",
+                                    "canvas_left": 96,
+                                    "canvas_top": 9
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "zalera",
+                                    "canvas_left": 119,
+                                    "canvas_top": 32
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "zeromus",
+                                    "canvas_left": 128,
+                                    "canvas_top": 64
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "hashmal",
+                                    "canvas_left": 119,
+                                    "canvas_top": 96
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "ultima",
+                                    "canvas_left": 96,
+                                    "canvas_top": 119
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "exodus",
+                                    "canvas_left": 64,
+                                    "canvas_top": 128
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "cuchulainn",
+                                    "canvas_left": 32,
+                                    "canvas_top": 119
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "shemhazai",
+                                    "canvas_left": 9,
+                                    "canvas_top": 96
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "adrammelech",
+                                    "canvas_left": 0,
+                                    "canvas_top": 64
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "famfrit",
+                                    "canvas_left": 9,
+                                    "canvas_top": 32
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "mateus",
+                                    "canvas_left": 32,
+                                    "canvas_top": 9
+                                },
+                                {
+                                    "type": "item",
+                                    "item": "zodiark",
+                                    "canvas_left": 64,
+                                    "canvas_top": 64
+                                }
+                            ]
+                        }
+                    },
+                    {
                         "type": "itemgrid",
                         "item_margin": "10, 10",
                         "rows": [
@@ -89,10 +177,6 @@
                                 "clan_primer"
                             ]
                         ]
-                    },
-                    {
-                        "type": "item",
-                        "item": "broken_key"
                     }
                 ]
             }
