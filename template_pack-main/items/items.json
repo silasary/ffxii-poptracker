@@ -349,14 +349,6 @@
         "codes": "shelled_trophy"
     },
     {
-        "name": "Hunt Club Trophies",
-        "type": "consumable",
-        "img": "images/items/trophies.png",
-        "codes": "trophies",
-        "overlay_background": "#000",
-        "max_quantity": 30
-    },
-    {
         "name": "Rainstone",
         "type": "toggle",
         "img": "images/items/rainstone.png",
@@ -512,5 +504,17 @@
         "type": "toggle",
         "img": "images/items/clan_esper.png",
         "codes": "place_clan_esper"
+    },
+    {
+        "name": "Key Item Placement - Grindy",
+        "type": "toggle",
+        "img": "images/items/grindy.png",
+        "codes": "grindy"
+    },
+    {
+        "name": "Shuffle Hunt Club Trophies",
+        "type": "toggle",
+        "img": "images/items/hunt_club_rares.png",
+        "codes": "trophies"
     }
 ]

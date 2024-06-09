@@ -52,7 +52,9 @@
                                                 ],
                                                 [
                                                     "place_treasures",
-                                                    "place_hunts"
+                                                    "place_hunts",
+                                                    "trophies",
+                                                    "grindy"
                                                 ],
                                                 [
                                                     "place_clan_rank",

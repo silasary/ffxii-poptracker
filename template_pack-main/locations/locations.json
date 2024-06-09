@@ -171,6 +171,10 @@
                     },
                     {
                         "name": "Nazarnir - Maned Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -448,6 +452,10 @@
                     },
                     {
                         "name": "Victanir - Maverick Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -497,6 +505,10 @@
                     },
                     {
                         "name": "Zombie Lord - Soulless Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|6"
                         ],
@@ -557,6 +569,10 @@
                     },
                     {
                         "name": "Ishteen - Bony Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "barheim_key,$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -729,6 +745,10 @@
                     },
                     {
                         "name": "Myath - Eternal Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "dawn_shard,$hunt_club_start,$scaled_difficulty|5"
                         ],
@@ -789,6 +809,10 @@
                     },
                     {
                         "name": "Kris - Odiferous Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -796,6 +820,10 @@
                     },
                     {
                         "name": "Grimalkin - Whiskered Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -894,36 +922,54 @@
                     },
                     {
                         "name": "Hunt Club Owner: 5",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "sw_chop,$hunt_club_kills|5"
                         ]
                     },
                     {
                         "name": "Hunt Club Owner: 10",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "sw_chop,$hunt_club_kills|10"
                         ]
                     },
                     {
                         "name": "Hunt Club Owner: 15",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "sw_chop,$hunt_club_kills|15"
                         ]
                     },
                     {
                         "name": "Hunt Club Owner: 20",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "sw_chop,$hunt_club_kills|20"
                         ]
                     },
                     {
                         "name": "Hunt Club Owner: 25",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "sw_chop,$hunt_club_kills|25"
                         ]
                     },
                     {
                         "name": "Hunt Club Owner: 30",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "sw_chop,$hunt_club_kills|30"
                         ]
@@ -977,6 +1023,10 @@
                     },
                     {
                         "name": "Crystal Knight - Skull Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
                         ],
@@ -1063,6 +1113,10 @@
                     },
                     {
                         "name": "Avenger - Vile Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$has_n_black_orbs|3,$scaled_difficulty|7"
                         ],
@@ -1259,6 +1313,10 @@
                     },
                     {
                         "name": "Terror Tyrant - Hide-covered Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -1529,6 +1587,10 @@
                     },
                     {
                         "name": "Dheed - Leathern Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -1692,6 +1754,9 @@
                     },
                     {
                         "name": "Ann's Sisters Quest",
+                        "visibility_rules": [
+                            "grindy"
+                        ],
                         "access_rules": [
                             "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero,$scaled_difficulty|7"
                         ]
@@ -2110,6 +2175,10 @@
                     },
                     {
                         "name": "Kaiser Wolf - Fanged Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
                         ],
@@ -2210,6 +2279,10 @@
                     },
                     {
                         "name": "Gavial - Fur-scaled Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|6"
                         ],
@@ -2258,6 +2331,10 @@
                     },
                     {
                         "name": "Killbug - Metallic Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|6"
                         ],
@@ -2315,6 +2392,10 @@
                     },
                     {
                         "name": "Biding Mantis - Scythe Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|6"
                         ],
@@ -2349,6 +2430,10 @@
                     },
                     {
                         "name": "Thalassinon - Shelled Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$tchita_uplands,$scaled_difficulty|6"
                         ],
@@ -2356,6 +2441,10 @@
                     },
                     {
                         "name": "Skullash - Clawed Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$tchita_uplands,$scaled_difficulty|7"
                         ],
@@ -2409,6 +2498,10 @@
                     },
                     {
                         "name": "Ancbolder - Mind Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
                         ],
@@ -2495,6 +2588,10 @@
                     },
                     {
                         "name": "Alteci - Fell Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,rainstone,$scaled_difficulty|5"
                         ],
@@ -2560,6 +2657,10 @@
                     },
                     {
                         "name": "Bluesang - Cruel Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -2567,6 +2668,10 @@
                     },
                     {
                         "name": "Aspidochelon - Adamantine Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -2617,6 +2722,10 @@
                     },
                     {
                         "name": "Arioch - Vengeful Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -2709,6 +2818,10 @@
                     },
                     {
                         "name": "Vorres - Gravesoil Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -2768,6 +2881,10 @@
                     },
                     {
                         "name": "Melt - Slimy Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -2881,6 +2998,10 @@
                     },
                     {
                         "name": "Disma - Accursed Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,site_3_key,site_11_key,$scaled_difficulty|7"
                         ],
@@ -2912,6 +3033,10 @@
                     },
                     {
                         "name": "Bull Chocobo - Beaked Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -2963,6 +3088,10 @@
                     },
                     {
                         "name": "Razorclaw - Sickle Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
                         ],
@@ -3027,6 +3156,10 @@
                     },
                     {
                         "name": "Dreadguard - Feathered Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -3086,6 +3219,10 @@
                     },
                     {
                         "name": "Wendice - Frigid Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|5"
                         ],
@@ -3093,6 +3230,10 @@
                     },
                     {
                         "name": "Anubys - Ensanguined Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|7"
                         ],
@@ -3133,6 +3274,10 @@
                     },
                     {
                         "name": "Abelisk - Reptilian Trophy",
+                        "visibility_rules": [
+                            "trophies",
+                            "grindy"
+                        ],
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|7"
                         ],
