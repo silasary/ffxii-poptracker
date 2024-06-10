@@ -20,9 +20,6 @@
                                     "h_alignment": "center",
                                     "rows": [
                                         [
-                                            "second_board"
-                                        ],
-                                        [
                                             "vaan",
                                             "balthier",
                                             "fran"
@@ -33,7 +30,8 @@
                                             "penelo"
                                         ],
                                         [
-                                            "guest"
+                                            "guest",
+                                            "second_board"
                                         ]
                                     ]
                                 }
@@ -67,6 +65,106 @@
                                 }
                             }
                         ]
+                    },
+                    {
+                        "type": "group",
+                        "header": "Go Mode",
+                        "content": {
+                            "type": "itemgrid",
+                            "rows": [
+                                [
+                                    "goddess_magicite",
+                                    "nethicite",
+                                    "dawn_shard"
+                                ],
+                                [
+                                    "sword_of_kings",
+                                    "treaty_blade"
+                                ],
+                                [
+                                    "access_key"
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Key Items",
+                        "content": {
+                            "type": "itemgrid",
+                            "rows": [
+                                [
+                                    "clan_primer",
+                                    "shadestone",
+                                    "sunstone",
+                                    "crescent_stone",
+                                    "tube_fuse",
+                                    "sword_of_the_order",
+                                    "brig_key",
+                                    "rainstone",
+                                    "lentes_tear",
+                                    "soul_ward_key",
+                                    "pw_chop"
+                                ],
+                                [
+                                    "sw_chop",
+                                    "lab_access_card",
+                                    "black_orb",
+                                    "wind_globe",
+                                    "windvane",
+                                    "barheim_key",
+                                    "stone_of_condemner",
+                                    "sluice_gate_key",
+                                    "merchants_armband",
+                                    "pilikas_diary",
+                                    "site_3_key"
+                                ],
+                                [
+                                    "site_11_key",
+                                    "dragon_scale",
+                                    "ageworn_key",
+                                    "fragments",
+                                    "moonsilver_medallion",
+                                    "med_bravery",
+                                    "med_love",
+                                    "med_lusterless",
+                                    "med_might",
+                                    "anns_letter",
+                                    "cactus_flower"
+                                ],
+                                [
+                                    "broken_key",
+                                    "errmonea_leaf",
+                                    "rabbit_tail",
+                                    "ring_of_the_toad",
+                                    "rusted_scrap_of_armor",
+                                    "silent_urn",
+                                    "stolen_articles",
+                                    "ring_of_light",
+                                    "serpentwyne",
+                                    "viera_rucksack",
+                                    "shelled_trophy"
+                                ]
+                            ]
+                        }
+                    },
+                    {
+                        "type": "group",
+                        "header": "Aeropasses",
+                        "content": {
+                            "type": "itemgrid",
+                            "rows": [
+                                [
+                                    "rab_aero",
+                                    "nal_aero",
+                                    "bhu_aero"
+                                ],
+                                [
+                                    "arc_aero",
+                                    "bal_aero"
+                                ]
+                            ]
+                        }
                     },
                     {
                         "type": "group",
@@ -155,28 +253,6 @@
                                 }
                             ]
                         }
-                    },
-                    {
-                        "type": "itemgrid",
-                        "item_margin": "10, 10",
-                        "rows": [
-                            [
-                                "sw_chop",
-                                "pw_chop",
-                                "black_orb"
-                            ],
-                            [
-                                "access_key",
-                                "writ"
-                            ],
-                            [
-                                "dawn_shard"
-                            ],
-                            [
-                                "soul_ward_key",
-                                "clan_primer"
-                            ]
-                        ]
                     }
                 ]
             }

@@ -96,6 +96,10 @@ function has_n_black_orbs(n)
     return Tracker:ProviderCountForCode('black_orb') >= tonumber(n)
 end
 
+function all_fragments()
+    return Tracker:ProviderCountForCode('fragments') == 3
+end
+
 function cid2()
     local swordCount = Tracker:ProviderCountForCode('sword_of_kings') + Tracker:ProviderCountForCode('treaty_blade')
     local stoneCount = Tracker:ProviderCountForCode('goddess_magicite') + Tracker:ProviderCountForCode('nethicite') +
