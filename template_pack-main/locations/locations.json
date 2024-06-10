@@ -357,6 +357,12 @@
                 ],
                 "sections": [
                     {
+                        "name": "Guest (Vossler)",
+                        "access_rules": [
+                            "$scaled_difficulty|1"
+                        ]
+                    },
+                    {
                         "name": "Party Member (Ashe)",
                         "access_rules": [
                             "brig_key,$scaled_difficulty|1"
@@ -604,6 +610,12 @@
                     },
                     {
                         "name": "Great-chief Elder After Defeating Vossler",
+                        "access_rules": [
+                            "$defeat_vossler,$scaled_difficulty|2"
+                        ]
+                    },
+                    {
+                        "name": "Guest (Larsa)",
                         "access_rules": [
                             "$defeat_vossler,$scaled_difficulty|2"
                         ]
