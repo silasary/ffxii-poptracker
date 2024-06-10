@@ -48,8 +48,8 @@ function aero(dest, allowStrahl)
     if allowStrahl == nil then
         allowStrahl = true
     end
-    if allowStrahl then
-        return Tracker:ProviderCountForCode(SYSTEMS_ACCESS_KEY) >= DESTINATION_STRAHL_KEYS_NEEDED[dest]
+    if allowStrahl and Tracker:ProviderCountForCode(SYSTEMS_ACCESS_KEY) >= DESTINATION_STRAHL_KEYS_NEEDED[dest] then
+        return true
     end
 
     if Tracker:ProviderCountForCode(dest) == 0 then
