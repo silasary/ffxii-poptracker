@@ -2228,7 +2228,7 @@
                     {
                         "name": "Party Members (Balthier, Fran, Guest)",
                         "access_rules": [
-                            "goddess_magicite,$scaled_difficulty|1"
+                            "crescent_stone,$scaled_difficulty|1"
                         ]
                     },
                     {
