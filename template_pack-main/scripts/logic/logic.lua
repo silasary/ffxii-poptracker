@@ -38,11 +38,12 @@ function paramina_rift()
 end
 
 function defeat_bergan()
-    return paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0
+    return paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0 and scaled_difficulty(3)
 end
 
 function earth_tyrant()
-    return Tracker:ProviderCountForCode('wind_globe') > 0 and Tracker:ProviderCountForCode('windvane') > 0
+    return Tracker:ProviderCountForCode('wind_globe') > 0 and Tracker:ProviderCountForCode('windvane') > 0 and
+        scaled_difficulty(4)
 end
 
 function leviathan()
@@ -61,11 +62,12 @@ end
 
 function tchita_uplands()
     return defeat_bergan() or Tracker:ProviderCountForCode('cactus_flower') > 0 or earth_tyrant() or
-        (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or aero('bal_aero')
+        (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
+        aero('bal_aero') and scaled_difficulty(3)
 end
 
 function hunt_club_start()
-    return tchita_uplands() and Tracker:ProviderCountForCode('shelled_trophy') > 0
+    return tchita_uplands() and Tracker:ProviderCountForCode('shelled_trophy') > 0 and scaled_difficulty(6)
 end
 
 function defeat_vossler()
@@ -81,7 +83,8 @@ function sochen_cave_palace()
 end
 
 function draklor_laboratory()
-    return (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and archades()
+    return (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and archades() and
+        scaled_difficulty(5)
 end
 
 function has_n_chops(n)
@@ -109,5 +112,5 @@ function cid2()
 end
 
 function defeat_cid()
-    return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0
+    return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0 and scaled_difficulty(5)
 end
