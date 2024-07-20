@@ -1,4 +1,6 @@
-.vscode/settings.json
+.vscode/*
+api/*
 todo.*
 .~lock.*
 *.xcf
+.luarc.json

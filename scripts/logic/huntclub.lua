@@ -32,7 +32,6 @@ TROPHY_RARES = {
     'thalassinon'
 }
 
-
 function hunt_club_kills(n)
     local killcount = 0
     for i, rareName in ipairs(TROPHY_RARES) do
