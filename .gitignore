@@ -4,3 +4,4 @@ todo.*
 .~lock.*
 *.xcf
 .luarc.json
+*.zip
