@@ -66,10 +66,10 @@
         "codes": "dheed"
     },
     {
-        "name": "Razorclaw kill",
+        "name": "Rageclaw kill",
         "type": "toggle",
         "img": "images/items/trophy_rare.png",
-        "codes": "razorclaw"
+        "codes": "rageclaw"
     },
     {
         "name": "Arioch kill",

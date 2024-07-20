@@ -10,7 +10,7 @@ TROPHY_RARES = {
     'victanir',
     'zombie_lord',
     'dheed',
-    'razorclaw',
+    'rageclaw',
     'arioch',
     'vorres',
     'killbug',

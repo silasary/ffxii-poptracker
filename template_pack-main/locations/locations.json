@@ -1604,7 +1604,7 @@
                             "grindy"
                         ],
                         "access_rules": [
-                            "$hunt_club_start,$scaled_difficulty|7"
+                            "$hunt_club_start,$defeat_bergan,$scaled_difficulty|7"
                         ],
                         "hosted_item": "dheed"
                     }
@@ -3099,7 +3099,7 @@
                         ]
                     },
                     {
-                        "name": "Razorclaw - Sickle Trophy",
+                        "name": "Rageclaw - Sickle Trophy",
                         "visibility_rules": [
                             "trophies",
                             "grindy"
@@ -3107,7 +3107,7 @@
                         "access_rules": [
                             "$hunt_club_start,$scaled_difficulty|5"
                         ],
-                        "hosted_item": "razorclaw"
+                        "hosted_item": "rageclaw"
                     },
                     {
                         "name": "Defeat Carrot",
