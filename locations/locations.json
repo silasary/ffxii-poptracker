@@ -752,7 +752,7 @@
                     {
                         "name": "Defeat Zeromus",
                         "access_rules": [
-                            "dawn_shard,stone_of_condemner,$scaled_difficulty|5"
+                            "stone_of_condemner,$scaled_difficulty|5"
                         ]
                     },
                     {

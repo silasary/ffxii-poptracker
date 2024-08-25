@@ -1,6 +1,6 @@
 # FFXII Randomizer Tracker
 
-Get the randomizer [here](https://github.com/Bartz24/FFModdingWPF/blob/0.8/FF12Rando/bin/build/FF12RandomizerPreview.7z).  This version of the tracker is built for version 0.8.1.14 of the randomizer.
+Get the randomizer [here](https://github.com/Bartz24/FFModdingWPF/blob/0.8/FF12Rando/bin/build/FF12RandomizerPreview.7z).  This version of the tracker is built for version 0.8.1.15 of the stand-alone randomizer / version 0.3.8 of the Archipelago world.
 
 ## Before Using
 
