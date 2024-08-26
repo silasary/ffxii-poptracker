@@ -2578,7 +2578,7 @@
                             "place_treasures"
                         ],
                         "access_rules": [
-                            "$rainstone,$scaled_difficulty|5"
+                            "rainstone,$scaled_difficulty|5"
                         ]
                     },
                     {
