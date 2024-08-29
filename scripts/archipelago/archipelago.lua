@@ -1,5 +1,6 @@
 local ITEM_MAPPING = require "archipelago.item_mapping"
-
+local CHAR_MAPPING = require "archipelago.loc_mapping_chars"
+local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
 AP_INDEX = -1
 
 function ClearItem(code, type)
@@ -12,10 +13,13 @@ function ClearItem(code, type)
 end
 
 function ClearItems(slot_data)
-    -- todo: clean up characters
+    -- todo: handle 'guest'
     AP_INDEX = -1
     for _, v in pairs(ITEM_MAPPING) do
         ClearItem(v[1], v[2])
+    end
+    for _, v in pairs(CHAR_ITEMS) do
+        ClearItem(v, 'toggle')
     end
 end
 
@@ -45,3 +49,18 @@ function OnItem(index, item_id, item_name, player_number)
 end
 
 Archipelago:AddItemHandler("item handler", OnItem)
+
+function OnLocation(location_id, location_name)
+    -- is this a character starting items location?
+    local v = CHAR_MAPPING[location_id]
+    if not not v then
+        local obj = Tracker:FindObjectForCode(v[1])
+        if not not obj then
+            obj.Active = true
+        end
+    end
+
+    --todo (maybe) - handle locations
+end
+
+Archipelago:AddLocationHandler("location handler", OnLocation)

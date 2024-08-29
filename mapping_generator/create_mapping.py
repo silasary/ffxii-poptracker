@@ -1,7 +1,21 @@
 import json
+
+class DataPackage:
+    location_name_to_id: dict[str, int]
+    item_name_to_id: dict[str, int]
+
 # ff12 AP datapackage
 with open("./mapping_generator/ff12_datapackage.json") as dp_file:
-    datapackage = json.load(dp_file)
+    datapackage: DataPackage = json.load(dp_file)
+# location defs
+with open("./locations/locations.json") as loc_defs_file:
+    loc_defs = json.load(loc_defs_file)
+# party 'starting inventory' locations
+with open("./mapping_generator/party_loc.json") as party_loc_file:
+    party_locations: list[dict[str,str]] = json.load(party_loc_file)
+
+### ITEM HANDLING ###
+
 # list of key items (i.e. items the tracker cares about)
 with open("./mapping_generator/key_items.json") as key_map_file:
     key_items: list[str] = json.load(key_map_file)
@@ -28,13 +42,28 @@ def get_codetype_from_name(name: str) -> tuple[str, str]:
         print(f"""\tname overridden to {override} by mapping_generator/item_overrides.json""")
     return "BAD_DATA", "BAD_DATA"
 
-with open("./scripts/archipelago/item_mapping.lua", 'w') as out_file:
+with open("./scripts/archipelago/item_mapping.lua", 'w') as item_out:
 
-    out_file.write("return {\n")
+    item_out.write("return {\n")
 
     for item in key_items:
         item_code, item_type = get_codetype_from_name(item)
         item_id = datapackage['item_name_to_id'][item]
-        out_file.write(f"""\t[{item_id}] = {{"{item_code}", "{item_type}"}},\n""")
+        item_out.write(f"""\t[{item_id}] = {{"{item_code}", "{item_type}"}},\n""")
 
-    out_file.write("}")
+    item_out.write("}")
+
+### PARTY LOCATION HANDLING ###
+# basically party members aren't items, so we gotta handle them by
+# noticing when their starting items get sent
+
+with open("./scripts/archipelago/loc_mapping_chars.lua", 'w') as loc_out:
+
+    loc_out.write("return {\n")
+
+    for loc in party_locations:
+        loc_id = datapackage['location_name_to_id'][loc['name']]
+        loc_code = loc["code"]
+        loc_out.write(f"""\t[{loc_id}] = {{"{loc_code}", "toggle"}},\n""")
+
+    loc_out.write("}")

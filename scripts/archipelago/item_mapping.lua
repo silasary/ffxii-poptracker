@@ -69,4 +69,5 @@ return {
 	[760701606251] = {"pw_chop", "consumable"},
 	[760701606254] = {"black_orb", "consumable"},
 	[760701606256] = {"access_key", "consumable"},
+	[760701646967] = {"second_board", "toggle"},
 }
