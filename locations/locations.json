@@ -52,7 +52,7 @@
                     {
                         "name": "Windvane",
                         "access_rules": [
-                            "wind_globe,$scaled_difficulty|1"
+                            "wind_globe,$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -1290,13 +1290,13 @@
                     {
                         "name": "Dantro's Wife Give Cactus Flower",
                         "access_rules": [
-                            "cactus_flower,$scaled_difficulty|1"
+                            "cactus_flower,$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Cactus Family Quest",
                         "access_rules": [
-                            "cactus_flower,$scaled_difficulty|1"
+                            "cactus_flower,$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -1311,7 +1311,7 @@
                     {
                         "name": "Patient Barheim Key",
                         "access_rules": [
-                            "cactus_flower,$scaled_difficulty|2"
+                            "cactus_flower,$defeat_vossler,$scaled_difficulty|2"
                         ]
                     },
                     {
@@ -2160,7 +2160,7 @@
                     {
                         "name": "Earth Tyrant Quest Wind Globe",
                         "access_rules": [
-                            "$scaled_difficulty|1"
+                            "$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
