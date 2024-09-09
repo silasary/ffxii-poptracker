@@ -60,6 +60,7 @@
         "type": "consumable",
         "img": "images/items/black_orb.png",
         "codes": "black_orb",
+        "max_quantity": 24,
         "overlay_background": "#000"
     },
     {

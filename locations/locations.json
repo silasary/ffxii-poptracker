@@ -52,7 +52,7 @@
                     {
                         "name": "Windvane",
                         "access_rules": [
-                            "wind_globe,$scaled_difficulty|1"
+                            "wind_globe,$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -506,7 +506,7 @@
                     {
                         "name": "Defeat Vossler",
                         "access_rules": [
-                            "dawn_shard,$scaled_difficulty|2"
+                            "$scaled_difficulty|2"
                         ]
                     },
                     {
@@ -1098,7 +1098,7 @@
                             "$scaled_difficulty|6"
                         ],
                         "item_count": 3,
-                        "clear_as_group": false
+                        "clear_as_group": true
                     },
                     {
                         "name": "Defeat Hashmal",
@@ -1204,7 +1204,7 @@
                             "$has_n_black_orbs|3,$scaled_difficulty|7"
                         ],
                         "item_count": 5,
-                        "clear_as_group": false
+                        "clear_as_group": true
                     },
                     {
                         "name": "Black Orbs 9-15",
@@ -1212,7 +1212,7 @@
                             "$has_n_black_orbs|8,$scaled_difficulty|7"
                         ],
                         "item_count": 7,
-                        "clear_as_group": false
+                        "clear_as_group": true
                     },
                     {
                         "name": "Black Orbs 16-24",
@@ -1220,7 +1220,7 @@
                             "$has_n_black_orbs|15,$scaled_difficulty|7"
                         ],
                         "item_count": 9,
-                        "clear_as_group": false
+                        "clear_as_group": true
                     }
                 ]
             },
@@ -1290,13 +1290,13 @@
                     {
                         "name": "Dantro's Wife Give Cactus Flower",
                         "access_rules": [
-                            "cactus_flower,$scaled_difficulty|1"
+                            "cactus_flower,$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
                         "name": "Cactus Family Quest",
                         "access_rules": [
-                            "cactus_flower,$scaled_difficulty|1"
+                            "cactus_flower,$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
@@ -1311,7 +1311,7 @@
                     {
                         "name": "Patient Barheim Key",
                         "access_rules": [
-                            "cactus_flower,$scaled_difficulty|2"
+                            "cactus_flower,$defeat_vossler,$scaled_difficulty|2"
                         ]
                     },
                     {
@@ -2160,7 +2160,7 @@
                     {
                         "name": "Earth Tyrant Quest Wind Globe",
                         "access_rules": [
-                            "$scaled_difficulty|1"
+                            "$defeat_vossler,$scaled_difficulty|1"
                         ]
                     },
                     {
