@@ -3,7 +3,7 @@
         {
             "package_version": "0.2.1",
             "download_url": "https://github.com/jeeves833/ffxii-poptracker/releases/download/v0.2.1/ffxii_tracker.zip",
-            "sha256": "08491bc6d25de7214d546d3d3d567341f79874ead8fa3c8ce170cb5c5931e469",
+            "sha256": "1cc65096be6be2b8e039e0c90c843a7f15b09c71f6545d000888706642436de7",
             "changelog": [
                 "Removes Dawn Shard requirement to fight Vossler"
             ]
