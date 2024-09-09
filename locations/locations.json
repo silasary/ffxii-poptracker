@@ -506,7 +506,7 @@
                     {
                         "name": "Defeat Vossler",
                         "access_rules": [
-                            "dawn_shard,$scaled_difficulty|2"
+                            "$scaled_difficulty|2"
                         ]
                     },
                     {

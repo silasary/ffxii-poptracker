@@ -71,7 +71,7 @@ function hunt_club_start()
 end
 
 function defeat_vossler()
-    return Tracker:ProviderCountForCode('dawn_shard') > 0 and sandseas()
+    return sandseas()
 end
 
 function archades()
