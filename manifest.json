@@ -14,5 +14,6 @@
       "flags": ["ap"]
     }
   },
-  "min_poptracker_version": "0.25.6"
+  "min_poptracker_version": "0.25.6",
+  "versions_url": "https://raw.githubusercontent.com/nivomi/ffxii-poptracker/master/versions.json"
 }

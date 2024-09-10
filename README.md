@@ -1,6 +1,7 @@
 # AP support
 
 This is a quick & dirty WIP fork of [jeeves833's FFXII PopTracker pack](https://github.com/jeeves833/ffxii-poptracker), which aims to add Archipelago autotracker support.
+This version of the tracker is built for version 0.4.0 of the Archipelago world.
 
 Currently, only autotracking items is supported. No promises on locations.
 
