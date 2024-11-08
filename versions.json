@@ -1,8 +1,16 @@
 {
   "versions": [
     {
+      "package_version": "0.0.3",
+      "download_url": "https://github.com/nivomi/ffxii-poptracker/releases/download/0.0.3/ffxii-poptracker-ap.zip",
+      "sha256": "6cd9170a53365250a6dac422b75f9b19ee026d61f5e84e334ff489247eaf5a70",
+      "changelog": [
+        "Merge logic fix from upstream, fixing issue with tchita uplands"
+      ]
+    },
+    {
       "package_version": "0.0.2",
-      "download_url": "https://github.com/nivomi/ffxii-poptracker/releases/download/v0.0.2/ffxii-poptracker-ap.zip",
+      "download_url": "https://github.com/nivomi/ffxii-poptracker/releases/download/0.0.2/ffxii-poptracker-ap.zip",
       "sha256": "008021fb514be85cc372efbc836ba62d65b02a67c36dd7e8fd51739f62d779e7",
       "changelog": [
         "Merge logic changes from upstream",
