@@ -61,7 +61,7 @@ function sandseas()
 end
 
 function tchita_uplands()
-    return defeat_bergan() or (Tracker:ProviderCountForCode('cactus_flower') and defeat_vossler()) > 0 or earth_tyrant() or
+    return defeat_bergan() or (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler()) or earth_tyrant() or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
         aero('bal_aero') and scaled_difficulty(3)
 end
