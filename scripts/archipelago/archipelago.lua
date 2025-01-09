@@ -1,5 +1,6 @@
 local ITEM_MAPPING = require "archipelago.item_mapping"
 local CHAR_MAPPING = require "archipelago.loc_mapping_chars"
+local LOCATION_MAPPING = require "archipelago.location_mapping"
 local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
 AP_INDEX = -1
 
@@ -60,7 +61,25 @@ function OnLocation(location_id, location_name)
         end
     end
 
-    --todo (maybe) - handle locations
+    local value = LOCATION_MAPPING[location_id]
+    if not value then
+      if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+      end
+      return
+    end
+    for _, code in pairs(value) do
+      local object = Tracker:FindObjectForCode(code)
+      if object then
+        if code:sub(1, 1) == "@" then
+          object.AvailableChestCount = object.AvailableChestCount - 1
+        else
+          object.Active = true
+        end
+      elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+          print(string.format("onLocation: could not find object for code %s", code))
+      end
+    end 
 end
 
 Archipelago:AddLocationHandler("location handler", OnLocation)

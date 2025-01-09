@@ -67,3 +67,45 @@ with open("./scripts/archipelago/loc_mapping_chars.lua", 'w') as loc_out:
         loc_out.write(f"""\t[{loc_id}] = {{"{loc_code}", "toggle"}},\n""")
 
     loc_out.write("}")
+
+### LOCATION HANDLING ###
+with open("./mapping_generator/location_overrides.json") as loc_override_file:
+    loc_overrides: dict[str,str] = json.load(loc_override_file)
+
+with open("./locations/locations.json") as loc_data_file:
+    loc_data = json.load(loc_data_file)
+
+with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
+
+    def write_location(loc_name, truename):
+        loc_id = datapackage['location_name_to_id'].get(truename) or datapackage['location_name_to_id'].get(f'{truename} (1)')
+        if not loc_id:
+            print(f"WARNING: No matching location for {loc_name} in locations.json")
+            return
+
+        loc_out.write(f"""\t[{loc_id}] = {{"{path}/{shortname}"}},\n""")      
+
+    loc_out.write("return {\n")
+    names = {}
+    for area in loc_data:
+        area_name = area['name']
+        for child in area['children']:
+            child_name = child['name']
+            for loc in child['sections']:
+                loc_name = f'@{area_name}/{child_name}/{loc["name"]}'
+                count = loc.get('item_count', 1)
+                names[loc_name] = count
+    
+    for loc_name, count in names.items():
+        shortname = loc_name.split('/')[-1]
+        path = '/'.join(loc_name.split('/')[0:-1])
+        if count > 1:
+            for i in range(1, count + 1):
+                truename = loc_overrides.get(shortname, shortname)
+                truename = f"{truename} {i}"
+                write_location(loc_name, truename)
+        else:
+            truename = loc_overrides.get(shortname, shortname)
+            write_location(loc_name, truename)
+
+    loc_out.write("}")
