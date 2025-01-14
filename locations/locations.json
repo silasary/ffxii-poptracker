@@ -611,13 +611,13 @@
                     {
                         "name": "Great-chief Elder After Defeating Vossler",
                         "access_rules": [
-                            "$defeat_vossler,$scaled_difficulty|2"
+                            "$defeat_vossler,$dawn_shard,$scaled_difficulty|2"
                         ]
                     },
                     {
                         "name": "Guest (Larsa)",
                         "access_rules": [
-                            "$defeat_vossler,$scaled_difficulty|2"
+                            "$defeat_vossler,$dawn_shard,$scaled_difficulty|2"
                         ]
                     },
                     {
