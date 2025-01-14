@@ -3,7 +3,7 @@
 This is a quick & dirty WIP fork of [jeeves833's FFXII PopTracker pack](https://github.com/jeeves833/ffxii-poptracker), which aims to add Archipelago autotracker support.
 This version of the tracker is built for version 0.4.0 of the Archipelago world.
 
-Autotracking works for most locations.  You still need to manually mark when you get characters/guests and when you defeat bosses, but all other locations will be auto-tracked.
+Autotracking works for most locations.  You still need to manually mark when you get characters/guests and when you defeat bosses, and some other checks may not work yet.  It's a work in progress.
 
 ## Before Using
 

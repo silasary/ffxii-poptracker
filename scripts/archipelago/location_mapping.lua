@@ -10,6 +10,8 @@ return {
 	[760701600005] = {"@Main/Rabanastre/Ktjn Reward"},
 	[760701599672] = {"@Main/Rabanastre/Hunt 9: Marilith"},
 	[760701599984] = {"@Main/Rabanastre/Grimy Fragment"},
+	[760701599411] = {"@Main/Giza Plains Dry/Shadestone"},
+	[760701599414] = {"@Main/Giza Plains Dry/Sunstone"},
 	[760701599744] = {"@Main/Giza Plains Dry/Hunt 33: Cluckatrice"},
 	[760701599753] = {"@Main/Giza Plains Dry/Hunt 36: Gil Snapper"},
 	[760701599921] = {"@Main/Giza Plains Dry/Give Errmonea Leaf"},
