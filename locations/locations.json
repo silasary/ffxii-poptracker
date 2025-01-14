@@ -77,8 +77,7 @@
                         ],
                         "access_rules": [
                             "broken_key,$scaled_difficulty|5"
-                        ],
-                        "item_count": 2
+                        ]
                     },
                     {
                         "name": "Hunt 9: Marilith",

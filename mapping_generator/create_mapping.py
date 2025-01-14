@@ -66,7 +66,7 @@ with open("./scripts/archipelago/loc_mapping_chars.lua", 'w') as loc_out:
         loc_code = loc["code"]
         loc_out.write(f"""\t[{loc_id}] = {{"{loc_code}", "toggle"}},\n""")
 
-    loc_out.write("}")
+    loc_out.write("}\n")
 
 ### LOCATION HANDLING ###
 with open("./mapping_generator/location_overrides.json") as loc_override_file:
@@ -77,13 +77,15 @@ with open("./locations/locations.json") as loc_data_file:
 
 with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
 
-    def write_location(loc_name, truename):
+    def write_location(loc_name, truename) -> bool:
         loc_id = datapackage['location_name_to_id'].get(truename) or datapackage['location_name_to_id'].get(f'{truename} (1)')
         if not loc_id:
-            print(f"WARNING: No matching location for {loc_name} in locations.json")
-            return
+            name = loc_name if shortname == truename else f"{loc_name} [{truename}]"
+            print(f"WARNING: No matching location for {name} in locations.json")
+            return False
 
-        loc_out.write(f"""\t[{loc_id}] = {{"{path}/{shortname}"}},\n""")      
+        loc_out.write(f"""\t[{loc_id}] = {{"{path}/{shortname}"}},\n""")
+        return True
 
     loc_out.write("return {\n")
     names = {}
@@ -95,10 +97,11 @@ with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
                 loc_name = f'@{area_name}/{child_name}/{loc["name"]}'
                 count = loc.get('item_count', 1)
                 names[loc_name] = count
-    
+
     for loc_name, count in names.items():
         shortname = loc_name.split('/')[-1]
         path = '/'.join(loc_name.split('/')[0:-1])
+        found = False
         if count > 1:
             for i in range(1, count + 1):
                 truename = loc_overrides.get(shortname, shortname)
@@ -108,4 +111,4 @@ with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
             truename = loc_overrides.get(shortname, shortname)
             write_location(loc_name, truename)
 
-    loc_out.write("}")
+    loc_out.write("}\n")

@@ -8,6 +8,7 @@ return {
 	[760701599909] = {"@Main/Rabanastre/Windvane"},
 	[760701599669] = {"@Main/Rabanastre/Hunt 8: Wyvern Lord"},
 	[760701600005] = {"@Main/Rabanastre/Ktjn Reward"},
+	[760701599663] = {"@Main/Rabanastre/Hunt 6: White Mousse"},
 	[760701599672] = {"@Main/Rabanastre/Hunt 9: Marilith"},
 	[760701599984] = {"@Main/Rabanastre/Grimy Fragment"},
 	[760701599411] = {"@Main/Giza Plains Dry/Shadestone"},
