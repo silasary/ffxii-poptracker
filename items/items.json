@@ -507,6 +507,19 @@
         "codes": "place_clan_esper"
     },
     {
+        "name": "Key Item Placement - Black Orbs",
+        "type": "toggle",
+        "img": "images/items/black_orb.png",
+        "codes": "place_black_orbs"
+
+    },
+    {
+        "name": "Key Item Placement - Chops",
+        "type": "toggle",
+        "img": "images/items/pw_chop.png",
+        "codes": "place_chops"
+    },
+    {
         "name": "Key Item Placement - Grindy",
         "type": "toggle",
         "img": "images/items/grindy.png",

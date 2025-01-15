@@ -58,6 +58,10 @@
                                                     "place_clan_rank",
                                                     "place_clan_boss",
                                                     "place_clan_esper"
+                                                ],
+                                                [
+                                                    "place_chops",
+                                                    "place_black_orbs"
                                                 ]
                                             ]
                                         }

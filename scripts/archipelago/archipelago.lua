@@ -1,6 +1,7 @@
 local ITEM_MAPPING = require "archipelago.item_mapping"
 local CHAR_MAPPING = require "archipelago.loc_mapping_chars"
 local LOCATION_MAPPING = require "archipelago.location_mapping"
+local OPTION_MAPPING = require "archipelago.option_mapping"
 local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
 AP_INDEX = -1
 
@@ -22,6 +23,30 @@ function ClearItems(slot_data)
     for _, v in pairs(CHAR_ITEMS) do
         ClearItem(v, 'toggle')
     end
+    -- Load options from slot_data
+    -- {
+    -- 'characters': [0, 2, 1, 4, 3, 5], 
+    -- 'options': {
+    --     'shuffle_main_party': 1, 
+    --     'character_progression_scaling': 1, 
+    --     'include_treasures': 0, 
+    --     'include_chops': 0, 
+    --     'include_black_orbs': 0, 
+    --     'include_trophy_rare_games': 0, 
+    --     'include_hunt_rewards': 0, 
+    --     'include_clan_hall_rewards': 0, 
+    --     'allow_seitengrat': 0, 
+    --     'bahamut_unlock': 0
+    --   }
+    -- }
+    local options = slot_data.options
+    for k, v in pairs(OPTION_MAPPING) do
+        local obj = Tracker:FindObjectForCode(v)
+        if obj then
+            obj.Active = options[k] == 1
+        end
+    end
+    
 end
 
 Archipelago:AddClearHandler("clearItems", ClearItems)
