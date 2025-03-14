@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+        "package_version": "0.0.4",
+        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.0.4.zip",
+        "sha256": "158616acd84b7d16f1ad2a084f49b1ccc76c6958336c7c6d277777b94871a5a8",
+        "changelog": [
+          "Location autotracking (mostly)"
+        ]  
+    },
+    {
       "package_version": "0.0.3",
       "download_url": "https://github.com/nivomi/ffxii-poptracker/releases/download/0.0.3/ffxii-poptracker-ap.zip",
       "sha256": "6cd9170a53365250a6dac422b75f9b19ee026d61f5e84e334ff489247eaf5a70",
