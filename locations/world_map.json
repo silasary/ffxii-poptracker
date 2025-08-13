@@ -202,6 +202,11 @@
         "map": "world_map",
         "x": 1400,
         "y": 700
+      },
+      {
+        "map": "bhujerba",
+        "x": 615,
+        "y": 400
       }
     ],
     "sections": [
@@ -1570,6 +1575,11 @@
         "map": "world_map",
         "x": 1488,
         "y": 660
+      },
+      {
+        "map": "bhujerba",
+        "x": 1075,
+        "y": 390
       }
     ],
     "sections": [
