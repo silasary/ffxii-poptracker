@@ -1,34 +1,27 @@
--- get current variant
-local variant = Tracker.ActiveVariantUID
--- check variant info
-IS_ITEMS_ONLY = variant:find("itemsonly")
+Tracker.AllowDeferredLogicUpdate = true
 
-print("-- FFXII Tracker --")
-print("Loaded variant: ", variant)
+-- FF12 Brain
+ScriptHost:LoadScript("scripts/aeropass.lua")
+ScriptHost:LoadScript("scripts/esper.lua")
+ScriptHost:LoadScript("scripts/huntclub.lua")
+ScriptHost:LoadScript("scripts/hunts.lua")
+ScriptHost:LoadScript("scripts/items.lua")
+ScriptHost:LoadScript("scripts/layouts.lua")
+ScriptHost:LoadScript("scripts/locations.lua")
+ScriptHost:LoadScript("scripts/logic.lua")
+ScriptHost:LoadScript("scripts/archipelago/autotracking.lua")
 
--- Logic
-ScriptHost:LoadScript("scripts/logic/logic.lua")
-ScriptHost:LoadScript("scripts/logic/aeropass.lua")
-ScriptHost:LoadScript("scripts/logic/huntclub.lua")
-ScriptHost:LoadScript("scripts/logic/hunts.lua")
-ScriptHost:LoadScript("scripts/logic/esper.lua")
+Tracker:AddMaps("maps/maps.json")
 
--- Items
-Tracker:AddItems("items/items.json")
-Tracker:AddItems("items/trophy_rares.json")
-Tracker:AddItems("items/hunts.json")
 
-if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
-    -- Maps
-    Tracker:AddMaps("maps/maps.json")
-    -- Locations
-    Tracker:AddLocations("locations/locations.json")
-end
+-- Add all maps
+Tracker:AddMaps("maps/maps.json")
 
--- Layout
-Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/tracker.json")
-Tracker:AddLayouts("layouts/broadcast.json")
+-- Init item tracking
+initialize_watch_items()
+
+
+-- Archipelago Auto Tracking
 
 if PopVersion and PopVersion >= "0.18.0" then
     ScriptHost:LoadScript("scripts/archipelago/archipelago.lua")

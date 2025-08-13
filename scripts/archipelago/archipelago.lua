@@ -41,17 +41,59 @@ function ClearItems(slot_data)
     --     'bahamut_unlock': 0
     --   }
     -- }
-    local options = slot_data.options
-    for k, v in pairs(OPTION_MAPPING) do
-        local obj = Tracker:FindObjectForCode(v)
-        if obj then
-            obj.Active = options[k] == 1
-        end
-    end
+
     hunt_key = string.format("ffxiiow_hunts_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
 
     Archipelago:SetNotify({hunt_key})
     Archipelago:Get({hunt_key})
+    
+    local options = slot_data.options
+    for key, mapped in pairs(OPTION_MAPPING) do
+        local on = options[key] == 1
+        if type(mapped) == "table" then
+            for _, code in ipairs(mapped) do
+                local obj = Tracker:FindObjectForCode(code)
+                if obj then obj.Active = on end
+            end
+        else
+            local obj = Tracker:FindObjectForCode(mapped)
+            if obj then obj.Active = on end
+        end
+    end
+
+
+    local function set_toggle(code, state)
+        local obj = Tracker:FindObjectForCode(code)
+        if obj then
+            obj.Active = state
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(("Option code missing in tracker: %s"):format(tostring(code)))
+        end
+    end
+
+    local function truthy(v)
+    -- Accept 1/true/"1"
+    if v == true or v == 1 or v == "1" then return true end
+    return false
+    end
+
+    for opt_key, mapped in pairs(OPTION_MAPPING) do
+        local state = truthy(options[opt_key])
+        if type(mapped) == "table" then
+            for _, code in ipairs(mapped) do
+            set_toggle(code, state)
+            end
+        else
+            set_toggle(mapped, state)
+        end
+    end
+
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        for k, v in pairs(options) do
+            print(("AP slot option %s = %s"):format(k, tostring(v)))
+        end
+    end
+
     
 end
 
@@ -84,13 +126,22 @@ Archipelago:AddItemHandler("item handler", OnItem)
 
 function OnLocation(location_id, location_name)
     -- is this a character starting items location?
-    local v = CHAR_MAPPING[location_id]
-    if not not v then
-        local obj = Tracker:FindObjectForCode(v[1])
-        if not not obj then
-            obj.Active = true
-        end
+    -- if g >= 3 helps to make sure we don't get false positives
+local v = CHAR_MAPPING[location_id]
+if v then
+  local code = v[1]                    
+  local obj  = Tracker:FindObjectForCode(code)
+  if obj then
+    -- keep a tiny counter per character
+    _G._char_hits = _G._char_hits or {}
+    _G._char_hits[code] = (_G._char_hits[code] or 0) + 1
+
+    if _G._char_hits[code] >= 3 then   -- require two separate checks
+      obj.Active = true
     end
+  end
+end
+
 
     local value = LOCATION_MAPPING[location_id]
     if not value then
@@ -114,7 +165,6 @@ function OnLocation(location_id, location_name)
 end
 
 Archipelago:AddLocationHandler("location handler", OnLocation)
-
 
 local function starts_with(str, start)
     return str:sub(1, #start) == start
