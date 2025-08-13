@@ -2249,7 +2249,7 @@
           {
             "name": "Site 11 Key",
             "access_rules": [
-              "clan_primer,site_3_key,$aero|bhu_aero,$scaled_difficulty|5"
+              "clan_primer,site_3_key,$aero|bhu_aero,$tchita_uplands,$scaled_difficulty|5"
             ]
           },
           {
