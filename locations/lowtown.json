@@ -1,0 +1,131 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Old Dalan's House",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 480,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dalan Crescent Stone",
+            "ref": "Main/Lowtown/Dalan Crescent Stone"
+          },
+          {
+            "name": "Grimy Fragment - Filo Fetch Quest",
+            "ref": "Main/Rabanastre/Grimy Fragment"
+          },
+          {
+            "name": "Dalan Sword of the Order",
+            "ref": "Main/Lowtown/Dalan Sword of the Order"
+          },
+          {
+            "name": "Hunt 42: Behemoth King - Koqmihn",
+            "ref": "Main/Lowtown/Hunt 42: Behemoth King"
+          },
+          {
+            "name": "Medallions - Roh’kenmou - Dummy Check",
+            "ref": "Main/Lowtown/Medallions - Roh’kenmou"
+          }
+        ]
+      },
+      {
+        "name": "Balzac",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 290,
+            "y": 510
+          }
+        ],
+        "sections": [
+          {
+            "name": "Balzac Sword of the Order Turn In",
+            "ref": "Main/Lowtown/Balzac Sword of the Order Turn In"
+          },
+          {
+            "name": "Party Member (Basch)",
+            "ref": "Main/Lowtown/Party Member (Basch)"
+          },
+          {
+            "name": "Hunt 7: Ring Wyrm",
+            "ref": "Main/Lowtown/Hunt 7: Ring Wyrm"
+          }
+        ]
+      },
+      {
+        "name": "Lowtown Chests",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 455,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Lowtown/Chests - Lowtown"
+          }
+        ]
+      },
+      {
+        "name": "Royal Palace Entrance",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 370,
+            "y": 355
+          }
+        ],
+        "sections": [
+          {
+            "name": "Goddess's Magicite",
+            "ref": "Main/Lowtown/Royal Palace - Goddess's Magicite"
+          }
+        ]
+      },
+      {
+        "name": "Milha’s House",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 520,
+            "y": 345
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 4: Wraith - Milha",
+            "ref": "Main/Lowtown/Hunt 4: Wraith"
+          },
+          {
+            "name": "Dusty Letter",
+            "ref": "Main/Lowtown/Dusty Letter"
+          }
+        ]
+      },
+      {
+        "name": "Orthros - Contrite Thief",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 393,
+            "y": 315
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 35: Orthros - Contrite Thief",
+            "ref": "Main/Lowtown/Hunt 35: Orthros"
+          }
+        ]
+      }
+    ]
+  }
+]

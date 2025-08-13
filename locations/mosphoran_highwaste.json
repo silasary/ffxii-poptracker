@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Mosphoran Highwaste Camp",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "x": 515,
+            "y": 730
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Mosphoran Highwaste/Chests - Mosphoran Highwaste"
+          },
+          {
+            "name": "Chests Past Chocobo Trail",
+            "ref": "Main/Mosphoran Highwaste/Chests Past Chocobo Trail"
+          },
+          {
+            "name": "Hunt 19: Braegh - Va’Kansa",
+            "ref": "Main/Mosphoran Highwaste/Hunt 19: Braegh - Va’Kansa"
+          }
+        ]
+      },
+      {
+        "name": "Atomos",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "x": 360,
+            "y": 360
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Atomos",
+            "ref": "Main/Mosphoran Highwaste/Defeat Atomos"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Exodus",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "x": 400,
+            "y": 660
+          }
+        ],
+        "sections": [
+          {
+            "name": "You can access via gyshal greens",
+            "ref": "Main/Mosphoran Highwaste/Defeat Exodus"
+          }
+        ]
+      },
+      {
+        "name": "Dheed - Leathern Trophy",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "x": 350,
+            "y": 690
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dheed - Leathern Trophy",
+            "ref": "Main/Mosphoran Highwaste/Dheed - Leathern Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Jahara - Elderknoll",
+        "map_locations": [
+          {
+            "map": "jahara",
+            "x": 245,
+            "y": 245
+          }
+        ],
+        "sections": [
+          {
+            "name": "Elderknoll Chest",
+            "ref": "Main/Jahara/Elderknoll Chest"
+          }
+        ]
+      },
+      {
+        "name": "Jahara - Great Chief",
+        "map_locations": [
+          {
+            "map": "jahara",
+            "x": 320,
+            "y": 275
+          }
+        ],
+        "sections": [
+          {
+            "name": "Great-chief Elder After Defeating Vossler",
+            "ref": "Main/Jahara/Great-chief Elder After Defeating Vossler"
+          },
+          {
+            "name": "Guest (Larsa)",
+            "ref": "Main/Jahara/Guest (Larsa)"
+          },
+          {
+            "name": "Hunt 12: Ixtab",
+            "ref": "Main/Jahara/Hunt 12: Ixtab"
+          }
+        ]
+      },
+      {
+        "name": "Low-chief Sugumu",
+        "map_locations": [
+          {
+            "map": "jahara",
+            "x": 725,
+            "y": 320
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 10: Enkelados - Low-Chief Sugumu",
+            "ref": "Main/Jahara/Hunt 10: Enkelados"
+          }
+        ]
+      },
+      {
+        "name": "Warrior Guromu",
+        "map_locations": [
+          {
+            "map": "jahara",
+            "x": 725,
+            "y": 490
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 15: Mindflayer - Warrior Guromu",
+            "ref": "Main/Jahara/Hunt 15: Mindflayer"
+          }
+        ]
+      },
+      {
+        "name": "War-chief Supinelu",
+        "map_locations": [
+          {
+            "map": "jahara",
+            "x": 360,
+            "y": 250
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 30: Catoblepas - War-chief Supinelu",
+            "ref": "Main/Jahara/Hunt 30: Catoblepas"
+          }
+        ]
+      }
+    ]
+  }
+]

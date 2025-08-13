@@ -1,0 +1,1758 @@
+[
+  {
+    "name": "Rabanastre",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 760,
+        "y": 680
+      }
+    ],
+    "sections": [
+      {
+        "name": "Party Member (Vaan)",
+        "ref": "Main/Rabanastre/Party Member (Vaan)"
+      },
+      {
+        "name": "Tomaj",
+        "ref": "Main/Rabanastre/Tomaj"
+      },
+      {
+        "name": "Hunt 1: Rogue Tomato",
+        "ref": "Main/Rabanastre/Hunt 1: Rogue Tomato"
+      },
+      {
+        "name": "Hunt 2: Thextera",
+        "ref": "Main/Rabanastre/Hunt 2: Thextera"
+      },
+      {
+        "name": "Viera Rendezvous",
+        "ref": "Main/Rabanastre/Viera Rendezvous"
+      },
+      {
+        "name": "Windvane",
+        "ref": "Main/Rabanastre/Windvane"
+      },
+      {
+        "name": "Hunt 8: Wyvern Lord",
+        "ref": "Main/Rabanastre/Hunt 8: Wyvern Lord"
+      },
+      {
+        "name": "Ktjn Reward",
+        "ref": "Main/Rabanastre/Ktjn Reward"
+      },
+      {
+        "name": "Hunt 6: White Mousse",
+        "ref": "Main/Rabanastre/Hunt 6: White Mousse"
+      },
+      {
+        "name": "Hunt 9: Marilith",
+        "ref": "Main/Rabanastre/Hunt 9: Marilith"
+      },
+      {
+        "name": "Grimy Fragment",
+        "ref": "Main/Rabanastre/Grimy Fragment"
+      }
+    ]
+  },
+  {
+    "name": "Giza Plains Dry",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 780,
+        "y": 770
+      }
+    ],
+    "sections": [
+      {
+        "name": "Party Member (Penelo)",
+        "ref": "Main/Giza Plains Dry/Party Member (Penelo)"
+      },
+      {
+        "name": "Shadestone",
+        "ref": "Main/Giza Plains Dry/Shadestone"
+      },
+      {
+        "name": "Chests",
+        "ref": "Main/Giza Plains Dry/Chests - Giza Dry"
+      },
+      {
+        "name": "Sunstone",
+        "ref": "Main/Giza Plains Dry/Sunstone"
+      },
+      {
+        "name": "Defeat Cluckatrice",
+        "ref": "Main/Giza Plains Dry/Defeat Cluckatrice"
+      },
+      {
+        "name": "Hunt 33: Cluckatrice",
+        "ref": "Main/Giza Plains Dry/Hunt 33: Cluckatrice"
+      },
+      {
+        "name": "Hunt 36: Gil Snapper",
+        "ref": "Main/Giza Plains Dry/Hunt 36: Gil Snapper"
+      },
+      {
+        "name": "Give Errmonea Leaf",
+        "ref": "Main/Giza Plains Dry/Give Errmonea Leaf"
+      },
+      {
+        "name": "Nazarnir - Maned Trophy",
+        "ref": "Main/Giza Plains Dry/Nazarnir - Maned Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Giza Plains Rains",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 834,
+        "y": 770
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Giza Plains Rains/Chests Nomad Village Rains"
+      },
+      {
+        "name": "Defeat Croakadile",
+        "ref": "Main/Giza Plains Rains/Defeat Croakadile"
+      },
+      {
+        "name": "Croakadile Drop",
+        "ref": "Main/Giza Plains Rains/Croakadile Drop"
+      },
+      {
+        "name": "Hunt 11: Croakadile",
+        "ref": "Main/Giza Plains Rains/Hunt 11: Croakadile"
+      },
+      {
+        "name": "Nomads Silent Urn",
+        "ref": "Main/Giza Plains Rains/Nomads Silent Urn"
+      },
+      {
+        "name": "Defeat Gil Snapper",
+        "ref": "Main/Giza Plains Rains/Defeat Gil Snapper"
+      }
+    ]
+  },
+  {
+    "name": "Lowtown",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 812,
+        "y": 680
+      }
+    ],
+    "sections": [
+      {
+        "name": "Dalan Crescent Stone",
+        "ref": "Main/Lowtown/Dalan Crescent Stone"
+      },
+      {
+        "name": "Dalan Sword of the Order",
+        "ref": "Main/Lowtown/Dalan Sword of the Order"
+      },
+      {
+        "name": "Balzac Sword of the Order Turn In",
+        "ref": "Main/Lowtown/Balzac Sword of the Order Turn In"
+      },
+      {
+        "name": "Party Member (Basch)",
+        "ref": "Main/Lowtown/Party Member (Basch)"
+      },
+      {
+        "name": "Chests",
+        "ref": "Main/Lowtown/Chests - Lowtown"
+      },
+      {
+        "name": "Royal Palace - Goddess's Magicite",
+        "ref": "Main/Lowtown/Royal Palace - Goddess's Magicite"
+      },
+      {
+        "name": "Hunt 4: Wraith",
+        "ref": "Main/Lowtown/Hunt 4: Wraith"
+      },
+      {
+        "name": "Dusty Letter",
+        "ref": "Main/Lowtown/Dusty Letter"
+      },
+      {
+        "name": "Hunt 7: Ring Wyrm",
+        "ref": "Main/Lowtown/Hunt 7: Ring Wyrm"
+      },
+      {
+        "name": "Hunt 35: Orthros",
+        "ref": "Main/Lowtown/Hunt 35: Orthros"
+      },
+      {
+        "name": "Hunt 42: Behemoth King",
+        "ref": "Main/Lowtown/Hunt 42: Behemoth King"
+      }
+    ]
+  },
+  {
+    "name": "Dreadnought Leviathan",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1400,
+        "y": 700
+      }
+    ],
+    "sections": [
+      {
+        "name": "Guest (Vossler)",
+        "ref": "Main/Dreadnought Leviathan/Guest (Vossler)"
+      },
+      {
+        "name": "Party Member (Ashe)",
+        "ref": "Main/Dreadnought Leviathan/Party Member (Ashe)"
+      },
+      {
+        "name": "Chests",
+        "ref": "Main/Dreadnought Leviathan/Chests"
+      },
+      {
+        "name": "No. 1 Brig Key",
+        "ref": "Main/Dreadnought Leviathan/No. 1 Brig Key"
+      },
+      {
+        "name": "Systems Access Key",
+        "ref": "Main/Dreadnought Leviathan/Systems Access Key"
+      },
+      {
+        "name": "Manufacted Nethicite",
+        "ref": "Main/Dreadnought Leviathan/Manufacted Nethicite"
+      }
+    ]
+  },
+  {
+    "name": "Nam-Yensa Sandsea",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 345,
+        "y": 680
+      }
+    ],
+    "sections": [
+      {
+        "name": "Main Area Chests",
+        "ref": "Main/Nam-Yensa Sandsea/Main Area Chests - Nam-Yensa"
+      },
+      {
+        "name": "Eksir Berries",
+        "ref": "Main/Nam-Yensa Sandsea/Eksir Berries"
+      },
+      {
+        "name": "Defeat Wyvern Lord",
+        "ref": "Main/Nam-Yensa Sandsea/Defeat Wyvern Lord"
+      },
+      {
+        "name": "Withering Shores Chests",
+        "ref": "Main/Nam-Yensa Sandsea/Withering Shores Chests"
+      },
+      {
+        "name": "Defeat Belito",
+        "ref": "Main/Nam-Yensa Sandsea/Defeat Belito"
+      },
+      {
+        "name": "Victanir - Maverick Trophy",
+        "ref": "Main/Nam-Yensa Sandsea/Victanir - Maverick Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Tomb of Raithwall",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 250,
+        "y": 625
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Tomb of Raithwall/Chests - Tomb of Raithwall"
+      },
+      {
+        "name": "Defeat Belias",
+        "ref": "Main/Tomb of Raithwall/Defeat Belias"
+      },
+      {
+        "name": "Dawn Shard",
+        "ref": "Main/Tomb of Raithwall/Dawn Shard"
+      },
+      {
+        "name": "Defeat Vossler",
+        "ref": "Main/Tomb of Raithwall/Defeat Vossler"
+      },
+      {
+        "name": "Zombie Lord - Soulless Trophy",
+        "ref": "Main/Tomb of Raithwall/Zombie Lord - Soulless Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Barheim Passage",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 812,
+        "y": 546
+      }
+    ],
+    "sections": [
+      {
+        "name": "Burrough Tube Fuse",
+        "ref": "Main/Barheim Passage/Burrough Tube Fuse"
+      },
+      {
+        "name": "Main Path Chests",
+        "ref": "Main/Barheim Passage/Barheim Chests"
+      },
+      {
+        "name": "Defeat Zalera",
+        "ref": "Main/Barheim Passage/Defeat Zalera"
+      },
+      {
+        "name": "Deep Barheim Chests",
+        "ref": "Main/Barheim Passage/Deep Barheim Chests"
+      },
+      {
+        "name": "Defeat Bloodwing",
+        "ref": "Main/Barheim Passage/Defeat Bloodwing"
+      },
+      {
+        "name": "Ishteen - Bony Trophy",
+        "ref": "Main/Barheim Passage/Ishteen - Bony Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Jahara",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 620,
+        "y": 970
+      }
+    ],
+    "sections": [
+      {
+        "name": "Elderknoll Chest",
+        "ref": "Main/Jahara/Elderknoll Chest"
+      },
+      {
+        "name": "Great-chief Elder After Defeating Vossler",
+        "ref": "Main/Jahara/Great-chief Elder After Defeating Vossler"
+      },
+      {
+        "name": "Guest (Larsa)",
+        "ref": "Main/Jahara/Guest (Larsa)"
+      },
+      {
+        "name": "Hunt 10: Enkelados",
+        "ref": "Main/Jahara/Hunt 10: Enkelados"
+      },
+      {
+        "name": "Hunt 12: Ixtab",
+        "ref": "Main/Jahara/Hunt 12: Ixtab"
+      },
+      {
+        "name": "Hunt 15: Mindflayer",
+        "ref": "Main/Jahara/Hunt 15: Mindflayer"
+      },
+      {
+        "name": "Hunt 30: Catoblepas",
+        "ref": "Main/Jahara/Hunt 30: Catoblepas"
+      }
+    ]
+  },
+  {
+    "name": "Eruyt Village",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 980,
+        "y": 970
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Eruyt Village/Chests - Eruyt Village"
+      },
+      {
+        "name": "Lente's Tear",
+        "ref": "Main/Eruyt Village/Lente's Tear"
+      },
+      {
+        "name": "Hunt 14: Vorpal Bunny",
+        "ref": "Main/Eruyt Village/Hunt 14: Vorpal Bunny"
+      },
+      {
+        "name": "Hunt 29: Wild Malboro",
+        "ref": "Main/Eruyt Village/Hunt 29: Wild Malboro"
+      }
+    ]
+  },
+  {
+    "name": "Stilshrine of Miriam",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1200,
+        "y": 1160
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance Chests",
+        "ref": "Main/Stilshrine of Miriam/Entrance Chests - Stillshrine"
+      },
+      {
+        "name": "Interior Chests",
+        "ref": "Main/Stilshrine of Miriam/Interior Chests - Stillshrine"
+      },
+      {
+        "name": "Defeat Mateus",
+        "ref": "Main/Stilshrine of Miriam/Defeat Mateus"
+      },
+      {
+        "name": "Sword of Kings",
+        "ref": "Main/Stilshrine of Miriam/Sword of Kings"
+      },
+      {
+        "name": "Defeat Zeromus",
+        "ref": "Main/Stilshrine of Miriam/Defeat Zeromus"
+      },
+      {
+        "name": "Myath - Eternal Trophy",
+        "ref": "Main/Stilshrine of Miriam/Myath - Eternal Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Tchita Uplands",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1192,
+        "y": 256
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Tchita Uplands/Chests - Tchita Uplands"
+      },
+      {
+        "name": "Soul Ward Key",
+        "ref": "Main/Tchita Uplands/Soul Ward Key"
+      },
+      {
+        "name": "Mandragora Reward",
+        "ref": "Main/Tchita Uplands/Mandragora Reward"
+      },
+      {
+        "name": "Defeat Lindwyrm",
+        "ref": "Main/Tchita Uplands/Defeat Lindwyrm"
+      },
+      {
+        "name": "Lindwyrm Drop",
+        "ref": "Main/Tchita Uplands/Lindwyrm Drop"
+      },
+      {
+        "name": "Kris - Odiferous Trophy",
+        "ref": "Main/Tchita Uplands/Kris - Odiferous Trophy"
+      },
+      {
+        "name": "Grimalkin - Whiskered Trophy",
+        "ref": "Main/Tchita Uplands/Grimalkin - Whiskered Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Draklor Laboratory",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1262,
+        "y": 56
+      }
+    ],
+    "sections": [
+      {
+        "name": "Lab Access Card",
+        "ref": "Main/Draklor Laboratory/Lab Access Card"
+      },
+      {
+        "name": "Chests (6613, 6711, 6801, 7002)",
+        "ref": "Main/Draklor Laboratory/Chests (6613, 6711, 6801, 7002)"
+      },
+      {
+        "name": "Defeat Cid 1",
+        "ref": "Main/Draklor Laboratory/Defeat Cid 1"
+      }
+    ]
+  },
+  {
+    "name": "Archades",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1214,
+        "y": 104
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chops",
+        "ref": "Main/Archades/Chops"
+      },
+      {
+        "name": "Sandalwood Chop",
+        "ref": "Main/Archades/Sandalwood Chop"
+      },
+      {
+        "name": "Hunt 20: Darksteel",
+        "ref": "Main/Archades/Hunt 20: Darksteel"
+      },
+      {
+        "name": "Hunt 23: Overlord",
+        "ref": "Main/Archades/Hunt 23: Overlord"
+      },
+      {
+        "name": "Grand Arcade chest",
+        "ref": "Main/Archades/Grand Arcade chest"
+      },
+      {
+        "name": "Hunt Club Owner: 5",
+        "ref": "Main/Archades/Hunt Club Owner: 5"
+      },
+      {
+        "name": "Hunt Club Owner: 10",
+        "ref": "Main/Archades/Hunt Club Owner: 10"
+      },
+      {
+        "name": "Hunt Club Owner: 15",
+        "ref": "Main/Archades/Hunt Club Owner: 15"
+      },
+      {
+        "name": "Hunt Club Owner: 20",
+        "ref": "Main/Archades/Hunt Club Owner: 20"
+      },
+      {
+        "name": "Hunt Club Owner: 25",
+        "ref": "Main/Archades/Hunt Club Owner: 25"
+      },
+      {
+        "name": "Hunt Club Owner: 30",
+        "ref": "Main/Archades/Hunt Club Owner: 30"
+      }
+    ]
+  },
+  {
+    "name": "Giruvegan",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 640,
+        "y": 1140
+      }
+    ],
+    "sections": [
+      {
+        "name": "Main Path Chests",
+        "ref": "Main/Giruvegan/Main Path Chests - Giruvegan"
+      },
+      {
+        "name": "Defeat Piscodaemon",
+        "ref": "Main/Giruvegan/Defeat Piscodaemon"
+      },
+      {
+        "name": "Defeat Shemhazai",
+        "ref": "Main/Giruvegan/Defeat Shemhazai"
+      },
+      {
+        "name": "Treaty-Blade",
+        "ref": "Main/Giruvegan/Treaty-Blade"
+      },
+      {
+        "name": "Crystal Knight - Skull Trophy",
+        "ref": "Main/Giruvegan/Crystal Knight - Skull Trophy"
+      },
+      {
+        "name": "Defeat Ultima",
+        "ref": "Main/Giruvegan/Defeat Ultima"
+      },
+      {
+        "name": "Upper Crystal Chests",
+        "ref": "Main/Giruvegan/Upper Crystal Chests"
+      }
+    ]
+  },
+  {
+    "name": "The Pharos",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1880,
+        "y": 890
+      }
+    ],
+    "sections": [
+      {
+        "name": "First Floor Chests",
+        "ref": "Main/The Pharos/First Floor Chests"
+      },
+      {
+        "name": "Ascent Chests",
+        "ref": "Main/The Pharos/Ascent Chests"
+      },
+      {
+        "name": "Black Orbs 1-3",
+        "ref": "Main/The Pharos/Black Orbs 1-3"
+      },
+      {
+        "name": "Defeat Hashmal",
+        "ref": "Main/The Pharos/Defeat Hashmal"
+      },
+      {
+        "name": "Defeat Famfrit and Cid 2",
+        "ref": "Main/The Pharos/Defeat Famfrit and Cid 2"
+      },
+      {
+        "name": "Defeat Pylraster",
+        "ref": "Main/The Pharos/Defeat Pylraster"
+      },
+      {
+        "name": "Avenger - Vile Trophy",
+        "ref": "Main/The Pharos/Avenger - Vile Trophy"
+      }
+    ]
+  },
+  {
+    "name": "The Pharos Subterra",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1880,
+        "y": 948
+      }
+    ],
+    "sections": [
+      {
+        "name": "Defeat Ixion",
+        "ref": "Main/The Pharos Subterra/Defeat Ixion"
+      },
+      {
+        "name": "Defeat Shadowseer",
+        "ref": "Main/The Pharos Subterra/Defeat Shadowseer"
+      },
+      {
+        "name": "Penumbra Chests",
+        "ref": "Main/The Pharos Subterra/Penumbra Chests"
+      },
+      {
+        "name": "Umbra Chests",
+        "ref": "Main/The Pharos Subterra/Umbra Chests"
+      },
+      {
+        "name": "Abyssal Chests",
+        "ref": "Main/The Pharos Subterra/Abyssal Chests"
+      },
+      {
+        "name": "Black Orbs 4-8",
+        "ref": "Main/The Pharos Subterra/Black Orbs 4-8"
+      },
+      {
+        "name": "Black Orbs 9-15",
+        "ref": "Main/The Pharos Subterra/Black Orbs 9-15"
+      },
+      {
+        "name": "Black Orbs 16-24",
+        "ref": "Main/The Pharos Subterra/Black Orbs 16-24"
+      }
+    ]
+  },
+  {
+    "name": "Dalmasca Estersand",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 880,
+        "y": 632
+      }
+    ],
+    "sections": [
+      {
+        "name": "Outpost Mysterious Glints",
+        "ref": "Main/Dalmasca Estersand/Outpost Mysterious Glints"
+      },
+      {
+        "name": "Southern Chests",
+        "ref": "Main/Dalmasca Estersand/DE Southern Chests"
+      },
+      {
+        "name": "Defeat Rogue Tomato",
+        "ref": "Main/Dalmasca Estersand/Defeat Rogue Tomato"
+      },
+      {
+        "name": "Defeat Flowering Cactoid",
+        "ref": "Main/Dalmasca Estersand/Defeat Flowering Cactoid"
+      },
+      {
+        "name": "Flowering Cactoid Drop",
+        "ref": "Main/Dalmasca Estersand/Flowering Cactoid Drop"
+      },
+      {
+        "name": "Hunt 3: Flowering Cactoid",
+        "ref": "Main/Dalmasca Estersand/Hunt 3: Flowering Cactoid"
+      },
+      {
+        "name": "Dantro's Wife Give Cactus Flower",
+        "ref": "Main/Dalmasca Estersand/Dantro's Wife Give Cactus Flower"
+      },
+      {
+        "name": "Cactus Family Quest",
+        "ref": "Main/Dalmasca Estersand/Cactus Family Quest"
+      },
+      {
+        "name": "Northern Chests",
+        "ref": "Main/Dalmasca Estersand/DE Northern Chests"
+      },
+      {
+        "name": "Patient Barheim Key",
+        "ref": "Main/Dalmasca Estersand/Patient Barheim Key"
+      },
+      {
+        "name": "Hunt 16: Bloodwing",
+        "ref": "Main/Dalmasca Estersand/Hunt 16: Bloodwing"
+      },
+      {
+        "name": "Terror Tyrant - Hide-covered Trophy",
+        "ref": "Main/Dalmasca Estersand/Terror Tyrant - Hide-covered Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Bhujerba",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1458,
+        "y": 710
+      }
+    ],
+    "sections": [
+      {
+        "name": "Niray Site 3 Key",
+        "ref": "Main/Bhujerba/Niray Site 3 Key"
+      },
+      {
+        "name": "Hunt 5: Nidhogg",
+        "ref": "Main/Bhujerba/Hunt 5: Nidhogg"
+      },
+      {
+        "name": "Hunt 34: Rocktoise",
+        "ref": "Main/Bhujerba/Hunt 34: Rocktoise"
+      },
+      {
+        "name": "Pilika Merchant's Armband",
+        "ref": "Main/Bhujerba/Pilika Merchant's Armband"
+      },
+      {
+        "name": "Clio's Technicks Pilika's Diary",
+        "ref": "Main/Bhujerba/Clio's Technicks Pilika's Diary"
+      },
+      {
+        "name": "Pilika Give Pilika's Diary",
+        "ref": "Main/Bhujerba/Pilika Give Pilika's Diary"
+      },
+      {
+        "name": "Hunt 38: Antlion",
+        "ref": "Main/Bhujerba/Hunt 38: Antlion"
+      },
+      {
+        "name": "Hunt 27: Diabolos",
+        "ref": "Main/Bhujerba/Hunt 27: Diabolos"
+      }
+    ]
+  },
+  {
+    "name": "Mt. Bur-Omisace",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1380,
+        "y": 980
+      }
+    ],
+    "sections": [
+      {
+        "name": "Temple Grounds chest",
+        "ref": "Main/Mt. Bur-Omisace/Temple Grounds chest"
+      },
+      {
+        "name": "Hunt 13: Feral Retriever",
+        "ref": "Main/Mt. Bur-Omisace/Hunt 13: Feral Retriever"
+      },
+      {
+        "name": "Acolyte Stone of the Condemner",
+        "ref": "Main/Mt. Bur-Omisace/Acolyte Stone of the Condemner"
+      },
+      {
+        "name": "Hunt 28: Piscodaemon",
+        "ref": "Main/Mt. Bur-Omisace/Hunt 28: Piscodaemon"
+      },
+      {
+        "name": "Hunt 37: Trickster",
+        "ref": "Main/Mt. Bur-Omisace/Hunt 37: Trickster"
+      },
+      {
+        "name": "Hunt 31: Fafnir",
+        "ref": "Main/Mt. Bur-Omisace/Hunt 31: Fafnir"
+      }
+    ]
+  },
+  {
+    "name": "Nalbina",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 882,
+        "y": 501
+      }
+    ],
+    "sections": [
+      {
+        "name": "Hunt 17: Atomos",
+        "ref": "Main/Nalbina/Hunt 17: Atomos"
+      },
+      {
+        "name": "Hunt 18: Roblon",
+        "ref": "Main/Nalbina/Hunt 18: Roblon"
+      },
+      {
+        "name": "Hunt 24: Goliath",
+        "ref": "Main/Nalbina/Hunt 24: Goliath"
+      },
+      {
+        "name": "Hunt 25: Deathscythe",
+        "ref": "Main/Nalbina/Hunt 25: Deathscythe"
+      },
+      {
+        "name": "Jovy Reward",
+        "ref": "Main/Nalbina/Jovy Reward"
+      },
+      {
+        "name": "Hunt 39: Carrot",
+        "ref": "Main/Nalbina/Hunt 39: Carrot"
+      }
+    ]
+  },
+  {
+    "name": "Mosphoran Highwaste",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 862,
+        "y": 421
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Mosphoran Highwaste/Chests - Mosphoran Highwaste"
+      },
+      {
+        "name": "Chests Past Chocobo Trail",
+        "ref": "Main/Mosphoran Highwaste/Chests Past Chocobo Trail"
+      },
+      {
+        "name": "Defeat Atomos",
+        "ref": "Main/Mosphoran Highwaste/Defeat Atomos"
+      },
+      {
+        "name": "Hunt 19: Braegh",
+        "ref": "Main/Mosphoran Highwaste/Hunt 19: Braegh"
+      },
+      {
+        "name": "Defeat Exodus",
+        "ref": "Main/Mosphoran Highwaste/Defeat Exodus"
+      },
+      {
+        "name": "Dheed - Leathern Trophy",
+        "ref": "Main/Mosphoran Highwaste/Dheed - Leathern Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Balfonheim",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1578,
+        "y": 500
+      }
+    ],
+    "sections": [
+      {
+        "name": "Footrace",
+        "ref": "Main/Balfonheim/Footrace"
+      },
+      {
+        "name": "Guest (Reddas)",
+        "ref": "Main/Balfonheim/Guest (Reddas)"
+      },
+      {
+        "name": "Chests",
+        "ref": "Main/Balfonheim/Chests - Balfonheim Port"
+      },
+      {
+        "name": "Hunt 21: Vyraal",
+        "ref": "Main/Balfonheim/Hunt 21: Vyraal"
+      },
+      {
+        "name": "Hunt 43: Ixion - Whitecap Wench",
+        "ref": "Main/Balfonheim/Hunt 43: Ixion"
+      },
+      {
+        "name": "Hunt 32: Pylraster",
+        "ref": "Main/Balfonheim/Hunt 32: Pylraster"
+      }
+    ]
+  },
+  {
+    "name": "Old Archades",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1164,
+        "y": 154
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Old Archades/Chests - Old Archades"
+      },
+      {
+        "name": "Hunt 22: Lindwyrm",
+        "ref": "Main/Old Archades/Hunt 22: Lindwyrm"
+      },
+      {
+        "name": "Moonsilver Medallion",
+        "ref": "Main/Old Archades/Moonsilver Medallion"
+      }
+    ]
+  },
+  {
+    "name": "Skyferry",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1200,
+        "y": 600
+      }
+    ],
+    "sections": [
+      {
+        "name": "Air Deck chest",
+        "ref": "Main/Skyferry/Air Deck chest"
+      },
+      {
+        "name": "Ann's Letter",
+        "ref": "Main/Skyferry/Ann's Letter"
+      },
+      {
+        "name": "Defeat Deathgaze",
+        "ref": "Main/Skyferry/Defeat Deathgaze"
+      },
+      {
+        "name": "Hunt 26: Deathgaze",
+        "ref": "Main/Skyferry/Hunt 26: Deathgaze"
+      },
+      {
+        "name": "Ann's Sisters Quest",
+        "ref": "Main/Skyferry/Ann's Sisters Quest"
+      }
+    ]
+  },
+  {
+    "name": "Clan Hall",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 710,
+        "y": 630
+      }
+    ],
+    "sections": [
+      {
+        "name": "Hunt 41: Belito",
+        "ref": "Main/Clan Hall/Hunt 41: Belito"
+      },
+      {
+        "name": "Hunt 44: Shadowseer",
+        "ref": "Main/Clan Hall/Hunt 44: Shadowseer"
+      },
+      {
+        "name": "Hunt 40: Gilgamesh",
+        "ref": "Main/Clan Hall/Hunt 40: Gilgamesh"
+      },
+      {
+        "name": "Hunt 45: Yiazmat",
+        "ref": "Main/Clan Hall/Hunt 45: Yiazmat"
+      },
+      {
+        "name": "Clan Rank: Moppet",
+        "ref": "Main/Clan Hall/Clan Rank: Moppet"
+      },
+      {
+        "name": "Clan Rank: Hedge Knight",
+        "ref": "Main/Clan Hall/Clan Rank: Hedge Knight"
+      },
+      {
+        "name": "Clan Rank: Rear Guard",
+        "ref": "Main/Clan Hall/Clan Rank: Rear Guard"
+      },
+      {
+        "name": "Clan Rank: Vanguard",
+        "ref": "Main/Clan Hall/Clan Rank: Vanguard"
+      },
+      {
+        "name": "Clan Rank: Headhunter",
+        "ref": "Main/Clan Hall/Clan Rank: Headhunter"
+      },
+      {
+        "name": "Clan Rank: Ward of Justice",
+        "ref": "Main/Clan Hall/Clan Rank: Ward of Justice"
+      },
+      {
+        "name": "Clan Rank: Brave Companion",
+        "ref": "Main/Clan Hall/Clan Rank: Brave Companion"
+      },
+      {
+        "name": "Clan Rank: Riskbreaker",
+        "ref": "Main/Clan Hall/Clan Rank: Riskbreaker"
+      },
+      {
+        "name": "Clan Rank: Paragon of Justice",
+        "ref": "Main/Clan Hall/Clan Rank: Paragon of Justice"
+      },
+      {
+        "name": "Clan Rank: High Guardian",
+        "ref": "Main/Clan Hall/Clan Rank: High Guardian"
+      },
+      {
+        "name": "Clan Rank: Knight of the Round",
+        "ref": "Main/Clan Hall/Clan Rank: Knight of the Round"
+      },
+      {
+        "name": "Clan Boss: Flans",
+        "ref": "Main/Clan Hall/Clan Boss: Flans"
+      },
+      {
+        "name": "Clan Boss: Firemane",
+        "ref": "Main/Clan Hall/Clan Boss: Firemane"
+      },
+      {
+        "name": "Clan Boss: Earth Tyrant",
+        "ref": "Main/Clan Hall/Clan Boss: Earth Tyrant"
+      },
+      {
+        "name": "Clan Boss: Mimic Queen",
+        "ref": "Main/Clan Hall/Clan Boss: Mimic Queen"
+      },
+      {
+        "name": "Clan Boss: Demon Wall 1",
+        "ref": "Main/Clan Hall/Clan Boss: Demon Wall 1"
+      },
+      {
+        "name": "Clan Boss: Demon Wall 2",
+        "ref": "Main/Clan Hall/Clan Boss: Demon Wall 2"
+      },
+      {
+        "name": "Clan Boss: Elder Wyrm",
+        "ref": "Main/Clan Hall/Clan Boss: Elder Wyrm"
+      },
+      {
+        "name": "Clan Boss: Tiamat",
+        "ref": "Main/Clan Hall/Clan Boss: Tiamat"
+      },
+      {
+        "name": "Clan Boss: Vinuskar",
+        "ref": "Main/Clan Hall/Clan Boss: Vinuskar"
+      },
+      {
+        "name": "Clan Boss: King Bomb",
+        "ref": "Main/Clan Hall/Clan Boss: King Bomb"
+      },
+      {
+        "name": "Clan Boss: Mandragoras",
+        "ref": "Main/Clan Hall/Clan Boss: Mandragoras"
+      },
+      {
+        "name": "Clan Boss: Ahriman",
+        "ref": "Main/Clan Hall/Clan Boss: Ahriman"
+      },
+      {
+        "name": "Clan Boss: Hell Wyrm",
+        "ref": "Main/Clan Hall/Clan Boss: Hell Wyrm"
+      },
+      {
+        "name": "Clan Boss: Rafflesia",
+        "ref": "Main/Clan Hall/Clan Boss: Rafflesia"
+      },
+      {
+        "name": "Clan Boss: Daedalus",
+        "ref": "Main/Clan Hall/Clan Boss: Daedalus"
+      },
+      {
+        "name": "Clan Boss: Tyrant",
+        "ref": "Main/Clan Hall/Clan Boss: Tyrant"
+      },
+      {
+        "name": "Clan Boss: Hydro",
+        "ref": "Main/Clan Hall/Clan Boss: Hydro"
+      },
+      {
+        "name": "Clan Boss: Humbaba Mistant",
+        "ref": "Main/Clan Hall/Clan Boss: Humbaba Mistant"
+      },
+      {
+        "name": "Clan Boss: Fury",
+        "ref": "Main/Clan Hall/Clan Boss: Fury"
+      },
+      {
+        "name": "Clan Boss: Omega Mark XII",
+        "ref": "Main/Clan Hall/Clan Boss: Omega Mark XII"
+      },
+      {
+        "name": "Clan Esper: Control 1",
+        "ref": "Main/Clan Hall/Clan Esper: Control 1"
+      },
+      {
+        "name": "Clan Esper: Control 4",
+        "ref": "Main/Clan Hall/Clan Esper: Control 4"
+      },
+      {
+        "name": "Clan Esper: Control 8",
+        "ref": "Main/Clan Hall/Clan Esper: Control 8"
+      },
+      {
+        "name": "Clan Esper: Control 13",
+        "ref": "Main/Clan Hall/Clan Esper: Control 13"
+      }
+    ]
+  },
+  {
+    "name": "Dalmasca Westersand",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 650,
+        "y": 680
+      }
+    ],
+    "sections": [
+      {
+        "name": "Dalmasca Westersand Chests",
+        "ref": "Main/Dalmasca Westersand/Chests"
+      },
+      {
+        "name": "Earth Tyrant Quest Wind Globe",
+        "ref": "Main/Dalmasca Westersand/Earth Tyrant Quest Wind Globe"
+      },
+      {
+        "name": "Defeat Thextera",
+        "ref": "Main/Dalmasca Westersand/Defeat Thextera"
+      },
+      {
+        "name": "Defeat Ring Wyrm",
+        "ref": "Main/Dalmasca Westersand/Defeat Ring Wyrm"
+      },
+      {
+        "name": "Clan Boss: Earth Tyrant",
+        "ref": "Main/Clan Hall/Clan Boss: Earth Tyrant"
+      },
+      {
+        "name": "Kaiser Wolf - Fanged Trophy",
+        "ref": "Main/Dalmasca Westersand/Kaiser Wolf - Fanged Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Garamsythe Waterway",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 782,
+        "y": 606
+      }
+    ],
+    "sections": [
+      {
+        "name": "Dull Fragment",
+        "ref": "Main/Garamsythe Waterway/Dull Fragment"
+      },
+      {
+        "name": "Defeat Wraith",
+        "ref": "Main/Garamsythe Waterway/Defeat Wraith"
+      },
+      {
+        "name": "Party Members (Balthier, Fran, Guest)",
+        "ref": "Main/Garamsythe Waterway/Party Members (Balthier, Fran, Guest)"
+      },
+      {
+        "name": "Unchanged Water Chests",
+        "ref": "Main/Garamsythe Waterway/Unchanged Water Chests"
+      },
+      {
+        "name": "Drained Water Chests",
+        "ref": "Main/Garamsythe Waterway/Drained Water Chests"
+      },
+      {
+        "name": "Defeat White Mousse",
+        "ref": "Main/Garamsythe Waterway/Defeat White Mousse"
+      },
+      {
+        "name": "White Mousse Drop",
+        "ref": "Main/Garamsythe Waterway/White Mousse Drop"
+      },
+      {
+        "name": "Defeat Orthros",
+        "ref": "Main/Garamsythe Waterway/Defeat Orthros"
+      },
+      {
+        "name": "Orthros Drop",
+        "ref": "Main/Garamsythe Waterway/Orthros Drop"
+      },
+      {
+        "name": "Defeat Cuchulainn",
+        "ref": "Main/Garamsythe Waterway/Defeat Cuchulainn"
+      },
+      {
+        "name": "Gavial - Fur-scaled Trophy",
+        "ref": "Main/Garamsythe Waterway/Gavial - Fur-scaled Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Ozmone Plain",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 800,
+        "y": 870
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests - Ozmone",
+        "ref": "Main/Ozmone Plain/Chests"
+      },
+      {
+        "name": "Defeat Enkelados",
+        "ref": "Main/Ozmone Plain/Defeat Enkelados"
+      },
+      {
+        "name": "Enkelados Drop",
+        "ref": "Main/Ozmone Plain/Enkelados Drop"
+      },
+      {
+        "name": "Killbug - Metallic Trophy",
+        "ref": "Main/Ozmone Plain/Killbug - Metallic Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Golmore Jungle",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1010,
+        "y": 1060
+      }
+    ],
+    "sections": [
+      {
+        "name": "Early Chests",
+        "ref": "Main/Golmore Jungle/Early Chests"
+      },
+      {
+        "name": "Late Chests",
+        "ref": "Main/Golmore Jungle/Late Chests"
+      },
+      {
+        "name": "Defeat Vorpal Bunny",
+        "ref": "Main/Golmore Jungle/Defeat Vorpal Bunny"
+      },
+      {
+        "name": "Vorpal Bunny Drop",
+        "ref": "Main/Golmore Jungle/Vorpal Bunny Drop"
+      },
+      {
+        "name": "Biding Mantis - Scythe Trophy",
+        "ref": "Main/Golmore Jungle/Biding Mantis - Scythe Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Phon Coast",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 972,
+        "y": 306
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests - Phon Coast",
+        "ref": "Main/Phon Coast/Chests"
+      },
+      {
+        "name": "Site 11 Key",
+        "ref": "Main/Phon Coast/Site 11 Key"
+      },
+      {
+        "name": "Thalassinon - Shelled Trophy",
+        "ref": "Main/Phon Coast/Thalassinon - Shelled Trophy"
+      },
+      {
+        "name": "Skullash - Clawed Trophy",
+        "ref": "Main/Phon Coast/Skullash - Clawed Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Paramina Rift",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1180,
+        "y": 1100
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Paramina Rift/Chests - Paramina Rift"
+      },
+      {
+        "name": "Defeat Feral Retriever",
+        "ref": "Main/Paramina Rift/Defeat Feral Retriever"
+      },
+      {
+        "name": "Defeat Trickster",
+        "ref": "Main/Paramina Rift/Defeat Trickster"
+      },
+      {
+        "name": "Ancbolder - Mind Trophy",
+        "ref": "Main/Paramina Rift/Ancbolder - Mind Trophy"
+      },
+      {
+        "name": "Defeat Fafnir",
+        "ref": "Main/Paramina Rift/Defeat Fafnir"
+      },
+      {
+        "name": "Fafnir Drop",
+        "ref": "Main/Paramina Rift/Fafnir Drop"
+      }
+    ]
+  },
+  {
+    "name": "Zertinan Caverns",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 550,
+        "y": 790
+      }
+    ],
+    "sections": [
+      {
+        "name": "Defeat Adrammelech",
+        "ref": "Main/Zertinan Caverns/Defeat Adrammelech"
+      },
+      {
+        "name": "Westersand Chests",
+        "ref": "Main/Zertinan Caverns/Westersand Chests"
+      },
+      {
+        "name": "Ozmone Chests",
+        "ref": "Main/Zertinan Caverns/Ozmone Chests"
+      },
+      {
+        "name": "Remaining Chests",
+        "ref": "Main/Zertinan Caverns/Remaining Chests"
+      },
+      {
+        "name": "Defeat Marilith",
+        "ref": "Main/Zertinan Caverns/Defeat Marilith"
+      },
+      {
+        "name": "Marilith Drop",
+        "ref": "Main/Zertinan Caverns/Marilith Drop"
+      },
+      {
+        "name": "Alteci - Fell Trophy",
+        "ref": "Main/Zertinan Caverns/Alteci - Fell Trophy"
+      },
+      {
+        "name": "Defeat Catoblepas",
+        "ref": "Main/Zertinan Caverns/Defeat Catoblepas"
+      }
+    ]
+  },
+  {
+    "name": "Cerobi Steppe",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1528,
+        "y": 350
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Cerobi Steppe/Chests - Cerobi Steppe"
+      },
+      {
+        "name": "Defeat Vyraal",
+        "ref": "Main/Cerobi Steppe/Defeat Vyraal"
+      },
+      {
+        "name": "Vyraal Drop",
+        "ref": "Main/Cerobi Steppe/Vyraal Drop"
+      },
+      {
+        "name": "Wyrm Philosopher Ageworn Key",
+        "ref": "Main/Cerobi Steppe/Wyrm Philosopher Ageworn Key"
+      },
+      {
+        "name": "Bluesang - Cruel Trophy",
+        "ref": "Main/Cerobi Steppe/Bluesang - (Cruel Trophy)"
+      },
+      {
+        "name": "Aspidochelon - Adamantine Trophy",
+        "ref": "Main/Cerobi Steppe/Aspidochelon - (Adamantine Trophy)"
+      }
+    ]
+  },
+  {
+    "name": "Nabreus Deadlands",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 802,
+        "y": 301
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests - Deadlands",
+        "ref": "Main/Nabreus Deadlands/Chests"
+      },
+      {
+        "name": "Defeat Roblon",
+        "ref": "Main/Nabreus Deadlands/Defeat Roblon"
+      },
+      {
+        "name": "Nabreus Medallion",
+        "ref": "Main/Nabreus Deadlands/Nabreus Medallion"
+      },
+      {
+        "name": "Arioch - Vengeful Trophy",
+        "ref": "Main/Nabreus Deadlands/Arioch - Vengeful Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Necrohol of Nabudis",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 822,
+        "y": 251
+      }
+    ],
+    "sections": [
+      {
+        "name": "Defeat Chaos",
+        "ref": "Main/Necrohol of Nabudis/Defeat Chaos"
+      },
+      {
+        "name": "Main Area Chests",
+        "ref": "Main/Necrohol of Nabudis/Main Area Chests - Necrohol"
+      },
+      {
+        "name": "Defeat Goliath",
+        "ref": "Main/Necrohol of Nabudis/Defeat Goliath"
+      },
+      {
+        "name": "Defeat Deathscythe",
+        "ref": "Main/Necrohol of Nabudis/Defeat Deathscythe"
+      },
+      {
+        "name": "Chaos Room Chest",
+        "ref": "Main/Necrohol of Nabudis/Chaos Room Chest"
+      },
+      {
+        "name": "Humbaba Mistant Room Chest",
+        "ref": "Main/Necrohol of Nabudis/Humbaba Mistant Room Chest"
+      },
+      {
+        "name": "Fury Room Chest",
+        "ref": "Main/Necrohol of Nabudis/Fury Room Chest"
+      },
+      {
+        "name": "Medallion of Might",
+        "ref": "Main/Necrohol of Nabudis/Medallion of Might"
+      },
+      {
+        "name": "Vorres - Gravesoil Trophy",
+        "ref": "Main/Necrohol of Nabudis/Vorres - Gravesoil Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Henne Mines",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 800,
+        "y": 1000
+      }
+    ],
+    "sections": [
+      {
+        "name": "Main Path Chests",
+        "ref": "Main/Henne Mines/Main Path Chests - Henne Mines"
+      },
+      {
+        "name": "Defeat Ixtab",
+        "ref": "Main/Henne Mines/Defeat Ixtab"
+      },
+      {
+        "name": "Defeat Mindflayer",
+        "ref": "Main/Henne Mines/Defeat Mindflayer"
+      },
+      {
+        "name": "Defeat Zodiark",
+        "ref": "Main/Henne Mines/Defeat Zodiark"
+      },
+      {
+        "name": "Melt - Slimy Trophy",
+        "ref": "Main/Henne Mines/Melt - Slimy Trophy"
+      },
+      {
+        "name": "Deep Henne Chests",
+        "ref": "Main/Henne Mines/Deep Henne Chests - Henne Mines"
+      }
+    ]
+  },
+  {
+    "name": "Lhusu Mines",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1488,
+        "y": 660
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests up to Site 2",
+        "ref": "Main/Lhusu Mines/Chests up to Site 2"
+      },
+      {
+        "name": "Defeat Nidhogg",
+        "ref": "Main/Lhusu Mines/Defeat Nidhogg"
+      },
+      {
+        "name": "Defeat Rocktoise",
+        "ref": "Main/Lhusu Mines/Defeat Rocktoise"
+      },
+      {
+        "name": "Site 3 Chest",
+        "ref": "Main/Lhusu Mines/Site 3 Chest"
+      },
+      {
+        "name": "Defeat Antlion",
+        "ref": "Main/Lhusu Mines/Defeat Antlion"
+      },
+      {
+        "name": "Site 11+ Chests",
+        "ref": "Main/Lhusu Mines/Site 11+ Chests"
+      },
+      {
+        "name": "Defeat Diabolos",
+        "ref": "Main/Lhusu Mines/Defeat Diabolos"
+      },
+      {
+        "name": "Defeat Gilgamesh",
+        "ref": "Main/Lhusu Mines/Defeat Gilgamesh"
+      },
+      {
+        "name": "Disma - Accursed Trophy",
+        "ref": "Main/Lhusu Mines/Disma - Accursed Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Ogir-Yensa Sandsea",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 550,
+        "y": 650
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Ogir-Yensa Sandsea/Chests - Ogir-Yensa"
+      },
+      {
+        "name": "Bull Chocobo - Beaked Trophy",
+        "ref": "Main/Ogir-Yensa Sandsea/Bull Chocobo - Beaked Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Salikawood",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 902,
+        "y": 356
+      }
+    ],
+    "sections": [
+      {
+        "name": "Pre King Bomb Chests",
+        "ref": "Main/Salikawood/Pre King Bomb Chests"
+      },
+      {
+        "name": "Defeat Braegh",
+        "ref": "Main/Salikawood/Defeat Braegh"
+      },
+      {
+        "name": "Post King Bomb Chests",
+        "ref": "Main/Salikawood/Post King Bomb Chests"
+      },
+      {
+        "name": "Rageclaw - Sickle Trophy",
+        "ref": "Main/Salikawood/Rageclaw - Sickle Trophy"
+      },
+      {
+        "name": "Defeat Carrot",
+        "ref": "Main/Salikawood/Defeat Carrot"
+      }
+    ]
+  },
+  {
+    "name": "Feywood",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 810,
+        "y": 1100
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests - Feywood",
+        "ref": "Main/Feywood/Chests"
+      },
+      {
+        "name": "Defeat Wild Malboro",
+        "ref": "Main/Feywood/Defeat Wild Malboro"
+      },
+      {
+        "name": "Defeat Behemoth King",
+        "ref": "Main/Feywood/Defeat Behemoth King"
+      },
+      {
+        "name": "Dreadguard - Feathered Trophy",
+        "ref": "Main/Feywood/Dreadguard - Feathered Trophy"
+      }
+    ]
+  },
+  {
+    "name": "Sochen Cave Palace",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1242,
+        "y": 206
+      }
+    ],
+    "sections": [
+      {
+        "name": "Entrance Chests",
+        "ref": "Main/Sochen Cave Palace/Entrance Chests - Sochen Cave"
+      },
+      {
+        "name": "Interior Chests",
+        "ref": "Main/Sochen Cave Palace/Interior Chests - Sochen Cave"
+      },
+      {
+        "name": "Defeat Darksteel",
+        "ref": "Main/Sochen Cave Palace/Defeat Darksteel"
+      },
+      {
+        "name": "Defeat Overlord",
+        "ref": "Main/Sochen Cave Palace/Defeat Overlord"
+      },
+      {
+        "name": "Wendice - Frigid Trophy",
+        "ref": "Main/Sochen Cave Palace/Wendice - Frigid Trophy"
+      },
+      {
+        "name": "Anubys - Ensanguined Trophy",
+        "ref": "Main/Sochen Cave Palace/Anubys - Ensanguined Trophy"
+      },
+      {
+        "name": "Hell Wyrm Chest",
+        "ref": "Main/Sochen Cave Palace/Hell Wyrm Chest"
+      }
+    ]
+  },
+  {
+    "name": "Ridorana Cataract",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 1880,
+        "y": 840
+      }
+    ],
+    "sections": [
+      {
+        "name": "Chests",
+        "ref": "Main/Ridorana Cataract/Chests - Ridorana Cataract"
+      },
+      {
+        "name": "Abelisk - Reptilian Trophy",
+        "ref": "Main/Ridorana Cataract/Abelisk - Reptilian Trophy"
+      },
+      {
+        "name": "Defeat Yiazmat",
+        "ref": "Main/Ridorana Cataract/Defeat Yiazmat"
+      }
+    ]
+  }
+]

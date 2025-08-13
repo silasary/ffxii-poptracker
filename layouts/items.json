@@ -16,18 +16,22 @@
                                 "title": "Characters",
                                 "content": {
                                     "type": "itemgrid",
-                                    "item_margin": "10, 10",
+                                    "item_margin": "2, 2",
+                                    "item_width": 175,
+                                    "item_height": 48,
                                     "h_alignment": "center",
                                     "rows": [
                                         [
-                                            "vaan",
-                                            "balthier",
-                                            "fran"
+                                            "fran",
+                                            "penelo",
                                         ],
                                         [
-                                            "basch",
                                             "ashe",
-                                            "penelo"
+                                            "vaan",
+                                        ],
+                                        [
+                                            "balthier",
+                                            "basch",
                                         ],
                                         [
                                             "guest",
@@ -44,24 +48,30 @@
                                     "content": [
                                         {
                                             "type": "itemgrid",
+                                    "item_margin": "2, 0",
+                                    "item_width": 100,
+                                    "item_height": 56,
                                             "rows": [
+
                                                 [
-                                                    "character_scaled_depth"
+                                                    "character_scaled_depth",
+                                                    "side_quests"
                                                 ],
                                                 [
                                                     "place_treasures",
                                                     "place_hunts",
-                                                    "trophies",
-                                                    "grindy"
+                                                    "place_clan_rank"
+
                                                 ],
                                                 [
-                                                    "place_clan_rank",
+                                                    "trophies",
                                                     "place_clan_boss",
                                                     "place_clan_esper"
                                                 ],
                                                 [
-                                                    "place_chops",
-                                                    "place_black_orbs"
+                                                    "place_black_orbs",
+                                                    "place_chops"
+
                                                 ]
                                             ]
                                         }
@@ -74,8 +84,12 @@
                         "type": "group",
                         "header": "Go Mode",
                         "content": {
-                            "type": "itemgrid",
-                            "rows": [
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 2",
+                                    "item_width": 60,
+                                    "item_height": 90,
+                                    "h_alignment": "center",
+                                    "rows": [
                                 [
                                     "goddess_magicite",
                                     "nethicite",
@@ -83,19 +97,22 @@
                                 ],
                                 [
                                     "sword_of_kings",
+                                    "access_key",
                                     "treaty_blade"
                                 ],
-                                [
-                                    "access_key"
-                                ]
+
                             ]
                         }
                     },
                     {
-                        "type": "group",
-                        "header": "Key Items",
-                        "content": {
-                            "type": "itemgrid",
+  "type": "group",
+  "header": "Key Items",
+  "width": 600,  
+  "content": {
+    "type": "itemgrid",
+    "item_margin": "2,2",
+    "item_width": 75,
+    "item_height": 36,
                             "rows": [
                                 [
                                     "clan_primer",
@@ -156,17 +173,27 @@
                         "type": "group",
                         "header": "Aeropasses",
                         "content": {
-                            "type": "itemgrid",
+                                    "type": "itemgrid",
+                                    "item_margin": "2, 0",
+                                    "item_width": 120,
+                                    "item_height": 44,
+                                    "h_alignment": "center",
                             "rows": [
                                 [
-                                    "rab_aero",
-                                    "nal_aero",
+                                    "rab_aero"
+                                ],
+                                [
                                     "bhu_aero"
                                 ],
                                 [
-                                    "arc_aero",
+                                    "nal_aero"
+                                ],
+                                [
+                                    "arc_aero"
+                                ],
+                                [
                                     "bal_aero"
-                                ]
+                                ],
                             ]
                         }
                     },

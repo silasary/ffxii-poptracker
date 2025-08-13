@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Defeat Behemoth King",
+        "map_locations": [
+          {
+            "map": "feywood_bottom",
+            "x": 456,
+            "y": 1141
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Behemoth King",
+            "ref": "Main/Feywood/Defeat Behemoth King"
+          }
+        ]
+      }
+    ]
+  }
+]

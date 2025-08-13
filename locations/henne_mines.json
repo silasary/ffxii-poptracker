@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Henne Chests",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 853,
+            "y": 395
+          }
+        ],
+        "sections": [
+          {
+            "name": "Main Path Chests",
+            "ref": "Main/Henne Mines/Main Path Chests - Henne Mines"
+          },
+          {
+            "name": "Deep Henne Chests",
+            "ref": "Main/Henne Mines/Deep Henne Chests - Henne Mines"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Ixtab",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 637,
+            "y": 621
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Ixtab",
+            "ref": "Main/Henne Mines/Defeat Ixtab"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Mindflayer",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 335,
+            "y": 1005
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Mindflayer",
+            "ref": "Main/Henne Mines/Defeat Mindflayer"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Zodiark",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 1683,
+            "y": 605
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Zodiark",
+            "ref": "Main/Henne Mines/Defeat Zodiark"
+          }
+        ]
+      },
+      {
+        "name": "Melt - Slimy Trophy",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 1091,
+            "y": 691
+          }
+        ],
+        "sections": [
+          {
+            "name": "Melt - Slimy Trophy",
+            "ref": "Main/Henne Mines/Melt - Slimy Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

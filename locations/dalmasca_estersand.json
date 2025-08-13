@@ -1,0 +1,123 @@
+[
+  {
+    "name": "Dalmasca Estersand",
+    "children": [
+      {
+        "name": "Outpost",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand",
+            "x": 334,
+            "y": 1280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Southern Chests",
+            "ref": "Main/Dalmasca Estersand/DE Southern Chests"
+          },
+          {
+            "name": "Outpost Mysterious Glints",
+            "ref": "Main/Dalmasca Estersand/Outpost Mysterious Glints"
+          },
+          {
+            "name": "Hunt 3: Flowering Cactoid - Dantro",
+            "ref": "Main/Dalmasca Estersand/Hunt 3: Flowering Cactoid"
+          }
+        ]
+      },
+      {
+        "name": "South Bank Village",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand",
+            "x": 424,
+            "y": 740
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dantro's Wife Give Cactus Flower",
+            "ref": "Main/Dalmasca Estersand/Dantro's Wife Give Cactus Flower"
+          },
+          {
+            "name": "Cactus Family Quest",
+            "ref": "Main/Dalmasca Estersand/Cactus Family Quest"
+          },
+          {
+            "name": "Patient Barheim Key",
+            "ref": "Main/Dalmasca Estersand/Patient Barheim Key"
+          }
+        ]
+      },
+      {
+        "name": "Rogue Tomato",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand",
+            "x": 280,
+            "y": 1400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Rogue Tomato",
+            "ref": "Main/Dalmasca Estersand/Defeat Rogue Tomato"
+          }
+        ]
+      },
+      {
+        "name": "Terror Tyrant - Hide-covered Trophy",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand",
+            "x": 260,
+            "y": 220
+          }
+        ],
+        "sections": [
+          {
+            "name": "Terror Tyrant - Hide-covered Trophy",
+            "ref": "Main/Dalmasca Estersand/Terror Tyrant - Hide-covered Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Flowering Cactoid",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand",
+            "x": 477,
+            "y": 1221
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Flowering Cactoid",
+            "ref": "Main/Dalmasca Estersand/Defeat Flowering Cactoid"
+          },
+          {
+            "name": "Flowering Cactoid Drop",
+            "ref": "Main/Dalmasca Estersand/Flowering Cactoid Drop"
+          }
+        ]
+      },
+      {
+        "name": "Northern Chests",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand",
+            "x": 220,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "name": "Northern Chests",
+            "ref": "Main/Dalmasca Estersand/DE Northern Chests"
+          }
+        ]
+      }
+    ]
+  }
+]

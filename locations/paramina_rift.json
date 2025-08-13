@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "paramina_rift",
+            "x": 783,
+            "y": 543
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Paramina Rift/Chests - Paramina Rift"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Feral Retriever",
+        "map_locations": [
+          {
+            "map": "paramina_rift",
+            "x": 770,
+            "y": 616
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Feral Retriever",
+            "ref": "Main/Paramina Rift/Defeat Feral Retriever"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Trickster",
+        "map_locations": [
+          {
+            "map": "paramina_rift",
+            "x": 1000,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Trickster",
+            "ref": "Main/Paramina Rift/Defeat Trickster"
+          }
+        ]
+      },
+      {
+        "name": "Ancbolder - Mind Trophy",
+        "map_locations": [
+          {
+            "map": "paramina_rift",
+            "x": 956,
+            "y": 766
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ancbolder - Mind Trophy",
+            "ref": "Main/Paramina Rift/Ancbolder - Mind Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Fafnir",
+        "map_locations": [
+          {
+            "map": "paramina_rift",
+            "x": 760,
+            "y": 840
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Fafnir (during blizzard)",
+            "ref": "Main/Paramina Rift/Defeat Fafnir"
+          },
+          {
+            "name": "Fafnir Drop",
+            "ref": "Main/Paramina Rift/Fafnir Drop"
+          }
+        ]
+      }
+    ]
+  }
+]

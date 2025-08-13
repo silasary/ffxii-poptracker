@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chops",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 130,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Archades/Chops"
+          }
+        ]
+      },
+      {
+        "name": "Sandalwood Chop",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 170,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Archades/Sandalwood Chop"
+          }
+        ]
+      },
+      {
+        "name": "Hunt 20: Darksteel - Homesick Man",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 830,
+            "y": 545
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Archades/Hunt 20: Darksteel"
+          }
+        ]
+      },
+      {
+        "name": "Hunt 23: Overlord - Insecure Seeq",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 733,
+            "y": 332
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Archades/Hunt 23: Overlord"
+          }
+        ]
+      },
+      {
+        "name": "Grand Arcade chest",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 300,
+            "y": 100
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Archades/Grand Arcade chest"
+          }
+        ]
+      },
+      {
+        "name": "Hunt Club Owners",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 230,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Archades/Hunt Club Owner: 5"
+          },
+          {
+            "ref": "Main/Archades/Hunt Club Owner: 10"
+          },
+          {
+            "ref": "Main/Archades/Hunt Club Owner: 15"
+          },
+          {
+            "ref": "Main/Archades/Hunt Club Owner: 20"
+          },
+          {
+            "ref": "Main/Archades/Hunt Club Owner: 25"
+          },
+          {
+            "ref": "Main/Archades/Hunt Club Owner: 30"
+          }
+        ]
+      }
+    ]
+  }
+]

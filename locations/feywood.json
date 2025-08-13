@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 607,
+            "y": 307
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Feywood/Chests - Feywood"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Wild Malboro",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 517,
+            "y": 621
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Wild Malboro",
+            "ref": "Main/Feywood/Defeat Wild Malboro"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Behemoth King",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 190,
+            "y": 1164
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Behemoth King",
+            "ref": "Main/Feywood/Defeat Behemoth King"
+          }
+        ]
+      },
+      {
+        "name": "Dreadguard - Feathered Trophy",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 358,
+            "y": 424
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dreadguard - Feathered Trophy",
+            "ref": "Main/Feywood/Dreadguard - Feathered Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

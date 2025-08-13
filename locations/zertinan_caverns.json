@@ -1,0 +1,99 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Defeat Adrammelech",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 690,
+            "y": 690
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Adrammelech",
+            "ref": "Main/Zertinan Caverns/Defeat Adrammelech"
+          }
+        ]
+      },
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 680,
+            "y": 505
+          }
+        ],
+        "sections": [
+          {
+            "name": "Westersand Chests",
+            "ref": "Main/Zertinan Caverns/Westersand Chests"
+          },
+          {
+            "name": "Ozmone Chests",
+            "ref": "Main/Zertinan Caverns/Ozmone Chests"
+          },
+          {
+            "name": "Remaining Chests",
+            "ref": "Main/Zertinan Caverns/Remaining Chests"
+          }
+        ]
+      },
+      {
+        "name": "Marilith",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 1150,
+            "y": 380
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Marilith",
+            "ref": "Main/Zertinan Caverns/Defeat Marilith"
+          },
+          {
+            "name": "Marilith Drop",
+            "ref": "Main/Zertinan Caverns/Marilith Drop"
+          }
+        ]
+      },
+      {
+        "name": "Alteci - Fell Trophy",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 680,
+            "y": 880
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alteci - Fell Trophy",
+            "ref": "Main/Zertinan Caverns/Alteci - Fell Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Catoblepas",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 950,
+            "y": 730
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Catoblepas",
+            "ref": "Main/Zertinan Caverns/Defeat Catoblepas"
+          }
+        ]
+      }
+    ]
+  }
+]

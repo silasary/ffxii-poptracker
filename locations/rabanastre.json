@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Sandsea",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 1050,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Party Member (Vaan)",
+            "ref": "Main/Rabanastre/Party Member (Vaan)"
+          },
+          {
+            "name": "Tomaj",
+            "ref": "Main/Rabanastre/Tomaj"
+          },
+          {
+            "name": "Hunt 1: Rogue Tomato - Tomaj",
+            "ref": "Main/Rabanastre/Hunt 1: Rogue Tomato"
+          },
+          {
+            "name": "Hunt 2: Thextera - Gatsly",
+            "ref": "Main/Rabanastre/Hunt 2: Thextera"
+          },
+          {
+            "name": "Hunt 9: Marilith - Tavernmaster",
+            "ref": "Main/Rabanastre/Hunt 9: Marilith"
+          }
+        ]
+      },
+      {
+        "name": "Viera Rendezvous",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 880,
+            "y": 940
+          }
+        ],
+        "sections": [
+          {
+            "name": "Viera Rendezvous",
+            "ref": "Main/Rabanastre/Viera Rendezvous"
+          }
+        ]
+      },
+      {
+        "name": "Windvane - Rimzat",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 560,
+            "y": 720
+          }
+        ],
+        "sections": [
+          {
+            "name": "Windvane - Rimzat",
+            "ref": "Main/Rabanastre/Windvane"
+          }
+        ]
+      },
+      {
+        "name": "Wyvern Lord - Imperial Soldier",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 1000,
+            "y": 600
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 8: Wyvern Lord - Imperial Soldier",
+            "ref": "Main/Rabanastre/Hunt 8: Wyvern Lord"
+          }
+        ]
+      },
+      {
+        "name": "Ktjn Reward",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 709,
+            "y": 530
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ktjn Reward",
+            "ref": "Main/Rabanastre/Ktjn Reward"
+          }
+        ]
+      },
+      {
+        "name": "White Mousse - Sorbet",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 600,
+            "y": 725
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 6: White Mousse - Sorbet",
+            "ref": "Main/Rabanastre/Hunt 6: White Mousse"
+          }
+        ]
+      }
+    ]
+  }
+]

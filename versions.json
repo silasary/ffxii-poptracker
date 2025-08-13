@@ -1,6 +1,13 @@
 {
   "versions": [
     {
+      "package_version": "0.0.5",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.0.5.zip",
+      "changelog": [
+        "Major UI Overhaul"
+      ]
+    },
+    {
         "package_version": "0.0.4",
         "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.0.4.zip",
         "sha256": "158616acd84b7d16f1ad2a084f49b1ccc76c6958336c7c6d277777b94871a5a8",
@@ -30,7 +37,9 @@
       "package_version": "0.0.1",
       "download_url": "https://github.com/nivomi/ffxii-poptracker/releases/download/v0.0.1/ffxii-poptracker-ap.zip",
       "sha256": "008021fb514be85cc372efbc836ba62d65b02a67c36dd7e8fd51739f62d779e7",
-      "changelog": ["Initial AP recieved items autotracking"]
+      "changelog": [
+        "Initial AP received items auto-tracking"
+      ]
     }
   ]
 }

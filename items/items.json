@@ -509,21 +509,22 @@
     {
         "name": "Key Item Placement - Black Orbs",
         "type": "toggle",
-        "img": "images/items/black_orb.png",
+        "img": "images/items/black_orb_toggle.png",
         "codes": "place_black_orbs"
 
     },
     {
         "name": "Key Item Placement - Chops",
         "type": "toggle",
-        "img": "images/items/pw_chop.png",
+        "img": "images/items/pw_chop_toggle.png",
         "codes": "place_chops"
     },
     {
-        "name": "Key Item Placement - Grindy",
+        "name": "Enable Side Quests",
         "type": "toggle",
-        "img": "images/items/grindy.png",
-        "codes": "grindy"
+        "img": "images/items/side_quests.png",
+        "codes": "side_quests",
+        "initial_active_state": true
     },
     {
         "name": "Shuffle Hunt Club Trophies",

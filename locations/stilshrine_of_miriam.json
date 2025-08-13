@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam",
+            "x": 255,
+            "y": 330
+          }
+        ],
+        "sections": [
+          {
+            "name": "Entrance Chests",
+            "ref": "Main/Stilshrine of Miriam/Entrance Chests - Stillshrine"
+          },
+          {
+            "name": "Interior Chests",
+            "ref": "Main/Stilshrine of Miriam/Interior Chests - Stillshrine"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Mateus",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam",
+            "x": 255,
+            "y": 1235
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Mateus",
+            "ref": "Main/Stilshrine of Miriam/Defeat Mateus"
+          }
+        ]
+      },
+      {
+        "name": "Sword of Kings",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam",
+            "x": 255,
+            "y": 1350
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sword of Kings",
+            "ref": "Main/Stilshrine of Miriam/Sword of Kings"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Zeromus",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam",
+            "x": 255,
+            "y": 425
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Zeromus",
+            "ref": "Main/Stilshrine of Miriam/Defeat Zeromus"
+          }
+        ]
+      },
+      {
+        "name": "Myath - Eternal Trophy",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam",
+            "x": 340,
+            "y": 895
+          }
+        ],
+        "sections": [
+          {
+            "name": "Myath - Eternal Trophy",
+            "ref": "Main/Stilshrine of Miriam/Myath - Eternal Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

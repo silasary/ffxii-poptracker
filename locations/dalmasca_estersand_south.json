@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Outpost",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_south",
+            "x": 815,
+            "y": 475
+          }
+        ],
+        "sections": [
+          {
+            "name": "Outpost Mysterious Glints",
+            "ref": "Main/Dalmasca Estersand/Outpost Mysterious Glints"
+          },
+          {
+            "name": "Southern Chests",
+            "ref": "Main/Dalmasca Estersand/DE Southern Chests"
+          },
+          {
+            "name": "Hunt 3: Flowering Cactoid (Dantro Turn in)",
+            "ref": "Main/Dalmasca Estersand/Hunt 3: Flowering Cactoid"
+          }
+        ]
+      },
+      {
+        "name": "Rogue Tomato",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_south",
+            "x": 676,
+            "y": 793
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Rogue Tomato",
+            "ref": "Main/Dalmasca Estersand/Defeat Rogue Tomato"
+          }
+        ]
+      },
+      {
+        "name": "Flowering Cactoid",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_south",
+            "x": 1166,
+            "y": 334
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Flowering Cactoid",
+            "ref": "Main/Dalmasca Estersand/Defeat Flowering Cactoid"
+          },
+          {
+            "name": "Flowering Cactoid Drop",
+            "ref": "Main/Dalmasca Estersand/Flowering Cactoid Drop"
+          }
+        ]
+      }
+    ]
+  }
+]

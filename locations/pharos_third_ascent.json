@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Hashmal",
+        "map_locations": [
+          {
+            "map": "pharos_third_ascent",
+            "x": 550,
+            "y": 1000
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Hashmal",
+            "ref": "Main/The Pharos/Defeat Hashmal"
+          }
+        ]
+      },
+      {
+        "name": "Cid and Famfrit",
+        "map_locations": [
+          {
+            "map": "pharos_third_ascent",
+            "x": 427,
+            "y": 334
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Famfrit and Cid 2",
+            "ref": "Main/The Pharos/Defeat Famfrit and Cid 2"
+          }
+        ]
+      }
+    ]
+  }
+]

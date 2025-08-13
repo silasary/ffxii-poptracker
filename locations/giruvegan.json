@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Main Path Chests",
+        "map_locations": [
+          {
+            "map": "giruvegan",
+            "x": 2197,
+            "y": 313
+          }
+        ],
+        "sections": [
+          {
+            "name": "Main Path Chests",
+            "ref": "Main/Giruvegan/Main Path Chests - Giruvegan"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Piscodaemon",
+        "map_locations": [
+          {
+            "map": "giruvegan",
+            "x": 189,
+            "y": 737
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Piscodaemon",
+            "ref": "Main/Giruvegan/Defeat Piscodaemon"
+          }
+        ]
+      },
+      {
+        "name": "Shemhazai + Treaty-Blade",
+        "map_locations": [
+          {
+            "map": "giruvegan",
+            "x": 645,
+            "y": 250
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Shemhazai",
+            "ref": "Main/Giruvegan/Defeat Shemhazai"
+          },
+          {
+            "name": "Treaty-Blade",
+            "ref": "Main/Giruvegan/Treaty-Blade"
+          }
+        ]
+      }
+    ]
+  }
+]

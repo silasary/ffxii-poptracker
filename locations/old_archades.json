@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Old Archades Chests",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 475,
+            "y": 530
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Old Archades/Chests - Old Archades"
+          }
+        ]
+      },
+      {
+        "name": "Lindwyrm Hunt - Fermon",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 475,
+            "y": 190
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 22: Lindwyrm - Fermon",
+            "ref": "Main/Old Archades/Hunt 22: Lindwyrm"
+          }
+        ]
+      },
+      {
+        "name": "Moonsilver Medallion",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 600,
+            "y": 175
+          }
+        ],
+        "sections": [
+          {
+            "name": "Moonsilver Medallion",
+            "ref": "Main/Old Archades/Moonsilver Medallion"
+          }
+        ]
+      }
+    ]
+  }
+]

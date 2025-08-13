@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests and Berries",
+        "map_locations": [
+          {
+            "map": "nam_yensa_sandsea",
+            "x": 1865,
+            "y": 155
+          }
+        ],
+        "sections": [
+          {
+            "name": "Main Area Chests",
+            "ref": "Main/Nam-Yensa Sandsea/Main Area Chests - Nam-Yensa"
+          },
+          {
+            "name": "Withering Shores Chests",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Chests"
+          },
+          {
+            "name": "Eksir Berries",
+            "ref": "Main/Nam-Yensa Sandsea/Eksir Berries"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Wyvern Lord",
+        "map_locations": [
+          {
+            "map": "nam_yensa_sandsea",
+            "x": 665,
+            "y": 365
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Wyvern Lord",
+            "ref": "Main/Nam-Yensa Sandsea/Defeat Wyvern Lord"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Belito",
+        "map_locations": [
+          {
+            "map": "nam_yensa_sandsea",
+            "x": 1375,
+            "y": 815
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Belito",
+            "ref": "Main/Nam-Yensa Sandsea/Defeat Belito"
+          }
+        ]
+      },
+      {
+        "name": "Victanir - Maverick Trophy",
+        "map_locations": [
+          {
+            "map": "nam_yensa_sandsea",
+            "x": 1350,
+            "y": 975
+          }
+        ],
+        "sections": [
+          {
+            "name": "Victanir - Maverick Trophy",
+            "ref": "Main/Nam-Yensa Sandsea/Victanir - Maverick Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

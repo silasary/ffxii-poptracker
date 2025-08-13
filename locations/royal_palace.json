@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Royal Palace",
+    "children": [
+      {
+        "name": "Placeholder",
+        "map_locations": [
+          {
+            "map": "royal_palace",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "For future use (currently no checks)",
+            "checked": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "ridorana_cataract",
+            "x": 340,
+            "y": 270
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Ridorana Cataract/Chests - Ridorana Cataract"
+          }
+        ]
+      },
+      {
+        "name": "Abelisk - Reptilian Trophy",
+        "map_locations": [
+          {
+            "map": "ridorana_cataract",
+            "x": 615,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Abelisk - Reptilian Trophy",
+            "ref": "Main/Ridorana Cataract/Abelisk - Reptilian Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Yiazmat - Hunt 45",
+        "map_locations": [
+          {
+            "map": "ridorana_cataract",
+            "x": 915,
+            "y": 620
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Yiazmat",
+            "ref": "Main/Ridorana Cataract/Defeat Yiazmat"
+          }
+        ]
+      }
+    ]
+  }
+]

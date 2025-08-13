@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Main",
+    "children": [
+
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 320,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Entrance Chests",
+            "ref": "Main/Sochen Cave Palace/Entrance Chests - Sochen Cave"
+          },
+          {
+            "name": "Interior Chests",
+            "ref": "Main/Sochen Cave Palace/Interior Chests - Sochen Cave"
+          }
+        ]
+      },
+
+      {
+        "name": "Hell Wyrm Chest",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 112,
+            "y": 450
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hell Wyrm Chest",
+            "ref": "Main/Sochen Cave Palace/Hell Wyrm Chest"
+          }
+        ]
+      },
+
+      {
+        "name": "Defeat Darksteel",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 225,
+            "y": 400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Darksteel",
+            "ref": "Main/Sochen Cave Palace/Defeat Darksteel"
+          }
+        ]
+      },
+
+      {
+        "name": "Defeat Overlord",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 137,
+            "y": 1212
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Overlord",
+            "ref": "Main/Sochen Cave Palace/Defeat Overlord"
+          }
+        ]
+      },
+
+      {
+        "name": "Wendice - Frigid Trophy",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 211,
+            "y": 616
+          }
+        ],
+        "sections": [
+          {
+            "name": "Wendice - Frigid Trophy",
+            "ref": "Main/Sochen Cave Palace/Wendice - Frigid Trophy"
+          }
+        ]
+      },
+
+      {
+        "name": "Anubys - Ensanguined Trophy",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 237,
+            "y": 824
+          }
+        ],
+        "sections": [
+          {
+            "name": "Anubys - Ensanguined Trophy",
+            "ref": "Main/Sochen Cave Palace/Anubys - Ensanguined Trophy"
+          }
+        ]
+      }
+
+    ]
+  }
+]

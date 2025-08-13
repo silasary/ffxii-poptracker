@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Burrough Tube Fuse",
+        "map_locations": [
+          {
+            "map": "barheim_passage_top",
+            "x": 893,
+            "y": 205
+          }
+        ],
+        "sections": [
+          {
+            "name": "Burrough Tube Fuse",
+            "ref": "Main/Barheim Passage/Burrough Tube Fuse"
+          }
+        ]
+      },
+      {
+        "name": "Main Path Chests (Top)",
+        "map_locations": [
+          {
+            "map": "barheim_passage_top",
+            "x": 960,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Main Path Chests",
+            "ref": "Main/Barheim Passage/Barheim Chests"
+          }
+        ]
+      }
+    ]
+  }
+]

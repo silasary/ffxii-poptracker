@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "ogir_yensa_sandsea",
+            "x": 1990,
+            "y": 940
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Ogir-Yensa Sandsea/Chests - Ogir-Yensa"
+          }
+        ]
+      },
+      {
+        "name": "Bull Chocobo - Beaked Trophy",
+        "map_locations": [
+          {
+            "map": "ogir_yensa_sandsea",
+            "x": 870,
+            "y": 1400
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bull Chocobo - Beaked Trophy",
+            "ref": "Main/Ogir-Yensa Sandsea/Bull Chocobo - Beaked Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

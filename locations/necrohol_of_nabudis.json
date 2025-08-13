@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Main Area Chests",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 421,
+            "y": 1421
+          }
+        ],
+        "sections": [
+          {
+            "name": "Main Area Chests",
+            "ref": "Main/Necrohol of Nabudis/Main Area Chests - Necrohol"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Goliath",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 881,
+            "y": 281
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Goliath",
+            "ref": "Main/Necrohol of Nabudis/Defeat Goliath"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Deathscythe",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 683,
+            "y": 797
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Deathscythe",
+            "ref": "Main/Necrohol of Nabudis/Defeat Deathscythe"
+          }
+        ]
+      },
+      {
+        "name": "The Crucible",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 785,
+            "y": 1001
+          }
+        ],
+        "sections": [
+          {
+            "name": "Medallion of Might",
+            "ref": "Main/Necrohol of Nabudis/Medallion of Might"
+          },
+          {
+            "name": "Defeat Chaos",
+            "ref": "Main/Necrohol of Nabudis/Defeat Chaos"
+          },
+          {
+            "name": "Chaos Room Chest",
+            "ref": "Main/Necrohol of Nabudis/Chaos Room Chest"
+          }
+        ]
+      },
+      {
+        "name": "Humbaba Mistant Room Chest",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 345,
+            "y": 1013
+          }
+        ],
+        "sections": [
+          {
+            "name": "Humbaba Mistant Room Chest",
+            "ref": "Main/Necrohol of Nabudis/Humbaba Mistant Room Chest"
+          }
+        ]
+      },
+      {
+        "name": "Fury Room Chest",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 1397,
+            "y": 595
+          }
+        ],
+        "sections": [
+          {
+            "name": "Fury Room Chest",
+            "ref": "Main/Necrohol of Nabudis/Fury Room Chest"
+          }
+        ]
+      },
+      {
+        "name": "Vorres - Gravesoil Trophy",
+        "map_locations": [
+          {
+            "map": "necrohol_of_nabudis",
+            "x": 1189,
+            "y": 665
+          }
+        ],
+        "sections": [
+          {
+            "name": "Vorres - Gravesoil Trophy",
+            "ref": "Main/Necrohol of Nabudis/Vorres - Gravesoil Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

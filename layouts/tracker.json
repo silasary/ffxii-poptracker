@@ -1,68 +1,720 @@
 ﻿{
-    "tracker_default": {
-        "type": "container",
-        "background": "#000000",
+  "tracker_default": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "dock",
+          "dock": "bottom",
+          "v_alignment": "stretch",
+          "content": [
+            {
+              "type": "layout",
+              "key": "shared_item_grid"
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "World Map",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "world_map"
+                ]
+              }
+            },
+            {
+              "title": "Map Select",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+            {
+              "title": "",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "map_select"
+                ]
+              }
+            },
+{
+  "title": "Dalmasca Estersand",
+  "content": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Dalmasca Estersand",
         "content": {
-            "type": "dock",
-            "dropshadow": true,
-            "content": [
-                {
-                    "type": "dock",
-                    "dock": "left",
-                    "v_alignment": "stretch",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "map",
-                    "maps": [
-                        "world_map"
-                    ]
-                }
-            ]
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Dalmasca Estersand",
+              "content": {
+                "type": "map",
+                "maps": ["dalmasca_estersand"]
+              }
+            },
+            {
+              "title": "Estersand North",
+              "content": {
+                "type": "map",
+                "maps": ["dalmasca_estersand_north"]
+              }
+            },
+            {
+              "title": "Estersand South",
+              "content": {
+                "type": "map",
+                "maps": ["dalmasca_estersand_south"]
+              }
+            }
+          ]
         }
-    },
-    "tracker_horizontal": {
-        "type": "container",
-        "background": "#000000",
+      },
+      {
+        "title": "Barheim Passage",
         "content": {
-            "type": "dock",
-            "dropshadow": true,
-            "content": [
-                {
-                    "type": "dock",
-                    "dock": "bottom",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "shared_item_grid"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "map",
-                    "maps": [
-                        "world_map"
-                    ]
-                }
-            ]
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Barheim Passage",
+              "content": {
+                "type": "map",
+                "maps": ["barheim_passage"]
+              }
+            },
+            {
+              "title": "Barheim Top",
+              "content": {
+                "type": "map",
+                "maps": ["barheim_passage_top"]
+              }
+            },
+            {
+              "title": "Barheim Bottom",
+              "content": {
+                "type": "map",
+                "maps": ["barheim_passage_bottom"]
+              }
+            }
+          ]
         }
+      }
+    ]
+  }
+}
+,
+                  {
+                    "title": "Dalmasca Westersand",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Dalmaca Westersand",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "dalmasca_westersand"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Nam-Yensa Sandsea",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nam_yensa_sandsea"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Ogir-Yensa Sandsea",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ogir_yensa_sandsea"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Tomb of King Raithwall",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "tomb_of_king_raithwall"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Zertinan Caverns",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "zertinan_caverns"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Cerobi Steppe",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerobi_steppe"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tchita Uplands",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tchita_uplands"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Giza Plains",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Dry Season",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "giza_plains_dry_season"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Rainy Season",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "giza_plains_rainy_season"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+{
+  "title": "Salikawood",
+  "content": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Salikawood",
+        "content": {
+          "type": "map",
+          "maps": [
+            "salikawood"
+          ]
+        }
+      },
+      {
+        "title": "Necrohol of Nabudis",
+        "content": {
+          "type": "map",
+          "maps": [
+            "necrohol_of_nabudis"
+          ]
+        }
+      },
+      {
+        "title": "Nabreus Deadlands",
+        "content": {
+          "type": "map",
+          "maps": [
+            "nabreus_deadlands"
+          ]
+        }
+      }
+    ]
+  }
+},
+                  {
+                    "title": "Mosphoran Highwaste",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mosphoran_highwaste"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ridorana Cataract",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ridorana_cataract"
+                      ]
+                    }
+                  },
+{
+  "title": "The Pharos",
+  "content": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "First Ascent",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "First Ascent",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_first_ascent"]
+              }
+            },
+            {
+              "title": "Top",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_first_ascent_top"]
+              }
+            },
+            {
+              "title": "Bottom",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_first_ascent_bottom"]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Second Ascent",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Second Ascent",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_second_ascent"]
+              }
+            },
+            {
+              "title": "Top",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_second_ascent_top"]
+              }
+            },
+            {
+              "title": "Mid",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_second_ascent_middle"]
+              }
+            },
+            {
+              "title": "Bottom",
+              "content": {
+                "type": "map",
+                "maps": ["pharos_second_ascent_bottom"]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "title": "Third Ascent",
+        "content": {
+          "type": "map",
+          "maps": ["pharos_third_ascent"]
+        }
+      },
+      {
+        "title": "Subterra",
+        "content": {
+          "type": "map",
+          "maps": ["pharos_subterra"]
+        }
+      }
+    ]
+  }
+},
+
+
+                  {
+                    "title": "Sochen Cave Palace",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Sochen Cave Palace",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Bottom",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace_bottom"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Middle",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace_middle"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Top",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace_top"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },{
+  "title": "Paramina Rift",
+  "content": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Paramina Rift",
+        "content": {
+          "type": "map",
+          "maps": ["paramina_rift"]
+        }
+      },
+      {
+        "title": "Stilshrine of Miriam",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Stillshrine",
+              "content": {
+                "type": "map",
+                "maps": ["stilshrine_of_miriam"]
+              }
+            },
+            {
+              "title": "Dungeon",
+              "content": {
+                "type": "map",
+                "maps": ["stilshrine_of_miriam_dungeon"]
+              }
+            },
+            {
+              "title": "Lower",
+              "content": {
+                "type": "map",
+                "maps": ["stilshrine_of_miriam_lower"]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+},
+                  {
+                    "title": "Mt Bur-Omisace",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mt_bur_omisace"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Ozmone Plain",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "ozmone_plain"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Feywood",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+  "title": "Feywood",
+  "content": {
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Feywood",
+        "content": {
+          "type": "map",
+          "maps": [
+            "feywood"
+          ]
+        }
+      },
+      {
+        "title": "Top",
+        "content": {
+          "type": "map",
+          "maps": [
+            "feywood_top"
+          ]
+        }
+      },
+      {
+        "title": "Bottom",
+        "content": {
+          "type": "map",
+          "maps": [
+            "feywood_bottom"
+          ]
+        }
+      }
+    ]
+  }
+},
+                        {
+                          "title": "Giruvegan",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "giruvegan"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Great Crystal",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "the_great_crystal"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Golmore Jungle",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "golmore_jungle"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Henne Mines",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "henne_mines"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Jahara",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "jahara"
+                ]
+              }
+            },
+            {
+              "title": "Archades",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Archades",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "archades"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Draklor Laboratory",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "draklor_laboratory"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Old Archades",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "old_archades"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Rabanastre",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Rabinastre",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rabanastre"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lowtown",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lowtown"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Garamsythe Waterway",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "garamsythe_waterway"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Royal Palace",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "royal_palace"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Eruyt Village",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "eruyt_village"
+                ]
+              }
+            },
+            {
+              "title": "Bhujerba",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Bhujerba",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "bhujerba"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lhusu Mines",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lhusu_mines"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Nalbina",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Nalbina",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "nalbina_town"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dungeons",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "nalbina_dungeons"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Fortress",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "nalbina_fortress"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Balfonheim Port",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "balfonheim_port"
+                ]
+              }
+            },
+            {
+              "title": "Phon Coast",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "phon_coast"
+                ]
+              }
+            }
+          ]
+        }
+      ]
     }
+  }
 }

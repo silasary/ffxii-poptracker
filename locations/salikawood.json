@@ -1,0 +1,80 @@
+[
+  {
+    "name": "Main",
+    "children": [
+
+      {
+        "name": "Chests (Pre and Post King Bomb)",
+        "map_locations": [
+          {
+            "map": "salikawood",
+            "x": 830,
+            "y": 730
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pre King Bomb Chests",
+            "ref": "Main/Salikawood/Pre King Bomb Chests"
+          },
+          {
+            "name": "Post King Bomb Chests",
+            "ref": "Main/Salikawood/Post King Bomb Chests"
+          }
+        ]
+      },
+
+      {
+        "name": "Defeat Braegh",
+        "map_locations": [
+          {
+            "map": "salikawood",
+            "x": 445,
+            "y": 450
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Braegh",
+            "ref": "Main/Salikawood/Defeat Braegh"
+          }
+        ]
+      },
+
+      {
+        "name": "Rageclaw - Sickle Trophy",
+        "map_locations": [
+          {
+            "map": "salikawood",
+            "x": 630,
+            "y": 325
+          }
+        ],
+        "sections": [
+          {
+            "name": "Rageclaw - Sickle Trophy",
+            "ref": "Main/Salikawood/Rageclaw - Sickle Trophy"
+          }
+        ]
+      },
+
+      {
+        "name": "Defeat Carrot",
+        "map_locations": [
+          {
+            "map": "salikawood",
+            "x": 590,
+            "y": 930
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Carrot",
+            "ref": "Main/Salikawood/Defeat Carrot"
+          }
+        ]
+      }
+
+    ]
+  }
+]

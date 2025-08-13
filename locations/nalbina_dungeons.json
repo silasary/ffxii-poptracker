@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Nalbina Dungeons",
+    "children": [
+      {
+        "name": "Placeholder",
+        "map_locations": [
+          {
+            "map": "nalbina_dungeons",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "For future use (no active checks)"
+          }
+        ]
+      }
+    ]
+  }
+]

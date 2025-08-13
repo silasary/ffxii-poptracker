@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace_middle",
+            "x": 796,
+            "y": 689
+          }
+        ],
+        "sections": [
+          {
+            "name": "Entrance Chests",
+            "ref": "Main/Sochen Cave Palace/Entrance Chests - Sochen Cave"
+          },
+          {
+            "name": "Interior Chests",
+            "ref": "Main/Sochen Cave Palace/Interior Chests - Sochen Cave"
+          }
+        ]
+      },
+      {
+        "name": "Anubys - Ensanguined Trophy",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace_middle",
+            "x": 582,
+            "y": 668
+          }
+        ],
+        "sections": [
+          {
+            "name": "Anubys - Ensanguined Trophy",
+            "ref": "Main/Sochen Cave Palace/Anubys - Ensanguined Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Wendice - Frigid Trophy",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace_middle",
+            "x": 517,
+            "y": 149
+          }
+        ],
+        "sections": [
+          {
+            "name": "Wendice - Frigid Trophy",
+            "ref": "Main/Sochen Cave Palace/Wendice - Frigid Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

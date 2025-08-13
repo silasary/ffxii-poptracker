@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "nabreus_deadlands",
+            "x": 800,
+            "y": 600
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Nabreus Deadlands/Chests - Deadlands"
+          }
+        ]
+      },
+      {
+        "name": "Roblon + Medallion",
+        "map_locations": [
+          {
+            "map": "nabreus_deadlands",
+            "x": 330,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Roblon",
+            "ref": "Main/Nabreus Deadlands/Defeat Roblon"
+          },
+          {
+            "name": "Nabreus Medallion",
+            "ref": "Main/Nabreus Deadlands/Nabreus Medallion"
+          }
+        ]
+      },
+      {
+        "name": "Arioch - Vengeful Trophy",
+        "map_locations": [
+          {
+            "map": "nabreus_deadlands",
+            "x": 1029,
+            "y": 863
+          }
+        ],
+        "sections": [
+          {
+            "name": "Arioch - Vengeful Trophy",
+            "ref": "Main/Nabreus Deadlands/Arioch - Vengeful Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

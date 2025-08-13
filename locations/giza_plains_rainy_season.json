@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Nomad Village - Rainy Season",
+    "children": [
+      {
+        "name": "Nomad Village",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 470,
+            "y": 500
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests - Nomad Village",
+            "ref": "Main/Giza Plains Rains/Chests Nomad Village Rains"
+          },
+          {
+            "name": "Hunt 11: Croakadile - Sadeen",
+            "ref": "Main/Giza Plains Rains/Hunt 11: Croakadile"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Croakadile",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 330,
+            "y": 810
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Croakadile",
+            "ref": "Main/Giza Plains Rains/Defeat Croakadile"
+          }
+        ]
+      },
+      {
+        "name": "Silent Urn",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 550,
+            "y": 820
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nomads Silent Urn",
+            "ref": "Main/Giza Plains Rains/Nomads Silent Urn"
+          }
+        ]
+      },
+      {
+        "name": "Gil Snapper",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 930,
+            "y": 870
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Gil Snapper",
+            "ref": "Main/Giza Plains Rains/Defeat Gil Snapper"
+          }
+        ]
+      }
+    ]
+  }
+]

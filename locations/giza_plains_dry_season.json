@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Nomad Village Group",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 700,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Party Member (Penelo)",
+            "ref": "Main/Giza Plains Dry/Party Member (Penelo)"
+          },
+          {
+            "name": "Shadestone (pick up - check only)",
+            "ref": "Main/Giza Plains Dry/Shadestone"
+          },
+          {
+            "name": "Chests",
+            "ref": "Main/Giza Plains Dry/Chests - Giza Dry"
+          },
+          {
+            "name": "Sunstone Turn-in",
+            "ref": "Main/Giza Plains Dry/Sunstone"
+          },
+          {
+            "name": "Hunt 33: Cluckatrice - Dania",
+            "ref": "Main/Giza Plains Dry/Hunt 33: Cluckatrice"
+          },
+          {
+            "name": "Hunt 36: Gil Snapper - Nanau",
+            "ref": "Main/Giza Plains Dry/Hunt 36: Gil Snapper"
+          },
+          {
+            "name": "Give Errmonea Leaf to Lesina",
+            "ref": "Main/Giza Plains Dry/Give Errmonea Leaf"
+          }
+        ]
+      },
+      {
+        "name": "Cluckatrice - Hunt",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 950,
+            "y": 565
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Cluckatrice",
+            "ref": "Main/Giza Plains Dry/Defeat Cluckatrice"
+          }
+        ]
+      },
+      {
+        "name": "Nazarnir - Maned Trophy",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 530,
+            "y": 890
+          }
+        ],
+        "sections": [
+          {
+            "name": "Nazarnir - Maned Trophy",
+            "ref": "Main/Giza Plains Dry/Nazarnir - Maned Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

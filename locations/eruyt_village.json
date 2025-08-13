@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Village Chests",
+        "map_locations": [
+          {
+            "map": "eruyt_village",
+            "x": 690,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Eruyt Village/Chests - Eruyt Village"
+          }
+        ]
+      },
+      {
+        "name": "Mjrn Event",
+        "map_locations": [
+          {
+            "map": "eruyt_village",
+            "x": 740,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lente's Tear - Mjrn",
+            "ref": "Main/Eruyt Village/Lente's Tear"
+          }
+        ]
+      },
+      {
+        "name": "Vorpal Bunny - Hunt 14",
+        "map_locations": [
+          {
+            "map": "eruyt_village",
+            "x": 555,
+            "y": 780
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 14: Vorpal Bunny - Eruyt Elder",
+            "ref": "Main/Eruyt Village/Hunt 14: Vorpal Bunny"
+          }
+        ]
+      },
+      {
+        "name": "Wild Malboro - Hunt 29",
+        "map_locations": [
+          {
+            "map": "eruyt_village",
+            "x": 445,
+            "y": 415
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 29: Wild Malboro - Rena",
+            "ref": "Main/Eruyt Village/Hunt 29: Wild Malboro"
+          }
+        ]
+      }
+    ]
+  }
+]

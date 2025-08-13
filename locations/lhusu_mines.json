@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Lhusu Chests",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 1615,
+            "y": 720
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests up to Site 2",
+            "ref": "Main/Lhusu Mines/Chests up to Site 2"
+          },
+          {
+            "name": "Site 3 Chest",
+            "ref": "Main/Lhusu Mines/Site 3 Chest"
+          },
+          {
+            "name": "Site 11+ Chests",
+            "ref": "Main/Lhusu Mines/Site 11+ Chests"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Nidhogg",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 1100,
+            "y": 780
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Nidhogg",
+            "ref": "Main/Lhusu Mines/Defeat Nidhogg"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Rocktoise",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 1210,
+            "y": 230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Rocktoise",
+            "ref": "Main/Lhusu Mines/Defeat Rocktoise"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Antlion",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 900,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Antlion",
+            "ref": "Main/Lhusu Mines/Defeat Antlion"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Diabolos",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 95,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Diabolos",
+            "ref": "Main/Lhusu Mines/Defeat Diabolos"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Gilgamesh - 1st Fight",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 565,
+            "y": 845
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Gilgamesh - 1st Fight",
+            "ref": "Main/Lhusu Mines/Defeat Gilgamesh"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Gilgamesh - 2nd Fight",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 1210,
+            "y": 1270
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Gilgamesh - 2nd Fight",
+            "ref": "Main/Lhusu Mines/Defeat Gilgamesh"
+          }
+        ]
+      },
+      {
+        "name": "Disma - Accursed Trophy",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 960,
+            "y": 1060
+          }
+        ],
+        "sections": [
+          {
+            "name": "Disma - Accursed Trophy",
+            "ref": "Main/Lhusu Mines/Disma - Accursed Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

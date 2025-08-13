@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Balfonheim Port",
+    "children": [
+      {
+        "name": "Rikken Group",
+        "map_locations": [
+          {
+            "map": "balfonheim_port",
+            "x": 315,
+            "y": 710
+          }
+        ],
+        "sections": [
+          {
+            "name": "Footrace",
+            "ref": "Main/Balfonheim/Footrace"
+          },
+          {
+            "name": "Hunt 32: Pylraster - Rikken",
+            "ref": "Main/Balfonheim/Hunt 32: Pylraster"
+          },
+          {
+            "name": "Guest (Reddas)",
+            "ref": "Main/Balfonheim/Guest (Reddas)"
+          }
+        ]
+      },
+      {
+        "name": "Chests - Balfonheim Port",
+        "map_locations": [
+          {
+            "map": "balfonheim_port",
+            "x": 855,
+            "y": 575
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Balfonheim/Chests - Balfonheim Port"
+          }
+        ]
+      },
+      {
+        "name": "Whitecap Tavern",
+        "map_locations": [
+          {
+            "map": "balfonheim_port",
+            "x": 515,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 21: Vyraal - Viera Wayfarer",
+            "ref": "Main/Balfonheim/Hunt 21: Vyraal"
+          },
+          {
+            "name": "Hunt 43: Ixion - Whitecap Wench",
+            "ref": "Main/Balfonheim/Hunt 43: Ixion"
+          }
+        ]
+      }
+    ]
+  }
+]

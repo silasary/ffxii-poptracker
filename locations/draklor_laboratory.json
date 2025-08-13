@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Lab Access Card",
+        "map_locations": [
+          {
+            "map": "draklor_laboratory",
+            "x": 250,
+            "y": 890
+          }
+        ],
+        "sections": [
+          {
+            "name": "Lab Access Card",
+            "ref": "Main/Draklor Laboratory/Lab Access Card"
+          }
+        ]
+      },
+      {
+        "name": "Draklor Chests",
+        "map_locations": [
+          {
+            "map": "draklor_laboratory",
+            "x": 250,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests (6613, 6711, 6801, 7002)",
+            "ref": "Main/Draklor Laboratory/Chests (6613, 6711, 6801, 7002)"
+          }
+        ]
+      },
+      {
+        "name": "Cid Fight",
+        "map_locations": [
+          {
+            "map": "draklor_laboratory",
+            "x": 250,
+            "y": 65
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Cid 1",
+            "ref": "Main/Draklor Laboratory/Defeat Cid 1"
+          }
+        ]
+      }
+    ]
+  }
+]

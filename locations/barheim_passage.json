@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Burrough Tube Fuse",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 1200,
+            "y": 115
+          }
+        ],
+        "sections": [
+          {
+            "name": "Burrough Tube Fuse",
+            "ref": "Main/Barheim Passage/Burrough Tube Fuse"
+          }
+        ]
+      },
+      {
+        "name": "Barheim Chests",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 1230,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "Barheim Chests",
+            "ref": "Main/Barheim Passage/Barheim Chests"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Zalera",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 256,
+            "y": 1538
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Zalera",
+            "ref": "Main/Barheim Passage/Defeat Zalera"
+          }
+        ]
+      },
+      {
+        "name": "Deep Barheim Chests",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 440,
+            "y": 1500
+          }
+        ],
+        "sections": [
+          {
+            "name": "Deep Barheim Chests",
+            "ref": "Main/Barheim Passage/Deep Barheim Chests"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Bloodwing",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 688,
+            "y": 1492
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Bloodwing",
+            "ref": "Main/Barheim Passage/Defeat Bloodwing"
+          }
+        ]
+      },
+      {
+        "name": "Ishteen - Bony Trophy",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 912,
+            "y": 989
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ishteen - Bony Trophy",
+            "ref": "Main/Barheim Passage/Ishteen - Bony Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Clan Boss: Mimic Queen",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 1284,
+            "y": 1284
+          }
+        ],
+        "sections": [
+          {
+            "name": "Clan Boss: Mimic Queen",
+            "ref": "Main/Clan Hall/Clan Boss: Mimic Queen"
+          }
+        ]
+      }
+    ]
+  }
+]

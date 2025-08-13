@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Bhujerba",
+    "children": [
+      {
+        "name": "Niray",
+        "sections": [
+          {
+            "name": "Niray Site 3 Key",
+            "ref": "Main/Bhujerba/Niray Site 3 Key"
+          },
+          {
+            "name": "Hunt 38: Antlion - Niray",
+            "ref": "Main/Bhujerba/Hunt 38: Antlion"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bhujerba",
+            "x": 785,
+            "y": 740
+          }
+        ]
+      },
+      {
+        "name": "Hunt 5: Nidhogg - Aekom",
+        "sections": [
+          {
+            "name": "Hunt 5: Nidhogg - Aekom",
+            "ref": "Main/Bhujerba/Hunt 5: Nidhogg"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bhujerba",
+            "x": 1075,
+            "y": 545
+          }
+        ]
+      },
+      {
+        "name": "Pilika's Quest",
+        "sections": [
+          {
+            "name": "Hunt 34: Rocktoise - Pilika",
+            "ref": "Main/Bhujerba/Hunt 34: Rocktoise"
+          },
+          {
+            "name": "Pilika Merchant's Armband",
+            "ref": "Main/Bhujerba/Pilika Merchant's Armband"
+          },
+          {
+            "name": "Clio's Technicks Pilika's Diary",
+            "ref": "Main/Bhujerba/Clio's Technicks Pilika's Diary"
+          },
+          {
+            "name": "Pilika Give Pilika's Diary",
+            "ref": "Main/Bhujerba/Pilika Give Pilika's Diary"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bhujerba",
+            "x": 460,
+            "y": 730
+          }
+        ]
+      },
+      {
+        "name": "Hunt 27: Diabolos - Miclio",
+        "sections": [
+          {
+            "name": "Hunt 27: Diabolos - Miclio",
+            "ref": "Main/Bhujerba/Hunt 27: Diabolos"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "bhujerba",
+            "x": 890,
+            "y": 930
+          }
+        ]
+      }
+    ]
+  }
+]

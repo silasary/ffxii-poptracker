@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Sand-strewn Pass",
+        "map_locations": [
+          {
+            "map": "mt_bur_omisace",
+            "x": 358,
+            "y": 822
+          }
+        ],
+        "sections": [
+          {
+            "name": "Temple Grounds chest",
+            "ref": "Main/Mt. Bur-Omisace/Temple Grounds chest"
+          },
+          {
+            "name": "Hunt 13: Feral Retriever - Hymms",
+            "ref": "Main/Mt. Bur-Omisace/Hunt 13: Feral Retriever"
+          },
+          {
+            "name": "Hunt 37: Trickster - Gurdy",
+            "ref": "Main/Mt. Bur-Omisace/Hunt 37: Trickster"
+          }
+        ]
+      },
+      {
+        "name": "Ivaness",
+        "map_locations": [
+          {
+            "map": "mt_bur_omisace",
+            "x": 789,
+            "y": 387
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 28: Piscodaemon - Ivaness",
+            "ref": "Main/Mt. Bur-Omisace/Hunt 28: Piscodaemon"
+          },
+          {
+            "name": "Acolyte Stone of the Condemner",
+            "ref": "Main/Mt. Bur-Omisace/Acolyte Stone of the Condemner"
+          }
+        ]
+      },
+      {
+        "name": "Hunt 31: Fafnir - Relj",
+        "map_locations": [
+          {
+            "map": "mt_bur_omisace",
+            "x": 388,
+            "y": 553
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 31: Fafnir - Relj",
+            "ref": "Main/Mt. Bur-Omisace/Hunt 31: Fafnir"
+          }
+        ]
+      }
+    ]
+  }
+]

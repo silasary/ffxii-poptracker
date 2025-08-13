@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Nalbina Fortress",
+    "children": [
+      {
+        "name": "Placeholder",
+        "map_locations": [
+          {
+            "map": "nalbina_fortress",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "For future use (no active checks)"
+          }
+        ]
+      }
+    ]
+  }
+]

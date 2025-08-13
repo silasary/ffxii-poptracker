@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Penumbra Chests + Orbs 4–8",
+        "map_locations": [
+          {
+            "map": "pharos_subterra",
+            "x": 413,
+            "y": 387
+          }
+        ],
+        "sections": [
+          {
+            "name": "Penumbra Chests",
+            "ref": "Main/The Pharos Subterra/Penumbra Chests"
+          },
+          {
+            "name": "Black Orbs 4-8",
+            "ref": "Main/The Pharos Subterra/Black Orbs 4-8"
+          }
+        ]
+      },
+      {
+        "name": "Umbra Chests + Orbs 9–15",
+        "map_locations": [
+          {
+            "map": "pharos_subterra",
+            "x": 413,
+            "y": 808
+          }
+        ],
+        "sections": [
+          {
+            "name": "Umbra Chests",
+            "ref": "Main/The Pharos Subterra/Umbra Chests"
+          },
+          {
+            "name": "Black Orbs 9-15",
+            "ref": "Main/The Pharos Subterra/Black Orbs 9-15"
+          }
+        ]
+      },
+      {
+        "name": "Abyssal Chests + Orbs 16–24",
+        "map_locations": [
+          {
+            "map": "pharos_subterra",
+            "x": 413,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Abyssal Chests",
+            "ref": "Main/The Pharos Subterra/Abyssal Chests"
+          },
+          {
+            "name": "Black Orbs 16-24",
+            "ref": "Main/The Pharos Subterra/Black Orbs 16-24"
+          }
+        ]
+      },
+      {
+        "name": "Ixion + Shadowseer",
+        "map_locations": [
+          {
+            "map": "pharos_subterra",
+            "x": 370,
+            "y": 180
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Ixion",
+            "ref": "Main/The Pharos Subterra/Defeat Ixion"
+          },
+          {
+            "name": "Defeat Shadowseer",
+            "ref": "Main/The Pharos Subterra/Defeat Shadowseer"
+          }
+        ]
+      }
+    ]
+  }
+]

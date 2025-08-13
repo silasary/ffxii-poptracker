@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "First Floor Chests + Black Orbs",
+        "map_locations": [
+          {
+            "map": "pharos_first_ascent_bottom",
+            "x": 580,
+            "y": 655
+          }
+        ],
+        "sections": [
+          {
+            "name": "First Floor Chests",
+            "ref": "Main/The Pharos/First Floor Chests"
+          },
+          {
+            "name": "Ascent Chests",
+            "ref": "Main/The Pharos/Ascent Chests"
+          },
+          {
+            "name": "Black Orbs 1–3",
+            "ref": "Main/The Pharos/Black Orbs 1–3"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Pylraster",
+        "map_locations": [
+          {
+            "map": "pharos_first_ascent_bottom",
+            "x": 285,
+            "y": 685
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Pylraster",
+            "ref": "Main/The Pharos/Defeat Pylraster"
+          }
+        ]
+      }
+    ]
+  }
+]

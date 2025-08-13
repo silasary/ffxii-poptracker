@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Avenger - Vile Trophy",
+        "map_locations": [
+          {
+            "map": "pharos_second_ascent",
+            "x": 212,
+            "y": 800
+          }
+        ],
+        "sections": [
+          {
+            "name": "Avenger - Vile Trophy",
+            "ref": "Main/The Pharos/Avenger - Vile Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

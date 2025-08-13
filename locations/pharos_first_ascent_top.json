@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Pharos First Ascent Top",
+    "map_locations": [
+      {
+        "map": "pharos_first_ascent_top",
+        "x": 0,
+        "y": 0
+      }
+    ],
+    "sections": [
+      {
+        "name": "Pharos First Ascent (Top)",
+        "access_rules": [
+          "$scaled_difficulty|0"
+        ]
+      }
+    ]
+  }
+][
+  {
+    "name": "Pharos First Ascent (Top)",
+    "children": [
+      {
+        "name": "Placeholder",
+        "map_locations": [
+          {
+            "map": "pharos_second_ascent_top",
+            "x": 0,
+            "y": 0
+          }
+        ],
+        "sections": [
+          {
+            "name": "For future use (currently no checks)",
+            "checked": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "North Cactus Family",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 850,
+            "y": 1280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cactus Family Quest",
+            "ref": "Main/Dalmasca Estersand/Cactus Family Quest"
+          }
+        ]
+      },
+      {
+        "name": "North Chests",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 520,
+            "y": 1170
+          }
+        ],
+        "sections": [
+          {
+            "name": "Northern Chests",
+            "ref": "Main/Dalmasca Estersand/DE Northern Chests"
+          }
+        ]
+      },
+      {
+        "name": "Terror Tyrant - Hide-covered Trophy",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 630,
+            "y": 536
+          }
+        ],
+        "sections": [
+          {
+            "name": "Terror Tyrant - Hide-covered Trophy",
+            "ref": "Main/Dalmasca Estersand/Terror Tyrant - Hide-covered Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Valeblossom Dew",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 606,
+            "y": 611
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dantro's Wife Give Cactus Flower",
+            "ref": "Main/Dalmasca Estersand/Dantro's Wife Give Cactus Flower"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Archadian Wayfarer(one of the save crystals)",
+        "map_locations": [
+          {
+            "map": "tchita_uplands",
+            "x": 1050,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Soul Ward Key",
+            "ref": "Main/Tchita Uplands/Soul Ward Key"
+          },
+          {
+            "name": "Mandragora Reward",
+            "ref": "Main/Tchita Uplands/Mandragora Reward"
+          },
+          {
+            "name": "Chests",
+            "ref": "Main/Tchita Uplands/Chests - Tchita Uplands"
+          }
+        ]
+      },
+      {
+        "name": "Lindwyrm Group",
+        "map_locations": [
+          {
+            "map": "tchita_uplands",
+            "x": 1190,
+            "y": 990
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Lindwyrm (while cloudy)",
+            "ref": "Main/Tchita Uplands/Defeat Lindwyrm"
+          },
+          {
+            "name": "Lindwyrm Drop",
+            "ref": "Main/Tchita Uplands/Lindwyrm Drop"
+          }
+        ]
+      },
+      {
+        "name": "Kris - Odiferous Trophy",
+        "map_locations": [
+          {
+            "map": "tchita_uplands",
+            "x": 1300,
+            "y": 665
+          }
+        ],
+        "sections": [
+          {
+            "name": "Kris - Odiferous Trophy",
+            "ref": "Main/Tchita Uplands/Kris - Odiferous Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Grimalkin - Whiskered Trophy",
+        "map_locations": [
+          {
+            "map": "tchita_uplands",
+            "x": 1900,
+            "y": 920
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grimalkin - Whiskered Trophy",
+            "ref": "Main/Tchita Uplands/Grimalkin - Whiskered Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Dull Fragment",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 745,
+            "y": 710
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dull Fragment",
+            "ref": "Main/Garamsythe Waterway/Dull Fragment"
+          }
+        ]
+      },
+      {
+        "name": "Story Bosses",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 745,
+            "y": 615
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Wraith",
+            "ref": "Main/Garamsythe Waterway/Defeat Wraith"
+          },
+          {
+            "name": "Defeat Firemane (placeholder)",
+            "checked": true
+          }
+        ]
+      },
+      {
+        "name": "Party Members Join",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 1050,
+            "y": 236
+          }
+        ],
+        "sections": [
+          {
+            "name": "Party Members (Balthier, Fran, Guest)",
+            "ref": "Main/Garamsythe Waterway/Party Members (Balthier, Fran, Guest)"
+          }
+        ]
+      },
+      {
+        "name": "Treasure Chests",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 1085,
+            "y": 390
+          }
+        ],
+        "sections": [
+          {
+            "name": "Unchanged Water Chests",
+            "ref": "Main/Garamsythe Waterway/Unchanged Water Chests"
+          },
+          {
+            "name": "Drained Water Chests",
+            "ref": "Main/Garamsythe Waterway/Drained Water Chests"
+          }
+        ]
+      },
+      {
+        "name": "White Mousse",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 935,
+            "y": 1100
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat White Mousse",
+            "ref": "Main/Garamsythe Waterway/Defeat White Mousse"
+          },
+          {
+            "name": "White Mousse Drop",
+            "ref": "Main/Garamsythe Waterway/White Mousse Drop"
+          }
+        ]
+      },
+      {
+        "name": "Orthros Encounter",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 745,
+            "y": 1120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Orthros",
+            "ref": "Main/Garamsythe Waterway/Defeat Orthros"
+          },
+          {
+            "name": "Orthros Drop",
+            "ref": "Main/Garamsythe Waterway/Orthros Drop"
+          }
+        ]
+      },
+      {
+        "name": "Cuchulainn",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 750,
+            "y": 975
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Cuchulainn",
+            "ref": "Main/Garamsythe Waterway/Defeat Cuchulainn"
+          }
+        ]
+      },
+      {
+        "name": "Gavial - No 10 Channel - Drained",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 435,
+            "y": 715
+          }
+        ],
+        "sections": [
+          {
+            "name": "Gavial - Fur-scaled Trophy",
+            "ref": "Main/Garamsythe Waterway/Gavial - Fur-scaled Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

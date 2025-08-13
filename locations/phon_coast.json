@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 2140,
+            "y": 600
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Phon Coast/Chests - Phon Coast"
+          }
+        ]
+      },
+      {
+        "name": "Site 11 Key",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 1310,
+            "y": 1180
+          }
+        ],
+        "sections": [
+          {
+            "name": "Site 11 Key",
+            "ref": "Main/Phon Coast/Site 11 Key"
+          }
+        ]
+      },
+      {
+        "name": "Thalassinon - Shelled Trophy",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 2165,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "Thalassinon - Shelled Trophy",
+            "ref": "Main/Phon Coast/Thalassinon - Shelled Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Skullash - Clawed Trophy",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 725,
+            "y": 1280
+          }
+        ],
+        "sections": [
+          {
+            "name": "Skullash - Clawed Trophy",
+            "ref": "Main/Phon Coast/Skullash - Clawed Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

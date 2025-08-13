@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Defeat Darksteel",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace_top",
+            "x": 427,
+            "y": 769
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Darksteel",
+            "ref": "Main/Sochen Cave Palace/Defeat Darksteel"
+          }
+        ]
+      },
+      {
+        "name": "Hell Wyrm Chest",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace_top",
+            "x": 204,
+            "y": 840
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hell Wyrm Chest",
+            "ref": "Main/Sochen Cave Palace/Hell Wyrm Chest"
+          }
+        ]
+      }
+    ]
+  }
+]

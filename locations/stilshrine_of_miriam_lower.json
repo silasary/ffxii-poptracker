@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Sword of Kings",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam_lower",
+            "x": 384,
+            "y": 587
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sword of Kings",
+            "ref": "Main/Stilshrine of Miriam/Sword of Kings"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Mateus",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam_lower",
+            "x": 384,
+            "y": 433
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Mateus",
+            "ref": "Main/Stilshrine of Miriam/Defeat Mateus"
+          }
+        ]
+      }
+    ]
+  }
+]

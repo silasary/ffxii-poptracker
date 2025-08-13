@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 1453,
+            "y": 443
+          }
+        ],
+        "sections": [
+          {
+            "name": "Chests",
+            "ref": "Main/Ozmone Plain/Chests - Ozmone"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Enkelados",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 1154,
+            "y": 823
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Enkelados",
+            "ref": "Main/Ozmone Plain/Defeat Enkelados"
+          },
+          {
+            "name": "Enkelados Drop",
+            "ref": "Main/Ozmone Plain/Enkelados Drop"
+          }
+        ]
+      },
+      {
+        "name": "Killbug - Metallic Trophy",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 687,
+            "y": 676
+          }
+        ],
+        "sections": [
+          {
+            "name": "Killbug - Metallic Trophy",
+            "ref": "Main/Ozmone Plain/Killbug - Metallic Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

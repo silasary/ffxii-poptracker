@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Golmore Chests",
+        "map_locations": [
+          {
+            "map": "golmore_jungle",
+            "x": 1173,
+            "y": 451
+          }
+        ],
+        "sections": [
+          {
+            "name": "Early Chests",
+            "ref": "Main/Golmore Jungle/Early Chests"
+          },
+          {
+            "name": "Late Chests",
+            "ref": "Main/Golmore Jungle/Late Chests"
+          }
+        ]
+      },
+      {
+        "name": "Vorpal Bunny",
+        "map_locations": [
+          {
+            "map": "golmore_jungle",
+            "x": 651,
+            "y": 893
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Vorpal Bunny",
+            "ref": "Main/Golmore Jungle/Defeat Vorpal Bunny"
+          },
+          {
+            "name": "Vorpal Bunny Drop",
+            "ref": "Main/Golmore Jungle/Vorpal Bunny Drop"
+          }
+        ]
+      },
+      {
+        "name": "Biding Mantis - Scythe Trophy",
+        "map_locations": [
+          {
+            "map": "golmore_jungle",
+            "x": 609,
+            "y": 699
+          }
+        ],
+        "sections": [
+          {
+            "name": "Biding Mantis - Scythe Trophy",
+            "ref": "Main/Golmore Jungle/Biding Mantis - Scythe Trophy"
+          }
+        ]
+      }
+    ]
+  }
+]

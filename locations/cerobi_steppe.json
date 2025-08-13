@@ -1,0 +1,96 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Cerobi Steppe",
+        "children": [
+          {
+            "name": "Chests",
+            "sections": [
+              {
+                "name": "Chests",
+                "ref": "Main/Cerobi Steppe/Chests - Cerobi Steppe"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 650,
+                "y": 700
+              }
+            ]
+          },
+          {
+            "name": "Vyraal",
+            "sections": [
+              {
+                "name": "Defeat Vyraal",
+                "ref": "Main/Cerobi Steppe/Defeat Vyraal"
+              },
+              {
+                "name": "Vyraal Drop",
+                "ref": "Main/Cerobi Steppe/Vyraal Drop"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 900,
+                "y": 435
+              }
+            ]
+          },
+          {
+            "name": "Wyrm Philosopher Ageworn Key - Windmill 10",
+            "sections": [
+              {
+                "name": "Wyrm Philosopher Ageworn Key - Windmill 10",
+                "ref": "Main/Cerobi Steppe/Wyrm Philosopher Ageworn Key"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 950,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "name": "Bluesang - Cruel Trophy",
+            "sections": [
+              {
+                "name": "Bluesang - Cruel Trophy",
+                "ref": "Main/Cerobi Steppe/Bluesang - (Cruel Trophy)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 500,
+                "y": 540
+              }
+            ]
+          },
+          {
+            "name": "Aspidochelon - Adamantine Trophy",
+            "sections": [
+              {
+                "name": "Aspidochelon - Adamantine Trophy",
+                "ref": "Main/Cerobi Steppe/Aspidochelon - (Adamantine Trophy)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 830,
+                "y": 825
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

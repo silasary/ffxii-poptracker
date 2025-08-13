@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Atomos - Burrogh",
+        "map_locations": [
+          {
+            "map": "nalbina_town",
+            "x": 580,
+            "y": 370
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 17: Atomos - Burrogh",
+            "ref": "Main/Nalbina/Hunt 17: Atomos"
+          }
+        ]
+      },
+      {
+        "name": "Roblon - Morgen",
+        "map_locations": [
+          {
+            "map": "nalbina_town",
+            "x": 630,
+            "y": 120
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 18: Roblon - Morgen",
+            "ref": "Main/Nalbina/Hunt 18: Roblon"
+          }
+        ]
+      },
+      {
+        "name": "Goliath - Barrong",
+        "map_locations": [
+          {
+            "map": "nalbina_town",
+            "x": 700,
+            "y": 180
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 24: Goliath - Barrong",
+            "ref": "Main/Nalbina/Hunt 24: Goliath"
+          }
+        ]
+      },
+      {
+        "name": "Deathscythe - Popol",
+        "map_locations": [
+          {
+            "map": "nalbina_town",
+            "x": 535,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 25: Deathscythe - Popol",
+            "ref": "Main/Nalbina/Hunt 25: Deathscythe"
+          }
+        ]
+      },
+      {
+        "name": "Jovy Reward",
+        "map_locations": [
+          {
+            "map": "nalbina_town",
+            "x": 680,
+            "y": 220
+          }
+        ],
+        "sections": [
+          {
+            "name": "Jovy Reward",
+            "ref": "Main/Nalbina/Jovy Reward"
+          }
+        ]
+      },
+      {
+        "name": "Carrot - Zammadria",
+        "map_locations": [
+          {
+            "map": "nalbina_town",
+            "x": 785,
+            "y": 110
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hunt 39: Carrot - Zammadria",
+            "ref": "Main/Nalbina/Hunt 39: Carrot"
+          }
+        ]
+      }
+    ]
+  }
+]

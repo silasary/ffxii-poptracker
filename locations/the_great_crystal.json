@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Main",
+    "children": [
+      {
+        "name": "Crystal Knight - Skull Trophy",
+        "map_locations": [
+          {
+            "map": "the_great_crystal",
+            "x": 165,
+            "y": 522
+          }
+        ],
+        "sections": [
+          {
+            "name": "Crystal Knight - Skull Trophy",
+            "ref": "Main/Giruvegan/Crystal Knight - Skull Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Defeat Ultima",
+        "map_locations": [
+          {
+            "map": "the_great_crystal",
+            "x": 163,
+            "y": 93
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Ultima",
+            "ref": "Main/Giruvegan/Defeat Ultima"
+          }
+        ]
+      },
+      {
+        "name": "Upper Crystal Chests",
+        "map_locations": [
+          {
+            "map": "the_great_crystal",
+            "x": 163,
+            "y": 308
+          }
+        ],
+        "sections": [
+          {
+            "name": "Upper Crystal Chests",
+            "ref": "Main/Giruvegan/Upper Crystal Chests"
+          }
+        ]
+      },
+      {
+        "name": "Omega Mark XII",
+        "map_locations": [
+          {
+            "map": "the_great_crystal",
+            "x": 406,
+            "y": 96
+          }
+        ],
+        "sections": [
+          {
+            "name": "Omega Mark XII",
+            "ref": "Main/Clan Hall/Clan Boss: Omega Mark XII"
+          }
+        ]
+      }
+    ]
+  }
+]

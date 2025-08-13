@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Barheim Passage Bottom",
+    "children": [
+      {
+        "name": "Main Path Chests (Bottom)",
+        "sections": [
+          {
+            "name": "Main Path Chests",
+            "ref": "Main/Barheim Passage/Barheim Chests"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barheim_passage_bottom",
+            "x": 1930,
+            "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Deep Barheim Chests",
+        "sections": [
+          {
+            "name": "Deep Barheim Chests",
+            "ref": "Main/Barheim Passage/Deep Barheim Chests"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barheim_passage_bottom",
+            "x": 780,
+            "y": 1150
+          }
+        ]
+      },
+      {
+        "name": "Defeat Zalera",
+        "sections": [
+          {
+            "name": "Defeat Zalera",
+            "ref": "Main/Barheim Passage/Defeat Zalera"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barheim_passage_bottom",
+            "x": 455,
+            "y": 1220
+          }
+        ]
+      },
+      {
+        "name": "Defeat Bloodwing",
+        "sections": [
+          {
+            "name": "Defeat Bloodwing",
+            "ref": "Main/Barheim Passage/Defeat Bloodwing"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barheim_passage_bottom",
+            "x": 1200,
+            "y": 1100
+          }
+        ]
+      },
+      {
+        "name": "Ishteen - Bony Trophy",
+        "sections": [
+          {
+            "name": "Ishteen - Bony Trophy",
+            "ref": "Main/Barheim Passage/Ishteen - Bony Trophy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barheim_passage_bottom",
+            "x": 1620,
+            "y": 250
+          }
+        ]
+      },
+      {
+        "name": "Clan Boss: Mimic Queen",
+        "sections": [
+          {
+            "name": "Clan Boss: Mimic Queen",
+            "ref": "Main/Clan Hall/Clan Boss: Mimic Queen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "barheim_passage_bottom",
+            "x": 2275,
+            "y": 760
+          }
+        ]
+      }
+    ]
+  }
+]
