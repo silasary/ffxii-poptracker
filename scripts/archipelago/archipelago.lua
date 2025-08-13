@@ -3,6 +3,8 @@ local CHAR_MAPPING = require "archipelago.loc_mapping_chars"
 local LOCATION_MAPPING = require "archipelago.location_mapping"
 local OPTION_MAPPING = require "archipelago.option_mapping"
 local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
+require "archipelago.hunts"
+
 AP_INDEX = -1
 
 function ClearItem(code, type)
@@ -46,6 +48,10 @@ function ClearItems(slot_data)
             obj.Active = options[k] == 1
         end
     end
+    hunt_key = string.format("ffxiiow_hunts_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
+
+    Archipelago:SetNotify({hunt_key})
+    Archipelago:Get({hunt_key})
     
 end
 
@@ -108,3 +114,23 @@ function OnLocation(location_id, location_name)
 end
 
 Archipelago:AddLocationHandler("location handler", OnLocation)
+
+
+local function starts_with(str, start)
+    return str:sub(1, #start) == start
+ end
+
+function OnReply(key, value, old_value)
+    print("OnReply %s", key)
+    if starts_with(key, "ffxiiow_hunts") then
+        local hunt_data = value
+        for _, v in pairs(hunt_data) do
+            local hunt_id = v[1]
+            local stage = v[2]
+            on_hunt_updated(hunt_id, stage)
+        end
+    end
+end
+
+Archipelago:AddSetReplyHandler("ds handler", OnReply)
+Archipelago:AddRetrievedHandler("ds handler", OnReply)
