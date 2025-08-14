@@ -38,7 +38,7 @@ end
 
 function paramina_rift()
     return Tracker:ProviderCountForCode('access_key') >= 2 or
-        (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear'))
+        (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear') > 0)
 end
 
 function defeat_bergan()
