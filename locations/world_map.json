@@ -491,7 +491,12 @@
         "map": "world_map",
         "x": 1262,
         "y": 56
-      }
+      },
+      {
+        "map": "archades",
+        "x": 840,
+        "y": 610
+        }
     ],
     "sections": [
       {
@@ -943,6 +948,11 @@
         "map": "world_map",
         "x": 1164,
         "y": 154
+      },
+      {
+        "map": "archades",
+        "x": 1200,
+        "y": 200
       }
     ],
     "sections": [
