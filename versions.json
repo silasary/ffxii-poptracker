@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+        "package_version": "0.1.1",
+        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.1.zip",
+        "sha256": "03be1794d16eebeacd10f7381af7e50b4f98485357c836a375698754cab7a08a",
+        "changelog": [
+          "Fixed a couple access rules, added QOL nodes for Bhujerba and Archades"
+        ]
+    },
+    {
       "package_version": "0.1.0",
       "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.0.zip",
       "sha256": "c0e09e1389960ed7d1f62659ab427ff203aef68de574c40b8d25928c3d128f45",
