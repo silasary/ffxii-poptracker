@@ -54,8 +54,9 @@
                                             "rows": [
 
                                                 [
-                                                    "character_scaled_depth",
-                                                    "side_quests"
+                                                    "character_scaled_depth"
+                                                    // "side_quests",
+                                                    // "grindy"
                                                 ],
                                                 [
                                                     "place_treasures",
@@ -107,7 +108,7 @@
                     {
   "type": "group",
   "header": "Key Items",
-  "width": 600,  
+  "width": 600,
   "content": {
     "type": "itemgrid",
     "item_margin": "2,2",

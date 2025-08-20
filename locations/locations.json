@@ -61,7 +61,7 @@
             ]
           },
           {
-            "name": "Ktjn Reward", 
+            "name": "Ktjn Reward",
             "visibility_rules": [
               "side_quests"
             ],
@@ -1265,7 +1265,7 @@
           {
             "name": "Hunt 34: Rocktoise",
             "visibility_rules": [
-              "place_hunts"
+            //   "place_hunts"  // Rocktoise is needed for Armband quest, so we always show it.
             ],
             "access_rules": [
               "clan_primer,$scaled_difficulty|1"
@@ -1274,7 +1274,7 @@
           {
             "name": "Pilika Merchant's Armband",
             "visibility_rules": [
-              "side_quests,place_hunts"
+              "side_quests"
             ],
             "access_rules": [
               "clan_primer,$scaled_difficulty|1"
@@ -1283,7 +1283,7 @@
           {
             "name": "Clio's Technicks Pilika's Diary",
             "visibility_rules": [
-              "side_quests,place_hunts"
+              "side_quests"
             ],
             "access_rules": [
               "clan_primer,merchants_armband,$scaled_difficulty|1"
