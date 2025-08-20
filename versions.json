@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+        "package_version": "0.1.3",
+        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.3.zip",
+        "sha256": "88ed7896700e0ed8133d54636c1230fbd60224e278c6087f06501cc07be732d3",
+        "changelog": [
+          "Party Member Auto Tracking, and Hunt defeats can be kinda tracked now"
+        ]
+    },
+    {
         "package_version": "0.1.2",
         "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.2.zip",
         "sha256": "f4f47afaa5c5e52ad9dbfc004c01d97ae933ccecc0b7ba68a6994a6e1bc0d3c0",
