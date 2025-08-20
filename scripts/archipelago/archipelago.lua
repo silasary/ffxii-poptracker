@@ -3,10 +3,12 @@ local CHAR_MAPPING = require "archipelago.loc_mapping_chars"
 local LOCATION_MAPPING = require "archipelago.location_mapping"
 local OPTION_MAPPING = require "archipelago.option_mapping"
 local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
+local TREASURE_MAPPING = require "archipelago.treasure_mapping"
 require "archipelago.hunts"
 require "archipelago.tab_mapping"
 
 AP_INDEX = -1
+for k,v in pairs(TREASURE_MAPPING) do LOCATION_MAPPING[k] = v end -- Merge treasure locations into location mapping
 
 function ClearItem(code, type)
     local item = Tracker:FindObjectForCode(code)
@@ -95,6 +97,7 @@ function ClearItems(slot_data)
         end
     end
 
+    Treasures = slot_data.treasures
     
     PARTY_MAPPING = {}
     local characters = slot_data.characters

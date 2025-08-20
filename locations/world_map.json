@@ -166,8 +166,48 @@
         "ref": "Main/Lowtown/Party Member (Basch)"
       },
       {
-        "name": "Chests",
-        "ref": "Main/Lowtown/Chests - Lowtown"
+        "name": "North Sprawl Treasure 1",
+        "ref": "Main/Lowtown/North Sprawl Treasure 1"
+      },
+      {
+        "name": "North Sprawl Treasure 2",
+        "ref": "Main/Lowtown/North Sprawl Treasure 2"
+      },
+      {
+        "name": "North Sprawl Treasure 3",
+        "ref": "Main/Lowtown/North Sprawl Treasure 3"
+      },
+      {
+        "name": "North Sprawl Treasure 4",
+        "ref": "Main/Lowtown/North Sprawl Treasure 4"
+      },
+      {
+        "name": "North Sprawl Treasure 5",
+        "ref": "Main/Lowtown/North Sprawl Treasure 5"
+      },
+      {
+        "name": "North Sprawl Treasure 6",
+        "ref": "Main/Lowtown/North Sprawl Treasure 6"
+      },
+      {
+        "name": "South Sprawl Treasure 1",
+        "ref": "Main/Lowtown/South Sprawl Treasure 1"
+      },
+      {
+        "name": "South Sprawl Treasure 2",
+        "ref": "Main/Lowtown/South Sprawl Treasure 2"
+      },
+      {
+        "name": "South Sprawl Treasure 3",
+        "ref": "Main/Lowtown/South Sprawl Treasure 3"
+      },
+      {
+        "name": "South Sprawl Treasure 4",
+        "ref": "Main/Lowtown/South Sprawl Treasure 4"
+      },
+      {
+        "name": "South Sprawl Treasure 5",
+        "ref": "Main/Lowtown/South Sprawl Treasure 5"
       },
       {
         "name": "Royal Palace - Goddess's Magicite",
@@ -981,8 +1021,8 @@
     ],
     "sections": [
       {
-        "name": "Air Deck chest",
-        "ref": "Main/Skyferry/Air Deck chest"
+        "name": "Air Deck Treasure 1",
+        "ref": "Main/Skyferry/Air Deck Treasure 1"
       },
       {
         "name": "Ann's Letter",

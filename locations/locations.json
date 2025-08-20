@@ -263,14 +263,105 @@
             ]
           },
           {
-            "name": "Chests - Lowtown",
+            "name": "North Sprawl Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Lowtown - North Sprawl Treasure 1"
             ],
             "access_rules": [
               "$scaled_difficulty|1"
             ]
           },
+          {
+            "name": "North Sprawl Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - North Sprawl Treasure 2"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "North Sprawl Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - North Sprawl Treasure 3"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "North Sprawl Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - North Sprawl Treasure 4"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "North Sprawl Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - North Sprawl Treasure 5"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "North Sprawl Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - North Sprawl Treasure 6"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "South Sprawl Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - South Sprawl Treasure 1"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "South Sprawl Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - South Sprawl Treasure 2"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "South Sprawl Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - South Sprawl Treasure 3"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "South Sprawl Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - South Sprawl Treasure 4"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+          {
+            "name": "South Sprawl Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lowtown - South Sprawl Treasure 5"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|1"
+            ]
+          },
+
           {
             "name": "Royal Palace - Goddess's Magicite",
             "access_rules": [
@@ -1591,9 +1682,9 @@
         ],
         "sections": [
           {
-            "name": "Air Deck chest",
+            "name": "Air Deck Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Skyferry - Air Deck Treasure 1"
             ],
             "access_rules": [
               "$scaled_difficulty|1"

@@ -14,6 +14,7 @@ ScriptHost:LoadScript("scripts/logic/aeropass.lua")
 ScriptHost:LoadScript("scripts/logic/huntclub.lua")
 ScriptHost:LoadScript("scripts/logic/hunts.lua")
 ScriptHost:LoadScript("scripts/logic/esper.lua")
+ScriptHost:LoadScript("scripts/logic/treasures.lua")
 ScriptHost:LoadScript("scripts/locations.lua")
 
 -- Items
