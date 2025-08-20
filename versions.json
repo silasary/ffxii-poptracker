@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+        "package_version": "0.1.2",
+        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.2.zip",
+        "sha256": "f4f47afaa5c5e52ad9dbfc004c01d97ae933ccecc0b7ba68a6994a6e1bc0d3c0",
+        "changelog": [
+          "Fixed the visibility of Pilika's sidequest"
+        ]
+    },
+    {
         "package_version": "0.1.1",
         "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.1.zip",
         "sha256": "03be1794d16eebeacd10f7381af7e50b4f98485357c836a375698754cab7a08a",

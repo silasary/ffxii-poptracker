@@ -1,292 +1,289 @@
 {
-    "shared_item_grid": {
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
         "type": "array",
-        "orientation": "vertical",
+        "orientation": "horizontal",
         "margin": "0,0",
         "content": [
-            {
-                "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
-                "content": [
+          {
+            "type": "tabbed",
+            "tabs": [
+              {
+                "title": "Characters",
+                "content": {
+                  "type": "itemgrid",
+                  "item_margin": "2, 2",
+                  "item_width": 175,
+                  "item_height": 48,
+                  "h_alignment": "center",
+                  "rows": [
+                    [
+                      "fran",
+                      "penelo",
+                    ],
+                    [
+                      "ashe",
+                      "vaan",
+                    ],
+                    [
+                      "balthier",
+                      "basch",
+                    ],
+                    [
+                      "guest",
+                      "second_board"
+                    ]
+                  ]
+                }
+              },
+              {
+                "title": "Settings",
+                "content": {
+                  "type": "array",
+                  "orientation": "vertical",
+                  "content": [
                     {
-                        "type": "tabbed",
-                        "tabs": [
-                            {
-                                "title": "Characters",
-                                "content": {
-                                    "type": "itemgrid",
-                                    "item_margin": "2, 2",
-                                    "item_width": 175,
-                                    "item_height": 48,
-                                    "h_alignment": "center",
-                                    "rows": [
-                                        [
-                                            "fran",
-                                            "penelo",
-                                        ],
-                                        [
-                                            "ashe",
-                                            "vaan",
-                                        ],
-                                        [
-                                            "balthier",
-                                            "basch",
-                                        ],
-                                        [
-                                            "guest",
-                                            "second_board"
-                                        ]
-                                    ]
-                                }
-                            },
-                            {
-                                "title": "Settings",
-                                "content": {
-                                    "type": "array",
-                                    "orientation": "vertical",
-                                    "content": [
-                                        {
-                                            "type": "itemgrid",
-                                    "item_margin": "2, 0",
-                                    "item_width": 100,
-                                    "item_height": 56,
-                                            "rows": [
-
-                                                [
-                                                    "character_scaled_depth",
-                                                    "side_quests"
-                                                ],
-                                                [
-                                                    "place_treasures",
-                                                    "place_hunts",
-                                                    "place_clan_rank"
-
-                                                ],
-                                                [
-                                                    "trophies",
-                                                    "place_clan_boss",
-                                                    "place_clan_esper"
-                                                ],
-                                                [
-                                                    "place_black_orbs",
-                                                    "place_chops"
-
-                                                ]
-                                            ]
-                                        }
-                                    ]
-                                }
-                            }
+                      "type": "itemgrid",
+                      "item_margin": "2, 0",
+                      "item_width": 100,
+                      "item_height": 56,
+                      "rows": [
+                        [
+                          "character_scaled_depth"
+                          // "side_quests",
+                          // "grindy"
+                        ],
+                        [
+                          "place_treasures",
+                          "place_hunts",
+                          "place_clan_rank"
+                        ],
+                        [
+                          "trophies",
+                          "place_clan_boss",
+                          "place_clan_esper"
+                        ],
+                        [
+                          "place_black_orbs",
+                          "place_chops"
                         ]
-                    },
-                    {
-                        "type": "group",
-                        "header": "Go Mode",
-                        "content": {
-                                    "type": "itemgrid",
-                                    "item_margin": "2, 2",
-                                    "item_width": 60,
-                                    "item_height": 90,
-                                    "h_alignment": "center",
-                                    "rows": [
-                                [
-                                    "goddess_magicite",
-                                    "nethicite",
-                                    "dawn_shard"
-                                ],
-                                [
-                                    "sword_of_kings",
-                                    "access_key",
-                                    "treaty_blade"
-                                ],
-
-                            ]
-                        }
-                    },
-                    {
-  "type": "group",
-  "header": "Key Items",
-  "width": 600,  
-  "content": {
-    "type": "itemgrid",
-    "item_margin": "2,2",
-    "item_width": 75,
-    "item_height": 36,
-                            "rows": [
-                                [
-                                    "clan_primer",
-                                    "shadestone",
-                                    "sunstone",
-                                    "crescent_stone",
-                                    "tube_fuse",
-                                    "sword_of_the_order",
-                                    "brig_key",
-                                    "rainstone",
-                                    "lentes_tear",
-                                    "soul_ward_key",
-                                    "pw_chop"
-                                ],
-                                [
-                                    "sw_chop",
-                                    "lab_access_card",
-                                    "black_orb",
-                                    "wind_globe",
-                                    "windvane",
-                                    "barheim_key",
-                                    "stone_of_condemner",
-                                    "sluice_gate_key",
-                                    "merchants_armband",
-                                    "pilikas_diary",
-                                    "site_3_key"
-                                ],
-                                [
-                                    "site_11_key",
-                                    "dragon_scale",
-                                    "ageworn_key",
-                                    "fragments",
-                                    "moonsilver_medallion",
-                                    "med_bravery",
-                                    "med_love",
-                                    "med_lusterless",
-                                    "med_might",
-                                    "anns_letter",
-                                    "cactus_flower"
-                                ],
-                                [
-                                    "broken_key",
-                                    "errmonea_leaf",
-                                    "rabbit_tail",
-                                    "ring_of_the_toad",
-                                    "rusted_scrap_of_armor",
-                                    "silent_urn",
-                                    "stolen_articles",
-                                    "ring_of_light",
-                                    "serpentwyne",
-                                    "viera_rucksack",
-                                    "shelled_trophy"
-                                ]
-                            ]
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Aeropasses",
-                        "content": {
-                                    "type": "itemgrid",
-                                    "item_margin": "2, 0",
-                                    "item_width": 120,
-                                    "item_height": 44,
-                                    "h_alignment": "center",
-                            "rows": [
-                                [
-                                    "rab_aero"
-                                ],
-                                [
-                                    "bhu_aero"
-                                ],
-                                [
-                                    "nal_aero"
-                                ],
-                                [
-                                    "arc_aero"
-                                ],
-                                [
-                                    "bal_aero"
-                                ],
-                            ]
-                        }
-                    },
-                    {
-                        "type": "group",
-                        "header": "Espers",
-                        "content": {
-                            "type": "canvas",
-                            "width": 160,
-                            "height": 160,
-                            "content": [
-                                {
-                                    "type": "item",
-                                    "item": "belias",
-                                    "canvas_left": 64
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "chaos",
-                                    "canvas_left": 96,
-                                    "canvas_top": 9
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "zalera",
-                                    "canvas_left": 119,
-                                    "canvas_top": 32
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "zeromus",
-                                    "canvas_left": 128,
-                                    "canvas_top": 64
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "hashmal",
-                                    "canvas_left": 119,
-                                    "canvas_top": 96
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "ultima",
-                                    "canvas_left": 96,
-                                    "canvas_top": 119
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "exodus",
-                                    "canvas_left": 64,
-                                    "canvas_top": 128
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "cuchulainn",
-                                    "canvas_left": 32,
-                                    "canvas_top": 119
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "shemhazai",
-                                    "canvas_left": 9,
-                                    "canvas_top": 96
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "adrammelech",
-                                    "canvas_left": 0,
-                                    "canvas_top": 64
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "famfrit",
-                                    "canvas_left": 9,
-                                    "canvas_top": 32
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "mateus",
-                                    "canvas_left": 32,
-                                    "canvas_top": 9
-                                },
-                                {
-                                    "type": "item",
-                                    "item": "zodiark",
-                                    "canvas_left": 64,
-                                    "canvas_top": 64
-                                }
-                            ]
-                        }
+                      ]
                     }
-                ]
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "type": "group",
+            "header": "Go Mode",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2, 2",
+              "item_width": 60,
+              "item_height": 90,
+              "h_alignment": "center",
+              "rows": [
+                [
+                  "goddess_magicite",
+                  "nethicite",
+                  "dawn_shard"
+                ],
+                [
+                  "sword_of_kings",
+                  "access_key",
+                  "treaty_blade"
+                ],
+              ]
             }
+          },
+          {
+            "type": "group",
+            "header": "Key Items",
+            "width": 600,
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2,2",
+              "item_width": 75,
+              "item_height": 36,
+              "rows": [
+                [
+                  "clan_primer",
+                  "shadestone",
+                  "sunstone",
+                  "crescent_stone",
+                  "tube_fuse",
+                  "sword_of_the_order",
+                  "brig_key",
+                  "rainstone",
+                  "lentes_tear",
+                  "soul_ward_key",
+                  "pw_chop"
+                ],
+                [
+                  "sw_chop",
+                  "lab_access_card",
+                  "black_orb",
+                  "wind_globe",
+                  "windvane",
+                  "barheim_key",
+                  "stone_of_condemner",
+                  "sluice_gate_key",
+                  "merchants_armband",
+                  "pilikas_diary",
+                  "site_3_key"
+                ],
+                [
+                  "site_11_key",
+                  "dragon_scale",
+                  "ageworn_key",
+                  "fragments",
+                  "moonsilver_medallion",
+                  "med_bravery",
+                  "med_love",
+                  "med_lusterless",
+                  "med_might",
+                  "anns_letter",
+                  "cactus_flower"
+                ],
+                [
+                  "broken_key",
+                  "errmonea_leaf",
+                  "rabbit_tail",
+                  "ring_of_the_toad",
+                  "rusted_scrap_of_armor",
+                  "silent_urn",
+                  "stolen_articles",
+                  "ring_of_light",
+                  "serpentwyne",
+                  "viera_rucksack",
+                  "shelled_trophy"
+                ]
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "header": "Aeropasses",
+            "content": {
+              "type": "itemgrid",
+              "item_margin": "2, 0",
+              "item_width": 120,
+              "item_height": 44,
+              "h_alignment": "center",
+              "rows": [
+                [
+                  "rab_aero"
+                ],
+                [
+                  "bhu_aero"
+                ],
+                [
+                  "nal_aero"
+                ],
+                [
+                  "arc_aero"
+                ],
+                [
+                  "bal_aero"
+                ],
+              ]
+            }
+          },
+          {
+            "type": "group",
+            "header": "Espers",
+            "content": {
+              "type": "canvas",
+              "width": 160,
+              "height": 160,
+              "content": [
+                {
+                  "type": "item",
+                  "item": "belias",
+                  "canvas_left": 64
+                },
+                {
+                  "type": "item",
+                  "item": "chaos",
+                  "canvas_left": 96,
+                  "canvas_top": 9
+                },
+                {
+                  "type": "item",
+                  "item": "zalera",
+                  "canvas_left": 119,
+                  "canvas_top": 32
+                },
+                {
+                  "type": "item",
+                  "item": "zeromus",
+                  "canvas_left": 128,
+                  "canvas_top": 64
+                },
+                {
+                  "type": "item",
+                  "item": "hashmal",
+                  "canvas_left": 119,
+                  "canvas_top": 96
+                },
+                {
+                  "type": "item",
+                  "item": "ultima",
+                  "canvas_left": 96,
+                  "canvas_top": 119
+                },
+                {
+                  "type": "item",
+                  "item": "exodus",
+                  "canvas_left": 64,
+                  "canvas_top": 128
+                },
+                {
+                  "type": "item",
+                  "item": "cuchulainn",
+                  "canvas_left": 32,
+                  "canvas_top": 119
+                },
+                {
+                  "type": "item",
+                  "item": "shemhazai",
+                  "canvas_left": 9,
+                  "canvas_top": 96
+                },
+                {
+                  "type": "item",
+                  "item": "adrammelech",
+                  "canvas_left": 0,
+                  "canvas_top": 64
+                },
+                {
+                  "type": "item",
+                  "item": "famfrit",
+                  "canvas_left": 9,
+                  "canvas_top": 32
+                },
+                {
+                  "type": "item",
+                  "item": "mateus",
+                  "canvas_left": 32,
+                  "canvas_top": 9
+                },
+                {
+                  "type": "item",
+                  "item": "zodiark",
+                  "canvas_left": 64,
+                  "canvas_top": 64
+                }
+              ]
+            }
+          }
         ]
-    }
+      }
+    ]
+  }
 }
