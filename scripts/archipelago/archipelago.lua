@@ -28,25 +28,25 @@ function ClearItems(slot_data)
     end
     -- Load options from slot_data
     -- {
-    -- 'characters': [0, 2, 1, 4, 3, 5], 
+    -- 'characters': [0, 2, 1, 4, 3, 5],
     -- 'options': {
-    --     'shuffle_main_party': 1, 
-    --     'character_progression_scaling': 1, 
-    --     'include_treasures': 0, 
-    --     'include_chops': 0, 
-    --     'include_black_orbs': 0, 
-    --     'include_trophy_rare_games': 0, 
-    --     'include_hunt_rewards': 0, 
-    --     'include_clan_hall_rewards': 0, 
-    --     'allow_seitengrat': 0, 
+    --     'shuffle_main_party': 1,
+    --     'character_progression_scaling': 1,
+    --     'include_treasures': 0,
+    --     'include_chops': 0,
+    --     'include_black_orbs': 0,
+    --     'include_trophy_rare_games': 0,
+    --     'include_hunt_rewards': 0,
+    --     'include_clan_hall_rewards': 0,
+    --     'allow_seitengrat': 0,
     --     'bahamut_unlock': 0
     --   }
     -- }
 
-    hunt_key = string.format("ffxiiow_hunts_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    HuntKey = string.format("ffxiiow_hunts_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
 
-    Archipelago:SetNotify({ hunt_key })
-    Archipelago:Get({ hunt_key })
+    Archipelago:SetNotify({ HuntKey })
+    Archipelago:Get({ HuntKey })
 
     local options = slot_data.options
     for key, mapped in pairs(OPTION_MAPPING) do
@@ -96,6 +96,17 @@ function ClearItems(slot_data)
     end
 
     
+    PARTY_MAPPING = {}
+    local characters = slot_data.characters
+    -- characters is a mapping of vanilla character ID to shuffled ID.
+    -- so Characters[0] is the character who you'd get when you usually get Vaan
+    PARTY_MAPPING[CHAR_ITEMS[characters[1] + 1]] = "@Main/Rabanastre/Party Member (Vaan)"
+    PARTY_MAPPING[CHAR_ITEMS[characters[2] + 1]] = "@Main/Dreadnought Leviathan/Party Member (Ashe)"
+    PARTY_MAPPING[CHAR_ITEMS[characters[3] + 1]] = "@Main/Garamsythe Waterway/Party Members (Balthier, Fran, Guest)"
+    PARTY_MAPPING[CHAR_ITEMS[characters[4] + 1]] = "@Main/Garamsythe Waterway/Party Members (Balthier, Fran, Guest)"
+    PARTY_MAPPING[CHAR_ITEMS[characters[5] + 1]] = "@Main/Lowtown/Party Member (Basch)"
+    PARTY_MAPPING[CHAR_ITEMS[characters[6] + 1]] = "@Main/Giza Plains Dry/Party Member (Penelo)"
+    print(dump(PARTY_MAPPING))
 end
 
 Archipelago:AddClearHandler("clearItems", ClearItems)
@@ -132,20 +143,24 @@ Archipelago:AddItemHandler("item handler", OnItem)
 function OnLocation(location_id, location_name)
     -- is this a character starting items location?
     -- if g >= 3 helps to make sure we don't get false positives
-local v = CHAR_MAPPING[location_id]
-if v then
-  local code = v[1]                    
-  local obj  = Tracker:FindObjectForCode(code)
-  if obj then
-    -- keep a tiny counter per character
-    _G._char_hits = _G._char_hits or {}
-    _G._char_hits[code] = (_G._char_hits[code] or 0) + 1
+    local v = CHAR_MAPPING[location_id]
+    if v then
+        local code = v[1]
+        local obj  = Tracker:FindObjectForCode(code)
+        if obj then
+            -- keep a tiny counter per character
+            _G._char_hits = _G._char_hits or {}
+            _G._char_hits[code] = (_G._char_hits[code] or 0) + 1
 
-    if _G._char_hits[code] >= 3 then   -- require two separate checks
-      obj.Active = true
+            if _G._char_hits[code] >= 3 then -- require two separate checks
+                obj.Active = true
+                tobj = Tracker:FindObjectForCode(PARTY_MAPPING[code])
+                if tobj then
+                    tobj.AvailableChestCount = tobj.AvailableChestCount - 1
+                end
+            end
+        end
     end
-  end
-end
 
 
     local value = LOCATION_MAPPING[location_id]
