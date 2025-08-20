@@ -45,9 +45,9 @@ function ClearItems(slot_data)
 
     hunt_key = string.format("ffxiiow_hunts_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
 
-    Archipelago:SetNotify({hunt_key})
-    Archipelago:Get({hunt_key})
-    
+    Archipelago:SetNotify({ hunt_key })
+    Archipelago:Get({ hunt_key })
+
     local options = slot_data.options
     for key, mapped in pairs(OPTION_MAPPING) do
         local on = options[key] == 1
@@ -100,6 +100,8 @@ end
 
 Archipelago:AddClearHandler("clearItems", ClearItems)
 
+-- Item Received
+
 function OnItem(index, item_id, item_name, player_number)
     if index <= AP_INDEX then
         return
@@ -125,6 +127,8 @@ end
 
 Archipelago:AddItemHandler("item handler", OnItem)
 
+
+-- Location Checked
 function OnLocation(location_id, location_name)
     -- is this a character starting items location?
     -- if g >= 3 helps to make sure we don't get false positives
@@ -167,45 +171,50 @@ end
 
 Archipelago:AddLocationHandler("location handler", OnLocation)
 
+-- Hunt stages
+
 local function starts_with(str, start)
     return str:sub(1, #start) == start
- end
+end
 
 function OnReply(key, value, old_value)
     print("OnReply %s", key)
     if starts_with(key, "ffxiiow_hunts") then
         local hunt_data = value
-        for _, v in pairs(hunt_data) do
-            local hunt_id = v[1]
-            local stage = v[2]
+        for i, v in pairs(hunt_data) do
+            local hunt_id = i
+            local stage = v
             on_hunt_updated(hunt_id, stage)
         end
     end
 end
 
-function onBounce(json)
-  local data = json["data"]
-  if data then
-    if data["type"] == "MapUpdate" then
-      updateMap(data["mapId"])
+Archipelago:AddSetReplyHandler("ds handler", OnReply)
+Archipelago:AddRetrievedHandler("ds handler", OnReply)
+
+-- Auto-tabbing --
+
+function onBounce(json)  
+    local data = json["data"]
+    if data then
+        if data["type"] == "MapUpdate" then
+            updateMap(data["mapId"])
+        end
     end
-  end
 end
 
 function updateMap(map_id)
-  local tabs = TAB_MAPPING[map_id]
---   if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
+    local tabs = TAB_MAPPING[map_id]
+    --   if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
     if true then
-      if tabs then
-        for _, tab in ipairs(tabs) do
-          Tracker:UiHint("ActivateTab", tab)
+        if tabs then
+            for _, tab in ipairs(tabs) do
+                Tracker:UiHint("ActivateTab", tab)
+            end
+        else
+            print(string.format("No tab mapping found for map_id %s", map_id))
         end
-    else
-        print(string.format("No tab mapping found for map_id %s", map_id))
-      end
     end
 end
 
-Archipelago:AddSetReplyHandler("ds handler", OnReply)
-Archipelago:AddRetrievedHandler("ds handler", OnReply)
 Archipelago:AddBouncedHandler("bounce handler", onBounce)

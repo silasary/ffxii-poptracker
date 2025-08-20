@@ -1,104 +1,116 @@
-HUNT_MAPPING = {
-    [0] = "Defeat Rogue Tomato",
-    [1] = "Defeat Thextera",
-    [2] = "Defeat Flowering Cactoid",
-    [3] = "Defeat Wraith",
-    [4] = "Defeat Nidhogg",
-    [5] = "Defeat White Mousse",
-    [6] = "Defeat Ring Wyrm",
-    [7] = "Defeat Wyvern Lord",
-    [8] = "Defeat Marilith",
-    [9] = "Defeat Enkelados",
-    [10] = "Defeat Croakadile",
-    [11] = "Defeat Ixtab",
-    [12] = "Defeat Feral Retriever",
-    [13] = "Defeat Vorpal Bunny",
-    [14] = "Defeat Mindflayer",
-    [15] = "Defeat Bloodwing",
-    [16] = "Defeat Atomos",
-    [17] = "Defeat Roblon",
-    [18] = "Defeat Orthros",
-    [19] = "Defeat Darksteel",
-    [20] = "Defeat Vyraal",
-    [21] = "Defeat Lindwyrm",
-    [22] = "Defeat Overlord",
-    [23] = "Defeat Gil Snapper",
-    [24] = "Defeat Deathscythe",
-    [25] = "Defeat Diabolos",
-    [26] = "Defeat Piscodaemon",
-    [27] = "Defeat Wild Malboro",
-    [28] = "Defeat Catoblepas",
-    [29] = "Defeat Carrot",
-    [30] = "Defeat Gilgamesh",
-    [31] = "Defeat Behemoth King",
-    [32] = "Defeat Trickster",
-    [33] = "Defeat Rocktoise",
-    [34] = "Defeat Antlion",
-    [35] = "Defeat Myath",
-    [36] = "Defeat Braegh",
-    [37] = "Defeat Antlion",
-    [38] = "Defeat Fafnir",
-    [39] = "Defeat Crystal Knight",
-    [40] = "Defeat Omega Mark XII",
-    [41] = "Defeat Yiazmat",
+HUNT_MAPPING = {  -- IDs are zero-indexed, And the first 40 in order of appearance in the game
+    [0] = "rogue_tomato",
+    [1] = "thextera",
+    [2] = "flowering_cactoid",
+    [3] = "wraith",
+    [4] = "nidhogg",
+    [5] = "white_mousse",
+    [6] = "ring_wyrm",
+    [7] = "wyvern_lord",
+    [8] = "marilith",
+    [9] = "enkelados",
+    [10] = "croakadile",
+    [11] = "ixtab",
+    [12] = "feral_retriever",
+    [13] = "vorpal_bunny",
+    [14] = "mindflayer",
+    [15] = "bloodwing",
+    [16] = "atomos",
+    [17] = "roblon",
+    [18] = "braegh",
+    [19] = "darksteel",
+    [20] = "vyraal",
+    [21] = "lindwyrm",
+    [22] = "overlord",
+    [23] = "goliath",
+    [24] = "deathscythe",
+    [25] = "deathgaze",
+    [26] = "diabolos",
+    [27] = "piscodaemon",
+    [28] = "wild_malboro",
+    [29] = "catoblepas",
+    [30] = "fafnir",
+    [31] = "pylraster",
+    [32] = "cluckatrice",
+    [33] = "rocktoise",
+    [34] = "orthros",
+    [35] = "gil_snapper",
+    [36] = "trickster",
+    [37] = "antlion",
+    [38] = "carrot",
+    [39] = "gilgamesh",
+    [40] = "behemoth_king",
+    [41] = "ixion",
+    [42] = "shadowseer",
+    [43] = "yiazmat",
+    [44] = "belito",
 }
 
-HUNT_STAGE_MAPPING = {
+HUNT_STAGE_MAPPING = {  -- 200 means I haven't figured out where the kill is yet
     [0] = 50,
-    [1] = 70,
-    [2] = 50,
-    [3] = 50,
+    [1] = 50,
+    [2] = 70,
+    [3] = 70,
     [4] = 70,
     [5] = 50,
-    [6] = 70,
+    [6] = 90,
     [7] = 70,
-    [8] = 70,
-    [9] = 70,
-    [10] = 70,
+    [8] = 90,
+    [9] = 90,
+    [10] = 90,
     [11] = 70,
     [12] = 70,
-    [13] = 70,
-    [14] = 70,
+    [13] = 90,
+    [14] = 200,
     [15] = 70,
-    [16] = 70,
-    [17] = 70,
-    [18] = 100,
-    [19] = 70,
-    [20] = 70,
-    [21] = 70,
-    [22] = 70,
-    [23] = 70,
-    [24] = 70,
-    [25] = 70,
-    [26] = 70,
-    [27] = 70,
-    [28] = 70,
-    [29] = 70,
-    [30] = 70,
-    [31] = 70,
-    [32] = 70,
+    [16] = 200,
+    [17] = 200,
+    [18] = 200,
+    [19] = 90,
+    [20] = 200,
+    [21] = 200,
+    [22] = 200,
+    [23] = 200,
+    [24] = 200,
+    [25] = 200,
+    [26] = 200,
+    [27] = 200,
+    [28] = 200,
+    [29] = 200,
+    [30] = 200,
+    [31] = 200,
+    [32] = 200,
     [33] = 70,
-    [34] = 90,
-    [35] = 70,
-    [36] = 70,
+    [34] = 70,
+    [35] = 200,
+    [36] = 200,
     [37] = 90,
-    [38] = 70,
-    [39] = 70,
-    [40] = 100,
-    [41] = 100,
+    [38] = 200,
+    [39] = 200,
+    [40] = 200,
+    [41] = 200,
+    [42] = 200,
+    [43] = 200,
+    [44] = 2000
 }
 function on_hunt_updated(hunt_id, stage)
-    -- IDs are zero-indexed, but are mostly in order of appearance in the game
     
-    -- hunt 4: Stage 70, Niddhogg dead
-    -- hunt 5: Stage 50, White Mousse dead
-    -- hunt 6: Stage 70, Ring Wyrm dead
-    -- hunt 11 Stage 70, Ixtab dead
-    -- hunt 12 Stage 70, Feral Retriever dead
-    -- hunt 15 Stage 70, Bloodwing dead
-    -- hunt 19 Stage 100, Darksteel dead
-    -- hunt 33 Stage 70, Rocktoise dead
-    -- hunt 34 Stage 70, Orthros dead
-    -- hunt 37 Stage 90, Antlion dead
+    local code = HUNT_MAPPING[tonumber(hunt_id)]
+    local needed = HUNT_STAGE_MAPPING[tonumber(hunt_id)] or 0
+    print(string.format("hunt %d: Stage %d/%d, %s", hunt_id, stage, needed, code))
+    if stage >= HUNT_STAGE_MAPPING[tonumber(hunt_id)] then
+        -- Mark the hunt as complete
+        local object = Tracker:FindObjectForCode(code)
+        if object then
+            if code:sub(1, 1) == "@" then
+                object.AvailableChestCount = object.AvailableChestCount - 1
+            else
+                object.Active = true
+            end
 
+            print(string.format("Hunt %s is now complete", code))
+        else
+            print(string.format("onHuntUpdated: could not find object for hunt code %s", code))
+        end
+    end
 end
