@@ -4,6 +4,7 @@ local LOCATION_MAPPING = require "archipelago.location_mapping"
 local OPTION_MAPPING = require "archipelago.option_mapping"
 local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
 require "archipelago.hunts"
+require "archipelago.tab_mapping"
 
 AP_INDEX = -1
 
@@ -182,5 +183,29 @@ function OnReply(key, value, old_value)
     end
 end
 
+function onBounce(json)
+  local data = json["data"]
+  if data then
+    if data["type"] == "MapUpdate" then
+      updateMap(data["mapId"])
+    end
+  end
+end
+
+function updateMap(map_id)
+  local tabs = TAB_MAPPING[map_id]
+--   if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
+    if true then
+      if tabs then
+        for _, tab in ipairs(tabs) do
+          Tracker:UiHint("ActivateTab", tab)
+        end
+    else
+        print(string.format("No tab mapping found for map_id %s", map_id))
+      end
+    end
+end
+
 Archipelago:AddSetReplyHandler("ds handler", OnReply)
 Archipelago:AddRetrievedHandler("ds handler", OnReply)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)
