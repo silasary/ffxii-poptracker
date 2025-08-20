@@ -34,82 +34,93 @@
               "content": {
                 "type": "tabbed",
                 "tabs": [
-            {
-              "title": "",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map_select"
-                ]
-              }
-            },
-{
-  "title": "Dalmasca Estersand",
-  "content": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Dalmasca Estersand",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Dalmasca Estersand",
-              "content": {
-                "type": "map",
-                "maps": ["dalmasca_estersand"]
-              }
-            },
-            {
-              "title": "Estersand North",
-              "content": {
-                "type": "map",
-                "maps": ["dalmasca_estersand_north"]
-              }
-            },
-            {
-              "title": "Estersand South",
-              "content": {
-                "type": "map",
-                "maps": ["dalmasca_estersand_south"]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Barheim Passage",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Barheim Passage",
-              "content": {
-                "type": "map",
-                "maps": ["barheim_passage"]
-              }
-            },
-            {
-              "title": "Barheim Top",
-              "content": {
-                "type": "map",
-                "maps": ["barheim_passage_top"]
-              }
-            },
-            {
-              "title": "Barheim Bottom",
-              "content": {
-                "type": "map",
-                "maps": ["barheim_passage_bottom"]
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
-}
-,
+                  {
+                    "title": "",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "map_select"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dalmasca Estersand",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Dalmasca Estersand",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Dalmasca Estersand",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "dalmasca_estersand"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Estersand North",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "dalmasca_estersand_north"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Estersand South",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "dalmasca_estersand_south"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Barheim Passage",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Barheim Passage",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "barheim_passage"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Barheim Top",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "barheim_passage_top"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Barheim Bottom",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "barheim_passage_bottom"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
                   {
                     "title": "Dalmasca Westersand",
                     "content": {
@@ -207,41 +218,41 @@
                       ]
                     }
                   },
-{
-  "title": "Salikawood",
-  "content": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Salikawood",
-        "content": {
-          "type": "map",
-          "maps": [
-            "salikawood"
-          ]
-        }
-      },
-      {
-        "title": "Necrohol of Nabudis",
-        "content": {
-          "type": "map",
-          "maps": [
-            "necrohol_of_nabudis"
-          ]
-        }
-      },
-      {
-        "title": "Nabreus Deadlands",
-        "content": {
-          "type": "map",
-          "maps": [
-            "nabreus_deadlands"
-          ]
-        }
-      }
-    ]
-  }
-},
+                  {
+                    "title": "Salikawood",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Salikawood",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "salikawood"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Necrohol of Nabudis",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "necrohol_of_nabudis"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Nabreus Deadlands",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nabreus_deadlands"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
                   {
                     "title": "Mosphoran Highwaste",
                     "content": {
@@ -260,95 +271,111 @@
                       ]
                     }
                   },
-{
-  "title": "The Pharos",
-  "content": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "First Ascent",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "First Ascent",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_first_ascent"]
-              }
-            },
-            {
-              "title": "Top",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_first_ascent_top"]
-              }
-            },
-            {
-              "title": "Bottom",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_first_ascent_bottom"]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Second Ascent",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Second Ascent",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_second_ascent"]
-              }
-            },
-            {
-              "title": "Top",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_second_ascent_top"]
-              }
-            },
-            {
-              "title": "Mid",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_second_ascent_middle"]
-              }
-            },
-            {
-              "title": "Bottom",
-              "content": {
-                "type": "map",
-                "maps": ["pharos_second_ascent_bottom"]
-              }
-            }
-          ]
-        }
-      },
-      {
-        "title": "Third Ascent",
-        "content": {
-          "type": "map",
-          "maps": ["pharos_third_ascent"]
-        }
-      },
-      {
-        "title": "Subterra",
-        "content": {
-          "type": "map",
-          "maps": ["pharos_subterra"]
-        }
-      }
-    ]
-  }
-},
-
-
+                  {
+                    "title": "The Pharos",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "First Ascent",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "First Ascent",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_first_ascent"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Top",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_first_ascent_top"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Bottom",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_first_ascent_bottom"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Second Ascent",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Second Ascent",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_second_ascent"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Top",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_second_ascent_top"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Mid",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_second_ascent_middle"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Bottom",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_second_ascent_bottom"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Third Ascent",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pharos_third_ascent"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Subterra",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pharos_subterra"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
                   {
                     "title": "Sochen Cave Palace",
                     "content": {
@@ -392,50 +419,59 @@
                         }
                       ]
                     }
-                  },{
-  "title": "Paramina Rift",
-  "content": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Paramina Rift",
-        "content": {
-          "type": "map",
-          "maps": ["paramina_rift"]
-        }
-      },
-      {
-        "title": "Stilshrine of Miriam",
-        "content": {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Stillshrine",
-              "content": {
-                "type": "map",
-                "maps": ["stilshrine_of_miriam"]
-              }
-            },
-            {
-              "title": "Dungeon",
-              "content": {
-                "type": "map",
-                "maps": ["stilshrine_of_miriam_dungeon"]
-              }
-            },
-            {
-              "title": "Lower",
-              "content": {
-                "type": "map",
-                "maps": ["stilshrine_of_miriam_lower"]
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
-},
+                  },
+                  {
+                    "title": "Paramina Rift",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Paramina Rift",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "paramina_rift"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Stilshrine of Miriam",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Stillshrine",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "stilshrine_of_miriam"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Dungeon",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "stilshrine_of_miriam_dungeon"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Lower",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "stilshrine_of_miriam_lower"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
                   {
                     "title": "Mt Bur-Omisace",
                     "content": {
@@ -460,40 +496,40 @@
                       "type": "tabbed",
                       "tabs": [
                         {
-  "title": "Feywood",
-  "content": {
-    "type": "tabbed",
-    "tabs": [
-      {
-        "title": "Feywood",
-        "content": {
-          "type": "map",
-          "maps": [
-            "feywood"
-          ]
-        }
-      },
-      {
-        "title": "Top",
-        "content": {
-          "type": "map",
-          "maps": [
-            "feywood_top"
-          ]
-        }
-      },
-      {
-        "title": "Bottom",
-        "content": {
-          "type": "map",
-          "maps": [
-            "feywood_bottom"
-          ]
-        }
-      }
-    ]
-  }
-},
+                          "title": "Feywood",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Feywood",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "feywood"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Top",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "feywood_top"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Bottom",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "feywood_bottom"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
                         {
                           "title": "Giruvegan",
                           "content": {
