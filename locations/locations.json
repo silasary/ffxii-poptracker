@@ -1356,7 +1356,7 @@
           {
             "name": "Hunt 34: Rocktoise",
             "visibility_rules": [
-              //   "place_hunts"  // Rocktoise is needed for Armband quest, so we always show it.
+                "place_hunts"
             ],
             "access_rules": [
               "clan_primer,$scaled_difficulty|1"
@@ -2797,8 +2797,8 @@
           {
             "name": "Defeat Rocktoise",
             "visibility_rules": [
-              "place_clan_rank",
-              "place_hunts"
+              // "place_clan_rank",  // Rocktoise is needed for Armband quest, so we always show it.
+              // "place_hunts"
             ],
             "access_rules": [
               "clan_primer,$scaled_difficulty|1"

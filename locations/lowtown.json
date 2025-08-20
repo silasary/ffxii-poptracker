@@ -63,8 +63,8 @@
         "map_locations": [
           {
             "map": "lowtown",
-            "x": 455,
-            "y": 700
+            "x": 50,
+            "y": 50
           }
         ],
         "sections": [
