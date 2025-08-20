@@ -1,4 +1,6 @@
-import json
+import jsoncomment
+
+json = jsoncomment.JsonComment()
 
 class DataPackage:
     location_name_to_id: dict[str, int]
@@ -8,10 +10,10 @@ class DataPackage:
 with open("./mapping_generator/ff12_datapackage.json") as dp_file:
     datapackage: DataPackage = json.load(dp_file)
 # location defs
-with open("./locations/locations.json") as loc_defs_file:
+with open("./locations/locations.json", encoding='utf-8') as loc_defs_file:
     loc_defs = json.load(loc_defs_file)
 # party 'starting inventory' locations
-with open("./mapping_generator/party_loc.json") as party_loc_file:
+with open("./mapping_generator/party_loc.json", encoding='utf-8') as party_loc_file:
     party_locations: list[dict[str,str]] = json.load(party_loc_file)
 
 ### ITEM HANDLING ###
@@ -112,3 +114,26 @@ with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
             write_location(loc_name, truename)
 
     loc_out.write("}\n")
+
+treasure_map = {}
+with open("./scripts/archipelago/treasure_mapping.lua", 'r') as treasures:
+    for line in treasures:
+        line = line.strip()
+        if line.startswith('['):
+            treasure_id = int(line.split(']')[0][1:])
+            treasure_map[treasure_id] = line.split('=')[1].strip()
+
+for loc_name, loc_id in datapackage['location_name_to_id'].items():
+    if "Treasure" in loc_name:
+        region, name = loc_name.split(' - ', 1)
+        new_name = f"@Main/{region}/{name}"
+        treasure_map.setdefault(loc_id, new_name)
+
+with open("./scripts/archipelago/treasure_mapping.lua", 'w') as treasure_out:
+    treasure_out.write("return {\n")
+    for treasure_id, treasure_name in treasure_map.items():
+        treasure_out.write(f"""\t[{treasure_id}] = "{treasure_name}",\n""")
+    treasure_out.write("}\n")
+
+pass
+
