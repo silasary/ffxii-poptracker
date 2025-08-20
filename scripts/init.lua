@@ -1,28 +1,35 @@
 Tracker.AllowDeferredLogicUpdate = true
 
--- FF12 Brain
-ScriptHost:LoadScript("scripts/aeropass.lua")
-ScriptHost:LoadScript("scripts/esper.lua")
-ScriptHost:LoadScript("scripts/huntclub.lua")
-ScriptHost:LoadScript("scripts/hunts.lua")
-ScriptHost:LoadScript("scripts/items.lua")
-ScriptHost:LoadScript("scripts/layouts.lua")
+-- get current variant
+local variant = Tracker.ActiveVariantUID
+-- check variant info
+IS_ITEMS_ONLY = variant:find("itemsonly")
+
+print("-- FFXII Tracker --")
+print("Loaded variant: ", variant)
+
+-- Logic
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/aeropass.lua")
+ScriptHost:LoadScript("scripts/logic/huntclub.lua")
+ScriptHost:LoadScript("scripts/logic/hunts.lua")
+ScriptHost:LoadScript("scripts/logic/esper.lua")
 ScriptHost:LoadScript("scripts/locations.lua")
-ScriptHost:LoadScript("scripts/logic.lua")
-ScriptHost:LoadScript("scripts/archipelago/autotracking.lua")
 
-Tracker:AddMaps("maps/maps.json")
+-- Items
+ScriptHost:LoadScript("scripts/items.lua")
 
+if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
+    -- Maps
+    Tracker:AddMaps("maps/maps.json")
+    -- Locations
+    Tracker:AddLocations("locations/locations.json")
+end
 
--- Add all maps
-Tracker:AddMaps("maps/maps.json")
-
--- Init item tracking
-initialize_watch_items()
-
+-- Layout
+ScriptHost:LoadScript("scripts/layouts.lua")
 
 -- Archipelago Auto Tracking
-
 if PopVersion and PopVersion >= "0.18.0" then
-    ScriptHost:LoadScript("scripts/archipelago/archipelago.lua")
+    ScriptHost:LoadScript("scripts/archipelago/autotracking.lua")
 end

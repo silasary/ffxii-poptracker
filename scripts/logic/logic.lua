@@ -28,13 +28,17 @@ function get_char_count()
         Tracker:ProviderCountForCode('penelo') + Tracker:ProviderCountForCode('guest')
 end
 
+function cerobi_access()
+    return tchita_uplands() or aero('bal_aero')
+end
+
 function ozmone_plain()
     return Tracker:ProviderCountForCode('access_key') >= 2 or Tracker:ProviderCountForCode('rainstone') > 0
 end
 
 function paramina_rift()
     return Tracker:ProviderCountForCode('access_key') >= 2 or
-        (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear'))
+        (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear') > 0)
 end
 
 function defeat_bergan()
@@ -118,3 +122,4 @@ end
 function defeat_cid()
     return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0 and scaled_difficulty(5)
 end
+
