@@ -73,16 +73,16 @@ function ClearItems(slot_data)
     end
 
     local function truthy(v)
-    -- Accept 1/true/"1"
-    if v == true or v == 1 or v == "1" then return true end
-    return false
+        -- Accept 1/true/"1"
+        if v == true or v == 1 or v == "1" then return true end
+        return false
     end
 
     for opt_key, mapped in pairs(OPTION_MAPPING) do
         local state = truthy(options[opt_key])
         if type(mapped) == "table" then
             for _, code in ipairs(mapped) do
-            set_toggle(code, state)
+                set_toggle(code, state)
             end
         else
             set_toggle(mapped, state)
@@ -106,7 +106,6 @@ function ClearItems(slot_data)
     PARTY_MAPPING[CHAR_ITEMS[characters[4] + 1]] = "@Main/Garamsythe Waterway/Party Members (Balthier, Fran, Guest)"
     PARTY_MAPPING[CHAR_ITEMS[characters[5] + 1]] = "@Main/Lowtown/Party Member (Basch)"
     PARTY_MAPPING[CHAR_ITEMS[characters[6] + 1]] = "@Main/Giza Plains Dry/Party Member (Penelo)"
-    print(dump(PARTY_MAPPING))
 end
 
 Archipelago:AddClearHandler("clearItems", ClearItems)
@@ -165,23 +164,23 @@ function OnLocation(location_id, location_name)
 
     local value = LOCATION_MAPPING[location_id]
     if not value then
-      if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
-      end
-      return
+        if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find location mapping for id %s", location_id))
+        end
+        return
     end
     for _, code in pairs(value) do
-      local object = Tracker:FindObjectForCode(code)
-      if object then
-        if code:sub(1, 1) == "@" then
-          object.AvailableChestCount = object.AvailableChestCount - 1
-        else
-          object.Active = true
+        local object = Tracker:FindObjectForCode(code)
+        if object then
+            if code:sub(1, 1) == "@" then
+                object.AvailableChestCount = object.AvailableChestCount - 1
+            else
+                object.Active = true
+            end
+        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+            print(string.format("onLocation: could not find object for code %s", code))
         end
-      elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-          print(string.format("onLocation: could not find object for code %s", code))
-      end
-    end 
+    end
 end
 
 Archipelago:AddLocationHandler("location handler", OnLocation)

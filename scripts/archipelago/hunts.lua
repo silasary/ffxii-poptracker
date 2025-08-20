@@ -97,8 +97,7 @@ function on_hunt_updated(hunt_id, stage)
     
     local code = HUNT_MAPPING[tonumber(hunt_id)]
     local needed = HUNT_STAGE_MAPPING[tonumber(hunt_id)] or 0
-    print(string.format("hunt %d: Stage %d/%d, %s", hunt_id, stage, needed, code))
-    if stage >= HUNT_STAGE_MAPPING[tonumber(hunt_id)] then
+    if stage >= needed then
         -- Mark the hunt as complete
         local object = Tracker:FindObjectForCode(code)
         if object then
@@ -112,5 +111,7 @@ function on_hunt_updated(hunt_id, stage)
         else
             print(string.format("onHuntUpdated: could not find object for hunt code %s", code))
         end
+    else
+        print(string.format("hunt %d: Stage %d/%d, %s", hunt_id, stage, needed, code))
     end
 end
