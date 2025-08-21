@@ -31,6 +31,14 @@ TAB_MAPPING = {
     [349] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
     [350] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
 
+    [357] = { "Bhujerba", "Lhusu Mines" },
+    [358] = { "Bhujerba", "Lhusu Mines" },
+    [359] = { "Bhujerba", "Lhusu Mines" },
+
+    [365] = { "Bhujerba", "Lhusu Mines" },
+    [366] = { "Bhujerba", "Lhusu Mines" },
+    [367] = { "Bhujerba", "Lhusu Mines" },
+
     [525] = { "Map Select", "Ozmone Plain" },
     [526] = { "Map Select", "Ozmone Plain" },    
     [527] = { "Map Select", "Ozmone Plain" },

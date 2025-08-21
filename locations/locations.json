@@ -3152,9 +3152,135 @@
         ],
         "sections": [
           {
-            "name": "Chests up to Site 2",
+            "name": "Shaft Entry Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Lhusu Mines - Shaft Entry Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shaft Entry Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shaft Entry Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shaft Entry Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shaft Entry Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shaft Entry Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shaft Entry Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shaft Entry Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shaft Entry Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shaft Entry Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shaft Entry Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Oltam Span Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Oltam Span Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Oltam Span Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Oltam Span Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Oltam Span Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Oltam Span Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Transitway 1 Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Transitway 1 Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Transitway 1 Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Transitway 1 Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Transitway 1 Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Transitway 1 Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shunia Twinspan Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shunia Twinspan Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shunia Twinspan Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shunia Twinspan Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shunia Twinspan Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Shunia Twinspan Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -3183,9 +3309,72 @@
             "hosted_item": "rocktoise"
           },
           {
-            "name": "Site 3 Chest",
+            "name": "Site 3 Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 2"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 3"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 4"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 5"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 6"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 7"
+            ],
+            "access_rules": [
+              "site_3_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Site 3 Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 3 Treasure 8"
             ],
             "access_rules": [
               "site_3_key,[$scaled_difficulty|5]"
@@ -3203,9 +3392,324 @@
             "hosted_item": "antlion"
           },
           {
-            "name": "Site 11+ Chests",
+            "name": "Site 9 Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 9 Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 2"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 9 Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 3"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 9 Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 4"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 9 Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 5"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 9 Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 6"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 9 Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 9 Treasure 7"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 2"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 3"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 4"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 5"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 6"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 11 Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 11 Treasure 7"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 7 Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 7 Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Lasche Span Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Lasche Span Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 2"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 3"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 4"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 5"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 6"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 7"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 8"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 9"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 10"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 11"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 5 Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 5 Treasure 12"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 South Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 South Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 South Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 South Treasure 2"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 South Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 South Treasure 3"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 South Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 South Treasure 4"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 South Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 South Treasure 5"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 North Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 North Treasure 1"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Site 6 North Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Site 6 North Treasure 2"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Staging Area Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Lhusu Mines - Staging Area Treasure 1"
             ],
             "access_rules": [
               "site_3_key,site_11_key,[$scaled_difficulty|6]"

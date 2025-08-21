@@ -1817,8 +1817,64 @@
     ],
     "sections": [
       {
-        "name": "Chests up to Site 2",
-        "ref": "Main/Lhusu Mines/Chests up to Site 2"
+        "name": "Shaft Entry Treasure 1",
+        "ref": "Main/Lhusu Mines/Shaft Entry Treasure 1"
+      },
+      {
+        "name": "Shaft Entry Treasure 2",
+        "ref": "Main/Lhusu Mines/Shaft Entry Treasure 2"
+      },
+      {
+        "name": "Shaft Entry Treasure 3",
+        "ref": "Main/Lhusu Mines/Shaft Entry Treasure 3"
+      },
+      {
+        "name": "Shaft Entry Treasure 4",
+        "ref": "Main/Lhusu Mines/Shaft Entry Treasure 4"
+      },
+      {
+        "name": "Shaft Entry Treasure 5",
+        "ref": "Main/Lhusu Mines/Shaft Entry Treasure 5"
+      },
+      {
+        "name": "Shaft Entry Treasure 6",
+        "ref": "Main/Lhusu Mines/Shaft Entry Treasure 6"
+      },
+      {
+        "name": "Oltam Span Treasure 1",
+        "ref": "Main/Lhusu Mines/Oltam Span Treasure 1"
+      },
+      {
+        "name": "Oltam Span Treasure 2",
+        "ref": "Main/Lhusu Mines/Oltam Span Treasure 2"
+      },
+      {
+        "name": "Oltam Span Treasure 3",
+        "ref": "Main/Lhusu Mines/Oltam Span Treasure 3"
+      },
+      {
+        "name": "Transitway 1 Treasure 1",
+        "ref": "Main/Lhusu Mines/Transitway 1 Treasure 1"
+      },
+      {
+        "name": "Transitway 1 Treasure 2",
+        "ref": "Main/Lhusu Mines/Transitway 1 Treasure 2"
+      },
+      {
+        "name": "Transitway 1 Treasure 3",
+        "ref": "Main/Lhusu Mines/Transitway 1 Treasure 3"
+      },
+      {
+        "name": "Shunia Twinspan Treasure 1",
+        "ref": "Main/Lhusu Mines/Shunia Twinspan Treasure 1"
+      },
+      {
+        "name": "Shunia Twinspan Treasure 2",
+        "ref": "Main/Lhusu Mines/Shunia Twinspan Treasure 2"
+      },
+      {
+        "name": "Shunia Twinspan Treasure 3",
+        "ref": "Main/Lhusu Mines/Shunia Twinspan Treasure 3"
       },
       {
         "name": "Defeat Nidhogg",
@@ -1829,16 +1885,184 @@
         "ref": "Main/Lhusu Mines/Defeat Rocktoise"
       },
       {
-        "name": "Site 3 Chest",
-        "ref": "Main/Lhusu Mines/Site 3 Chest"
+        "name": "Site 3 Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 1"
+      },
+      {
+        "name": "Site 3 Treasure 2",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 2"
+      },
+      {
+        "name": "Site 3 Treasure 3",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 3"
+      },
+      {
+        "name": "Site 3 Treasure 4",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 4"
+      },
+      {
+        "name": "Site 3 Treasure 5",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 5"
+      },
+      {
+        "name": "Site 3 Treasure 6",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 6"
+      },
+      {
+        "name": "Site 3 Treasure 7",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 7"
+      },
+      {
+        "name": "Site 3 Treasure 8",
+        "ref": "Main/Lhusu Mines/Site 3 Treasure 8"
       },
       {
         "name": "Defeat Antlion",
         "ref": "Main/Lhusu Mines/Defeat Antlion"
       },
       {
-        "name": "Site 11+ Chests",
-        "ref": "Main/Lhusu Mines/Site 11+ Chests"
+        "name": "Site 9 Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 1"
+      },
+      {
+        "name": "Site 9 Treasure 2",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 2"
+      },
+      {
+        "name": "Site 9 Treasure 3",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 3"
+      },
+      {
+        "name": "Site 9 Treasure 4",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 4"
+      },
+      {
+        "name": "Site 9 Treasure 5",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 5"
+      },
+      {
+        "name": "Site 9 Treasure 6",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 6"
+      },
+      {
+        "name": "Site 9 Treasure 7",
+        "ref": "Main/Lhusu Mines/Site 9 Treasure 7"
+      },
+      {
+        "name": "Site 11 Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 1"
+      },
+      {
+        "name": "Site 11 Treasure 2",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 2"
+      },
+      {
+        "name": "Site 11 Treasure 3",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 3"
+      },
+      {
+        "name": "Site 11 Treasure 4",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 4"
+      },
+      {
+        "name": "Site 11 Treasure 5",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 5"
+      },
+      {
+        "name": "Site 11 Treasure 6",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 6"
+      },
+      {
+        "name": "Site 11 Treasure 7",
+        "ref": "Main/Lhusu Mines/Site 11 Treasure 7"
+      },
+      {
+        "name": "Site 7 Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 7 Treasure 1"
+      },
+      {
+        "name": "Lasche Span Treasure 1",
+        "ref": "Main/Lhusu Mines/Lasche Span Treasure 1"
+      },
+      {
+        "name": "Site 5 Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 1"
+      },
+      {
+        "name": "Site 5 Treasure 2",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 2"
+      },
+      {
+        "name": "Site 5 Treasure 3",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 3"
+      },
+      {
+        "name": "Site 5 Treasure 4",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 4"
+      },
+      {
+        "name": "Site 5 Treasure 5",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 5"
+      },
+      {
+        "name": "Site 5 Treasure 6",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 6"
+      },
+      {
+        "name": "Site 5 Treasure 7",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 7"
+      },
+      {
+        "name": "Site 5 Treasure 8",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 8"
+      },
+      {
+        "name": "Site 5 Treasure 9",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 9"
+      },
+      {
+        "name": "Site 5 Treasure 10",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 10"
+      },
+      {
+        "name": "Site 5 Treasure 11",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 11"
+      },
+      {
+        "name": "Site 5 Treasure 12",
+        "ref": "Main/Lhusu Mines/Site 5 Treasure 12"
+      },
+      {
+        "name": "Site 6 South Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 6 South Treasure 1"
+      },
+      {
+        "name": "Site 6 South Treasure 2",
+        "ref": "Main/Lhusu Mines/Site 6 South Treasure 2"
+      },
+      {
+        "name": "Site 6 South Treasure 3",
+        "ref": "Main/Lhusu Mines/Site 6 South Treasure 3"
+      },
+      {
+        "name": "Site 6 South Treasure 4",
+        "ref": "Main/Lhusu Mines/Site 6 South Treasure 4"
+      },
+      {
+        "name": "Site 6 South Treasure 5",
+        "ref": "Main/Lhusu Mines/Site 6 South Treasure 5"
+      },
+      {
+        "name": "Site 6 North Treasure 1",
+        "ref": "Main/Lhusu Mines/Site 6 North Treasure 1"
+      },
+      {
+        "name": "Site 6 North Treasure 2",
+        "ref": "Main/Lhusu Mines/Site 6 North Treasure 2"
+      },
+      {
+        "name": "Staging Area Treasure 1",
+        "ref": "Main/Lhusu Mines/Staging Area Treasure 1"
       },
       {
         "name": "Defeat Diabolos",
