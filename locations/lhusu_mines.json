@@ -113,10 +113,6 @@
             "ref": "Main/Lhusu Mines/Site 9 Treasure 2"
           },
           {
-            "name": "Site 9 Treasure 3",
-            "ref": "Main/Lhusu Mines/Site 9 Treasure 3"
-          },
-          {
             "name": "Site 9 Treasure 4",
             "ref": "Main/Lhusu Mines/Site 9 Treasure 4"
           },
@@ -247,6 +243,22 @@
           {
             "name": "Staging Area Treasure 1",
             "ref": "Main/Lhusu Mines/Staging Area Treasure 1"
+          }
+        ]
+      },
+      {
+        "name": "Site 9 Treasure 3",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 365,
+            "y": 765
+          }
+        ],
+        "sections": [
+          {
+            "name": "Site 9 Treasure 3",
+            "ref": "Main/Lhusu Mines/Site 9 Treasure 3"
           }
         ]
       },
