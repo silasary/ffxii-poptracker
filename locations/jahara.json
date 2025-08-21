@@ -1,6 +1,6 @@
 [
   {
-    "name": "Main",
+    "name": "Jahara",
     "children": [
       {
         "name": "Jahara - Elderknoll",
@@ -13,8 +13,12 @@
         ],
         "sections": [
           {
-            "name": "Elderknoll Chest",
-            "ref": "Main/Jahara/Elderknoll Chest"
+            "name": "The Elderknoll Treasure 1",
+            "ref": "Main/Jahara/The Elderknoll Treasure 1"
+          },
+          {
+            "name": "The Elderknoll Treasure 2",
+            "ref": "Main/Jahara/The Elderknoll Treasure 2"
           }
         ]
       },

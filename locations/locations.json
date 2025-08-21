@@ -805,9 +805,18 @@
         ],
         "sections": [
           {
-            "name": "Elderknoll Chest",
+            "name": "The Elderknoll Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Jahara - The Elderknoll Treasure 1"
+            ],
+            "access_rules": [
+              "$scaled_difficulty|2"
+            ]
+          },
+          {
+            "name": "The Elderknoll Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Jahara - The Elderknoll Treasure 2"
             ],
             "access_rules": [
               "$scaled_difficulty|2"

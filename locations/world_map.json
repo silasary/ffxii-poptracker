@@ -467,8 +467,12 @@
     ],
     "sections": [
       {
-        "name": "Elderknoll Chest",
-        "ref": "Main/Jahara/Elderknoll Chest"
+        "name": "The Elderknoll Treasure 1",
+        "ref": "Main/Jahara/The Elderknoll Treasure 1"
+      },
+      {
+        "name": "The Elderknoll Treasure 2",
+        "ref": "Main/Jahara/The Elderknoll Treasure 2"
       },
       {
         "name": "Great-chief Elder After Defeating Vossler",
