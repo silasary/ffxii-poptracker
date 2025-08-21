@@ -49,6 +49,8 @@ TAB_MAPPING = {
 
     [391] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
 
+    [447] = { "Map Select", "Golmore Jungle" },
+
     [525] = { "Map Select", "Ozmone Plain" },
     [526] = { "Map Select", "Ozmone Plain" },
     [527] = { "Map Select", "Ozmone Plain" },

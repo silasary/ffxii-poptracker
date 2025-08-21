@@ -1709,8 +1709,200 @@
     ],
     "sections": [
       {
-        "name": "Chests - Ozmone",
-        "ref": "Main/Ozmone Plain/Chests"
+        "name": "Field of Fallen Wings Treasure 1",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 1"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 2",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 2"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 3",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 3"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 4",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 4"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 5",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 5"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 6",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 6"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 7",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 7"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 8",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 8"
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 9",
+        "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 9"
+      },
+      {
+        "name": "The Switcback Treasure 1",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 1"
+      },
+      {
+        "name": "The Switcback Treasure 2",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 2"
+      },
+      {
+        "name": "The Switcback Treasure 3",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 3"
+      },
+      {
+        "name": "The Switcback Treasure 4",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 4"
+      },
+      {
+        "name": "The Switcback Treasure 5",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 5"
+      },
+      {
+        "name": "The Switcback Treasure 6",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 6"
+      },
+      {
+        "name": "The Switcback Treasure 7",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 7"
+      },
+      {
+        "name": "The Switcback Treasure 8",
+        "ref": "Main/Ozmone Plain/The Switcback Treasure 8"
+      },
+      {
+        "name": "Haulo Green Treasure 1",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 1"
+      },
+      {
+        "name": "Haulo Green Treasure 2",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 2"
+      },
+      {
+        "name": "Haulo Green Treasure 3",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 3"
+      },
+      {
+        "name": "Haulo Green Treasure 4",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 4"
+      },
+      {
+        "name": "Haulo Green Treasure 5",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 5"
+      },
+      {
+        "name": "Haulo Green Treasure 6",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 6"
+      },
+      {
+        "name": "Haulo Green Treasure 7",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 7"
+      },
+      {
+        "name": "Haulo Green Treasure 8",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 8"
+      },
+      {
+        "name": "Haulo Green Treasure 9",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 9"
+      },
+      {
+        "name": "Haulo Green Treasure 10",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 10"
+      },
+      {
+        "name": "Haulo Green Treasure 11",
+        "ref": "Main/Ozmone Plain/Haulo Green Treasure 11"
+      },
+      {
+        "name": "Dagan Flats Treasure 1",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 1"
+      },
+      {
+        "name": "Dagan Flats Treasure 2",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 2"
+      },
+      {
+        "name": "Dagan Flats Treasure 3",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 3"
+      },
+      {
+        "name": "Dagan Flats Treasure 4",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 4"
+      },
+      {
+        "name": "Dagan Flats Treasure 5",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 5"
+      },
+      {
+        "name": "Dagan Flats Treasure 6",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 6"
+      },
+      {
+        "name": "Dagan Flats Treasure 7",
+        "ref": "Main/Ozmone Plain/Dagan Flats Treasure 7"
+      },
+      {
+        "name": "Field of Light Winds Treasure 1",
+        "ref": "Main/Ozmone Plain/Field of Light Winds Treasure 1"
+      },
+      {
+        "name": "Field of Light Winds Treasure 2",
+        "ref": "Main/Ozmone Plain/Field of Light Winds Treasure 2"
+      },
+      {
+        "name": "The Greensnake Treasure 1",
+        "ref": "Main/Ozmone Plain/The Greensnake Treasure 1"
+      },
+      {
+        "name": "The Greensnake Treasure 2",
+        "ref": "Main/Ozmone Plain/The Greensnake Treasure 2"
+      },
+      {
+        "name": "The Greensnake Treasure 3",
+        "ref": "Main/Ozmone Plain/The Greensnake Treasure 3"
+      },
+      {
+        "name": "The Shred Treasure 1",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 1"
+      },
+      {
+        "name": "The Shred Treasure 2",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 2"
+      },
+      {
+        "name": "The Shred Treasure 3",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 3"
+      },
+      {
+        "name": "The Shred Treasure 4",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 4"
+      },
+      {
+        "name": "The Shred Treasure 5",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 5"
+      },
+      {
+        "name": "The Shred Treasure 6",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 6"
+      },
+      {
+        "name": "The Shred Treasure 7",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 7"
+      },
+      {
+        "name": "The Shred Treasure 8",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 8"
+      },
+      {
+        "name": "The Shred Treasure 9",
+        "ref": "Main/Ozmone Plain/The Shred Treasure 9"
       },
       {
         "name": "Defeat Enkelados",

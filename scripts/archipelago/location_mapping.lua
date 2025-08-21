@@ -186,7 +186,7 @@ return {
 	[760701600056] = {"@Main/Garamsythe Waterway/Gavial - Fur-scaled Trophy"},
 	[760701599918] = {"@Main/Ozmone Plain/Enkelados Drop", "enkelados"},
 	[760701600098] = {"@Main/Ozmone Plain/Killbug - Metallic Trophy"},
-	[760701599933] = {"@Main/Golmore Jungle/Vorpal Bunny Drop"},
+	[760701599933] = {"@Main/Golmore Jungle/Vorpal Bunny Drop", "vorpal_bunny"},
 	[760701600104] = {"@Main/Golmore Jungle/Biding Mantis - Scythe Trophy"},
 	[760701599951] = {"@Main/Phon Coast/Site 11 Key"},
 	[760701600053] = {"@Main/Phon Coast/Thalassinon - Shelled Trophy"},

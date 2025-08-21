@@ -3080,9 +3080,441 @@
         ],
         "sections": [
           {
-            "name": "Chests - Ozmone",
+            "name": "Field of Fallen Wings Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Fallen Wings Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Fallen Wings Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Switcback Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Switcback Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Haulo Green Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Haulo Green Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Dagan Flats Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Dagan Flats Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Light Winds Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Light Winds Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Field of Light Winds Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - Field of Light Winds Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Greensnake Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Greensnake Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Greensnake Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Greensnake Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Greensnake Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Greensnake Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Shred Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ozmone Plain - The Shred Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
