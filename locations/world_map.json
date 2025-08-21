@@ -146,6 +146,11 @@
         "map": "world_map",
         "x": 812,
         "y": 680
+      },
+      {
+        "map": "rabanastre",
+        "x": 1010,
+        "y": 280
       }
     ],
     "sections": [
@@ -1129,6 +1134,11 @@
         "map": "world_map",
         "x": 710,
         "y": 630
+      },
+      {
+        "map": "rabanastre",
+        "x": 810,
+        "y": 260
       }
     ],
     "sections": [
@@ -1333,6 +1343,11 @@
         "map": "world_map",
         "x": 782,
         "y": 606
+      },
+      {
+        "map": "rabanastre",
+        "x": 1040,
+        "y": 280
       }
     ],
     "sections": [

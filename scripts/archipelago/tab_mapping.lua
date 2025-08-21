@@ -15,8 +15,10 @@ TAB_MAPPING = {
     [265] = { "Map Select", "Giza Plains", "Rainy Season" },
     [266] = { "Map Select", "Giza Plains", "Rainy Season" },
     
-    [291] = { "Rabanastre", "Rabanastre" }, -- North End
+    [289] = { "Rabanastre", "Rabanastre" }, -- North End
+    [291] = { "Rabanastre", "Rabanastre" }, -- 
     [292] = { "Rabanastre", "Rabanastre" }, -- Southern Plaza
+    [302] = { "Rabanastre", "Rabanastre" }, -- Clan Hall
     [305] = { "Rabanastre", "Rabanastre" }, -- Eastgate
     [306] = { "Rabanastre", "Rabanastre" }, -- Southgate
     [307] = { "Rabanastre", "Rabanastre" }, -- Westgate
