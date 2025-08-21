@@ -8,13 +8,13 @@
           {
             "name": "Party Member (Vaan)",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ]
           },
           {
             "name": "Tomaj",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ],
             "item_count": 3
           },
@@ -24,7 +24,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -33,7 +33,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -42,13 +42,13 @@
               "side_quests"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Windvane",
             "access_rules": [
-              "wind_globe,$defeat_vossler,$scaled_difficulty|1"
+              "wind_globe,$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -57,7 +57,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sandseas,$scaled_difficulty|2"
+              "$sandseas,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -66,7 +66,7 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|2"
+              "clan_primer,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -75,7 +75,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "broken_key,$scaled_difficulty|5"
+              "broken_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -84,13 +84,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "serpentwyne,$scaled_difficulty|5"
+              "serpentwyne,[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Grimy Fragment",
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|5"
+              "$tchita_uplands,[$scaled_difficulty|5]"
             ]
           }
         ]
@@ -101,13 +101,13 @@
           {
             "name": "Party Member (Penelo)",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ]
           },
           {
             "name": "Shadestone",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ]
           },
           {
@@ -116,7 +116,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -125,7 +125,7 @@
               "side_quests"
             ],
             "access_rules": [
-              "shadestone,$scaled_difficulty|1"
+              "shadestone,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -135,7 +135,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|1"
+              "clan_primer,[$scaled_difficulty|1]"
             ],
             "hosted_item": "cluckatrice"
           },
@@ -145,7 +145,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|1"
+              "clan_primer,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -154,13 +154,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,silent_urn,rainstone,$scaled_difficulty|3"
+              "clan_primer,silent_urn,rainstone,[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Give Errmonea Leaf",
             "access_rules": [
-              "errmonea_leaf,$ozmone_plain,$scaled_difficulty|3"
+              "errmonea_leaf,$ozmone_plain,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -169,7 +169,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "nazarnir"
           }
@@ -187,7 +187,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -197,14 +197,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ],
             "hosted_item": "croakadile"
           },
           {
             "name": "Croakadile Drop",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -213,13 +213,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_the_toad,$scaled_difficulty|2"
+              "ring_of_the_toad,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Nomads Silent Urn",
             "access_rules": [
-              "clan_primer,$scaled_difficulty|3"
+              "clan_primer,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -229,7 +229,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,silent_urn,$scaled_difficulty|3"
+              "clan_primer,silent_urn,[$scaled_difficulty|3]"
             ],
             "hosted_item": "gil_snapper"
           }
@@ -241,25 +241,25 @@
           {
             "name": "Dalan Crescent Stone",
             "access_rules": [
-              "sunstone,$scaled_difficulty|0"
+              "sunstone,[$scaled_difficulty|0]"
             ]
           },
           {
             "name": "Dalan Sword of the Order",
             "access_rules": [
-              "goddess_magicite,$scaled_difficulty|0"
+              "goddess_magicite,[$scaled_difficulty|0]"
             ]
           },
           {
             "name": "Balzac Sword of the Order Turn In",
             "access_rules": [
-              "sword_of_the_order,$scaled_difficulty|0"
+              "sword_of_the_order,[$scaled_difficulty|0]"
             ]
           },
           {
             "name": "Party Member (Basch)",
             "access_rules": [
-              "sword_of_the_order,$scaled_difficulty|0"
+              "sword_of_the_order,[$scaled_difficulty|0]"
             ]
           },
           {
@@ -268,7 +268,7 @@
               "$chest_visibility|Lowtown - North Sprawl Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -277,7 +277,7 @@
               "$chest_visibility|Lowtown - North Sprawl Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -286,7 +286,7 @@
               "$chest_visibility|Lowtown - North Sprawl Treasure 3"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -295,7 +295,7 @@
               "$chest_visibility|Lowtown - North Sprawl Treasure 4"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -304,7 +304,7 @@
               "$chest_visibility|Lowtown - North Sprawl Treasure 5"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -313,7 +313,7 @@
               "$chest_visibility|Lowtown - North Sprawl Treasure 6"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -322,7 +322,7 @@
               "$chest_visibility|Lowtown - South Sprawl Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -331,7 +331,7 @@
               "$chest_visibility|Lowtown - South Sprawl Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -340,7 +340,7 @@
               "$chest_visibility|Lowtown - South Sprawl Treasure 3"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -349,7 +349,7 @@
               "$chest_visibility|Lowtown - South Sprawl Treasure 4"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -358,13 +358,13 @@
               "$chest_visibility|Lowtown - South Sprawl Treasure 5"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Royal Palace - Goddess's Magicite",
             "access_rules": [
-              "crescent_stone,$scaled_difficulty|1"
+              "crescent_stone,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -373,13 +373,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Dusty Letter",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -388,7 +388,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -397,7 +397,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,stolen_articles,fran,ashe,penelo,$scaled_difficulty|5"
+              "clan_primer,stolen_articles,fran,ashe,penelo,[$scaled_difficulty|5]"
             ],
             "item_count": 2
           },
@@ -407,7 +407,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,clan_primer,$scaled_difficulty|7"
+              "$paramina_rift,clan_primer,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -421,13 +421,13 @@
           {
             "name": "Guest (Vossler)",
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Party Member (Ashe)",
             "access_rules": [
-              "brig_key,$scaled_difficulty|1"
+              "brig_key,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -436,7 +436,7 @@
               "$chest_visibility|Dreadnought Leviathan - Port Section Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -445,7 +445,7 @@
               "$chest_visibility|Dreadnought Leviathan - Port Section Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -454,7 +454,7 @@
               "$chest_visibility|Dreadnought Leviathan - Port Section Treasure 3"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -463,7 +463,7 @@
               "$chest_visibility|Dreadnought Leviathan - Port Section Treasure 4"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -472,7 +472,7 @@
               "$chest_visibility|Dreadnought Leviathan - Large Freight Stores Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -481,7 +481,7 @@
               "$chest_visibility|Dreadnought Leviathan - Large Freight Stores Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -490,7 +490,7 @@
               "$chest_visibility|Dreadnought Leviathan - Large Freight Stores Treasure 3"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -499,7 +499,7 @@
               "$chest_visibility|Dreadnought Leviathan - Large Freight Stores Treasure 4"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -508,7 +508,7 @@
               "$chest_visibility|Dreadnought Leviathan - Large Freight Stores Treasure 5"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -517,7 +517,7 @@
               "$chest_visibility|Dreadnought Leviathan - Large Freight Stores Treasure 6"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -526,7 +526,7 @@
               "$chest_visibility|Dreadnought Leviathan - Starboard Section Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -535,7 +535,7 @@
               "$chest_visibility|Dreadnought Leviathan - Starboard Section Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -544,7 +544,7 @@
               "$chest_visibility|Dreadnought Leviathan - Starboard Section Treasure 3"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -553,7 +553,7 @@
               "$chest_visibility|Dreadnought Leviathan - Starboard Section Treasure 4"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -562,7 +562,7 @@
               "$chest_visibility|Dreadnought Leviathan - Starboard Section Treasure 5"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -571,7 +571,7 @@
               "$chest_visibility|Dreadnought Leviathan - Starboard Section Treasure 6"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -580,7 +580,7 @@
               "$chest_visibility|Dreadnought Leviathan - Sub-control Room Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -589,7 +589,7 @@
               "$chest_visibility|Dreadnought Leviathan - Sub-control Room Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -598,7 +598,7 @@
               "$chest_visibility|Dreadnought Leviathan - Sub-control Room Treasure 3"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -607,25 +607,25 @@
               "$chest_visibility|Dreadnought Leviathan - Sub-control Room Treasure 4"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "No. 1 Brig Key",
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Systems Access Key",
             "access_rules": [
-              "brig_key,$scaled_difficulty|1"
+              "brig_key,[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Manufacted Nethicite",
             "access_rules": [
-              "brig_key,$scaled_difficulty|1"
+              "brig_key,[$scaled_difficulty|1]"
             ]
           }
         ]
@@ -642,13 +642,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Eksir Berries",
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -658,7 +658,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ],
             "hosted_item": "wyvern_lord"
           },
@@ -668,7 +668,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -678,7 +678,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$ozmone_plain,$scaled_difficulty|5"
+              "clan_primer,$ozmone_plain,[$scaled_difficulty|5]"
             ],
             "hosted_item": "belito"
           },
@@ -688,7 +688,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "victanir"
           }
@@ -706,25 +706,25 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Defeat Belias",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Dawn Shard",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Defeat Vossler",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -733,7 +733,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|6"
+              "$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "zombie_lord"
           }
@@ -745,7 +745,7 @@
           {
             "name": "Burrough Tube Fuse",
             "access_rules": [
-              "crescent_stone,$scaled_difficulty|1"
+              "crescent_stone,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -754,7 +754,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "barheim_key,$scaled_difficulty|3"
+              "barheim_key,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -763,7 +763,7 @@
               "place_clan_esper"
             ],
             "access_rules": [
-              "barheim_key,$scaled_difficulty|4"
+              "barheim_key,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -772,7 +772,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "barheim_key,$scaled_difficulty|5"
+              "barheim_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -782,7 +782,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "barheim_key,$scaled_difficulty|5"
+              "barheim_key,[$scaled_difficulty|5]"
             ],
             "hosted_item": "bloodwing"
           },
@@ -792,7 +792,7 @@
               "trophies"
             ],
             "access_rules": [
-              "barheim_key,$hunt_club_start,$scaled_difficulty|7"
+              "barheim_key,$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "ishteen"
           }
@@ -810,7 +810,7 @@
               "$chest_visibility|Jahara - The Elderknoll Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -819,19 +819,19 @@
               "$chest_visibility|Jahara - The Elderknoll Treasure 2"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Great-chief Elder After Defeating Vossler",
             "access_rules": [
-              "$defeat_vossler,$dawn_shard,$scaled_difficulty|2"
+              "$defeat_vossler,$dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Guest (Larsa)",
             "access_rules": [
-              "$defeat_vossler,$dawn_shard,$scaled_difficulty|2"
+              "$defeat_vossler,$dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -840,7 +840,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "errmonea_leaf,$scaled_difficulty|2"
+              "errmonea_leaf,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -849,7 +849,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -858,7 +858,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|4"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -867,7 +867,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rainstone,$scaled_difficulty|6"
+              "rainstone,[$scaled_difficulty|6]"
             ]
           }
         ]
@@ -884,13 +884,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Lente's Tear",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -899,7 +899,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,rabbit_tail,$scaled_difficulty|3"
+              "$paramina_rift,rabbit_tail,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -908,7 +908,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,$scaled_difficulty|6"
+              "$paramina_rift,[$scaled_difficulty|6]"
             ]
           }
         ]
@@ -925,7 +925,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -934,25 +934,25 @@
               "place_treasures"
             ],
             "access_rules": [
-              "dawn_shard,$scaled_difficulty|2"
+              "dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Defeat Mateus",
             "access_rules": [
-              "dawn_shard,$scaled_difficulty|2"
+              "dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Sword of Kings",
             "access_rules": [
-              "dawn_shard,$scaled_difficulty|2"
+              "dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Defeat Zeromus",
             "access_rules": [
-              "stone_of_condemner,$scaled_difficulty|5"
+              "stone_of_condemner,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -961,7 +961,7 @@
               "trophies"
             ],
             "access_rules": [
-              "dawn_shard,$hunt_club_start,$scaled_difficulty|5"
+              "dawn_shard,$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "myath"
           }
@@ -979,19 +979,19 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Soul Ward Key",
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Mandragora Reward",
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|3"
+              "$sochen_cave_palace,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -1001,14 +1001,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ],
             "hosted_item": "lindwyrm"
           },
           {
             "name": "Lindwyrm Drop",
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1017,7 +1017,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "kris"
           },
@@ -1027,7 +1027,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "grimalkin"
           }
@@ -1042,7 +1042,7 @@
           {
             "name": "Lab Access Card",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ]
           },
           {
@@ -1051,13 +1051,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "lab_access_card,$scaled_difficulty|4"
+              "lab_access_card,[$scaled_difficulty|4]"
             ]
           },
           {
             "name": "Defeat Cid 1",
             "access_rules": [
-              "lab_access_card,$scaled_difficulty|5"
+              "lab_access_card,[$scaled_difficulty|5]"
             ]
           }
         ]
@@ -1071,7 +1071,7 @@
           {
             "name": "Chops",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ],
             "visibility_rules": [
               "place_chops"
@@ -1081,7 +1081,7 @@
           {
             "name": "Sandalwood Chop",
             "access_rules": [
-              "$has_n_chops|28,$scaled_difficulty|2"
+              "$has_n_chops|28,[$scaled_difficulty|2]"
             ],
             "visibility_rules": [
               "place_chops"
@@ -1093,7 +1093,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|4"
+              "$sochen_cave_palace,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -1102,7 +1102,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|5"
+              "$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1111,7 +1111,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "sw_chop,$scaled_difficulty|7"
+              "sw_chop,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1194,7 +1194,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|4"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -1204,20 +1204,20 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ],
             "hosted_item": "piscodaemon"
           },
           {
             "name": "Defeat Shemhazai",
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Treaty-Blade",
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1226,14 +1226,14 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|5"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "crystal_knight"
           },
           {
             "name": "Defeat Ultima",
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ]
           },
           {
@@ -1242,7 +1242,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|8"
+              "[$scaled_difficulty|8]"
             ]
           }
         ]
@@ -1259,7 +1259,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1268,13 +1268,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,$scaled_difficulty|5"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Black Orbs 1-3",
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ],
             "visibility_rules": [
               "place_black_orbs"
@@ -1285,13 +1285,13 @@
           {
             "name": "Defeat Hashmal",
             "access_rules": [
-              "$has_n_black_orbs|3,$scaled_difficulty|6"
+              "$has_n_black_orbs|3,[$scaled_difficulty|6]"
             ]
           },
           {
             "name": "Defeat Famfrit and Cid 2",
             "access_rules": [
-              "$has_n_black_orbs|3,$cid2,$scaled_difficulty|7"
+              "$has_n_black_orbs|3,$cid2,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1301,7 +1301,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|7"
+              "[$scaled_difficulty|7]"
             ],
             "hosted_item": "pylraster"
           },
@@ -1311,7 +1311,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$has_n_black_orbs|3,$scaled_difficulty|7"
+              "$hunt_club_start,$has_n_black_orbs|3,[$scaled_difficulty|7]"
             ],
             "hosted_item": "avenger"
           }
@@ -1330,7 +1330,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|6"
+              "clan_primer,[$scaled_difficulty|6]"
             ],
             "hosted_item": "ixion"
           },
@@ -1341,7 +1341,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$has_n_black_orbs|24,$scaled_difficulty|6"
+              "clan_primer,$has_n_black_orbs|24,[$scaled_difficulty|6]"
             ],
             "hosted_item": "shadowseer"
           },
@@ -1351,7 +1351,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,$scaled_difficulty|7"
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1360,7 +1360,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$has_n_black_orbs|8,$scaled_difficulty|7"
+              "$has_n_black_orbs|8,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1369,13 +1369,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$has_n_black_orbs|15,$scaled_difficulty|7"
+              "$has_n_black_orbs|15,[$scaled_difficulty|7]"
             ]
           },
           {
             "name": "Black Orbs 4-8",
             "access_rules": [
-              "$has_n_black_orbs|3,$scaled_difficulty|7"
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
             ],
             "visibility_rules": [
               "place_black_orbs"
@@ -1386,7 +1386,7 @@
           {
             "name": "Black Orbs 9-15",
             "access_rules": [
-              "$has_n_black_orbs|8,$scaled_difficulty|7"
+              "$has_n_black_orbs|8,[$scaled_difficulty|7]"
             ],
             "visibility_rules": [
               "place_black_orbs"
@@ -1397,7 +1397,7 @@
           {
             "name": "Black Orbs 16-24",
             "access_rules": [
-              "$has_n_black_orbs|15,$scaled_difficulty|7"
+              "$has_n_black_orbs|15,[$scaled_difficulty|7]"
             ],
             "visibility_rules": [
               "place_black_orbs"
@@ -1414,7 +1414,7 @@
             "name": "Outpost Mysterious Glints",
             "item_count": 5,
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ]
           },
           {
@@ -1423,7 +1423,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1433,7 +1433,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ],
             "hosted_item": "rogue_tomato"
           },
@@ -1444,14 +1444,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ],
             "hosted_item": "flowering_cactoid"
           },
           {
             "name": "Flowering Cactoid Drop",
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1460,19 +1460,19 @@
               "place_hunts"
             ],
             "access_rules": [
-              "cactus_flower,$scaled_difficulty|1"
+              "cactus_flower,[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Dantro's Wife Give Cactus Flower",
             "access_rules": [
-              "cactus_flower,$defeat_vossler,$scaled_difficulty|1"
+              "cactus_flower,$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Cactus Family Quest",
             "access_rules": [
-              "cactus_flower,$defeat_vossler,$scaled_difficulty|1"
+              "cactus_flower,$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1481,13 +1481,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|2"
+              "$tchita_uplands,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Patient Barheim Key",
             "access_rules": [
-              "cactus_flower,$defeat_vossler,$scaled_difficulty|2"
+              "cactus_flower,$defeat_vossler,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -1496,7 +1496,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "barheim_key,$scaled_difficulty|5"
+              "barheim_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1505,7 +1505,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "terror_tyrant"
           }
@@ -1520,7 +1520,7 @@
           {
             "name": "Niray Site 3 Key",
             "access_rules": [
-              "clan_primer,$scaled_difficulty|0"
+              "clan_primer,[$scaled_difficulty|0]"
             ]
           },
           {
@@ -1529,7 +1529,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1538,7 +1538,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|1"
+              "clan_primer,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1547,7 +1547,7 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|1"
+              "clan_primer,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1556,13 +1556,13 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,merchants_armband,$scaled_difficulty|1"
+              "clan_primer,merchants_armband,[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Pilika Give Pilika's Diary",
             "access_rules": [
-              "clan_primer,merchants_armband,pilikas_diary,$scaled_difficulty|1"
+              "clan_primer,merchants_armband,pilikas_diary,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1571,7 +1571,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,site_3_key,$scaled_difficulty|5"
+              "clan_primer,site_3_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1580,7 +1580,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$scaled_difficulty|7"
+              "site_3_key,site_11_key,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -1597,7 +1597,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -1606,13 +1606,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Acolyte Stone of the Condemner",
             "access_rules": [
-              "sword_of_kings,$scaled_difficulty|3"
+              "sword_of_kings,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -1621,7 +1621,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belias,$scaled_difficulty|5"
+              "belias,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1630,7 +1630,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|5"
+              "clan_primer,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1639,7 +1639,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_light,$scaled_difficulty|7"
+              "ring_of_light,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -1653,7 +1653,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|3"
+              "$tchita_uplands,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -1662,7 +1662,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|6"
+              "$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -1671,7 +1671,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|6"
+              "$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -1680,13 +1680,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|6"
+              "$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
             "name": "Jovy Reward",
             "access_rules": [
-              "clan_primer,$tchita_uplands,$scaled_difficulty|7"
+              "clan_primer,$tchita_uplands,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1695,7 +1695,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$tchita_uplands,$scaled_difficulty|7"
+              "clan_primer,$tchita_uplands,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -1712,7 +1712,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -1721,7 +1721,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$defeat_bergan,$scaled_difficulty|2"
+              "$defeat_bergan,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -1731,7 +1731,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ],
             "hosted_item": "atomos"
           },
@@ -1741,13 +1741,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|4"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
             "name": "Defeat Exodus",
             "access_rules": [
-              "$defeat_bergan,$scaled_difficulty|4"
+              "$defeat_bergan,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -1756,7 +1756,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$defeat_bergan,$scaled_difficulty|7"
+              "$hunt_club_start,$defeat_bergan,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dheed"
           }
@@ -1771,13 +1771,13 @@
           {
             "name": "Footrace",
             "access_rules": [
-              "$scaled_difficulty|0"
+              "[$scaled_difficulty|0]"
             ]
           },
           {
             "name": "Guest (Reddas)",
             "access_rules": [
-              "$defeat_cid,treaty_blade,$scaled_difficulty|0"
+              "$defeat_cid,treaty_blade,[$scaled_difficulty|0]"
             ]
           },
           {
@@ -1786,7 +1786,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1795,7 +1795,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "viera_rucksack,$scaled_difficulty|5"
+              "viera_rucksack,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1804,7 +1804,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$has_n_system_access_keys|2,$scaled_difficulty|6"
+              "clan_primer,$has_n_system_access_keys|2,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -1813,7 +1813,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,$scaled_difficulty|7"
+              "$has_n_system_access_keys|2,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -1830,7 +1830,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -1839,13 +1839,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rusted_scrap_of_armor,$tchita_uplands,$scaled_difficulty|5"
+              "rusted_scrap_of_armor,$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|5"
+              "$tchita_uplands,[$scaled_difficulty|5]"
             ]
           }
         ]
@@ -1866,13 +1866,13 @@
               "$chest_visibility|Skyferry - Air Deck Treasure 1"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Ann's Letter",
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -1882,7 +1882,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|7"
+              "[$scaled_difficulty|7]"
             ],
             "hosted_item": "deathgaze"
           },
@@ -1892,7 +1892,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|7"
+              "[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1901,7 +1901,7 @@
               "side_quests"
             ],
             "access_rules": [
-              "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero,$scaled_difficulty|7"
+              "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -1918,7 +1918,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sandseas,$ozmone_plain,$scaled_difficulty|5"
+              "$sandseas,$ozmone_plain,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1927,7 +1927,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,$has_n_black_orbs|24,$scaled_difficulty|6"
+              "$has_n_system_access_keys|2,$has_n_black_orbs|24,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -1936,7 +1936,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$aero|bhu_aero,$scaled_difficulty|7"
+              "site_3_key,site_11_key,$aero|bhu_aero,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -1945,7 +1945,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,$scaled_difficulty|8"
+              "$has_n_system_access_keys|2,[$scaled_difficulty|8]"
             ]
           },
           {
@@ -2050,7 +2050,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,$scaled_difficulty|1"
+              "crescent_stone,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2059,7 +2059,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,$scaled_difficulty|1"
+              "crescent_stone,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2068,13 +2068,13 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$earth_tyrant,$scaled_difficulty|4"
+              "$earth_tyrant,[$scaled_difficulty|4]"
             ]
           },
           {
             "name": "Clan Boss: Mimic Queen",
             "access_rules": [
-              "crescent_stone,tube_fuse,$scaled_difficulty|1"
+              "crescent_stone,tube_fuse,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2083,7 +2083,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sandseas,$scaled_difficulty|3"
+              "$sandseas,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -2092,7 +2092,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sandseas,$scaled_difficulty|1"
+              "$sandseas,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2101,7 +2101,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,$scaled_difficulty|3"
+              "$paramina_rift,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -2110,7 +2110,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$ozmone_plain,$scaled_difficulty|2"
+              "$ozmone_plain,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -2119,7 +2119,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,dawn_shard,$scaled_difficulty|2"
+              "$paramina_rift,dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -2128,7 +2128,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|5"
+              "$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2137,7 +2137,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|4"
+              "$sochen_cave_palace,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2146,7 +2146,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|5"
+              "$sochen_cave_palace,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2155,7 +2155,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "ageworn_key,$sochen_cave_palace,$scaled_difficulty|7"
+              "ageworn_key,$sochen_cave_palace,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2164,7 +2164,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,$scaled_difficulty|4"
+              "$paramina_rift,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2173,7 +2173,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,belias,$scaled_difficulty|5"
+              "$paramina_rift,belias,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2182,7 +2182,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,belias,$scaled_difficulty|5"
+              "$paramina_rift,belias,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2191,7 +2191,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,$scaled_difficulty|5"
+              "$has_n_system_access_keys|2,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2200,7 +2200,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_bravery,med_lusterless,$tchita_uplands,$scaled_difficulty|7"
+              "med_bravery,med_lusterless,$tchita_uplands,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2209,7 +2209,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_love,med_lusterless,$tchita_uplands,$scaled_difficulty|7"
+              "med_love,med_lusterless,$tchita_uplands,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2218,7 +2218,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,belias,$scaled_difficulty|8"
+              "$paramina_rift,belias,[$scaled_difficulty|8]"
             ]
           },
           {
@@ -2268,13 +2268,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Earth Tyrant Quest Wind Globe",
             "access_rules": [
-              "$defeat_vossler,$scaled_difficulty|1"
+              "$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2284,7 +2284,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ],
             "hosted_item": "thextera"
           },
@@ -2295,7 +2295,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ],
             "hosted_item": "ring_wyrm"
           },
@@ -2305,7 +2305,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|5"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "kaiser_wolf"
           }
@@ -2317,7 +2317,7 @@
           {
             "name": "Dull Fragment",
             "access_rules": [
-              "sluice_gate_key,$tchita_uplands,$scaled_difficulty|0"
+              "sluice_gate_key,$tchita_uplands,[$scaled_difficulty|0]"
             ]
           },
           {
@@ -2327,14 +2327,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ],
             "hosted_item": "wraith"
           },
           {
             "name": "Party Members (Balthier, Fran, Guest)",
             "access_rules": [
-              "crescent_stone,$scaled_difficulty|1"
+              "crescent_stone,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2343,7 +2343,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2352,7 +2352,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "sluice_gate_key,$scaled_difficulty|5"
+              "sluice_gate_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2362,14 +2362,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ],
             "hosted_item": "white_mousse"
           },
           {
             "name": "White Mousse Drop",
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2379,20 +2379,20 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,fran,ashe,penelo,$scaled_difficulty|5"
+              "clan_primer,fran,ashe,penelo,[$scaled_difficulty|5]"
             ],
             "hosted_item": "orthros"
           },
           {
             "name": "Orthros Drop",
             "access_rules": [
-              "clan_primer,fran,ashe,penelo,$scaled_difficulty|5"
+              "clan_primer,fran,ashe,penelo,[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Defeat Cuchulainn",
             "access_rules": [
-              "sluice_gate_key,$scaled_difficulty|6"
+              "sluice_gate_key,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -2401,7 +2401,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|6"
+              "$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "gavial"
           }
@@ -2419,7 +2419,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2429,14 +2429,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ],
             "hosted_item": "enkelados"
           },
           {
             "name": "Enkelados Drop",
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -2445,7 +2445,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|6"
+              "$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "killbug"
           }
@@ -2463,7 +2463,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$ozmone_plain,$scaled_difficulty|2"
+              "$ozmone_plain,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -2472,7 +2472,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -2482,14 +2482,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ],
             "hosted_item": "vorpal_bunny"
           },
           {
             "name": "Vorpal Bunny Drop",
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -2498,7 +2498,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|6"
+              "$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "biding_mantis"
           }
@@ -2516,13 +2516,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Site 11 Key",
             "access_rules": [
-              "clan_primer,site_3_key,$aero|bhu_aero,$scaled_difficulty|5"
+              "clan_primer,site_3_key,$aero|bhu_aero,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2531,7 +2531,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ],
             "hosted_item": "thalassinon"
           },
@@ -2541,7 +2541,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "skullash"
           }
@@ -2559,7 +2559,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -2569,7 +2569,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ],
             "hosted_item": "feral_retriever"
           },
@@ -2580,7 +2580,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|5"
+              "clan_primer,[$scaled_difficulty|5]"
             ],
             "hosted_item": "trickster"
           },
@@ -2590,7 +2590,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|5"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "ancbolder"
           },
@@ -2601,14 +2601,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|7"
+              "[$scaled_difficulty|7]"
             ],
             "hosted_item": "fafnir"
           },
           {
             "name": "Fafnir Drop",
             "access_rules": [
-              "$scaled_difficulty|7"
+              "[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -2619,7 +2619,7 @@
           {
             "name": "Defeat Adrammelech",
             "access_rules": [
-              "rainstone,$scaled_difficulty|3"
+              "rainstone,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -2628,7 +2628,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2637,7 +2637,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$ozmone_plain,$scaled_difficulty|5"
+              "$ozmone_plain,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2646,7 +2646,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "rainstone,$scaled_difficulty|5"
+              "rainstone,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2656,14 +2656,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ],
             "hosted_item": "marilith"
           },
           {
             "name": "Marilith Drop",
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2672,7 +2672,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,rainstone,$scaled_difficulty|5"
+              "$hunt_club_start,rainstone,[$scaled_difficulty|5]"
             ],
             "hosted_item": "alteci"
           },
@@ -2683,7 +2683,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rainstone,$scaled_difficulty|6"
+              "rainstone,[$scaled_difficulty|6]"
             ],
             "hosted_item": "catoblepas"
           }
@@ -2701,7 +2701,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2711,20 +2711,20 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ],
             "hosted_item": "vyraal"
           },
           {
             "name": "Vyraal Drop",
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Wyrm Philosopher Ageworn Key",
             "access_rules": [
-              "viera_rucksack,dragon_scale,$scaled_difficulty|5"
+              "viera_rucksack,dragon_scale,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2733,7 +2733,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|5"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "bluesang"
           },
@@ -2743,7 +2743,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|5"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "aspidochelon"
           }
@@ -2761,7 +2761,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2771,14 +2771,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ],
             "hosted_item": "roblon"
           },
           {
             "name": "Nabreus Medallion",
             "access_rules": [
-              "$all_fragments,moonsilver_medallion,$scaled_difficulty|6"
+              "$all_fragments,moonsilver_medallion,[$scaled_difficulty|6]"
             ],
             "item_count": 3,
             "clear_as_group": true
@@ -2789,7 +2789,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "arioch"
           }
@@ -2804,7 +2804,7 @@
           {
             "name": "Defeat Chaos",
             "access_rules": [
-              "med_might,$scaled_difficulty|5"
+              "med_might,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2813,7 +2813,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ]
           },
           {
@@ -2823,7 +2823,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ],
             "hosted_item": "goliath"
           },
@@ -2834,7 +2834,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ],
             "hosted_item": "deathscythe"
           },
@@ -2844,7 +2844,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "med_might,$scaled_difficulty|7"
+              "med_might,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2853,7 +2853,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "med_bravery,med_lusterless,$scaled_difficulty|7"
+              "med_bravery,med_lusterless,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2862,13 +2862,13 @@
               "place_treasures"
             ],
             "access_rules": [
-              "med_love,med_lusterless,$scaled_difficulty|7"
+              "med_love,med_lusterless,[$scaled_difficulty|7]"
             ]
           },
           {
             "name": "Medallion of Might",
             "access_rules": [
-              "med_bravery,med_love,med_lusterless,$scaled_difficulty|7"
+              "med_bravery,med_love,med_lusterless,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2877,7 +2877,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "vorres"
           }
@@ -2895,7 +2895,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -2905,7 +2905,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ],
             "hosted_item": "ixtab"
           },
@@ -2916,14 +2916,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|4"
+              "[$scaled_difficulty|4]"
             ],
             "hosted_item": "mindflayer"
           },
           {
             "name": "Defeat Zodiark",
             "access_rules": [
-              "$espers_controlled|10,$scaled_difficulty|7"
+              "$espers_controlled|10,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -2932,7 +2932,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "melt"
           },
@@ -2942,7 +2942,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$espers_controlled|10,$scaled_difficulty|8"
+              "$espers_controlled|10,[$scaled_difficulty|8]"
             ]
           }
         ]
@@ -2959,7 +2959,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2969,7 +2969,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ],
             "hosted_item": "nidhogg"
           },
@@ -2980,7 +2980,7 @@
               // "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|1"
+              "clan_primer,[$scaled_difficulty|1]"
             ],
             "hosted_item": "rocktoise"
           },
@@ -2990,7 +2990,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "site_3_key,$scaled_difficulty|5"
+              "site_3_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -3000,7 +3000,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,site_3_key,$scaled_difficulty|5"
+              "clan_primer,site_3_key,[$scaled_difficulty|5]"
             ],
             "hosted_item": "antlion"
           },
@@ -3010,7 +3010,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$scaled_difficulty|6"
+              "site_3_key,site_11_key,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -3020,7 +3020,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$scaled_difficulty|7"
+              "site_3_key,site_11_key,[$scaled_difficulty|7]"
             ],
             "hosted_item": "diabolos"
           },
@@ -3031,7 +3031,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,clan_primer,$scaled_difficulty|7"
+              "site_3_key,site_11_key,clan_primer,[$scaled_difficulty|7]"
             ],
             "hosted_item": "gilgamesh"
           },
@@ -3041,7 +3041,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,site_3_key,site_11_key,$scaled_difficulty|7"
+              "$hunt_club_start,site_3_key,site_11_key,[$scaled_difficulty|7]"
             ],
             "hosted_item": "disma"
           }
@@ -3059,7 +3059,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|1"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -3068,7 +3068,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bull_chocobo"
           }
@@ -3086,7 +3086,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|2"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -3096,7 +3096,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|4"
+              "[$scaled_difficulty|4]"
             ],
             "hosted_item": "braegh"
           },
@@ -3106,7 +3106,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|5"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -3115,7 +3115,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|5"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "rageclaw"
           },
@@ -3126,7 +3126,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|7"
+              "clan_primer,[$scaled_difficulty|7]"
             ],
             "hosted_item": "carrot"
           }
@@ -3144,7 +3144,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|3"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -3154,7 +3154,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$scaled_difficulty|6"
+              "[$scaled_difficulty|6]"
             ],
             "hosted_item": "wild_malboro"
           },
@@ -3165,7 +3165,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|7"
+              "clan_primer,[$scaled_difficulty|7]"
             ],
             "hosted_item": "behemoth_king"
           },
@@ -3175,7 +3175,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dreadguard"
           }
@@ -3190,7 +3190,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$tchita_uplands,$scaled_difficulty|3"
+              "$tchita_uplands,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -3199,7 +3199,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|3"
+              "$sochen_cave_palace,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -3209,7 +3209,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|4"
+              "$sochen_cave_palace,[$scaled_difficulty|4]"
             ],
             "hosted_item": "darksteel"
           },
@@ -3220,7 +3220,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$scaled_difficulty|5"
+              "$sochen_cave_palace,[$scaled_difficulty|5]"
             ],
             "hosted_item": "overlord"
           },
@@ -3230,7 +3230,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|5"
+              "$sochen_cave_palace,$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "wendice"
           },
@@ -3240,7 +3240,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$hunt_club_start,$scaled_difficulty|7"
+              "$sochen_cave_palace,$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "anubys"
           },
@@ -3250,7 +3250,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$sochen_cave_palace,ageworn_key,$scaled_difficulty|8"
+              "$sochen_cave_palace,ageworn_key,[$scaled_difficulty|8]"
             ]
           }
         ]
@@ -3267,7 +3267,7 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$scaled_difficulty|4"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3276,7 +3276,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$scaled_difficulty|7"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "abelisk"
           },
@@ -3287,7 +3287,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$scaled_difficulty|8"
+              "clan_primer,[$scaled_difficulty|8]"
             ],
             "hosted_item": "yiazmat"
           }
