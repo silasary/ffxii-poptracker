@@ -1536,9 +1536,27 @@
         ],
         "sections": [
           {
-            "name": "Chests - Eruyt Village",
+            "name": "Fane of the Path Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Eruyt Village - Fane of the Path Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Spiritwood Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Eruyt Village - The Spiritwood Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Spiritwood Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Eruyt Village - The Spiritwood Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"

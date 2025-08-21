@@ -156,7 +156,7 @@ function OnLocation(location_id, location_name)
 
             if _G._char_hits[code] >= 3 then -- require two separate checks
                 obj.Active = true
-                tobj = Tracker:FindObjectForCode(PARTY_MAPPING[code])
+                local tobj = Tracker:FindObjectForCode(PARTY_MAPPING[code])
                 if tobj then
                     tobj.AvailableChestCount = tobj.AvailableChestCount - 1
                 end
@@ -211,16 +211,16 @@ Archipelago:AddRetrievedHandler("ds handler", OnReply)
 
 -- Auto-tabbing --
 
-function onBounce(json)  
+function OnBounce(json)  
     local data = json["data"]
     if data then
         if data["type"] == "MapUpdate" then
-            updateMap(data["mapId"])
+            UpdateMap(data["mapId"])
         end
     end
 end
 
-function updateMap(map_id)
+function UpdateMap(map_id)
     local tabs = TAB_MAPPING[map_id]
     --   if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
     if true then
@@ -234,4 +234,4 @@ function updateMap(map_id)
     end
 end
 
-Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddBouncedHandler("bounce handler", OnBounce)

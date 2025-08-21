@@ -808,8 +808,16 @@
     ],
     "sections": [
       {
-        "name": "Chests",
-        "ref": "Main/Eruyt Village/Chests - Eruyt Village"
+        "name": "Fane of the Path Treasure 1",
+        "ref": "Main/Eruyt Village/Fane of the Path Treasure 1"
+      },
+      {
+        "name": "The Spiritwood Treasure 1",
+        "ref": "Main/Eruyt Village/The Spiritwood Treasure 1"
+      },
+      {
+        "name": "The Spiritwood Treasure 2",
+        "ref": "Main/Eruyt Village/The Spiritwood Treasure 2"
       },
       {
         "name": "Lente's Tear",
