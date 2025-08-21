@@ -57,6 +57,7 @@ TAB_MAPPING = {
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [582] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [587] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
 
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar

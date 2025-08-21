@@ -55,7 +55,7 @@ HUNT_STAGE_MAPPING = {  -- 200 means I haven't figured out where the kill is yet
     [5] = 50,
     [6] = 90,
     [7] = 70,
-    [8] = 90,
+    [8] = 70,
     [9] = 90,
     [10] = 90,
     [11] = 70,
@@ -106,8 +106,6 @@ function on_hunt_updated(hunt_id, stage)
             else
                 object.Active = true
             end
-
-            print(string.format("Hunt %s is now complete", code))
         else
             print(string.format("onHuntUpdated: could not find object for hunt code %s", code))
         end

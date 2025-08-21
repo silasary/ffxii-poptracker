@@ -3298,27 +3298,423 @@
             ]
           },
           {
-            "name": "Westersand Chests",
+            "name": "Invitation to Heresy Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
             ]
           },
           {
-            "name": "Ozmone Chests",
+            "name": "Invitation to Heresy Treasure 2",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Invitation to Heresy Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 1"
             ],
             "access_rules": [
               "$ozmone_plain,[$scaled_difficulty|5]"
             ]
           },
           {
-            "name": "Remaining Chests",
+            "name": "Halls of Ardent Darkness Treasure 2",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 2"
+            ],
+            "access_rules": [
+              "$ozmone_plain,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 3"
+            ],
+            "access_rules": [
+              "$ozmone_plain,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 4"
+            ],
+            "access_rules": [
+              "$ozmone_plain,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 5"
+            ],
+            "access_rules": [
+              "$ozmone_plain,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 6"
+            ],
+            "access_rules": [
+              "$ozmone_plain,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 1"
+            ],
+            "access_rules": [
+              "$ozmone_plain,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Sandfalls Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 1"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Sandfalls Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 2"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Sandfalls Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 3"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Sandfalls Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 4"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Sandfalls Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 5"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Hourglass Basin Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Hourglass Basin Treasure 1"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Hourglass Basin Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Hourglass Basin Treasure 2"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Hourglass Basin Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Hourglass Basin Treasure 3"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Hourglass Basin Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Hourglass Basin Treasure 4"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Undershore Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Undershore Treasure 1"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Undershore Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Undershore Treasure 2"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Undershore Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Undershore Treasure 3"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Undershore Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Undershore Treasure 4"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Undershore Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Undershore Treasure 5"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 1"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 2"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 3"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 4"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 5"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 6"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 7"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Drybeam Cavern Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Drybeam Cavern Treasure 1"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Drybeam Cavern Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Drybeam Cavern Treasure 2"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Drybeam Cavern Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Drybeam Cavern Treasure 3"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Drybeam Cavern Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Drybeam Cavern Treasure 4"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Drybeam Cavern Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Drybeam Cavern Treasure 5"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Drybeam Cavern Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Drybeam Cavern Treasure 6"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Darkened Wharf Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Darkened Wharf Treasure 1"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Darkened Wharf Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Darkened Wharf Treasure 2"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Darkened Wharf Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Darkened Wharf Treasure 3"
+            ],
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Canopy of Clay Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Canopy of Clay Treasure 1"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"

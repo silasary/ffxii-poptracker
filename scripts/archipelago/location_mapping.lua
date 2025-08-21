@@ -194,7 +194,7 @@ return {
 	[760701600113] = {"@Main/Paramina Rift/Ancbolder - Mind Trophy"},
 	[760701599954] = {"@Main/Paramina Rift/Fafnir Drop"},
 	[760701600029] = {"@Main/Zertinan Caverns/Defeat Adrammelech"},
-	[760701599957] = {"@Main/Zertinan Caverns/Marilith Drop"},
+	[760701599957] = {"@Main/Zertinan Caverns/Marilith Drop", "marilith"},
 	[760701600071] = {"@Main/Zertinan Caverns/Alteci - Fell Trophy"},
 	[760701599960] = {"@Main/Cerobi Steppe/Vyraal Drop"},
 	[760701599966] = {"@Main/Cerobi Steppe/Wyrm Philosopher Ageworn Key"},

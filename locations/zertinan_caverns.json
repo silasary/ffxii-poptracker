@@ -1,6 +1,6 @@
 [
   {
-    "name": "Main",
+    "name": "Zertinan Caverns",
     "children": [
       {
         "name": "Defeat Adrammelech",
@@ -19,26 +19,278 @@
         ]
       },
       {
-        "name": "Chests",
+        "name": "Westersand Chests",
         "map_locations": [
           {
             "map": "zertinan_caverns",
-            "x": 680,
-            "y": 505
+            "x": 1240,
+            "y": 340
           }
         ],
         "sections": [
           {
-            "name": "Westersand Chests",
-            "ref": "Main/Zertinan Caverns/Westersand Chests"
+            "name": "Invitation to Heresy Treasure 1",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 1"
           },
           {
-            "name": "Ozmone Chests",
-            "ref": "Main/Zertinan Caverns/Ozmone Chests"
+            "name": "Invitation to Heresy Treasure 2",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 2"
           },
           {
-            "name": "Remaining Chests",
-            "ref": "Main/Zertinan Caverns/Remaining Chests"
+            "name": "Invitation to Heresy Treasure 4",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 4"
+          },
+          {
+            "name": "Invitation to Heresy Treasure 5",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 5"
+          },
+          {
+            "name": "Invitation to Heresy Treasure 6",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 6"
+          },
+          {
+            "name": "Invitation to Heresy Treasure 7",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 7"
+          },
+          {
+            "name": "Invitation to Heresy Treasure 9",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 9"
+          }
+        ]
+      },
+      {
+        "name": "Invitation to Heresy Treasure 3",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 1175,
+            "y": 340
+          }
+        ],
+         "sections": [
+{
+            "name": "Invitation to Heresy Treasure 3",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 3"
+          }
+         ]
+      },
+      {
+        "name": "Ozmone Chests",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 810,
+            "y": 1215
+          }
+        ],
+        "sections": [
+          {
+            "name": "Halls of Ardent Darkness Treasure 1",
+            "ref": "Main/Zertinan Caverns/Halls of Ardent Darkness Treasure 1"
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 2",
+            "ref": "Main/Zertinan Caverns/Halls of Ardent Darkness Treasure 2"
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 3",
+            "ref": "Main/Zertinan Caverns/Halls of Ardent Darkness Treasure 3"
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 4",
+            "ref": "Main/Zertinan Caverns/Halls of Ardent Darkness Treasure 4"
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 5",
+            "ref": "Main/Zertinan Caverns/Halls of Ardent Darkness Treasure 5"
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 6",
+            "ref": "Main/Zertinan Caverns/Halls of Ardent Darkness Treasure 6"
+          }
+        ]
+      },
+      {
+        "name": "Central Chests",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 770,
+            "y": 530
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sandfalls Treasure 1",
+            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 1"
+          },
+          {
+            "name": "Sandfalls Treasure 2",
+            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 2"
+          },
+          {
+            "name": "Sandfalls Treasure 3",
+            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 3"
+          },
+          {
+            "name": "Sandfalls Treasure 4",
+            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 4"
+          },
+          {
+            "name": "Sandfalls Treasure 5",
+            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 5"
+          },
+          {
+            "name": "Hourglass Basin Treasure 1",
+            "ref": "Main/Zertinan Caverns/Hourglass Basin Treasure 1"
+          },
+          {
+            "name": "Hourglass Basin Treasure 2",
+            "ref": "Main/Zertinan Caverns/Hourglass Basin Treasure 2"
+          },
+          {
+            "name": "Hourglass Basin Treasure 3",
+            "ref": "Main/Zertinan Caverns/Hourglass Basin Treasure 3"
+          },
+          {
+            "name": "Hourglass Basin Treasure 4",
+            "ref": "Main/Zertinan Caverns/Hourglass Basin Treasure 4"
+          },
+          {
+            "name": "The Undershore Treasure 1",
+            "ref": "Main/Zertinan Caverns/The Undershore Treasure 1"
+          },
+          {
+            "name": "The Undershore Treasure 2",
+            "ref": "Main/Zertinan Caverns/The Undershore Treasure 2"
+          },
+          {
+            "name": "The Undershore Treasure 3",
+            "ref": "Main/Zertinan Caverns/The Undershore Treasure 3"
+          },
+          {
+            "name": "The Undershore Treasure 4",
+            "ref": "Main/Zertinan Caverns/The Undershore Treasure 4"
+          },
+          {
+            "name": "The Undershore Treasure 5",
+            "ref": "Main/Zertinan Caverns/The Undershore Treasure 5"
+          }
+        ]
+      },
+      {
+        "name": "Sandsea Chests",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 100,
+            "y": 250
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Balamka Fault Treasure 1",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 1"
+          },
+          {
+            "name": "The Balamka Fault Treasure 2",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 2"
+          },
+          {
+            "name": "The Balamka Fault Treasure 3",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 3"
+          },
+          {
+            "name": "The Balamka Fault Treasure 5",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 5"
+          },
+          {
+            "name": "The Balamka Fault Treasure 6",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 6"
+          },
+          {
+            "name": "The Balamka Fault Treasure 7",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 7"
+          },
+          {
+            "name": "Drybeam Cavern Treasure 1",
+            "ref": "Main/Zertinan Caverns/Drybeam Cavern Treasure 1"
+          },
+          {
+            "name": "Drybeam Cavern Treasure 2",
+            "ref": "Main/Zertinan Caverns/Drybeam Cavern Treasure 2"
+          },
+          {
+            "name": "Drybeam Cavern Treasure 3",
+            "ref": "Main/Zertinan Caverns/Drybeam Cavern Treasure 3"
+          },
+          {
+            "name": "Drybeam Cavern Treasure 4",
+            "ref": "Main/Zertinan Caverns/Drybeam Cavern Treasure 4"
+          },
+          {
+            "name": "Drybeam Cavern Treasure 5",
+            "ref": "Main/Zertinan Caverns/Drybeam Cavern Treasure 5"
+          },
+          {
+            "name": "Darkened Wharf Treasure 1",
+            "ref": "Main/Zertinan Caverns/Darkened Wharf Treasure 1"
+          },
+          {
+            "name": "Darkened Wharf Treasure 3",
+            "ref": "Main/Zertinan Caverns/Darkened Wharf Treasure 3"
+          },
+          {
+            "name": "Canopy of Clay Treasure 1",
+            "ref": "Main/Zertinan Caverns/Canopy of Clay Treasure 1"
+          }
+        ]
+      },
+      {
+        "name": "Darkened Wharf Treasure 2",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 310,
+            "y": 285
+          }
+        ],
+        "sections": [
+          {
+            "name": "Darkened Wharf Treasure 2",
+            "ref": "Main/Zertinan Caverns/Darkened Wharf Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Drybeam Cavern Treasure 6",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 500,
+            "y": 510
+          }
+        ],
+        "sections": [
+          {
+            "name": "Drybeam Cavern Treasure 6",
+            "ref": "Main/Zertinan Caverns/Drybeam Cavern Treasure 6"
+          }
+        ]
+      },
+      {
+        "name": "Balamka Fault Treasure 4",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 680,
+            "y": 430
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Balamka Fault Treasure 4",
+            "ref": "Main/Zertinan Caverns/The Balamka Fault Treasure 4"
           }
         ]
       },
@@ -59,6 +311,10 @@
           {
             "name": "Marilith Drop",
             "ref": "Main/Zertinan Caverns/Marilith Drop"
+          },
+          {
+            "name": "Invitation to Heresy Treasure 8",
+            "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 8"
           }
         ]
       },
