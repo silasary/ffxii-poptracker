@@ -13,8 +13,212 @@
         ],
         "sections": [
           {
-            "name": "Main Area Chests",
-            "ref": "Main/Nam-Yensa Sandsea/Main Area Chests - Nam-Yensa"
+            "name": "The Urutan-Yensa Sea Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 1"
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 2",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 2"
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 3",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 3"
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 4",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 4"
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 5",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 5"
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 6",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 6"
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 7",
+            "ref": "Main/Nam-Yensa Sandsea/The Urutan-Yensa Sea Treasure 7"
+          },
+          {
+            "name": "Withering Shores Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Treasure 1"
+          },
+          {
+            "name": "Withering Shores Treasure 2",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Treasure 2"
+          },
+          {
+            "name": "Withering Shores Treasure 3",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Treasure 3"
+          },
+          {
+            "name": "Withering Shores Treasure 4",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Treasure 4"
+          },
+          {
+            "name": "Withering Shores Treasure 5",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Treasure 5"
+          },
+          {
+            "name": "Withering Shores Treasure 6",
+            "ref": "Main/Nam-Yensa Sandsea/Withering Shores Treasure 6"
+          },
+          {
+            "name": "Augur Hill Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 1"
+          },
+          {
+            "name": "Augur Hill Treasure 2",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 2"
+          },
+          {
+            "name": "Augur Hill Treasure 3",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 3"
+          },
+          {
+            "name": "Augur Hill Treasure 4",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 4"
+          },
+          {
+            "name": "Augur Hill Treasure 5",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 5"
+          },
+          {
+            "name": "Augur Hill Treasure 6",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 6"
+          },
+          {
+            "name": "Augur Hill Treasure 7",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 7"
+          },
+          {
+            "name": "Augur Hill Treasure 8",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 8"
+          },
+          {
+            "name": "Augur Hill Treasure 9",
+            "ref": "Main/Nam-Yensa Sandsea/Augur Hill Treasure 9"
+          },
+          {
+            "name": "Yellow Sands Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 1"
+          },
+          {
+            "name": "Yellow Sands Treasure 2",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 2"
+          },
+          {
+            "name": "Yellow Sands Treasure 3",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 3"
+          },
+          {
+            "name": "Yellow Sands Treasure 4",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 4"
+          },
+          {
+            "name": "Yellow Sands Treasure 5",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 5"
+          },
+          {
+            "name": "Yellow Sands Treasure 6",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 6"
+          },
+          {
+            "name": "Yellow Sands Treasure 7",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 7"
+          },
+          {
+            "name": "Yellow Sands Treasure 8",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 8"
+          },
+          {
+            "name": "Yellow Sands Treasure 9",
+            "ref": "Main/Nam-Yensa Sandsea/Yellow Sands Treasure 9"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 1"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 2",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 2"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 3",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 3"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 4",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 4"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 5",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 5"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 6",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 6"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 7",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 7"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 8",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 8"
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 9",
+            "ref": "Main/Nam-Yensa Sandsea/Demesne of the Sandqueen Treasure 9"
+          },
+          {
+            "name": "Trail of Fading Warmth Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/Trail of Fading Warmth Treasure 1"
+          },
+          {
+            "name": "Simoon Bluff Treasure 1",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 1"
+          },
+          {
+            "name": "Simoon Bluff Treasure 2",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 2"
+          },
+          {
+            "name": "Simoon Bluff Treasure 3",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 3"
+          },
+          {
+            "name": "Simoon Bluff Treasure 4",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 4"
+          },
+          {
+            "name": "Simoon Bluff Treasure 5",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 5"
+          },
+          {
+            "name": "Simoon Bluff Treasure 6",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 6"
+          },
+          {
+            "name": "Simoon Bluff Treasure 7",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 7"
+          },
+          {
+            "name": "Simoon Bluff Treasure 8",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 8"
+          },
+          {
+            "name": "Simoon Bluff Treasure 9",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 9"
+          },
+          {
+            "name": "Simoon Bluff Treasure 10",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 10"
+          },
+          {
+            "name": "Simoon Bluff Treasure 11",
+            "ref": "Main/Nam-Yensa Sandsea/Simoon Bluff Treasure 11"
           },
           {
             "name": "Withering Shores Chests",

@@ -637,9 +637,468 @@
         ],
         "sections": [
           {
-            "name": "Main Area Chests - Nam-Yensa",
+            "name": "The Urutan-Yensa Sea Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Urutan-Yensa Sea Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - The Urutan-Yensa Sea Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Augur Hill Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Augur Hill Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yellow Sands Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Yellow Sands Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Demesne of the Sandqueen Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Demesne of the Sandqueen Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Trail of Fading Warmth Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Trail of Fading Warmth Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Simoon Bluff Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Simoon Bluff Treasure 11"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
