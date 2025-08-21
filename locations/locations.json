@@ -3756,9 +3756,504 @@
         ],
         "sections": [
           {
-            "name": "Chests - Ogir-Yensa",
+            "name": "East Tanks Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Tanks Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Tanks Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Tanks Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "East Junction Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - East Junction Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Primary Tank Complex Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Primary Tank Complex Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Central Junction Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Central Junction Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "South Tanks Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "South Tanks Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "South Tanks Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "South Tanks Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "South Tanks Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "South Tanks Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Refinery Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"

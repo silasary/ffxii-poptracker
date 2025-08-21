@@ -255,6 +255,22 @@
         ]
       },
       {
+        "name": "Site 11 Treasure 6",
+        "map_locations": [
+          {
+            "map": "lhusu_mines",
+            "x": 130,
+            "y": 610
+          }
+        ],
+        "sections": [
+          {
+            "name": "Site 11 Treasure 6",
+            "ref": "Main/Lhusu Mines/Site 11 Treasure 6"
+          }
+        ]
+      },
+      {
         "name": "Defeat Nidhogg",
         "map_locations": [
           {

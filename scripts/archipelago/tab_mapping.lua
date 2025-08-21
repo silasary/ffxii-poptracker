@@ -86,6 +86,12 @@ TAB_MAPPING = {
 
     [800] = { "Nalbina", "Nalbina" }, -- Aerodrome
 
+    [804] = { "Bhujerba", "Bhujerba" },
+    [805] = { "Bhujerba", "Bhujerba" },
+    [806] = { "Bhujerba", "Bhujerba" },
+
+    [819] = { "Bhujerba", "Bhujerba" },
+
     [840] = { "Rabanastre", "Garamsythe Waterway" },
     [841] = { "Rabanastre", "Garamsythe Waterway" },
     [842] = { "Rabanastre", "Garamsythe Waterway" },
@@ -95,6 +101,7 @@ TAB_MAPPING = {
 
     [850] = { "Rabanastre", "Garamsythe Waterway" },
 
+    [901] = { "Bhujerba", "Lhusu Mines" },
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
 }

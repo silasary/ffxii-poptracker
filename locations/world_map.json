@@ -2088,10 +2088,286 @@
       }
     ],
     "sections": [
-      {
-        "name": "Chests",
-        "ref": "Main/Ogir-Yensa Sandsea/Chests - Ogir-Yensa"
-      },
+
+{
+    "name": "East Tanks Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/East Tanks Treasure 1"
+},
+
+{
+    "name": "East Tanks Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/East Tanks Treasure 2"
+},
+
+{
+    "name": "East Tanks Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/East Tanks Treasure 3"
+},
+
+{
+    "name": "East Tanks Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/East Tanks Treasure 4"
+},
+
+{
+    "name": "Refinery Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 1"
+},
+
+{
+    "name": "Refinery Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 2"
+},
+
+{
+    "name": "Refinery Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 3"
+},
+
+{
+    "name": "Refinery Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 4"
+},
+
+{
+    "name": "Refinery Treasure 5",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 5"
+},
+
+{
+    "name": "Refinery Treasure 6",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 6"
+},
+
+{
+    "name": "Refinery Treasure 7",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 7"
+},
+
+{
+    "name": "Refinery Treasure 8",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 8"
+},
+
+{
+    "name": "Refinery Treasure 9",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 9"
+},
+
+{
+    "name": "Refinery Treasure 10",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/Refinery Treasure 10"
+},
+
+{
+    "name": "East Junction Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 1"
+},
+
+{
+    "name": "East Junction Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 2"
+},
+
+{
+    "name": "East Junction Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 3"
+},
+
+{
+    "name": "East Junction Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 4"
+},
+
+{
+    "name": "East Junction Treasure 5",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 5"
+},
+
+{
+    "name": "East Junction Treasure 6",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 6"
+},
+
+{
+    "name": "East Junction Treasure 7",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 7"
+},
+
+{
+    "name": "East Junction Treasure 8",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 8"
+},
+
+{
+    "name": "East Junction Treasure 9",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 9"
+},
+
+{
+    "name": "East Junction Treasure 10",
+    "ref": "Main/Ogir-Yensa Sandsea/East Junction Treasure 10"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 1"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 2"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 3"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 4"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 5",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 5"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 6",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 6"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 7",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 7"
+},
+
+{
+    "name": "Primary Tank Complex Treasure 8",
+    "ref": "Main/Ogir-Yensa Sandsea/Primary Tank Complex Treasure 8"
+},
+
+{
+    "name": "Central Junction Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 1"
+},
+
+{
+    "name": "Central Junction Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 2"
+},
+
+{
+    "name": "Central Junction Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 3"
+},
+
+{
+    "name": "Central Junction Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 4"
+},
+
+{
+    "name": "Central Junction Treasure 5",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 5"
+},
+
+{
+    "name": "Central Junction Treasure 6",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 6"
+},
+
+{
+    "name": "Central Junction Treasure 7",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 7"
+},
+
+{
+    "name": "Central Junction Treasure 8",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 8"
+},
+
+{
+    "name": "Central Junction Treasure 9",
+    "ref": "Main/Ogir-Yensa Sandsea/Central Junction Treasure 9"
+},
+
+{
+    "name": "South Tanks Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/South Tanks Treasure 1"
+},
+
+{
+    "name": "South Tanks Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/South Tanks Treasure 2"
+},
+
+{
+    "name": "South Tanks Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/South Tanks Treasure 3"
+},
+
+{
+    "name": "South Tanks Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/South Tanks Treasure 4"
+},
+
+{
+    "name": "South Tanks Treasure 5",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/South Tanks Treasure 5"
+},
+
+{
+    "name": "South Tanks Treasure 6",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 1/South Tanks Treasure 6"
+},
+
+{
+    "name": "Refinery Treasure 1",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 1"
+},
+
+{
+    "name": "Refinery Treasure 2",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 2"
+},
+
+{
+    "name": "Refinery Treasure 3",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 3"
+},
+
+{
+    "name": "Refinery Treasure 4",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 4"
+},
+
+{
+    "name": "Refinery Treasure 5",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 5"
+},
+
+{
+    "name": "Refinery Treasure 6",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 6"
+},
+
+{
+    "name": "Refinery Treasure 7",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 7"
+},
+
+{
+    "name": "Refinery Treasure 8",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 8"
+},
+
+{
+    "name": "Refinery Treasure 9",
+    "ref": "Main/Ogir-Yensa Sandsea - Platform 2/Refinery Treasure 9"
+},
       {
         "name": "Bull Chocobo - Beaked Trophy",
         "ref": "Main/Ogir-Yensa Sandsea/Bull Chocobo - Beaked Trophy"
