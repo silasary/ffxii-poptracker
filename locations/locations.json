@@ -705,7 +705,7 @@
               "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -714,7 +714,7 @@
               "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -723,7 +723,7 @@
               "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -732,7 +732,7 @@
               "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -741,7 +741,7 @@
               "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 5"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -750,7 +750,7 @@
               "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 6"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -1120,15 +1120,6 @@
               "[$scaled_difficulty|2]"
             ],
             "hosted_item": "wyvern_lord"
-          },
-          {
-            "name": "Withering Shores Chests",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
           },
           {
             "name": "Defeat Belito",

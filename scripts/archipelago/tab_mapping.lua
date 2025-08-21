@@ -45,9 +45,12 @@ TAB_MAPPING = {
     [372] = { "Bhujerba", "Lhusu Mines" },
     [374] = { "Bhujerba", "Lhusu Mines" },
 
+    [381] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+
+    [391] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
 
     [525] = { "Map Select", "Ozmone Plain" },
-    [526] = { "Map Select", "Ozmone Plain" },    
+    [526] = { "Map Select", "Ozmone Plain" },
     [527] = { "Map Select", "Ozmone Plain" },
     [530] = { "Map Select", "Ozmone Plain" },
     [531] = { "Map Select", "Ozmone Plain" },
@@ -56,8 +59,11 @@ TAB_MAPPING = {
     [536] = { "Map Select", "Ozmone Plain" },
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [577] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [582] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [585] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [587] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [588] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
 
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
