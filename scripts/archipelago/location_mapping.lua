@@ -180,7 +180,7 @@ return {
 	[760701599906] = {"@Main/Dalmasca Westersand/Earth Tyrant Quest Wind Globe"},
 	[760701600062] = {"@Main/Dalmasca Westersand/Kaiser Wolf - Fanged Trophy"},
 	[760701599981] = {"@Main/Garamsythe Waterway/Dull Fragment"},
-	[760701599912] = {"@Main/Garamsythe Waterway/White Mousse Drop"},
+	[760701599912] = {"@Main/Garamsythe Waterway/White Mousse Drop", "white_mousse"},
 	[760701599945] = {"@Main/Garamsythe Waterway/Orthros Drop"},
 	[760701600035] = {"@Main/Garamsythe Waterway/Defeat Cuchulainn"},
 	[760701600056] = {"@Main/Garamsythe Waterway/Gavial - Fur-scaled Trophy"},

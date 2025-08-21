@@ -69,4 +69,15 @@ TAB_MAPPING = {
 
     [800] = { "Nalbina", "Nalbina" }, -- Aerodrome
 
+    [840] = { "Rabanastre", "Garamsythe Waterway" },
+    [841] = { "Rabanastre", "Garamsythe Waterway" },
+    [842] = { "Rabanastre", "Garamsythe Waterway" },
+    [843] = { "Rabanastre", "Garamsythe Waterway" },
+    [844] = { "Rabanastre", "Garamsythe Waterway" },
+    [845] = { "Rabanastre", "Garamsythe Waterway" },
+
+    [850] = { "Rabanastre", "Garamsythe Waterway" },
+
+
+    [1145] = { "Rabanastre", "Garamsythe Waterway" },
 }
