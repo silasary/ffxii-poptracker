@@ -13,8 +13,96 @@
         ],
         "sections": [
           {
-            "name": "Chests",
-            "ref": "Main/Tomb of Raithwall/Chests - Tomb of Raithwall"
+            "name": "Royal Passage Treasure 1",
+            "ref": "Main/Tomb of Raithwall/Royal Passage Treasure 1"
+          },
+          {
+            "name": "Royal Passage Treasure 2",
+            "ref": "Main/Tomb of Raithwall/Royal Passage Treasure 2"
+          },
+          {
+            "name": "Royal Passage Treasure 3",
+            "ref": "Main/Tomb of Raithwall/Royal Passage Treasure 3"
+          },
+          {
+            "name": "Royal Passage Treasure 4",
+            "ref": "Main/Tomb of Raithwall/Royal Passage Treasure 4"
+          },
+          {
+            "name": "Royal Passage Treasure 5",
+            "ref": "Main/Tomb of Raithwall/Royal Passage Treasure 5"
+          },
+          {
+            "name": "Southfall Passage Treasure 1",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 1"
+          },
+          {
+            "name": "Southfall Passage Treasure 2",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 2"
+          },
+          {
+            "name": "Southfall Passage Treasure 3",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 3"
+          },
+          {
+            "name": "Southfall Passage Treasure 4",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 4"
+          },
+          {
+            "name": "Southfall Passage Treasure 5",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 5"
+          },
+          {
+            "name": "Southfall Passage Treasure 6",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 6"
+          },
+          {
+            "name": "Southfall Passage Treasure 7",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 7"
+          },
+          {
+            "name": "Southfall Passage Treasure 8",
+            "ref": "Main/Tomb of Raithwall/Southfall Passage Treasure 8"
+          },
+          {
+            "name": "Northfall Passage Treasure 1",
+            "ref": "Main/Tomb of Raithwall/Northfall Passage Treasure 1"
+          },
+          {
+            "name": "Northfall Passage Treasure 2",
+            "ref": "Main/Tomb of Raithwall/Northfall Passage Treasure 2"
+          },
+          {
+            "name": "Northfall Passage Treasure 3",
+            "ref": "Main/Tomb of Raithwall/Northfall Passage Treasure 3"
+          },
+          {
+            "name": "Northfall Passage Treasure 4",
+            "ref": "Main/Tomb of Raithwall/Northfall Passage Treasure 4"
+          },
+          {
+            "name": "Northfall Passage Treasure 5",
+            "ref": "Main/Tomb of Raithwall/Northfall Passage Treasure 5"
+          },
+          {
+            "name": "Northfall Passage Treasure 6",
+            "ref": "Main/Tomb of Raithwall/Northfall Passage Treasure 6"
+          },
+          {
+            "name": "Cloister of Flame Treasure 1",
+            "ref": "Main/Tomb of Raithwall/Cloister of Flame Treasure 1"
+          },
+          {
+            "name": "Cloister of Flame Treasure 2",
+            "ref": "Main/Tomb of Raithwall/Cloister of Flame Treasure 2"
+          },
+          {
+            "name": "Cloister of Flame Treasure 3",
+            "ref": "Main/Tomb of Raithwall/Cloister of Flame Treasure 3"
+          },
+          {
+            "name": "Cloister of Flame Treasure 4",
+            "ref": "Main/Tomb of Raithwall/Cloister of Flame Treasure 4"
           }
         ]
       },

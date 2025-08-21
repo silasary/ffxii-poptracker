@@ -701,9 +701,207 @@
         ],
         "sections": [
           {
-            "name": "Chests - Tomb of Raithwall",
+            "name": "Royal Passage Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Tomb of Raithwall - Royal Passage Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Royal Passage Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Royal Passage Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Royal Passage Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Royal Passage Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Royal Passage Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Royal Passage Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Royal Passage Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Royal Passage Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Southfall Passage Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Southfall Passage Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Northfall Passage Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Northfall Passage Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Northfall Passage Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Northfall Passage Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Northfall Passage Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Northfall Passage Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Northfall Passage Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Northfall Passage Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Northfall Passage Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Northfall Passage Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Northfall Passage Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Northfall Passage Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Cloister of Flame Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Cloister of Flame Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Cloister of Flame Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Cloister of Flame Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Cloister of Flame Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Cloister of Flame Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Cloister of Flame Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tomb of Raithwall - Cloister of Flame Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
