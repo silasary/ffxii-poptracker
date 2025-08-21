@@ -125,14 +125,6 @@
             "ref": "Main/Lhusu Mines/Site 9 Treasure 6"
           },
           {
-            "name": "Site 9 Treasure 7",
-            "ref": "Main/Lhusu Mines/Site 9 Treasure 7"
-          },
-          {
-            "name": "Site 11 Treasure 1",
-            "ref": "Main/Lhusu Mines/Site 11 Treasure 1"
-          },
-          {
             "name": "Site 11 Treasure 2",
             "ref": "Main/Lhusu Mines/Site 11 Treasure 2"
           },
@@ -295,23 +287,27 @@
         ]
       },
       {
-        "name": "Defeat Antlion",
+        "name": "Antlion Nook",
         "map_locations": [
           {
             "map": "lhusu_mines",
-            "x": 900,
-            "y": 110
+            "x": 120,
+            "y": 920
           }
         ],
         "sections": [
           {
             "name": "Defeat Antlion",
             "ref": "Main/Lhusu Mines/Defeat Antlion"
+          },
+          {
+            "name": "Site 9 Treasure 7",
+            "ref": "Main/Lhusu Mines/Site 9 Treasure 7"
           }
         ]
       },
       {
-        "name": "Defeat Diabolos",
+        "name": "Diabolos Nook",
         "map_locations": [
           {
             "map": "lhusu_mines",
@@ -323,6 +319,10 @@
           {
             "name": "Defeat Diabolos",
             "ref": "Main/Lhusu Mines/Defeat Diabolos"
+          },
+                    {
+            "name": "Site 11 Treasure 1",
+            "ref": "Main/Lhusu Mines/Site 11 Treasure 1"
           }
         ]
       },
