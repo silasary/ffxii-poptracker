@@ -756,6 +756,11 @@
         "map": "world_map",
         "x": 620,
         "y": 970
+      },
+      {
+        "map": "ozmone_plain",
+        "x": 485,
+        "y": 1000
       }
     ],
     "sections": [
@@ -1824,6 +1829,11 @@
         "map": "world_map",
         "x": 550,
         "y": 790
+      },
+      {
+        "map": "ozmone_plain",
+        "x": 655,
+        "y": 700
       }
     ],
     "sections": [

@@ -60,8 +60,11 @@ TAB_MAPPING = {
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [577] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [578] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [581] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [582] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [585] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [586] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [587] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [588] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
 

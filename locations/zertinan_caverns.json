@@ -67,12 +67,12 @@
             "y": 340
           }
         ],
-         "sections": [
-{
+        "sections": [
+          {
             "name": "Invitation to Heresy Treasure 3",
             "ref": "Main/Zertinan Caverns/Invitation to Heresy Treasure 3"
           }
-         ]
+        ]
       },
       {
         "name": "Ozmone Chests",
@@ -129,10 +129,6 @@
             "ref": "Main/Zertinan Caverns/Sandfalls Treasure 2"
           },
           {
-            "name": "Sandfalls Treasure 3",
-            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 3"
-          },
-          {
             "name": "Sandfalls Treasure 4",
             "ref": "Main/Zertinan Caverns/Sandfalls Treasure 4"
           },
@@ -157,10 +153,6 @@
             "ref": "Main/Zertinan Caverns/Hourglass Basin Treasure 4"
           },
           {
-            "name": "The Undershore Treasure 1",
-            "ref": "Main/Zertinan Caverns/The Undershore Treasure 1"
-          },
-          {
             "name": "The Undershore Treasure 2",
             "ref": "Main/Zertinan Caverns/The Undershore Treasure 2"
           },
@@ -175,6 +167,38 @@
           {
             "name": "The Undershore Treasure 5",
             "ref": "Main/Zertinan Caverns/The Undershore Treasure 5"
+          }
+        ]
+      },
+      {
+        "name": "Sandfalls Treasure 3",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 855,
+            "y": 470
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sandfalls Treasure 3",
+            "ref": "Main/Zertinan Caverns/Sandfalls Treasure 3"
+          }
+        ]
+      },
+      {
+        "name": "Undershore Treasure 1",
+        "map_locations": [
+          {
+            "map": "zertinan_caverns",
+            "x": 745,
+            "y": 840
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Undershore Treasure 1",
+            "ref": "Main/Zertinan Caverns/The Undershore Treasure 1"
           }
         ]
       },
