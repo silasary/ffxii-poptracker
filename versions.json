@@ -1,6 +1,14 @@
 {
   "versions": [
     {
+        "package_version": "0.1.5",
+        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.5.zip",
+        "sha256": "3b2d57ff5ea1a60c9b4e8081d7130dcb87c90e14d423f54a0ad8b9156b1ad261",
+        "changelog": [
+          "Fixed locations of Antlion and War-chief Supinelu on their respective maps"
+        ]
+    },
+    {
         "package_version": "0.1.4",
         "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.4.zip",
         "sha256": "f4f707e23c83a8ba3adbe467ce7b30fc20dde85a740f9fc405c80846fc64f976",
