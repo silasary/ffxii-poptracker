@@ -69,6 +69,120 @@
             "ref": "Main/Giza Plains Rains/Defeat Gil Snapper"
           }
         ]
+      },
+      {
+        "name": "North Bank Withered Tree",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 763,
+            "y": 377,
+            "shape": "diamond"
+          }
+        ],
+        "visibility_rules": [
+          "$show_withered_trees"
+        ],
+        "sections": [
+          {
+            "name": "North Bank Withered Tree"
+          }
+        ]
+      },
+      {
+        "name": "Throne Road Withered Tree",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 450,
+            "y": 360,
+            "shape": "diamond"
+          }
+        ],
+        "visibility_rules": [
+          "$show_withered_trees"
+        ],
+        "sections": [
+          {
+            "name": "Throne Road Withered Tree"
+          }
+        ]
+      },
+      {
+        "name": "Nomad Village Withered Tree",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 529,
+            "y": 510,
+            "shape": "diamond"
+          }
+        ],
+        "visibility_rules": [
+          "$show_withered_trees"
+        ],
+        "sections": [
+          {
+            "name": "Nomad Village Withered Tree"
+          }
+        ]
+      },
+      {
+        "name": "Toam Hills Withered Tree",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 532,
+            "y": 620,
+            "shape": "diamond"
+          }
+        ],
+        "visibility_rules": [
+          "$show_withered_trees"
+        ],
+        "sections": [
+          {
+            "name": "Toam Hills Withered Tree"
+          }
+        ]
+      },
+      {
+        "name": "Starfall Field Withered Tree",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 460,
+            "y": 750,
+            "shape": "diamond"
+          }
+        ],
+        "visibility_rules": [
+          "$show_withered_trees"
+        ],
+        "sections": [
+          {
+            "name": "Starfall Field Withered Tree"
+          }
+        ]
+      },
+      {
+        "name": "Crystal Glade Withered Tree",
+        "map_locations": [
+          {
+            "map": "giza_plains_rainy_season",
+            "x": 560,
+            "y": 805,
+            "shape": "diamond"
+          }
+        ],
+        "visibility_rules": [
+          "$show_withered_trees"
+        ],
+        "sections": [
+          {
+            "name": "Crystal Glade Withered Tree"
+          }
+        ]
       }
     ]
   }
