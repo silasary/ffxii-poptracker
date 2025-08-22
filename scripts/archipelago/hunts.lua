@@ -94,7 +94,6 @@ HUNT_STAGE_MAPPING = {  -- 200 means I haven't figured out where the kill is yet
     [44] = 2000
 }
 function on_hunt_updated(hunt_id, stage)
-    
     local code = HUNT_MAPPING[tonumber(hunt_id)]
     local needed = HUNT_STAGE_MAPPING[tonumber(hunt_id)] or 0
     if stage >= needed then

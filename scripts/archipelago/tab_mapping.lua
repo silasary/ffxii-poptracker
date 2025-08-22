@@ -50,6 +50,16 @@ TAB_MAPPING = {
     [391] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
 
     [447] = { "Map Select", "Golmore Jungle" },
+    [460] = { "Map Select", "Golmore Jungle" },
+
+    [463] = { "Map Select", "Paramina Rift" },
+    [464] = { "Map Select", "Paramina Rift" },
+    [465] = { "Map Select", "Paramina Rift" },
+    [468] = { "Map Select", "Paramina Rift" },
+    [469] = { "Map Select", "Paramina Rift" },
+    [470] = { "Map Select", "Paramina Rift" },
+    [474] = { "Map Select", "Paramina Rift" },
+    [475] = { "Map Select", "Paramina Rift" },
 
     [525] = { "Map Select", "Ozmone Plain" },
     [526] = { "Map Select", "Ozmone Plain" },
@@ -59,6 +69,8 @@ TAB_MAPPING = {
     [532] = { "Map Select", "Ozmone Plain" },
     [533] = { "Map Select", "Ozmone Plain" },
     [536] = { "Map Select", "Ozmone Plain" },
+
+    [539] = { "Map Select", "Feywood" },
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [577] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
@@ -69,6 +81,14 @@ TAB_MAPPING = {
     [586] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [587] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [588] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+
+    [593] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+    [594] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+    [597] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+
+    [618] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" }, -- Zeromus arena
+
+
 
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
@@ -87,6 +107,11 @@ TAB_MAPPING = {
     [718] = { "Map Select", "Henne Mines" },
     [719] = { "Map Select", "Henne Mines" },
     [722] = { "Map Select", "Henne Mines" },
+
+    [737] = { "Map Select", "Mt Bur-Omisace" },
+    [738] = { "Map Select", "Mt Bur-Omisace" },
+    [741] = { "Map Select", "Mt Bur-Omisace" },
+    [742] = { "Map Select", "Mt Bur-Omisace" },
 
     [751] = { "Jahara" },
     [752] = { "Jahara" },

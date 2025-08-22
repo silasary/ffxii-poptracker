@@ -13,8 +13,228 @@
         ],
         "sections": [
           {
-            "name": "Chests",
-            "ref": "Main/Paramina Rift/Chests - Paramina Rift"
+            "name": "Head of the Silverflow Treasure 1",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 1"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 2",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 2"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 3",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 3"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 4",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 4"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 5",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 5"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 6",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 6"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 7",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 7"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 8",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 8"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 9",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 9"
+          },
+          {
+            "name": "Head of the Silverflow Treasure 10",
+            "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 10"
+          },
+          {
+            "name": "Freezing Gorge Treasure 1",
+            "ref": "Main/Paramina Rift/Freezing Gorge Treasure 1"
+          },
+          {
+            "name": "Freezing Gorge Treasure 2",
+            "ref": "Main/Paramina Rift/Freezing Gorge Treasure 2"
+          },
+          {
+            "name": "Freezing Gorge Treasure 3",
+            "ref": "Main/Paramina Rift/Freezing Gorge Treasure 3"
+          },
+          {
+            "name": "Freezing Gorge Treasure 4",
+            "ref": "Main/Paramina Rift/Freezing Gorge Treasure 4"
+          },
+          {
+            "name": "Freezing Gorge Treasure 5",
+            "ref": "Main/Paramina Rift/Freezing Gorge Treasure 5"
+          },
+          {
+            "name": "Frozen Brook Treasure 1",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 1"
+          },
+          {
+            "name": "Frozen Brook Treasure 2",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 2"
+          },
+          {
+            "name": "Frozen Brook Treasure 3",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 3"
+          },
+          {
+            "name": "Frozen Brook Treasure 4",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 4"
+          },
+          {
+            "name": "Frozen Brook Treasure 5",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 5"
+          },
+          {
+            "name": "Frozen Brook Treasure 6",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 6"
+          },
+          {
+            "name": "Frozen Brook Treasure 7",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 7"
+          },
+          {
+            "name": "Frozen Brook Treasure 8",
+            "ref": "Main/Paramina Rift/Frozen Brook Treasure 8"
+          },
+          {
+            "name": "Icebound Flow Treasure 1",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 1"
+          },
+          {
+            "name": "Icebound Flow Treasure 2",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 2"
+          },
+          {
+            "name": "Icebound Flow Treasure 3",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 3"
+          },
+          {
+            "name": "Icebound Flow Treasure 4",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 4"
+          },
+          {
+            "name": "Icebound Flow Treasure 5",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 5"
+          },
+          {
+            "name": "Icebound Flow Treasure 6",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 6"
+          },
+          {
+            "name": "Icebound Flow Treasure 7",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 7"
+          },
+          {
+            "name": "Icebound Flow Treasure 8",
+            "ref": "Main/Paramina Rift/Icebound Flow Treasure 8"
+          },
+          {
+            "name": "Karydine Glacier Treasure 1",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 1"
+          },
+          {
+            "name": "Karydine Glacier Treasure 2",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 2"
+          },
+          {
+            "name": "Karydine Glacier Treasure 3",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 3"
+          },
+          {
+            "name": "Karydine Glacier Treasure 4",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 4"
+          },
+          {
+            "name": "Karydine Glacier Treasure 5",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 5"
+          },
+          {
+            "name": "Karydine Glacier Treasure 6",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 6"
+          },
+          {
+            "name": "Karydine Glacier Treasure 7",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 7"
+          },
+          {
+            "name": "Karydine Glacier Treasure 8",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 8"
+          },
+          {
+            "name": "Karydine Glacier Treasure 9",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 9"
+          },
+          {
+            "name": "Karydine Glacier Treasure 10",
+            "ref": "Main/Paramina Rift/Karydine Glacier Treasure 10"
+          },
+          {
+            "name": "Path of the Firstfall Treasure 1",
+            "ref": "Main/Paramina Rift/Path of the Firstfall Treasure 1"
+          },
+          {
+            "name": "Spine of the Icewyrm Treasure 1",
+            "ref": "Main/Paramina Rift/Spine of the Icewyrm Treasure 1"
+          },
+          {
+            "name": "Spine of the Icewyrm Treasure 2",
+            "ref": "Main/Paramina Rift/Spine of the Icewyrm Treasure 2"
+          },
+          {
+            "name": "Spine of the Icewyrm Treasure 3",
+            "ref": "Main/Paramina Rift/Spine of the Icewyrm Treasure 3"
+          },
+          {
+            "name": "Silverflow's End Treasure 1",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 1"
+          },
+          {
+            "name": "Silverflow's End Treasure 2",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 2"
+          },
+          {
+            "name": "Silverflow's End Treasure 3",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 3"
+          },
+          {
+            "name": "Silverflow's End Treasure 4",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 4"
+          },
+          {
+            "name": "Silverflow's End Treasure 5",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 5"
+          },
+          {
+            "name": "Silverflow's End Treasure 6",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 6"
+          },
+          {
+            "name": "Silverflow's End Treasure 7",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 7"
+          },
+          {
+            "name": "Silverflow's End Treasure 8",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 8"
+          },
+          {
+            "name": "Silverflow's End Treasure 9",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 9"
+          },
+          {
+            "name": "Silverflow's End Treasure 10",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 10"
+          },
+          {
+            "name": "Silverflow's End Treasure 11",
+            "ref": "Main/Paramina Rift/Silverflow's End Treasure 11"
           }
         ]
       },

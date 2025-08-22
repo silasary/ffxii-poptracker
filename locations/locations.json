@@ -2258,9 +2258,9 @@
         ],
         "sections": [
           {
-            "name": "Temple Grounds chest",
+            "name": "Temple Grounds Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Mt. Bur-Omisace - Temple Grounds Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -3652,9 +3652,504 @@
         ],
         "sections": [
           {
-            "name": "Chests - Paramina Rift",
+            "name": "Head of the Silverflow Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Head of the Silverflow Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Head of the Silverflow Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Freezing Gorge Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Freezing Gorge Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Freezing Gorge Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Freezing Gorge Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Freezing Gorge Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Freezing Gorge Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Freezing Gorge Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Freezing Gorge Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Freezing Gorge Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Freezing Gorge Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Frozen Brook Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Frozen Brook Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Icebound Flow Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Icebound Flow Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Karydine Glacier Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Karydine Glacier Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Path of the Firstfall Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Path of the Firstfall Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Spine of the Icewyrm Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Spine of the Icewyrm Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Spine of the Icewyrm Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Spine of the Icewyrm Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Spine of the Icewyrm Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Spine of the Icewyrm Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Silverflow's End Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Paramina Rift - Silverflow's End Treasure 11"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
