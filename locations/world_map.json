@@ -74,8 +74,184 @@
         "ref": "Main/Giza Plains Dry/Shadestone"
       },
       {
-        "name": "Chests",
-        "ref": "Main/Giza Plains Dry/Chests - Giza Dry"
+        "name": "Throne Road Treasure 1",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 1"
+      },
+      {
+        "name": "Throne Road Treasure 2",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 2"
+      },
+      {
+        "name": "Throne Road Treasure 3",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 3"
+      },
+      {
+        "name": "Throne Road Treasure 4",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 4"
+      },
+      {
+        "name": "Throne Road Treasure 5",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 5"
+      },
+      {
+        "name": "Throne Road Treasure 6",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 6"
+      },
+      {
+        "name": "Throne Road Treasure 7",
+        "ref": "Main/Giza Plains Dry/Throne Road Treasure 7"
+      },
+      {
+        "name": "Warrior's Wash Treasure 1",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 1"
+      },
+      {
+        "name": "Warrior's Wash Treasure 2",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 2"
+      },
+      {
+        "name": "Warrior's Wash Treasure 3",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 3"
+      },
+      {
+        "name": "Warrior's Wash Treasure 4",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 4"
+      },
+      {
+        "name": "Warrior's Wash Treasure 5",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 5"
+      },
+      {
+        "name": "Warrior's Wash Treasure 6",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 6"
+      },
+      {
+        "name": "Warrior's Wash Treasure 7",
+        "ref": "Main/Giza Plains Dry/Warrior's Wash Treasure 7"
+      },
+      {
+        "name": "Gizas North Bank Treasure 1",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 1"
+      },
+      {
+        "name": "Gizas North Bank Treasure 2",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 2"
+      },
+      {
+        "name": "Gizas North Bank Treasure 3",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 3"
+      },
+      {
+        "name": "Gizas North Bank Treasure 4",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 4"
+      },
+      {
+        "name": "Gizas North Bank Treasure 5",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 5"
+      },
+      {
+        "name": "Gizas North Bank Treasure 6",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 6"
+      },
+      {
+        "name": "Gizas North Bank Treasure 7",
+        "ref": "Main/Giza Plains Dry/Gizas North Bank Treasure 7"
+      },
+      {
+        "name": "Toam Hills Treasure 1",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 1"
+      },
+      {
+        "name": "Toam Hills Treasure 2",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 2"
+      },
+      {
+        "name": "Toam Hills Treasure 3",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 3"
+      },
+      {
+        "name": "Toam Hills Treasure 4",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 4"
+      },
+      {
+        "name": "Toam Hills Treasure 5",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 5"
+      },
+      {
+        "name": "Toam Hills Treasure 6",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 6"
+      },
+      {
+        "name": "Toam Hills Treasure 7",
+        "ref": "Main/Giza Plains Dry/Toam Hills Treasure 7"
+      },
+      {
+        "name": "Starfall Field Treasure 1",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 1"
+      },
+      {
+        "name": "Starfall Field Treasure 2",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 2"
+      },
+      {
+        "name": "Starfall Field Treasure 3",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 3"
+      },
+      {
+        "name": "Starfall Field Treasure 4",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 4"
+      },
+      {
+        "name": "Starfall Field Treasure 5",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 5"
+      },
+      {
+        "name": "Starfall Field Treasure 6",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 6"
+      },
+      {
+        "name": "Starfall Field Treasure 7",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 7"
+      },
+      {
+        "name": "Starfall Field Treasure 8",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 8"
+      },
+      {
+        "name": "Starfall Field Treasure 9",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 9"
+      },
+      {
+        "name": "Starfall Field Treasure 10",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 10"
+      },
+      {
+        "name": "Starfall Field Treasure 11",
+        "ref": "Main/Giza Plains Dry/Starfall Field Treasure 11"
+      },
+      {
+        "name": "Gizas South Bank Treasure 1",
+        "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 1"
+      },
+      {
+        "name": "Gizas South Bank Treasure 2",
+        "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 2"
+      },
+      {
+        "name": "Gizas South Bank Treasure 3",
+        "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 3"
+      },
+      {
+        "name": "Gizas South Bank Treasure 4",
+        "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 4"
+      },
+      {
+        "name": "Gizas South Bank Treasure 5",
+        "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 5"
+      },
+      {
+        "name": "Gizas South Bank Treasure 6",
+        "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 6"
       },
       {
         "name": "Sunstone",
@@ -114,8 +290,172 @@
     ],
     "sections": [
       {
-        "name": "Chests",
-        "ref": "Main/Giza Plains Rains/Chests Nomad Village Rains"
+        "name": "Throne Road Treasure 1",
+        "ref": "Main/Giza Plains Rains/Throne Road Treasure 1"
+      },
+      {
+        "name": "Throne Road Treasure 2",
+        "ref": "Main/Giza Plains Rains/Throne Road Treasure 2"
+      },
+      {
+        "name": "Throne Road Treasure 3",
+        "ref": "Main/Giza Plains Rains/Throne Road Treasure 3"
+      },
+      {
+        "name": "Throne Road Treasure 4",
+        "ref": "Main/Giza Plains Rains/Throne Road Treasure 4"
+      },
+      {
+        "name": "Warrior's Wash Treasure 1",
+        "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 1"
+      },
+      {
+        "name": "Warrior's Wash Treasure 2",
+        "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 2"
+      },
+      {
+        "name": "Warrior's Wash Treasure 3",
+        "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 3"
+      },
+      {
+        "name": "Warrior's Wash Treasure 4",
+        "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 4"
+      },
+      {
+        "name": "Warrior's Wash Treasure 5",
+        "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 5"
+      },
+      {
+        "name": "Warrior's Wash Treasure 6",
+        "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 6"
+      },
+      {
+        "name": "Gizas North Bank Treasure 1",
+        "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 1"
+      },
+      {
+        "name": "Gizas North Bank Treasure 2",
+        "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 2"
+      },
+      {
+        "name": "Gizas North Bank Treasure 3",
+        "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 3"
+      },
+      {
+        "name": "Gizas North Bank Treasure 4",
+        "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 4"
+      },
+      {
+        "name": "Gizas North Bank Treasure 5",
+        "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 5"
+      },
+      {
+        "name": "Toam Hills Treasure 1",
+        "ref": "Main/Giza Plains Rains/Toam Hills Treasure 1"
+      },
+      {
+        "name": "Toam Hills Treasure 2",
+        "ref": "Main/Giza Plains Rains/Toam Hills Treasure 2"
+      },
+      {
+        "name": "Toam Hills Treasure 3",
+        "ref": "Main/Giza Plains Rains/Toam Hills Treasure 3"
+      },
+      {
+        "name": "Toam Hills Treasure 4",
+        "ref": "Main/Giza Plains Rains/Toam Hills Treasure 4"
+      },
+      {
+        "name": "Toam Hills Treasure 5",
+        "ref": "Main/Giza Plains Rains/Toam Hills Treasure 5"
+      },
+      {
+        "name": "Toam Hills Treasure 6",
+        "ref": "Main/Giza Plains Rains/Toam Hills Treasure 6"
+      },
+      {
+        "name": "Nomad Village Treasure 1",
+        "ref": "Main/Giza Plains Rains/Nomad Village Treasure 1"
+      },
+      {
+        "name": "Starfall Field Treasure 1",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 1"
+      },
+      {
+        "name": "Starfall Field Treasure 2",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 2"
+      },
+      {
+        "name": "Starfall Field Treasure 3",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 3"
+      },
+      {
+        "name": "Starfall Field Treasure 4",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 4"
+      },
+      {
+        "name": "Starfall Field Treasure 5",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 5"
+      },
+      {
+        "name": "Starfall Field Treasure 6",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 6"
+      },
+      {
+        "name": "Starfall Field Treasure 7",
+        "ref": "Main/Giza Plains Rains/Starfall Field Treasure 7"
+      },
+      {
+        "name": "Gizas South Bank Treasure 1",
+        "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 1"
+      },
+      {
+        "name": "Gizas South Bank Treasure 2",
+        "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 2"
+      },
+      {
+        "name": "Gizas South Bank Treasure 3",
+        "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 3"
+      },
+      {
+        "name": "Gizas South Bank Treasure 4",
+        "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 4"
+      },
+      {
+        "name": "Gizas South Bank Treasure 5",
+        "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 5"
+      },
+      {
+        "name": "Gizas South Bank Treasure 6",
+        "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 6"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 1",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 1"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 2",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 2"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 3",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 3"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 4",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 4"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 5",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 5"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 6",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 6"
+      },
+      {
+        "name": "Tracks of the Beast Treasure 7",
+        "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 7"
       },
       {
         "name": "Defeat Croakadile",
@@ -841,6 +1181,11 @@
         "map": "world_map",
         "x": 1200,
         "y": 1160
+      },
+      {
+        "map": "paramina_rift",
+        "x": 790,
+        "y": 1100
       }
     ],
     "sections": [
@@ -1230,6 +1575,11 @@
         "map": "world_map",
         "x": 1380,
         "y": 980
+      },
+      {
+        "map": "paramina_rift",
+        "x": 910,
+        "y": 140
       }
     ],
     "sections": [
@@ -1306,12 +1656,188 @@
     ],
     "sections": [
       {
-        "name": "Chests",
-        "ref": "Main/Mosphoran Highwaste/Chests - Mosphoran Highwaste"
+        "name": "Southern Skirts Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 1"
       },
       {
-        "name": "Chests Past Chocobo Trail",
-        "ref": "Main/Mosphoran Highwaste/Chests Past Chocobo Trail"
+        "name": "Southern Skirts Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 2"
+      },
+      {
+        "name": "Southern Skirts Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 3"
+      },
+      {
+        "name": "Southern Skirts Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 4"
+      },
+      {
+        "name": "Southern Skirts Treasure 5",
+        "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 5"
+      },
+      {
+        "name": "Summit Path Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 1"
+      },
+      {
+        "name": "Summit Path Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 2"
+      },
+      {
+        "name": "Summit Path Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 3"
+      },
+      {
+        "name": "Summit Path Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 4"
+      },
+      {
+        "name": "Summit Path Treasure 5",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 5"
+      },
+      {
+        "name": "Summit Path Treasure 6",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 6"
+      },
+      {
+        "name": "Summit Path Treasure 7",
+        "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 7"
+      },
+      {
+        "name": "Rays of Ashen Light Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 1"
+      },
+      {
+        "name": "Rays of Ashen Light Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 2"
+      },
+      {
+        "name": "Rays of Ashen Light Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 3"
+      },
+      {
+        "name": "Rays of Ashen Light Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 4"
+      },
+      {
+        "name": "Rays of Ashen Light Treasure 5",
+        "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 5"
+      },
+      {
+        "name": "Empyrean Way Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 1"
+      },
+      {
+        "name": "Empyrean Way Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 2"
+      },
+      {
+        "name": "Empyrean Way Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 3"
+      },
+      {
+        "name": "Empyrean Way Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 4"
+      },
+      {
+        "name": "Empyrean Way Treasure 5",
+        "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 5"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 1"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 2"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 3"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 4"
+      },
+      {
+        "name": "Trail of Sky-flung Stone Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 1"
+      },
+      {
+        "name": "Trail of Sky-flung Stone Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 2"
+      },
+      {
+        "name": "Trail of Sky-flung Stone Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 3"
+      },
+      {
+        "name": "Trail of Sky-flung Stone Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 4"
+      },
+      {
+        "name": "Trail of Sky-flung Stone Treasure 5",
+        "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 5"
+      },
+      {
+        "name": "Northern Skirts Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 1"
+      },
+      {
+        "name": "Northern Skirts Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 2"
+      },
+      {
+        "name": "Northern Skirts Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 3"
+      },
+      {
+        "name": "Northern Skirts Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 4"
+      },
+      {
+        "name": "Northern Skirts Treasure 5",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 5"
+      },
+      {
+        "name": "Northern Skirts Treasure 6",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 6"
+      },
+      {
+        "name": "Northern Skirts Treasure 7",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 7"
+      },
+      {
+        "name": "Northern Skirts Treasure 8",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 8"
+      },
+      {
+        "name": "Northern Skirts Treasure 9",
+        "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 9"
+      },
+      {
+        "name": "Halny Crossing Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Halny Crossing Treasure 1"
+      },
+      {
+        "name": "Halny Crossing Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Halny Crossing Treasure 2"
+      },
+      {
+        "name": "Babbling Vale Treasure 1",
+        "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 1"
+      },
+      {
+        "name": "Babbling Vale Treasure 2",
+        "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 2"
+      },
+      {
+        "name": "Babbling Vale Treasure 3",
+        "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 3"
+      },
+      {
+        "name": "Babbling Vale Treasure 4",
+        "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 4"
       },
       {
         "name": "Defeat Atomos",
@@ -1665,12 +2191,144 @@
         "ref": "Main/Garamsythe Waterway/Party Members (Balthier, Fran, Guest)"
       },
       {
-        "name": "Unchanged Water Chests",
-        "ref": "Main/Garamsythe Waterway/Unchanged Water Chests"
+        "name": "North Spur Sluiceway Treasure 1",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 1"
       },
       {
-        "name": "Drained Water Chests",
-        "ref": "Main/Garamsythe Waterway/Drained Water Chests"
+        "name": "North Spur Sluiceway Treasure 2",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 2"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 3",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 3"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 4",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 4"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 5",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 5"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 6",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 6"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 7",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 7"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 8",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 8"
+      },
+      {
+        "name": "Northern Sluiceway Treasure 1",
+        "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 1"
+      },
+      {
+        "name": "Northern Sluiceway Treasure 2",
+        "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 2"
+      },
+      {
+        "name": "Northern Sluiceway Treasure 3",
+        "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 3"
+      },
+      {
+        "name": "Northern Sluiceway Treasure 4",
+        "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 4"
+      },
+      {
+        "name": "Northern Sluiceway Treasure 5",
+        "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 5"
+      },
+      {
+        "name": "Northern Sluiceway Treasure 6",
+        "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 6"
+      },
+      {
+        "name": "East Waterway Control Treasure 1",
+        "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 1"
+      },
+      {
+        "name": "East Waterway Control Treasure 2",
+        "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 2"
+      },
+      {
+        "name": "East Waterway Control Treasure 3",
+        "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 3"
+      },
+      {
+        "name": "East Waterway Control Treasure 4",
+        "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 4"
+      },
+      {
+        "name": "No. 11 Channel (water is drained) Treasure 1",
+        "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 1"
+      },
+      {
+        "name": "No. 11 Channel (water is drained) Treasure 2",
+        "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 2"
+      },
+      {
+        "name": "No. 11 Channel (water is drained) Treasure 3",
+        "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 3"
+      },
+      {
+        "name": "No. 11 Channel (water is drained) Treasure 4",
+        "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 4"
+      },
+      {
+        "name": "No. 11 Channel (water is drained) Treasure 5",
+        "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 5"
+      },
+      {
+        "name": "No. 11 Channel (water is drained) Treasure 6",
+        "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 6"
+      },
+      {
+        "name": "No. 10 Channel (water is drained) Treasure 1",
+        "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 1"
+      },
+      {
+        "name": "No. 10 Channel (water is drained) Treasure 2",
+        "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 2"
+      },
+      {
+        "name": "No. 10 Channel (water is drained) Treasure 3",
+        "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 3"
+      },
+      {
+        "name": "No. 10 Channel (water is drained) Treasure 4",
+        "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 4"
+      },
+      {
+        "name": "No. 10 Channel (water is drained) Treasure 5",
+        "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 5"
+      },
+      {
+        "name": "No. 3 Cloaca Spur (water is drained) Treasure 1",
+        "ref": "Main/Garamsythe Waterway/No. 3 Cloaca Spur (water is drained) Treasure 1"
+      },
+      {
+        "name": "No. 3 Cloaca Spur (water is drained) Treasure 2",
+        "ref": "Main/Garamsythe Waterway/No. 3 Cloaca Spur (water is drained) Treasure 2"
+      },
+      {
+        "name": "No. 3 Cloaca Spur (water is drained) Treasure 3",
+        "ref": "Main/Garamsythe Waterway/No. 3 Cloaca Spur (water is drained) Treasure 3"
+      },
+      {
+        "name": "No. 4 Cloaca Spur (water is drained) Treasure 1",
+        "ref": "Main/Garamsythe Waterway/No. 4 Cloaca Spur (water is drained) Treasure 1"
+      },
+      {
+        "name": "No. 4 Cloaca Spur (water is drained) Treasure 2",
+        "ref": "Main/Garamsythe Waterway/No. 4 Cloaca Spur (water is drained) Treasure 2"
+      },
+      {
+        "name": "No. 4 Cloaca Spur (water is drained) Treasure 3",
+        "ref": "Main/Garamsythe Waterway/No. 4 Cloaca Spur (water is drained) Treasure 3"
       },
       {
         "name": "Defeat White Mousse",
@@ -1989,8 +2647,228 @@
     ],
     "sections": [
       {
-        "name": "Chests",
-        "ref": "Main/Paramina Rift/Chests - Paramina Rift"
+        "name": "Head of the Silverflow Treasure 1",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 1"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 2",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 2"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 3",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 3"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 4",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 4"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 5",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 5"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 6",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 6"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 7",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 7"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 8",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 8"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 9",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 9"
+      },
+      {
+        "name": "Head of the Silverflow Treasure 10",
+        "ref": "Main/Paramina Rift/Head of the Silverflow Treasure 10"
+      },
+      {
+        "name": "Freezing Gorge Treasure 1",
+        "ref": "Main/Paramina Rift/Freezing Gorge Treasure 1"
+      },
+      {
+        "name": "Freezing Gorge Treasure 2",
+        "ref": "Main/Paramina Rift/Freezing Gorge Treasure 2"
+      },
+      {
+        "name": "Freezing Gorge Treasure 3",
+        "ref": "Main/Paramina Rift/Freezing Gorge Treasure 3"
+      },
+      {
+        "name": "Freezing Gorge Treasure 4",
+        "ref": "Main/Paramina Rift/Freezing Gorge Treasure 4"
+      },
+      {
+        "name": "Freezing Gorge Treasure 5",
+        "ref": "Main/Paramina Rift/Freezing Gorge Treasure 5"
+      },
+      {
+        "name": "Frozen Brook Treasure 1",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 1"
+      },
+      {
+        "name": "Frozen Brook Treasure 2",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 2"
+      },
+      {
+        "name": "Frozen Brook Treasure 3",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 3"
+      },
+      {
+        "name": "Frozen Brook Treasure 4",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 4"
+      },
+      {
+        "name": "Frozen Brook Treasure 5",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 5"
+      },
+      {
+        "name": "Frozen Brook Treasure 6",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 6"
+      },
+      {
+        "name": "Frozen Brook Treasure 7",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 7"
+      },
+      {
+        "name": "Frozen Brook Treasure 8",
+        "ref": "Main/Paramina Rift/Frozen Brook Treasure 8"
+      },
+      {
+        "name": "Icebound Flow Treasure 1",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 1"
+      },
+      {
+        "name": "Icebound Flow Treasure 2",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 2"
+      },
+      {
+        "name": "Icebound Flow Treasure 3",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 3"
+      },
+      {
+        "name": "Icebound Flow Treasure 4",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 4"
+      },
+      {
+        "name": "Icebound Flow Treasure 5",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 5"
+      },
+      {
+        "name": "Icebound Flow Treasure 6",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 6"
+      },
+      {
+        "name": "Icebound Flow Treasure 7",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 7"
+      },
+      {
+        "name": "Icebound Flow Treasure 8",
+        "ref": "Main/Paramina Rift/Icebound Flow Treasure 8"
+      },
+      {
+        "name": "Karydine Glacier Treasure 1",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 1"
+      },
+      {
+        "name": "Karydine Glacier Treasure 2",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 2"
+      },
+      {
+        "name": "Karydine Glacier Treasure 3",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 3"
+      },
+      {
+        "name": "Karydine Glacier Treasure 4",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 4"
+      },
+      {
+        "name": "Karydine Glacier Treasure 5",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 5"
+      },
+      {
+        "name": "Karydine Glacier Treasure 6",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 6"
+      },
+      {
+        "name": "Karydine Glacier Treasure 7",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 7"
+      },
+      {
+        "name": "Karydine Glacier Treasure 8",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 8"
+      },
+      {
+        "name": "Karydine Glacier Treasure 9",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 9"
+      },
+      {
+        "name": "Karydine Glacier Treasure 10",
+        "ref": "Main/Paramina Rift/Karydine Glacier Treasure 10"
+      },
+      {
+        "name": "Path of the Firstfall Treasure 1",
+        "ref": "Main/Paramina Rift/Path of the Firstfall Treasure 1"
+      },
+      {
+        "name": "Spine of the Icewyrm Treasure 1",
+        "ref": "Main/Paramina Rift/Spine of the Icewyrm Treasure 1"
+      },
+      {
+        "name": "Spine of the Icewyrm Treasure 2",
+        "ref": "Main/Paramina Rift/Spine of the Icewyrm Treasure 2"
+      },
+      {
+        "name": "Spine of the Icewyrm Treasure 3",
+        "ref": "Main/Paramina Rift/Spine of the Icewyrm Treasure 3"
+      },
+      {
+        "name": "Silverflow's End Treasure 1",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 1"
+      },
+      {
+        "name": "Silverflow's End Treasure 2",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 2"
+      },
+      {
+        "name": "Silverflow's End Treasure 3",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 3"
+      },
+      {
+        "name": "Silverflow's End Treasure 4",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 4"
+      },
+      {
+        "name": "Silverflow's End Treasure 5",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 5"
+      },
+      {
+        "name": "Silverflow's End Treasure 6",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 6"
+      },
+      {
+        "name": "Silverflow's End Treasure 7",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 7"
+      },
+      {
+        "name": "Silverflow's End Treasure 8",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 8"
+      },
+      {
+        "name": "Silverflow's End Treasure 9",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 9"
+      },
+      {
+        "name": "Silverflow's End Treasure 10",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 10"
+      },
+      {
+        "name": "Silverflow's End Treasure 11",
+        "ref": "Main/Paramina Rift/Silverflow's End Treasure 11"
       },
       {
         "name": "Defeat Feral Retriever",

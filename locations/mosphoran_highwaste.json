@@ -13,12 +13,188 @@
         ],
         "sections": [
           {
-            "name": "Chests",
-            "ref": "Main/Mosphoran Highwaste/Chests - Mosphoran Highwaste"
+            "name": "Southern Skirts Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 1"
           },
           {
-            "name": "Chests Past Chocobo Trail",
-            "ref": "Main/Mosphoran Highwaste/Chests Past Chocobo Trail"
+            "name": "Southern Skirts Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 2"
+          },
+          {
+            "name": "Southern Skirts Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 3"
+          },
+          {
+            "name": "Southern Skirts Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 4"
+          },
+          {
+            "name": "Southern Skirts Treasure 5",
+            "ref": "Main/Mosphoran Highwaste/Southern Skirts Treasure 5"
+          },
+          {
+            "name": "Summit Path Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 1"
+          },
+          {
+            "name": "Summit Path Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 2"
+          },
+          {
+            "name": "Summit Path Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 3"
+          },
+          {
+            "name": "Summit Path Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 4"
+          },
+          {
+            "name": "Summit Path Treasure 5",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 5"
+          },
+          {
+            "name": "Summit Path Treasure 6",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 6"
+          },
+          {
+            "name": "Summit Path Treasure 7",
+            "ref": "Main/Mosphoran Highwaste/Summit Path Treasure 7"
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 1"
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 2"
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 3"
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 4"
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 5",
+            "ref": "Main/Mosphoran Highwaste/Rays of Ashen Light Treasure 5"
+          },
+          {
+            "name": "Empyrean Way Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 1"
+          },
+          {
+            "name": "Empyrean Way Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 2"
+          },
+          {
+            "name": "Empyrean Way Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 3"
+          },
+          {
+            "name": "Empyrean Way Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 4"
+          },
+          {
+            "name": "Empyrean Way Treasure 5",
+            "ref": "Main/Mosphoran Highwaste/Empyrean Way Treasure 5"
+          },
+          {
+            "name": "Skyreach Ridge Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 1"
+          },
+          {
+            "name": "Skyreach Ridge Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 2"
+          },
+          {
+            "name": "Skyreach Ridge Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 3"
+          },
+          {
+            "name": "Skyreach Ridge Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 4"
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 1"
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 2"
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 3"
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 4"
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 5",
+            "ref": "Main/Mosphoran Highwaste/Trail of Sky-flung Stone Treasure 5"
+          },
+          {
+            "name": "Northern Skirts Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 1"
+          },
+          {
+            "name": "Northern Skirts Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 2"
+          },
+          {
+            "name": "Northern Skirts Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 3"
+          },
+          {
+            "name": "Northern Skirts Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 4"
+          },
+          {
+            "name": "Northern Skirts Treasure 5",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 5"
+          },
+          {
+            "name": "Northern Skirts Treasure 6",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 6"
+          },
+          {
+            "name": "Northern Skirts Treasure 7",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 7"
+          },
+          {
+            "name": "Northern Skirts Treasure 8",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 8"
+          },
+          {
+            "name": "Northern Skirts Treasure 9",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 9"
+          },
+          {
+            "name": "Halny Crossing Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Halny Crossing Treasure 1"
+          },
+          {
+            "name": "Halny Crossing Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Halny Crossing Treasure 2"
+          },
+          {
+            "name": "Babbling Vale Treasure 1",
+            "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 1"
+          },
+          {
+            "name": "Babbling Vale Treasure 2",
+            "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 2"
+          },
+          {
+            "name": "Babbling Vale Treasure 3",
+            "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 3"
+          },
+          {
+            "name": "Babbling Vale Treasure 4",
+            "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 4"
           },
           {
             "name": "Hunt 19: Braegh - Va’Kansa",

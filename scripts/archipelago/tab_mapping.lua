@@ -3,13 +3,29 @@ TAB_MAPPING = {
     [125] = { "World Map" }, -- Airship
     [126] = { "World Map" }, -- Airship
 
+    [151] = { "Map Select", "Salikawood" },
+    [152] = { "Map Select", "Salikawood" },
+    [153] = { "Map Select", "Salikawood" },
+    [156] = { "Map Select", "Salikawood" },
+
+    [209] = { "Map Select", "Mosphoran Highwaste" },
+    [210] = { "Map Select", "Mosphoran Highwaste" },
+    [215] = { "Map Select", "Mosphoran Highwaste" },
+    [216] = { "Map Select", "Mosphoran Highwaste" },
+    [218] = { "Map Select", "Mosphoran Highwaste" },
+    [219] = { "Map Select", "Mosphoran Highwaste" },
+    [220] = { "Map Select", "Mosphoran Highwaste" },
 
     [223] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [227] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [228] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     
+    [236] = { "Map Select", "Giza Plains", "Dry Season" },
+
+
     [253] = { "Map Select", "Giza Plains", "Rainy Season" },
     [254] = { "Map Select", "Giza Plains", "Rainy Season" },
+    [255] = { "Map Select", "Giza Plains", "Rainy Season" },
     [256] = { "Map Select", "Giza Plains", "Rainy Season" },
     [264] = { "Map Select", "Giza Plains", "Rainy Season" },
     [265] = { "Map Select", "Giza Plains", "Rainy Season" },
@@ -50,6 +66,18 @@ TAB_MAPPING = {
     [391] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
 
     [447] = { "Map Select", "Golmore Jungle" },
+    [460] = { "Map Select", "Golmore Jungle" },
+
+    [483] = { "Map Select", "Phon Coast" },
+
+    [463] = { "Map Select", "Paramina Rift" },
+    [464] = { "Map Select", "Paramina Rift" },
+    [465] = { "Map Select", "Paramina Rift" },
+    [468] = { "Map Select", "Paramina Rift" },
+    [469] = { "Map Select", "Paramina Rift" },
+    [470] = { "Map Select", "Paramina Rift" },
+    [474] = { "Map Select", "Paramina Rift" },
+    [475] = { "Map Select", "Paramina Rift" },
 
     [525] = { "Map Select", "Ozmone Plain" },
     [526] = { "Map Select", "Ozmone Plain" },
@@ -59,6 +87,8 @@ TAB_MAPPING = {
     [532] = { "Map Select", "Ozmone Plain" },
     [533] = { "Map Select", "Ozmone Plain" },
     [536] = { "Map Select", "Ozmone Plain" },
+
+    [539] = { "Map Select", "Feywood" },
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [577] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
@@ -69,6 +99,14 @@ TAB_MAPPING = {
     [586] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [587] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [588] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+
+    [593] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+    [594] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+    [597] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+
+    [618] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" }, -- Zeromus arena
+
+
 
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
@@ -87,6 +125,11 @@ TAB_MAPPING = {
     [718] = { "Map Select", "Henne Mines" },
     [719] = { "Map Select", "Henne Mines" },
     [722] = { "Map Select", "Henne Mines" },
+
+    [737] = { "Map Select", "Mt Bur-Omisace" },
+    [738] = { "Map Select", "Mt Bur-Omisace" },
+    [741] = { "Map Select", "Mt Bur-Omisace" },
+    [742] = { "Map Select", "Mt Bur-Omisace" },
 
     [751] = { "Jahara" },
     [752] = { "Jahara" },
@@ -114,6 +157,8 @@ TAB_MAPPING = {
     [850] = { "Rabanastre", "Garamsythe Waterway" },
 
     [901] = { "Bhujerba", "Lhusu Mines" },
+    [908] = { "Map Select", "Salikawood" },
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
+    [1151] = { "Map Select", "Mosphoran Highwaste" },
 }

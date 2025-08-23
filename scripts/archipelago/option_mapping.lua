@@ -17,7 +17,7 @@ return {
     ["include_hunts"] = "place_hunts",
     ["include_chops"] = "place_chops",
     ["include_black_orbs"] = "place_black_orbs",
-    ["include_hunt_rewards"] = { "place_hunt_rewards", "place_hunts" },
+    ["include_hunt_rewards"] = { "place_hunts" },
     ["include_trophy_rare_games"] = "trophies",
     ["include_clan_hall_rewards"] = {
         "place_clan_boss",
