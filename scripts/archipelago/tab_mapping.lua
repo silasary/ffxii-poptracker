@@ -3,13 +3,29 @@ TAB_MAPPING = {
     [125] = { "World Map" }, -- Airship
     [126] = { "World Map" }, -- Airship
 
+    [151] = { "Map Select", "Salikawood" },
+    [152] = { "Map Select", "Salikawood" },
+    [153] = { "Map Select", "Salikawood" },
+    [156] = { "Map Select", "Salikawood" },
+
+    [209] = { "Map Select", "Mosphoran Highwaste" },
+    [210] = { "Map Select", "Mosphoran Highwaste" },
+    [215] = { "Map Select", "Mosphoran Highwaste" },
+    [216] = { "Map Select", "Mosphoran Highwaste" },
+    [218] = { "Map Select", "Mosphoran Highwaste" },
+    [219] = { "Map Select", "Mosphoran Highwaste" },
+    [220] = { "Map Select", "Mosphoran Highwaste" },
 
     [223] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [227] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [228] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     
+    [236] = { "Map Select", "Giza Plains", "Dry Season" },
+
+
     [253] = { "Map Select", "Giza Plains", "Rainy Season" },
     [254] = { "Map Select", "Giza Plains", "Rainy Season" },
+    [255] = { "Map Select", "Giza Plains", "Rainy Season" },
     [256] = { "Map Select", "Giza Plains", "Rainy Season" },
     [264] = { "Map Select", "Giza Plains", "Rainy Season" },
     [265] = { "Map Select", "Giza Plains", "Rainy Season" },
@@ -51,6 +67,8 @@ TAB_MAPPING = {
 
     [447] = { "Map Select", "Golmore Jungle" },
     [460] = { "Map Select", "Golmore Jungle" },
+
+    [483] = { "Map Select", "Phon Coast" },
 
     [463] = { "Map Select", "Paramina Rift" },
     [464] = { "Map Select", "Paramina Rift" },
@@ -139,6 +157,8 @@ TAB_MAPPING = {
     [850] = { "Rabanastre", "Garamsythe Waterway" },
 
     [901] = { "Bhujerba", "Lhusu Mines" },
+    [908] = { "Map Select", "Salikawood" },
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
+    [1151] = { "Map Select", "Mosphoran Highwaste" },
 }

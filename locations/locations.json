@@ -111,9 +111,405 @@
             ]
           },
           {
-            "name": "Chests - Giza Dry",
+            "name": "Throne Road Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Throne Road Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Warrior's Wash Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas North Bank Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Toam Hills Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Starfall Field Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas South Bank Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas South Bank Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas South Bank Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas South Bank Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas South Bank Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Dry - Gizas South Bank Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -182,9 +578,378 @@
         ],
         "sections": [
           {
-            "name": "Chests Nomad Village Rains",
+            "name": "Throne Road Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Giza Plains Rains - Throne Road Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Throne Road Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Throne Road Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Throne Road Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Throne Road Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Warrior's Wash Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Warrior's Wash Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Warrior's Wash Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Warrior's Wash Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Warrior's Wash Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Warrior's Wash Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Warrior's Wash Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas North Bank Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas North Bank Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas North Bank Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas North Bank Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas North Bank Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas North Bank Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Toam Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Toam Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Toam Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Toam Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Toam Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Toam Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Toam Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Nomad Village Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Nomad Village Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Starfall Field Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Starfall Field Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas South Bank Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas South Bank Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas South Bank Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas South Bank Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas South Bank Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Gizas South Bank Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Gizas South Bank Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Tracks of the Beast Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Giza Plains Rains - Tracks of the Beast Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -2373,18 +3138,414 @@
         ],
         "sections": [
           {
-            "name": "Chests - Mosphoran Highwaste",
+            "name": "Southern Skirts Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Mosphoran Highwaste - Southern Skirts Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
             ]
           },
           {
-            "name": "Chests Past Chocobo Trail",
+            "name": "Southern Skirts Treasure 2",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Mosphoran Highwaste - Southern Skirts Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Southern Skirts Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Southern Skirts Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Southern Skirts Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Southern Skirts Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Southern Skirts Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Southern Skirts Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Summit Path Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Summit Path Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Rays of Ashen Light Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Rays of Ashen Light Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Rays of Ashen Light Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Rays of Ashen Light Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Rays of Ashen Light Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Rays of Ashen Light Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Empyrean Way Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Empyrean Way Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Empyrean Way Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Empyrean Way Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Empyrean Way Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Empyrean Way Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Empyrean Way Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Empyrean Way Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Empyrean Way Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Empyrean Way Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Trail of Sky-flung Stone Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Trail of Sky-flung Stone Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Trail of Sky-flung Stone Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Trail of Sky-flung Stone Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trail of Sky-flung Stone Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Trail of Sky-flung Stone Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Northern Skirts Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Northern Skirts Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Halny Crossing Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Halny Crossing Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Halny Crossing Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Halny Crossing Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Babbling Vale Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 1"
+            ],
+            "access_rules": [
+              "$defeat_bergan,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Babbling Vale Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 2"
+            ],
+            "access_rules": [
+              "$defeat_bergan,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Babbling Vale Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 3"
+            ],
+            "access_rules": [
+              "$defeat_bergan,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Babbling Vale Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 4"
             ],
             "access_rules": [
               "$defeat_bergan,[$scaled_difficulty|2]"
@@ -3004,18 +4165,315 @@
             ]
           },
           {
-            "name": "Unchanged Water Chests",
+            "name": "North Spur Sluiceway Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
             ]
           },
           {
-            "name": "Drained Water Chests",
+            "name": "North Spur Sluiceway Treasure 2",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - North Spur Sluiceway Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Northern Sluiceway Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - Northern Sluiceway Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Northern Sluiceway Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - Northern Sluiceway Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Northern Sluiceway Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - Northern Sluiceway Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Northern Sluiceway Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - Northern Sluiceway Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Northern Sluiceway Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - Northern Sluiceway Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Northern Sluiceway Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - Northern Sluiceway Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "East Waterway Control Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - East Waterway Control Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "East Waterway Control Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - East Waterway Control Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "East Waterway Control Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - East Waterway Control Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "East Waterway Control Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - East Waterway Control Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 11 Channel (water is drained) Treasure 1"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 11 Channel (water is drained) Treasure 2"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 11 Channel (water is drained) Treasure 3"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 11 Channel (water is drained) Treasure 4"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 11 Channel (water is drained) Treasure 5"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 11 Channel (water is drained) Treasure 6"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 1"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 2"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 3"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 4"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 5"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 3 Cloaca Spur (water is drained) Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 3 Cloaca Spur (water is drained) Treasure 1"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 3 Cloaca Spur (water is drained) Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 3 Cloaca Spur (water is drained) Treasure 2"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 3 Cloaca Spur (water is drained) Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 3 Cloaca Spur (water is drained) Treasure 3"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 4 Cloaca Spur (water is drained) Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 4 Cloaca Spur (water is drained) Treasure 1"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 4 Cloaca Spur (water is drained) Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 4 Cloaca Spur (water is drained) Treasure 2"
+            ],
+            "access_rules": [
+              "sluice_gate_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "No. 4 Cloaca Spur (water is drained) Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Garamsythe Waterway - No. 4 Cloaca Spur (water is drained) Treasure 3"
             ],
             "access_rules": [
               "sluice_gate_key,[$scaled_difficulty|5]"

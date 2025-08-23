@@ -13,8 +13,172 @@
         ],
         "sections": [
           {
-            "name": "Chests - Nomad Village",
-            "ref": "Main/Giza Plains Rains/Chests Nomad Village Rains"
+            "name": "Throne Road Treasure 1",
+            "ref": "Main/Giza Plains Rains/Throne Road Treasure 1"
+          },
+          {
+            "name": "Throne Road Treasure 2",
+            "ref": "Main/Giza Plains Rains/Throne Road Treasure 2"
+          },
+          {
+            "name": "Throne Road Treasure 3",
+            "ref": "Main/Giza Plains Rains/Throne Road Treasure 3"
+          },
+          {
+            "name": "Throne Road Treasure 4",
+            "ref": "Main/Giza Plains Rains/Throne Road Treasure 4"
+          },
+          {
+            "name": "Warrior's Wash Treasure 1",
+            "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 1"
+          },
+          {
+            "name": "Warrior's Wash Treasure 2",
+            "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 2"
+          },
+          {
+            "name": "Warrior's Wash Treasure 3",
+            "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 3"
+          },
+          {
+            "name": "Warrior's Wash Treasure 4",
+            "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 4"
+          },
+          {
+            "name": "Warrior's Wash Treasure 5",
+            "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 5"
+          },
+          {
+            "name": "Warrior's Wash Treasure 6",
+            "ref": "Main/Giza Plains Rains/Warrior's Wash Treasure 6"
+          },
+          {
+            "name": "Gizas North Bank Treasure 1",
+            "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 1"
+          },
+          {
+            "name": "Gizas North Bank Treasure 2",
+            "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 2"
+          },
+          {
+            "name": "Gizas North Bank Treasure 3",
+            "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 3"
+          },
+          {
+            "name": "Gizas North Bank Treasure 4",
+            "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 4"
+          },
+          {
+            "name": "Gizas North Bank Treasure 5",
+            "ref": "Main/Giza Plains Rains/Gizas North Bank Treasure 5"
+          },
+          {
+            "name": "Toam Hills Treasure 1",
+            "ref": "Main/Giza Plains Rains/Toam Hills Treasure 1"
+          },
+          {
+            "name": "Toam Hills Treasure 2",
+            "ref": "Main/Giza Plains Rains/Toam Hills Treasure 2"
+          },
+          {
+            "name": "Toam Hills Treasure 3",
+            "ref": "Main/Giza Plains Rains/Toam Hills Treasure 3"
+          },
+          {
+            "name": "Toam Hills Treasure 4",
+            "ref": "Main/Giza Plains Rains/Toam Hills Treasure 4"
+          },
+          {
+            "name": "Toam Hills Treasure 5",
+            "ref": "Main/Giza Plains Rains/Toam Hills Treasure 5"
+          },
+          {
+            "name": "Toam Hills Treasure 6",
+            "ref": "Main/Giza Plains Rains/Toam Hills Treasure 6"
+          },
+          {
+            "name": "Nomad Village Treasure 1",
+            "ref": "Main/Giza Plains Rains/Nomad Village Treasure 1"
+          },
+          {
+            "name": "Starfall Field Treasure 1",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 1"
+          },
+          {
+            "name": "Starfall Field Treasure 2",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 2"
+          },
+          {
+            "name": "Starfall Field Treasure 3",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 3"
+          },
+          {
+            "name": "Starfall Field Treasure 4",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 4"
+          },
+          {
+            "name": "Starfall Field Treasure 5",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 5"
+          },
+          {
+            "name": "Starfall Field Treasure 6",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 6"
+          },
+          {
+            "name": "Starfall Field Treasure 7",
+            "ref": "Main/Giza Plains Rains/Starfall Field Treasure 7"
+          },
+          {
+            "name": "Gizas South Bank Treasure 1",
+            "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 1"
+          },
+          {
+            "name": "Gizas South Bank Treasure 2",
+            "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 2"
+          },
+          {
+            "name": "Gizas South Bank Treasure 3",
+            "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 3"
+          },
+          {
+            "name": "Gizas South Bank Treasure 4",
+            "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 4"
+          },
+          {
+            "name": "Gizas South Bank Treasure 5",
+            "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 5"
+          },
+          {
+            "name": "Gizas South Bank Treasure 6",
+            "ref": "Main/Giza Plains Rains/Gizas South Bank Treasure 6"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 1",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 1"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 2",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 2"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 3",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 3"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 4",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 4"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 5",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 5"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 6",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 6"
+          },
+          {
+            "name": "Tracks of the Beast Treasure 7",
+            "ref": "Main/Giza Plains Rains/Tracks of the Beast Treasure 7"
           },
           {
             "name": "Hunt 11: Croakadile - Sadeen",

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Main",
+    "name": "Garamsythe Waterway",
     "children": [
       {
         "name": "Dull Fragment",
@@ -61,12 +61,144 @@
         ],
         "sections": [
           {
-            "name": "Unchanged Water Chests",
-            "ref": "Main/Garamsythe Waterway/Unchanged Water Chests"
+            "name": "North Spur Sluiceway Treasure 1",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 1"
           },
           {
-            "name": "Drained Water Chests",
-            "ref": "Main/Garamsythe Waterway/Drained Water Chests"
+            "name": "North Spur Sluiceway Treasure 2",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 2"
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 3",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 3"
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 4",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 4"
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 5",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 5"
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 6",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 6"
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 7",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 7"
+          },
+          {
+            "name": "North Spur Sluiceway Treasure 8",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 8"
+          },
+          {
+            "name": "Northern Sluiceway Treasure 1",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 1"
+          },
+          {
+            "name": "Northern Sluiceway Treasure 2",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 2"
+          },
+          {
+            "name": "Northern Sluiceway Treasure 3",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 3"
+          },
+          {
+            "name": "Northern Sluiceway Treasure 4",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 4"
+          },
+          {
+            "name": "Northern Sluiceway Treasure 5",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 5"
+          },
+          {
+            "name": "Northern Sluiceway Treasure 6",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 6"
+          },
+          {
+            "name": "East Waterway Control Treasure 1",
+            "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 1"
+          },
+          {
+            "name": "East Waterway Control Treasure 2",
+            "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 2"
+          },
+          {
+            "name": "East Waterway Control Treasure 3",
+            "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 3"
+          },
+          {
+            "name": "East Waterway Control Treasure 4",
+            "ref": "Main/Garamsythe Waterway/East Waterway Control Treasure 4"
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 1",
+            "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 1"
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 2",
+            "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 2"
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 3",
+            "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 3"
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 4",
+            "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 4"
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 5",
+            "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 5"
+          },
+          {
+            "name": "No. 11 Channel (water is drained) Treasure 6",
+            "ref": "Main/Garamsythe Waterway/No. 11 Channel (water is drained) Treasure 6"
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 1",
+            "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 1"
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 2",
+            "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 2"
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 3",
+            "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 3"
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 4",
+            "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 4"
+          },
+          {
+            "name": "No. 10 Channel (water is drained) Treasure 5",
+            "ref": "Main/Garamsythe Waterway/No. 10 Channel (water is drained) Treasure 5"
+          },
+          {
+            "name": "No. 3 Cloaca Spur (water is drained) Treasure 1",
+            "ref": "Main/Garamsythe Waterway/No. 3 Cloaca Spur (water is drained) Treasure 1"
+          },
+          {
+            "name": "No. 3 Cloaca Spur (water is drained) Treasure 2",
+            "ref": "Main/Garamsythe Waterway/No. 3 Cloaca Spur (water is drained) Treasure 2"
+          },
+          {
+            "name": "No. 3 Cloaca Spur (water is drained) Treasure 3",
+            "ref": "Main/Garamsythe Waterway/No. 3 Cloaca Spur (water is drained) Treasure 3"
+          },
+          {
+            "name": "No. 4 Cloaca Spur (water is drained) Treasure 1",
+            "ref": "Main/Garamsythe Waterway/No. 4 Cloaca Spur (water is drained) Treasure 1"
+          },
+          {
+            "name": "No. 4 Cloaca Spur (water is drained) Treasure 2",
+            "ref": "Main/Garamsythe Waterway/No. 4 Cloaca Spur (water is drained) Treasure 2"
+          },
+          {
+            "name": "No. 4 Cloaca Spur (water is drained) Treasure 3",
+            "ref": "Main/Garamsythe Waterway/No. 4 Cloaca Spur (water is drained) Treasure 3"
           }
         ]
       },
