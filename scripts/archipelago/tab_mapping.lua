@@ -3,6 +3,10 @@ TAB_MAPPING = {
     [125] = { "World Map" }, -- Airship
     [126] = { "World Map" }, -- Airship
 
+    [130] = { "Map Select", "Dalmasca Estersand", "Estersand North"},
+    [132] = { "Map Select", "Dalmasca Estersand", "Estersand North"},
+    [133] = { "Map Select", "Dalmasca Estersand", "Estersand North"},
+
     [137] = { "Map Select", "Tchita Uplands" },
     [141] = { "Map Select", "Tchita Uplands" },
     [145] = { "Map Select", "Tchita Uplands" },
@@ -14,7 +18,10 @@ TAB_MAPPING = {
     [151] = { "Map Select", "Salikawood" },
     [152] = { "Map Select", "Salikawood" },
     [153] = { "Map Select", "Salikawood" },
+    [154] = { "Map Select", "Salikawood" },
+    [155] = { "Map Select", "Salikawood" },
     [156] = { "Map Select", "Salikawood" },
+    [157] = { "Map Select", "Salikawood" },
 
     [209] = { "Map Select", "Mosphoran Highwaste" },
     [210] = { "Map Select", "Mosphoran Highwaste" },
@@ -54,6 +61,7 @@ TAB_MAPPING = {
     [348] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
     [349] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
     [350] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
+    [354] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
 
     [357] = { "Bhujerba", "Lhusu Mines" },
     [358] = { "Bhujerba", "Lhusu Mines" },

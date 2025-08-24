@@ -2849,9 +2849,360 @@
             ]
           },
           {
-            "name": "DE Southern Chests",
+            "name": "The Stepping Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Stepping Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Stepping Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Yardang Labyrinth Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Yardang Labyrinth Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sand-swept Naze Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Sand-swept Naze Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Banks of the Nebra Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Banks of the Nebra Treasure 10"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -2907,9 +3258,243 @@
             ]
           },
           {
-            "name": "DE Northern Chests",
+            "name": "The Yoma Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 1"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 2"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 3"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 4"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 5"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 6"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 7"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 8"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 9"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 10"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 11"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 12"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 13"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 14"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 1"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 2"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 3"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 4"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 5"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 6"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 7"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 8"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 9"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 10"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 11"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 12"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 13"
             ],
             "access_rules": [
               "$tchita_uplands,[$scaled_difficulty|2]"
