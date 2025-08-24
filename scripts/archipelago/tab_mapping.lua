@@ -127,6 +127,9 @@ TAB_MAPPING = {
     [505] = { "Map Select", "Cerobi Steppe" },
 
     [509] = { "Map Select", "Ridorana", "Ridorana Cataract" },
+    [511] = { "Map Select", "Ridorana", "Ridorana Cataract" },
+    [517] = { "Map Select", "Ridorana", "Ridorana Cataract" },
+    [518] = { "Map Select", "Ridorana", "Ridorana Cataract" },
 
     [463] = { "Map Select", "Paramina Rift" },
     [464] = { "Map Select", "Paramina Rift" },
@@ -137,6 +140,8 @@ TAB_MAPPING = {
     [473] = { "Map Select", "Paramina Rift" },
     [474] = { "Map Select", "Paramina Rift" },
     [475] = { "Map Select", "Paramina Rift" },
+
+    [522] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
 
     [525] = { "Map Select", "Ozmone Plain" },
     [526] = { "Map Select", "Ozmone Plain" },
@@ -221,8 +226,13 @@ TAB_MAPPING = {
 
     [850] = { "Rabanastre", "Garamsythe Waterway" },
 
+    [898] = {"Map Select", "Ridorana", "Ridorana Cataract" },
     [901] = { "Bhujerba", "Lhusu Mines" },
     [908] = { "Map Select", "Salikawood" },
+
+    [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1111] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1113] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
     [1151] = { "Map Select", "Mosphoran Highwaste" },

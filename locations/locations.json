@@ -3612,9 +3612,279 @@
             ]
           },
           {
-            "name": "Ascent Chests",
+            "name": "1st Flight Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "1st Flight Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "1st Flight Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 3"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "1st Flight Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 4"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "1st Flight Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 5"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "1st Flight Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 6"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "1st Flight Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 7"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "2nd Flight Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "2nd Flight Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "2nd Flight Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 3"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "2nd Flight Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 4"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "3rd Flight Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "3rd Flight Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "3rd Flight Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 3"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "3rd Flight Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 4"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "3rd Flight Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 5"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "3rd Flight Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 6"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "4th Flight Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 4th Flight Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "4th Flight Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 4th Flight Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Horizon's Cusp Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Horizon's Cusp Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Horizon's Cusp Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Horizon's Cusp Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Horizon's Cusp Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Horizon's Cusp Treasure 3"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Horizon's Cusp Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Horizon's Cusp Treasure 4"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 3"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 4"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 5"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - South Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - South Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - South Treasure 3"
             ],
             "access_rules": [
               "$has_n_black_orbs|3,[$scaled_difficulty|5]"
@@ -10749,7 +11019,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 1",
+            "name": "Platform 1 - Refinery Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 1"
             ],
@@ -10758,7 +11028,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 2",
+            "name": "Platform 1 - Refinery Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 2"
             ],
@@ -10767,7 +11037,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 3",
+            "name": "Platform 1 - Refinery Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 3"
             ],
@@ -10776,7 +11046,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 4",
+            "name": "Platform 1 - Refinery Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 4"
             ],
@@ -10785,7 +11055,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 5",
+            "name": "Platform 1 - Refinery Treasure 5",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 5"
             ],
@@ -10794,7 +11064,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 6",
+            "name": "Platform 1 - Refinery Treasure 6",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 6"
             ],
@@ -10803,7 +11073,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 7",
+            "name": "Platform 1 - Refinery Treasure 7",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 7"
             ],
@@ -10812,7 +11082,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 8",
+            "name": "Platform 1 - Refinery Treasure 8",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 8"
             ],
@@ -10821,7 +11091,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 9",
+            "name": "Platform 1 - Refinery Treasure 9",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 9"
             ],
@@ -10830,7 +11100,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 10",
+            "name": "Platform 1 - Refinery Treasure 10",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - Refinery Treasure 10"
             ],
@@ -11082,7 +11352,7 @@
             ]
           },
           {
-            "name": "South Tanks Treasure 1",
+            "name": "Platform 1 - South Tanks Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 1"
             ],
@@ -11091,7 +11361,7 @@
             ]
           },
           {
-            "name": "South Tanks Treasure 2",
+            "name": "Platform 1 - South Tanks Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 2"
             ],
@@ -11100,7 +11370,7 @@
             ]
           },
           {
-            "name": "South Tanks Treasure 3",
+            "name": "Platform 1 - South Tanks Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 3"
             ],
@@ -11109,7 +11379,7 @@
             ]
           },
           {
-            "name": "South Tanks Treasure 4",
+            "name": "Platform 1 - South Tanks Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 4"
             ],
@@ -11118,7 +11388,7 @@
             ]
           },
           {
-            "name": "South Tanks Treasure 5",
+            "name": "Platform 1 - South Tanks Treasure 5",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 5"
             ],
@@ -11127,7 +11397,7 @@
             ]
           },
           {
-            "name": "South Tanks Treasure 6",
+            "name": "Platform 1 - South Tanks Treasure 6",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - South Tanks Treasure 6"
             ],
@@ -11136,7 +11406,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 1",
+            "name": "Platform 2 - Refinery Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 1"
             ],
@@ -11145,7 +11415,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 2",
+            "name": "Platform 2 - Refinery Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 2"
             ],
@@ -11154,7 +11424,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 3",
+            "name": "Platform 2 - Refinery Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 3"
             ],
@@ -11163,7 +11433,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 4",
+            "name": "Platform 2 - Refinery Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 4"
             ],
@@ -11172,7 +11442,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 5",
+            "name": "Platform 2 - Refinery Treasure 5",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 5"
             ],
@@ -11181,7 +11451,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 6",
+            "name": "Platform 2 - Refinery Treasure 6",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 6"
             ],
@@ -11190,7 +11460,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 7",
+            "name": "Platform 2 - Refinery Treasure 7",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 7"
             ],
@@ -11199,7 +11469,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 8",
+            "name": "Platform 2 - Refinery Treasure 8",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 8"
             ],
@@ -11208,7 +11478,7 @@
             ]
           },
           {
-            "name": "Refinery Treasure 9",
+            "name": "Platform 2 - Refinery Treasure 9",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 2 - Refinery Treasure 9"
             ],
