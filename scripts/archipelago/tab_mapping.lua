@@ -3,6 +3,14 @@ TAB_MAPPING = {
     [125] = { "World Map" }, -- Airship
     [126] = { "World Map" }, -- Airship
 
+    [137] = { "Map Select", "Tchita Uplands" },
+    [141] = { "Map Select", "Tchita Uplands" },
+    [145] = { "Map Select", "Tchita Uplands" },
+    [146] = { "Map Select", "Tchita Uplands" },
+    [147] = { "Map Select", "Tchita Uplands" },
+    [148] = { "Map Select", "Tchita Uplands" },
+    [149] = { "Map Select", "Tchita Uplands" },
+
     [151] = { "Map Select", "Salikawood" },
     [152] = { "Map Select", "Salikawood" },
     [153] = { "Map Select", "Salikawood" },
@@ -68,7 +76,20 @@ TAB_MAPPING = {
     [447] = { "Map Select", "Golmore Jungle" },
     [460] = { "Map Select", "Golmore Jungle" },
 
+    [478] = { "Map Select", "Phon Coast" },
+    [479] = { "Map Select", "Phon Coast" },
     [483] = { "Map Select", "Phon Coast" },
+    [491] = { "Map Select", "Phon Coast" },
+    [492] = { "Map Select", "Phon Coast" },
+    [493] = { "Map Select", "Phon Coast" },
+    [494] = { "Map Select", "Phon Coast" },
+
+    [497] = { "Map Select", "Cerobi Steppe" },
+    [498] = { "Map Select", "Cerobi Steppe" },
+    [503] = { "Map Select", "Cerobi Steppe" },
+    [504] = { "Map Select", "Cerobi Steppe" },
+    [505] = { "Map Select", "Cerobi Steppe" },
+
 
     [463] = { "Map Select", "Paramina Rift" },
     [464] = { "Map Select", "Paramina Rift" },
@@ -146,6 +167,12 @@ TAB_MAPPING = {
     [806] = { "Bhujerba", "Bhujerba" },
 
     [819] = { "Bhujerba", "Bhujerba" },
+
+    [823] = { "Balfonheim Port" },
+    [824] = { "Balfonheim Port" },
+    [825] = { "Balfonheim Port" },
+    [826] = { "Balfonheim Port" },
+    [828] = { "Balfonheim Port" },
 
     [840] = { "Rabanastre", "Garamsythe Waterway" },
     [841] = { "Rabanastre", "Garamsythe Waterway" },

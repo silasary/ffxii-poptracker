@@ -3608,9 +3608,54 @@
             ]
           },
           {
-            "name": "Chests - Balfonheim Port",
+            "name": "Sea Breeze Lane Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Balfonheim - Sea Breeze Lane Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sea Breeze Lane Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Balfonheim - Sea Breeze Lane Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Sea Breeze Lane Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Balfonheim - Sea Breeze Lane Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Port Villa West Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Balfonheim - Port Villa West Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Whitecap Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Balfonheim - The Whitecap Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Port Villa East Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Balfonheim - Port Villa East Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -5067,9 +5112,864 @@
         ],
         "sections": [
           {
-            "name": "Chests - Phon Coast",
+            "name": "The Reseta Strand Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Reseta Strand Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Reseta Strand Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Pora-Pora Sands Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Pora-Pora Sands Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Mauleia Strand Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Mauleia Strand Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Uahuk Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Uahuk Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cape Tialan Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Cape Tialan Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Hakawea Shore Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Hakawea Shore Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Caima Hills Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Caima Hills Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 15",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 15"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Vaddu Strand Treasure 16",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - The Vaddu Strand Treasure 16"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Limatra Hills Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Phon Coast - Limatra Hills Treasure 10"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6143,9 +7043,261 @@
         ],
         "sections": [
           {
-            "name": "Chests - Cerobi Steppe",
+            "name": "Feddik River Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Feddik River Treasure 15",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Feddik River Treasure 15"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Northsward Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Northsward Treasure 14"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"

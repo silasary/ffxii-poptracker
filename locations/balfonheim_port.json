@@ -37,8 +37,28 @@
         ],
         "sections": [
           {
-            "name": "Chests",
-            "ref": "Main/Balfonheim/Chests - Balfonheim Port"
+            "name": "Sea Breeze Lane Treasure 1",
+            "ref": "Main/Balfonheim/Sea Breeze Lane Treasure 1"
+          },
+          {
+            "name": "Sea Breeze Lane Treasure 2",
+            "ref": "Main/Balfonheim/Sea Breeze Lane Treasure 2"
+          },
+          {
+            "name": "Sea Breeze Lane Treasure 3",
+            "ref": "Main/Balfonheim/Sea Breeze Lane Treasure 3"
+          },
+          {
+            "name": "Port Villa West Treasure 1",
+            "ref": "Main/Balfonheim/Port Villa West Treasure 1"
+          },
+          {
+            "name": "The Whitecap Treasure 1",
+            "ref": "Main/Balfonheim/The Whitecap Treasure 1"
+          },
+          {
+            "name": "Port Villa East Treasure 1",
+            "ref": "Main/Balfonheim/Port Villa East Treasure 1"
           }
         ]
       },

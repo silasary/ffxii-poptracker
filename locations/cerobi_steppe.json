@@ -9,8 +9,120 @@
             "name": "Chests",
             "sections": [
               {
-                "name": "Chests",
-                "ref": "Main/Cerobi Steppe/Chests - Cerobi Steppe"
+                "name": "Feddik River Treasure 1",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 1"
+              },
+              {
+                "name": "Feddik River Treasure 2",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 2"
+              },
+              {
+                "name": "Feddik River Treasure 3",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 3"
+              },
+              {
+                "name": "Feddik River Treasure 4",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 4"
+              },
+              {
+                "name": "Feddik River Treasure 5",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 5"
+              },
+              {
+                "name": "Feddik River Treasure 6",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 6"
+              },
+              {
+                "name": "Feddik River Treasure 7",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 7"
+              },
+              {
+                "name": "Feddik River Treasure 8",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 8"
+              },
+              {
+                "name": "Feddik River Treasure 9",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 9"
+              },
+              {
+                "name": "Feddik River Treasure 10",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 10"
+              },
+              {
+                "name": "Feddik River Treasure 11",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 11"
+              },
+              {
+                "name": "Feddik River Treasure 12",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 12"
+              },
+              {
+                "name": "Feddik River Treasure 13",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 13"
+              },
+              {
+                "name": "Feddik River Treasure 14",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 14"
+              },
+              {
+                "name": "Feddik River Treasure 15",
+                "ref": "Main/Cerobi Steppe/Feddik River Treasure 15"
+              },
+              {
+                "name": "The Northsward Treasure 1",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 1"
+              },
+              {
+                "name": "The Northsward Treasure 2",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 2"
+              },
+              {
+                "name": "The Northsward Treasure 3",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 3"
+              },
+              {
+                "name": "The Northsward Treasure 4",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 4"
+              },
+              {
+                "name": "The Northsward Treasure 5",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 5"
+              },
+              {
+                "name": "The Northsward Treasure 6",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 6"
+              },
+              {
+                "name": "The Northsward Treasure 7",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 7"
+              },
+              {
+                "name": "The Northsward Treasure 8",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 8"
+              },
+              {
+                "name": "The Northsward Treasure 9",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 9"
+              },
+              {
+                "name": "The Northsward Treasure 10",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 10"
+              },
+              {
+                "name": "The Northsward Treasure 11",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 11"
+              },
+              {
+                "name": "The Northsward Treasure 12",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 12"
+              },
+              {
+                "name": "The Northsward Treasure 13",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 13"
+              },
+              {
+                "name": "The Northsward Treasure 14",
+                "ref": "Main/Cerobi Steppe/The Northsward Treasure 14"
               }
             ],
             "map_locations": [
