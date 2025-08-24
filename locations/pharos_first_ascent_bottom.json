@@ -9,6 +9,11 @@
             "map": "pharos_first_ascent_bottom",
             "x": 580,
             "y": 655
+          },
+          {
+            "map": "pharos_first_ascent",
+            "x": 285,
+            "y": 900
           }
         ],
         "sections": [
@@ -121,6 +126,11 @@
             "map": "pharos_first_ascent_bottom",
             "x": 285,
             "y": 685
+          },
+          {
+            "map": "pharos_first_ascent",
+            "x": 142,
+            "y": 910
           }
         ],
         "sections": [

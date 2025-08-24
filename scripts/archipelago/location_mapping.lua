@@ -28,7 +28,7 @@ return {
 	[760701599975] = {"@Main/Lowtown/Dusty Letter"},
 	[760701599666] = {"@Main/Lowtown/Hunt 7: Ring Wyrm", "ring_wyrm"},
 	[760701599771] = {"@Main/Lowtown/Hunt 42: Behemoth King", "behemoth_king"},
-	[760701599426] = {"@Main/Dreadnought Leviathan/No. 1 Brig Key", "@Main/Dreadnought Leviathan/Guest (Vossler)"}, -- This is a bit late for Vossler, but it's a hack that works
+	[760701599426] = {"@Main/Dreadnought Leviathan/No. 1 Brig Key", "@Main/Dreadnought Leviathan/Guest (Vossler)", "guest"}, -- This is a bit late for Vossler, but it's a hack that works
 	[760701599429] = {"@Main/Dreadnought Leviathan/Systems Access Key"},
 	[760701599432] = {"@Main/Dreadnought Leviathan/Manufacted Nethicite"},
 	[760701599435] = {"@Main/Nam-Yensa Sandsea/Eksir Berries"},

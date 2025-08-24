@@ -4,8 +4,13 @@
     "map_locations": [
       {
         "map": "pharos_first_ascent_top",
-        "x": 0,
-        "y": 0
+        "x": 480,
+        "y": 720
+      },
+      {
+        "map": "pharos_first_ascent",
+        "x": 300,
+        "y": 445
       }
     ],
     "sections": [

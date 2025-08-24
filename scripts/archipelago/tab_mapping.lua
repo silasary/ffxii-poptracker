@@ -232,6 +232,7 @@ TAB_MAPPING = {
 
     [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1102] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
+    [1103] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Bottom" },
     [1111] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1113] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1114] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
