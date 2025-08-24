@@ -9,6 +9,294 @@
             "name": "Chests",
             "sections": [
               {
+                "name": "Old Elanise Road Treasure 1",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 1"
+              },
+              {
+                "name": "Old Elanise Road Treasure 2",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 2"
+              },
+              {
+                "name": "Old Elanise Road Treasure 3",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 3"
+              },
+              {
+                "name": "Old Elanise Road Treasure 4",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 4"
+              },
+              {
+                "name": "Old Elanise Road Treasure 5",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 5"
+              },
+              {
+                "name": "Old Elanise Road Treasure 6",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 6"
+              },
+              {
+                "name": "Old Elanise Road Treasure 7",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 7"
+              },
+              {
+                "name": "Old Elanise Road Treasure 8",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 8"
+              },
+              {
+                "name": "Old Elanise Road Treasure 9",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 9"
+              },
+              {
+                "name": "Old Elanise Road Treasure 10",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 10"
+              },
+              {
+                "name": "Old Elanise Road Treasure 11",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 11"
+              },
+              {
+                "name": "Old Elanise Road Treasure 12",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 12"
+              },
+              {
+                "name": "Old Elanise Road Treasure 13",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 13"
+              },
+              {
+                "name": "Old Elanise Road Treasure 14",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 14"
+              },
+              {
+                "name": "Old Elanise Road Treasure 15",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 15"
+              },
+              {
+                "name": "Old Elanise Road Treasure 16",
+                "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 16"
+              },
+              {
+                "name": "Crossfield Treasure 1",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 1"
+              },
+              {
+                "name": "Crossfield Treasure 2",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 2"
+              },
+              {
+                "name": "Crossfield Treasure 3",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 3"
+              },
+              {
+                "name": "Crossfield Treasure 4",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 4"
+              },
+              {
+                "name": "Crossfield Treasure 5",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 5"
+              },
+              {
+                "name": "Crossfield Treasure 6",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 6"
+              },
+              {
+                "name": "Crossfield Treasure 7",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 7"
+              },
+              {
+                "name": "Crossfield Treasure 8",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 8"
+              },
+              {
+                "name": "Crossfield Treasure 9",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 9"
+              },
+              {
+                "name": "Crossfield Treasure 10",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 10"
+              },
+              {
+                "name": "Crossfield Treasure 11",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 11"
+              },
+              {
+                "name": "Crossfield Treasure 12",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 12"
+              },
+              {
+                "name": "Crossfield Treasure 13",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 13"
+              },
+              {
+                "name": "Crossfield Treasure 14",
+                "ref": "Main/Cerobi Steppe/Crossfield Treasure 14"
+              },
+              {
+                "name": "The Terraced Bank Treasure 1",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 1"
+              },
+              {
+                "name": "The Terraced Bank Treasure 2",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 2"
+              },
+              {
+                "name": "The Terraced Bank Treasure 3",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 3"
+              },
+              {
+                "name": "The Terraced Bank Treasure 4",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 4"
+              },
+              {
+                "name": "The Terraced Bank Treasure 5",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 5"
+              },
+              {
+                "name": "The Terraced Bank Treasure 6",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 6"
+              },
+              {
+                "name": "The Terraced Bank Treasure 7",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 7"
+              },
+              {
+                "name": "The Terraced Bank Treasure 8",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 8"
+              },
+              {
+                "name": "The Terraced Bank Treasure 9",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 9"
+              },
+              {
+                "name": "The Terraced Bank Treasure 10",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 10"
+              },
+              {
+                "name": "The Terraced Bank Treasure 11",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 11"
+              },
+              {
+                "name": "The Terraced Bank Treasure 12",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 12"
+              },
+              {
+                "name": "The Terraced Bank Treasure 13",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 13"
+              },
+              {
+                "name": "The Terraced Bank Treasure 14",
+                "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 14"
+              },
+              {
+                "name": "North Liavell Hills Treasure 1",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 1"
+              },
+              {
+                "name": "North Liavell Hills Treasure 2",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 2"
+              },
+              {
+                "name": "North Liavell Hills Treasure 3",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 3"
+              },
+              {
+                "name": "North Liavell Hills Treasure 4",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 4"
+              },
+              {
+                "name": "North Liavell Hills Treasure 5",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 5"
+              },
+              {
+                "name": "North Liavell Hills Treasure 6",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 6"
+              },
+              {
+                "name": "North Liavell Hills Treasure 7",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 7"
+              },
+              {
+                "name": "North Liavell Hills Treasure 8",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 8"
+              },
+              {
+                "name": "North Liavell Hills Treasure 9",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 9"
+              },
+              {
+                "name": "North Liavell Hills Treasure 10",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 10"
+              },
+              {
+                "name": "North Liavell Hills Treasure 11",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 11"
+              },
+              {
+                "name": "North Liavell Hills Treasure 12",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 12"
+              },
+              {
+                "name": "North Liavell Hills Treasure 13",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 13"
+              },
+              {
+                "name": "South Liavell Hills Treasure 1",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 1"
+              },
+              {
+                "name": "South Liavell Hills Treasure 2",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 2"
+              },
+              {
+                "name": "South Liavell Hills Treasure 3",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 3"
+              },
+              {
+                "name": "South Liavell Hills Treasure 4",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 4"
+              },
+              {
+                "name": "South Liavell Hills Treasure 5",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 5"
+              },
+              {
+                "name": "South Liavell Hills Treasure 6",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 6"
+              },
+              {
+                "name": "South Liavell Hills Treasure 7",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 7"
+              },
+              {
+                "name": "South Liavell Hills Treasure 8",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 8"
+              },
+              {
+                "name": "South Liavell Hills Treasure 9",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 9"
+              },
+              {
+                "name": "South Liavell Hills Treasure 10",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 10"
+              },
+              {
+                "name": "South Liavell Hills Treasure 11",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 11"
+              },
+              {
+                "name": "South Liavell Hills Treasure 12",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 12"
+              },
+              {
+                "name": "South Liavell Hills Treasure 13",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 13"
+              },
+              {
+                "name": "South Liavell Hills Treasure 14",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 14"
+              },
+              {
+                "name": "South Liavell Hills Treasure 15",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 15"
+              },
+              {
                 "name": "Feddik River Treasure 1",
                 "ref": "Main/Cerobi Steppe/Feddik River Treasure 1"
               },

@@ -1,6 +1,6 @@
 [
   {
-    "name": "Main",
+    "name": "Phon Coast",
     "children": [
       {
         "name": "Chests",
@@ -409,7 +409,7 @@
         ],
         "sections": [
           {
-            "name": "Site 11 Key",
+            "name": "Item next to The Man Who Fell",
             "ref": "Main/Phon Coast/Site 11 Key"
           }
         ]

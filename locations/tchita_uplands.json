@@ -1,14 +1,14 @@
 [
   {
-    "name": "Main",
+    "name": "Tchita Uplands",
     "children": [
       {
-        "name": "Archadian Wayfarer(one of the save crystals)",
+        "name": "Archadian Wayfarer",
         "map_locations": [
           {
             "map": "tchita_uplands",
-            "x": 1050,
-            "y": 700
+            "x": 1200,
+            "y": 535
           }
         ],
         "sections": [
@@ -19,10 +19,382 @@
           {
             "name": "Mandragora Reward",
             "ref": "Main/Tchita Uplands/Mandragora Reward"
+          }
+        ]
+      },
+      {
+        "name": "Chests",
+        "map_locations": [
+          {
+            "map": "tchita_uplands",
+            "x": 1050,
+            "y": 700
+          }
+        ],
+        "sections": [
+          {
+            "name": "Uazcuff Hills Treasure 1",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 1"
           },
           {
-            "name": "Chests",
-            "ref": "Main/Tchita Uplands/Chests - Tchita Uplands"
+            "name": "Uazcuff Hills Treasure 2",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 2"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 3",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 3"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 4",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 4"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 5",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 5"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 6",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 6"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 7",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 7"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 8",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 8"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 9",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 9"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 10",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 10"
+          },
+          {
+            "name": "Uazcuff Hills Treasure 11",
+            "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 11"
+          },
+          {
+            "name": "Sundered Earth Treasure 1",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 1"
+          },
+          {
+            "name": "Sundered Earth Treasure 2",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 2"
+          },
+          {
+            "name": "Sundered Earth Treasure 3",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 3"
+          },
+          {
+            "name": "Sundered Earth Treasure 4",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 4"
+          },
+          {
+            "name": "Sundered Earth Treasure 5",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 5"
+          },
+          {
+            "name": "Sundered Earth Treasure 6",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 6"
+          },
+          {
+            "name": "Sundered Earth Treasure 7",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 7"
+          },
+          {
+            "name": "Sundered Earth Treasure 8",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 8"
+          },
+          {
+            "name": "Sundered Earth Treasure 9",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 9"
+          },
+          {
+            "name": "Sundered Earth Treasure 10",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 10"
+          },
+          {
+            "name": "Sundered Earth Treasure 11",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 11"
+          },
+          {
+            "name": "Sundered Earth Treasure 12",
+            "ref": "Main/Tchita Uplands/Sundered Earth Treasure 12"
+          },
+          {
+            "name": "The Highlands Treasure 1",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 1"
+          },
+          {
+            "name": "The Highlands Treasure 2",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 2"
+          },
+          {
+            "name": "The Highlands Treasure 3",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 3"
+          },
+          {
+            "name": "The Highlands Treasure 4",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 4"
+          },
+          {
+            "name": "The Highlands Treasure 5",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 5"
+          },
+          {
+            "name": "The Highlands Treasure 6",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 6"
+          },
+          {
+            "name": "The Highlands Treasure 7",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 7"
+          },
+          {
+            "name": "The Highlands Treasure 8",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 8"
+          },
+          {
+            "name": "The Highlands Treasure 9",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 9"
+          },
+          {
+            "name": "The Highlands Treasure 10",
+            "ref": "Main/Tchita Uplands/The Highlands Treasure 10"
+          },
+          {
+            "name": "Fields of Eternity Treasure 1",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 1"
+          },
+          {
+            "name": "Fields of Eternity Treasure 2",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 2"
+          },
+          {
+            "name": "Fields of Eternity Treasure 3",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 3"
+          },
+          {
+            "name": "Fields of Eternity Treasure 4",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 4"
+          },
+          {
+            "name": "Fields of Eternity Treasure 5",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 5"
+          },
+          {
+            "name": "Fields of Eternity Treasure 6",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 6"
+          },
+          {
+            "name": "Fields of Eternity Treasure 7",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 7"
+          },
+          {
+            "name": "Fields of Eternity Treasure 8",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 8"
+          },
+          {
+            "name": "Fields of Eternity Treasure 9",
+            "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 9"
+          },
+          {
+            "name": "The Skytrail Treasure 1",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 1"
+          },
+          {
+            "name": "The Skytrail Treasure 2",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 2"
+          },
+          {
+            "name": "The Skytrail Treasure 3",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 3"
+          },
+          {
+            "name": "The Skytrail Treasure 4",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 4"
+          },
+          {
+            "name": "The Skytrail Treasure 5",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 5"
+          },
+          {
+            "name": "The Skytrail Treasure 6",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 6"
+          },
+          {
+            "name": "The Skytrail Treasure 7",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 7"
+          },
+          {
+            "name": "The Skytrail Treasure 8",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 8"
+          },
+          {
+            "name": "The Skytrail Treasure 9",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 9"
+          },
+          {
+            "name": "The Skytrail Treasure 10",
+            "ref": "Main/Tchita Uplands/The Skytrail Treasure 10"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 1",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 1"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 2",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 2"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 3",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 3"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 4",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 4"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 5",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 5"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 6",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 6"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 7",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 7"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 8",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 8"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 9",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 9"
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 10",
+            "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 10"
+          },
+          {
+            "name": "The Lost Way Treasure 1",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 1"
+          },
+          {
+            "name": "The Lost Way Treasure 2",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 2"
+          },
+          {
+            "name": "The Lost Way Treasure 3",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 3"
+          },
+          {
+            "name": "The Lost Way Treasure 4",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 4"
+          },
+          {
+            "name": "The Lost Way Treasure 5",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 5"
+          },
+          {
+            "name": "The Lost Way Treasure 6",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 6"
+          },
+          {
+            "name": "The Lost Way Treasure 7",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 7"
+          },
+          {
+            "name": "The Lost Way Treasure 8",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 8"
+          },
+          {
+            "name": "The Lost Way Treasure 9",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 9"
+          },
+          {
+            "name": "The Lost Way Treasure 10",
+            "ref": "Main/Tchita Uplands/The Lost Way Treasure 10"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 1",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 1"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 2",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 2"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 3",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 3"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 4",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 4"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 5",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 5"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 6",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 6"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 7",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 7"
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 8",
+            "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 8"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 1",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 1"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 2",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 2"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 3",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 3"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 4",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 4"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 5",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 5"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 6",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 6"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 7",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 7"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 8",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 8"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 9",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 9"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 10",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 10"
+          },
+          {
+            "name": "Oliphzak Rise Treasure 11",
+            "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 11"
           }
         ]
       },

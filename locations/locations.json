@@ -2405,9 +2405,819 @@
         ],
         "sections": [
           {
-            "name": "Chests - Tchita Uplands",
+            "name": "Uazcuff Hills Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Uazcuff Hills Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Uazcuff Hills Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Sundered Earth Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Sundered Earth Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Highlands Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Highlands Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Fields of Eternity Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Fields of Eternity Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Skytrail Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Skytrail Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Realm of the Elder Dream Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Realm of the Elder Dream Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Lost Way Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - The Lost Way Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Garden of Life's Circle Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Garden of Life's Circle Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Oliphzak Rise Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Tchita Uplands - Oliphzak Rise Treasure 11"
             ],
             "access_rules": [
               "[$scaled_difficulty|3]"
@@ -7627,6 +8437,654 @@
           "$tchita_uplands"
         ],
         "sections": [
+          {
+            "name": "Old Elanise Road Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 15",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 15"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Old Elanise Road Treasure 16",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Old Elanise Road Treasure 16"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Crossfield Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - Crossfield Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Terraced Bank Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - The Terraced Bank Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - North Liavell Hills Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 15",
+            "visibility_rules": [
+              "$chest_visibility|Cerobi Steppe - South Liavell Hills Treasure 15"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
           {
             "name": "Feddik River Treasure 1",
             "visibility_rules": [

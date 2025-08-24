@@ -1226,8 +1226,368 @@
     ],
     "sections": [
       {
-        "name": "Chests",
-        "ref": "Main/Tchita Uplands/Chests - Tchita Uplands"
+        "name": "Uazcuff Hills Treasure 1",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 1"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 2",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 2"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 3",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 3"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 4",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 4"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 5",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 5"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 6",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 6"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 7",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 7"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 8",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 8"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 9",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 9"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 10",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 10"
+      },
+      {
+        "name": "Uazcuff Hills Treasure 11",
+        "ref": "Main/Tchita Uplands/Uazcuff Hills Treasure 11"
+      },
+      {
+        "name": "Sundered Earth Treasure 1",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 1"
+      },
+      {
+        "name": "Sundered Earth Treasure 2",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 2"
+      },
+      {
+        "name": "Sundered Earth Treasure 3",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 3"
+      },
+      {
+        "name": "Sundered Earth Treasure 4",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 4"
+      },
+      {
+        "name": "Sundered Earth Treasure 5",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 5"
+      },
+      {
+        "name": "Sundered Earth Treasure 6",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 6"
+      },
+      {
+        "name": "Sundered Earth Treasure 7",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 7"
+      },
+      {
+        "name": "Sundered Earth Treasure 8",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 8"
+      },
+      {
+        "name": "Sundered Earth Treasure 9",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 9"
+      },
+      {
+        "name": "Sundered Earth Treasure 10",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 10"
+      },
+      {
+        "name": "Sundered Earth Treasure 11",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 11"
+      },
+      {
+        "name": "Sundered Earth Treasure 12",
+        "ref": "Main/Tchita Uplands/Sundered Earth Treasure 12"
+      },
+      {
+        "name": "The Highlands Treasure 1",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 1"
+      },
+      {
+        "name": "The Highlands Treasure 2",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 2"
+      },
+      {
+        "name": "The Highlands Treasure 3",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 3"
+      },
+      {
+        "name": "The Highlands Treasure 4",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 4"
+      },
+      {
+        "name": "The Highlands Treasure 5",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 5"
+      },
+      {
+        "name": "The Highlands Treasure 6",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 6"
+      },
+      {
+        "name": "The Highlands Treasure 7",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 7"
+      },
+      {
+        "name": "The Highlands Treasure 8",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 8"
+      },
+      {
+        "name": "The Highlands Treasure 9",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 9"
+      },
+      {
+        "name": "The Highlands Treasure 10",
+        "ref": "Main/Tchita Uplands/The Highlands Treasure 10"
+      },
+      {
+        "name": "Fields of Eternity Treasure 1",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 1"
+      },
+      {
+        "name": "Fields of Eternity Treasure 2",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 2"
+      },
+      {
+        "name": "Fields of Eternity Treasure 3",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 3"
+      },
+      {
+        "name": "Fields of Eternity Treasure 4",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 4"
+      },
+      {
+        "name": "Fields of Eternity Treasure 5",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 5"
+      },
+      {
+        "name": "Fields of Eternity Treasure 6",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 6"
+      },
+      {
+        "name": "Fields of Eternity Treasure 7",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 7"
+      },
+      {
+        "name": "Fields of Eternity Treasure 8",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 8"
+      },
+      {
+        "name": "Fields of Eternity Treasure 9",
+        "ref": "Main/Tchita Uplands/Fields of Eternity Treasure 9"
+      },
+      {
+        "name": "The Skytrail Treasure 1",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 1"
+      },
+      {
+        "name": "The Skytrail Treasure 2",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 2"
+      },
+      {
+        "name": "The Skytrail Treasure 3",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 3"
+      },
+      {
+        "name": "The Skytrail Treasure 4",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 4"
+      },
+      {
+        "name": "The Skytrail Treasure 5",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 5"
+      },
+      {
+        "name": "The Skytrail Treasure 6",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 6"
+      },
+      {
+        "name": "The Skytrail Treasure 7",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 7"
+      },
+      {
+        "name": "The Skytrail Treasure 8",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 8"
+      },
+      {
+        "name": "The Skytrail Treasure 9",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 9"
+      },
+      {
+        "name": "The Skytrail Treasure 10",
+        "ref": "Main/Tchita Uplands/The Skytrail Treasure 10"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 1",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 1"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 2",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 2"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 3",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 3"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 4",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 4"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 5",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 5"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 6",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 6"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 7",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 7"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 8",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 8"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 9",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 9"
+      },
+      {
+        "name": "Realm of the Elder Dream Treasure 10",
+        "ref": "Main/Tchita Uplands/Realm of the Elder Dream Treasure 10"
+      },
+      {
+        "name": "The Lost Way Treasure 1",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 1"
+      },
+      {
+        "name": "The Lost Way Treasure 2",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 2"
+      },
+      {
+        "name": "The Lost Way Treasure 3",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 3"
+      },
+      {
+        "name": "The Lost Way Treasure 4",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 4"
+      },
+      {
+        "name": "The Lost Way Treasure 5",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 5"
+      },
+      {
+        "name": "The Lost Way Treasure 6",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 6"
+      },
+      {
+        "name": "The Lost Way Treasure 7",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 7"
+      },
+      {
+        "name": "The Lost Way Treasure 8",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 8"
+      },
+      {
+        "name": "The Lost Way Treasure 9",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 9"
+      },
+      {
+        "name": "The Lost Way Treasure 10",
+        "ref": "Main/Tchita Uplands/The Lost Way Treasure 10"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 1",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 1"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 2",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 2"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 3",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 3"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 4",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 4"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 5",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 5"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 6",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 6"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 7",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 7"
+      },
+      {
+        "name": "Garden of Life's Circle Treasure 8",
+        "ref": "Main/Tchita Uplands/Garden of Life's Circle Treasure 8"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 1",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 1"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 2",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 2"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 3",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 3"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 4",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 4"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 5",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 5"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 6",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 6"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 7",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 7"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 8",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 8"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 9",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 9"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 10",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 10"
+      },
+      {
+        "name": "Oliphzak Rise Treasure 11",
+        "ref": "Main/Tchita Uplands/Oliphzak Rise Treasure 11"
       },
       {
         "name": "Soul Ward Key",
@@ -3787,6 +4147,294 @@
       }
     ],
     "sections": [
+      {
+        "name": "Old Elanise Road Treasure 1",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 1"
+      },
+      {
+        "name": "Old Elanise Road Treasure 2",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 2"
+      },
+      {
+        "name": "Old Elanise Road Treasure 3",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 3"
+      },
+      {
+        "name": "Old Elanise Road Treasure 4",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 4"
+      },
+      {
+        "name": "Old Elanise Road Treasure 5",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 5"
+      },
+      {
+        "name": "Old Elanise Road Treasure 6",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 6"
+      },
+      {
+        "name": "Old Elanise Road Treasure 7",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 7"
+      },
+      {
+        "name": "Old Elanise Road Treasure 8",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 8"
+      },
+      {
+        "name": "Old Elanise Road Treasure 9",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 9"
+      },
+      {
+        "name": "Old Elanise Road Treasure 10",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 10"
+      },
+      {
+        "name": "Old Elanise Road Treasure 11",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 11"
+      },
+      {
+        "name": "Old Elanise Road Treasure 12",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 12"
+      },
+      {
+        "name": "Old Elanise Road Treasure 13",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 13"
+      },
+      {
+        "name": "Old Elanise Road Treasure 14",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 14"
+      },
+      {
+        "name": "Old Elanise Road Treasure 15",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 15"
+      },
+      {
+        "name": "Old Elanise Road Treasure 16",
+        "ref": "Main/Cerobi Steppe/Old Elanise Road Treasure 16"
+      },
+      {
+        "name": "Crossfield Treasure 1",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 1"
+      },
+      {
+        "name": "Crossfield Treasure 2",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 2"
+      },
+      {
+        "name": "Crossfield Treasure 3",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 3"
+      },
+      {
+        "name": "Crossfield Treasure 4",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 4"
+      },
+      {
+        "name": "Crossfield Treasure 5",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 5"
+      },
+      {
+        "name": "Crossfield Treasure 6",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 6"
+      },
+      {
+        "name": "Crossfield Treasure 7",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 7"
+      },
+      {
+        "name": "Crossfield Treasure 8",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 8"
+      },
+      {
+        "name": "Crossfield Treasure 9",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 9"
+      },
+      {
+        "name": "Crossfield Treasure 10",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 10"
+      },
+      {
+        "name": "Crossfield Treasure 11",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 11"
+      },
+      {
+        "name": "Crossfield Treasure 12",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 12"
+      },
+      {
+        "name": "Crossfield Treasure 13",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 13"
+      },
+      {
+        "name": "Crossfield Treasure 14",
+        "ref": "Main/Cerobi Steppe/Crossfield Treasure 14"
+      },
+      {
+        "name": "The Terraced Bank Treasure 1",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 1"
+      },
+      {
+        "name": "The Terraced Bank Treasure 2",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 2"
+      },
+      {
+        "name": "The Terraced Bank Treasure 3",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 3"
+      },
+      {
+        "name": "The Terraced Bank Treasure 4",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 4"
+      },
+      {
+        "name": "The Terraced Bank Treasure 5",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 5"
+      },
+      {
+        "name": "The Terraced Bank Treasure 6",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 6"
+      },
+      {
+        "name": "The Terraced Bank Treasure 7",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 7"
+      },
+      {
+        "name": "The Terraced Bank Treasure 8",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 8"
+      },
+      {
+        "name": "The Terraced Bank Treasure 9",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 9"
+      },
+      {
+        "name": "The Terraced Bank Treasure 10",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 10"
+      },
+      {
+        "name": "The Terraced Bank Treasure 11",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 11"
+      },
+      {
+        "name": "The Terraced Bank Treasure 12",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 12"
+      },
+      {
+        "name": "The Terraced Bank Treasure 13",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 13"
+      },
+      {
+        "name": "The Terraced Bank Treasure 14",
+        "ref": "Main/Cerobi Steppe/The Terraced Bank Treasure 14"
+      },
+      {
+        "name": "North Liavell Hills Treasure 1",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 1"
+      },
+      {
+        "name": "North Liavell Hills Treasure 2",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 2"
+      },
+      {
+        "name": "North Liavell Hills Treasure 3",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 3"
+      },
+      {
+        "name": "North Liavell Hills Treasure 4",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 4"
+      },
+      {
+        "name": "North Liavell Hills Treasure 5",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 5"
+      },
+      {
+        "name": "North Liavell Hills Treasure 6",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 6"
+      },
+      {
+        "name": "North Liavell Hills Treasure 7",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 7"
+      },
+      {
+        "name": "North Liavell Hills Treasure 8",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 8"
+      },
+      {
+        "name": "North Liavell Hills Treasure 9",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 9"
+      },
+      {
+        "name": "North Liavell Hills Treasure 10",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 10"
+      },
+      {
+        "name": "North Liavell Hills Treasure 11",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 11"
+      },
+      {
+        "name": "North Liavell Hills Treasure 12",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 12"
+      },
+      {
+        "name": "North Liavell Hills Treasure 13",
+        "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 13"
+      },
+      {
+        "name": "South Liavell Hills Treasure 1",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 1"
+      },
+      {
+        "name": "South Liavell Hills Treasure 2",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 2"
+      },
+      {
+        "name": "South Liavell Hills Treasure 3",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 3"
+      },
+      {
+        "name": "South Liavell Hills Treasure 4",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 4"
+      },
+      {
+        "name": "South Liavell Hills Treasure 5",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 5"
+      },
+      {
+        "name": "South Liavell Hills Treasure 6",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 6"
+      },
+      {
+        "name": "South Liavell Hills Treasure 7",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 7"
+      },
+      {
+        "name": "South Liavell Hills Treasure 8",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 8"
+      },
+      {
+        "name": "South Liavell Hills Treasure 9",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 9"
+      },
+      {
+        "name": "South Liavell Hills Treasure 10",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 10"
+      },
+      {
+        "name": "South Liavell Hills Treasure 11",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 11"
+      },
+      {
+        "name": "South Liavell Hills Treasure 12",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 12"
+      },
+      {
+        "name": "South Liavell Hills Treasure 13",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 13"
+      },
+      {
+        "name": "South Liavell Hills Treasure 14",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 14"
+      },
+      {
+        "name": "South Liavell Hills Treasure 15",
+        "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 15"
+      },
       {
         "name": "Feddik River Treasure 1",
         "ref": "Main/Cerobi Steppe/Feddik River Treasure 1"
