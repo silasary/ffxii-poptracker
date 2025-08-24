@@ -1,6 +1,6 @@
 [
   {
-    "name": "Main",
+    "name": "Pharos Second Ascent",
     "children": [
       {
         "name": "Avenger - Vile Trophy",
@@ -9,12 +9,172 @@
             "map": "pharos_second_ascent",
             "x": 212,
             "y": 800
+          },
+          {
+            "map": "pharos_second_ascent_middle",
+            "x": 465,
+            "y": 300
           }
         ],
         "sections": [
           {
             "name": "Avenger - Vile Trophy",
             "ref": "Main/The Pharos/Avenger - Vile Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Station of Banishment Chests",
+        "map_locations": [
+          {
+            "map": "pharos_second_ascent",
+            "x": 210,
+            "y": 1375
+          },
+          {
+            "map": "pharos_second_ascent_bottom",
+            "x": 465,
+            "y": 345
+          }
+        ],
+        "sections": [
+          {
+            "name": "Station of Banishment Treasure 1",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 1"
+          },
+          {
+            "name": "Station of Banishment Treasure 2",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 2"
+          },
+          {
+            "name": "Station of Banishment Treasure 3",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 3"
+          },
+          {
+            "name": "Station of Banishment Treasure 4",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 4"
+          },
+          {
+            "name": "Station of Banishment Treasure 5",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 5"
+          },
+          {
+            "name": "Station of Banishment Treasure 6",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 6"
+          },
+          {
+            "name": "Station of Banishment Treasure 7",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 7"
+          },
+          {
+            "name": "Station of Banishment Treasure 8",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 8"
+          },
+          {
+            "name": "Station of Banishment Treasure 9",
+            "ref": "Main/The Pharos/Station of Banishment Treasure 9"
+          }
+        ]
+      },
+      {
+        "name": "Station of Suffering Chests",
+        "map_locations": [
+          {
+            "map": "pharos_second_ascent",
+            "x": 210,
+            "y": 1085
+          },
+          {
+            "map": "pharos_second_ascent_middle",
+            "x": 465,
+            "y": 930
+          }
+        ],
+        "sections": [
+          {
+            "name": "Station of Suffering Treasure 1",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 1"
+          },
+          {
+            "name": "Station of Suffering Treasure 2",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 2"
+          },
+          {
+            "name": "Station of Suffering Treasure 3",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 3"
+          },
+          {
+            "name": "Station of Suffering Treasure 4",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 4"
+          },
+          {
+            "name": "Station of Suffering Treasure 5",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 5"
+          },
+          {
+            "name": "Station of Suffering Treasure 6",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 6"
+          },
+          {
+            "name": "Station of Suffering Treasure 7",
+            "ref": "Main/The Pharos/Station of Suffering Treasure 7"
+          }
+        ]
+      },
+      {
+        "name": "Station of Ascension Chests",
+        "map_locations": [
+          {
+            "map": "pharos_second_ascent",
+            "x": 210,
+            "y": 800
+          },
+          {
+            "map": "pharos_second_ascent_middle",
+            "x": 465,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "Station of Ascension Treasure 1",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 1"
+          },
+          {
+            "name": "Station of Ascension Treasure 2",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 2"
+          },
+          {
+            "name": "Station of Ascension Treasure 3",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 3"
+          },
+          {
+            "name": "Station of Ascension Treasure 4",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 4"
+          },
+          {
+            "name": "Station of Ascension Treasure 5",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 5"
+          },
+          {
+            "name": "Station of Ascension Treasure 6",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 6"
+          },
+          {
+            "name": "Station of Ascension Treasure 7",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 7"
+          },
+          {
+            "name": "Station of Ascension Treasure 8",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 8"
+          },
+          {
+            "name": "Station of Ascension Treasure 9",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 9"
+          },
+          {
+            "name": "Station of Ascension Treasure 10",
+            "ref": "Main/The Pharos/Station of Ascension Treasure 10"
           }
         ]
       }
