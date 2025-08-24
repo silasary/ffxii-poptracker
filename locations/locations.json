@@ -4999,7 +4999,7 @@
           {
             "name": "Guest (Reddas)",
             "access_rules": [
-              "$defeat_cid,treaty_blade,[$scaled_difficulty|0]"
+              "$defeat_cid,treaty_blade,[$scaled_difficulty|5]"
             ]
           },
           {

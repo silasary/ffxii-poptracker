@@ -119,6 +119,6 @@ function cid2()
 end
 
 function defeat_cid()
-    return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0 and scaled_difficulty(5)
+    return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0
 end
 
