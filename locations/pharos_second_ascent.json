@@ -177,6 +177,39 @@
             "ref": "Main/The Pharos/Station of Ascension Treasure 10"
           }
         ]
+      },
+      {
+        "name": "The Bounds of Truth Chests",
+        "map_locations": [
+          {
+            "map": "pharos_second_ascent",
+            "x": 210,
+            "y": 355
+          },
+          {
+            "map": "pharos_second_ascent_top",
+            "x": 320,
+            "y": 845
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Bounds of Truth Treasure 1",
+            "ref": "Main/The Pharos/The Bounds of Truth Treasure 1"
+          },
+          {
+            "name": "The Bounds of Truth Treasure 2",
+            "ref": "Main/The Pharos/The Bounds of Truth Treasure 2"
+          },
+          {
+            "name": "The Bounds of Truth Treasure 3",
+            "ref": "Main/The Pharos/The Bounds of Truth Treasure 3"
+          },
+          {
+            "name": "The Bounds of Truth Treasure 4",
+            "ref": "Main/The Pharos/The Bounds of Truth Treasure 4"
+          }
+        ]
       }
     ]
   }
