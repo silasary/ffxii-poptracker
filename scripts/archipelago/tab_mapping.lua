@@ -231,8 +231,15 @@ TAB_MAPPING = {
     [908] = { "Map Select", "Salikawood" },
 
     [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1102] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1111] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1113] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1114] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1115] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1116] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
+    [1118] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
+    [1119] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
+    [1122] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
     [1151] = { "Map Select", "Mosphoran Highwaste" },

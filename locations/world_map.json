@@ -1803,8 +1803,96 @@
         "ref": "Main/The Pharos/Wellspring Labyrinth Treasure 7"
       },
       {
-        "name": "Ascent Chests",
-        "ref": "Main/The Pharos/Ascent Chests"
+        "name": "1st Flight Treasure 1",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 1"
+      },
+      {
+        "name": "1st Flight Treasure 2",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 2"
+      },
+      {
+        "name": "1st Flight Treasure 3",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 3"
+      },
+      {
+        "name": "1st Flight Treasure 4",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 4"
+      },
+      {
+        "name": "1st Flight Treasure 5",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 5"
+      },
+      {
+        "name": "1st Flight Treasure 6",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 6"
+      },
+      {
+        "name": "1st Flight Treasure 7",
+        "ref": "Main/The Pharos/Wellspring Ravel - 1st Flight Treasure 7"
+      },
+      {
+        "name": "2nd Flight Treasure 1",
+        "ref": "Main/The Pharos/Wellspring Ravel - 2nd Flight Treasure 1"
+      },
+      {
+        "name": "2nd Flight Treasure 2",
+        "ref": "Main/The Pharos/Wellspring Ravel - 2nd Flight Treasure 2"
+      },
+      {
+        "name": "2nd Flight Treasure 3",
+        "ref": "Main/The Pharos/Wellspring Ravel - 2nd Flight Treasure 3"
+      },
+      {
+        "name": "2nd Flight Treasure 4",
+        "ref": "Main/The Pharos/Wellspring Ravel - 2nd Flight Treasure 4"
+      },
+      {
+        "name": "3rd Flight Treasure 1",
+        "ref": "Main/The Pharos/Wellspring Ravel - 3rd Flight Treasure 1"
+      },
+      {
+        "name": "3rd Flight Treasure 2",
+        "ref": "Main/The Pharos/Wellspring Ravel - 3rd Flight Treasure 2"
+      },
+      {
+        "name": "3rd Flight Treasure 3",
+        "ref": "Main/The Pharos/Wellspring Ravel - 3rd Flight Treasure 3"
+      },
+      {
+        "name": "3rd Flight Treasure 4",
+        "ref": "Main/The Pharos/Wellspring Ravel - 3rd Flight Treasure 4"
+      },
+      {
+        "name": "3rd Flight Treasure 5",
+        "ref": "Main/The Pharos/Wellspring Ravel - 3rd Flight Treasure 5"
+      },
+      {
+        "name": "3rd Flight Treasure 6",
+        "ref": "Main/The Pharos/Wellspring Ravel - 3rd Flight Treasure 6"
+      },
+      {
+        "name": "4th Flight Treasure 1",
+        "ref": "Main/The Pharos/Wellspring Ravel - 4th Flight Treasure 1"
+      },
+      {
+        "name": "4th Flight Treasure 2",
+        "ref": "Main/The Pharos/Wellspring Ravel - 4th Flight Treasure 2"
+      },
+      {
+        "name": "Horizon's Cusp Treasure 1",
+        "ref": "Main/The Pharos/Horizon's Cusp Treasure 1"
+      },
+      {
+        "name": "Horizon's Cusp Treasure 2",
+        "ref": "Main/The Pharos/Horizon's Cusp Treasure 2"
+      },
+      {
+        "name": "Horizon's Cusp Treasure 3",
+        "ref": "Main/The Pharos/Horizon's Cusp Treasure 3"
+      },
+      {
+        "name": "Horizon's Cusp Treasure 4",
+        "ref": "Main/The Pharos/Horizon's Cusp Treasure 4"
       },
       {
         "name": "Black Orbs 1-3",
@@ -1847,8 +1935,36 @@
         "ref": "Main/The Pharos Subterra/Defeat Shadowseer"
       },
       {
-        "name": "Penumbra Chests",
-        "ref": "Main/The Pharos Subterra/Penumbra Chests"
+        "name": "Penumbra - North Treasure 1",
+        "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 1"
+      },
+      {
+        "name": "Penumbra - North Treasure 2",
+        "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 2"
+      },
+      {
+        "name": "Penumbra - North Treasure 3",
+        "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 3"
+      },
+      {
+        "name": "Penumbra - North Treasure 4",
+        "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 4"
+      },
+      {
+        "name": "Penumbra - North Treasure 5",
+        "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 5"
+      },
+      {
+        "name": "Penumbra - South Treasure 1",
+        "ref": "Main/The Pharos Subterra/Penumbra - South Treasure 1"
+      },
+      {
+        "name": "Penumbra - South Treasure 2",
+        "ref": "Main/The Pharos Subterra/Penumbra - South Treasure 2"
+      },
+      {
+        "name": "Penumbra - South Treasure 3",
+        "ref": "Main/The Pharos Subterra/Penumbra - South Treasure 3"
       },
       {
         "name": "Umbra Chests",

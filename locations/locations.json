@@ -3612,7 +3612,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 1",
+            "name": "Wellspring Ravel - 1st Flight Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 1"
             ],
@@ -3621,7 +3621,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 2",
+            "name": "Wellspring Ravel - 1st Flight Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 2"
             ],
@@ -3630,7 +3630,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 3",
+            "name": "Wellspring Ravel - 1st Flight Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 3"
             ],
@@ -3639,7 +3639,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 4",
+            "name": "Wellspring Ravel - 1st Flight Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 4"
             ],
@@ -3648,7 +3648,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 5",
+            "name": "Wellspring Ravel - 1st Flight Treasure 5",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 5"
             ],
@@ -3657,7 +3657,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 6",
+            "name": "Wellspring Ravel - 1st Flight Treasure 6",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 6"
             ],
@@ -3666,7 +3666,7 @@
             ]
           },
           {
-            "name": "1st Flight Treasure 7",
+            "name": "Wellspring Ravel - 1st Flight Treasure 7",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 1st Flight Treasure 7"
             ],
@@ -3675,7 +3675,7 @@
             ]
           },
           {
-            "name": "2nd Flight Treasure 1",
+            "name": "Wellspring Ravel - 2nd Flight Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 1"
             ],
@@ -3684,7 +3684,7 @@
             ]
           },
           {
-            "name": "2nd Flight Treasure 2",
+            "name": "Wellspring Ravel - 2nd Flight Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 2"
             ],
@@ -3693,7 +3693,7 @@
             ]
           },
           {
-            "name": "2nd Flight Treasure 3",
+            "name": "Wellspring Ravel - 2nd Flight Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 3"
             ],
@@ -3702,7 +3702,7 @@
             ]
           },
           {
-            "name": "2nd Flight Treasure 4",
+            "name": "Wellspring Ravel - 2nd Flight Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 2nd Flight Treasure 4"
             ],
@@ -3711,7 +3711,7 @@
             ]
           },
           {
-            "name": "3rd Flight Treasure 1",
+            "name": "Wellspring Ravel - 3rd Flight Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 1"
             ],
@@ -3720,7 +3720,7 @@
             ]
           },
           {
-            "name": "3rd Flight Treasure 2",
+            "name": "Wellspring Ravel - 3rd Flight Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 2"
             ],
@@ -3729,7 +3729,7 @@
             ]
           },
           {
-            "name": "3rd Flight Treasure 3",
+            "name": "Wellspring Ravel - 3rd Flight Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 3"
             ],
@@ -3738,7 +3738,7 @@
             ]
           },
           {
-            "name": "3rd Flight Treasure 4",
+            "name": "Wellspring Ravel - 3rd Flight Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 4"
             ],
@@ -3747,7 +3747,7 @@
             ]
           },
           {
-            "name": "3rd Flight Treasure 5",
+            "name": "Wellspring Ravel - 3rd Flight Treasure 5",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 5"
             ],
@@ -3756,7 +3756,7 @@
             ]
           },
           {
-            "name": "3rd Flight Treasure 6",
+            "name": "Wellspring Ravel - 3rd Flight Treasure 6",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 3rd Flight Treasure 6"
             ],
@@ -3765,7 +3765,7 @@
             ]
           },
           {
-            "name": "4th Flight Treasure 1",
+            "name": "Wellspring Ravel - 4th Flight Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 4th Flight Treasure 1"
             ],
@@ -3774,7 +3774,7 @@
             ]
           },
           {
-            "name": "4th Flight Treasure 2",
+            "name": "Wellspring Ravel - 4th Flight Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Pharos of Ridorana - Wellspring Ravel - 4th Flight Treasure 2"
             ],
@@ -3965,9 +3965,72 @@
             "hosted_item": "shadowseer"
           },
           {
-            "name": "Penumbra Chests",
+            "name": "Penumbra - North Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - North Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - North Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 3"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - North Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 4"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - North Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - North Treasure 5"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - South Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - South Treasure 1"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - South Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - South Treasure 2"
+            ],
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Penumbra - South Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana Subterra - Penumbra - South Treasure 3"
             ],
             "access_rules": [
               "$has_n_black_orbs|3,[$scaled_difficulty|7]"
