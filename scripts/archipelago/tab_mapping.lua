@@ -1,4 +1,12 @@
 TAB_MAPPING = {
+
+    [53] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+    [54] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+    [55] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+    [56] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+    [57] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+    [58] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+
     [124] = { "World Map" }, -- Airship
     [125] = { "World Map" }, -- Airship
     [126] = { "World Map" }, -- Airship
@@ -57,13 +65,15 @@ TAB_MAPPING = {
     [265] = { "Map Select", "Giza Plains", "Rainy Season" },
     [266] = { "Map Select", "Giza Plains", "Rainy Season" },
     
-    [289] = { "Rabanastre", "Rabanastre" }, -- North End
-    [291] = { "Rabanastre", "Rabanastre" }, -- 
-    [292] = { "Rabanastre", "Rabanastre" }, -- Southern Plaza
-    [302] = { "Rabanastre", "Rabanastre" }, -- Clan Hall
-    [305] = { "Rabanastre", "Rabanastre" }, -- Eastgate
-    [306] = { "Rabanastre", "Rabanastre" }, -- Southgate
-    [307] = { "Rabanastre", "Rabanastre" }, -- Westgate
+    [289] = { "Rabanastre", "Royal City of Rabanastre" }, -- North End
+    [290] = { "Rabanastre", "Royal City of Rabanastre" }, -- Muthru Bazaar
+    [291] = { "Rabanastre", "Royal City of Rabanastre" }, -- 
+    [292] = { "Rabanastre", "Royal City of Rabanastre" }, -- Southern Plaza
+    [302] = { "Rabanastre", "Royal City of Rabanastre" }, -- Clan Hall
+    [304] = { "Rabanastre", "Royal City of Rabanastre" }, -- Sandsea
+    [305] = { "Rabanastre", "Royal City of Rabanastre" }, -- Eastgate
+    [306] = { "Rabanastre", "Royal City of Rabanastre" }, -- Southgate
+    [307] = { "Rabanastre", "Royal City of Rabanastre" }, -- Westgate
 
 
     [345] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
@@ -116,6 +126,7 @@ TAB_MAPPING = {
     [504] = { "Map Select", "Cerobi Steppe" },
     [505] = { "Map Select", "Cerobi Steppe" },
 
+    [509] = { "Map Select", "Ridorana", "Ridorana Cataract" },
 
     [463] = { "Map Select", "Paramina Rift" },
     [464] = { "Map Select", "Paramina Rift" },
@@ -123,6 +134,7 @@ TAB_MAPPING = {
     [468] = { "Map Select", "Paramina Rift" },
     [469] = { "Map Select", "Paramina Rift" },
     [470] = { "Map Select", "Paramina Rift" },
+    [473] = { "Map Select", "Paramina Rift" },
     [474] = { "Map Select", "Paramina Rift" },
     [475] = { "Map Select", "Paramina Rift" },
 

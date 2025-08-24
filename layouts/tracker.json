@@ -263,113 +263,121 @@
                     }
                   },
                   {
-                    "title": "Ridorana Cataract",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "ridorana_cataract"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "The Pharos",
+                    "title": "Ridorana",
                     "content": {
                       "type": "tabbed",
                       "tabs": [
                         {
-                          "title": "First Ascent",
+                          "title": "Ridorana Cataract",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ridorana_cataract"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "The Pharos",
                           "content": {
                             "type": "tabbed",
                             "tabs": [
                               {
                                 "title": "First Ascent",
                                 "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_first_ascent"
+                                  "type": "tabbed",
+                                  "tabs": [
+                                    {
+                                      "title": "First Ascent",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_first_ascent"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Top",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_first_ascent_top"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Bottom",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_first_ascent_bottom"
+                                        ]
+                                      }
+                                    }
                                   ]
                                 }
                               },
-                              {
-                                "title": "Top",
-                                "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_first_ascent_top"
-                                  ]
-                                }
-                              },
-                              {
-                                "title": "Bottom",
-                                "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_first_ascent_bottom"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Second Ascent",
-                          "content": {
-                            "type": "tabbed",
-                            "tabs": [
                               {
                                 "title": "Second Ascent",
                                 "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_second_ascent"
+                                  "type": "tabbed",
+                                  "tabs": [
+                                    {
+                                      "title": "Second Ascent",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Top",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent_top"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Mid",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent_middle"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Bottom",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent_bottom"
+                                        ]
+                                      }
+                                    }
                                   ]
                                 }
                               },
                               {
-                                "title": "Top",
+                                "title": "Third Ascent",
                                 "content": {
                                   "type": "map",
                                   "maps": [
-                                    "pharos_second_ascent_top"
+                                    "pharos_third_ascent"
                                   ]
                                 }
                               },
                               {
-                                "title": "Mid",
+                                "title": "Subterra",
                                 "content": {
                                   "type": "map",
                                   "maps": [
-                                    "pharos_second_ascent_middle"
-                                  ]
-                                }
-                              },
-                              {
-                                "title": "Bottom",
-                                "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_second_ascent_bottom"
+                                    "pharos_subterra"
                                   ]
                                 }
                               }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Third Ascent",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "pharos_third_ascent"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Subterra",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "pharos_subterra"
                             ]
                           }
                         }
@@ -622,7 +630,7 @@
                 "type": "tabbed",
                 "tabs": [
                   {
-                    "title": "Rabinastre",
+                    "title": "Royal City of Rabanastre",
                     "content": {
                       "type": "map",
                       "maps": [

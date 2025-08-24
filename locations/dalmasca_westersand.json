@@ -13,8 +13,188 @@
         ],
         "sections": [
           {
-            "name": "Chests - Dalmasca Westersand",
-            "ref": "Main/Dalmasca Westersand/Dalmasca Westersand Chests"
+            "name": "Galtea Downs Treasure 1",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 1"
+          },
+          {
+            "name": "Galtea Downs Treasure 2",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 2"
+          },
+          {
+            "name": "Galtea Downs Treasure 3",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 3"
+          },
+          {
+            "name": "Galtea Downs Treasure 4",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 4"
+          },
+          {
+            "name": "Galtea Downs Treasure 5",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 5"
+          },
+          {
+            "name": "Galtea Downs Treasure 6",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 6"
+          },
+          {
+            "name": "Galtea Downs Treasure 7",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 7"
+          },
+          {
+            "name": "Galtea Downs Treasure 8",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 8"
+          },
+          {
+            "name": "Corridor of Sand Treasure 1",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 1"
+          },
+          {
+            "name": "Corridor of Sand Treasure 2",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 2"
+          },
+          {
+            "name": "Corridor of Sand Treasure 3",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 3"
+          },
+          {
+            "name": "Corridor of Sand Treasure 4",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 4"
+          },
+          {
+            "name": "Corridor of Sand Treasure 5",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 5"
+          },
+          {
+            "name": "Corridor of Sand Treasure 6",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 6"
+          },
+          {
+            "name": "Corridor of Sand Treasure 7",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 7"
+          },
+          {
+            "name": "Corridor of Sand Treasure 8",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 8"
+          },
+          {
+            "name": "Corridor of Sand Treasure 9",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 9"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 1",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 1"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 2",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 2"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 3",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 3"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 4",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 4"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 5",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 5"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 6",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 6"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 7",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 7"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 8",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 8"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 9",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 9"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 10",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 10"
+          },
+          {
+            "name": "Shimmering Horizons Treasure 11",
+            "ref": "Main/Dalmasca Westersand/Shimmering Horizons Treasure 11"
+          },
+          {
+            "name": "The Midfault Treasure 1",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 1"
+          },
+          {
+            "name": "The Midfault Treasure 2",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 2"
+          },
+          {
+            "name": "The Midfault Treasure 3",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 3"
+          },
+          {
+            "name": "The Midfault Treasure 4",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 4"
+          },
+          {
+            "name": "The Midfault Treasure 5",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 5"
+          },
+          {
+            "name": "The Midfault Treasure 6",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 6"
+          },
+          {
+            "name": "The Midfault Treasure 7",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 7"
+          },
+          {
+            "name": "The Midfault Treasure 8",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 8"
+          },
+          {
+            "name": "The Midfault Treasure 9",
+            "ref": "Main/Dalmasca Westersand/The Midfault Treasure 9"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 1",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 1"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 2",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 2"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 3",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 3"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 4",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 4"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 5",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 5"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 6",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 6"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 7",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 7"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 8",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 8"
+          },
+          {
+            "name": "Windtrace Dunes Treasure 9",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 9"
           }
         ]
       },

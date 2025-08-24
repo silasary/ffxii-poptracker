@@ -3495,9 +3495,117 @@
         ],
         "sections": [
           {
-            "name": "First Floor Chests",
+            "name": "They Who Thirst Not Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "They Who Thirst Not Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "They Who Thirst Not Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "They Who Thirst Not Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Wellspring Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - The Wellspring Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Wellspring Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - The Wellspring Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Wellspring Labyrinth Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Pharos of Ridorana - Wellspring Labyrinth Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -5530,9 +5638,414 @@
         "name": "Dalmasca Westersand",
         "sections": [
           {
-            "name": "Dalmasca Westersand Chests",
+            "name": "Galtea Downs Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Galtea Downs Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Galtea Downs Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Corridor of Sand Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Corridor of Sand Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Shimmering Horizons Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Shimmering Horizons Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "The Midfault Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - The Midfault Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Windtrace Dunes Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Westersand - Windtrace Dunes Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -10903,9 +11416,261 @@
         ],
         "sections": [
           {
-            "name": "Chests - Ridorana Cataract",
+            "name": "Echoes from Time's Garden Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Echoes from Time's Garden Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "City of Other Days Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - City of Other Days Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Path of Hidden Blessing Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Path of Hidden Blessing Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "Colosseum Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Ridorana Cataract - Colosseum Treasure 10"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"

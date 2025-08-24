@@ -13,8 +13,120 @@
         ],
         "sections": [
           {
-            "name": "Chests",
-            "ref": "Main/Ridorana Cataract/Chests - Ridorana Cataract"
+            "name": "Echoes from Time's Garden Treasure 1",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 1"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 2",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 2"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 3",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 3"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 4",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 4"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 5",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 5"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 6",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 6"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 7",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 7"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 8",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 8"
+          },
+          {
+            "name": "Echoes from Time's Garden Treasure 9",
+            "ref": "Main/Ridorana Cataract/Echoes from Time's Garden Treasure 9"
+          },
+          {
+            "name": "City of Other Days Treasure 1",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 1"
+          },
+          {
+            "name": "City of Other Days Treasure 2",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 2"
+          },
+          {
+            "name": "City of Other Days Treasure 3",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 3"
+          },
+          {
+            "name": "City of Other Days Treasure 4",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 4"
+          },
+          {
+            "name": "City of Other Days Treasure 5",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 5"
+          },
+          {
+            "name": "City of Other Days Treasure 6",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 6"
+          },
+          {
+            "name": "City of Other Days Treasure 7",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 7"
+          },
+          {
+            "name": "City of Other Days Treasure 8",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 8"
+          },
+          {
+            "name": "City of Other Days Treasure 9",
+            "ref": "Main/Ridorana Cataract/City of Other Days Treasure 9"
+          },
+          {
+            "name": "Path of Hidden Blessing Treasure 1",
+            "ref": "Main/Ridorana Cataract/Path of Hidden Blessing Treasure 1"
+          },
+          {
+            "name": "Colosseum Treasure 1",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 1"
+          },
+          {
+            "name": "Colosseum Treasure 2",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 2"
+          },
+          {
+            "name": "Colosseum Treasure 3",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 3"
+          },
+          {
+            "name": "Colosseum Treasure 4",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 4"
+          },
+          {
+            "name": "Colosseum Treasure 5",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 5"
+          },
+          {
+            "name": "Colosseum Treasure 6",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 6"
+          },
+          {
+            "name": "Colosseum Treasure 7",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 7"
+          },
+          {
+            "name": "Colosseum Treasure 8",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 8"
+          },
+          {
+            "name": "Colosseum Treasure 9",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 9"
+          },
+          {
+            "name": "Colosseum Treasure 10",
+            "ref": "Main/Ridorana Cataract/Colosseum Treasure 10"
           }
         ]
       },
