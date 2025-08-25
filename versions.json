@@ -1,6 +1,12 @@
 {
   "versions": [
     {
+      "package_version": "0.1.7",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.7.zip",
+      "sha256": "26930c9266e6b70b307392139ee6c0b9f7f5243468a7ff045f8f541af7234198",
+      "changelog": ["More chests"]
+    },
+    {
       "package_version": "0.1.6",
       "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.6.zip",
       "sha256": "e1434b1f671e2fce6ded69862d9c7ec05fbcf4b392dc5aaebe5889b82aa7ff2d",
