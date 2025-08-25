@@ -16,7 +16,6 @@ ScriptHost:LoadScript("scripts/logic/hunts.lua")
 ScriptHost:LoadScript("scripts/logic/esper.lua")
 ScriptHost:LoadScript("scripts/logic/events.lua")
 ScriptHost:LoadScript("scripts/logic/treasures.lua")
-ScriptHost:LoadScript("scripts/locations.lua")
 
 -- Items
 ScriptHost:LoadScript("scripts/items.lua")
@@ -25,7 +24,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     -- Maps
     Tracker:AddMaps("maps/maps.json")
     -- Locations
-    Tracker:AddLocations("locations/locations.json")
+    ScriptHost:LoadScript("scripts/locations.lua")
 end
 
 -- Layout
