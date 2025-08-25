@@ -178,12 +178,17 @@ TAB_MAPPING = {
 
     [618] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" }, -- Zeromus arena
 
+    [621] =  { "Map Select", "Feywood", "Great Crystal" },
 
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
     [632] = { "Nalbina", "Nalbina" }, -- West Ward
 
-    [686] =  { "Map Select", "Feywood", "Giruvegan" },
+    [686] = { "Map Select", "Feywood", "Giruvegan" },
+    [687] = { "Map Select", "Feywood", "Giruvegan" },
+    [690] = { "Map Select", "Feywood", "Giruvegan" },
+    [691] = { "Map Select", "Feywood", "Giruvegan" },
+    [694] = { "Map Select", "Feywood", "Giruvegan" },
 
     [701] = { "Rabanastre", "Lowtown" }, -- North
     [702] = { "Rabanastre", "Lowtown" }, -- South
