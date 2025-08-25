@@ -23,7 +23,7 @@ DESTINATION_REQS = {
             (defeat_bergan() or (Tracker:ProviderCountForCode("cactus_flower") and defeat_vossler()) > 0 or earth_tyrant() or aero(BALFONHEIM))
     end,
     [BALFONHEIM] = function()
-        return defeat_bergan() or (Tracker:ProviderCountForCode("cactus_flower") > 0 and defeat_vossler()) or
+        return defeat_bergan() or (Tracker:ProviderCountForCode("cactus_flower") and defeat_vossler()) > 0 or
             earth_tyrant() or (Tracker:ProviderCountForCode(SOUL_WARD_KEY) > 0 and aero(ARCHADES))
     end
 }
