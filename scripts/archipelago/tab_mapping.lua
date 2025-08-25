@@ -153,6 +153,13 @@ TAB_MAPPING = {
     [536] = { "Map Select", "Ozmone Plain" },
 
     [539] = { "Map Select", "Feywood" },
+    [540] = { "Map Select", "Feywood" },
+    [541] = { "Map Select", "Feywood" },
+    [542] = { "Map Select", "Feywood" },
+    [545] = { "Map Select", "Feywood" },
+    [548] = { "Map Select", "Feywood" },
+    [549] = { "Map Select", "Feywood" },
+    [550] = { "Map Select", "Feywood" },
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [577] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
@@ -163,6 +170,7 @@ TAB_MAPPING = {
     [586] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [587] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [588] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
+    [590] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
 
     [593] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
     [594] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
@@ -171,10 +179,11 @@ TAB_MAPPING = {
     [618] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" }, -- Zeromus arena
 
 
-
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
     [632] = { "Nalbina", "Nalbina" }, -- West Ward
+
+    [686] =  { "Map Select", "Feywood", "Giruvegan" },
 
     [701] = { "Rabanastre", "Lowtown" }, -- North
     [702] = { "Rabanastre", "Lowtown" }, -- South
@@ -188,7 +197,8 @@ TAB_MAPPING = {
     [717] = { "Map Select", "Henne Mines" },
     [718] = { "Map Select", "Henne Mines" },
     [719] = { "Map Select", "Henne Mines" },
-    [722] = { "Map Select", "Henne Mines" },
+    [719] = { "Map Select", "Henne Mines" },
+    [728] = { "Map Select", "Henne Mines" },
 
     [737] = { "Map Select", "Mt Bur-Omisace" },
     [738] = { "Map Select", "Mt Bur-Omisace" },
@@ -244,4 +254,5 @@ TAB_MAPPING = {
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
     [1151] = { "Map Select", "Mosphoran Highwaste" },
+    [1153] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" }, -- Belito hunt special zone?
 }

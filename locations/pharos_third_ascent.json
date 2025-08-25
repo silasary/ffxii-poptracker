@@ -19,6 +19,90 @@
         ]
       },
       {
+        "name": "Spire Ravel Chests",
+        "map_locations": [
+          {
+            "map": "pharos_third_ascent",
+            "x": 550,
+            "y": 1050
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spire Ravel - 1st Flight Treasure 1",
+            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 1"
+          },
+          {
+            "name": "Spire Ravel - 1st Flight Treasure 2",
+            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 2"
+          },
+          {
+            "name": "Spire Ravel - 1st Flight Treasure 3",
+            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 3"
+          },
+          {
+            "name": "Spire Ravel - 1st Flight Treasure 4",
+            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 4"
+          },
+          {
+            "name": "Spire Ravel - 1st Flight Treasure 5",
+            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 5"
+          },
+          {
+            "name": "Spire Ravel - 2nd Flight Treasure 1",
+            "ref": "Main/The Pharos/Spire Ravel - 2nd Flight Treasure 1"
+          },
+          {
+            "name": "Spire Ravel - 2nd Flight Treasure 2",
+            "ref": "Main/The Pharos/Spire Ravel - 2nd Flight Treasure 2"
+          },
+          {
+            "name": "Spire Ravel - 2nd Flight Treasure 3",
+            "ref": "Main/The Pharos/Spire Ravel - 2nd Flight Treasure 3"
+          },
+          {
+            "name": "Spire Ravel - 2nd Flight Treasure 4",
+            "ref": "Main/The Pharos/Spire Ravel - 2nd Flight Treasure 4"
+          },
+          {
+            "name": "Spire Ravel - 2nd Flight Treasure 5",
+            "ref": "Main/The Pharos/Spire Ravel - 2nd Flight Treasure 5"
+          },
+          {
+            "name": "Spire Ravel - 2nd Flight Treasure 6",
+            "ref": "Main/The Pharos/Spire Ravel - 2nd Flight Treasure 6"
+          }
+        ]
+      },
+      {
+        "name": "Empyrean Ravel Chests",
+        "map_locations": [
+          {
+            "map": "pharos_third_ascent",
+            "x": 550,
+            "y": 350
+          }
+        ],
+        "sections": [
+          {
+            "name": "Empyrean Ravel Treasure 1",
+            "ref": "Main/The Pharos/Empyrean Ravel Treasure 1"
+          },
+          {
+            "name": "Empyrean Ravel Treasure 2",
+            "ref": "Main/The Pharos/Empyrean Ravel Treasure 2"
+          },
+          {
+            "name": "Empyrean Ravel Treasure 3",
+            "ref": "Main/The Pharos/Empyrean Ravel Treasure 3"
+          },
+          {
+            "name": "Empyrean Ravel Treasure 4",
+            "ref": "Main/The Pharos/Empyrean Ravel Treasure 4"
+          }
+        ]
+      },
+      {
         "name": "Cid and Famfrit",
         "map_locations": [
           {
