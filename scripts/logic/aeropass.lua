@@ -20,10 +20,10 @@ DESTINATION_REQS = {
     end,
     [ARCHADES] = function()
         return Tracker:ProviderCountForCode(SOUL_WARD_KEY) > 0 and
-            (defeat_bergan() or (Tracker:ProviderCountForCode("cactus_flower") and defeat_vossler()) > 0 or earth_tyrant() or aero(BALFONHEIM))
+            (defeat_bergan() or ((Tracker:ProviderCountForCode("cactus_flower") > 0) and defeat_vossler()) or earth_tyrant() or aero(BALFONHEIM))
     end,
     [BALFONHEIM] = function()
-        return defeat_bergan() or (Tracker:ProviderCountForCode("cactus_flower") and defeat_vossler()) > 0 or
+        return defeat_bergan() or ((Tracker:ProviderCountForCode("cactus_flower") > 0) and defeat_vossler()) or
             earth_tyrant() or (Tracker:ProviderCountForCode(SOUL_WARD_KEY) > 0 and aero(ARCHADES))
     end
 }
@@ -44,10 +44,11 @@ DESTINATION_STRAHL_KEYS_NEEDED = {
     [BALFONHEIM] = 3
 }
 
-function aero(dest, allowStrahl)
+function aero(dest, allowStrahl, checked)
     if allowStrahl == nil then
         allowStrahl = true
     end
+
     if allowStrahl and Tracker:ProviderCountForCode(SYSTEMS_ACCESS_KEY) >= DESTINATION_STRAHL_KEYS_NEEDED[dest] then
         return true
     end
@@ -57,7 +58,7 @@ function aero(dest, allowStrahl)
     end
 
     for i, origin in ipairs(DESTINATION_GRAPH[dest]) do
-        if Tracker:ProviderCountForCode(origin) > 0 and isOriginAvailable(origin, allowStrahl) then
+        if Tracker:ProviderCountForCode(origin) > 0 and isOriginAvailable(origin, allowStrahl, checked) then
             return true
         end
     end
@@ -65,8 +66,14 @@ function aero(dest, allowStrahl)
     return false
 end
 
-function isOriginAvailable(origin, allowStrahl)
-    return DESTINATION_REQS[origin]() or aero(origin, allowStrahl)
+function isOriginAvailable(origin, allowStrahl, checked)
+    checked = checked or {}
+    if checked[origin] then
+        return false
+    end
+    checked[origin] = true
+
+    return DESTINATION_REQS[origin]() or aero(origin, allowStrahl, checked)
 end
 
 function aeroNoStrahl(dest)
