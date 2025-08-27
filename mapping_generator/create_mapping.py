@@ -1,6 +1,52 @@
 import jsoncomment
+import luaparser.ast
+import luaparser.astnodes
 
 json = jsoncomment.JsonComment()
+
+def lua_to_dict(file: str) -> dict:
+    with open(file, 'r', encoding='utf-8') as f:
+        lua_string = f.read()
+    tree = luaparser.ast.parse(lua_string)
+    node = tree
+    def to_kv_pair(field) -> tuple:
+        key = field.key.s if isinstance(field.key, luaparser.astnodes.String) else field.key.n
+        if isinstance(field.value, luaparser.astnodes.String):
+            value = field.value.s
+        elif isinstance(field.value, luaparser.astnodes.Number):
+            value = field.value.n
+        elif isinstance(field.value, luaparser.astnodes.Table):
+            value = to_array(field.value.fields)
+        else:
+            value = field.value
+        return key, value
+
+    def to_array(node_list) -> list | dict:
+        d = {}
+        for n in node_list:
+            key, value = to_kv_pair(n)
+            d[key] = value
+        if d.keys() == {i for i in range(1, len(d) + 1)}:
+            return list(d.values())
+        return d
+
+    d = None
+    while True:
+        if isinstance(node, list) and len(node) == 1:
+            node = node[0]
+        elif isinstance(node, luaparser.astnodes.Block):
+            node = node.body
+        elif isinstance(node, luaparser.astnodes.Chunk):
+            node = node.body
+        elif isinstance(node, luaparser.astnodes.Return):
+            node = node.values
+        elif isinstance(node, luaparser.astnodes.Table):
+            d = to_array(node.fields)
+            break
+        else:
+            raise ValueError(f"Unexpected AST node type: {type(node)}")
+
+    return d
 
 class DataPackage:
     location_name_to_id: dict[str, int]
@@ -64,7 +110,10 @@ with open("./scripts/archipelago/loc_mapping_chars.lua", 'w') as loc_out:
     loc_out.write("return {\n")
 
     for loc in party_locations:
-        loc_id = datapackage['location_name_to_id'][loc['name']]
+        loc_id = datapackage['location_name_to_id'].get(loc['name'])
+        if loc_id is None:
+            print(f"WARNING: No matching location for {loc['name']} in location_name_to_id")
+            continue
         loc_code = loc["code"]
         loc_out.write(f"""\t[{loc_id}] = {{"{loc_code}", "toggle"}},\n""")
 
@@ -116,24 +165,16 @@ with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
     loc_out.write("}\n")
 
 treasure_map = {}
-with open("./scripts/archipelago/treasure_mapping.lua", 'r') as treasures:
-    for line in treasures:
-        line = line.strip()
-        if line.startswith('['):
-            treasure_id = int(line.split(']')[0][1:])
-            treasure_map[treasure_id] = line.split('=')[1].strip()
-
 for loc_name, loc_id in datapackage['location_name_to_id'].items():
     if "Treasure" in loc_name:
         region, name = loc_name.split(' - ', 1)
-        new_name = f"@Main/{region}/{name}"
+        new_name = '{ "' + f'@Main/{region}/{name}' + '" }'
         treasure_map.setdefault(loc_id, new_name)
 
 with open("./scripts/archipelago/treasure_mapping.lua", 'w') as treasure_out:
     treasure_out.write("return {\n")
     for treasure_id, treasure_name in treasure_map.items():
-        treasure_out.write(f"""\t[{treasure_id}] = "{treasure_name}",\n""")
+        if 'Pharos of Ridorana' in treasure_name:
+            treasure_name = treasure_name.replace('Pharos of Ridorana', 'The Pharos')
+        treasure_out.write(f"""\t[{treasure_id}] = {treasure_name},\n""")
     treasure_out.write("}\n")
-
-pass
-
