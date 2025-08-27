@@ -4192,6 +4192,11 @@
         "map": "world_map",
         "x": 1180,
         "y": 1100
+      },
+      {
+        "map": "mt_bur_omisace",
+        "x": 360,
+        "y": 990
       }
     ],
     "sections": [

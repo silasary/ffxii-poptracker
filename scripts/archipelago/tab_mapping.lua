@@ -203,13 +203,12 @@ TAB_MAPPING = {
     [717] = { "Map Select", "Henne Mines" },
     [718] = { "Map Select", "Henne Mines" },
     [719] = { "Map Select", "Henne Mines" },
-    [719] = { "Map Select", "Henne Mines" },
     [728] = { "Map Select", "Henne Mines" },
 
-    [737] = { "Map Select", "Mt Bur-Omisace" },
-    [738] = { "Map Select", "Mt Bur-Omisace" },
-    [741] = { "Map Select", "Mt Bur-Omisace" },
-    [742] = { "Map Select", "Mt Bur-Omisace" },
+    [737] = { "Mt Bur-Omisace" },
+    [738] = { "Mt Bur-Omisace" },
+    [741] = { "Mt Bur-Omisace" },
+    [742] = { "Mt Bur-Omisace" },
 
     [751] = { "Jahara" },
     [752] = { "Jahara" },

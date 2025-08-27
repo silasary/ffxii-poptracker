@@ -500,15 +500,6 @@
                     }
                   },
                   {
-                    "title": "Mt Bur-Omisace",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "mt_bur_omisace"
-                      ]
-                    }
-                  },
-                  {
                     "title": "Ozmone Plain",
                     "content": {
                       "type": "map",
@@ -772,6 +763,15 @@
                 "type": "map",
                 "maps": [
                   "phon_coast"
+                ]
+              }
+            },
+            {
+              "title": "Mt Bur-Omisace",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mt_bur_omisace"
                 ]
               }
             }
