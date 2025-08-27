@@ -11,6 +11,8 @@ TAB_MAPPING = {
     [125] = { "World Map" }, -- Airship
     [126] = { "World Map" }, -- Airship
 
+    [129] = { "Map Select", "Dalmasca Estersand", "Estersand South"},  -- River Village
+
     [130] = { "Map Select", "Dalmasca Estersand", "Estersand North"},
     [132] = { "Map Select", "Dalmasca Estersand", "Estersand North"},
     [133] = { "Map Select", "Dalmasca Estersand", "Estersand North"},
@@ -42,6 +44,9 @@ TAB_MAPPING = {
     [167] = { "Map Select", "Salikawood", "Nabreus Deadlands" },
     [168] = { "Map Select", "Salikawood", "Nabreus Deadlands" },
 
+    [187] = { "Map Select", "Sochen Cave Palace", "Bottom" },
+    [200] = { "Map Select", "Sochen Cave Palace", "Bottom" },
+
     [209] = { "Map Select", "Mosphoran Highwaste" },
     [210] = { "Map Select", "Mosphoran Highwaste" },
     [215] = { "Map Select", "Mosphoran Highwaste" },
@@ -53,8 +58,16 @@ TAB_MAPPING = {
     [223] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [227] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [228] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
+    [229] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
+    [230] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
+    [233] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     
     [236] = { "Map Select", "Giza Plains", "Dry Season" },
+    [237] = { "Map Select", "Giza Plains", "Dry Season" },
+    [238] = { "Map Select", "Giza Plains", "Dry Season" },
+    [239] = { "Map Select", "Giza Plains", "Dry Season" },
+    [243] = { "Map Select", "Giza Plains", "Dry Season" },
+    [249] = { "Map Select", "Giza Plains", "Dry Season" },
 
 
     [253] = { "Map Select", "Giza Plains", "Rainy Season" },
@@ -99,13 +112,39 @@ TAB_MAPPING = {
     [374] = { "Bhujerba", "Lhusu Mines" },
     [376] = { "Bhujerba", "Lhusu Mines" },
 
+    [380] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
     [381] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+    [382] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+    [383] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+    [384] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+    [385] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+    [386] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
+    [387] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
 
     [391] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+    [392] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+    [393] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+    [398] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+    [399] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+    [400] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+
+    [403] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [406] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [407] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [410] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [411] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [412] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [415] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
+    [418] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
 
     [421] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
 
     [447] = { "Map Select", "Golmore Jungle" },
+    [448] = { "Map Select", "Golmore Jungle" },
+    [449] = { "Map Select", "Golmore Jungle" },
+    [450] = { "Map Select", "Golmore Jungle" },
+    [456] = { "Map Select", "Golmore Jungle" },
+    [459] = { "Map Select", "Golmore Jungle" },
     [460] = { "Map Select", "Golmore Jungle" },
 
     [478] = { "Map Select", "Phon Coast" },
@@ -185,6 +224,9 @@ TAB_MAPPING = {
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
     [632] = { "Nalbina", "Nalbina" }, -- West Ward
 
+    [668] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },  -- Cid 2
+    [670] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },  -- Hashmal
+
     [686] = { "Map Select", "Feywood", "Giruvegan" },
     [687] = { "Map Select", "Feywood", "Giruvegan" },
     [690] = { "Map Select", "Feywood", "Giruvegan" },
@@ -203,6 +245,7 @@ TAB_MAPPING = {
     [717] = { "Map Select", "Henne Mines" },
     [718] = { "Map Select", "Henne Mines" },
     [719] = { "Map Select", "Henne Mines" },
+    [722] = { "Map Select", "Henne Mines" },
     [728] = { "Map Select", "Henne Mines" },
 
     [737] = { "Mt Bur-Omisace" },
@@ -210,26 +253,45 @@ TAB_MAPPING = {
     [741] = { "Mt Bur-Omisace" },
     [742] = { "Mt Bur-Omisace" },
 
+    [746] = { "Archades" },
+    [748] = { "Archades" },
+
     [751] = { "Jahara" },
     [752] = { "Jahara" },
     [753] = { "Jahara" },
+
+    [766] = { "Eruyt Village" },
+    [767] = { "Eruyt Village" },
+    [768] = { "Eruyt Village" },
+    
+    [774] = { "World Map" }, -- Bahumut
+    [775] = { "World Map" }, -- Bahumut
+    [777] = { "World Map" }, -- Bahumut
+    [779] = { "World Map" }, -- Bahumut
+    [782] = { "World Map" }, -- Bahumut
+    [785] = { "World Map" }, -- Bahumut
+
 
     [788] = { "Rabanastre", "Rabanastre" }, -- Aerodrome
 
     [791] = { "Bhujerba", "Bhujerba" },
 
+    [797] = { "Balfonheim Port" },
+
     [800] = { "Nalbina", "Nalbina" }, -- Aerodrome
 
+    [803] = { "Bhujerba", "Bhujerba" },
     [804] = { "Bhujerba", "Bhujerba" },
     [805] = { "Bhujerba", "Bhujerba" },
     [806] = { "Bhujerba", "Bhujerba" },
-
+    [814] = { "Bhujerba", "Bhujerba" },
     [819] = { "Bhujerba", "Bhujerba" },
 
     [823] = { "Balfonheim Port" },
     [824] = { "Balfonheim Port" },
     [825] = { "Balfonheim Port" },
     [826] = { "Balfonheim Port" },
+    [827] = { "Balfonheim Port" },
     [828] = { "Balfonheim Port" },
 
     [840] = { "Rabanastre", "Garamsythe Waterway" },
@@ -240,6 +302,8 @@ TAB_MAPPING = {
     [845] = { "Rabanastre", "Garamsythe Waterway" },
 
     [850] = { "Rabanastre", "Garamsythe Waterway" },
+
+    [872] = { "World Map" }, -- Vossler fight above Raithwall
 
     [898] = {"Map Select", "Ridorana", "Ridorana Cataract" },
     [901] = { "Bhujerba", "Lhusu Mines" },
@@ -252,6 +316,8 @@ TAB_MAPPING = {
     [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1102] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1103] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Bottom" },
+    [1104] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Top" },
+    [1105] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
     [1111] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1113] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1114] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
@@ -259,7 +325,13 @@ TAB_MAPPING = {
     [1116] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1118] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1119] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
+    [1121] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1122] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
+    [1134] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Bottom" },
+    -- [1136] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Mid" },
+    -- [1138] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Mid" },
+    [1141] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
+    [1143] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
 
     [1145] = { "Rabanastre", "Garamsythe Waterway" },
     [1151] = { "Map Select", "Mosphoran Highwaste" },
