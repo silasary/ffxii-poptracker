@@ -97,6 +97,7 @@ TAB_MAPPING = {
 
     [372] = { "Bhujerba", "Lhusu Mines" },
     [374] = { "Bhujerba", "Lhusu Mines" },
+    [376] = { "Bhujerba", "Lhusu Mines" },
 
     [381] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
 
@@ -243,6 +244,10 @@ TAB_MAPPING = {
 
     [898] = {"Map Select", "Ridorana", "Ridorana Cataract" },
     [901] = { "Bhujerba", "Lhusu Mines" },
+    [902] = { "Bhujerba", "Lhusu Mines" },
+    [903] = { "Bhujerba", "Lhusu Mines" },
+    [905] = { "Bhujerba", "Lhusu Mines" },
+
     [908] = { "Map Select", "Salikawood" },
 
     [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },

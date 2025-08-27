@@ -1163,8 +1163,7 @@
             ],
             "access_rules": [
               "clan_primer,stolen_articles,fran,ashe,penelo,[$scaled_difficulty|5]"
-            ],
-            "item_count": 2
+            ]
           },
           {
             "name": "Hunt 42: Behemoth King",

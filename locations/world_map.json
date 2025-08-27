@@ -3339,6 +3339,11 @@
         "map": "rabanastre",
         "x": 1040,
         "y": 280
+      },
+    {
+        "map": "lowtown",
+        "x": 411,
+        "y": 355
       }
     ],
     "sections": [
