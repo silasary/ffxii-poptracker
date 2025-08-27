@@ -11,72 +11,7 @@
         "content": [
           {
             "type": "tabbed",
-            "tabs": [
-              {
-                "title": "Characters",
-                "content": {
-                  "type": "itemgrid",
-                  "item_margin": "2, 2",
-                  "item_width": 175,
-                  "item_height": 48,
-                  "h_alignment": "center",
-                  "rows": [
-                    [
-                      "fran",
-                      "penelo"
-                    ],
-                    [
-                      "ashe",
-                      "vaan"
-                    ],
-                    [
-                      "balthier",
-                      "basch"
-                    ],
-                    [
-                      "guest",
-                      "second_board"
-                    ]
-                  ]
-                }
-              },
-              {
-                "title": "Settings",
-                "content": {
-                  "type": "array",
-                  "orientation": "vertical",
-                  "content": [
-                    {
-                      "type": "itemgrid",
-                      "item_margin": "2, 0",
-                      "item_width": 100,
-                      "item_height": 56,
-                      "rows": [
-                        [
-                          "character_scaled_depth"
-                          // "side_quests",
-                          // "grindy"
-                        ],
-                        [
-                          "place_treasures",
-                          "place_hunts",
-                          "place_clan_rank"
-                        ],
-                        [
-                          "trophies",
-                          "place_clan_boss",
-                          "place_clan_esper"
-                        ],
-                        [
-                          "place_black_orbs",
-                          "place_chops"
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              }
-            ]
+            "tabs": []
           },
           {
             "type": "group",

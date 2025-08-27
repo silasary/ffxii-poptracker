@@ -18,6 +18,25 @@
           ]
         },
         {
+          "type": "dock",
+          "dock": "left",
+          "h_alignment": "stretch",
+          "content": [
+            {
+              "type": "layout",
+              "key": "sidebar"
+            },
+            {
+              "type": "layout",
+              "key": "characters"
+            },
+            {
+              "type": "layout",
+              "key": "settings"
+            }
+          ]
+        },
+        {
           "type": "tabbed",
           "tabs": [
             {
