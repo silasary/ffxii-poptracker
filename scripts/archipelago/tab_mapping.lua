@@ -6,6 +6,12 @@ TAB_MAPPING = {
     [56] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
     [57] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
     [58] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
+    [61] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [62] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [66] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [69] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [70] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [71] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
 
     [124] = { "World Map" }, -- Airship
     [125] = { "World Map" }, -- Airship
@@ -60,6 +66,7 @@ TAB_MAPPING = {
     [228] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [229] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [230] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
+    [232] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [233] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     
     [236] = { "Map Select", "Giza Plains", "Dry Season" },
@@ -138,6 +145,13 @@ TAB_MAPPING = {
     [418] = { "Map Select", "Dalmasca Westersand", "Tomb of King Raithwall" },
 
     [421] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [422] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [426] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [430] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [431] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [444] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [438] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
+    [441] = { "Map Select", "Salikawood", "Necrohol of Nabudis" },
 
     [447] = { "Map Select", "Golmore Jungle" },
     [448] = { "Map Select", "Golmore Jungle" },
@@ -304,6 +318,12 @@ TAB_MAPPING = {
     [850] = { "Rabanastre", "Garamsythe Waterway" },
 
     [872] = { "World Map" }, -- Vossler fight above Raithwall
+
+    [891] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [892] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [893] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+    [894] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Bottom" },
+
 
     [898] = {"Map Select", "Ridorana", "Ridorana Cataract" },
     [901] = { "Bhujerba", "Lhusu Mines" },
