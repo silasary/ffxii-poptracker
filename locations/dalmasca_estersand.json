@@ -203,6 +203,10 @@
           {
             "name": "Patient Barheim Key",
             "ref": "Main/Dalmasca Estersand/Patient Barheim Key"
+          },
+          {
+            "name": "Hunt 16: Bloodwing",
+            "ref": "Main/Dalmasca Estersand/Hunt 16: Bloodwing"
           }
         ]
       },
