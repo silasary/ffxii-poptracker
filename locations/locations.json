@@ -10648,9 +10648,396 @@
         ],
         "sections": [
           {
-            "name": "Chests - Deadlands",
+            "name": "Greencrag Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Nabreus Deadlands - Greencrag Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Greencrag Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Greencrag Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Vale of Lingering Sorrow Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Vale of Lingering Sorrow Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Vale of Lingering Sorrow Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Vale of Lingering Sorrow Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Vale of Lingering Sorrow Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Vale of Lingering Sorrow Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Vale of Lingering Sorrow Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Vale of Lingering Sorrow Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Echoes of the Past Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Echoes of the Past Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Echoes of the Past Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Echoes of the Past Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Echoes of the Past Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Echoes of the Past Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Echoes of the Past Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Echoes of the Past Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Echoes of the Past Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Echoes of the Past Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Echoes of the Past Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Echoes of the Past Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Slumbermead Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Slumbermead Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Fog Mutters Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Fog Mutters Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Fog Mutters Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Fog Mutters Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Fog Mutters Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - The Fog Mutters Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Lifeless Strand Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Lifeless Strand Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Field of the Fallen Lord Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Nabreus Deadlands - Field of the Fallen Lord Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"

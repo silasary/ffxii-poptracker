@@ -5118,8 +5118,180 @@
     ],
     "sections": [
       {
-        "name": "Chests - Deadlands",
-        "ref": "Main/Nabreus Deadlands/Chests"
+        "name": "Greencrag Treasure 1",
+        "ref": "Main/Nabreus Deadlands/Greencrag Treasure 1"
+      },
+      {
+        "name": "Greencrag Treasure 2",
+        "ref": "Main/Nabreus Deadlands/Greencrag Treasure 2"
+      },
+      {
+        "name": "Vale of Lingering Sorrow Treasure 1",
+        "ref": "Main/Nabreus Deadlands/Vale of Lingering Sorrow Treasure 1"
+      },
+      {
+        "name": "Vale of Lingering Sorrow Treasure 2",
+        "ref": "Main/Nabreus Deadlands/Vale of Lingering Sorrow Treasure 2"
+      },
+      {
+        "name": "Vale of Lingering Sorrow Treasure 3",
+        "ref": "Main/Nabreus Deadlands/Vale of Lingering Sorrow Treasure 3"
+      },
+      {
+        "name": "Vale of Lingering Sorrow Treasure 4",
+        "ref": "Main/Nabreus Deadlands/Vale of Lingering Sorrow Treasure 4"
+      },
+      {
+        "name": "Echoes of the Past Treasure 1",
+        "ref": "Main/Nabreus Deadlands/Echoes of the Past Treasure 1"
+      },
+      {
+        "name": "Echoes of the Past Treasure 2",
+        "ref": "Main/Nabreus Deadlands/Echoes of the Past Treasure 2"
+      },
+      {
+        "name": "Echoes of the Past Treasure 3",
+        "ref": "Main/Nabreus Deadlands/Echoes of the Past Treasure 3"
+      },
+      {
+        "name": "Echoes of the Past Treasure 4",
+        "ref": "Main/Nabreus Deadlands/Echoes of the Past Treasure 4"
+      },
+      {
+        "name": "Echoes of the Past Treasure 5",
+        "ref": "Main/Nabreus Deadlands/Echoes of the Past Treasure 5"
+      },
+      {
+        "name": "Echoes of the Past Treasure 6",
+        "ref": "Main/Nabreus Deadlands/Echoes of the Past Treasure 6"
+      },
+      {
+        "name": "The Slumbermead Treasure 1",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 1"
+      },
+      {
+        "name": "The Slumbermead Treasure 2",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 2"
+      },
+      {
+        "name": "The Slumbermead Treasure 3",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 3"
+      },
+      {
+        "name": "The Slumbermead Treasure 4",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 4"
+      },
+      {
+        "name": "The Slumbermead Treasure 5",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 5"
+      },
+      {
+        "name": "The Slumbermead Treasure 6",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 6"
+      },
+      {
+        "name": "The Slumbermead Treasure 7",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 7"
+      },
+      {
+        "name": "The Slumbermead Treasure 8",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 8"
+      },
+      {
+        "name": "The Slumbermead Treasure 9",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 9"
+      },
+      {
+        "name": "The Slumbermead Treasure 10",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 10"
+      },
+      {
+        "name": "The Slumbermead Treasure 11",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 11"
+      },
+      {
+        "name": "The Slumbermead Treasure 12",
+        "ref": "Main/Nabreus Deadlands/The Slumbermead Treasure 12"
+      },
+      {
+        "name": "The Fog Mutters Treasure 1",
+        "ref": "Main/Nabreus Deadlands/The Fog Mutters Treasure 1"
+      },
+      {
+        "name": "The Fog Mutters Treasure 2",
+        "ref": "Main/Nabreus Deadlands/The Fog Mutters Treasure 2"
+      },
+      {
+        "name": "The Fog Mutters Treasure 3",
+        "ref": "Main/Nabreus Deadlands/The Fog Mutters Treasure 3"
+      },
+      {
+        "name": "Lifeless Strand Treasure 1",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 1"
+      },
+      {
+        "name": "Lifeless Strand Treasure 2",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 2"
+      },
+      {
+        "name": "Lifeless Strand Treasure 3",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 3"
+      },
+      {
+        "name": "Lifeless Strand Treasure 4",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 4"
+      },
+      {
+        "name": "Lifeless Strand Treasure 5",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 5"
+      },
+      {
+        "name": "Lifeless Strand Treasure 6",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 6"
+      },
+      {
+        "name": "Lifeless Strand Treasure 7",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 7"
+      },
+      {
+        "name": "Lifeless Strand Treasure 8",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 8"
+      },
+      {
+        "name": "Lifeless Strand Treasure 9",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 9"
+      },
+      {
+        "name": "Lifeless Strand Treasure 10",
+        "ref": "Main/Nabreus Deadlands/Lifeless Strand Treasure 10"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 1",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 1"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 2",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 2"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 3",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 3"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 4",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 4"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 5",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 5"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 6",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 6"
+      },
+      {
+        "name": "Field of the Fallen Lord Treasure 7",
+        "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 7"
       },
       {
         "name": "Defeat Roblon",
