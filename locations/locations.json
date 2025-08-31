@@ -12076,9 +12076,81 @@
         "name": "Sochen Cave Palace",
         "sections": [
           {
-            "name": "Entrance Chests - Sochen Cave",
+            "name": "Doubt Abandoned Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 1"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 2"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 3"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 4"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 5"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 6"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 7"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 8"
+            ],
+            "access_rules": [
+              "$tchita_uplands,[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Doubt Abandoned Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 9"
             ],
             "access_rules": [
               "$tchita_uplands,[$scaled_difficulty|3]"
