@@ -222,6 +222,7 @@ end
 
 function UpdateMap(map_id)
     local tabs = TAB_MAPPING[map_id]
+    Tracker:FindObjectForCode("map_id").AcquiredCount = map_id
     --   if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
     if true then
         if tabs then

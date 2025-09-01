@@ -1,0 +1,71 @@
+[
+  {
+    "name": "Character Scaled Depth",
+    "type": "toggle",
+    "img": "images/items/scaling.png",
+    "codes": "character_scaled_depth",
+    "initial_active_state": true
+  },
+  {
+    "name": "Key Item Placement - Treasures",
+    "type": "toggle",
+    "img": "images/items/treasures.png",
+    "codes": "place_treasures"
+  },
+  {
+    "name": "Key Item Placement - Hunts",
+    "type": "toggle",
+    "img": "images/items/hunts.png",
+    "codes": "place_hunts"
+  },
+  {
+    "name": "Key Item Placement - Clan Rank",
+    "type": "toggle",
+    "img": "images/items/clan_rank.png",
+    "codes": "place_clan_rank"
+  },
+  {
+    "name": "Key Item Placement - Clan Boss",
+    "type": "toggle",
+    "img": "images/items/clan_boss.png",
+    "codes": "place_clan_boss"
+  },
+  {
+    "name": "Key Item Placement - Clan Esper",
+    "type": "toggle",
+    "img": "images/items/clan_esper.png",
+    "codes": "place_clan_esper"
+  },
+  {
+    "name": "Key Item Placement - Black Orbs",
+    "type": "toggle",
+    "img": "images/items/black_orb_toggle.png",
+    "codes": "place_black_orbs"
+
+  },
+  {
+    "name": "Key Item Placement - Chops",
+    "type": "toggle",
+    "img": "images/items/pw_chop_toggle.png",
+    "codes": "place_chops"
+  },
+  {
+    "name": "Enable Side Quests",
+    "type": "toggle",
+    "img": "images/items/side_quests.png",
+    "codes": "side_quests",
+    "initial_active_state": true
+  },
+  {
+    "name": "Shuffle Hunt Club Trophies",
+    "type": "toggle",
+    "img": "images/items/hunt_club_rares.png",
+    "codes": "trophies"
+  },
+  {
+    "name": "Current Map ID",
+    "type": "consumable",
+    "codes": "map_id",
+    "img": "images/items/map_id.png"
+  }
+]
