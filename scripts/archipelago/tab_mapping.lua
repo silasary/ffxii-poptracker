@@ -95,6 +95,7 @@ TAB_MAPPING = {
     [306] = { "Rabanastre", "Royal City of Rabanastre" }, -- Southgate
     [307] = { "Rabanastre", "Royal City of Rabanastre" }, -- Westgate
 
+    [341] = { "Map Select", "Feywood", "Great Crystal - Lower" },
 
     [345] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
     [346] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
@@ -232,7 +233,9 @@ TAB_MAPPING = {
 
     [618] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" }, -- Zeromus arena
 
-    [621] =  { "Map Select", "Feywood", "Great Crystal" },
+    [621] =  { "Map Select", "Feywood", "Great Crystal - Lower" },
+    [625] =  { "Map Select", "Feywood", "Great Crystal - Lower" },
+    [626] =  { "Map Select", "Feywood", "Great Crystal - Lower" },
 
     [630] = { "Nalbina", "Nalbina" }, -- West Barbican
     [631] = { "Nalbina", "Nalbina" }, -- Jajim Bazaar
@@ -246,6 +249,9 @@ TAB_MAPPING = {
     [690] = { "Map Select", "Feywood", "Giruvegan" },
     [691] = { "Map Select", "Feywood", "Giruvegan" },
     [694] = { "Map Select", "Feywood", "Giruvegan" },
+    [695] = { "Map Select", "Feywood", "Giruvegan" },
+    [698] = { "Map Select", "Feywood", "Giruvegan" },
+
 
     [701] = { "Rabanastre", "Lowtown" }, -- North
     [702] = { "Rabanastre", "Lowtown" }, -- South
@@ -332,6 +338,8 @@ TAB_MAPPING = {
     [905] = { "Bhujerba", "Lhusu Mines" },
 
     [908] = { "Map Select", "Salikawood" },
+
+    [939] = { "Map Select", "Salikawood", "Great Crystal" }, -- Dha Vikaari Kaboni, bottom of middle.
 
     [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1102] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },

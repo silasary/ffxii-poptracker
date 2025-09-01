@@ -13,8 +13,60 @@
         ],
         "sections": [
           {
-            "name": "Main Path Chests",
-            "ref": "Main/Giruvegan/Main Path Chests - Giruvegan"
+            "name": "The Trimahla Water-Steps Treasure 1",
+            "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 1"
+          },
+          {
+            "name": "The Trimahla Water-Steps Treasure 2",
+            "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 2"
+          },
+          {
+            "name": "The Trimahla Water-Steps Treasure 3",
+            "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 3"
+          },
+          {
+            "name": "The Trimahla Water-Steps Treasure 4",
+            "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 4"
+          },
+          {
+            "name": "The Trimahla Water-Steps Treasure 5",
+            "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 5"
+          },
+          {
+            "name": "The Aadha Water-Steps Treasure 1",
+            "ref": "Main/Giruvegan/The Aadha Water-Steps Treasure 1"
+          },
+          {
+            "name": "The Aadha Water-Steps Treasure 2",
+            "ref": "Main/Giruvegan/The Aadha Water-Steps Treasure 2"
+          },
+          {
+            "name": "The Aadha Water-Steps Treasure 3",
+            "ref": "Main/Giruvegan/The Aadha Water-Steps Treasure 3"
+          },
+          {
+            "name": "The Haamilkah Water-Steps Treasure 1",
+            "ref": "Main/Giruvegan/The Haamilkah Water-Steps Treasure 1"
+          },
+          {
+            "name": "Gate of Fire Treasure 1",
+            "ref": "Main/Giruvegan/Gate of Fire Treasure 1"
+          },
+          {
+            "name": "Gate of Fire Treasure 2",
+            "ref": "Main/Giruvegan/Gate of Fire Treasure 2"
+          },
+          {
+            "name": "Gate of Fire Treasure 3",
+            "ref": "Main/Giruvegan/Gate of Fire Treasure 3"
+          },
+          {
+            "name": "Gate of Wind Treasure 1",
+            "ref": "Main/Giruvegan/Gate of Wind Treasure 1"
+          },
+          {
+            "name": "Gate of Wind Treasure 2",
+            "ref": "Main/Giruvegan/Gate of Wind Treasure 2"
           }
         ]
       },

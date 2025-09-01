@@ -565,6 +565,15 @@
                               "the_great_crystal"
                             ]
                           }
+                        },
+                        {
+                          "title": "Great Crystal - Lower",
+                          "content":{
+                            "type": "map",
+                            "maps": [
+                              "the_great_crystal_lower"
+                            ]
+                          }
                         }
                       ]
                     }

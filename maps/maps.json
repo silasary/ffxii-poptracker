@@ -60,6 +60,7 @@
   { "name": "stilshrine_of_miriam_lower", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/stilshrine_of_miriam_lower.png" },
   { "name": "tchita_uplands", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/tchita_uplands.png" },
   { "name": "the_great_crystal", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/the_great_crystal.png" },
+  { "name": "the_great_crystal_lower", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/the_great_crystal_lower.png" },
   { "name": "tomb_of_king_raithwall", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/tomb_of_king_raithwall.png" },
   { "name": "world_map", "location_size": 48, "location_border_thickness": 4, "img": "images/maps/world_map.png" },
   { "name": "zertinan_caverns", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/zertinan_caverns.png" }
