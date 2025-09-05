@@ -60,8 +60,8 @@ TAB_MAPPING = {
     [218] = { "Map Select", "Mosphoran Highwaste" },
     [219] = { "Map Select", "Mosphoran Highwaste" },
     [220] = { "Map Select", "Mosphoran Highwaste" },
+    [223] = { "Map Select", "Mosphoran Highwaste" }, -- Exodus
 
-    [223] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [227] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [228] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
     [229] = { "Map Select", "Dalmasca Estersand", "Dalmasca Estersand", "Estersand South" },
@@ -228,8 +228,16 @@ TAB_MAPPING = {
     [590] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
 
     [593] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
-    [594] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
-    [597] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" },
+    [594] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Stilshrine" },
+    [597] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Dungeon" },
+    [598] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Dungeon" },
+
+    [606] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Dungeon" },
+    [607] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Dungeon" },
+    [608] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Lower" }, -- Revelation
+    [609] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam", "Lower" }, -- Sword King
+    
+
 
     [618] = { "Map Select", "Paramina Rift", "Stilshrine of Miriam" }, -- Zeromus arena
 
@@ -339,13 +347,13 @@ TAB_MAPPING = {
 
     [908] = { "Map Select", "Salikawood" },
 
-    [939] = { "Map Select", "Salikawood", "Great Crystal" }, -- Dha Vikaari Kaboni, bottom of middle.
+    [939] = { "Map Select", "Feywood", "Great Crystal" }, -- Dha Vikaari Kaboni, bottom of middle.
 
     [1101] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1102] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1103] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Bottom" },
     [1104] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Top" },
-    [1105] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
+    [1105] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Top" },
     [1111] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1113] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
     [1114] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
@@ -355,9 +363,14 @@ TAB_MAPPING = {
     [1119] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1121] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
     [1122] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Top" },
+    [1123] = { "Map Select", "Ridorana", "The Pharos", "Subterra" },
+
+    [1132] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Top" },
+    [1133] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Top" },
     [1134] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Bottom" },
-    -- [1136] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Mid" },
-    -- [1138] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Mid" },
+    [1136] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Mid" },
+    [1138] = { "Map Select", "Ridorana", "The Pharos", "Second Ascent", "Mid" },
+    [1140] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
     [1141] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
     [1143] = { "Map Select", "Ridorana", "The Pharos", "Third Ascent" },
 
