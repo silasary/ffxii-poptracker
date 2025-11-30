@@ -1,5 +1,6 @@
 TAB_MAPPING = {
 
+    [51] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
     [53] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
     [54] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
     [55] = { "Map Select", "Dalmasca Estersand", "Barheim Passage", "Barheim Top" },
@@ -95,6 +96,18 @@ TAB_MAPPING = {
     [306] = { "Rabanastre", "Royal City of Rabanastre" }, -- Southgate
     [307] = { "Rabanastre", "Royal City of Rabanastre" }, -- Westgate
 
+    -- Royal Palace Story version of the waterway
+    [313] = { "Rabanastre", "Garamsythe Waterway" },
+    [314] = { "Rabanastre", "Garamsythe Waterway" },
+    [315] = { "Rabanastre", "Garamsythe Waterway" },
+    [318] = { "Rabanastre", "Garamsythe Waterway" },
+    [319] = { "Rabanastre", "Garamsythe Waterway" },
+    [320] = { "Rabanastre", "Garamsythe Waterway" },
+    [321] = { "Rabanastre", "Garamsythe Waterway" },
+    [322] = { "Rabanastre", "Garamsythe Waterway" },
+    [329] = { "Rabanastre", "Garamsythe Waterway" },
+
+
     [341] = { "Map Select", "Feywood", "Great Crystal - Lower" },
 
     [345] = { "Map Select", "Dalmasca Westersand", "Dalmasca Westersand" },
@@ -162,6 +175,16 @@ TAB_MAPPING = {
     [459] = { "Map Select", "Golmore Jungle" },
     [460] = { "Map Select", "Golmore Jungle" },
 
+    [463] = { "Map Select", "Paramina Rift" },
+    [464] = { "Map Select", "Paramina Rift" },
+    [465] = { "Map Select", "Paramina Rift" },
+    [468] = { "Map Select", "Paramina Rift" },
+    [469] = { "Map Select", "Paramina Rift" },
+    [470] = { "Map Select", "Paramina Rift" },
+    [473] = { "Map Select", "Paramina Rift" },
+    [474] = { "Map Select", "Paramina Rift" },
+    [475] = { "Map Select", "Paramina Rift" },
+
     [478] = { "Map Select", "Phon Coast" },
     [479] = { "Map Select", "Phon Coast" },
     [480] = { "Map Select", "Phon Coast" },
@@ -186,16 +209,6 @@ TAB_MAPPING = {
     [517] = { "Map Select", "Ridorana", "Ridorana Cataract" },
     [518] = { "Map Select", "Ridorana", "Ridorana Cataract" },
 
-    [463] = { "Map Select", "Paramina Rift" },
-    [464] = { "Map Select", "Paramina Rift" },
-    [465] = { "Map Select", "Paramina Rift" },
-    [468] = { "Map Select", "Paramina Rift" },
-    [469] = { "Map Select", "Paramina Rift" },
-    [470] = { "Map Select", "Paramina Rift" },
-    [473] = { "Map Select", "Paramina Rift" },
-    [474] = { "Map Select", "Paramina Rift" },
-    [475] = { "Map Select", "Paramina Rift" },
-
     [522] = { "Map Select", "Ridorana", "The Pharos", "First Ascent", "Bottom" },
 
     [525] = { "Map Select", "Ozmone Plain" },
@@ -215,6 +228,9 @@ TAB_MAPPING = {
     [548] = { "Map Select", "Feywood" },
     [549] = { "Map Select", "Feywood" },
     [550] = { "Map Select", "Feywood" },
+
+    [567] = { "Rabanastre", "Royal Palace" },
+    [568] = { "Rabanastre", "Royal Palace" },
     
     [576] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
     [577] = { "Map Select", "Dalmasca Westersand", "Zertinan Caverns" },
@@ -264,6 +280,9 @@ TAB_MAPPING = {
     [701] = { "Rabanastre", "Lowtown" }, -- North
     [702] = { "Rabanastre", "Lowtown" }, -- South
     [703] = { "Rabanastre", "Lowtown" }, -- Dalan
+
+    [709] = { "Nalbina", "Dungeons" },
+    [710] = { "Nalbina", "Dungeons" },
 
     [712] = { "Map Select", "Henne Mines" },
     [713] = { "Map Select", "Henne Mines" },
