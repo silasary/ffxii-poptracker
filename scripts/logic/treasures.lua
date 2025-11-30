@@ -5,7 +5,7 @@ function chest_visibility(name)
         return false
     end
     if #Treasures == 0 then
-        return true
+        return string.sub(name, -2) == ' 1'
     end
     for _, treasure in ipairs(Treasures) do
         if treasure == name then
