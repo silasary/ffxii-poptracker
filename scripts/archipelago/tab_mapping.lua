@@ -142,9 +142,11 @@ TAB_MAPPING = {
     [386] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
     [387] = { "Map Select", "Dalmasca Westersand", "Ogir-Yensa Sandsea" },
 
+    [390] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
     [391] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
     [392] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
     [393] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
+    [394] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
     [398] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
     [399] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
     [400] = { "Map Select", "Dalmasca Westersand", "Nam-Yensa Sandsea" },
