@@ -19,12 +19,76 @@
         ]
       },
       {
-        "name": "North Chests",
+        "name": "The Yoma Treasure 9",
         "map_locations": [
           {
             "map": "dalmasca_estersand_north",
-            "x": 520,
-            "y": 1170
+            "x": 495,
+            "y": 1100
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Yoma Treasure 9",
+            "ref": "Main/Dalmasca Estersand/The Yoma Treasure 9"
+          }
+        ]
+      },
+      {
+        "name": "The Yoma Treasure 8",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 695,
+            "y": 1390
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Yoma Treasure 8",
+            "ref": "Main/Dalmasca Estersand/The Yoma Treasure 8"
+          }
+        ]
+      },
+      {
+        "name": "Broken Sands Treasure 4",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 750,
+            "y": 525
+          }
+        ],
+        "sections": [
+          {
+            "name": "Broken Sands Treasure 4",
+            "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Broken Sands Treasure 12",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 485,
+            "y": 690
+          }
+        ],
+        "sections": [
+          {
+            "name": "Broken Sands Treasure 12",
+            "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 12"
+          }
+        ]
+      },
+      {
+        "name": "Unmapped North Chests",
+        "map_locations": [
+          {
+            "map": "dalmasca_estersand_north",
+            "x": 400,
+            "y": 820
           }
         ],
         "sections": [
@@ -55,14 +119,6 @@
           {
             "name": "The Yoma Treasure 7",
             "ref": "Main/Dalmasca Estersand/The Yoma Treasure 7"
-          },
-          {
-            "name": "The Yoma Treasure 8",
-            "ref": "Main/Dalmasca Estersand/The Yoma Treasure 8"
-          },
-          {
-            "name": "The Yoma Treasure 9",
-            "ref": "Main/Dalmasca Estersand/The Yoma Treasure 9"
           },
           {
             "name": "The Yoma Treasure 10",
@@ -97,10 +153,6 @@
             "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 3"
           },
           {
-            "name": "Broken Sands Treasure 4",
-            "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 4"
-          },
-          {
             "name": "Broken Sands Treasure 5",
             "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 5"
           },
@@ -127,10 +179,6 @@
           {
             "name": "Broken Sands Treasure 11",
             "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 11"
-          },
-          {
-            "name": "Broken Sands Treasure 12",
-            "ref": "Main/Dalmasca Estersand/Broken Sands Treasure 12"
           },
           {
             "name": "Broken Sands Treasure 13",
