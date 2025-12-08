@@ -3,12 +3,156 @@
     "name": "Phon Coast",
     "children": [
       {
-        "name": "Chests",
+        "name": "Pora-Pora Sands Treasure 9",
         "map_locations": [
           {
             "map": "phon_coast",
-            "x": 2140,
-            "y": 600
+            "x": 720,
+            "y": 830
+          }
+        ],
+        "sections": [
+          {
+            "name": "Pora-Pora Sands Treasure 9",
+            "ref": "Main/Phon Coast/Pora-Pora Sands Treasure 9"
+          }
+        ]
+      },
+      {
+        "name": "Cape Uahuk Treasure 2",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 990,
+            "y": 1075
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cape Uahuk Treasure 2",
+            "ref": "Main/Phon Coast/Cape Uahuk Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Cape Uahuk Treasure 6",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 1140,
+            "y": 1205
+          }
+        ],
+        "sections": [
+          {
+            "name": "Cape Uahuk Treasure 6",
+            "ref": "Main/Phon Coast/Cape Uahuk Treasure 6"
+          }
+        ]
+      },
+      {
+        "name": "Caima Hills Treasure 4",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 1645,
+            "y": 850
+          }
+        ],
+        "sections": [
+          {
+            "name": "Caima Hills Treasure 4",
+            "ref": "Main/Phon Coast/Caima Hills Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Caima Hills Treasure 8",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 1680,
+            "y": 900
+          }
+        ],
+        "sections": [
+          {
+            "name": "Caima Hills Treasure 8",
+            "ref": "Main/Phon Coast/Caima Hills Treasure 8"
+          }
+        ]
+      },
+      {
+        "name": "The Vaddu Strand Treasure 1",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 2045,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Vaddu Strand Treasure 1",
+            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 1"
+          }
+        ]
+      },
+      {
+        "name": "The Vaddu Strand Treasure 5",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 2085,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Vaddu Strand Treasure 5",
+            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 5"
+          }
+        ]
+      },
+      {
+        "name": "The Vaddu Strand Treasure 10",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 2135,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Vaddu Strand Treasure 10",
+            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 10"
+          }
+        ]
+      },
+      {
+        "name": "The Vaddu Strand Treasure 13",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 2160,
+            "y": 1230
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Vaddu Strand Treasure 13",
+            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 13"
+          }
+        ]
+      },
+      {
+        "name": "Unmapped Chests",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 1160,
+            "y": 700
           }
         ],
         "sections": [
@@ -85,10 +229,6 @@
             "ref": "Main/Phon Coast/Pora-Pora Sands Treasure 8"
           },
           {
-            "name": "Pora-Pora Sands Treasure 9",
-            "ref": "Main/Phon Coast/Pora-Pora Sands Treasure 9"
-          },
-          {
             "name": "Pora-Pora Sands Treasure 10",
             "ref": "Main/Phon Coast/Pora-Pora Sands Treasure 10"
           },
@@ -137,10 +277,6 @@
             "ref": "Main/Phon Coast/Cape Uahuk Treasure 1"
           },
           {
-            "name": "Cape Uahuk Treasure 2",
-            "ref": "Main/Phon Coast/Cape Uahuk Treasure 2"
-          },
-          {
             "name": "Cape Uahuk Treasure 3",
             "ref": "Main/Phon Coast/Cape Uahuk Treasure 3"
           },
@@ -151,10 +287,6 @@
           {
             "name": "Cape Uahuk Treasure 5",
             "ref": "Main/Phon Coast/Cape Uahuk Treasure 5"
-          },
-          {
-            "name": "Cape Uahuk Treasure 6",
-            "ref": "Main/Phon Coast/Cape Uahuk Treasure 6"
           },
           {
             "name": "Cape Uahuk Treasure 7",
@@ -261,10 +393,6 @@
             "ref": "Main/Phon Coast/Caima Hills Treasure 3"
           },
           {
-            "name": "Caima Hills Treasure 4",
-            "ref": "Main/Phon Coast/Caima Hills Treasure 4"
-          },
-          {
             "name": "Caima Hills Treasure 5",
             "ref": "Main/Phon Coast/Caima Hills Treasure 5"
           },
@@ -275,10 +403,6 @@
           {
             "name": "Caima Hills Treasure 7",
             "ref": "Main/Phon Coast/Caima Hills Treasure 7"
-          },
-          {
-            "name": "Caima Hills Treasure 8",
-            "ref": "Main/Phon Coast/Caima Hills Treasure 8"
           },
           {
             "name": "Caima Hills Treasure 9",
@@ -293,10 +417,6 @@
             "ref": "Main/Phon Coast/Caima Hills Treasure 11"
           },
           {
-            "name": "The Vaddu Strand Treasure 1",
-            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 1"
-          },
-          {
             "name": "The Vaddu Strand Treasure 2",
             "ref": "Main/Phon Coast/The Vaddu Strand Treasure 2"
           },
@@ -307,10 +427,6 @@
           {
             "name": "The Vaddu Strand Treasure 4",
             "ref": "Main/Phon Coast/The Vaddu Strand Treasure 4"
-          },
-          {
-            "name": "The Vaddu Strand Treasure 5",
-            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 5"
           },
           {
             "name": "The Vaddu Strand Treasure 6",
@@ -329,20 +445,12 @@
             "ref": "Main/Phon Coast/The Vaddu Strand Treasure 9"
           },
           {
-            "name": "The Vaddu Strand Treasure 10",
-            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 10"
-          },
-          {
             "name": "The Vaddu Strand Treasure 11",
             "ref": "Main/Phon Coast/The Vaddu Strand Treasure 11"
           },
           {
             "name": "The Vaddu Strand Treasure 12",
             "ref": "Main/Phon Coast/The Vaddu Strand Treasure 12"
-          },
-          {
-            "name": "The Vaddu Strand Treasure 13",
-            "ref": "Main/Phon Coast/The Vaddu Strand Treasure 13"
           },
           {
             "name": "The Vaddu Strand Treasure 14",
