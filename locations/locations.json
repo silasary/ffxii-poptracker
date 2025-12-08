@@ -7194,7 +7194,7 @@
           {
             "name": "Dull Fragment",
             "access_rules": [
-              "sluice_gate_key,$tchita_uplands,[$scaled_difficulty|0]"
+              "sluice_gate_key,[$tchita_uplands,$scaled_difficulty|0]"
             ]
           },
           {
