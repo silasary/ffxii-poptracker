@@ -63,7 +63,7 @@
                     }
                   },
                   {
-                    "title": "Dalmasca Estersand",
+                    "title": "Estersand",
                     "content": {
                       "type": "tabbed",
                       "tabs": [
@@ -141,7 +141,7 @@
                     }
                   },
                   {
-                    "title": "Dalmasca Westersand",
+                    "title": "Westersand",
                     "content": {
                       "type": "tabbed",
                       "tabs": [
