@@ -1,3 +1,10 @@
+# /// script
+# dependencies = [
+#   "jsoncomment",
+#   "luaparser",
+# ]
+# ///
+
 import jsoncomment
 import luaparser.ast
 import luaparser.astnodes

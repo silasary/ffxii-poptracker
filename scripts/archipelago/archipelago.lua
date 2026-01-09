@@ -122,6 +122,10 @@ function OnItem(index, item_id, item_name, player_number)
         AP_INDEX = index
     end
 
+    if item_id > 760701597783 then
+        item_id = item_id - 760701597783
+    end
+
     local item_map = ITEM_MAPPING[item_id]
     if not (item_map and item_map[1]) then
         return
@@ -143,6 +147,9 @@ Archipelago:AddItemHandler("item handler", OnItem)
 
 -- Location Checked
 function OnLocation(location_id, location_name)
+    if location_id > 760701597816 then
+        location_id = location_id - 760701597816
+    end
     -- is this a character starting items location?
     -- if g >= 3 helps to make sure we don't get false positives
     local v = CHAR_MAPPING[location_id]
