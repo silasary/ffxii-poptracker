@@ -3,22 +3,6 @@
     "name": "Stilshrine of Miriam Dungeon",
     "children": [
       {
-        "name": "Defeat Zeromus",
-        "map_locations": [
-          {
-            "map": "stilshrine_of_miriam_dungeon",
-            "x": 511,
-            "y": 57
-          }
-        ],
-        "sections": [
-          {
-            "name": "Defeat Zeromus",
-            "ref": "Main/Stilshrine of Miriam/Defeat Zeromus"
-          }
-        ]
-      },
-      {
         "name": "Myath - Eternal Trophy",
         "map_locations": [
           {

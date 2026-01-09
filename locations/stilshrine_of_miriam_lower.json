@@ -3,6 +3,22 @@
     "name": "Stilshrine of Miriam Lower",
     "children": [
       {
+        "name": "Defeat Mateus",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam_lower",
+            "x": 384,
+            "y": 433
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Mateus",
+            "ref": "Main/Stilshrine of Miriam/Defeat Mateus"
+          }
+        ]
+      },
+      {
         "name": "Sword of Kings",
         "map_locations": [
           {
@@ -19,21 +35,21 @@
         ]
       },
       {
-        "name": "Defeat Mateus",
+        "name": "Defeat Zeromus",
         "map_locations": [
           {
             "map": "stilshrine_of_miriam_lower",
             "x": 384,
-            "y": 433
+            "y": 826
           }
         ],
         "sections": [
           {
-            "name": "Defeat Mateus",
-            "ref": "Main/Stilshrine of Miriam/Defeat Mateus"
+            "name": "Defeat Zeromus",
+            "ref": "Main/Stilshrine of Miriam/Defeat Zeromus"
           }
         ]
-      }
+      },
     ]
   }
 ]

@@ -82,20 +82,20 @@
                                 }
                               },
                               {
-                                "title": "Estersand North",
-                                "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "dalmasca_estersand_north"
-                                  ]
-                                }
-                              },
-                              {
-                                "title": "Estersand South",
+                                "title": "South",
                                 "content": {
                                   "type": "map",
                                   "maps": [
                                     "dalmasca_estersand_south"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "North",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "dalmasca_estersand_north"
                                   ]
                                 }
                               }
@@ -146,20 +146,11 @@
                       "type": "tabbed",
                       "tabs": [
                         {
-                          "title": "Dalmaca Westersand",
+                          "title": "Dalmasca Westersand",
                           "content": {
                             "type": "map",
                             "maps": [
                               "dalmasca_westersand"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Nam-Yensa Sandsea",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "nam_yensa_sandsea"
                             ]
                           }
                         },
@@ -173,7 +164,16 @@
                           }
                         },
                         {
-                          "title": "Tomb of King Raithwall",
+                          "title": "Nam-Yensa Sandsea",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nam_yensa_sandsea"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "The Tomb of Raithwall",
                           "content": {
                             "type": "map",
                             "maps": [
@@ -190,24 +190,6 @@
                             ]
                           }
                         }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Cerobi Steppe",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "cerobi_steppe"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Tchita Uplands",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "tchita_uplands"
                       ]
                     }
                   },
@@ -238,212 +220,29 @@
                     }
                   },
                   {
-                    "title": "Salikawood",
-                    "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "Salikawood",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "salikawood"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Necrohol of Nabudis",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "necrohol_of_nabudis"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Nabreus Deadlands",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "nabreus_deadlands"
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Mosphoran Highwaste",
+                    "title": "Ozmone Plain",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "mosphoran_highwaste"
+                        "ozmone_plain"
                       ]
                     }
                   },
                   {
-                    "title": "Ridorana",
+                    "title": "Golmore Jungle",
                     "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "Ridorana Cataract",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "ridorana_cataract"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "The Pharos",
-                          "content": {
-                            "type": "tabbed",
-                            "tabs": [
-                              {
-                                "title": "First Ascent",
-                                "content": {
-                                  "type": "tabbed",
-                                  "tabs": [
-                                    {
-                                      "title": "First Ascent",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_first_ascent"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "title": "Top",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_first_ascent_top"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "title": "Bottom",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_first_ascent_bottom"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              },
-                              {
-                                "title": "Second Ascent",
-                                "content": {
-                                  "type": "tabbed",
-                                  "tabs": [
-                                    {
-                                      "title": "Second Ascent",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_second_ascent"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "title": "Top",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_second_ascent_top"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "title": "Mid",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_second_ascent_middle"
-                                        ]
-                                      }
-                                    },
-                                    {
-                                      "title": "Bottom",
-                                      "content": {
-                                        "type": "map",
-                                        "maps": [
-                                          "pharos_second_ascent_bottom"
-                                        ]
-                                      }
-                                    }
-                                  ]
-                                }
-                              },
-                              {
-                                "title": "Third Ascent",
-                                "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_third_ascent"
-                                  ]
-                                }
-                              },
-                              {
-                                "title": "Subterra",
-                                "content": {
-                                  "type": "map",
-                                  "maps": [
-                                    "pharos_subterra"
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
+                      "type": "map",
+                      "maps": [
+                        "golmore_jungle"
                       ]
                     }
                   },
                   {
-                    "title": "Sochen Cave Palace",
+                    "title": "Henne Mines",
                     "content": {
-                      "type": "tabbed",
-                      "tabs": [
-                        {
-                          "title": "Sochen Cave Palace",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "sochen_cave_palace"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Bottom",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "sochen_cave_palace_bottom"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Middle",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "sochen_cave_palace_middle"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Top",
-                          "content": {
-                            "type": "map",
-                            "maps": [
-                              "sochen_cave_palace_top"
-                            ]
-                          }
-                        }
+                      "type": "map",
+                      "maps": [
+                        "henne_mines"
                       ]
                     }
                   },
@@ -500,26 +299,123 @@
                     }
                   },
                   {
-                    "title": "Ozmone Plain",
+                    "title": "Mosphoran Highwaste",
                     "content": {
                       "type": "map",
                       "maps": [
-                        "ozmone_plain"
+                        "mosphoran_highwaste"
                       ]
                     }
                   },
                   {
-                    "title": "Feywood",
+                    "title": "Salikawood",
                     "content": {
                       "type": "tabbed",
                       "tabs": [
                         {
-                          "title": "Feywood",
+                          "title": "Salikawood",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "salikawood"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Nabreus Deadlands",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "nabreus_deadlands"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Necrohol of Nabudis",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "necrohol_of_nabudis"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Tchita Uplands",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "tchita_uplands"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Cerobi Steppe",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "cerobi_steppe"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Sochen Cave Palace",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Sochen Cave Palace",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Bottom",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace_bottom"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Middle",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace_middle"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Top",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sochen_cave_palace_top"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "The Feywood",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "The Feywood",
                           "content": {
                             "type": "tabbed",
                             "tabs": [
                               {
-                                "title": "Feywood",
+                                "title": "The Feywood",
                                 "content": {
                                   "type": "map",
                                   "maps": [
@@ -558,20 +454,46 @@
                           }
                         },
                         {
-                          "title": "Great Crystal",
+                          "title": "The Great Crystal",
                           "content": {
-                            "type": "map",
-                            "maps": [
-                              "the_great_crystal"
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Great Crystal - Lower",
-                          "content":{
-                            "type": "map",
-                            "maps": [
-                              "the_great_crystal_lower"
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "The Great Crystal",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "the_great_crystal"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Lower",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "the_great_crystal_lower"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Middle",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "the_great_crystal_middle"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Upper",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "the_great_crystal_upper"
+                                  ]
+                                }
+                              }
                             ]
                           }
                         }
@@ -579,64 +501,124 @@
                     }
                   },
                   {
-                    "title": "Golmore Jungle",
+                    "title": "Ridorana",
                     "content": {
-                      "type": "map",
-                      "maps": [
-                        "golmore_jungle"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Henne Mines",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "henne_mines"
-                      ]
-                    }
-                  }
-                ]
-              }
-            },
-            {
-              "title": "Jahara",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "jahara"
-                ]
-              }
-            },
-            {
-              "title": "Archades",
-              "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Archades",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "archades"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Draklor Laboratory",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "draklor_laboratory"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Old Archades",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "old_archades"
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Ridorana Cataract",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "ridorana_cataract"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "The Pharos",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "First Ascent",
+                                "content": {
+                                  "type": "tabbed",
+                                  "tabs": [
+                                    {
+                                      "title": "First Ascent",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_first_ascent"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Bottom",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_first_ascent_bottom"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Top",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_first_ascent_top"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Second Ascent",
+                                "content": {
+                                  "type": "tabbed",
+                                  "tabs": [
+                                    {
+                                      "title": "Second Ascent",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Bottom",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent_bottom"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Mid",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent_middle"
+                                        ]
+                                      }
+                                    },
+                                    {
+                                      "title": "Top",
+                                      "content": {
+                                        "type": "map",
+                                        "maps": [
+                                          "pharos_second_ascent_top"
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Third Ascent",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_third_ascent"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Subterra",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pharos_subterra"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
                       ]
                     }
                   }
@@ -649,7 +631,7 @@
                 "type": "tabbed",
                 "tabs": [
                   {
-                    "title": "Royal City of Rabanastre",
+                    "title": "Rabanastre",
                     "content": {
                       "type": "map",
                       "maps": [
@@ -688,11 +670,37 @@
               }
             },
             {
-              "title": "Eruyt Village",
+              "title": "Nalbina",
               "content": {
-                "type": "map",
-                "maps": [
-                  "eruyt_village"
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Nalbina Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "nalbina_town"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Nalbina Dungeons",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "nalbina_dungeons"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Nalbina Fortress",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "nalbina_fortress"
+                      ]
+                    }
+                  }
                 ]
               }
             },
@@ -723,46 +731,29 @@
               }
             },
             {
-              "title": "Nalbina",
+              "title": "Jahara",
               "content": {
-                "type": "tabbed",
-                "tabs": [
-                  {
-                    "title": "Nalbina",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "nalbina_town"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Dungeons",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "nalbina_dungeons"
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Fortress",
-                    "content": {
-                      "type": "map",
-                      "maps": [
-                        "nalbina_fortress"
-                      ]
-                    }
-                  }
+                "type": "map",
+                "maps": [
+                  "jahara"
                 ]
               }
             },
             {
-              "title": "Balfonheim Port",
+              "title": "Eruyt Village",
               "content": {
                 "type": "map",
                 "maps": [
-                  "balfonheim_port"
+                  "eruyt_village"
+                ]
+              }
+            },
+            {
+              "title": "Mt Bur-Omisace",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "mt_bur_omisace"
                 ]
               }
             },
@@ -776,11 +767,46 @@
               }
             },
             {
-              "title": "Mt Bur-Omisace",
+              "title": "Archades",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Old Archades",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "old_archades"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Archades",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "archades"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Draklor Laboratory",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "draklor_laboratory"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Balfonheim Port",
               "content": {
                 "type": "map",
                 "maps": [
-                  "mt_bur_omisace"
+                  "balfonheim_port"
                 ]
               }
             }
