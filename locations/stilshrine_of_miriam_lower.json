@@ -41,6 +41,11 @@
             "map": "stilshrine_of_miriam_lower",
             "x": 384,
             "y": 826
+          },
+          {
+            "map": "stilshrine_of_miriam_dungeon",
+            "x": 510,
+            "y": 270
           }
         ],
         "sections": [

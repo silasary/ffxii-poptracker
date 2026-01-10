@@ -17,7 +17,27 @@
             "ref": "Main/Stilshrine of Miriam/Myath - Eternal Trophy"
           }
         ]
-      }
+      },
+      {
+        "name": "Stilshrine Lower",
+        "map_locations": [
+          {
+            "map": "stilshrine_of_miriam_dungeon",
+            "x": 495,
+            "y": 930
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Mateus",
+            "ref": "Main/Stilshrine of Miriam/Defeat Mateus"
+          },
+          {
+            "name": "Sword of Kings",
+            "ref": "Main/Stilshrine of Miriam/Sword of Kings"
+          }
+        ]
+      },
     ]
   }
 ]
