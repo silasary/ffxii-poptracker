@@ -59,6 +59,10 @@
           {
             "name": "Hunt 31: Fafnir - Relj",
             "ref": "Main/Mt. Bur-Omisace/Hunt 31: Fafnir"
+          },
+          {
+            "name": "Blizzard Manip: Speak to Relj, then travel to Silverflow’s End without entering Frozen Brook.",
+            "ref": "Main/Paramina Rift/Defeat Fafnir"
           }
         ]
       }
