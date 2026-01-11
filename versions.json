@@ -4,60 +4,65 @@
       "package_version": "0.1.8",
       "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.8.zip",
       "sha256": "d87b38d243a37c48f183bca216ab4ca093a923065d4f4767f0011990adc8a0ae",
-      "changelog": ["Added Orthros Hunt, Rearranged layout"]
+      "changelog": [
+        "Added Orthros Hunt, Rearranged layout"
+      ]
     },
     {
       "package_version": "0.1.7",
       "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.7.zip",
       "sha256": "26930c9266e6b70b307392139ee6c0b9f7f5243468a7ff045f8f541af7234198",
-      "changelog": ["More chests"]
+      "changelog": [
+        "More chests"
+      ]
     },
     {
       "package_version": "0.1.6",
       "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.6.zip",
       "sha256": "e1434b1f671e2fce6ded69862d9c7ec05fbcf4b392dc5aaebe5889b82aa7ff2d",
-      "changelog": ["Bug Fixes"]
+      "changelog": [
+        "Bug Fixes"
+      ]
     },
     {
-        "package_version": "0.1.5",
-        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.5.zip",
-        "sha256": "3b2d57ff5ea1a60c9b4e8081d7130dcb87c90e14d423f54a0ad8b9156b1ad261",
-        "changelog": [
-          "Fixed locations of Antlion and War-chief Supinelu on their respective maps"
-        ]
+      "package_version": "0.1.5",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.5.zip",
+      "sha256": "3b2d57ff5ea1a60c9b4e8081d7130dcb87c90e14d423f54a0ad8b9156b1ad261",
+      "changelog": [
+        "Fixed locations of Antlion and War-chief Supinelu on their respective maps"
+      ]
     },
     {
-        "package_version": "0.1.4",
-        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.4.zip",
-        "sha256": "f4f707e23c83a8ba3adbe467ce7b30fc20dde85a740f9fc405c80846fc64f976",
-        "changelog": [
-          "Difficulty Scaling is now Yellow for Out of Logic"
-        ]
-    },
-
-    {
-        "package_version": "0.1.3",
-        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.3.zip",
-        "sha256": "88ed7896700e0ed8133d54636c1230fbd60224e278c6087f06501cc07be732d3",
-        "changelog": [
-          "Party Member Auto Tracking, and Hunt defeats can be kinda tracked now"
-        ]
+      "package_version": "0.1.4",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.4.zip",
+      "sha256": "f4f707e23c83a8ba3adbe467ce7b30fc20dde85a740f9fc405c80846fc64f976",
+      "changelog": [
+        "Difficulty Scaling is now Yellow for Out of Logic"
+      ]
     },
     {
-        "package_version": "0.1.2",
-        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.2.zip",
-        "sha256": "f4f47afaa5c5e52ad9dbfc004c01d97ae933ccecc0b7ba68a6994a6e1bc0d3c0",
-        "changelog": [
-          "Fixed the visibility of Pilika's sidequest"
-        ]
+      "package_version": "0.1.3",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.3.zip",
+      "sha256": "88ed7896700e0ed8133d54636c1230fbd60224e278c6087f06501cc07be732d3",
+      "changelog": [
+        "Party Member Auto Tracking, and Hunt defeats can be kinda tracked now"
+      ]
     },
     {
-        "package_version": "0.1.1",
-        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.1.zip",
-        "sha256": "03be1794d16eebeacd10f7381af7e50b4f98485357c836a375698754cab7a08a",
-        "changelog": [
-          "Fixed a couple access rules, added QOL nodes for Bhujerba and Archades"
-        ]
+      "package_version": "0.1.2",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.2.zip",
+      "sha256": "f4f47afaa5c5e52ad9dbfc004c01d97ae933ccecc0b7ba68a6994a6e1bc0d3c0",
+      "changelog": [
+        "Fixed the visibility of Pilika's sidequest"
+      ]
+    },
+    {
+      "package_version": "0.1.1",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.1.zip",
+      "sha256": "03be1794d16eebeacd10f7381af7e50b4f98485357c836a375698754cab7a08a",
+      "changelog": [
+        "Fixed a couple access rules, added QOL nodes for Bhujerba and Archades"
+      ]
     },
     {
       "package_version": "0.1.0",
@@ -68,12 +73,12 @@
       ]
     },
     {
-        "package_version": "0.0.4",
-        "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.0.4.zip",
-        "sha256": "158616acd84b7d16f1ad2a084f49b1ccc76c6958336c7c6d277777b94871a5a8",
-        "changelog": [
-          "Location autotracking (mostly)"
-        ]
+      "package_version": "0.0.4",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.0.4.zip",
+      "sha256": "158616acd84b7d16f1ad2a084f49b1ccc76c6958336c7c6d277777b94871a5a8",
+      "changelog": [
+        "Location autotracking (mostly)"
+      ]
     },
     {
       "package_version": "0.0.3",
@@ -99,6 +104,14 @@
       "sha256": "008021fb514be85cc372efbc836ba62d65b02a67c36dd7e8fd51739f62d779e7",
       "changelog": [
         "Initial AP received items auto-tracking"
+      ]
+    },
+    {
+      "package_version": "0.2.0",
+      "sha256": "e0c4291a61bc0a6f07acb50b7940a25a1c4eb7765c166d7da50160546611cd21",
+      "download_url": "https://api.github.com/repos/silasary/ffxii-poptracker/zipball/0.2.0",
+      "changelog": [
+        "Updated for v6 apworld"
       ]
     }
   ]
