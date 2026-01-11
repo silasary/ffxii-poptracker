@@ -12,7 +12,7 @@
     --   }
 
 return {
-    ["character_progression_scaling"] = "character_scaled_depth",
+    ["difficulty_progressive_scaling"] = "character_scaled_depth",
     ["include_treasures"] = "place_treasures",
     ["include_hunts"] = "place_hunts",
     ["include_chops"] = "place_chops",
