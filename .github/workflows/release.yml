@@ -22,16 +22,16 @@ jobs:
                   curl -L -o release.zip "$ZIP_URL"
                   HASH=$(sha256sum release.zip | awk '{print $1}')
                   echo "HASH=$HASH" >> $GITHUB_OUTPUT
-            - name: Update Versions.json
+            - name: Update versions.json
               run: |
                   VERSION=${{ steps.get_version.outputs.VERSION }}
                   HASH=${{ steps.get_hash.outputs.HASH }}
                   jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "${{ github.event.release.zipball_url }}" \
-                     '.releases += [{"package_version": $ver, "sha256": $hash, "download_url": $url}]' \
-                     Versions.json > Versions.tmp.json
-                  mv Versions.tmp.json Versions.json
+                     '.versions += [{"package_version": $ver, "sha256": $hash, "download_url": $url}]' \
+                     versions.json > versions.tmp.json
+                  mv versions.tmp.json versions.json
             - name: Commit and push changes
               uses: stefanzweifel/git-auto-commit-action@v7
               with:
-                  commit_message: "Update Versions.json for release ${{ steps.get_version.outputs.VERSION }}"
+                  commit_message: "Update versions.json for release ${{ steps.get_version.outputs.VERSION }}"
                   branch: main

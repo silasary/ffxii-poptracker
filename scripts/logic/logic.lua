@@ -1,3 +1,5 @@
+---@diagnostic disable: lowercase-global
+
 function scaled_difficulty(n)
     if Tracker:ProviderCountForCode('character_scaled_depth') == 0 then
         return 1
@@ -123,4 +125,3 @@ end
 function defeat_cid()
     return draklor_laboratory() and Tracker:ProviderCountForCode('lab_access_card') > 0
 end
-
