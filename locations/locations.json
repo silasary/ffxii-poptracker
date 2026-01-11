@@ -3407,18 +3407,6 @@
             "access_rules": [
               "sw_chop,$hunt_club_kills|30"
             ]
-          },
-          {
-            "name": "Dummy Pin",
-            "locations": [
-              {
-                "name": "Test Archades Pin",
-                "map": "archades",
-                "x": 300,
-                "y": 200,
-                "code": "test_archades"
-              }
-            ]
           }
         ]
       },
