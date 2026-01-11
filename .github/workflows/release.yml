@@ -1,0 +1,37 @@
+name: Update Versions.json
+
+on:
+    release:
+        types: [published]
+
+jobs:
+    update_versions:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+            - name: Get version from manifest
+              id: get_version
+              run: |
+                  VERSION=$(jq -r '.package_version' manifest.json)
+                  echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
+            - name: Download zipball and get hash
+              id: get_hash
+              run: |
+                  ZIP_URL="${{ github.event.release.zipball_url }}"
+                  curl -L -o release.zip "$ZIP_URL"
+                  HASH=$(sha256sum release.zip | awk '{print $1}')
+                  echo "HASH=$HASH" >> $GITHUB_OUTPUT
+            - name: Update Versions.json
+              run: |
+                  VERSION=${{ steps.get_version.outputs.VERSION }}
+                  HASH=${{ steps.get_hash.outputs.HASH }}
+                  jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "${{ github.event.release.zipball_url }}" \
+                     '.releases += [{"package_version": $ver, "sha256": $hash, "download_url": $url}]' \
+                     Versions.json > Versions.tmp.json
+                  mv Versions.tmp.json Versions.json
+            - name: Commit and push changes
+              uses: stefanzweifel/git-auto-commit-action@v7
+              with:
+                  commit_message: "Update Versions.json for release ${{ steps.get_version.outputs.VERSION }}"
+                  branch: main
