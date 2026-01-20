@@ -13395,15 +13395,6 @@
         ],
         "sections": [
           {
-            "name": "Pre King Bomb Chests",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Defeat Braegh",
             "visibility_rules": [
               "place_clan_rank",
@@ -13413,15 +13404,6 @@
               "[$scaled_difficulty|4]"
             ],
             "hosted_item": "braegh"
-          },
-          {
-            "name": "Post King Bomb Chests",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
           },
           {
             "name": "Rageclaw - Sickle Trophy",
@@ -13443,6 +13425,456 @@
               "clan_primer,[$scaled_difficulty|7]"
             ],
             "hosted_item": "carrot"
+          },
+          {
+            "name": "The Omen-Spur Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - The Omen-Spur Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Omen-Spur Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - The Omen-Spur Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Trunkwall Road Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Trunkwall Road Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Diverging Way Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Diverging Way Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Sun-dappled Path Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Sun-dappled Path Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Sun-dappled Path Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Sun-dappled Path Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Sun-dappled Path Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Sun-dappled Path Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Sun-dappled Path Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Sun-dappled Path Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Garden of Decay Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Garden of Decay Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Garden of Decay Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Garden of Decay Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Garden of Decay Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Garden of Decay Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Garden of Decay Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Garden of Decay Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Garden of Decay Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Garden of Decay Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Garden of Decay Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Garden of Decay Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Quietened Trace Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Quietened Trace Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Quietened Trace Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Quietened Trace Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Quietened Trace Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Quietened Trace Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Quietened Trace Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Quietened Trace Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Grand Bower Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Grand Bower Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Grand Bower Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Grand Bower Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Grand Bower Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Grand Bower Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Grand Bower Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Grand Bower Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Corridor of Ages Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Corridor of Ages Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Piebald Path Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Piebald Path Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Piebald Path Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Piebald Path Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Piebald Path Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Salikawood - Piebald Path Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
           }
         ]
       },

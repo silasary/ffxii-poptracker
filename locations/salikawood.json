@@ -2,7 +2,6 @@
   {
     "name": "Salikawood",
     "children": [
-
       {
         "name": "Chests (Pre and Post King Bomb)",
         "map_locations": [
@@ -14,16 +13,207 @@
         ],
         "sections": [
           {
-            "name": "Pre King Bomb Chests",
-            "ref": "Main/Salikawood/Pre King Bomb Chests"
+            "name": "The Omen-Spur Treasure 1",
+            "ref": "Main/Salikawood/The Omen-Spur Treasure 1"
           },
           {
-            "name": "Post King Bomb Chests",
-            "ref": "Main/Salikawood/Post King Bomb Chests"
+            "name": "The Omen-Spur Treasure 2",
+            "ref": "Main/Salikawood/The Omen-Spur Treasure 2"
+          },
+          {
+            "name": "Trunkwall Road Treasure 1",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 1"
+          },
+          {
+            "name": "Trunkwall Road Treasure 2",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 2"
+          },
+          {
+            "name": "Trunkwall Road Treasure 3",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 3"
+          },
+          {
+            "name": "Trunkwall Road Treasure 4",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 4"
+          },
+          {
+            "name": "Trunkwall Road Treasure 5",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 5"
+          },
+          {
+            "name": "Trunkwall Road Treasure 6",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 6"
+          },
+          {
+            "name": "Trunkwall Road Treasure 7",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 7"
+          },
+          {
+            "name": "Trunkwall Road Treasure 8",
+            "ref": "Main/Salikawood/Trunkwall Road Treasure 8"
+          },
+          {
+            "name": "Diverging Way Treasure 1",
+            "ref": "Main/Salikawood/Diverging Way Treasure 1"
+          },
+          {
+            "name": "Diverging Way Treasure 2",
+            "ref": "Main/Salikawood/Diverging Way Treasure 2"
+          },
+          {
+            "name": "Diverging Way Treasure 3",
+            "ref": "Main/Salikawood/Diverging Way Treasure 3"
+          },
+          {
+            "name": "Diverging Way Treasure 4",
+            "ref": "Main/Salikawood/Diverging Way Treasure 4"
+          },
+          {
+            "name": "Diverging Way Treasure 5",
+            "ref": "Main/Salikawood/Diverging Way Treasure 5"
+          },
+          {
+            "name": "Diverging Way Treasure 6",
+            "ref": "Main/Salikawood/Diverging Way Treasure 6"
+          },
+          {
+            "name": "Diverging Way Treasure 7",
+            "ref": "Main/Salikawood/Diverging Way Treasure 7"
+          },
+          {
+            "name": "Diverging Way Treasure 8",
+            "ref": "Main/Salikawood/Diverging Way Treasure 8"
+          },
+          {
+            "name": "Diverging Way Treasure 9",
+            "ref": "Main/Salikawood/Diverging Way Treasure 9"
+          },
+          {
+            "name": "Diverging Way Treasure 10",
+            "ref": "Main/Salikawood/Diverging Way Treasure 10"
+          },
+          {
+            "name": "Diverging Way Treasure 11",
+            "ref": "Main/Salikawood/Diverging Way Treasure 11"
+          },
+          {
+            "name": "Diverging Way Treasure 12",
+            "ref": "Main/Salikawood/Diverging Way Treasure 12"
+          },
+          {
+            "name": "Sun-dappled Path Treasure 1",
+            "ref": "Main/Salikawood/Sun-dappled Path Treasure 1"
+          },
+          {
+            "name": "Sun-dappled Path Treasure 2",
+            "ref": "Main/Salikawood/Sun-dappled Path Treasure 2"
+          },
+          {
+            "name": "Sun-dappled Path Treasure 3",
+            "ref": "Main/Salikawood/Sun-dappled Path Treasure 3"
+          },
+          {
+            "name": "Sun-dappled Path Treasure 4",
+            "ref": "Main/Salikawood/Sun-dappled Path Treasure 4"
+          },
+          {
+            "name": "Garden of Decay Treasure 1",
+            "ref": "Main/Salikawood/Garden of Decay Treasure 1"
+          },
+          {
+            "name": "Garden of Decay Treasure 2",
+            "ref": "Main/Salikawood/Garden of Decay Treasure 2"
+          },
+          {
+            "name": "Garden of Decay Treasure 3",
+            "ref": "Main/Salikawood/Garden of Decay Treasure 3"
+          },
+          {
+            "name": "Garden of Decay Treasure 4",
+            "ref": "Main/Salikawood/Garden of Decay Treasure 4"
+          },
+          {
+            "name": "Garden of Decay Treasure 5",
+            "ref": "Main/Salikawood/Garden of Decay Treasure 5"
+          },
+          {
+            "name": "Garden of Decay Treasure 6",
+            "ref": "Main/Salikawood/Garden of Decay Treasure 6"
+          },
+          {
+            "name": "Quietened Trace Treasure 1",
+            "ref": "Main/Salikawood/Quietened Trace Treasure 1"
+          },
+          {
+            "name": "Quietened Trace Treasure 2",
+            "ref": "Main/Salikawood/Quietened Trace Treasure 2"
+          },
+          {
+            "name": "Quietened Trace Treasure 3",
+            "ref": "Main/Salikawood/Quietened Trace Treasure 3"
+          },
+          {
+            "name": "Quietened Trace Treasure 4",
+            "ref": "Main/Salikawood/Quietened Trace Treasure 4"
+          },
+          {
+            "name": "Grand Bower Treasure 1",
+            "ref": "Main/Salikawood/Grand Bower Treasure 1"
+          },
+          {
+            "name": "Grand Bower Treasure 2",
+            "ref": "Main/Salikawood/Grand Bower Treasure 2"
+          },
+          {
+            "name": "Grand Bower Treasure 3",
+            "ref": "Main/Salikawood/Grand Bower Treasure 3"
+          },
+          {
+            "name": "Grand Bower Treasure 4",
+            "ref": "Main/Salikawood/Grand Bower Treasure 4"
+          },
+          {
+            "name": "Corridor of Ages Treasure 1",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 1"
+          },
+          {
+            "name": "Corridor of Ages Treasure 2",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 2"
+          },
+          {
+            "name": "Corridor of Ages Treasure 3",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 3"
+          },
+          {
+            "name": "Corridor of Ages Treasure 4",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 4"
+          },
+          {
+            "name": "Corridor of Ages Treasure 5",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 5"
+          },
+          {
+            "name": "Corridor of Ages Treasure 6",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 6"
+          },
+          {
+            "name": "Corridor of Ages Treasure 7",
+            "ref": "Main/Salikawood/Corridor of Ages Treasure 7"
+          },
+          {
+            "name": "Piebald Path Treasure 1",
+            "ref": "Main/Salikawood/Piebald Path Treasure 1"
+          },
+          {
+            "name": "Piebald Path Treasure 2",
+            "ref": "Main/Salikawood/Piebald Path Treasure 2"
+          },
+          {
+            "name": "Piebald Path Treasure 3",
+            "ref": "Main/Salikawood/Piebald Path Treasure 3"
           }
         ]
       },
-
       {
         "name": "Defeat Braegh",
         "map_locations": [
@@ -40,7 +230,6 @@
           }
         ]
       },
-
       {
         "name": "Rageclaw - Sickle Trophy",
         "map_locations": [
@@ -57,7 +246,6 @@
           }
         ]
       },
-
       {
         "name": "Defeat Carrot",
         "map_locations": [
@@ -74,7 +262,6 @@
           }
         ]
       }
-
     ]
   }
 ]
