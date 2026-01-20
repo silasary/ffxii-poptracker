@@ -15,19 +15,33 @@ jobs:
               run: |
                   VERSION=$(jq -r '.package_version' manifest.json)
                   echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
-            - name: Download zipball and get hash
+            - name: create release zip
+              run: |
+                  zip ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip -r . -x "*.git*" "*.vscode*" "*.zip" "screenshot*"
+            - name: Get hash
               id: get_hash
               run: |
-                  ZIP_URL="${{ github.event.release.zipball_url }}"
-                  curl -L -o release.zip "$ZIP_URL"
-                  HASH=$(sha256sum release.zip | awk '{print $1}')
+                  HASH=$(sha256sum ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip | awk '{print $1}')
                   echo "HASH=$HASH" >> $GITHUB_OUTPUT
+            - name: Upload release asset
+              id: upload_release_asset
+              uses: softprops/action-gh-release@v2
+              with:
+                  files: ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            - name: Get asset download URL
+              id: get_asset_url
+              run: |
+                  ASSET_URL=$(jq '.[0].downloadUrl' ${{ steps.upload_release_asset.outputs.assets }})
+                  echo "ASSET_URL=$ASSET_URL" >> $GITHUB_OUTPUT
             - name: Update versions.json
               run: |
                   VERSION=${{ steps.get_version.outputs.VERSION }}
                   HASH=${{ steps.get_hash.outputs.HASH }}
-                  jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "${{ github.event.release.zipball_url }}" \
-                     '.versions += [{"package_version": $ver, "sha256": $hash, "download_url": $url}]' \
+                  URL=${{ steps.get_asset_url.outputs.ASSET_URL }}
+                  jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "$URL" \
+                     '.versions |= [{"package_version": $ver, "sha256": $hash, "download_url": $url, "changelog": []}] + .' \
                      versions.json > versions.tmp.json
                   mv versions.tmp.json versions.json
             - name: Commit and push changes

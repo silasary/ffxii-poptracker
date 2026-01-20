@@ -1,6 +1,22 @@
 {
   "versions": [
     {
+      "package_version": "0.2.1",
+      "sha256": "caab31181e73f655c4db056a23845a0055968a0c076cd24e4b92cd4cae6cdac0",
+      "download_url": "https://api.github.com/repos/silasary/ffxii-poptracker/zipball/0.2.1",
+      "changelog": [
+        "Sandseas via Rainstone is now Out of Logic"
+      ]
+    },
+    {
+      "package_version": "0.2.0",
+      "sha256": "e0c4291a61bc0a6f07acb50b7940a25a1c4eb7765c166d7da50160546611cd21",
+      "download_url": "https://api.github.com/repos/silasary/ffxii-poptracker/zipball/0.2.0",
+      "changelog": [
+        "Updated for v6 apworld"
+      ]
+    },
+    {
       "package_version": "0.1.8",
       "download_url": "https://github.com/silasary/ffxii-poptracker/archive/refs/tags/0.1.8.zip",
       "sha256": "d87b38d243a37c48f183bca216ab4ca093a923065d4f4767f0011990adc8a0ae",
@@ -104,22 +120,6 @@
       "sha256": "008021fb514be85cc372efbc836ba62d65b02a67c36dd7e8fd51739f62d779e7",
       "changelog": [
         "Initial AP received items auto-tracking"
-      ]
-    },
-    {
-      "package_version": "0.2.0",
-      "sha256": "e0c4291a61bc0a6f07acb50b7940a25a1c4eb7765c166d7da50160546611cd21",
-      "download_url": "https://api.github.com/repos/silasary/ffxii-poptracker/zipball/0.2.0",
-      "changelog": [
-        "Updated for v6 apworld"
-      ]
-    },
-    {
-      "package_version": "0.2.1",
-      "sha256": "bf13d6580bb8582172710b83ed1960d24ecd0b11af414f883db4d3512740677f",
-      "download_url": "https://api.github.com/repos/silasary/ffxii-poptracker/zipball/0.2.1",
-      "changelog": [
-        "Sandseas via Rainstone is now Out of Logic"
       ]
     }
   ]
