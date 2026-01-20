@@ -17,7 +17,7 @@ jobs:
                   echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
             - name: create release zip
               run: |
-                  zip ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip -r . -x "*.git*" "*.vscode*" "*.zip" "screenshot*"
+                  zip ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip -r . -x "*.git*" "*.vscode*" "*.zip" "screenshot*" "mapping_generator/*"
             - name: Get hash
               id: get_hash
               run: |
