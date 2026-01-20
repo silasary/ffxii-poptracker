@@ -1498,12 +1498,92 @@
     ],
     "sections": [
       {
-        "name": "Entrance Chests",
-        "ref": "Main/Stilshrine of Miriam/Entrance Chests - Stillshrine"
+        "name": "Walk of Sky Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Walk of Sky Treasure 1"
       },
       {
-        "name": "Interior Chests",
-        "ref": "Main/Stilshrine of Miriam/Interior Chests - Stillshrine"
+        "name": "Walk of Sky Treasure 2",
+        "ref": "Main/Stilshrine of Miriam/Walk of Sky Treasure 2"
+      },
+      {
+        "name": "Walk of Sky Treasure 3",
+        "ref": "Main/Stilshrine of Miriam/Walk of Sky Treasure 3"
+      },
+      {
+        "name": "Walk of Mind Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Walk of Mind Treasure 1"
+      },
+      {
+        "name": "Cold Distance Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Cold Distance Treasure 1"
+      },
+      {
+        "name": "Walk of Prescience Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Walk of Prescience Treasure 1"
+      },
+      {
+        "name": "Walk of Reason Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 1"
+      },
+      {
+        "name": "Walk of Reason Treasure 2",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 2"
+      },
+      {
+        "name": "Walk of Reason Treasure 3",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 3"
+      },
+      {
+        "name": "Walk of Reason Treasure 4",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 4"
+      },
+      {
+        "name": "Walk of Reason Treasure 5",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 5"
+      },
+      {
+        "name": "Walk of Reason Treasure 6",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 6"
+      },
+      {
+        "name": "Walk of Reason Treasure 7",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 7"
+      },
+      {
+        "name": "Walk of Reason Treasure 8",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 8"
+      },
+      {
+        "name": "Walk of Reason Treasure 9",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 9"
+      },
+      {
+        "name": "Walk of Reason Treasure 10",
+        "ref": "Main/Stilshrine of Miriam/Walk of Reason Treasure 10"
+      },
+      {
+        "name": "Ward of Steel Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Ward of Steel Treasure 1"
+      },
+      {
+        "name": "Ward of Velitation Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Ward of Velitation Treasure 1"
+      },
+      {
+        "name": "Ward of Velitation Treasure 2",
+        "ref": "Main/Stilshrine of Miriam/Ward of Velitation Treasure 2"
+      },
+      {
+        "name": "Ward of Velitation Treasure 3",
+        "ref": "Main/Stilshrine of Miriam/Ward of Velitation Treasure 3"
+      },
+      {
+        "name": "Hall of Worth Treasure 1",
+        "ref": "Main/Stilshrine of Miriam/Hall of Worth Treasure 1"
+      },
+      {
+        "name": "Hall of Worth Treasure 2",
+        "ref": "Main/Stilshrine of Miriam/Hall of Worth Treasure 2"
       },
       {
         "name": "Defeat Mateus",

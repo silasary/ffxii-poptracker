@@ -2161,30 +2161,12 @@
             ]
           },
           {
-            "name": "Barheim Chests",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "barheim_key,[$scaled_difficulty|3]"
-            ]
-          },
-          {
             "name": "Defeat Zalera",
             "visibility_rules": [
               "place_clan_esper"
             ],
             "access_rules": [
               "barheim_key,[$scaled_difficulty|4]"
-            ]
-          },
-          {
-            "name": "Deep Barheim Chests",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "barheim_key,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -3052,24 +3034,6 @@
         ],
         "sections": [
           {
-            "name": "Entrance Chests - Stillshrine",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Interior Chests - Stillshrine",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "dawn_shard,[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Defeat Mateus",
             "access_rules": [
               "dawn_shard,[$scaled_difficulty|2]"
@@ -3096,6 +3060,204 @@
               "dawn_shard,$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "myath"
+          },
+          {
+            "name": "Walk of Sky Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Sky Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Sky Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Sky Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Sky Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Sky Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Mind Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Mind Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Cold Distance Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Cold Distance Treasure 1"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Prescience Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Prescience Treasure 1"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 1"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 2"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 3"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 4"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 5"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 6"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 7"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 8"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 9"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Walk of Reason Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Walk of Reason Treasure 10"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Ward of Steel Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Ward of Steel Treasure 1"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Ward of Velitation Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Ward of Velitation Treasure 1"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Ward of Velitation Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Ward of Velitation Treasure 2"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Ward of Velitation Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Ward of Velitation Treasure 3"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Hall of Worth Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Hall of Worth Treasure 1"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Hall of Worth Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Stilshrine of Miriam - Hall of Worth Treasure 2"
+            ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
@@ -13052,15 +13214,6 @@
         ],
         "sections": [
           {
-            "name": "Main Path Chests - Henne Mines",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Defeat Ixtab",
             "visibility_rules": [
               "place_clan_rank",
@@ -15222,15 +15375,6 @@
           "$paramina_rift"
         ],
         "sections": [
-          {
-            "name": "Chests - Feywood",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|3]"
-            ]
-          },
           {
             "name": "Defeat Wild Malboro",
             "visibility_rules": [
