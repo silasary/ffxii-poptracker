@@ -19,6 +19,22 @@
         ]
       },
       {
+        "name": "Spire Ravel 1st Fight Treasure 1",
+        "map_locations": [
+          {
+            "map": "pharos_third_ascent",
+            "x": 700,
+            "y": 1265
+          }
+        ],
+        "sections": [
+          {
+            "name": "Spire Ravel - 1st Flight Treasure 1",
+            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 1"
+          }
+        ]
+      },
+      {
         "name": "Spire Ravel Chests",
         "map_locations": [
           {
@@ -28,10 +44,6 @@
           }
         ],
         "sections": [
-          {
-            "name": "Spire Ravel - 1st Flight Treasure 1",
-            "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 1"
-          },
           {
             "name": "Spire Ravel - 1st Flight Treasure 2",
             "ref": "Main/The Pharos/Spire Ravel - 1st Flight Treasure 2"
