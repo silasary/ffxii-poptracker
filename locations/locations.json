@@ -3564,7 +3564,15 @@
             "access_rules": [
               "[$scaled_difficulty|5]"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Great Crystal",
+        "access_rules": [
+          "belias,$paramina_rift"
+        ],
+        "sections": [
           {
             "name": "Crystal Knight - Skull Trophy",
             "visibility_rules": [

@@ -37,7 +37,15 @@ def main():
 
         if not pt_loc:
             print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
-            continue
+            if "Treasure" in shortname:
+                pt_loc = {
+                    "name": shortname,
+                    "visibility_rules": ["place_treasures"],
+                    "access_rules": [],
+                }
+                region['sections'].append(pt_loc)
+            else:
+                continue
         access_rule: str | None = None
 
         difficulty = loc.difficulty
