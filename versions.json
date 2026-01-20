@@ -113,6 +113,14 @@
       "changelog": [
         "Updated for v6 apworld"
       ]
+    },
+    {
+      "package_version": "0.2.1",
+      "sha256": "bf13d6580bb8582172710b83ed1960d24ecd0b11af414f883db4d3512740677f",
+      "download_url": "https://api.github.com/repos/silasary/ffxii-poptracker/zipball/0.2.1",
+      "changelog": [
+        "Sandseas via Rainstone is now Out of Logic"
+      ]
     }
   ]
 }
