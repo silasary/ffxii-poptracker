@@ -8368,20 +8368,55 @@
         ]
       },
       {
+        "name": "Golmore Jungle NW",
+        "access_rules": [
+          "$ozmone_plain"
+        ],
+        "sections": [
+          {
+            "name": "Paths of Chained Light Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Paths of Chained Light Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Paths of Chained Light Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Paths of Chained Light Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Golmore Jungle",
         "access_rules": [
           "$paramina_rift"
         ],
         "sections": [
-          {
-            "name": "Early Chests",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "$ozmone_plain,[$scaled_difficulty|2]"
-            ]
-          },
           {
             "name": "Late Chests",
             "visibility_rules": [

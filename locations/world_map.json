@@ -4052,8 +4052,20 @@
     ],
     "sections": [
       {
-        "name": "Early Chests",
-        "ref": "Main/Golmore Jungle/Early Chests"
+        "name": "Paths of Chained Light Treasure 1",
+        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 1"
+      },
+      {
+        "name": "Paths of Chained Light Treasure 2",
+        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 2"
+      },
+      {
+        "name": "Paths of Chained Light Treasure 3",
+        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 3"
+      },
+      {
+        "name": "Paths of Chained Light Treasure 4",
+        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 4"
       },
       {
         "name": "Late Chests",
