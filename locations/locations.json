@@ -2222,7 +2222,7 @@
               "$chest_visibility|Jahara - The Elderknoll Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -2231,7 +2231,7 @@
               "$chest_visibility|Jahara - The Elderknoll Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -3422,7 +3422,7 @@
               "$chest_visibility|Giruvegan - The Trimahla Water-Steps Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3431,7 +3431,7 @@
               "$chest_visibility|Giruvegan - The Trimahla Water-Steps Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3440,7 +3440,7 @@
               "$chest_visibility|Giruvegan - The Trimahla Water-Steps Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3449,7 +3449,7 @@
               "$chest_visibility|Giruvegan - The Trimahla Water-Steps Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3458,7 +3458,7 @@
               "$chest_visibility|Giruvegan - The Trimahla Water-Steps Treasure 5"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3467,7 +3467,7 @@
               "$chest_visibility|Giruvegan - The Aadha Water-Steps Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3476,7 +3476,7 @@
               "$chest_visibility|Giruvegan - The Aadha Water-Steps Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3485,7 +3485,7 @@
               "$chest_visibility|Giruvegan - The Aadha Water-Steps Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3494,7 +3494,7 @@
               "$chest_visibility|Giruvegan - The Haamilkah Water-Steps Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3503,7 +3503,7 @@
               "$chest_visibility|Giruvegan - Gate of Fire Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3512,7 +3512,7 @@
               "$chest_visibility|Giruvegan - Gate of Fire Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3521,7 +3521,7 @@
               "$chest_visibility|Giruvegan - Gate of Fire Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3530,7 +3530,7 @@
               "$chest_visibility|Giruvegan - Gate of Wind Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3539,7 +3539,7 @@
               "$chest_visibility|Giruvegan - Gate of Wind Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -5261,249 +5261,6 @@
             ]
           },
           {
-            "name": "The Yoma Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 1"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 2"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 3",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 3"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 4",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 4"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 5",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 5"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 6",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 6"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 7",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 7"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 8",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 8"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 9",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 9"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 10",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 10"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 11",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 11"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 12",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 12"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 13",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 13"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "The Yoma Treasure 14",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 14"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 1"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 2"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 3",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 3"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 4",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 4"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 5",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 5"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 6",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 6"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 7",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 7"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 8",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 8"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 9",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 9"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 10",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 10"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 11",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 11"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 12",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 12"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Broken Sands Treasure 13",
-            "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 13"
-            ],
-            "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Patient Barheim Key",
             "access_rules": [
               "cactus_flower,$defeat_vossler,[$scaled_difficulty|2]"
@@ -5527,6 +5284,257 @@
               "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "terror_tyrant"
+          }
+        ]
+      },
+      {
+        "name": "Dalmasca Estersand North",
+        "access_rules": [
+          "$tchita_uplands"
+        ],
+        "sections": [
+          {
+            "name": "The Yoma Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Yoma Treasure 14",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 14"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 12",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 12"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Broken Sands Treasure 13",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 13"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
@@ -7424,7 +7432,7 @@
               "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 1"
             ],
             "access_rules": [
-              "sluice_gate_key,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -7433,7 +7441,7 @@
               "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 2"
             ],
             "access_rules": [
-              "sluice_gate_key,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -7442,7 +7450,7 @@
               "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 3"
             ],
             "access_rules": [
-              "sluice_gate_key,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -7451,7 +7459,7 @@
               "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 4"
             ],
             "access_rules": [
-              "sluice_gate_key,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -7460,7 +7468,7 @@
               "$chest_visibility|Garamsythe Waterway - No. 10 Channel (water is drained) Treasure 5"
             ],
             "access_rules": [
-              "sluice_gate_key,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11728,10 +11736,7 @@
           },
           {
             "name": "Defeat Rocktoise",
-            "visibility_rules": [
-              // "place_clan_rank",  // Rocktoise is needed for Armband quest, so we always show it.
-              // "place_hunts"
-            ],
+            "visibility_rules": [],
             "access_rules": [
               "clan_primer,[$scaled_difficulty|1]"
             ],

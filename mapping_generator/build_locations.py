@@ -38,25 +38,29 @@ def main():
         if not pt_loc:
             print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
             continue
-        access_rule = None
+        access_rule: str | None = None
 
         difficulty = loc.difficulty
         rule = rule_data_table.get(name)
         rulep = from_lambda.parse_lambda(rule)
         rule_str = from_lambda.to_str(rulep)
-        if lambda_to_access_rule.setdefault(rule_str, ""):
-            access_rule = lambda_to_access_rule[rule_str]
-            if difficulty:
-                 access_rule += f',[$scaled_difficulty|{difficulty}]'
+        access_rule = lambda_to_access_rule.setdefault(rule_str, None)
+        if access_rule is not None and difficulty:
+            access_rule += f',[$scaled_difficulty|{difficulty}]'
+            access_rule = access_rule.strip(',')
 
         if access_rule is not None:
             if pt_loc['access_rules']:
                 if pt_loc['access_rules'][0] != access_rule:
                     print(f'Updating access rule for {name} from "{pt_loc["access_rules"][0]}" to "{access_rule}"')
                     pt_loc['access_rules'][0] = access_rule
+            else:
+                pt_loc['access_rules'] = [access_rule]
         pass
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
         json.dump(lambda_to_access_rule, f, indent=4)
+    with open("./locations/locations.json", 'w') as loc_file:
+        json.dump(pt_locations, loc_file, indent=2)
 
 main()
