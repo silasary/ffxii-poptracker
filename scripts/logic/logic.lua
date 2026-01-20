@@ -63,7 +63,12 @@ function ghis()
 end
 
 function sandseas()
-    return Tracker:ProviderCountForCode('rainstone') > 0 or Tracker:ProviderCountForCode('access_key') > 0 or ghis()
+    if Tracker:ProviderCountForCode('access_key') > 0 or ghis() then
+        return AccessibilityLevel.Normal
+    end
+    if Tracker:ProviderCountForCode('rainstone') > 0 then
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function tchita_uplands()

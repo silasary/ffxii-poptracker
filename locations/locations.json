@@ -57,7 +57,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sandseas,[$scaled_difficulty|2]"
+              "^$sandseas,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -1397,7 +1397,7 @@
       {
         "name": "Nam-Yensa Sandsea",
         "access_rules": [
-          "$sandseas"
+          "^$sandseas"
         ],
         "sections": [
           {
@@ -1911,7 +1911,7 @@
       {
         "name": "Tomb of Raithwall",
         "access_rules": [
-          "$sandseas"
+          "^$sandseas"
         ],
         "sections": [
           {
@@ -6378,7 +6378,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sandseas,$ozmone_plain,[$scaled_difficulty|5]"
+              "^$sandseas,$ozmone_plain,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6543,7 +6543,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sandseas,[$scaled_difficulty|3]"
+              "^$sandseas,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -6552,7 +6552,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sandseas,[$scaled_difficulty|1]"
+              "^$sandseas,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -12181,7 +12181,7 @@
       {
         "name": "Ogir-Yensa Sandsea",
         "access_rules": [
-          "$sandseas"
+          "^$sandseas"
         ],
         "sections": [
           {
