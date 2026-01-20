@@ -6871,10 +6871,6 @@
     ],
     "sections": [
       {
-        "name": "Chests - Feywood",
-        "ref": "Main/Feywood/Chests"
-      },
-      {
         "name": "Defeat Wild Malboro",
         "ref": "Main/Feywood/Defeat Wild Malboro"
       },
@@ -6885,6 +6881,274 @@
       {
         "name": "Dreadguard - Feathered Trophy",
         "ref": "Main/Feywood/Dreadguard - Feathered Trophy"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 1",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 1"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 2",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 2"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 3",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 3"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 4",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 4"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 5",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 5"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 6",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 6"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 7",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 7"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 8",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 8"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 9",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 9"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 10",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 10"
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 11",
+        "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 11"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 1",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 1"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 2",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 2"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 3",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 3"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 4",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 4"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 5",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 5"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 6",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 6"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 7",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 7"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 8",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 8"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 9",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 9"
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 10",
+        "ref": "Main/Feywood/Walk of Stolen Truths Treasure 10"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 1",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 1"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 2",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 2"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 3",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 3"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 4",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 4"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 5",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 5"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 6",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 6"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 7",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 7"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 8",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 8"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 9",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 9"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 10",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 10"
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 11",
+        "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 11"
+      },
+      {
+        "name": "Antiquity's End Treasure 1",
+        "ref": "Main/Feywood/Antiquity's End Treasure 1"
+      },
+      {
+        "name": "Redolent Glade Treasure 1",
+        "ref": "Main/Feywood/Redolent Glade Treasure 1"
+      },
+      {
+        "name": "Redolent Glade Treasure 2",
+        "ref": "Main/Feywood/Redolent Glade Treasure 2"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 1",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 1"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 2",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 2"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 3",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 3"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 4",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 4"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 5",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 5"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 6",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 6"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 7",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 7"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 8",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 8"
+      },
+      {
+        "name": "White Magick's Embrace Treasure 9",
+        "ref": "Main/Feywood/White Magick's Embrace Treasure 9"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 1",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 1"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 2",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 2"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 3",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 3"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 4",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 4"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 5",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 5"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 6",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 6"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 7",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 7"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 8",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 8"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 9",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 9"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 10",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 10"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 11",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 11"
+      },
+      {
+        "name": "Ice Field of Clearsight Treasure 12",
+        "ref": "Main/Feywood/Ice Field of Clearsight Treasure 12"
+      },
+      {
+        "name": "The Edge of Reason Treasure 1",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 1"
+      },
+      {
+        "name": "The Edge of Reason Treasure 2",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 2"
+      },
+      {
+        "name": "The Edge of Reason Treasure 3",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 3"
+      },
+      {
+        "name": "The Edge of Reason Treasure 4",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 4"
+      },
+      {
+        "name": "The Edge of Reason Treasure 5",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 5"
+      },
+      {
+        "name": "The Edge of Reason Treasure 6",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 6"
+      },
+      {
+        "name": "The Edge of Reason Treasure 7",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 7"
+      },
+      {
+        "name": "The Edge of Reason Treasure 8",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 8"
+      },
+      {
+        "name": "The Edge of Reason Treasure 9",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 9"
+      },
+      {
+        "name": "The Edge of Reason Treasure 10",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 10"
+      },
+      {
+        "name": "The Edge of Reason Treasure 11",
+        "ref": "Main/Feywood/The Edge of Reason Treasure 11"
       }
     ]
   },
