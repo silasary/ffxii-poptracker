@@ -4818,7 +4818,7 @@
               "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -4827,7 +4827,7 @@
               "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -4836,7 +4836,7 @@
               "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -4845,7 +4845,7 @@
               "$chest_visibility|Pharos of Ridorana - They Who Thirst Not Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -5142,7 +5142,7 @@
               "$chest_visibility|Pharos of Ridorana - The Bounds of Truth Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5151,7 +5151,7 @@
               "$chest_visibility|Pharos of Ridorana - The Bounds of Truth Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5160,7 +5160,7 @@
               "$chest_visibility|Pharos of Ridorana - The Bounds of Truth Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5169,7 +5169,7 @@
               "$chest_visibility|Pharos of Ridorana - The Bounds of Truth Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5178,7 +5178,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5187,7 +5187,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5196,7 +5196,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5205,7 +5205,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5214,7 +5214,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 5"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5223,7 +5223,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 6"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5232,7 +5232,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 7"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5241,7 +5241,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 8"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5250,7 +5250,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Banishment Treasure 9"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5259,7 +5259,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5268,7 +5268,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5277,7 +5277,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5286,7 +5286,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5295,7 +5295,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 5"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5304,7 +5304,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 6"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5313,7 +5313,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Suffering Treasure 7"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5322,7 +5322,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5331,7 +5331,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5340,7 +5340,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5349,7 +5349,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5358,7 +5358,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 5"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5367,7 +5367,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 6"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5376,7 +5376,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 7"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5385,7 +5385,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 8"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5394,7 +5394,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 9"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5403,7 +5403,7 @@
               "$chest_visibility|Pharos of Ridorana - Station of Ascension Treasure 10"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5412,7 +5412,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 1st Flight Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5421,7 +5421,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 1st Flight Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5430,7 +5430,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 1st Flight Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5439,7 +5439,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 1st Flight Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5448,7 +5448,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 1st Flight Treasure 5"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5457,7 +5457,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 2nd Flight Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5466,7 +5466,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 2nd Flight Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5475,7 +5475,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 2nd Flight Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5484,7 +5484,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 2nd Flight Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5493,7 +5493,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 2nd Flight Treasure 5"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5502,7 +5502,7 @@
               "$chest_visibility|Pharos of Ridorana - Spire Ravel - 2nd Flight Treasure 6"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5511,7 +5511,7 @@
               "$chest_visibility|Pharos of Ridorana - Empyrean Ravel Treasure 1"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5520,7 +5520,7 @@
               "$chest_visibility|Pharos of Ridorana - Empyrean Ravel Treasure 2"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5529,7 +5529,7 @@
               "$chest_visibility|Pharos of Ridorana - Empyrean Ravel Treasure 3"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -5538,7 +5538,7 @@
               "$chest_visibility|Pharos of Ridorana - Empyrean Ravel Treasure 4"
             ],
             "access_rules": [
-              "$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
             ]
           },
           {
