@@ -5882,8 +5882,72 @@
     ],
     "sections": [
       {
-        "name": "Main Path Chests",
-        "ref": "Main/Henne Mines/Main Path Chests - Henne Mines"
+        "name": "Phase 1 Dig Treasure 1",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 1"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 2",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 2"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 3",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 3"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 4",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 4"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 5",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 5"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 6",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 6"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 7",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 7"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 8",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 8"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 9",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 9"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 10",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 10"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 11",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 11"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 12",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 12"
+      },
+      {
+        "name": "Phase 1 Dig Treasure 13",
+        "ref": "Main/Henne Mines/Phase 1 Dig Treasure 13"
+      },
+      {
+        "name": "Crossover A Treasure 1",
+        "ref": "Main/Henne Mines/Crossover A Treasure 1"
+      },
+      {
+        "name": "Crossover A Treasure 2",
+        "ref": "Main/Henne Mines/Crossover A Treasure 2"
+      },
+      {
+        "name": "Crossover A Treasure 3",
+        "ref": "Main/Henne Mines/Crossover A Treasure 3"
+      },
+      {
+        "name": "Crossover A Treasure 4",
+        "ref": "Main/Henne Mines/Crossover A Treasure 4"
       },
       {
         "name": "Defeat Ixtab",
@@ -5902,8 +5966,156 @@
         "ref": "Main/Henne Mines/Melt - Slimy Trophy"
       },
       {
-        "name": "Deep Henne Chests",
-        "ref": "Main/Henne Mines/Deep Henne Chests - Henne Mines"
+        "name": "Phase 2 Dig Treasure 1",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 1"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 2",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 2"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 3",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 3"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 4",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 4"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 5",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 5"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 6",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 6"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 7",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 7"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 8",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 8"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 9",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 9"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 10",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 10"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 11",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 11"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 12",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 12"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 13",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 13"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 14",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 14"
+      },
+      {
+        "name": "Phase 2 Dig Treasure 15",
+        "ref": "Main/Henne Mines Deep/Phase 2 Dig Treasure 15"
+      },
+      {
+        "name": "Crossover C Treasure 1",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 1"
+      },
+      {
+        "name": "Crossover C Treasure 2",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 2"
+      },
+      {
+        "name": "Crossover C Treasure 3",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 3"
+      },
+      {
+        "name": "Crossover C Treasure 4",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 4"
+      },
+      {
+        "name": "Crossover C Treasure 5",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 5"
+      },
+      {
+        "name": "Crossover C Treasure 6",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 6"
+      },
+      {
+        "name": "Crossover C Treasure 7",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 7"
+      },
+      {
+        "name": "Crossover C Treasure 8",
+        "ref": "Main/Henne Mines Deep/Crossover C Treasure 8"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 1",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 1"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 2",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 2"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 3",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 3"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 4",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 4"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 5",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 5"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 6",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 6"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 7",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 7"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 8",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 8"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 9",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 9"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 10",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 10"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 11",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 11"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 12",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 12"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 13",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 13"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 14",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 14"
+      },
+      {
+        "name": "Special Charter Shaft Treasure 15",
+        "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 15"
       }
     ]
   },
