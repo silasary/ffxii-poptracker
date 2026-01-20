@@ -13,8 +13,172 @@
         ],
         "sections": [
           {
-            "name": "Main Area Chests",
-            "ref": "Main/Necrohol of Nabudis/Main Area Chests - Necrohol"
+            "name": "Hall of Effulgent Light Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 1"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 2",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 2"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 3",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 3"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 4",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 4"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 5",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 5"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 6",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 6"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 7",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 7"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 8",
+            "ref": "Main/Necrohol of Nabudis/Hall of Effulgent Light Treasure 8"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 1"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 2",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 2"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 3",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 3"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 4",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 4"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 5",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 5"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 6",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 6"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 7",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 7"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 8",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 8"
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 9",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Distant Song Treasure 9"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 1"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 2",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 2"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 3",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 3"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 4",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 4"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 5",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 5"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 6",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 6"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 7",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 7"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 8",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 8"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 9",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 9"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 10",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 10"
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 11",
+            "ref": "Main/Necrohol of Nabudis/Cloister of the Highborn Treasure 11"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 1"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 2",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 2"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 3",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 3"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 4",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 4"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 5",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 5"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 6",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 6"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 7",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 7"
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 8",
+            "ref": "Main/Necrohol of Nabudis/Hall of the Ivory Covenant Treasure 8"
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Hall of Slumbering Might Treasure 1"
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 2",
+            "ref": "Main/Necrohol of Nabudis/Hall of Slumbering Might Treasure 2"
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 3",
+            "ref": "Main/Necrohol of Nabudis/Hall of Slumbering Might Treasure 3"
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 4",
+            "ref": "Main/Necrohol of Nabudis/Hall of Slumbering Might Treasure 4"
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 5",
+            "ref": "Main/Necrohol of Nabudis/Hall of Slumbering Might Treasure 5"
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 6",
+            "ref": "Main/Necrohol of Nabudis/Hall of Slumbering Might Treasure 6"
           }
         ]
       },
@@ -69,8 +233,8 @@
             "ref": "Main/Necrohol of Nabudis/Defeat Chaos"
           },
           {
-            "name": "Chaos Room Chest",
-            "ref": "Main/Necrohol of Nabudis/Chaos Room Chest"
+            "name": "The Crucible Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/The Crucible Treasure 1"
           }
         ]
       },
@@ -85,8 +249,8 @@
         ],
         "sections": [
           {
-            "name": "Humbaba Mistant Room Chest",
-            "ref": "Main/Necrohol of Nabudis/Humbaba Mistant Room Chest"
+            "name": "Cloister of Solace Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Solace Treasure 1"
           }
         ]
       },
@@ -101,8 +265,8 @@
         ],
         "sections": [
           {
-            "name": "Fury Room Chest",
-            "ref": "Main/Necrohol of Nabudis/Fury Room Chest"
+            "name": "Cloister of Reason Treasure 1",
+            "ref": "Main/Necrohol of Nabudis/Cloister of Reason Treasure 1"
           }
         ]
       },

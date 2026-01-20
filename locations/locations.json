@@ -11622,15 +11622,6 @@
             ]
           },
           {
-            "name": "Main Area Chests - Necrohol",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|6]"
-            ]
-          },
-          {
             "name": "Defeat Goliath",
             "visibility_rules": [
               "place_clan_rank",
@@ -11653,33 +11644,6 @@
             "hosted_item": "deathscythe"
           },
           {
-            "name": "Chaos Room Chest",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "med_might,[$scaled_difficulty|7]"
-            ]
-          },
-          {
-            "name": "Humbaba Mistant Room Chest",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "med_bravery,med_lusterless,[$scaled_difficulty|7]"
-            ]
-          },
-          {
-            "name": "Fury Room Chest",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "med_love,med_lusterless,[$scaled_difficulty|7]"
-            ]
-          },
-          {
             "name": "Medallion of Might",
             "access_rules": [
               "med_bravery,med_love,med_lusterless,[$scaled_difficulty|7]"
@@ -11694,6 +11658,411 @@
               "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "vorres"
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Effulgent Light Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Effulgent Light Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of Distant Song Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Distant Song Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 9",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 9"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 10",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 10"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Cloister of the Highborn Treasure 11",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of the Highborn Treasure 11"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of the Ivory Covenant Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of the Ivory Covenant Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Slumbering Might Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Slumbering Might Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Slumbering Might Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Slumbering Might Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Slumbering Might Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "Hall of Slumbering Might Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Hall of Slumbering Might Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|6]"
+            ]
+          },
+          {
+            "name": "The Crucible Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - The Crucible Treasure 1"
+            ],
+            "access_rules": [
+              "med_might,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Cloister of Solace Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Solace Treasure 1"
+            ],
+            "access_rules": [
+              "med_lusterless,med_bravery,[$scaled_difficulty|7]"
+            ]
+          },
+          {
+            "name": "Cloister of Reason Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Necrohol of Nabudis - Cloister of Reason Treasure 1"
+            ],
+            "access_rules": [
+              "med_lusterless,med_love,[$scaled_difficulty|7]"
+            ]
           }
         ]
       },
