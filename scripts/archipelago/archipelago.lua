@@ -122,7 +122,7 @@ function OnItem(index, item_id, item_name, player_number)
         AP_INDEX = index
     end
 
-    if item_id > 760701597783 then
+    if item_id > 760701597783 then  -- Remove this once v5 is old enough
         item_id = item_id - 760701597783
     end
 
@@ -147,7 +147,7 @@ Archipelago:AddItemHandler("item handler", OnItem)
 
 -- Location Checked
 function OnLocation(location_id, location_name)
-    if location_id > 760701597816 then
+    if location_id > 760701599401 then
         location_id = location_id - 760701597816
     end
     -- is this a character starting items location?
