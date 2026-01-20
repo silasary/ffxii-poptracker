@@ -13,8 +13,84 @@
         ],
         "sections": [
           {
-            "name": "Chests",
-            "ref": "Main/Old Archades/Chests - Old Archades"
+            "name": "Alley of Muted Sighs Treasure 1",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 1"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 2",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 2"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 3",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 3"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 4",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 4"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 5",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 5"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 6",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 6"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 7",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 7"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 8",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 8"
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 9",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 9"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 1",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 1"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 2",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 2"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 3",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 3"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 4",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 4"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 5",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 5"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 6",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 6"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 7",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 7"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 8",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 8"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 9",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 9"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 10",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 10"
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 11",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 11"
           }
         ]
       },

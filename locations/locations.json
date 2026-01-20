@@ -3595,7 +3595,7 @@
               "$chest_visibility|Giruvegan - Kabonii Jilaam Pratii'vaa Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|8]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3604,7 +3604,7 @@
               "$chest_visibility|Giruvegan - Kabnoii Jilaam Avaa Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|8]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3613,7 +3613,7 @@
               "$chest_visibility|Giruvegan - Bhrum Pis Avaa Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|8]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3622,7 +3622,7 @@
               "$chest_visibility|Giruvegan - Bhrum Pis Pratii Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|8]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3631,7 +3631,7 @@
               "$chest_visibility|Giruvegan - Trahk Pis Praa Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|8]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3640,7 +3640,7 @@
               "$chest_visibility|Giruvegan - Trahk Jilaam Praa'dii Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|8]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -6301,15 +6301,6 @@
         ],
         "sections": [
           {
-            "name": "Chests - Old Archades",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|1]"
-            ]
-          },
-          {
             "name": "Hunt 22: Lindwyrm",
             "visibility_rules": [
               "place_hunts"
@@ -6322,6 +6313,186 @@
             "name": "Moonsilver Medallion",
             "access_rules": [
               "$tchita_uplands,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 1",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 2",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 3",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 4",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 5",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 6",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 7",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 8",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Muted Sighs Treasure 9",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 1",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 2",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 3",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 4",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 5",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 6",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 7",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 8",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 9",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 10",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Alley of Low Whispers Treasure 11",
+            "visibility_rules": [
+              "place_treasures"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
             ]
           }
         ]
