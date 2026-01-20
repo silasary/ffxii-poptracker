@@ -8,7 +8,7 @@ sys.path.append("D:\\source\\repos\\Archipelago.worktrees\\ff12_openworld")
 
 
 
-def main():
+def main() -> None:
     from worlds.ff12_open_world.Locations import location_data_table
     from worlds.ff12_open_world.Rules import rule_data_table
 
@@ -20,6 +20,7 @@ def main():
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
     todays_treasures = None
+    warned_regions = set()
 
     for name, loc in location_data_table.items():
         region_name = loc.region
@@ -28,7 +29,9 @@ def main():
             shortname = name[len(region_name) + 3 :]
         region = regions.get(region_name)
         if not region:
-            print(f"WARNING: No matching region for {region_name} in locations.json")
+            if region_name not in warned_regions:
+                print(f"WARNING: No matching region for {region_name} in locations.json")
+                warned_regions.add(region_name)
             continue
         pt_loc = None
         for section in region['sections']:
@@ -48,6 +51,7 @@ def main():
                 todays_treasures = region_name
             else:
                 continue
+
         access_rule: str | None = None
 
         difficulty = loc.difficulty
@@ -70,7 +74,10 @@ def main():
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
         json.dump(lambda_to_access_rule, f, indent=4)
+        f.write('\n')
     with open("./locations/locations.json", 'w') as loc_file:
         json.dump(pt_locations, loc_file, indent=2)
+        loc_file.write('\n')
 
-main()
+if __name__ == "__main__":
+    main()

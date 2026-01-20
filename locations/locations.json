@@ -3286,18 +3286,117 @@
             ]
           },
           {
-            "name": "Chests (6613, 6711, 6801, 7002)",
+            "name": "Defeat Cid 1",
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "6613 East Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Draklor Laboratory - 6613 East Treasure 1"
             ],
             "access_rules": [
               "lab_access_card,[$scaled_difficulty|4]"
             ]
           },
           {
-            "name": "Defeat Cid 1",
+            "name": "6613 East Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6613 East Treasure 2"
+            ],
             "access_rules": [
-              "lab_access_card,[$scaled_difficulty|5]"
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6613 East Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6613 East Treasure 3"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "7002 East Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 7002 East Treasure 1"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "7002 East Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 7002 East Treasure 2"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6711 West Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6711 West Treasure 1"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6711 West Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6711 West Treasure 2"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6711 West Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6711 West Treasure 3"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6801 West Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6801 West Treasure 1"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6801 West Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6801 West Treasure 2"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6801 West Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6801 West Treasure 3"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
+            ]
+          },
+          {
+            "name": "6801 West Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Draklor Laboratory - 6801 West Treasure 4"
+            ],
+            "access_rules": [
+              "lab_access_card,[$scaled_difficulty|4]"
             ]
           }
         ]

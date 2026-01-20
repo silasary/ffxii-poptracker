@@ -29,8 +29,52 @@
         ],
         "sections": [
           {
-            "name": "Chests (6613, 6711, 6801, 7002)",
-            "ref": "Main/Draklor Laboratory/Chests (6613, 6711, 6801, 7002)"
+            "name": "6613 East Treasure 1",
+            "ref": "Main/Draklor Laboratory/6613 East Treasure 1"
+          },
+          {
+            "name": "6613 East Treasure 2",
+            "ref": "Main/Draklor Laboratory/6613 East Treasure 2"
+          },
+          {
+            "name": "6613 East Treasure 3",
+            "ref": "Main/Draklor Laboratory/6613 East Treasure 3"
+          },
+          {
+            "name": "7002 East Treasure 1",
+            "ref": "Main/Draklor Laboratory/7002 East Treasure 1"
+          },
+          {
+            "name": "7002 East Treasure 2",
+            "ref": "Main/Draklor Laboratory/7002 East Treasure 2"
+          },
+          {
+            "name": "6711 West Treasure 1",
+            "ref": "Main/Draklor Laboratory/6711 West Treasure 1"
+          },
+          {
+            "name": "6711 West Treasure 2",
+            "ref": "Main/Draklor Laboratory/6711 West Treasure 2"
+          },
+          {
+            "name": "6711 West Treasure 3",
+            "ref": "Main/Draklor Laboratory/6711 West Treasure 3"
+          },
+          {
+            "name": "6801 West Treasure 1",
+            "ref": "Main/Draklor Laboratory/6801 West Treasure 1"
+          },
+          {
+            "name": "6801 West Treasure 2",
+            "ref": "Main/Draklor Laboratory/6801 West Treasure 2"
+          },
+          {
+            "name": "6801 West Treasure 3",
+            "ref": "Main/Draklor Laboratory/6801 West Treasure 3"
+          },
+          {
+            "name": "6801 West Treasure 4",
+            "ref": "Main/Draklor Laboratory/6801 West Treasure 4"
           }
         ]
       },
