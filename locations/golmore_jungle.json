@@ -29,8 +29,52 @@
             "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 4"
           },
           {
-            "name": "Late Chests",
-            "ref": "Main/Golmore Jungle/Late Chests"
+            "name": "The Parting Glade Treasure 1",
+            "ref": "Main/Golmore Jungle E/The Parting Glade Treasure 1"
+          },
+          {
+            "name": "The Rustling Chapel Treasure 1",
+            "ref": "Main/Golmore Jungle S/The Rustling Chapel Treasure 1"
+          },
+          {
+            "name": "The Rustling Chapel Treasure 2",
+            "ref": "Main/Golmore Jungle S/The Rustling Chapel Treasure 2"
+          },
+          {
+            "name": "The Rustling Chapel Treasure 3",
+            "ref": "Main/Golmore Jungle S/The Rustling Chapel Treasure 3"
+          },
+          {
+            "name": "The Rustling Chapel Treasure 4",
+            "ref": "Main/Golmore Jungle S/The Rustling Chapel Treasure 4"
+          },
+          {
+            "name": "Dell of the Dreamer Treasure 1",
+            "ref": "Main/Golmore Jungle E/Dell of the Dreamer Treasure 1"
+          },
+          {
+            "name": "The Branchway Treasure 1",
+            "ref": "Main/Golmore Jungle E/The Branchway Treasure 1"
+          },
+          {
+            "name": "The Branchway Treasure 2",
+            "ref": "Main/Golmore Jungle E/The Branchway Treasure 2"
+          },
+          {
+            "name": "The Branchway Treasure 3",
+            "ref": "Main/Golmore Jungle E/The Branchway Treasure 3"
+          },
+          {
+            "name": "The Greenswathe Treasure 1",
+            "ref": "Main/Golmore Jungle E/The Greenswathe Treasure 1"
+          },
+          {
+            "name": "The Greenswathe Treasure 2",
+            "ref": "Main/Golmore Jungle E/The Greenswathe Treasure 2"
+          },
+          {
+            "name": "The Greenswathe Treasure 3",
+            "ref": "Main/Golmore Jungle E/The Greenswathe Treasure 3"
           }
         ]
       },
@@ -46,11 +90,11 @@
         "sections": [
           {
             "name": "Defeat Vorpal Bunny",
-            "ref": "Main/Golmore Jungle/Defeat Vorpal Bunny"
+            "ref": "Main/Golmore Jungle S/Defeat Vorpal Bunny"
           },
           {
             "name": "Vorpal Bunny Drop",
-            "ref": "Main/Golmore Jungle/Vorpal Bunny Drop"
+            "ref": "Main/Golmore Jungle S/Vorpal Bunny Drop"
           }
         ]
       },
@@ -66,7 +110,7 @@
         "sections": [
           {
             "name": "Biding Mantis - Scythe Trophy",
-            "ref": "Main/Golmore Jungle/Biding Mantis - Scythe Trophy"
+            "ref": "Main/Golmore Jungle S/Biding Mantis - Scythe Trophy"
           }
         ]
       }

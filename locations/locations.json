@@ -8412,20 +8412,91 @@
         ]
       },
       {
-        "name": "Golmore Jungle",
+        "name": "Golmore Jungle E",
         "access_rules": [
           "$paramina_rift"
         ],
         "sections": [
           {
-            "name": "Late Chests",
+            "name": "The Parting Glade Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Golmore Jungle E - The Parting Glade Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
             ]
           },
+          {
+            "name": "Dell of the Dreamer Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - Dell of the Dreamer Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Branchway Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - The Branchway Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Branchway Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - The Branchway Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Branchway Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - The Branchway Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Greenswathe Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - The Greenswathe Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Greenswathe Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - The Greenswathe Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Greenswathe Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle E - The Greenswathe Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Golmore Jungle S",
+        "access_rules": [
+          "$paramina_rift"
+        ],
+        "sections": [
           {
             "name": "Defeat Vorpal Bunny",
             "visibility_rules": [
@@ -8452,6 +8523,42 @@
               "$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "biding_mantis"
+          },
+          {
+            "name": "The Rustling Chapel Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle S - The Rustling Chapel Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Rustling Chapel Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle S - The Rustling Chapel Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Rustling Chapel Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle S - The Rustling Chapel Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Rustling Chapel Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle S - The Rustling Chapel Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
