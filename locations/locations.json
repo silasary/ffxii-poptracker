@@ -7173,11 +7173,19 @@
             "access_rules": [
               "[$scaled_difficulty|4]"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Mosphoran Highwaste Upper",
+        "access_rules": [
+          "$tchita_uplands,[$defeat_bergan]"
+        ],
+        "sections": [
           {
             "name": "Defeat Exodus",
             "access_rules": [
-              "$defeat_bergan,[$scaled_difficulty|4]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -7186,9 +7194,45 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$defeat_bergan,[$scaled_difficulty|7]"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dheed"
+          },
+          {
+            "name": "Skyreach Ridge Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Skyreach Ridge Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           }
         ]
       },

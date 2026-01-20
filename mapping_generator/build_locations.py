@@ -44,7 +44,6 @@ def main() -> None:
                 break
 
         if not pt_loc:
-            print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
             if "Treasure" in shortname and todays_treasures in [region_name, None]:
                 pt_loc = {
                     "name": shortname,
@@ -54,6 +53,8 @@ def main() -> None:
                 region['sections'].append(pt_loc)
                 todays_treasures = region_name
             else:
+                if not warned_regions:
+                    print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
                 continue
 
         access_rule: str | None = None
