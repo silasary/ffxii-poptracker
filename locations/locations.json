@@ -12873,7 +12873,7 @@
         ],
         "sections": [
           {
-            "name": "East Tanks Treasure 1",
+            "name": "Platform 1 - East Tanks Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 1"
             ],
@@ -12882,7 +12882,7 @@
             ]
           },
           {
-            "name": "East Tanks Treasure 2",
+            "name": "Platform 1 - East Tanks Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 2"
             ],
@@ -12891,7 +12891,7 @@
             ]
           },
           {
-            "name": "East Tanks Treasure 3",
+            "name": "Platform 1 - East Tanks Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 3"
             ],
@@ -12900,7 +12900,7 @@
             ]
           },
           {
-            "name": "East Tanks Treasure 4",
+            "name": "Platform 1 - East Tanks Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Ogir-Yensa Sandsea - Platform 1 - East Tanks Treasure 4"
             ],
