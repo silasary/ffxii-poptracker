@@ -17,7 +17,7 @@ jobs:
                   echo "VERSION=$VERSION" >> $GITHUB_OUTPUT
             - name: create release zip
               run: |
-                  zip ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip -r . -x "*.git*" "*.vscode*" "*.zip" "screenshot*" "mapping_generator/*"
+                  zip ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip -r . -x "*.git*" "*.vscode*" "*.zip" "screenshot*" "mapping_generator/*" "versions.json"
             - name: Get hash
               id: get_hash
               run: |
@@ -33,7 +33,7 @@ jobs:
             - name: Get asset download URL
               id: get_asset_url
               run: |
-                  ASSET_URL=$(jq '.[0].downloadUrl' ${{ steps.upload_release_asset.outputs.assets }})
+                  ASSET_URL=$(echo ${{ steps.upload_release_asset.outputs.assets }} | jq '.[0].browser_download_url')
                   echo "ASSET_URL=$ASSET_URL" >> $GITHUB_OUTPUT
             - name: Update versions.json
               run: |
