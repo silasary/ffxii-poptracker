@@ -5391,6 +5391,42 @@
               "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "terror_tyrant"
+          },
+          {
+            "name": "Outpost Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Outpost Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Outpost Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Outpost Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Outpost Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Outpost Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Outpost Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Dalmasca Estersand - Outpost Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
           }
         ]
       },

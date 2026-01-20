@@ -1,12 +1,12 @@
 import sys
 import jsoncomment
-import dis
 import from_lambda
+import re
 
 json = jsoncomment.JsonComment()
 sys.path.append("D:\\source\\repos\\Archipelago.worktrees\\ff12_openworld")
 
-
+without_parentheses_re = re.compile(r'^(.*?)\s*\((\d*)\)\s*$')
 
 def main() -> None:
     from worlds.ff12_open_world.Locations import location_data_table
@@ -27,6 +27,10 @@ def main() -> None:
         shortname = name
         if name.startswith(f'{region_name} - '):
             shortname = name[len(region_name) + 3 :]
+
+        if match := without_parentheses_re.match(shortname):
+            shortname = match.group(1)
+
         region = regions.get(region_name)
         if not region:
             if region_name not in warned_regions:
