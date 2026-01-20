@@ -11074,15 +11074,6 @@
             ]
           },
           {
-            "name": "The Balamka Fault Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 1"
-            ],
-            "access_rules": [
-              "$ozmone_plain,[$scaled_difficulty|5]"
-            ]
-          },
-          {
             "name": "Sandfalls Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 1"
