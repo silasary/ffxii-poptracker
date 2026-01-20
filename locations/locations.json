@@ -4807,7 +4807,7 @@
         ]
       },
       {
-        "name": "The Pharos",
+        "name": "Pharos of Ridorana",
         "access_rules": [
           "$has_n_system_access_keys|2"
         ],

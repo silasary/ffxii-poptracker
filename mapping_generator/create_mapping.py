@@ -181,7 +181,5 @@ for loc_name, loc_id in datapackage['location_name_to_id'].items():
 with open("./scripts/archipelago/treasure_mapping.lua", 'w') as treasure_out:
     treasure_out.write("return {\n")
     for treasure_id, treasure_name in treasure_map.items():
-        if 'Pharos of Ridorana' in treasure_name:
-            treasure_name = treasure_name.replace('Pharos of Ridorana', 'The Pharos')
         treasure_out.write(f"""\t[{treasure_id}] = {treasure_name},\n""")
     treasure_out.write("}\n")
