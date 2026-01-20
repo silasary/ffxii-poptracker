@@ -14,7 +14,7 @@
         "sections": [
           {
             "name": "Defeat Darksteel",
-            "ref": "Main/Sochen Cave Palace/Defeat Darksteel"
+            "ref": "Main/Sochen Cave Palace Middle/Defeat Darksteel"
           }
         ]
       },
@@ -30,7 +30,7 @@
         "sections": [
           {
             "name": "Hell Wyrm Chest",
-            "ref": "Main/Sochen Cave Palace/Hell Wyrm Chest"
+            "ref": "Main/Sochen Cave Palace Middle/Hell Wyrm Chest"
           }
         ]
       }

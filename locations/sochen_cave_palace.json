@@ -19,39 +19,39 @@
         "sections": [
           {
             "name": "Doubt Abandoned Treasure 1",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 1"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 1"
           },
           {
             "name": "Doubt Abandoned Treasure 2",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 2"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 2"
           },
           {
             "name": "Doubt Abandoned Treasure 3",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 3"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 3"
           },
           {
             "name": "Doubt Abandoned Treasure 4",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 4"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 4"
           },
           {
             "name": "Doubt Abandoned Treasure 5",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 5"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 5"
           },
           {
             "name": "Doubt Abandoned Treasure 6",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 6"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 6"
           },
           {
             "name": "Doubt Abandoned Treasure 7",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 7"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 7"
           },
           {
             "name": "Doubt Abandoned Treasure 8",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 8"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 8"
           },
           {
             "name": "Doubt Abandoned Treasure 9",
-            "ref": "Main/Sochen Cave Palace/Doubt Abandoned Treasure 9"
+            "ref": "Main/Sochen Cave Palace S/Doubt Abandoned Treasure 9"
           }
         ]
       },
@@ -67,11 +67,11 @@
         "sections": [
           {
             "name": "Entrance Chests",
-            "ref": "Main/Sochen Cave Palace/Entrance Chests - Sochen Cave"
+            "ref": "Main/Sochen Cave Palace Middle/Entrance Chests - Sochen Cave"
           },
           {
             "name": "Interior Chests",
-            "ref": "Main/Sochen Cave Palace/Interior Chests - Sochen Cave"
+            "ref": "Main/Sochen Cave Palace Middle/Interior Chests - Sochen Cave"
           }
         ]
       },
@@ -87,7 +87,7 @@
         "sections": [
           {
             "name": "Hell Wyrm Chest",
-            "ref": "Main/Sochen Cave Palace/Hell Wyrm Chest"
+            "ref": "Main/Sochen Cave Palace Middle/Hell Wyrm Chest"
           }
         ]
       },
@@ -103,7 +103,7 @@
         "sections": [
           {
             "name": "Defeat Darksteel",
-            "ref": "Main/Sochen Cave Palace/Defeat Darksteel"
+            "ref": "Main/Sochen Cave Palace Middle/Defeat Darksteel"
           }
         ]
       },
@@ -119,7 +119,7 @@
         "sections": [
           {
             "name": "Defeat Overlord",
-            "ref": "Main/Sochen Cave Palace/Defeat Overlord"
+            "ref": "Main/Sochen Cave Palace Middle/Defeat Overlord"
           }
         ]
       },
@@ -135,7 +135,7 @@
         "sections": [
           {
             "name": "Wendice - Frigid Trophy",
-            "ref": "Main/Sochen Cave Palace/Wendice - Frigid Trophy"
+            "ref": "Main/Sochen Cave Palace Middle/Wendice - Frigid Trophy"
           }
         ]
       },
@@ -151,7 +151,7 @@
         "sections": [
           {
             "name": "Anubys - Ensanguined Trophy",
-            "ref": "Main/Sochen Cave Palace/Anubys - Ensanguined Trophy"
+            "ref": "Main/Sochen Cave Palace Middle/Anubys - Ensanguined Trophy"
           }
         ]
       }

@@ -14,11 +14,11 @@
         "sections": [
           {
             "name": "Entrance Chests",
-            "ref": "Main/Sochen Cave Palace/Entrance Chests - Sochen Cave"
+            "ref": "Main/Sochen Cave Palace Middle/Entrance Chests - Sochen Cave"
           },
           {
             "name": "Interior Chests",
-            "ref": "Main/Sochen Cave Palace/Interior Chests - Sochen Cave"
+            "ref": "Main/Sochen Cave Palace Middle/Interior Chests - Sochen Cave"
           }
         ]
       },
@@ -34,7 +34,7 @@
         "sections": [
           {
             "name": "Anubys - Ensanguined Trophy",
-            "ref": "Main/Sochen Cave Palace/Anubys - Ensanguined Trophy"
+            "ref": "Main/Sochen Cave Palace Middle/Anubys - Ensanguined Trophy"
           }
         ]
       },
@@ -50,7 +50,7 @@
         "sections": [
           {
             "name": "Wendice - Frigid Trophy",
-            "ref": "Main/Sochen Cave Palace/Wendice - Frigid Trophy"
+            "ref": "Main/Sochen Cave Palace Middle/Wendice - Frigid Trophy"
           }
         ]
       }

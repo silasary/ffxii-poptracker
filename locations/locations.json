@@ -4555,7 +4555,8 @@
           {
             "name": "Kabonii Jilaam Pratii'vaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Kabonii Jilaam Pratii'vaa Treasure 1"
+              "$chest_visibility|Giruvegan - Kabonii Jilaam Pratii'vaa Treasure 1",
+              "$chest_visibility|Great Crystal - Kabonii Jilaam Pratii'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"
@@ -4564,7 +4565,8 @@
           {
             "name": "Kabnoii Jilaam Avaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Kabnoii Jilaam Avaa Treasure 1"
+              "$chest_visibility|Giruvegan - Kabnoii Jilaam Avaa Treasure 1",
+              "$chest_visibility|Great Crystal - Kabnoii Jilaam Avaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"
@@ -4573,7 +4575,8 @@
           {
             "name": "Bhrum Pis Avaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Bhrum Pis Avaa Treasure 1"
+              "$chest_visibility|Giruvegan - Bhrum Pis Avaa Treasure 1",
+              "$chest_visibility|Great Crystal - Bhrum Pis Avaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"
@@ -4582,7 +4585,8 @@
           {
             "name": "Bhrum Pis Pratii Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Bhrum Pis Pratii Treasure 1"
+              "$chest_visibility|Giruvegan - Bhrum Pis Pratii Treasure 1",
+              "$chest_visibility|Great Crystal - Bhrum Pis Pratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"
@@ -4591,7 +4595,8 @@
           {
             "name": "Trahk Pis Praa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Trahk Pis Praa Treasure 1"
+              "$chest_visibility|Giruvegan - Trahk Pis Praa Treasure 1",
+              "$chest_visibility|Great Crystal - Trahk Pis Praa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"
@@ -4600,7 +4605,8 @@
           {
             "name": "Trahk Jilaam Praa'dii Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Trahk Jilaam Praa'dii Treasure 1"
+              "$chest_visibility|Giruvegan - Trahk Jilaam Praa'dii Treasure 1",
+              "$chest_visibility|Great Crystal - Trahk Jilaam Praa'dii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|4]"
@@ -4609,7 +4615,8 @@
           {
             "name": "Crystal Peak Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Crystal Peak Treasure 1"
+              "$chest_visibility|Giruvegan - Crystal Peak Treasure 1",
+              "$chest_visibility|Great Crystal - Crystal Peak Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4618,7 +4625,8 @@
           {
             "name": "Crystal Peak Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Crystal Peak Treasure 2"
+              "$chest_visibility|Giruvegan - Crystal Peak Treasure 2",
+              "$chest_visibility|Great Crystal - Crystal Peak Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4627,7 +4635,8 @@
           {
             "name": "Dhebon Jilaam Avaapratii Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Dhebon Jilaam Avaapratii Treasure 1"
+              "$chest_visibility|Giruvegan - Dhebon Jilaam Avaapratii Treasure 1",
+              "$chest_visibility|Great Crystal - Dhebon Jilaam Avaapratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4636,7 +4645,8 @@
           {
             "name": "Dhebon Jilaam Avaapratii Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Dhebon Jilaam Avaapratii Treasure 2"
+              "$chest_visibility|Giruvegan - Dhebon Jilaam Avaapratii Treasure 2",
+              "$chest_visibility|Great Crystal - Dhebon Jilaam Avaapratii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4645,7 +4655,8 @@
           {
             "name": "Sirhru Phullam Praa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Praa Treasure 1"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Praa Treasure 1",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4654,7 +4665,8 @@
           {
             "name": "Sirhru Phullam Praa Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Praa Treasure 2"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Praa Treasure 2",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4663,7 +4675,8 @@
           {
             "name": "Sirhru Phullam Praa'vaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Praa'vaa Treasure 1"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Praa'vaa Treasure 1",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4672,7 +4685,8 @@
           {
             "name": "Sirhru Phullam Praa'vaa Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Praa'vaa Treasure 2"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Praa'vaa Treasure 2",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4681,7 +4695,8 @@
           {
             "name": "Sirhru Phullam Pratii'vaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Pratii'vaa Treasure 1"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Pratii'vaa Treasure 1",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Pratii'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4690,7 +4705,8 @@
           {
             "name": "Sirhru Phullam Pratii'vaa Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Pratii'vaa Treasure 2"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Pratii'vaa Treasure 2",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Pratii'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4699,7 +4715,8 @@
           {
             "name": "Sirhru Phullam Udiipratii Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Udiipratii Treasure 1"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Udiipratii Treasure 1",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Udiipratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4708,7 +4725,8 @@
           {
             "name": "Sirhru Phullam Udiipratii Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Phullam Udiipratii Treasure 2"
+              "$chest_visibility|Giruvegan - Sirhru Phullam Udiipratii Treasure 2",
+              "$chest_visibility|Great Crystal - Sirhru Phullam Udiipratii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4717,7 +4735,8 @@
           {
             "name": "Sirhru Jilaam Praa'vaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Jilaam Praa'vaa Treasure 1"
+              "$chest_visibility|Giruvegan - Sirhru Jilaam Praa'vaa Treasure 1",
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Praa'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4726,7 +4745,8 @@
           {
             "name": "Sirhru Jilaam Praa'vaa Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Jilaam Praa'vaa Treasure 2"
+              "$chest_visibility|Giruvegan - Sirhru Jilaam Praa'vaa Treasure 2",
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Praa'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4735,7 +4755,8 @@
           {
             "name": "Sirhru Jilaam Pratii'vaa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Jilaam Pratii'vaa Treasure 1"
+              "$chest_visibility|Giruvegan - Sirhru Jilaam Pratii'vaa Treasure 1",
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Pratii'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4744,7 +4765,8 @@
           {
             "name": "Sirhru Jilaam Pratii'vaa Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Sirhru Jilaam Pratii'vaa Treasure 2"
+              "$chest_visibility|Giruvegan - Sirhru Jilaam Pratii'vaa Treasure 2",
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Pratii'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4753,7 +4775,8 @@
           {
             "name": "Uldobi Phullam Pratii'dii Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii'dii Treasure 1"
+              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii'dii Treasure 1",
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii'dii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4762,7 +4785,8 @@
           {
             "name": "Uldobi Phullam Pratii'dii Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii'dii Treasure 2"
+              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii'dii Treasure 2",
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii'dii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4771,7 +4795,8 @@
           {
             "name": "Uldobi Phullam Udiipraa Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Uldobi Phullam Udiipraa Treasure 1"
+              "$chest_visibility|Giruvegan - Uldobi Phullam Udiipraa Treasure 1",
+              "$chest_visibility|Great Crystal - Uldobi Phullam Udiipraa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4780,7 +4805,8 @@
           {
             "name": "Uldobi Phullam Udiipraa Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Uldobi Phullam Udiipraa Treasure 2"
+              "$chest_visibility|Giruvegan - Uldobi Phullam Udiipraa Treasure 2",
+              "$chest_visibility|Great Crystal - Uldobi Phullam Udiipraa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4789,7 +4815,8 @@
           {
             "name": "Uldobi Phullam Pratii Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii Treasure 1"
+              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii Treasure 1",
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4798,7 +4825,8 @@
           {
             "name": "Uldobi Phullam Pratii Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii Treasure 2"
+              "$chest_visibility|Giruvegan - Uldobi Phullam Pratii Treasure 2",
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -6537,7 +6565,8 @@
           {
             "name": "The Yoma Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 1"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 1",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6546,7 +6575,8 @@
           {
             "name": "The Yoma Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 2"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 2",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6555,7 +6585,8 @@
           {
             "name": "The Yoma Treasure 3",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 3"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 3",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6564,7 +6595,8 @@
           {
             "name": "The Yoma Treasure 4",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 4"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 4",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6573,7 +6605,8 @@
           {
             "name": "The Yoma Treasure 5",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 5"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 5",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 5"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6582,7 +6615,8 @@
           {
             "name": "The Yoma Treasure 6",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 6"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 6",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6591,7 +6625,8 @@
           {
             "name": "The Yoma Treasure 7",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 7"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 7",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6600,7 +6635,8 @@
           {
             "name": "The Yoma Treasure 8",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 8"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 8",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 8"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6609,7 +6645,8 @@
           {
             "name": "The Yoma Treasure 9",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 9"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 9",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6618,7 +6655,8 @@
           {
             "name": "The Yoma Treasure 10",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 10"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 10",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 10"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6627,7 +6665,8 @@
           {
             "name": "The Yoma Treasure 11",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 11"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 11",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 11"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6636,7 +6675,8 @@
           {
             "name": "The Yoma Treasure 12",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 12"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 12",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 12"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6645,7 +6685,8 @@
           {
             "name": "The Yoma Treasure 13",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 13"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 13",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 13"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6654,7 +6695,8 @@
           {
             "name": "The Yoma Treasure 14",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 14"
+              "$chest_visibility|Dalmasca Estersand - The Yoma Treasure 14",
+              "$chest_visibility|Dalmasca Estersand North - The Yoma Treasure 14"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6663,7 +6705,8 @@
           {
             "name": "Broken Sands Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 1"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 1",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6672,7 +6715,8 @@
           {
             "name": "Broken Sands Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 2"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 2",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6681,7 +6725,8 @@
           {
             "name": "Broken Sands Treasure 3",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 3"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 3",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6690,7 +6735,8 @@
           {
             "name": "Broken Sands Treasure 4",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 4"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 4",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6699,7 +6745,8 @@
           {
             "name": "Broken Sands Treasure 5",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 5"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 5",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 5"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6708,7 +6755,8 @@
           {
             "name": "Broken Sands Treasure 6",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 6"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 6",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6717,7 +6765,8 @@
           {
             "name": "Broken Sands Treasure 7",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 7"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 7",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6726,7 +6775,8 @@
           {
             "name": "Broken Sands Treasure 8",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 8"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 8",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 8"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6735,7 +6785,8 @@
           {
             "name": "Broken Sands Treasure 9",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 9"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 9",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6744,7 +6795,8 @@
           {
             "name": "Broken Sands Treasure 10",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 10"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 10",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 10"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6753,7 +6805,8 @@
           {
             "name": "Broken Sands Treasure 11",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 11"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 11",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 11"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6762,7 +6815,8 @@
           {
             "name": "Broken Sands Treasure 12",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 12"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 12",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 12"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -6771,7 +6825,8 @@
           {
             "name": "Broken Sands Treasure 13",
             "visibility_rules": [
-              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 13"
+              "$chest_visibility|Dalmasca Estersand - Broken Sands Treasure 13",
+              "$chest_visibility|Dalmasca Estersand North - Broken Sands Treasure 13"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -16282,108 +16337,100 @@
         ]
       },
       {
-        "name": "Sochen Cave Palace",
+        "name": "Sochen Cave Palace S",
+        "access_rules": [
+          "$tchita_uplands"
+        ],
         "sections": [
           {
             "name": "Doubt Abandoned Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 1"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 1",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 1"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 2"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 2",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 2"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 3",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 3"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 3",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 3"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 4",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 4"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 4",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 4"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 5",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 5"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 5",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 5"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 6",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 6"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 6",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 6"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 7",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 7"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 7",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 7"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 8",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 8"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 8",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 8"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
             "name": "Doubt Abandoned Treasure 9",
             "visibility_rules": [
-              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 9"
+              "$chest_visibility|Sochen Cave Palace - Doubt Abandoned Treasure 9",
+              "$chest_visibility|Sochen Cave Palace S - Doubt Abandoned Treasure 9"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
-          },
-          {
-            "name": "Interior Chests - Sochen Cave",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|3]"
-            ]
-          },
-          {
-            "name": "Defeat Darksteel",
-            "visibility_rules": [
-              "place_clan_rank",
-              "place_hunts"
-            ],
-            "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|4]"
-            ],
-            "hosted_item": "darksteel"
           },
           {
             "name": "Defeat Overlord",
@@ -16395,6 +16442,25 @@
               "$sochen_cave_palace,[$scaled_difficulty|5]"
             ],
             "hosted_item": "overlord"
+          }
+        ]
+      },
+      {
+        "name": "Sochen Cave Palace Middle",
+        "access_rules": [
+          "$sochen_cave_palace"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Darksteel",
+            "visibility_rules": [
+              "place_clan_rank",
+              "place_hunts"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ],
+            "hosted_item": "darksteel"
           },
           {
             "name": "Wendice - Frigid Trophy",
@@ -16402,7 +16468,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$hunt_club_start,[$scaled_difficulty|5]"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "wendice"
           },
@@ -16412,7 +16478,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$sochen_cave_palace,$hunt_club_start,[$scaled_difficulty|7]"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "anubys"
           },
@@ -16422,7 +16488,385 @@
               "place_treasures"
             ],
             "access_rules": [
-              "$sochen_cave_palace,ageworn_key,[$scaled_difficulty|8]"
+              "ageworn_key,[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Falls of Time Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Mirror of the Soul Treasure 8",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Mirror of the Soul Treasure 8"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Acolyte's Burden Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - The Acolyte's Burden Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "The Acolyte's Burden Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - The Acolyte's Burden Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Destiny's March Treasure 7",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Destiny's March Treasure 7"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Temptation Eluded Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Temptation Eluded Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Temptation Eluded Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Temptation Eluded Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Temptation Eluded Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Temptation Eluded Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Temptation Eluded Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Temptation Eluded Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Shadowlight Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Shadowlight Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Shadowlight Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Shadowlight Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Shadowlight Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Shadowlight Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Shadowlight Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Shadowlight Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Shadowlight Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Shadowlight Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Lambent Darkness Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Lambent Darkness Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Lambent Darkness Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of Lambent Darkness Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of the Wroth God Treasure 1"
+            ],
+            "access_rules": [
+              "ageworn_key,[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of the Wroth God Treasure 2"
+            ],
+            "access_rules": [
+              "ageworn_key,[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of the Wroth God Treasure 3"
+            ],
+            "access_rules": [
+              "ageworn_key,[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Sochen Cave Palace Middle - Hall of the Wroth God Treasure 4"
+            ],
+            "access_rules": [
+              "ageworn_key,[$scaled_difficulty|8]"
             ]
           }
         ]

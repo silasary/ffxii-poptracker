@@ -214,7 +214,7 @@ return {
    [2261] = {"@Main/Ogir-Yensa Sandsea/Bull Chocobo - Beaked Trophy"},
    [2273] = {"@Main/Salikawood/Rageclaw - Sickle Trophy"},
    [2291] = {"@Main/Feywood/Dreadguard - Feathered Trophy"},
-   [2312] = {"@Main/Sochen Cave Palace/Wendice - Frigid Trophy"},
-   [2315] = {"@Main/Sochen Cave Palace/Anubys - Ensanguined Trophy"},
+   [2312] = {"@Main/Sochen Cave Palace Middle/Wendice - Frigid Trophy"},
+   [2315] = {"@Main/Sochen Cave Palace Middle/Anubys - Ensanguined Trophy"},
    [2324] = {"@Main/Ridorana Cataract/Abelisk - Reptilian Trophy"},
 }

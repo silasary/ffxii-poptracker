@@ -75,6 +75,12 @@ def main() -> None:
                     pt_loc['access_rules'][0] = access_rule
             else:
                 pt_loc['access_rules'] = [access_rule]
+        if " Treasure " in name:
+            visibility_rule = f"$chest_visibility|{name}"
+            py_visibility_rules = pt_loc.setdefault('visibility_rules', [])
+            if visibility_rule not in py_visibility_rules:
+                py_visibility_rules.append(visibility_rule)
+
         pass
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
