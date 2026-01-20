@@ -14,39 +14,39 @@
         "sections": [
           {
             "name": "Penumbra - North Treasure 1",
-            "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 1"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - North Treasure 1"
           },
           {
             "name": "Penumbra - North Treasure 2",
-            "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 2"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - North Treasure 2"
           },
           {
             "name": "Penumbra - North Treasure 3",
-            "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 3"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - North Treasure 3"
           },
           {
             "name": "Penumbra - North Treasure 4",
-            "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 4"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - North Treasure 4"
           },
           {
             "name": "Penumbra - North Treasure 5",
-            "ref": "Main/The Pharos Subterra/Penumbra - North Treasure 5"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - North Treasure 5"
           },
           {
             "name": "Penumbra - South Treasure 1",
-            "ref": "Main/The Pharos Subterra/Penumbra - South Treasure 1"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - South Treasure 1"
           },
           {
             "name": "Penumbra - South Treasure 2",
-            "ref": "Main/The Pharos Subterra/Penumbra - South Treasure 2"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - South Treasure 2"
           },
           {
             "name": "Penumbra - South Treasure 3",
-            "ref": "Main/The Pharos Subterra/Penumbra - South Treasure 3"
+            "ref": "Main/Pharos of Ridorana Subterra/Penumbra - South Treasure 3"
           },
           {
             "name": "Black Orbs 4-8",
-            "ref": "Main/The Pharos Subterra/Black Orbs 4-8"
+            "ref": "Main/Pharos of Ridorana Subterra/Black Orbs 4-8"
           }
         ]
       },
@@ -61,12 +61,48 @@
         ],
         "sections": [
           {
-            "name": "Umbra Chests",
-            "ref": "Main/The Pharos Subterra/Umbra Chests"
+            "name": "Umbra - North Treasure 1",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - North Treasure 1"
+          },
+          {
+            "name": "Umbra - North Treasure 2",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - North Treasure 2"
+          },
+          {
+            "name": "Umbra - North Treasure 3",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - North Treasure 3"
+          },
+          {
+            "name": "Umbra - North Treasure 4",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - North Treasure 4"
+          },
+          {
+            "name": "Umbra - South Treasure 1",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - South Treasure 1"
+          },
+          {
+            "name": "Umbra - South Treasure 2",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - South Treasure 2"
+          },
+          {
+            "name": "Umbra - South Treasure 3",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - South Treasure 3"
+          },
+          {
+            "name": "Umbra - South Treasure 4",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - South Treasure 4"
+          },
+          {
+            "name": "Umbra - South Treasure 5",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - South Treasure 5"
+          },
+          {
+            "name": "Umbra - South Treasure 6",
+            "ref": "Main/Pharos of Ridorana Subterra/Umbra - South Treasure 6"
           },
           {
             "name": "Black Orbs 9-15",
-            "ref": "Main/The Pharos Subterra/Black Orbs 9-15"
+            "ref": "Main/Pharos of Ridorana Subterra/Black Orbs 9-15"
           }
         ]
       },
@@ -81,12 +117,80 @@
         ],
         "sections": [
           {
-            "name": "Abyssal Chests",
-            "ref": "Main/The Pharos Subterra/Abyssal Chests"
+            "name": "Abyssal - North Treasure 1",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 1"
+          },
+          {
+            "name": "Abyssal - North Treasure 2",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 2"
+          },
+          {
+            "name": "Abyssal - North Treasure 3",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 3"
+          },
+          {
+            "name": "Abyssal - North Treasure 4",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 4"
+          },
+          {
+            "name": "Abyssal - North Treasure 5",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 5"
+          },
+          {
+            "name": "Abyssal - North Treasure 6",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 6"
+          },
+          {
+            "name": "Abyssal - North Treasure 7",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 7"
+          },
+          {
+            "name": "Abyssal - North Treasure 8",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 8"
+          },
+          {
+            "name": "Abyssal - North Treasure 9",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - North Treasure 9"
+          },
+          {
+            "name": "Abyssal - South Treasure 1",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 1"
+          },
+          {
+            "name": "Abyssal - South Treasure 2",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 2"
+          },
+          {
+            "name": "Abyssal - South Treasure 3",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 3"
+          },
+          {
+            "name": "Abyssal - South Treasure 4",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 4"
+          },
+          {
+            "name": "Abyssal - South Treasure 5",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 5"
+          },
+          {
+            "name": "Abyssal - South Treasure 6",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 6"
+          },
+          {
+            "name": "Abyssal - South Treasure 7",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 7"
+          },
+          {
+            "name": "Abyssal - South Treasure 8",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 8"
+          },
+          {
+            "name": "Abyssal - South Treasure 9",
+            "ref": "Main/Pharos of Ridorana Subterra/Abyssal - South Treasure 9"
           },
           {
             "name": "Black Orbs 16-24",
-            "ref": "Main/The Pharos Subterra/Black Orbs 16-24"
+            "ref": "Main/Pharos of Ridorana Subterra/Black Orbs 16-24"
           }
         ]
       },
@@ -102,11 +206,11 @@
         "sections": [
           {
             "name": "Defeat Ixion",
-            "ref": "Main/The Pharos Subterra/Defeat Ixion"
+            "ref": "Main/Pharos of Ridorana Subterra/Defeat Ixion"
           },
           {
             "name": "Defeat Shadowseer",
-            "ref": "Main/The Pharos Subterra/Defeat Shadowseer"
+            "ref": "Main/Pharos of Ridorana Subterra/Defeat Shadowseer"
           }
         ]
       }

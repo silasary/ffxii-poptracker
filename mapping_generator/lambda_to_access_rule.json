@@ -9,5 +9,7 @@
     "lambda state, player: state.has(Lusterless Medallion, player) if state.has(Medallion of Love, player) else state.has(Medallion of Love, player)": "med_lusterless,med_love",
     "lambda state, player: state.has(Lab Access Card, player)": "lab_access_card",
     "lambda state, player: state.has(Dawn Shard, player)": "dawn_shard",
-    "lambda state, player: state.has(Black Orb, player, 3)": "$has_n_black_orbs|3"
+    "lambda state, player: state.has(Black Orb, player, 3)": "$has_n_black_orbs|3",
+    "lambda state, player: state.has(Black Orb, player, 8)": "$has_n_black_orbs|8",
+    "lambda state, player: state.has(Black Orb, player, 15)": "$has_n_black_orbs|15"
 }
