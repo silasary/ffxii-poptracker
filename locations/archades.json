@@ -63,7 +63,7 @@
         ]
       },
       {
-        "name": "Grand Arcade chest",
+        "name": "Grand Arcade Treasure 1",
         "map_locations": [
           {
             "map": "archades",
@@ -73,7 +73,7 @@
         ],
         "sections": [
           {
-            "ref": "Main/Archades/Grand Arcade chest"
+            "ref": "Main/Archades/Grand Arcade Treasure 1"
           }
         ]
       },

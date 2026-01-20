@@ -3346,7 +3346,7 @@
             ]
           },
           {
-            "name": "Grand Arcade chest",
+            "name": "Grand Arcade Treasure 1",
             "visibility_rules": [
               "place_treasures"
             ],

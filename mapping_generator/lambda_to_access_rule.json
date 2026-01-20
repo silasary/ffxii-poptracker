@@ -1,0 +1,7 @@
+{
+    "lambda state, player: state.has(Sandalwood Chop, player)": "sw_chop",
+    "lambda state, player: True": "",
+    "lambda state, player: state.has(Sluice Gate Key, player)": "sluice_gate_key",
+    "lambda state, player: state.has(Site 3 Key, player)": "site_3_key",
+    "lambda state, player: state.has(Site 11 Key, player) if state.has(Site 3 Key, player) else state.has(Site 3 Key, player)": "site_3_key,site_11_key"
+}
