@@ -3,5 +3,10 @@
     "lambda state, player: True": "",
     "lambda state, player: state.has(Sluice Gate Key, player)": "sluice_gate_key",
     "lambda state, player: state.has(Site 3 Key, player)": "site_3_key",
-    "lambda state, player: state.has(Site 11 Key, player) if state.has(Site 3 Key, player) else state.has(Site 3 Key, player)": "site_3_key,site_11_key"
+    "lambda state, player: state.has(Site 11 Key, player) if state.has(Site 3 Key, player) else state.has(Site 3 Key, player)": "site_3_key,site_11_key",
+    "lambda state, player: state.has(Medallion of Might, player)": "med_might",
+    "lambda state, player: state.has(Lusterless Medallion, player) if state.has(Medallion of Bravery, player) else state.has(Medallion of Bravery, player)": "med_lusterless,med_bravery",
+    "lambda state, player: state.has(Lusterless Medallion, player) if state.has(Medallion of Love, player) else state.has(Medallion of Love, player)": "med_lusterless,med_love",
+    "lambda state, player: state.has(Lab Access Card, player)": "lab_access_card",
+    "lambda state, player: state.has(Dawn Shard, player)": "dawn_shard"
 }

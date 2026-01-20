@@ -19,7 +19,8 @@ def main():
         lambda_to_access_rule = json.load(f)
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
-    pass
+    todays_treasures = None
+
     for name, loc in location_data_table.items():
         region_name = loc.region
         shortname = name
@@ -37,13 +38,14 @@ def main():
 
         if not pt_loc:
             print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
-            if "Treasure" in shortname:
+            if "Treasure" in shortname and todays_treasures in [region_name, None]:
                 pt_loc = {
                     "name": shortname,
-                    "visibility_rules": ["place_treasures"],
+                    "visibility_rules": [f"$chest_visibility|{name}"],
                     "access_rules": [],
                 }
                 region['sections'].append(pt_loc)
+                todays_treasures = region_name
             else:
                 continue
         access_rule: str | None = None

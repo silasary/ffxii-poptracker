@@ -3348,7 +3348,7 @@
           {
             "name": "Grand Arcade Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Archades - Grand Arcade Treasure 1"
             ],
             "access_rules": [
               "sw_chop,[$scaled_difficulty|7]"
@@ -3357,7 +3357,7 @@
           {
             "name": "Hunt Club Owner: 5",
             "visibility_rules": [
-              "grindy"
+              "trophies"
             ],
             "access_rules": [
               "sw_chop,$hunt_club_kills|5"
@@ -6318,7 +6318,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6327,7 +6327,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 2",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6336,7 +6336,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 3",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6345,7 +6345,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 4",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6354,7 +6354,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 5",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 5"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6363,7 +6363,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 6",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6372,7 +6372,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 7",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6381,7 +6381,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 8",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 8"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6390,7 +6390,7 @@
           {
             "name": "Alley of Muted Sighs Treasure 9",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Muted Sighs Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6399,7 +6399,7 @@
           {
             "name": "Alley of Low Whispers Treasure 1",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6408,7 +6408,7 @@
           {
             "name": "Alley of Low Whispers Treasure 2",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6417,7 +6417,7 @@
           {
             "name": "Alley of Low Whispers Treasure 3",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6426,7 +6426,7 @@
           {
             "name": "Alley of Low Whispers Treasure 4",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6435,7 +6435,7 @@
           {
             "name": "Alley of Low Whispers Treasure 5",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 5"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6444,7 +6444,7 @@
           {
             "name": "Alley of Low Whispers Treasure 6",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6453,7 +6453,7 @@
           {
             "name": "Alley of Low Whispers Treasure 7",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6462,7 +6462,7 @@
           {
             "name": "Alley of Low Whispers Treasure 8",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 8"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6471,7 +6471,7 @@
           {
             "name": "Alley of Low Whispers Treasure 9",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6480,7 +6480,7 @@
           {
             "name": "Alley of Low Whispers Treasure 10",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 10"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
@@ -6489,7 +6489,7 @@
           {
             "name": "Alley of Low Whispers Treasure 11",
             "visibility_rules": [
-              "place_treasures"
+              "$chest_visibility|Old Archades - Alley of Low Whispers Treasure 11"
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
