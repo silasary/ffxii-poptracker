@@ -9,6 +9,11 @@
             "map": "barheim_passage",
             "x": 1200,
             "y": 115
+          },
+          {
+            "map": "barheim_passage_top",
+            "x": 893,
+            "y": 205
           }
         ],
         "sections": [
@@ -29,8 +34,316 @@
         ],
         "sections": [
           {
-            "name": "Barheim Chests",
-            "ref": "Main/Barheim Passage/Barheim Chests"
+            "name": "The Lightworks Treasure 1",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 1"
+          },
+          {
+            "name": "The Lightworks Treasure 2",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 2"
+          },
+          {
+            "name": "The Lightworks Treasure 3",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 3"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 1",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 1"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 2",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 2"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 3",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 3"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 4",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 4"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 5",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 5"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 6",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 6"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 7",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 7"
+          },
+          {
+            "name": "Op Sector 36 Treasure 1",
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 1"
+          },
+          {
+            "name": "Op Sector 36 Treasure 2",
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 2"
+          },
+          {
+            "name": "Op Sector 36 Treasure 3",
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 3"
+          },
+          {
+            "name": "Special Op Sector 3 Treasure 1",
+            "ref": "Main/Barheim Passage/Special Op Sector 3 Treasure 1"
+          },
+          {
+            "name": "Special Op Sector 3 Treasure 2",
+            "ref": "Main/Barheim Passage/Special Op Sector 3 Treasure 2"
+          },
+          {
+            "name": "Special Op Sector 3 Treasure 3",
+            "ref": "Main/Barheim Passage/Special Op Sector 3 Treasure 3"
+          },
+          {
+            "name": "Op Sector 37 Treasure 1",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 1"
+          },
+          {
+            "name": "Op Sector 37 Treasure 2",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 2"
+          },
+          {
+            "name": "Op Sector 37 Treasure 3",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 3"
+          },
+          {
+            "name": "Op Sector 37 Treasure 4",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 4"
+          },
+          {
+            "name": "Op Sector 37 Treasure 5",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 5"
+          },
+          {
+            "name": "Op Sector 29 Treasure 1",
+            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 1"
+          },
+          {
+            "name": "Op Sector 29 Treasure 2",
+            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 2"
+          },
+          {
+            "name": "Op Sector 29 Treasure 3",
+            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 3"
+          },
+          {
+            "name": "Great Central Passage Treasure 1",
+            "ref": "Main/Barheim Passage/Great Central Passage Treasure 1"
+          },
+          {
+            "name": "Great Central Passage Treasure 2",
+            "ref": "Main/Barheim Passage/Great Central Passage Treasure 2"
+          },
+          {
+            "name": "Great Central Passage Treasure 3",
+            "ref": "Main/Barheim Passage/Great Central Passage Treasure 3"
+          },
+          {
+            "name": "Great Central Passage Treasure 4",
+            "ref": "Main/Barheim Passage/Great Central Passage Treasure 4"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 1",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 1"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 2",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 2"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 3",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 3"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 4",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 4"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 5",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 5"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 6",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 6"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 7",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 7"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 8",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 8"
+          },
+          {
+            "name": "The Zeviah Subterrane Treasure 9",
+            "ref": "Main/Barheim Passage/The Zeviah Subterrane Treasure 9"
+          },
+          {
+            "name": "Terminus No. 7 Treasure 1",
+            "ref": "Main/Barheim Passage/Terminus No. 7 Treasure 1"
+          },
+          {
+            "name": "Terminus No. 7 Treasure 2",
+            "ref": "Main/Barheim Passage/Terminus No. 7 Treasure 2"
+          },
+          {
+            "name": "East-West Bypass Treasure 1",
+            "ref": "Main/Barheim Passage/East-West Bypass Treasure 1"
+          },
+          {
+            "name": "East-West Bypass Treasure 2",
+            "ref": "Main/Barheim Passage/East-West Bypass Treasure 2"
+          },
+          {
+            "name": "East-West Bypass Treasure 3",
+            "ref": "Main/Barheim Passage/East-West Bypass Treasure 3"
+          },
+          {
+            "name": "East-West Bypass Treasure 4",
+            "ref": "Main/Barheim Passage/East-West Bypass Treasure 4"
+          },
+          {
+            "name": "East-West Bypass Treasure 5",
+            "ref": "Main/Barheim Passage/East-West Bypass Treasure 5"
+          },
+          {
+            "name": "The Zeviah Span Treasure 1",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 1"
+          },
+          {
+            "name": "The Zeviah Span Treasure 2",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 2"
+          },
+          {
+            "name": "The Zeviah Span Treasure 3",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 3"
+          },
+          {
+            "name": "The Zeviah Span Treasure 4",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 4"
+          },
+          {
+            "name": "The Zeviah Span Treasure 5",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 5"
+          },
+          {
+            "name": "The Zeviah Span Treasure 6",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 6"
+          },
+          {
+            "name": "The Zeviah Span Treasure 7",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 7"
+          },
+          {
+            "name": "The Zeviah Span Treasure 8",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 8"
+          },
+          {
+            "name": "The Zeviah Span Treasure 9",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 9"
+          },
+          {
+            "name": "The Zeviah Span Treasure 10",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 10"
+          },
+          {
+            "name": "The Zeviah Span Treasure 11",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 11"
+          },
+          {
+            "name": "The Zeviah Span Treasure 12",
+            "ref": "Main/Barheim Passage/The Zeviah Span Treasure 12"
+          },
+          {
+            "name": "West Annex Treasure 1",
+            "ref": "Main/Barheim Passage/West Annex Treasure 1"
+          },
+          {
+            "name": "West Annex Treasure 2",
+            "ref": "Main/Barheim Passage/West Annex Treasure 2"
+          },
+          {
+            "name": "West Annex Treasure 3",
+            "ref": "Main/Barheim Passage/West Annex Treasure 3"
+          },
+          {
+            "name": "West Annex Treasure 4",
+            "ref": "Main/Barheim Passage/West Annex Treasure 4"
+          },
+          {
+            "name": "West Annex Treasure 5",
+            "ref": "Main/Barheim Passage/West Annex Treasure 5"
+          },
+          {
+            "name": "West Annex Treasure 6",
+            "ref": "Main/Barheim Passage/West Annex Treasure 6"
+          },
+          {
+            "name": "West Annex Treasure 7",
+            "ref": "Main/Barheim Passage/West Annex Treasure 7"
+          },
+          {
+            "name": "West Annex Treasure 8",
+            "ref": "Main/Barheim Passage/West Annex Treasure 8"
+          },
+          {
+            "name": "West Annex Treasure 9",
+            "ref": "Main/Barheim Passage/West Annex Treasure 9"
+          },
+          {
+            "name": "West Annex Treasure 10",
+            "ref": "Main/Barheim Passage/West Annex Treasure 10"
+          },
+          {
+            "name": "West Annex Treasure 11",
+            "ref": "Main/Barheim Passage/West Annex Treasure 11"
+          },
+          {
+            "name": "West Annex Treasure 12",
+            "ref": "Main/Barheim Passage/West Annex Treasure 12"
+          },
+          {
+            "name": "West Annex Treasure 13",
+            "ref": "Main/Barheim Passage/West Annex Treasure 13"
+          },
+          {
+            "name": "Terminus No. 7 Adjunct Treasure 1",
+            "ref": "Main/Barheim Passage/Terminus No. 7 Adjunct Treasure 1"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 1",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 1"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 2",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 2"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 3",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 3"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 4",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 4"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 5",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 5"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 6",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 6"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 7",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 7"
+          },
+          {
+            "name": "Special Op Sector 5 Treasure 8",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 8"
           }
         ]
       },
@@ -41,6 +354,11 @@
             "map": "barheim_passage",
             "x": 256,
             "y": 1538
+          },
+          {
+            "map": "barheim_passage_bottom",
+            "x": 455,
+            "y": 1220
           }
         ],
         "sections": [
@@ -73,6 +391,11 @@
             "map": "barheim_passage",
             "x": 688,
             "y": 1492
+          },
+          {
+            "map": "barheim_passage_bottom",
+            "x": 1200,
+            "y": 1100
           }
         ],
         "sections": [

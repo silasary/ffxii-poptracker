@@ -3,22 +3,6 @@
     "name": "Barheim Top",
     "children": [
       {
-        "name": "Burrough Tube Fuse",
-        "map_locations": [
-          {
-            "map": "barheim_passage_top",
-            "x": 893,
-            "y": 205
-          }
-        ],
-        "sections": [
-          {
-            "name": "Burrough Tube Fuse",
-            "ref": "Main/Barheim Passage/Burrough Tube Fuse"
-          }
-        ]
-      },
-      {
         "name": "Main Path Chests (Top)",
         "map_locations": [
           {
@@ -29,8 +13,100 @@
         ],
         "sections": [
           {
-            "name": "Main Path Chests",
-            "ref": "Main/Barheim Passage/Barheim Chests"
+            "name": "The Lightworks Treasure 1",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 1"
+          },
+          {
+            "name": "The Lightworks Treasure 2",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 2"
+          },
+          {
+            "name": "The Lightworks Treasure 3",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 3"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 1",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 1"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 2",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 2"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 3",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 3"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 4",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 4"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 5",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 5"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 6",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 6"
+          },
+          {
+            "name": "Great Eastern Passage Treasure 7",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 7"
+          },
+          {
+            "name": "Op Sector 36 Treasure 1",
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 1"
+          },
+          {
+            "name": "Op Sector 36 Treasure 2",
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 2"
+          },
+          {
+            "name": "Op Sector 36 Treasure 3",
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 3"
+          },
+          {
+            "name": "Special Op Sector 3 Treasure 1",
+            "ref": "Main/Barheim Passage/Special Op Sector 3 Treasure 1"
+          },
+          {
+            "name": "Special Op Sector 3 Treasure 2",
+            "ref": "Main/Barheim Passage/Special Op Sector 3 Treasure 2"
+          },
+          {
+            "name": "Special Op Sector 3 Treasure 3",
+            "ref": "Main/Barheim Passage/Special Op Sector 3 Treasure 3"
+          },
+          {
+            "name": "Op Sector 37 Treasure 1",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 1"
+          },
+          {
+            "name": "Op Sector 37 Treasure 2",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 2"
+          },
+          {
+            "name": "Op Sector 37 Treasure 3",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 3"
+          },
+          {
+            "name": "Op Sector 37 Treasure 4",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 4"
+          },
+          {
+            "name": "Op Sector 37 Treasure 5",
+            "ref": "Main/Barheim Passage/Op Sector 37 Treasure 5"
+          },
+                    {
+            "name": "Op Sector 29 Treasure 1",
+            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 1"
+          },
+          {
+            "name": "Op Sector 29 Treasure 2",
+            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 2"
+          },
+          {
+            "name": "Op Sector 29 Treasure 3",
+            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 3"
           }
         ]
       }
