@@ -30,16 +30,11 @@ jobs:
                   files: ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            - name: Get asset download URL
-              id: get_asset_url
-              run: |
-                  ASSET_URL=$(echo ${{ steps.upload_release_asset.outputs.assets }} | jq '.[0].browser_download_url')
-                  echo "ASSET_URL=$ASSET_URL" >> $GITHUB_OUTPUT
             - name: Update versions.json
               run: |
                   VERSION=${{ steps.get_version.outputs.VERSION }}
                   HASH=${{ steps.get_hash.outputs.HASH }}
-                  URL=${{ steps.get_asset_url.outputs.ASSET_URL }}
+                  URL=https://github.com/silasary/ffxii-poptracker/releases/download/${{ steps.get_version.outputs.VERSION }}/ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip
                   jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "$URL" \
                      '.versions |= [{"package_version": $ver, "sha256": $hash, "download_url": $url, "changelog": []}] + .' \
                      versions.json > versions.tmp.json
