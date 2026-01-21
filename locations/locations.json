@@ -4140,7 +4140,7 @@
       {
         "name": "Draklor Laboratory",
         "access_rules": [
-          "$draklor_laboratory"
+          "^$draklor_laboratory"
         ],
         "sections": [
           {
@@ -4268,7 +4268,7 @@
       {
         "name": "Archades",
         "access_rules": [
-          "$archades"
+          "^^$archades"
         ],
         "sections": [
           {
@@ -7629,7 +7629,7 @@
       {
         "name": "Old Archades",
         "access_rules": [
-          "$archades"
+          "^^$archades"
         ],
         "sections": [
           {
