@@ -63,7 +63,7 @@ function ghis()
 end
 
 function sandseas()
-    if Tracker:ProviderCountForCode('access_key') > 0 or ghis() then
+    if Tracker:ProviderCountForCode('access_key') > 0 or ghis() or (Tracker:ProviderCountForCode('rainstone') > 0 and scaled_difficulty(3)) then
         return AccessibilityLevel.Normal
     end
     if Tracker:ProviderCountForCode('rainstone') > 0 then
@@ -72,8 +72,12 @@ function sandseas()
 end
 
 function tchita_uplands()
+    if (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak)  then
+		return AccessibilityLevel.SequenceBreak
+	end
     return defeat_bergan() or 
-        (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler()) or earth_tyrant() or
+        (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or 
+        earth_tyrant() or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
         cid2() or
         aero('bal_aero')
