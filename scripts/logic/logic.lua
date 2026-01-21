@@ -96,15 +96,27 @@ function dawn_shard()
 end
 
 function archades()
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.SequenceBreak then
+		return AccessibilityLevel.SequenceBreak
+	end
     return aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace())
 end
 
 function sochen_cave_palace()
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and tchita_uplands() == AccessibilityLevel.SequenceBreak then
+		return AccessibilityLevel.SequenceBreak
+	end
     return Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades())
 end
 
 function draklor_laboratory()
-    return (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and archades()
+	if (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) then
+		if archades() == AccessibilityLevel.SequenceBreak then
+			return AccessibilityLevel.SequenceBreak
+		elseif archades() then
+			return AccessibilityLevel.Normal
+		end
+	end
 end
 
 function has_n_chops(n)
