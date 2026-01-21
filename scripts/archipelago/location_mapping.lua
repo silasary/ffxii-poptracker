@@ -195,7 +195,7 @@ return {
    [2297] = {"@Main/Paramina Rift/Ancbolder - Mind Trophy"},
    [2138] = {"@Main/Paramina Rift/Fafnir Drop"},
    [2213] = {"@Main/Zertinan Caverns/Defeat Adrammelech"},
-   [2141] = {"@Main/Zertinan Caverns/Marilith Drop", "marilith"},
+   [2141] = {"@Main/Zertinan Caverns NE/Marilith Drop", "marilith"},
    [2255] = {"@Main/Zertinan Caverns/Alteci - Fell Trophy"},
    [2144] = {"@Main/Cerobi Steppe/Vyraal Drop"},
    [2150] = {"@Main/Cerobi Steppe/Wyrm Philosopher Ageworn Key"},

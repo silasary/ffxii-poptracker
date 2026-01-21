@@ -11219,18 +11219,14 @@
         ]
       },
       {
-        "name": "Zertinan Caverns",
+        "name": "Zertinan Caverns NE",
+        "access_rules": [],
         "sections": [
-          {
-            "name": "Defeat Adrammelech",
-            "access_rules": [
-              "rainstone,[$scaled_difficulty|3]"
-            ]
-          },
           {
             "name": "Invitation to Heresy Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 1"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 1",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11239,7 +11235,8 @@
           {
             "name": "Invitation to Heresy Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 2"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 2",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11248,7 +11245,8 @@
           {
             "name": "Invitation to Heresy Treasure 3",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 3"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 3",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11257,7 +11255,8 @@
           {
             "name": "Invitation to Heresy Treasure 4",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 4"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 4",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11266,7 +11265,8 @@
           {
             "name": "Invitation to Heresy Treasure 5",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 5"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 5",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 5"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11275,7 +11275,8 @@
           {
             "name": "Invitation to Heresy Treasure 6",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 6"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 6",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11284,7 +11285,8 @@
           {
             "name": "Invitation to Heresy Treasure 7",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 7"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 7",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 7"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11293,7 +11295,8 @@
           {
             "name": "Invitation to Heresy Treasure 8",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 8"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 8",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 8"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
@@ -11302,10 +11305,39 @@
           {
             "name": "Invitation to Heresy Treasure 9",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 9"
+              "$chest_visibility|Zertinan Caverns - Invitation to Heresy Treasure 9",
+              "$chest_visibility|Zertinan Caverns NE - Invitation to Heresy Treasure 9"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Defeat Marilith",
+            "visibility_rules": [
+              "place_clan_rank",
+              "place_hunts"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ],
+            "hosted_item": "marilith"
+          },
+          {
+            "name": "Marilith Drop",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Zertinan Caverns",
+        "sections": [
+          {
+            "name": "Defeat Adrammelech",
+            "access_rules": [
+              "rainstone,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -11639,23 +11671,6 @@
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
-            ]
-          },
-          {
-            "name": "Defeat Marilith",
-            "visibility_rules": [
-              "place_clan_rank",
-              "place_hunts"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ],
-            "hosted_item": "marilith"
-          },
-          {
-            "name": "Marilith Drop",
-            "access_rules": [
-              "[$scaled_difficulty|5]"
             ]
           },
           {
