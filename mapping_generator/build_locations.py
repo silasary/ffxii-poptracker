@@ -19,14 +19,17 @@ def main() -> None:
         lambda_to_access_rule = json.load(f)
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
+    all_locations = {}
+    for region in pt_locations[0]['children']:
+        for section in region['sections']:
+            all_locations[section['name']] = region['name']
     todays_treasures = None
     warned_regions = set()
 
     for name, loc in location_data_table.items():
         region_name = loc.region
-        shortname = name
-        if name.startswith(f'{region_name} - '):
-            shortname = name[len(region_name) + 3 :]
+        shortname = get_shortname(name, region_name)
+
 
         if match := without_parentheses_re.match(shortname):
             shortname = match.group(1)
@@ -44,7 +47,13 @@ def main() -> None:
                 break
 
         if not pt_loc:
-            if "Treasure" in shortname and todays_treasures in [region_name, None]:
+            if shortname in all_locations:
+                found_region = all_locations[shortname]
+                print(f"WARNING: Location {shortname} found in region {found_region}, expected {region_name}")
+                pt_loc = next(section for section in regions[found_region]['sections'] if section['name'] == shortname)
+                regions[found_region]['sections'].remove(pt_loc)
+                region['sections'].append(pt_loc)
+            elif "Treasure" in shortname and todays_treasures in [region_name, None]:
                 pt_loc = {
                     "name": shortname,
                     "visibility_rules": [f"$chest_visibility|{name}"],
@@ -89,6 +98,14 @@ def main() -> None:
     with open("./locations/locations.json", 'w') as loc_file:
         json.dump(pt_locations, loc_file, indent=2)
         loc_file.write('\n')
+
+def get_shortname(name, region_name):
+    shortname = name
+    if name.startswith(f'{region_name} - '):
+        shortname = name[len(region_name) + 3 :]
+    if name.startswith("Rabanastre - Tomaj"):
+        shortname = "Tomaj"
+    return shortname
 
 if __name__ == "__main__":
     main()

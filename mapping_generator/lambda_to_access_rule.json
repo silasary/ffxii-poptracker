@@ -12,5 +12,6 @@
     "lambda state, player: state.has(Black Orb, player, 3)": "$has_n_black_orbs|3",
     "lambda state, player: state.has(Black Orb, player, 8)": "$has_n_black_orbs|8",
     "lambda state, player: state.has(Black Orb, player, 15)": "$has_n_black_orbs|15",
-    "lambda state, player: state.has(Ageworn Key, player)": "ageworn_key"
+    "lambda state, player: state.has(Ageworn Key, player)": "ageworn_key",
+    "lambda state, player: state.has(Rainstone, player)": "rainstone"
 }
