@@ -35,8 +35,9 @@ jobs:
                   VERSION=${{ steps.get_version.outputs.VERSION }}
                   HASH=${{ steps.get_hash.outputs.HASH }}
                   URL=https://github.com/silasary/ffxii-poptracker/releases/download/${{ steps.get_version.outputs.VERSION }}/ffxii-tracker-${{ steps.get_version.outputs.VERSION }}.zip
-                  jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "$URL" \
-                     '.versions |= [{"package_version": $ver, "sha256": $hash, "download_url": $url, "changelog": []}] + .' \
+                  RELNOTE_URL=URL=https://github.com/silasary/ffxii-poptracker/releases/tag/${{ steps.get_version.outputs.VERSION }}
+                  jq --arg ver "$VERSION" --arg hash "$HASH" --arg url "$URL" --arg relnote_url "$RELNOTE_URL" \
+                     '.versions |= [{"package_version": $ver, "sha256": $hash, "download_url": $url, "changelog": [$relnote_url]}] + .' \
                      versions.json > versions.tmp.json
                   mv versions.tmp.json versions.json
             - name: Commit and push changes
