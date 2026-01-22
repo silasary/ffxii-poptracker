@@ -19,7 +19,7 @@
     "lambda state, player: state.has(Sword of the Order, player)": "sword_of_the_order",
     "lambda state, player: state.has(No. 1 Brig Key, player)": "brig_key",
     "lambda state, player: state.has(Defeat Vossler, player) and state.has(Dawn Shard, player)": "^$defeat_vossler,dawn_shard",
-    "lambda state, player: state.can_reach_region(Henne Mines, player)": null,
+    "lambda state, player: state.can_reach_region(Henne Mines, player)": "$henne_mines",
     "lambda state, player: state.can_reach_region(Sochen Cave Palace Middle, player)": null,
     "lambda state, player: state.has(Pinewood Chop, player, 28)": null,
     "lambda state, player: state.has(Black Orb, player, 3) and (state.has(Treaty-Blade, player) and state_has_at_least([state.has(Dawn Shard, player), state.has(Goddess's Magicite, player), state.has(Manufacted Nethicite, player)], 2) if not bool(state.has(Sword of Kings, player)) else state.has(Sword of Kings, player) and state_has_at_least([state.has(Dawn Shard, player), state.has(Goddess's Magicite, player), state.has(Manufacted Nethicite, player)], 2))": null,

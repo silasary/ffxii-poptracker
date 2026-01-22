@@ -2971,7 +2971,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|4]"
+              "$henne_mines,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -3021,7 +3021,7 @@
           {
             "name": "Lente's Tear",
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "$henne_mines,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -8109,7 +8109,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$ozmone_plain,[$scaled_difficulty|2]"
+              "$henne_mines,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -13613,7 +13613,7 @@
       {
         "name": "Henne Mines",
         "access_rules": [
-          "$ozmone_plain"
+          "$henne_mines"
         ],
         "sections": [
           {
@@ -13806,7 +13806,7 @@
       {
         "name": "Henne Mines Deep",
         "access_rules": [
-          "$ozmone_plain, $espers_controlled|10"
+          "$henne_mines, $espers_controlled|10"
         ],
         "sections": [
           {
