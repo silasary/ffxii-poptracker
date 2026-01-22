@@ -99,14 +99,18 @@ function archades()
     if Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.SequenceBreak then
 		return AccessibilityLevel.SequenceBreak
 	end
-    return aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace())
+    if aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace()) then
+        return AccessibilityLevel.Normal
+    end
 end
 
 function sochen_cave_palace()
     if Tracker:ProviderCountForCode('soul_ward_key') > 0 and tchita_uplands() == AccessibilityLevel.SequenceBreak then
 		return AccessibilityLevel.SequenceBreak
 	end
-    return Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades())
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades()) then
+        return AccessibilityLevel.Normal
+    end
 end
 
 function draklor_laboratory()
