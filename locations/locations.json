@@ -54,7 +54,7 @@
             ]
           },
           {
-            "name": "Windvane",
+            "name": "Earth Tyrant Quest Windvane",
             "access_rules": [
               "wind_globe,^$defeat_vossler,[$scaled_difficulty|1]"
             ]

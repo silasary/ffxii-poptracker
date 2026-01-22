@@ -5,7 +5,7 @@ return {
    [1832] = {"@Main/Rabanastre/Hunt 1: Rogue Tomato", "rogue_tomato"},
    [1835] = {"@Main/Rabanastre/Hunt 2: Thextera", "thextera"},
    [2186] = {"@Main/Rabanastre/Viera Rendezvous"},
-   [2093] = {"@Main/Rabanastre/Windvane"},
+   [2093] = {"@Main/Rabanastre/Earth Tyrant Quest Windvane"},
    [1853] = {"@Main/Rabanastre/Hunt 8: Wyvern Lord", "wyvern_lord"},
    [2189] = {"@Main/Rabanastre/Ktjn Reward"},
    [1847] = {"@Main/Rabanastre/Hunt 6: White Mousse", "white_mousse"},
