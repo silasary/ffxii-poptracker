@@ -1,3 +1,5 @@
+import glob
+import os
 import sys
 import jsoncomment
 import from_lambda
@@ -20,6 +22,7 @@ def main() -> None:
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
     all_locations = {}
+    all_names = []
     for region in pt_locations[0]['children']:
         for section in region['sections']:
             all_locations[section['name']] = region['name']
@@ -94,6 +97,9 @@ def main() -> None:
             if visibility_rule not in py_visibility_rules:
                 py_visibility_rules.append(visibility_rule)
 
+    for region in pt_locations[0]['children']:
+        for section in region['sections']:
+            all_names.append("Main/" + region['name'] + "/" + section['name'])
         pass
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
@@ -102,6 +108,41 @@ def main() -> None:
     with open("./locations/locations.json", 'w') as loc_file:
         json.dump(pt_locations, loc_file, indent=2)
         loc_file.write('\n')
+    validate(all_names)
+
+def validate(all_names):
+    for file in glob.glob("*.json", root_dir="locations"):
+        if file == "locations.json":
+            continue
+        with open(os.path.join("locations", file), 'r') as loc_file:
+            ref_locations = json.load(loc_file)
+        changed = False
+        queue = ref_locations.copy()
+        while queue:
+            pt_loc = queue.pop()
+            if "ref" in pt_loc:
+                if pt_loc['ref'] not in all_names:
+                    shortname = pt_loc['ref'].split('/')[-1]
+                    found = next((name for name in all_names if name.endswith('/' + shortname)), None)
+                    if found:
+                        old = pt_loc['ref']
+                        pt_loc['ref'] = found
+                        print(f'Updated reference {old} to {found} in {file}')
+                        changed = True
+                    else:
+                        print(f'WARNING: Reference {pt_loc["ref"]} not found in locations!')
+
+
+            if 'children' in pt_loc:
+                queue.extend(pt_loc['children'].copy())
+            if 'sections' in pt_loc:
+                queue.extend(pt_loc['sections'].copy())
+
+        if changed:
+            with open(os.path.join("locations", file), 'w') as loc_file:
+                json.dump(ref_locations, loc_file, indent=2)
+                loc_file.write('\n')
+
 
 def get_shortname(name, region_name):
     shortname = name

@@ -99,5 +99,8 @@
     "lambda state, player: state.can_reach_region(Clan Hall, player)": null,
     "lambda state, player: state.has(Stone of the Condemner, player)": null,
     "lambda state, player: state.has(Shelled Trophy, player) and state.has(HuntClubStart, player)": null,
-    "lambda state, player: state.has(Shelled Trophy, player) and state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.has(HuntClubStart, player)": null
+    "lambda state, player: state.has(Shelled Trophy, player) and state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.has(HuntClubStart, player)": null,
+    "lambda state, player: state.can_reach_region(Mosphoran Highwaste, player)": null,
+    "lambda state, player: state.can_reach_region(Necrohol of Nabudis, player)": null,
+    "lambda state, player: state.has(Jovy, player, 5)": null
 }

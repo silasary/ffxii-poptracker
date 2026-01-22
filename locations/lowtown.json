@@ -29,8 +29,8 @@
             "ref": "Main/Lowtown/Hunt 42: Behemoth King"
           },
           {
-            "name": "Medallions - Roh’kenmou - Dummy Check",
-            "ref": "Main/Lowtown/Medallions - Roh’kenmou"
+            "name": "Medallions - Roh\u2019kenmou - Dummy Check",
+            "ref": "Main/Lowtown/Medallions - Roh\u2019kenmou"
           }
         ]
       },
@@ -131,7 +131,7 @@
         ]
       },
       {
-        "name": "Milha’s House",
+        "name": "Milha\u2019s House",
         "map_locations": [
           {
             "map": "lowtown",

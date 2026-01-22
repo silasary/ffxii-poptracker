@@ -1072,10 +1072,6 @@
         "ref": "Main/Barheim Passage/Defeat Zalera"
       },
       {
-        "name": "Deep Barheim Chests",
-        "ref": "Main/Barheim Passage/Deep Barheim Chests"
-      },
-      {
         "name": "Defeat Bloodwing",
         "ref": "Main/Barheim Passage/Defeat Bloodwing"
       },
@@ -2176,59 +2172,59 @@
       },
       {
         "name": "The Trimahla Water-Steps Treasure 1",
-        "ref": "Main/Great Crystal/The Trimahla Water-Steps Treasure 1"
+        "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 1"
       },
       {
         "name": "The Trimahla Water-Steps Treasure 2",
-        "ref": "Main/Great Crystal/The Trimahla Water-Steps Treasure 2"
+        "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 2"
       },
       {
         "name": "The Trimahla Water-Steps Treasure 3",
-        "ref": "Main/Great Crystal/The Trimahla Water-Steps Treasure 3"
+        "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 3"
       },
       {
         "name": "The Trimahla Water-Steps Treasure 4",
-        "ref": "Main/Great Crystal/The Trimahla Water-Steps Treasure 4"
+        "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 4"
       },
       {
         "name": "The Trimahla Water-Steps Treasure 5",
-        "ref": "Main/Great Crystal/The Trimahla Water-Steps Treasure 5"
+        "ref": "Main/Giruvegan/The Trimahla Water-Steps Treasure 5"
       },
       {
         "name": "The Aadha Water-Steps Treasure 1",
-        "ref": "Main/Great Crystal/The Aadha Water-Steps Treasure 1"
+        "ref": "Main/Giruvegan/The Aadha Water-Steps Treasure 1"
       },
       {
         "name": "The Aadha Water-Steps Treasure 2",
-        "ref": "Main/Great Crystal/The Aadha Water-Steps Treasure 2"
+        "ref": "Main/Giruvegan/The Aadha Water-Steps Treasure 2"
       },
       {
         "name": "The Aadha Water-Steps Treasure 3",
-        "ref": "Main/Great Crystal/The Aadha Water-Steps Treasure 3"
+        "ref": "Main/Giruvegan/The Aadha Water-Steps Treasure 3"
       },
       {
         "name": "The Haamilkah Water-Steps Treasure 1",
-        "ref": "Main/Great Crystal/The Haamilkah Water-Steps Treasure 1"
+        "ref": "Main/Giruvegan/The Haamilkah Water-Steps Treasure 1"
       },
       {
         "name": "Gate of Fire Treasure 1",
-        "ref": "Main/Great Crystal/Gate of Fire Treasure 1"
+        "ref": "Main/Giruvegan/Gate of Fire Treasure 1"
       },
       {
         "name": "Gate of Fire Treasure 2",
-        "ref": "Main/Great Crystal/Gate of Fire Treasure 2"
+        "ref": "Main/Giruvegan/Gate of Fire Treasure 2"
       },
       {
         "name": "Gate of Fire Treasure 3",
-        "ref": "Main/Great Crystal/Gate of Fire Treasure 3"
+        "ref": "Main/Giruvegan/Gate of Fire Treasure 3"
       },
       {
         "name": "Gate of Wind Treasure 1",
-        "ref": "Main/Great Crystal/Gate of Wind Treasure 1"
+        "ref": "Main/Giruvegan/Gate of Wind Treasure 1"
       },
       {
         "name": "Gate of Wind Treasure 2",
-        "ref": "Main/Great Crystal/Gate of Wind Treasure 2"
+        "ref": "Main/Giruvegan/Gate of Wind Treasure 2"
       },
       {
         "name": "Kabonii Jilaam Pratii'vaa Treasure 1",
@@ -2341,7 +2337,7 @@
       {
         "name": "Uldobi Phullam Pratii Treasure 2",
         "ref": "Main/Great Crystal/Uldobi Phullam Pratii Treasure 2"
-      },
+      }
     ]
   },
   {
@@ -3309,27 +3305,27 @@
     "sections": [
       {
         "name": "Hunt 17: Atomos",
-        "ref": "Main/Nalbina/Hunt 17: Atomos"
+        "ref": "Main/Nalbina Fortress/Hunt 17: Atomos"
       },
       {
         "name": "Hunt 18: Roblon",
-        "ref": "Main/Nalbina/Hunt 18: Roblon"
+        "ref": "Main/Nalbina Fortress/Hunt 18: Roblon"
       },
       {
         "name": "Hunt 24: Goliath",
-        "ref": "Main/Nalbina/Hunt 24: Goliath"
+        "ref": "Main/Nalbina Fortress/Hunt 24: Goliath"
       },
       {
         "name": "Hunt 25: Deathscythe",
-        "ref": "Main/Nalbina/Hunt 25: Deathscythe"
+        "ref": "Main/Nalbina Fortress/Hunt 25: Deathscythe"
       },
       {
         "name": "Jovy Reward",
-        "ref": "Main/Nalbina/Jovy Reward"
+        "ref": "Main/Nalbina Fortress/Jovy Reward"
       },
       {
         "name": "Hunt 39: Carrot",
-        "ref": "Main/Nalbina/Hunt 39: Carrot"
+        "ref": "Main/Nalbina Fortress/Hunt 39: Carrot"
       }
     ]
   },
@@ -6459,7 +6455,7 @@
       },
       {
         "name": "Defeat Zodiark",
-        "ref": "Main/Henne Mines/Defeat Zodiark"
+        "ref": "Main/Henne Mines Deep/Defeat Zodiark"
       },
       {
         "name": "Melt - Slimy Trophy",
