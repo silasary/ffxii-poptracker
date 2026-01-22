@@ -63,7 +63,7 @@ function ghis()
 end
 
 function sandseas()
-    if Tracker:ProviderCountForCode('access_key') > 0 or ghis() then
+    if Tracker:ProviderCountForCode('access_key') > 0 or ghis() or (Tracker:ProviderCountForCode('rainstone') > 0 and scaled_difficulty(3)) then
         return AccessibilityLevel.Normal
     end
     if Tracker:ProviderCountForCode('rainstone') > 0 then
@@ -72,8 +72,12 @@ function sandseas()
 end
 
 function tchita_uplands()
+    if (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak)  then
+		return AccessibilityLevel.SequenceBreak
+	end
     return defeat_bergan() or 
-        (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler()) or earth_tyrant() or
+        (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or 
+        earth_tyrant() or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
         cid2() or
         aero('bal_aero')
@@ -92,15 +96,31 @@ function dawn_shard()
 end
 
 function archades()
-    return aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace())
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.SequenceBreak then
+		return AccessibilityLevel.SequenceBreak
+	end
+    if aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace()) then
+        return AccessibilityLevel.Normal
+    end
 end
 
 function sochen_cave_palace()
-    return Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades())
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and tchita_uplands() == AccessibilityLevel.SequenceBreak then
+		return AccessibilityLevel.SequenceBreak
+	end
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades()) then
+        return AccessibilityLevel.Normal
+    end
 end
 
 function draklor_laboratory()
-    return (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and archades()
+	if (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) then
+		if archades() == AccessibilityLevel.SequenceBreak then
+			return AccessibilityLevel.SequenceBreak
+		elseif archades() then
+			return AccessibilityLevel.Normal
+		end
+	end
 end
 
 function has_n_chops(n)

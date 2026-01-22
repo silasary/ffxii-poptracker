@@ -48,7 +48,7 @@
           {
             "name": "Windvane",
             "access_rules": [
-              "wind_globe,$defeat_vossler,[$scaled_difficulty|1]"
+              "wind_globe,^$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -90,7 +90,7 @@
           {
             "name": "Grimy Fragment",
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5]"
             ]
           }
         ]
@@ -2921,13 +2921,13 @@
           {
             "name": "Great-chief Elder After Defeating Vossler",
             "access_rules": [
-              "$defeat_vossler,$dawn_shard,[$scaled_difficulty|2]"
+              "^$defeat_vossler,$dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
             "name": "Guest (Larsa)",
             "access_rules": [
-              "$defeat_vossler,$dawn_shard,[$scaled_difficulty|2]"
+              "^$defeat_vossler,$dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -3264,7 +3264,7 @@
       {
         "name": "Tchita Uplands",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -4140,7 +4140,7 @@
       {
         "name": "Draklor Laboratory",
         "access_rules": [
-          "$draklor_laboratory"
+          "^$draklor_laboratory"
         ],
         "sections": [
           {
@@ -4268,7 +4268,7 @@
       {
         "name": "Archades",
         "access_rules": [
-          "$archades"
+          "^$archades"
         ],
         "sections": [
           {
@@ -4305,7 +4305,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6484,19 +6484,19 @@
           {
             "name": "Dantro's Wife Give Cactus Flower",
             "access_rules": [
-              "cactus_flower,$defeat_vossler,[$scaled_difficulty|1]"
+              "cactus_flower,^$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Cactus Family Quest",
             "access_rules": [
-              "cactus_flower,$defeat_vossler,[$scaled_difficulty|1]"
+              "cactus_flower,^$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
             "name": "Patient Barheim Key",
             "access_rules": [
-              "cactus_flower,$defeat_vossler,[$scaled_difficulty|2]"
+              "cactus_flower,^$defeat_vossler,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -6559,7 +6559,7 @@
       {
         "name": "Dalmasca Estersand North",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -6976,7 +6976,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|3]"
+              "^$tchita_uplands,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -6985,7 +6985,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -6994,7 +6994,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -7003,13 +7003,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
             "name": "Jovy Reward",
             "access_rules": [
-              "clan_primer,$tchita_uplands,[$scaled_difficulty|7]"
+              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -7018,7 +7018,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$tchita_uplands,[$scaled_difficulty|7]"
+              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -7026,7 +7026,7 @@
       {
         "name": "Mosphoran Highwaste",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -7468,7 +7468,7 @@
       {
         "name": "Mosphoran Highwaste Upper",
         "access_rules": [
-          "$tchita_uplands,[$defeat_bergan]"
+          "^$tchita_uplands,[$defeat_bergan]"
         ],
         "sections": [
           {
@@ -7528,7 +7528,7 @@
       {
         "name": "Balfonheim",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -7629,7 +7629,7 @@
       {
         "name": "Old Archades",
         "access_rules": [
-          "$archades"
+          "^$archades"
         ],
         "sections": [
           {
@@ -7638,13 +7638,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rusted_scrap_of_armor,$tchita_uplands,[$scaled_difficulty|5]"
+              "rusted_scrap_of_armor,^$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8107,7 +8107,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8179,7 +8179,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_bravery,med_lusterless,$tchita_uplands,[$scaled_difficulty|7]"
+              "med_bravery,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -8188,7 +8188,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_love,med_lusterless,$tchita_uplands,[$scaled_difficulty|7]"
+              "med_love,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -8658,7 +8658,7 @@
           {
             "name": "Earth Tyrant Quest Wind Globe",
             "access_rules": [
-              "$defeat_vossler,[$scaled_difficulty|1]"
+              "^$defeat_vossler,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -8701,7 +8701,7 @@
           {
             "name": "Dull Fragment",
             "access_rules": [
-              "sluice_gate_key,[$tchita_uplands,$scaled_difficulty|0]"
+              "sluice_gate_key,[^$tchita_uplands,$scaled_difficulty|0]"
             ]
           },
           {
@@ -9762,7 +9762,7 @@
       {
         "name": "Phon Coast",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -11741,7 +11741,7 @@
       {
         "name": "Cerobi Steppe",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -12701,7 +12701,7 @@
       {
         "name": "Nabreus Deadlands",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -13134,7 +13134,7 @@
       {
         "name": "Necrohol of Nabudis",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -15263,7 +15263,7 @@
       {
         "name": "Salikawood",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
@@ -16396,7 +16396,7 @@
       {
         "name": "Sochen Cave Palace S",
         "access_rules": [
-          "$tchita_uplands"
+          "^$tchita_uplands"
         ],
         "sections": [
           {
