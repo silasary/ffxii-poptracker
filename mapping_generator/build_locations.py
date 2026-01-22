@@ -34,6 +34,10 @@ def main() -> None:
         if match := without_parentheses_re.match(shortname):
             shortname = match.group(1)
 
+        shortername = shortname
+        if shortname.endswith(" Reward"):
+            shortername = shortname[:-7]
+
         region = regions.get(region_name)
         if not region:
             if region_name not in warned_regions:
@@ -42,7 +46,7 @@ def main() -> None:
             continue
         pt_loc = None
         for section in region['sections']:
-            if section['name'] in [name, shortname]:
+            if section['name'] in [name, shortname, shortername]:
                 pt_loc = section
                 break
 
@@ -78,7 +82,7 @@ def main() -> None:
             access_rule = access_rule.strip(',')
 
         if access_rule is not None:
-            if pt_loc['access_rules']:
+            if pt_loc.get('access_rules', []):
                 if pt_loc['access_rules'][0] != access_rule:
                     print(f'Updating access rule for {name} from "{pt_loc["access_rules"][0]}" to "{access_rule}"')
                     pt_loc['access_rules'][0] = access_rule

@@ -9,6 +9,7 @@ Global = namedtuple('Global', ['n'])
 BinOp = namedtuple('BinOp', ['op', 'x', 'y'])
 UnOp = namedtuple('UnOp', ['op', 'x'])
 IfElse = namedtuple('IfElse', ['c', 't', 'f'])
+Bool = namedtuple('Bool', ['v'])
 # TODO maybe Subscr
 Attr = namedtuple('Attr', ['n', 'x'])
 List = namedtuple('List', ['vs'])
@@ -25,6 +26,8 @@ def to_str(ex):
         return 'lambda: {}'.format(to_str(ex.expr))
     if type(ex) is Val:
         return str(ex.v)
+    if type(ex) is Bool:
+        return 'bool({})'.format(to_str(ex.v))
     if type(ex) in (Arg, Global):
         return str(ex.n)
     if type(ex) is Attr:
@@ -158,6 +161,10 @@ def _normalize(x):
         if type(x.t) is BinOp and x.t.op == 'and' and x.t.y == x.f and type(x.c) is UnOp and x.c.op == 'not':
             # b and c if not a else c --> (a or b) and c
             return BinOp('and', BinOp('or', x.c.x, x.t.x), x.f)
+        if type(x.c) is Bool and x.c.v == x.f:
+            # a if bool(a) else b --> a and b
+            return BinOp('and', x.f, x.t)
+
     return x
 
 def parse_lambda(f):
@@ -180,6 +187,10 @@ def _parse_expr(ops, i, stack):
             continue
         if opname == 'LOAD_FAST':
             stack.append(Arg(op.argval))
+            continue
+        if opname == 'LOAD_FAST_LOAD_FAST':
+            for v in op.argval:
+                stack.append(Arg(v))
             continue
         #if opname == 'LOAD_GLOBAL':
         if opname in ('LOAD_GLOBAL', 'LOAD_CLOSURE', 'LOAD_DEREF'):
@@ -327,7 +338,7 @@ def _parse_expr(ops, i, stack):
             stack.append(stack[-op.argval])
             continue
         if opname == "TO_BOOL":
-            # TODO: STACK[-1] = bool(STACK[-1])
+            stack[-1] = Bool(stack[-1])
             continue
         raise ValueError(op.opname)
     return stack[-1]

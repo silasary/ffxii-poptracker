@@ -14,7 +14,7 @@
           {
             "name": "Tomaj",
             "access_rules": [
-              "[$scaled_difficulty|0]"
+              ""
             ],
             "item_count": 3
           },
@@ -1006,19 +1006,19 @@
           {
             "name": "Dalan Crescent Stone",
             "access_rules": [
-              "sunstone,[$scaled_difficulty|0]"
+              "sunstone"
             ]
           },
           {
             "name": "Dalan Sword of the Order",
             "access_rules": [
-              "goddess_magicite,[$scaled_difficulty|0]"
+              "goddess_magicite"
             ]
           },
           {
             "name": "Balzac Sword of the Order Turn In",
             "access_rules": [
-              "sword_of_the_order,[$scaled_difficulty|0]"
+              "sword_of_the_order"
             ]
           },
           {
@@ -2152,7 +2152,24 @@
         ]
       },
       {
+        "name": "Royal Palace",
+        "access_rules": [
+          "crescent_stone"
+        ],
+        "sections": []
+      },
+      {
+        "name": "Barheim Passage Story",
+        "access_rules": [
+          "crescent_stone"
+        ],
+        "sections": []
+      },
+      {
         "name": "Barheim Passage",
+        "access_rules": [
+          "barheim_key"
+        ],
         "sections": [
           {
             "name": "Burrough Tube Fuse",
@@ -2166,7 +2183,7 @@
               "place_clan_esper"
             ],
             "access_rules": [
-              "barheim_key,[$scaled_difficulty|4]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -4146,7 +4163,7 @@
           {
             "name": "Lab Access Card",
             "access_rules": [
-              "[$scaled_difficulty|0]"
+              ""
             ]
           },
           {
@@ -7534,7 +7551,7 @@
           {
             "name": "Footrace",
             "access_rules": [
-              "[$scaled_difficulty|0]"
+              ""
             ]
           },
           {
@@ -7931,6 +7948,9 @@
             "name": "Clan Rank: Moppet",
             "visibility_rules": [
               "place_clan_rank"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -11351,12 +11371,12 @@
       },
       {
         "name": "Zertinan Caverns Center",
-        "access_rules": [],
+        "access_rules": ["rainstone"],
         "sections": [
           {
             "name": "Defeat Adrammelech",
             "access_rules": [
-              "rainstone,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -13790,7 +13810,7 @@
           {
             "name": "Defeat Zodiark",
             "access_rules": [
-              "$espers_controlled|10,[$scaled_difficulty|7]"
+              "[$scaled_difficulty|7]"
             ]
           },
           {
