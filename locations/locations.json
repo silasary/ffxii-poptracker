@@ -3,6 +3,10 @@
     "name": "Main",
     "children": [
       {
+        "name": "Aerodrome",
+        "sections": []
+      },
+      {
         "name": "Rabanastre",
         "sections": [
           {
@@ -105,9 +109,9 @@
             ]
           },
           {
-            "name": "Shadestone",
+            "name": "Masyua Shadestone",
             "access_rules": [
-              "[$scaled_difficulty|0]"
+              ""
             ]
           },
           {

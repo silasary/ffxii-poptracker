@@ -111,6 +111,7 @@ def main() -> None:
     validate(all_names)
 
 def validate(all_names):
+    referenced = {}
     for file in glob.glob("*.json", root_dir="locations"):
         if file == "locations.json":
             continue
@@ -131,6 +132,8 @@ def validate(all_names):
                         changed = True
                     else:
                         print(f'WARNING: Reference {pt_loc["ref"]} not found in locations!')
+                else:
+                    referenced.setdefault(pt_loc['ref'], []).append(file)
 
 
             if 'children' in pt_loc:
@@ -142,6 +145,19 @@ def validate(all_names):
             with open(os.path.join("locations", file), 'w') as loc_file:
                 json.dump(ref_locations, loc_file, indent=2)
                 loc_file.write('\n')
+
+    for name in all_names:
+        if "world_map.json" not in referenced.get(name, []):
+            print(f'WARNING: Location {name} not referenced in world_map.json')
+        elif len(referenced[name]) != len(set(referenced[name])):
+            print(f'WARNING: Location {name} referenced in {referenced[name]}')
+        elif len(referenced[name]) == 1:
+            if "/Skyferry/" in name and referenced[name][0] == "world_map.json":
+                continue
+            print(f'Location {name} only referenced in {referenced[name]}')
+        elif len(referenced[name]) == 0:
+            print(f'WARNING: Location {name} not referenced anywhere')
+    pass
 
 
 def get_shortname(name, region_name):

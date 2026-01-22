@@ -11,7 +11,7 @@ return {
    [1847] = {"@Main/Rabanastre/Hunt 6: White Mousse", "white_mousse"},
    [1856] = {"@Main/Rabanastre/Hunt 9: Marilith", "marilith"},
    [2168] = {"@Main/Rabanastre/Grimy Fragment"},
-   [1595] = {"@Main/Giza Plains Dry/Shadestone"},
+   [1595] = {"@Main/Giza Plains Dry/Masyua Shadestone"},
    [1598] = {"@Main/Giza Plains Dry/Sunstone"},
    [1928] = {"@Main/Giza Plains Dry/Hunt 33: Cluckatrice", "cluckatrice"},
    [1937] = {"@Main/Giza Plains Dry/Hunt 36: Gil Snapper", "gil_snapper"},
