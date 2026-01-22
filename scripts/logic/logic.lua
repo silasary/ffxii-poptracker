@@ -91,7 +91,7 @@ function defeat_vossler()
     return sandseas()
 end
 
-function dawn_shard()
+function dawn_shard()  -- Why is this a function?
     return Tracker:ProviderCountForCode('dawn_shard') > 0
 end
 
