@@ -2970,7 +2970,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "$ozmone_plain,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -6804,7 +6804,7 @@
           {
             "name": "Niray Site 3 Key",
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|0]"
+              "clan_primer"
             ]
           },
           {
@@ -6890,7 +6890,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|3]"
+              "$paramina_rift,[$scaled_difficulty|3]"
             ]
           },
           {
