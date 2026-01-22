@@ -7629,7 +7629,7 @@
       {
         "name": "Old Archades",
         "access_rules": [
-          "^^$archades"
+          "^$archades"
         ],
         "sections": [
           {
