@@ -4,19 +4,25 @@
       "package_version": "0.2.4",
       "sha256": "f31abedeb1e18910dbde027e9b6602b22d2a28b7c190f62407c111a8bb12d650",
       "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.4/ffxii-tracker-0.2.4.zip",
-      "changelog": []
+      "changelog": [
+        "More Scaling, missing pips"
+      ]
     },
     {
       "package_version": "0.2.3",
       "sha256": "74f08933fa980ed9219095322d6ff6f867df7e7167acd1a3a0e53f5d82190eae",
       "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.3/ffxii-tracker-0.2.3.zip",
-      "changelog": []
+      "changelog": [
+        "Fix Great Crystal pips"
+      ]
     },
     {
       "package_version": "0.2.2",
       "sha256": "34e52f5f8233c932251453e1e89f99e1e9041a5090f9f0de6676bd4244a0e909",
       "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.2/ffxii-tracker-0.2.2.zip",
-      "changelog": []
+      "changelog": [
+        "More Scaling fixes"
+      ]
     },
     {
       "package_version": "0.2.1",
