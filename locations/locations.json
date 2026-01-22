@@ -4532,18 +4532,6 @@
               "[$scaled_difficulty|5]"
             ],
             "hosted_item": "piscodaemon"
-          },
-          {
-            "name": "Defeat Shemhazai",
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
-          },
-          {
-            "name": "Treaty-Blade",
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
           }
         ]
       },
@@ -4847,6 +4835,26 @@
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Giruvegan End",
+        "access_rules": [
+          "belias,$paramina_rift"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Shemhazai",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Treaty-Blade",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
             ]
           }
         ]
