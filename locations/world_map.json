@@ -8,28 +8,7 @@
         "y": 0
       }
     ],
-    "sections": [
-      {
-        "name": "Temple Grounds Treasure 1",
-        "ref": "Main/Mt. Bur-Omisace/Temple Grounds Treasure 1"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 1",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 2",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 3",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 4",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
-      }
-    ]
+    "sections": []
   },
   {
     "name": "Rabanastre",
@@ -3300,8 +3279,8 @@
     ],
     "sections": [
       {
-        "name": "Temple Grounds chest",
-        "ref": "Main/Mt. Bur-Omisace/Temple Grounds chest"
+        "name": "Temple Grounds Treasure 1",
+        "ref": "Main/Mt. Bur-Omisace/Temple Grounds Treasure 1"
       },
       {
         "name": "Hunt 13: Feral Retriever",
@@ -3554,6 +3533,22 @@
       {
         "name": "Babbling Vale Treasure 4",
         "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 4"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 1",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 2",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 3",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 4",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
       },
       {
         "name": "Defeat Atomos",
