@@ -16585,15 +16585,6 @@
             "hosted_item": "anubys"
           },
           {
-            "name": "Hell Wyrm Chest",
-            "visibility_rules": [
-              "place_treasures"
-            ],
-            "access_rules": [
-              "ageworn_key,[$scaled_difficulty|8]"
-            ]
-          },
-          {
             "name": "Falls of Time Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Sochen Cave Palace Middle - Falls of Time Treasure 1"
