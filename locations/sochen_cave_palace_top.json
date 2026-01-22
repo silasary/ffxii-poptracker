@@ -17,22 +17,6 @@
             "ref": "Main/Sochen Cave Palace Middle/Defeat Darksteel"
           }
         ]
-      },
-      {
-        "name": "Hell Wyrm Chest",
-        "map_locations": [
-          {
-            "map": "sochen_cave_palace_top",
-            "x": 204,
-            "y": 840
-          }
-        ],
-        "sections": [
-          {
-            "name": "Hell Wyrm Chest",
-            "ref": "Main/Sochen Cave Palace Middle/Hell Wyrm Chest"
-          }
-        ]
       }
     ]
   }

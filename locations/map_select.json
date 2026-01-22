@@ -1,6 +1,6 @@
 [
   {
-    "name": "Made ya look",
+    "name": "Mapless Checks",
     "map_locations": [
       {
         "map": "map_select",
@@ -10,13 +10,485 @@
     ],
     "sections": [
       {
-        "name": "HA!",
-        "access_rules": [
-          "$scaled_difficulty|0"
-        ]
+        "name": "Croakadile Drop",
+        "ref": "Main/Giza Plains Rains/Croakadile Drop"
+      },
+      {
+        "name": "Guest (Vossler)",
+        "ref": "Main/Dreadnought Leviathan/Guest (Vossler)"
+      },
+      {
+        "name": "Party Member (Ashe)",
+        "ref": "Main/Dreadnought Leviathan/Party Member (Ashe)"
+      },
+      {
+        "name": "Port Section Treasure 1",
+        "ref": "Main/Dreadnought Leviathan/Port Section Treasure 1"
+      },
+      {
+        "name": "Port Section Treasure 2",
+        "ref": "Main/Dreadnought Leviathan/Port Section Treasure 2"
+      },
+      {
+        "name": "Port Section Treasure 3",
+        "ref": "Main/Dreadnought Leviathan/Port Section Treasure 3"
+      },
+      {
+        "name": "Port Section Treasure 4",
+        "ref": "Main/Dreadnought Leviathan/Port Section Treasure 4"
+      },
+      {
+        "name": "Large Freight Stores Treasure 1",
+        "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 1"
+      },
+      {
+        "name": "Large Freight Stores Treasure 2",
+        "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 2"
+      },
+      {
+        "name": "Large Freight Stores Treasure 3",
+        "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 3"
+      },
+      {
+        "name": "Large Freight Stores Treasure 4",
+        "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 4"
+      },
+      {
+        "name": "Large Freight Stores Treasure 5",
+        "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 5"
+      },
+      {
+        "name": "Large Freight Stores Treasure 6",
+        "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 6"
+      },
+      {
+        "name": "Starboard Section Treasure 1",
+        "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 1"
+      },
+      {
+        "name": "Starboard Section Treasure 2",
+        "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 2"
+      },
+      {
+        "name": "Starboard Section Treasure 3",
+        "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 3"
+      },
+      {
+        "name": "Starboard Section Treasure 4",
+        "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 4"
+      },
+      {
+        "name": "Starboard Section Treasure 5",
+        "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 5"
+      },
+      {
+        "name": "Starboard Section Treasure 6",
+        "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 6"
+      },
+      {
+        "name": "Sub-control Room Treasure 1",
+        "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 1"
+      },
+      {
+        "name": "Sub-control Room Treasure 2",
+        "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 2"
+      },
+      {
+        "name": "Sub-control Room Treasure 3",
+        "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 3"
+      },
+      {
+        "name": "Sub-control Room Treasure 4",
+        "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 4"
+      },
+      {
+        "name": "No. 1 Brig Key",
+        "ref": "Main/Dreadnought Leviathan/No. 1 Brig Key"
+      },
+      {
+        "name": "Systems Access Key",
+        "ref": "Main/Dreadnought Leviathan/Systems Access Key"
+      },
+      {
+        "name": "Manufacted Nethicite",
+        "ref": "Main/Dreadnought Leviathan/Manufacted Nethicite"
+      },
+      {
+        "name": "Defeat Vossler",
+        "ref": "Main/Tomb of Raithwall/Defeat Vossler"
+      },
+      {
+        "name": "Hunt 41: Belito",
+        "ref": "Main/Clan Hall/Hunt 41: Belito"
+      },
+      {
+        "name": "Hunt 44: Shadowseer",
+        "ref": "Main/Clan Hall/Hunt 44: Shadowseer"
+      },
+      {
+        "name": "Hunt 40: Gilgamesh",
+        "ref": "Main/Clan Hall/Hunt 40: Gilgamesh"
+      },
+      {
+        "name": "Hunt 45: Yiazmat",
+        "ref": "Main/Clan Hall/Hunt 45: Yiazmat"
+      },
+      {
+        "name": "Clan Rank: Moppet",
+        "ref": "Main/Clan Hall/Clan Rank: Moppet"
+      },
+      {
+        "name": "Clan Rank: Hedge Knight",
+        "ref": "Main/Clan Hall/Clan Rank: Hedge Knight"
+      },
+      {
+        "name": "Clan Rank: Rear Guard",
+        "ref": "Main/Clan Hall/Clan Rank: Rear Guard"
+      },
+      {
+        "name": "Clan Rank: Vanguard",
+        "ref": "Main/Clan Hall/Clan Rank: Vanguard"
+      },
+      {
+        "name": "Clan Rank: Headhunter",
+        "ref": "Main/Clan Hall/Clan Rank: Headhunter"
+      },
+      {
+        "name": "Clan Rank: Ward of Justice",
+        "ref": "Main/Clan Hall/Clan Rank: Ward of Justice"
+      },
+      {
+        "name": "Clan Rank: Brave Companion",
+        "ref": "Main/Clan Hall/Clan Rank: Brave Companion"
+      },
+      {
+        "name": "Clan Rank: Riskbreaker",
+        "ref": "Main/Clan Hall/Clan Rank: Riskbreaker"
+      },
+      {
+        "name": "Clan Rank: Paragon of Justice",
+        "ref": "Main/Clan Hall/Clan Rank: Paragon of Justice"
+      },
+      {
+        "name": "Clan Rank: High Guardian",
+        "ref": "Main/Clan Hall/Clan Rank: High Guardian"
+      },
+      {
+        "name": "Clan Rank: Knight of the Round",
+        "ref": "Main/Clan Hall/Clan Rank: Knight of the Round"
+      },
+      {
+        "name": "Clan Boss: Flans",
+        "ref": "Main/Clan Hall/Clan Boss: Flans"
+      },
+      {
+        "name": "Clan Boss: Firemane",
+        "ref": "Main/Clan Hall/Clan Boss: Firemane"
+      },
+      {
+        "name": "Clan Boss: Demon Wall 1",
+        "ref": "Main/Clan Hall/Clan Boss: Demon Wall 1"
+      },
+      {
+        "name": "Clan Boss: Demon Wall 2",
+        "ref": "Main/Clan Hall/Clan Boss: Demon Wall 2"
+      },
+      {
+        "name": "Clan Boss: Elder Wyrm",
+        "ref": "Main/Clan Hall/Clan Boss: Elder Wyrm"
+      },
+      {
+        "name": "Clan Boss: Tiamat",
+        "ref": "Main/Clan Hall/Clan Boss: Tiamat"
+      },
+      {
+        "name": "Clan Boss: Vinuskar",
+        "ref": "Main/Clan Hall/Clan Boss: Vinuskar"
+      },
+      {
+        "name": "Clan Boss: King Bomb",
+        "ref": "Main/Clan Hall/Clan Boss: King Bomb"
+      },
+      {
+        "name": "Clan Boss: Mandragoras",
+        "ref": "Main/Clan Hall/Clan Boss: Mandragoras"
+      },
+      {
+        "name": "Clan Boss: Ahriman",
+        "ref": "Main/Clan Hall/Clan Boss: Ahriman"
+      },
+      {
+        "name": "Clan Boss: Hell Wyrm",
+        "ref": "Main/Clan Hall/Clan Boss: Hell Wyrm"
+      },
+      {
+        "name": "Clan Boss: Rafflesia",
+        "ref": "Main/Clan Hall/Clan Boss: Rafflesia"
+      },
+      {
+        "name": "Clan Boss: Daedalus",
+        "ref": "Main/Clan Hall/Clan Boss: Daedalus"
+      },
+      {
+        "name": "Clan Boss: Tyrant",
+        "ref": "Main/Clan Hall/Clan Boss: Tyrant"
+      },
+      {
+        "name": "Clan Boss: Hydro",
+        "ref": "Main/Clan Hall/Clan Boss: Hydro"
+      },
+      {
+        "name": "Clan Boss: Humbaba Mistant",
+        "ref": "Main/Clan Hall/Clan Boss: Humbaba Mistant"
+      },
+      {
+        "name": "Clan Boss: Fury",
+        "ref": "Main/Clan Hall/Clan Boss: Fury"
+      },
+      {
+        "name": "Clan Esper: Control 1",
+        "ref": "Main/Clan Hall/Clan Esper: Control 1"
+      },
+      {
+        "name": "Clan Esper: Control 4",
+        "ref": "Main/Clan Hall/Clan Esper: Control 4"
+      },
+      {
+        "name": "Clan Esper: Control 8",
+        "ref": "Main/Clan Hall/Clan Esper: Control 8"
+      },
+      {
+        "name": "Clan Esper: Control 13",
+        "ref": "Main/Clan Hall/Clan Esper: Control 13"
+      },
+      {
+        "name": "Earth Tyrant Quest Wind Globe",
+        "ref": "Main/Dalmasca Westersand/Earth Tyrant Quest Wind Globe"
+      },
+      {
+        "name": "North Treasure 1",
+        "ref": "Main/Pharos of Ridorana/North Treasure 1"
+      },
+      {
+        "name": "North Treasure 2",
+        "ref": "Main/Pharos of Ridorana/North Treasure 2"
+      },
+      {
+        "name": "North Treasure 3",
+        "ref": "Main/Pharos of Ridorana/North Treasure 3"
+      },
+      {
+        "name": "North Treasure 4",
+        "ref": "Main/Pharos of Ridorana/North Treasure 4"
+      },
+      {
+        "name": "North Treasure 5",
+        "ref": "Main/Pharos of Ridorana/North Treasure 5"
+      },
+      {
+        "name": "South Treasure 1",
+        "ref": "Main/Pharos of Ridorana/South Treasure 1"
+      },
+      {
+        "name": "South Treasure 2",
+        "ref": "Main/Pharos of Ridorana/South Treasure 2"
+      },
+      {
+        "name": "South Treasure 3",
+        "ref": "Main/Pharos of Ridorana/South Treasure 3"
+      },
+      {
+        "name": "Temple Grounds Treasure 1",
+        "ref": "Main/Mt. Bur-Omisace/Temple Grounds Treasure 1"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 1",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 2",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 3",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 4",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
+      },
+      {
+        "name": "Air Deck Treasure 1",
+        "ref": "Main/Skyferry/Air Deck Treasure 1"
+      },
+      {
+        "name": "Ann's Letter",
+        "ref": "Main/Skyferry/Ann's Letter"
+      },
+      {
+        "name": "Defeat Deathgaze",
+        "ref": "Main/Skyferry/Defeat Deathgaze"
+      },
+      {
+        "name": "Hunt 26: Deathgaze",
+        "ref": "Main/Skyferry/Hunt 26: Deathgaze"
+      },
+      {
+        "name": "Ann's Sisters Quest",
+        "ref": "Main/Skyferry/Ann's Sisters Quest"
+      },
+      {
+        "name": "Falls of Time Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 1"
+      },
+      {
+        "name": "Falls of Time Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 2"
+      },
+      {
+        "name": "Falls of Time Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 3"
+      },
+      {
+        "name": "Falls of Time Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 4"
+      },
+      {
+        "name": "Falls of Time Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 5"
+      },
+      {
+        "name": "Falls of Time Treasure 6",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 6"
+      },
+      {
+        "name": "Falls of Time Treasure 7",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 7"
+      },
+      {
+        "name": "Falls of Time Treasure 8",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 8"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 1"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 2"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 3"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 4"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 5"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 6",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 6"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 7",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 7"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 8",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 8"
+      },
+      {
+        "name": "The Acolyte's Burden Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/The Acolyte's Burden Treasure 1"
+      },
+      {
+        "name": "The Acolyte's Burden Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/The Acolyte's Burden Treasure 2"
+      },
+      {
+        "name": "Destiny's March Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 1"
+      },
+      {
+        "name": "Destiny's March Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 2"
+      },
+      {
+        "name": "Destiny's March Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 3"
+      },
+      {
+        "name": "Destiny's March Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 4"
+      },
+      {
+        "name": "Destiny's March Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 5"
+      },
+      {
+        "name": "Destiny's March Treasure 6",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 6"
+      },
+      {
+        "name": "Destiny's March Treasure 7",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 7"
+      },
+      {
+        "name": "Temptation Eluded Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 1"
+      },
+      {
+        "name": "Temptation Eluded Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 2"
+      },
+      {
+        "name": "Temptation Eluded Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 3"
+      },
+      {
+        "name": "Temptation Eluded Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 4"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 1"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 2"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 3"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 4"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
+      },
+      {
+        "name": "Hall of the Wroth God Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 1"
+      },
+      {
+        "name": "Hall of the Wroth God Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 2"
+      },
+      {
+        "name": "Hall of the Wroth God Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 3"
+      },
+      {
+        "name": "Hall of the Wroth God Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 4"
       }
     ]
   }
 ]
-
-// Dummy file in case you need dots here for something. Dot size is based on img size, which is currently 3000x4500. 1000x1500 makes it about the same size as the world map dots

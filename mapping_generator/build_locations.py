@@ -24,7 +24,7 @@ def main() -> None:
     all_locations = {}
     all_names = []
     for region in pt_locations[0]['children']:
-        for section in region['sections']:
+        for section in region.setdefault('sections', []):
             all_locations[section['name']] = region['name']
     todays_treasures = None
     warned_regions = set()
@@ -146,18 +146,47 @@ def validate(all_names):
                 json.dump(ref_locations, loc_file, indent=2)
                 loc_file.write('\n')
 
+    add_to_world_map = []
+    add_to_map_select = []
     for name in all_names:
         if "world_map.json" not in referenced.get(name, []):
-            print(f'WARNING: Location {name} not referenced in world_map.json')
+            add_to_world_map.append(name)
         elif len(referenced[name]) != len(set(referenced[name])):
             print(f'WARNING: Location {name} referenced in {referenced[name]}')
         elif len(referenced[name]) == 1:
-            if "/Skyferry/" in name and referenced[name][0] == "world_map.json":
-                continue
-            print(f'Location {name} only referenced in {referenced[name]}')
+            add_to_map_select.append(name)
         elif len(referenced[name]) == 0:
             print(f'WARNING: Location {name} not referenced anywhere')
-    pass
+
+    if add_to_world_map:
+        with open(os.path.join("locations", "world_map.json"), 'r') as loc_file:
+            world_map = json.load(loc_file)
+        world_map_sections = world_map[0].setdefault('sections', [])
+        for name in add_to_world_map:
+            shortname = name.split('/')[-1]
+            print(f'Adding {name} as {shortname} to world_map.json')
+            world_map_sections.append({
+                "name": shortname,
+                "ref": name,
+            })
+        with open(os.path.join("locations", "world_map.json"), 'w') as loc_file:
+            json.dump(world_map, loc_file, indent=2)
+            loc_file.write('\n')
+
+    if add_to_map_select:
+        with open(os.path.join("locations", "map_select.json"), 'r') as loc_file:
+            map_select = json.load(loc_file)
+        map_select_sections = map_select[0].setdefault('sections', [])
+        for name in add_to_map_select:
+            shortname = name.split('/')[-1]
+            print(f'Adding {name} as {shortname} to map_select.json')
+            map_select_sections.append({
+                "name": shortname,
+                "ref": name,
+            })
+        with open(os.path.join("locations", "map_select.json"), 'w') as loc_file:
+            json.dump(map_select, loc_file, indent=2)
+            loc_file.write('\n')
 
 
 def get_shortname(name, region_name):

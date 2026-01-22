@@ -7,6 +7,10 @@
         "sections": []
       },
       {
+        "name": "Initial",
+        "sections": []
+      },
+      {
         "name": "Rabanastre",
         "sections": [
           {
@@ -520,7 +524,7 @@
             ]
           },
           {
-            "name": "Sunstone",
+            "name": "Giza Sunstone",
             "visibility_rules": [
               "side_quests"
             ],
@@ -15293,6 +15297,13 @@
             "hosted_item": "bull_chocobo"
           }
         ]
+      },
+      {
+        "name": "Salikawood NW",
+        "access_rules": [
+          "^$tchita_uplands"
+        ],
+        "sections": []
       },
       {
         "name": "Salikawood",

@@ -56,6 +56,39 @@
         ]
       },
       {
+        "name": "Hall of Lambent Darkness Chests",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 115,
+            "y": 1050
+          },
+          {
+            "map": "sochen_cave_palace_bottom",
+            "x": 230,
+            "y": 205
+          }
+        ],
+        "sections": [
+          {
+            "name": "Hall of Lambent Darkness Treasure 1",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of Lambent Darkness Treasure 1"
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 2",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of Lambent Darkness Treasure 2"
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 3",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of Lambent Darkness Treasure 3"
+          },
+          {
+            "name": "Hall of Lambent Darkness Treasure 4",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of Lambent Darkness Treasure 4"
+          }
+        ]
+      },
+      {
         "name": "Chests",
         "map_locations": [
           {
@@ -82,12 +115,29 @@
             "map": "sochen_cave_palace",
             "x": 112,
             "y": 450
+          },
+          {
+            "map": "sochen_cave_palace_top",
+            "x": 204,
+            "y": 840
           }
         ],
         "sections": [
           {
-            "name": "Hell Wyrm Chest",
-            "ref": "Main/Sochen Cave Palace Middle/Hell Wyrm Chest"
+            "name": "Hall of the Wroth God Treasure 1",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 1"
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 2",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 2"
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 3",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 3"
+          },
+          {
+            "name": "Hall of the Wroth God Treasure 4",
+            "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 4"
           }
         ]
       },
@@ -114,6 +164,11 @@
             "map": "sochen_cave_palace",
             "x": 137,
             "y": 1212
+          },
+          {
+            "map": "sochen_cave_palace_bottom",
+            "x": 277,
+            "y": 519
           }
         ],
         "sections": [
