@@ -103,5 +103,6 @@
     "lambda state, player: state.can_reach_region(Mosphoran Highwaste, player)": null,
     "lambda state, player: state.can_reach_region(Necrohol of Nabudis, player)": null,
     "lambda state, player: state.has(Jovy, player, 5)": null,
-    "lambda state, player: state.has(Shadestone, player)": "shadestone"
+    "lambda state, player: state.has(Shadestone, player)": "shadestone",
+    "lambda state, player: state.has(Wind Globe, player) and state.has(Defeat Vossler, player)": null
 }

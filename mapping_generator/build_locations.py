@@ -4,6 +4,7 @@ import sys
 import jsoncomment
 import from_lambda
 import re
+import lua_tools
 
 json = jsoncomment.JsonComment()
 sys.path.append("D:\\source\\repos\\Archipelago.worktrees\\ff12_openworld")
@@ -13,6 +14,10 @@ without_parentheses_re = re.compile(r'^(.*?)\s*\((\d*)\)\s*$')
 def main() -> None:
     from worlds.ff12_open_world.Locations import location_data_table
     from worlds.ff12_open_world.Rules import rule_data_table
+
+    with open("./scripts/archipelago/location_mapping.lua", 'r', encoding='utf-8') as lua_file:
+        location_mapping = lua_tools.lua_to_dict("./scripts/archipelago/location_mapping.lua")
+
 
     with open("./locations/locations.json", 'r') as loc_file:
         pt_locations = json.load(loc_file)
@@ -96,6 +101,13 @@ def main() -> None:
             py_visibility_rules = pt_loc.setdefault('visibility_rules', [])
             if visibility_rule not in py_visibility_rules:
                 py_visibility_rules.append(visibility_rule)
+        mapping = location_mapping.get(loc.address)
+        if mapping:
+            mapping[0] = "@Main/" + region_name + "/" + pt_loc['name']
+        else:
+            location_mapping[loc.address] = ["@Main/" + region_name + "/" + pt_loc['name']]
+        pass
+
 
     for region in pt_locations[0]['children']:
         for section in region['sections']:
@@ -108,6 +120,16 @@ def main() -> None:
     with open("./locations/locations.json", 'w') as loc_file:
         json.dump(pt_locations, loc_file, indent=2)
         loc_file.write('\n')
+
+    location_mapping = {int(k): v for k, v in sorted(location_mapping.items(), key=lambda item: item[0])}
+    with open("./scripts/archipelago/location_mapping.lua", 'w', encoding='utf-8') as lua_file:
+        lua_file.write("return {\n")
+        for address, mapping in location_mapping.items():
+            lua_file.write(f"\t[{address}] = ")
+            lua_file.write("{")
+            lua_file.write(", ".join(f'"{m}"' for m in mapping))
+            lua_file.write("},\n")
+        lua_file.write("}\n")
     validate(all_names)
 
 def validate(all_names):
