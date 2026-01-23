@@ -8,9 +8,14 @@ def lua_to_dict(file: str) -> dict:
     tree = luaparser.ast.parse(lua_string)
     node = tree
     def to_kv_pair(field) -> tuple:
-        key = field.key.s if isinstance(field.key, luaparser.astnodes.String) else field.key.n
+        if field.key is None:
+            key = None
+        else:
+            key = field.key.s if isinstance(field.key, luaparser.astnodes.String) else field.key.n
         if isinstance(field.value, luaparser.astnodes.String):
             value = field.value.s
+            if isinstance(value, bytes):
+                value = value.decode('utf-8')
         elif isinstance(field.value, luaparser.astnodes.Number):
             value = field.value.n
         elif isinstance(field.value, luaparser.astnodes.Table):
@@ -21,10 +26,14 @@ def lua_to_dict(file: str) -> dict:
 
     def to_array(node_list) -> list | dict:
         d = {}
-        for n in node_list:
+        for i, n in enumerate(node_list):
             key, value = to_kv_pair(n)
+            if key is None:
+                key = i + 1
             d[key] = value
         if d.keys() == {i for i in range(1, len(d) + 1)}:
+            return list(d.values())
+        if all(k is None for k in d.keys()):
             return list(d.values())
         return d
 

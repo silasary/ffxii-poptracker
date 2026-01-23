@@ -7421,7 +7421,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|4]"
+              "^$tchita_uplands,[$scaled_difficulty|4]"
             ]
           }
         ]
@@ -7564,7 +7564,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "viera_rucksack,[$scaled_difficulty|5]"
+              "viera_rucksack,^$tchita_uplands,[$scaled_difficulty|5]"
             ]
           },
           {
