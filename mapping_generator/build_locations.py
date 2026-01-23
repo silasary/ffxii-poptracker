@@ -170,6 +170,7 @@ def validate(all_names):
 
     add_to_world_map = []
     add_to_map_select = []
+    remove_from_map_select = []
     for name in all_names:
         if "world_map.json" not in referenced.get(name, []):
             add_to_world_map.append(name)
@@ -179,6 +180,8 @@ def validate(all_names):
             add_to_map_select.append(name)
         elif len(referenced[name]) == 0:
             print(f'WARNING: Location {name} not referenced anywhere')
+        elif len(referenced[name]) > 2 and "map_select.json" in referenced[name]:
+            remove_from_map_select.append(name)
 
     if add_to_world_map:
         with open(os.path.join("locations", "world_map.json"), 'r') as loc_file:
@@ -209,6 +212,24 @@ def validate(all_names):
         with open(os.path.join("locations", "map_select.json"), 'w') as loc_file:
             json.dump(map_select, loc_file, indent=2)
             loc_file.write('\n')
+
+    if remove_from_map_select:
+        with open(os.path.join("locations", "map_select.json"), 'r') as loc_file:
+            map_select = json.load(loc_file)
+        map_select_sections = map_select[0].setdefault('sections', [])
+        changed = False
+        for name in remove_from_map_select:
+            shortname = name.split('/')[-1]
+            for section in map_select_sections:
+                if section['ref'] == name:
+                    print(f'Removing {name} from map_select.json')
+                    map_select_sections.remove(section)
+                    changed = True
+                    break
+        if changed:
+            with open(os.path.join("locations", "map_select.json"), 'w') as loc_file:
+                json.dump(map_select, loc_file, indent=2)
+                loc_file.write('\n')
 
 
 def get_shortname(name, region_name):

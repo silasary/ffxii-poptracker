@@ -114,10 +114,6 @@
         "ref": "Main/Dreadnought Leviathan/Manufacted Nethicite"
       },
       {
-        "name": "Defeat Vossler",
-        "ref": "Main/Tomb of Raithwall/Defeat Vossler"
-      },
-      {
         "name": "Hunt 41: Belito",
         "ref": "Main/Clan Hall/Hunt 41: Belito"
       },
@@ -298,10 +294,6 @@
         "ref": "Main/Pharos of Ridorana/South Treasure 3"
       },
       {
-        "name": "Temple Grounds Treasure 1",
-        "ref": "Main/Mt. Bur-Omisace/Temple Grounds Treasure 1"
-      },
-      {
         "name": "Skyreach Ridge Treasure 1",
         "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
       },
@@ -472,22 +464,6 @@
       {
         "name": "Hall of Shadowlight Treasure 5",
         "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
-      },
-      {
-        "name": "Hall of the Wroth God Treasure 1",
-        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 1"
-      },
-      {
-        "name": "Hall of the Wroth God Treasure 2",
-        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 2"
-      },
-      {
-        "name": "Hall of the Wroth God Treasure 3",
-        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 3"
-      },
-      {
-        "name": "Hall of the Wroth God Treasure 4",
-        "ref": "Main/Sochen Cave Palace Middle/Hall of the Wroth God Treasure 4"
       }
     ]
   }
