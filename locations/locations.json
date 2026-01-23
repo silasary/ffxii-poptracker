@@ -1161,7 +1161,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|3]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6813,7 +6813,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "$aero|bhu_aero,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -7858,7 +7858,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$sandseas,$ozmone_plain,[$scaled_difficulty|5]"
+              "clan_primer,rainstone,[$scaled_difficulty|5]"
             ]
           },
           {
