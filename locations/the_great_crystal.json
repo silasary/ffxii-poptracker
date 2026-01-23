@@ -57,10 +57,6 @@
             "ref": "Main/Great Crystal/Bhrum Pis Avaa Treasure 1"
           },
           {
-            "name": "Bhrum Pis Pratii Treasure 1",
-            "ref": "Main/Great Crystal/Bhrum Pis Pratii Treasure 1"
-          },
-          {
             "name": "Trahk Pis Praa Treasure 1",
             "ref": "Main/Great Crystal/Trahk Pis Praa Treasure 1"
           },
@@ -397,6 +393,22 @@
             "visibility_rules": [
               "$at_map_id|929"
             ]
+          }
+        ]
+      },
+      {
+        "name": "",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_lower",
+            "x": 220,
+            "y": 450
+          }
+        ],
+        "sections": [
+          {
+            "name": "Bhrum Pis Pratii Treasure 1",
+            "ref": "Main/Great Crystal/Bhrum Pis Pratii Treasure 1"
           }
         ]
       },
