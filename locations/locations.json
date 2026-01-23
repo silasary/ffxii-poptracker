@@ -6822,7 +6822,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1]"
+              "clan_primer,aero|bhu_aero,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -6905,7 +6905,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belias,[$scaled_difficulty|5]"
+              "belias,$paramina_rift,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6923,7 +6923,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_light,[$scaled_difficulty|7]"
+              "ring_of_light,$paramina_rift,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -8125,7 +8125,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,belias,[$scaled_difficulty|5]"
+              "belias,$paramina_rift,[$scaled_difficulty|5]"
             ]
           },
           {
