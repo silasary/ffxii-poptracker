@@ -8170,7 +8170,7 @@
               "place_clan_esper"
             ],
             "access_rules": [
-              "$espers_controlled|1"
+              "$espers_controlled|1,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -8179,7 +8179,7 @@
               "place_clan_esper"
             ],
             "access_rules": [
-              "$espers_controlled|4"
+              "$espers_controlled|4,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -8188,7 +8188,7 @@
               "place_clan_esper"
             ],
             "access_rules": [
-              "$espers_controlled|8"
+              "$espers_controlled|8,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8197,7 +8197,7 @@
               "place_clan_esper"
             ],
             "access_rules": [
-              "$espers_controlled|13"
+              "$espers_controlled|13,[$scaled_difficulty|8]"
             ]
           }
         ]

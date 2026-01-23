@@ -80,11 +80,11 @@
     "lambda state, player: state.has(Medallion of Bravery, player) and state.has(Lusterless Medallion, player) and state.can_reach_region(Necrohol of Nabudis, player)": null,
     "lambda state, player: state.has(Medallion of Love, player) and state.has(Lusterless Medallion, player) and state.can_reach_region(Necrohol of Nabudis, player)": null,
     "lambda state, player: state.can_reach_region(Great Crystal, player)": null,
-    "lambda state, player: state_has_category(state, player, Esper, 1)": null,
-    "lambda state, player: state_has_category(state, player, Esper, 4)": null,
-    "lambda state, player: state_has_category(state, player, Esper, 8)": null,
-    "lambda state, player: state_has_category(state, player, Esper, 13)": null,
-    "lambda state, player: state.has(Cactus Flower, player) and state.has(Defeat Vossler, player)": null,
+    "lambda state, player: state_has_category(state, player, Esper, 1)": "$espers_controlled|1",
+    "lambda state, player: state_has_category(state, player, Esper, 4)": "$espers_controlled|4",
+    "lambda state, player: state_has_category(state, player, Esper, 8)": "$espers_controlled|8",
+    "lambda state, player: state_has_category(state, player, Esper, 13)": "$espers_controlled|13",
+    "lambda state, player: state.has(Cactus Flower, player) and state.has(Defeat Vossler, player)": "cactus_flower,^$defeat_vossler",
     "lambda state, player: state.has(Sword of Kings, player)": "sword_of_kings",
     "lambda state, player: state.has(Defeat Vossler, player)": "^$defeat_vossler",
     "lambda state, player: state.has(Clan Primer, player) and state.has(Merchant's Armband, player)": null,
@@ -96,7 +96,7 @@
     "lambda state, player: state.can_reach_region(Nabreus Deadlands, player)": null,
     "lambda state, player: state.can_reach_region(Nabreus Deadlands, player) and state.can_reach_region(Archades, player)": null,
     "lambda state, player: state.has(Medallion of Bravery, player) and state.has(Medallion of Love, player) and state.has(Lusterless Medallion, player)": null,
-    "lambda state, player: state.can_reach_region(Clan Hall, player)": null,
+    "lambda state, player: state.can_reach_region(Clan Hall, player)": "clan_primer",
     "lambda state, player: state.has(Stone of the Condemner, player)": null,
     "lambda state, player: state.has(Shelled Trophy, player) and state.has(HuntClubStart, player)": null,
     "lambda state, player: state.has(Shelled Trophy, player) and state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.has(HuntClubStart, player)": null,
@@ -104,5 +104,5 @@
     "lambda state, player: state.can_reach_region(Necrohol of Nabudis, player)": null,
     "lambda state, player: state.has(Jovy, player, 5)": null,
     "lambda state, player: state.has(Shadestone, player)": "shadestone",
-    "lambda state, player: state.has(Wind Globe, player) and state.has(Defeat Vossler, player)": null
+    "lambda state, player: state.has(Wind Globe, player) and state.has(Defeat Vossler, player)": "wind_globe,^$defeat_vossler"
 }
