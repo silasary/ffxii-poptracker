@@ -127,7 +127,7 @@
         ]
       },
       {
-        "name": "Defeat Vossler",
+        "name": "Defeat Vossler - via the waystone",
         "map_locations": [
           {
             "map": "tomb_of_king_raithwall",
@@ -138,7 +138,7 @@
         "sections": [
           {
             "name": "Defeat Vossler - via the waystone",
-            "ref": "Main/Tomb of Raithwall/Defeat Vossler - via the waystone"
+            "ref": "Main/Tomb of Raithwall/Defeat Vossler"
           }
         ]
       },
