@@ -158,6 +158,10 @@ def main() -> None:
 
 def validate(all_names):
     referenced = {}
+    add_to_world_map = []
+    add_to_map_select = []
+    remove_from_map_select = []
+
     for file in glob.glob("*.json", root_dir="locations"):
         if file == "locations.json":
             continue
@@ -176,6 +180,8 @@ def validate(all_names):
                         pt_loc['ref'] = found
                         print(f'Updated reference {old} to {found} in {file}')
                         changed = True
+                    elif file == "map_select.json":
+                        remove_from_map_select.append(pt_loc['ref'])
                     else:
                         print(f'WARNING: Reference {pt_loc["ref"]} not found in locations!')
                 else:
@@ -192,9 +198,6 @@ def validate(all_names):
                 json.dump(ref_locations, loc_file, indent=2)
                 loc_file.write('\n')
 
-    add_to_world_map = []
-    add_to_map_select = []
-    remove_from_map_select = []
     for name in all_names:
         if "world_map.json" not in referenced.get(name, []):
             add_to_world_map.append(name)

@@ -4330,7 +4330,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -7599,7 +7599,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rusted_scrap_of_armor,^$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,rusted_scrap_of_armor,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8665,7 +8665,7 @@
           {
             "name": "Dull Fragment",
             "access_rules": [
-              "sluice_gate_key,[^$tchita_uplands,$scaled_difficulty|0]"
+              "sluice_gate_key,^$tchita_uplands"
             ]
           },
           {
