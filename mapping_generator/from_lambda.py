@@ -162,8 +162,11 @@ def _normalize(x):
             # b and c if not a else c --> (a or b) and c
             return BinOp('and', BinOp('or', x.c.x, x.t.x), x.f)
         if type(x.c) is Bool and x.c.v == x.f:
-            # a if bool(a) else b --> a and b
+            # a if bool(b) else b --> a and b
             return BinOp('and', x.f, x.t)
+        elif type(x.c) is UnOp and x.c.op == 'not' and type(x.c.x) is Bool and x.c.x.v == x.f:
+            # a if not bool(b) else b --> b or a
+            return BinOp('or', x.f, x.t)
 
     return x
 
