@@ -94,6 +94,12 @@ def main() -> None:
             access_rule += f',[$scaled_difficulty|{difficulty}]'
             access_rule = access_rule.strip(',')
 
+        if access_rule and len(region.get('access_rules', [])) == 1:
+            region_reqs = region['access_rules'][0].split(',')
+            access_rule_reqs = access_rule.split(',')
+            pruned_reqs = [req for req in access_rule_reqs if req not in region_reqs]
+            access_rule = ','.join(pruned_reqs)
+
         if access_rule is not None:
             if pt_loc.get('access_rules', []):
                 if pt_loc['access_rules'][0] != access_rule:

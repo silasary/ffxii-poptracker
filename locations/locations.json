@@ -2970,7 +2970,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$ozmone_plain,[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -6813,7 +6813,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$aero|bhu_aero,[$scaled_difficulty|1]"
+              "[$scaled_difficulty|1]"
             ]
           },
           {
@@ -6890,7 +6890,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -6905,7 +6905,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belias,$paramina_rift,[$scaled_difficulty|5]"
+              "belias,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6923,7 +6923,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_light,$paramina_rift,[$scaled_difficulty|7]"
+              "ring_of_light,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -7421,7 +7421,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|4]"
+              "[$scaled_difficulty|4]"
             ]
           }
         ]
@@ -7564,7 +7564,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "viera_rucksack,^$tchita_uplands,[$scaled_difficulty|5]"
+              "viera_rucksack,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -7858,7 +7858,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,rainstone,[$scaled_difficulty|5]"
+              "rainstone,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8161,7 +8161,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,belias,[$scaled_difficulty|8]"
+              "belias,$paramina_rift,[$scaled_difficulty|8]"
             ]
           },
           {
@@ -11308,7 +11308,7 @@
               "$chest_visibility|Zertinan Caverns Connector N - Canopy of Clay Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           }
         ]
@@ -11377,7 +11377,7 @@
               "$chest_visibility|Zertinan Caverns Center - Hourglass Basin Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11387,7 +11387,7 @@
               "$chest_visibility|Zertinan Caverns Center - Hourglass Basin Treasure 2"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11397,7 +11397,7 @@
               "$chest_visibility|Zertinan Caverns Center - Hourglass Basin Treasure 3"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11407,7 +11407,7 @@
               "$chest_visibility|Zertinan Caverns Center - Hourglass Basin Treasure 4"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11417,7 +11417,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Undershore Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11427,7 +11427,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Undershore Treasure 2"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11437,7 +11437,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Undershore Treasure 3"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11447,7 +11447,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Undershore Treasure 4"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11457,7 +11457,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Undershore Treasure 5"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11530,7 +11530,7 @@
               "$chest_visibility|Zertinan Caverns Center - Drybeam Cavern Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11540,7 +11540,7 @@
               "$chest_visibility|Zertinan Caverns Center - Drybeam Cavern Treasure 2"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11550,7 +11550,7 @@
               "$chest_visibility|Zertinan Caverns Center - Drybeam Cavern Treasure 3"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11560,7 +11560,7 @@
               "$chest_visibility|Zertinan Caverns Center - Drybeam Cavern Treasure 4"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11570,7 +11570,7 @@
               "$chest_visibility|Zertinan Caverns Center - Drybeam Cavern Treasure 5"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11580,7 +11580,7 @@
               "$chest_visibility|Zertinan Caverns Center - Drybeam Cavern Treasure 6"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11590,7 +11590,7 @@
               "$chest_visibility|Zertinan Caverns Center - Darkened Wharf Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11600,7 +11600,7 @@
               "$chest_visibility|Zertinan Caverns Center - Darkened Wharf Treasure 2"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11610,7 +11610,7 @@
               "$chest_visibility|Zertinan Caverns Center - Darkened Wharf Treasure 3"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
