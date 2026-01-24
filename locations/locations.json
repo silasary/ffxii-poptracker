@@ -7903,7 +7903,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|2"
+              "$hunts_defeated|2,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -7912,7 +7912,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|4"
+              "$hunts_defeated|4,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -7921,7 +7921,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|8"
+              "$hunts_defeated|8,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -7930,7 +7930,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|10"
+              "$hunts_defeated|10,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -7939,7 +7939,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|12"
+              "$hunts_defeated|12,[$scaled_difficulty|6]"
             ]
           },
           {
@@ -7948,7 +7948,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|14"
+              "$hunts_defeated|14,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -7957,7 +7957,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|16"
+              "$hunts_defeated|16,[$scaled_difficulty|8]"
             ]
           },
           {
@@ -7966,7 +7966,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|24"
+              "$hunts_defeated|24,[$scaled_difficulty|9]"
             ]
           },
           {
@@ -7975,7 +7975,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|28"
+              "$hunts_defeated|28,[$scaled_difficulty|10]"
             ]
           },
           {
@@ -7984,7 +7984,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "$hunts_defeated|32"
+              "$hunts_defeated|32,[$scaled_difficulty|11]"
             ]
           },
           {
