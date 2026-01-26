@@ -6,7 +6,6 @@
 # ///
 
 import jsoncomment
-from lua_tools import lua_to_dict
 
 json = jsoncomment.JsonComment()
 
@@ -17,9 +16,6 @@ class DataPackage:
 # ff12 AP datapackage
 with open("./mapping_generator/ff12_datapackage.json") as dp_file:
     datapackage: DataPackage = json.load(dp_file)
-# location defs
-with open("./locations/locations.json", encoding='utf-8') as loc_defs_file:
-    loc_defs = json.load(loc_defs_file)
 # party 'starting inventory' locations
 with open("./mapping_generator/party_loc.json", encoding='utf-8') as party_loc_file:
     party_locations: list[dict[str,str]] = json.load(party_loc_file)
@@ -80,61 +76,3 @@ with open("./scripts/archipelago/loc_mapping_chars.lua", 'w') as loc_out:
         loc_out.write(f"""\t[{loc_id}] = {{"{loc_code}", "toggle"}},\n""")
 
     loc_out.write("}\n")
-
-### LOCATION HANDLING ###
-with open("./mapping_generator/location_overrides.json") as loc_override_file:
-    loc_overrides: dict[str,str] = json.load(loc_override_file)
-
-with open("./locations/locations.json") as loc_data_file:
-    loc_data = json.load(loc_data_file)
-
-with open("./scripts/archipelago/location_mapping.lua", 'w') as loc_out:
-
-    def write_location(loc_name, truename) -> bool:
-        loc_id = datapackage['location_name_to_id'].get(truename) or datapackage['location_name_to_id'].get(f'{truename} (1)')
-        if not loc_id:
-            name = loc_name if shortname == truename else f"{loc_name} [{truename}]"
-            print(f"WARNING: No matching location for {name} in locations.json")
-            return False
-
-        loc_out.write(f"""\t[{loc_id}] = {{"{path}/{shortname}"}},\n""")
-        return True
-
-    loc_out.write("return {\n")
-    names = {}
-    for area in loc_data:
-        area_name = area['name']
-        for child in area['children']:
-            child_name = child['name']
-            for loc in child['sections']:
-                loc_name = f'@{area_name}/{child_name}/{loc["name"]}'
-                count = loc.get('item_count', 1)
-                names[loc_name] = count
-
-    for loc_name, count in names.items():
-        shortname = loc_name.split('/')[-1]
-        path = '/'.join(loc_name.split('/')[0:-1])
-        found = False
-        if count > 1:
-            for i in range(1, count + 1):
-                truename = loc_overrides.get(shortname, shortname)
-                truename = f"{truename} {i}"
-                write_location(loc_name, truename)
-        else:
-            truename = loc_overrides.get(shortname, shortname)
-            write_location(loc_name, truename)
-
-    loc_out.write("}\n")
-
-treasure_map = {}
-for loc_name, loc_id in datapackage['location_name_to_id'].items():
-    if "Treasure" in loc_name:
-        region, name = loc_name.split(' - ', 1)
-        new_name = '{ "' + f'@Main/{region}/{name}' + '" }'
-        treasure_map.setdefault(loc_id, new_name)
-
-with open("./scripts/archipelago/treasure_mapping.lua", 'w') as treasure_out:
-    treasure_out.write("return {\n")
-    for treasure_id, treasure_name in treasure_map.items():
-        treasure_out.write(f"""\t[{treasure_id}] = {treasure_name},\n""")
-    treasure_out.write("}\n")
