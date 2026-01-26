@@ -26,7 +26,7 @@ def main() -> None:
     with open("./mapping_generator/lambda_to_access_rule.json", 'r') as f:
         lambda_to_access_rule_full = json.load(f)
 
-    lambda_to_access_rule = lambda_to_access_rule_full.get("inactive", {}) | lambda_to_access_rule_full.get("needed", {}) |  lambda_to_access_rule_full.get("active", {})
+    lambda_to_access_rule = lambda_to_access_rule_full.get("needed", {}) | lambda_to_access_rule_full.get("inactive", {}) |  lambda_to_access_rule_full.get("active", {})
     lambda_counter = Counter()
 
     regions = {v['name']: v for v in pt_locations[0]['children']}

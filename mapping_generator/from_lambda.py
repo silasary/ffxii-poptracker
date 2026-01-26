@@ -25,7 +25,7 @@ def to_str(ex):
             return 'lambda {}: {}'.format(', '.join(ex.args), to_str(ex.expr))
         return 'lambda: {}'.format(to_str(ex.expr))
     if type(ex) is Val:
-        return str(ex.v)
+        return repr(ex.v)
     if type(ex) is Bool:
         return 'bool({})'.format(to_str(ex.v))
     if type(ex) in (Arg, Global):
