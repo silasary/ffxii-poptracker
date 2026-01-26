@@ -53,6 +53,7 @@
         "lambda state, player: state.has(Clan Primer, player) and state.has(Site 3 Key, player) and state.can_reach_region(Lhusu Mines, player)": "clan_primer,site_3_key,$aero|bhu_aero",
         "lambda state, player: state.has(Clan Primer, player) and state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.can_reach_region(Lhusu Mines, player)": "clan_primer,site_3_key,site_11_key,$aero|bhu_aero",
         "lambda state, player: state.has(Dawn Shard, player)": "dawn_shard",
+        "lambda state, player: state.has(Defeat Earth Tyrant, player)": "^$earth_tyrant",
         "lambda state, player: state.has(Defeat Vossler, player)": "^$defeat_vossler",
         "lambda state, player: state.has(Defeat Vossler, player) and state.has(Dawn Shard, player)": "^$defeat_vossler,dawn_shard",
         "lambda state, player: state.has(Errmonea Leaf, player) and state.can_reach_region(Ozmone Plain, player)": "errmonea_leaf,$ozmone_plain",
@@ -67,6 +68,7 @@
         "lambda state, player: state.has(Hunt, player, 32)": "$hunts_defeated|32",
         "lambda state, player: state.has(Hunt, player, 4)": "$hunts_defeated|4",
         "lambda state, player: state.has(Hunt, player, 8)": "$hunts_defeated|8",
+        "lambda state, player: state.has(Jovy, player, 5)": "clan_primer,^$tchita_uplands",
         "lambda state, player: state.has(Lab Access Card, player)": "lab_access_card",
         "lambda state, player: state.has(Medallion of Bravery, player) and state.has(Lusterless Medallion, player)": "med_lusterless,med_bravery",
         "lambda state, player: state.has(Medallion of Bravery, player) and state.has(Lusterless Medallion, player) and state.can_reach_region(Necrohol of Nabudis, player)": "med_bravery,med_lusterless,^$tchita_uplands",
@@ -81,6 +83,9 @@
         "lambda state, player: state.has(Sandalwood Chop, player)": "sw_chop",
         "lambda state, player: state.has(Serpentwyne Must, player) and state.can_reach_region(Zertinan Caverns NE, player)": "serpentwyne",
         "lambda state, player: state.has(Shadestone, player)": "shadestone",
+        "lambda state, player: state.has(Shelled Trophy, player) and state.has(HuntClubStart, player)": "$hunt_club_start",
+        "lambda state, player: state.has(Shelled Trophy, player) and state.has(HuntClubStart, player) and state.has(Dawn Shard, player)": "$hunt_club_start,dawn_shard",
+        "lambda state, player: state.has(Shelled Trophy, player) and state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.has(HuntClubStart, player)": "site_3_key,site_11_key,$hunt_club_start",
         "lambda state, player: state.has(Site 3 Key, player)": "site_3_key",
         "lambda state, player: state.has(Site 3 Key, player) and state.has(Site 11 Key, player)": "site_3_key,site_11_key",
         "lambda state, player: state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.can_reach_region(Lhusu Mines, player)": "site_3_key,site_11_key,$aero|bhu_aero",
@@ -104,10 +109,6 @@
         "lambda state, player: state.has(Clan Primer, player) and state.can_reach_region(Pharos of Ridorana Subterra, player) and state.has(Black Orb, player, 24)": null,
         "lambda state, player: state.has(Clan Primer, player) and state.has(Fran, player) and state.has(Ashe, player) and state.has(Penelo, player) and state.can_reach_region(Lowtown, player)": null,
         "lambda state, player: state.has(Clan Primer, player) and state.has(Stolen Articles, player) and state.has(Fran, player) and state.has(Ashe, player) and state.has(Penelo, player) and state.can_reach_region(Garamsythe Waterway, player)": null,
-        "lambda state, player: state.has(Defeat Earth Tyrant, player)": null,
-        "lambda state, player: state.has(Jovy, player, 5)": null,
-        "lambda state, player: state.has(Shelled Trophy, player) and state.has(HuntClubStart, player)": null,
-        "lambda state, player: state.has(Shelled Trophy, player) and state.has(Site 3 Key, player) and state.has(Site 11 Key, player) and state.has(HuntClubStart, player)": null,
         "lambda state, player: state.has(Viera Rucksack, player) and state.has(Dragon Scale, player) and state.can_reach_region(Balfonheim, player)": null
     }
 }

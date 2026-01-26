@@ -37,11 +37,11 @@ def main() -> None:
             all_locations[section['name']] = region['name']
     todays_treasures = None
     warned_regions = set()
+    check_counter = Counter()
 
     for name, loc in location_data_table.items():
         region_name = loc.region
         shortname = get_shortname(name, region_name)
-
 
         if match := without_parentheses_re.match(shortname):
             shortname = match.group(1)
@@ -113,10 +113,14 @@ def main() -> None:
             if visibility_rule not in py_visibility_rules:
                 py_visibility_rules.append(visibility_rule)
         mapping = location_mapping.get(loc.address)
+        ref = "@Main/" + region_name + "/" + pt_loc['name']
         if mapping:
-            mapping[0] = "@Main/" + region_name + "/" + pt_loc['name']
+            mapping[0] = ref
         else:
-            location_mapping[loc.address] = ["@Main/" + region_name + "/" + pt_loc['name']]
+            location_mapping[loc.address] = [ref]
+        check_counter[ref] += 1
+        # if check_counter[ref] != 1:
+        #     pt_loc['item_count'] = check_counter[ref]
         pass
 
 

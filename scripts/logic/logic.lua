@@ -52,8 +52,13 @@ function defeat_bergan()
 end
 
 function earth_tyrant()
-    return Tracker:ProviderCountForCode('wind_globe') > 0 and Tracker:ProviderCountForCode('windvane') > 0 and
-        defeat_vossler() and scaled_difficulty(4)
+    if Tracker:ProviderCountForCode('wind_globe') > 0 and Tracker:ProviderCountForCode('windvane') > 0 and defeat_vossler() then
+        if  scaled_difficulty(4) then
+            return AccessibilityLevel.Normal
+        else
+            return AccessibilityLevel.SequenceBreak
+        end
+    end
 end
 
 function leviathan()

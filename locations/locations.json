@@ -2211,7 +2211,7 @@
               "trophies"
             ],
             "access_rules": [
-              "barheim_key,$hunt_club_start,[$scaled_difficulty|7]"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "ishteen"
           },
@@ -2554,7 +2554,7 @@
               "$chest_visibility|Barheim Passage - Terminus No. 7 Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2563,7 +2563,7 @@
               "$chest_visibility|Barheim Passage - Terminus No. 7 Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2572,7 +2572,7 @@
               "$chest_visibility|Barheim Passage - East-West Bypass Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2581,7 +2581,7 @@
               "$chest_visibility|Barheim Passage - East-West Bypass Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2590,7 +2590,7 @@
               "$chest_visibility|Barheim Passage - East-West Bypass Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2599,7 +2599,7 @@
               "$chest_visibility|Barheim Passage - East-West Bypass Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2608,7 +2608,7 @@
               "$chest_visibility|Barheim Passage - East-West Bypass Treasure 5"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2617,7 +2617,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2626,7 +2626,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2635,7 +2635,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2644,7 +2644,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2653,7 +2653,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 5"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2662,7 +2662,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 6"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2671,7 +2671,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 7"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2680,7 +2680,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 8"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2689,7 +2689,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 9"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2698,7 +2698,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 10"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2707,7 +2707,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 11"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2716,7 +2716,7 @@
               "$chest_visibility|Barheim Passage - The Zeviah Span Treasure 12"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2725,7 +2725,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2734,7 +2734,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2743,7 +2743,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2752,7 +2752,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2761,7 +2761,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 5"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2770,7 +2770,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 6"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2779,7 +2779,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 7"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2788,7 +2788,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 8"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2797,7 +2797,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 9"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2806,7 +2806,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 10"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2815,7 +2815,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 11"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2824,7 +2824,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 12"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2833,7 +2833,7 @@
               "$chest_visibility|Barheim Passage - West Annex Treasure 13"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2842,7 +2842,7 @@
               "$chest_visibility|Barheim Passage - Terminus No. 7 Adjunct Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2851,7 +2851,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 1"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2860,7 +2860,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 2"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2869,7 +2869,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 3"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2878,7 +2878,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 4"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2887,7 +2887,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 5"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2896,7 +2896,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 6"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2905,7 +2905,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 7"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           },
           {
@@ -2914,7 +2914,7 @@
               "$chest_visibility|Barheim Passage - Special Op Sector 5 Treasure 8"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|4]"
             ]
           }
         ]
@@ -3082,7 +3082,7 @@
               "trophies"
             ],
             "access_rules": [
-              "dawn_shard,$hunt_club_start,[$scaled_difficulty|5]"
+              "$hunt_club_start,dawn_shard,[$scaled_difficulty|5]"
             ],
             "hosted_item": "myath"
           },
@@ -8011,7 +8011,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$earth_tyrant,[$scaled_difficulty|4]"
+              "^$earth_tyrant,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -11619,7 +11619,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,rainstone,[$scaled_difficulty|5]"
+              "$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "alteci"
           },
@@ -14698,7 +14698,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,site_3_key,site_11_key,[$scaled_difficulty|7]"
+              "site_3_key,site_11_key,$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "disma"
           }
