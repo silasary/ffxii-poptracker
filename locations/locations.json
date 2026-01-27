@@ -1179,7 +1179,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,clan_primer,[$scaled_difficulty|7]"
+              "^$paramina_rift,clan_primer,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -3038,7 +3038,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,rabbit_tail,[$scaled_difficulty|3]"
+              "^$paramina_rift,rabbit_tail,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -3047,7 +3047,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$paramina_rift,[$scaled_difficulty|6]"
+              "^$paramina_rift,[$scaled_difficulty|6]"
             ]
           }
         ]
@@ -3055,7 +3055,7 @@
       {
         "name": "Stilshrine of Miriam",
         "access_rules": [
-          "$paramina_rift"
+          "^$paramina_rift"
         ],
         "sections": [
           {
@@ -4401,7 +4401,7 @@
       {
         "name": "Giruvegan",
         "access_rules": [
-          "belias,$paramina_rift"
+          "belias,^$paramina_rift"
         ],
         "sections": [
           {
@@ -4546,7 +4546,7 @@
       {
         "name": "Great Crystal",
         "access_rules": [
-          "belias,$paramina_rift"
+          "belias,^$paramina_rift"
         ],
         "sections": [
           {
@@ -4850,7 +4850,7 @@
       {
         "name": "Giruvegan End",
         "access_rules": [
-          "belias,$paramina_rift"
+          "belias,^$paramina_rift"
         ],
         "sections": [
           {
@@ -6872,7 +6872,7 @@
       {
         "name": "Mt. Bur-Omisace",
         "access_rules": [
-          "$paramina_rift"
+          "^$paramina_rift"
         ],
         "sections": [
           {
@@ -6890,7 +6890,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|3]"
+              "^$paramina_rift,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -6905,7 +6905,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belias,[$scaled_difficulty|5]"
+              "belias,^$paramina_rift,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6914,7 +6914,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|5]"
+              "^$paramina_rift,clan_primer,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6923,7 +6923,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_light,[$scaled_difficulty|7]"
+              "ring_of_light,^$paramina_rift,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -8044,7 +8044,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,[$scaled_difficulty|3]"
+              "^$paramina_rift,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -8062,7 +8062,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,dawn_shard,[$scaled_difficulty|2]"
+              "^$paramina_rift,dawn_shard,[$scaled_difficulty|2]"
             ]
           },
           {
@@ -8107,7 +8107,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,[$scaled_difficulty|4]"
+              "^$paramina_rift,[$scaled_difficulty|4]"
             ]
           },
           {
@@ -8116,7 +8116,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$paramina_rift,belias,[$scaled_difficulty|5]"
+              "^$paramina_rift,belias,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8125,7 +8125,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,$paramina_rift,[$scaled_difficulty|5]"
+              "belias,^$paramina_rift,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -8161,7 +8161,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,$paramina_rift,[$scaled_difficulty|8]"
+              "belias,^$paramina_rift,[$scaled_difficulty|8]"
             ]
           },
           {
@@ -9575,7 +9575,7 @@
       {
         "name": "Golmore Jungle E",
         "access_rules": [
-          "$paramina_rift"
+          "^$paramina_rift"
         ],
         "sections": [
           {
@@ -9655,7 +9655,7 @@
       {
         "name": "Golmore Jungle S",
         "access_rules": [
-          "$paramina_rift"
+          "^$paramina_rift"
         ],
         "sections": [
           {
@@ -10624,7 +10624,7 @@
       {
         "name": "Paramina Rift",
         "access_rules": [
-          "$paramina_rift"
+          "^$paramina_rift"
         ],
         "sections": [
           {
@@ -15726,7 +15726,7 @@
       {
         "name": "Feywood",
         "access_rules": [
-          "$paramina_rift"
+          "^$paramina_rift"
         ],
         "sections": [
           {

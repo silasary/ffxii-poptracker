@@ -43,9 +43,14 @@ function henne_mines()
 end
 
 function paramina_rift()
-    return Tracker:ProviderCountForCode('access_key') >= 2 or
+    if Tracker:ProviderCountForCode('access_key') >= 2 or
         (ozmone_plain() and Tracker:ProviderCountForCode('lentes_tear') > 0) or
-        (henne_mines() and espers_controlled(10))
+        (henne_mines() and espers_controlled(10) and scaled_difficulty(8)) then
+        return AccessibilityLevel.Normal
+    end
+    if henne_mines() and espers_controlled(10) then
+        return AccessibilityLevel.SequenceBreak
+    end
 end
 
 function defeat_bergan()
