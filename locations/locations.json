@@ -4343,57 +4343,57 @@
             ]
           },
           {
-            "name": "Hunt Club Owner: 5",
+            "name": "Hunt Club Owner 5 Trophy Rares Defeated",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "sw_chop,$hunt_club_kills|5"
+              "sw_chop,$hunt_club_kills|5,[$scaled_difficulty|6]"
             ]
           },
           {
-            "name": "Hunt Club Owner: 10",
+            "name": "Hunt Club Owner 10 Trophy Rares Defeated",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "sw_chop,$hunt_club_kills|10"
+              "sw_chop,$hunt_club_kills|10,[$scaled_difficulty|7]"
             ]
           },
           {
-            "name": "Hunt Club Owner: 15",
+            "name": "Hunt Club Owner 15 Trophy Rares Defeated",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "sw_chop,$hunt_club_kills|15"
+              "sw_chop,$hunt_club_kills|15,[$scaled_difficulty|7]"
             ]
           },
           {
-            "name": "Hunt Club Owner: 20",
+            "name": "Hunt Club Owner 20 Trophy Rares Defeated",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "sw_chop,$hunt_club_kills|20"
+              "sw_chop,$hunt_club_kills|20,[$scaled_difficulty|8]"
             ]
           },
           {
-            "name": "Hunt Club Owner: 25",
+            "name": "Hunt Club Owner 25 Trophy Rares Defeated",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "sw_chop,$hunt_club_kills|25"
+              "sw_chop,$hunt_club_kills|25,[$scaled_difficulty|9]"
             ]
           },
           {
-            "name": "Hunt Club Owner: 30",
+            "name": "Hunt Club Owner 30 Trophy Rares Defeated",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "sw_chop,$hunt_club_kills|30"
+              "sw_chop,$hunt_club_kills|30,[$scaled_difficulty|10]"
             ]
           }
         ]

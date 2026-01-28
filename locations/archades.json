@@ -88,22 +88,28 @@
         ],
         "sections": [
           {
-            "ref": "Main/Archades/Hunt Club Owner: 5"
+            "name": "Hunt Club Owner 5 Trophy Rares Defeated",
+            "ref": "Main/Archades/Hunt Club Owner 5 Trophy Rares Defeated"
           },
           {
-            "ref": "Main/Archades/Hunt Club Owner: 10"
+            "name": "Hunt Club Owner 10 Trophy Rares Defeated",
+            "ref": "Main/Archades/Hunt Club Owner 10 Trophy Rares Defeated"
           },
           {
-            "ref": "Main/Archades/Hunt Club Owner: 15"
+            "name": "Hunt Club Owner 15 Trophy Rares Defeated",
+            "ref": "Main/Archades/Hunt Club Owner 15 Trophy Rares Defeated"
           },
           {
-            "ref": "Main/Archades/Hunt Club Owner: 20"
+            "name": "Hunt Club Owner 20 Trophy Rares Defeated",
+            "ref": "Main/Archades/Hunt Club Owner 20 Trophy Rares Defeated"
           },
           {
-            "ref": "Main/Archades/Hunt Club Owner: 25"
+            "name": "Hunt Club Owner 25 Trophy Rares Defeated",
+            "ref": "Main/Archades/Hunt Club Owner 25 Trophy Rares Defeated"
           },
           {
-            "ref": "Main/Archades/Hunt Club Owner: 30"
+            "name": "Hunt Club Owner 30 Trophy Rares Defeated",
+            "ref": "Main/Archades/Hunt Club Owner 30 Trophy Rares Defeated"
           }
         ]
       }
