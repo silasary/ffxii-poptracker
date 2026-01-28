@@ -432,6 +432,10 @@
       {
         "name": "Hall of Shadowlight Treasure 5",
         "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
+      },
+      {
+        "name": "Clan Rank: Order of Ambrosia",
+        "ref": "Main/Clan Hall/Clan Rank: Order of Ambrosia"
       }
     ]
   }

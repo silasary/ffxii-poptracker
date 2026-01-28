@@ -6890,7 +6890,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3]"
             ]
           },
           {
@@ -6905,7 +6905,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|5]"
+              "belias,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6914,7 +6914,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,clan_primer,[$scaled_difficulty|5]"
+              "clan_primer,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -6923,7 +6923,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_light,^$paramina_rift,[$scaled_difficulty|7]"
+              "ring_of_light,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -7985,6 +7985,15 @@
             ],
             "access_rules": [
               "$hunts_defeated|32,[$scaled_difficulty|11]"
+            ]
+          },
+          {
+            "name": "Clan Rank: Order of Ambrosia",
+            "visibility_rules": [
+              "place_clan_rank"
+            ],
+            "access_rules": [
+              "ageworn_key,soul_ward_key,$hunt_club_kills|30,$espers_controlled|13,$hunts_defeated|45,[$scaled_difficulty|12]"
             ]
           },
           {
