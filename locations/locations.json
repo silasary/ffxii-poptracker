@@ -8084,7 +8084,7 @@
             ]
           },
           {
-            "name": "Clan Boss: Mandragoras",
+            "name": "Clan Boss: Mandragora",
             "visibility_rules": [
               "place_clan_boss"
             ],
@@ -8120,12 +8120,12 @@
             ]
           },
           {
-            "name": "Clan Boss: Daedalus",
+            "name": "Clan Boss: Daedulus",
             "visibility_rules": [
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,belias,[$scaled_difficulty|5]"
+              "belias,^$paramina_rift,[$scaled_difficulty|5]"
             ]
           },
           {

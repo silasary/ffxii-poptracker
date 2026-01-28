@@ -78,6 +78,8 @@ def main() -> None:
                 region['sections'].append(pt_loc)
                 todays_treasures = region_name
             else:
+                if 'Starting Items' in shortname:
+                    continue
                 if not warned_regions:
                     print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
                 continue
