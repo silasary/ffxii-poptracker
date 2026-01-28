@@ -12652,22 +12652,22 @@
             ]
           },
           {
-            "name": "Bluesang - (Cruel Trophy)",
+            "name": "Bluesang - Cruel Trophy",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bluesang"
           },
           {
-            "name": "Aspidochelon - (Adamantine Trophy)",
+            "name": "Aspidochelon - Adamantine Trophy",
             "visibility_rules": [
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "aspidochelon"
           }
@@ -15240,7 +15240,18 @@
         "access_rules": [
           "^$tchita_uplands"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Rageclaw - Sickle Trophy",
+            "visibility_rules": [
+              "trophies"
+            ],
+            "access_rules": [
+              "$hunt_club_start,[$scaled_difficulty|5]"
+            ],
+            "hosted_item": "rageclaw"
+          }
+        ]
       },
       {
         "name": "Salikawood",
@@ -15258,16 +15269,6 @@
               "[$scaled_difficulty|4]"
             ],
             "hosted_item": "braegh"
-          },
-          {
-            "name": "Rageclaw - Sickle Trophy",
-            "visibility_rules": [
-              "trophies"
-            ],
-            "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
-            ],
-            "hosted_item": "rageclaw"
           },
           {
             "name": "Defeat Carrot",

@@ -27,7 +27,7 @@ def main() -> None:
         lambda_to_access_rule_full = json.load(f)
 
     lambda_to_access_rule = lambda_to_access_rule_full.get("needed", {}) | lambda_to_access_rule_full.get("inactive", {}) |  lambda_to_access_rule_full.get("active", {})
-    lambda_counter = Counter()
+    lambda_counter: Counter[str] = Counter()
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
     all_locations = {}
@@ -37,7 +37,7 @@ def main() -> None:
             all_locations[section['name']] = region['name']
     todays_treasures = None
     warned_regions = set()
-    check_counter = Counter()
+    check_counter: Counter[str] = Counter()
 
     for name, loc in location_data_table.items():
         region_name = loc.region
