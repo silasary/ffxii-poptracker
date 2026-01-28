@@ -114,7 +114,7 @@ function hunt_club_start()
     if tchita_uplands() == AccessibilityLevel.Normal and Tracker:ProviderCountForCode('shelled_trophy') > 0 and scaled_difficulty(6) then
 		return AccessibilityLevel.Normal
 	end
-	if tchita_uplands() == AccessibilityLevel.SequenceBreak and Tracker:ProviderCountForCode('shelled_trophy') > 0 then
+	if tchita_uplands() and Tracker:ProviderCountForCode('shelled_trophy') > 0 then
 		return AccessibilityLevel.SequenceBreak
 	end
 end
