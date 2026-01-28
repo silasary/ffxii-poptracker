@@ -97,15 +97,16 @@ function tchita_uplands()
         earth_tyrant() == AccessibilityLevel.Normal or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero') and scaled_difficulty(4)) or
         cid2() == AccessibilityLevel.Normal or
+		has_n_system_access_keys(3) or
         (aero('bal_aero') and scaled_difficulty(5)) then
 		    return AccessibilityLevel.Normal
     end
-    if (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak) or
-		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
+    if defeat_bergan() == AccessibilityLevel.SequenceBreak  or
+		(Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak) or
 		earth_tyrant() == AccessibilityLevel.SequenceBreak or
-		defeat_bergan() == AccessibilityLevel.SequenceBreak  or
+		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
         cid2() == AccessibilityLevel.SequenceBreak or
-        aero('bal_aero') then 
+        aero('bal_aero') then
 			return AccessibilityLevel.SequenceBreak
 	end
 end
