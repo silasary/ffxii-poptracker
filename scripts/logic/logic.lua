@@ -159,7 +159,7 @@ function cid2()
     local stoneCount = Tracker:ProviderCountForCode('goddess_magicite') + Tracker:ProviderCountForCode('nethicite') +
         Tracker:ProviderCountForCode('dawn_shard')
 
-    return swordCount >= 1 and stoneCount >= 2 and has_n_system_access_keys(2)
+    return swordCount >= 1 and stoneCount >= 2 and has_n_system_access_keys(2) and has_n_black_orbs(3)
 end
 
 function defeat_cid()
