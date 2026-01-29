@@ -46,7 +46,7 @@
         "lambda state, player: state.has('Cactus Flower', player) and state.has('Defeat Vossler', player)": "cactus_flower,^$defeat_vossler",
         "lambda state, player: state.has('Clan Primer', player)": "clan_primer",
         "lambda state, player: state.has('Clan Primer', player) and state.can_reach_region('Barheim Passage Story', player) and state.has('Tube Fuse', player)": "clan_primer,crescent_stone,tube_fuse",
-        "lambda state, player: state.has('Clan Primer', player) and state.can_reach_region('Lhusu Mines', player)": "clan_primer,aero|bhu_aero",
+        "lambda state, player: state.has('Clan Primer', player) and state.can_reach_region('Lhusu Mines', player)": "clan_primer,$aero|bhu_aero",
         "lambda state, player: state.has('Clan Primer', player) and state.can_reach_region('Nam-Yensa Sandsea Belito', player)": "clan_primer,rainstone",
         "lambda state, player: state.has('Clan Primer', player) and state.can_reach_region('Pharos of Ridorana Subterra', player)": "clan_primer,$has_n_system_access_keys|2",
         "lambda state, player: state.has('Clan Primer', player) and state.can_reach_region('Pharos of Ridorana Subterra', player) and state.has('Black Orb', player, 24)": "clan_primer,$has_n_system_access_keys|2,$has_n_black_orbs|24",
