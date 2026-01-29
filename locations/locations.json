@@ -573,7 +573,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "nazarnir"
           }
@@ -1910,7 +1910,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "victanir"
           }
@@ -2153,7 +2153,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|6]"
+              "^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "zombie_lord"
           }
@@ -2211,7 +2211,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "ishteen"
           },
@@ -3082,7 +3082,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,dawn_shard,[$scaled_difficulty|5]"
+              "^$hunt_club_start,dawn_shard,[$scaled_difficulty|5]"
             ],
             "hosted_item": "myath"
           },
@@ -4146,7 +4146,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "kris"
           },
@@ -4156,7 +4156,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "grimalkin"
           }
@@ -4555,7 +4555,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "crystal_knight"
           },
@@ -5642,7 +5642,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "^$hunt_club_start,$has_n_black_orbs|3,[$scaled_difficulty|7]"
             ],
             "hosted_item": "avenger"
           }
@@ -6475,7 +6475,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "terror_tyrant"
           },
@@ -6822,7 +6822,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,aero|bhu_aero,[$scaled_difficulty|1]"
+              "clan_primer,[$scaled_difficulty|1]"
             ]
           },
           {
@@ -7444,7 +7444,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dheed"
           },
@@ -7489,7 +7489,8 @@
       {
         "name": "Balfonheim",
         "access_rules": [
-          "^$tchita_uplands"
+          "^$tchita_uplands,[$scaled_difficulty|5]",
+		      "$aero|bal_aero"
         ],
         "sections": [
           {
@@ -8662,7 +8663,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "kaiser_wolf"
           }
@@ -9055,7 +9056,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|6]"
+              "^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "gavial"
           }
@@ -9531,7 +9532,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|6]"
+              "^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "killbug"
           }
@@ -9690,7 +9691,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|6]"
+              "^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "biding_mantis"
           },
@@ -10624,7 +10625,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "skullash"
           }
@@ -11168,7 +11169,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "ancbolder"
           },
@@ -11628,7 +11629,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "alteci"
           },
@@ -12657,7 +12658,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bluesang"
           },
@@ -12667,7 +12668,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "aspidochelon"
           }
@@ -13100,7 +13101,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "arioch"
           }
@@ -13152,7 +13153,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "vorres"
           },
@@ -13597,7 +13598,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "melt"
           },
@@ -14707,7 +14708,7 @@
               "trophies"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$hunt_club_start,[$scaled_difficulty|7]"
+              "site_3_key,site_11_key,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "disma"
           }
@@ -15229,7 +15230,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bull_chocobo"
           }
@@ -15247,7 +15248,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "rageclaw"
           }
@@ -15767,7 +15768,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dreadguard"
           },
@@ -16508,7 +16509,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|5]"
+              "^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "wendice"
           },
@@ -16518,7 +16519,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "anubys"
           },
@@ -17175,7 +17176,7 @@
               "trophies"
             ],
             "access_rules": [
-              "$hunt_club_start,[$scaled_difficulty|7]"
+              "^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "abelisk"
           },

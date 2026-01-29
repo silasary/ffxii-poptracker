@@ -30,7 +30,7 @@ function get_char_count()
         Tracker:ProviderCountForCode('penelo') + Tracker:ProviderCountForCode('guest')
 end
 
-function cerobi_access()
+function cerobi_access()	-- Why does this function exist?
     return tchita_uplands() or aero('bal_aero')
 end
 
@@ -54,7 +54,12 @@ function paramina_rift()
 end
 
 function defeat_bergan()
-    return paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0 and scaled_difficulty(3)
+    if paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0 and scaled_difficulty(3) then
+		return AccessibilityLevel.Normal
+	end
+	if paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0 then
+		return AccessibilityLevel.SequenceBreak
+	end
 end
 
 function earth_tyrant()
@@ -87,19 +92,32 @@ function sandseas()
 end
 
 function tchita_uplands()
-    if (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak)  then
-		return AccessibilityLevel.SequenceBreak
-	end
-    return defeat_bergan() or 
+    if defeat_bergan() == AccessibilityLevel.Normal or 
         (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or 
-        earth_tyrant() or
-        (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
-        cid2() or
-        aero('bal_aero')
+        earth_tyrant() == AccessibilityLevel.Normal or
+        (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero') and scaled_difficulty(4)) or
+        cid2() == AccessibilityLevel.Normal or
+		has_n_system_access_keys(3) or
+        (aero('bal_aero') and scaled_difficulty(5)) then
+		    return AccessibilityLevel.Normal
+    end
+    if defeat_bergan() == AccessibilityLevel.SequenceBreak  or
+		(Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak) or
+		earth_tyrant() == AccessibilityLevel.SequenceBreak or
+		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
+        cid2() == AccessibilityLevel.SequenceBreak or
+        aero('bal_aero') then
+			return AccessibilityLevel.SequenceBreak
+	end
 end
 
 function hunt_club_start()
-    return tchita_uplands() and Tracker:ProviderCountForCode('shelled_trophy') > 0 and scaled_difficulty(6)
+    if tchita_uplands() == AccessibilityLevel.Normal and Tracker:ProviderCountForCode('shelled_trophy') > 0 and scaled_difficulty(6) then
+		return AccessibilityLevel.Normal
+	end
+	if tchita_uplands() and Tracker:ProviderCountForCode('shelled_trophy') > 0 then
+		return AccessibilityLevel.SequenceBreak
+	end
 end
 
 function defeat_vossler()
@@ -111,21 +129,21 @@ function dawn_shard()  -- Why is this a function?
 end
 
 function archades()
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.SequenceBreak then
-		return AccessibilityLevel.SequenceBreak
-	end
-    if aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace()) then
+    if aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.Normal) then
         return AccessibilityLevel.Normal
     end
+    if sochen_cave_palace() == AccessibilityLevel.SequenceBreak then
+		return AccessibilityLevel.SequenceBreak
+	end
 end
 
 function sochen_cave_palace()
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and tchita_uplands() == AccessibilityLevel.SequenceBreak then
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.Normal or aero('arc_aero')) and scaled_difficulty(4) then
+        return AccessibilityLevel.Normal 
+    end
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.SequenceBreak or aero('arc_aero')) then
 		return AccessibilityLevel.SequenceBreak
 	end
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() or archades()) then
-        return AccessibilityLevel.Normal
-    end
 end
 
 function draklor_laboratory()
@@ -159,7 +177,13 @@ function cid2()
     local stoneCount = Tracker:ProviderCountForCode('goddess_magicite') + Tracker:ProviderCountForCode('nethicite') +
         Tracker:ProviderCountForCode('dawn_shard')
 
-    return swordCount >= 1 and stoneCount >= 2
+    if swordCount >= 1 and stoneCount >= 2 and has_n_system_access_keys(2) and has_n_black_orbs(3) then
+	    if scaled_difficulty(7) then
+            return AccessibilityLevel.Normal
+        else
+            return AccessibilityLevel.SequenceBreak
+        end
+    end
 end
 
 function defeat_cid()
