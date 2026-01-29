@@ -7489,7 +7489,8 @@
       {
         "name": "Balfonheim",
         "access_rules": [
-          "^$tchita_uplands,$aero|bal_aero"
+          "^$tchita_uplands,[$scaled_difficulty|5]",
+		      "$aero|bal_aero"
         ],
         "sections": [
           {
