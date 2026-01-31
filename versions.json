@@ -1,6 +1,30 @@
 {
   "versions": [
     {
+      "package_version": "0.2.7",
+      "sha256": "c5e9fdd7ac02b986265fa42c340b4e74e4fa08ab450b6aa7a76299da9cf462a6",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.7/ffxii-tracker-0.2.7.zip",
+      "changelog": [
+        "URL=https://github.com/silasary/ffxii-poptracker/releases/tag/0.2.7"
+      ]
+    },
+    {
+      "package_version": "0.2.6",
+      "sha256": "264524176c9a9b4180a1417f523877afa627c5f621ac7224ef59659347e762e0",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.6/ffxii-tracker-0.2.6.zip",
+      "changelog": [
+        "URL=https://github.com/silasary/ffxii-poptracker/releases/tag/0.2.6"
+      ]
+    },
+    {
+      "package_version": "0.2.5",
+      "sha256": "19363cf300cdb5d18e191fd801f5d92dae4052774cacb026c070a358093d8977",
+      "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.5/ffxii-tracker-0.2.5.zip",
+      "changelog": [
+        "URL=https://github.com/silasary/ffxii-poptracker/releases/tag/0.2.5"
+      ]
+    },
+    {
       "package_version": "0.2.4",
       "sha256": "f31abedeb1e18910dbde027e9b6602b22d2a28b7c190f62407c111a8bb12d650",
       "download_url": "https://github.com/silasary/ffxii-poptracker/releases/download/0.2.4/ffxii-tracker-0.2.4.zip",

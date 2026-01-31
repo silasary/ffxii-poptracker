@@ -12,14 +12,6 @@
           }
         ],
         "sections": [
-          {
-            "name": "Entrance Chests",
-            "ref": "Main/Sochen Cave Palace Middle/Entrance Chests - Sochen Cave"
-          },
-          {
-            "name": "Interior Chests",
-            "ref": "Main/Sochen Cave Palace Middle/Interior Chests - Sochen Cave"
-          }
         ]
       },
       {

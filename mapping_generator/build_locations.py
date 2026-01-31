@@ -1,9 +1,11 @@
+from collections import Counter
 import glob
 import os
 import sys
 import jsoncomment
 import from_lambda
 import re
+import lua_tools
 
 json = jsoncomment.JsonComment()
 sys.path.append("D:\\source\\repos\\Archipelago.worktrees\\ff12_openworld")
@@ -14,11 +16,18 @@ def main() -> None:
     from worlds.ff12_open_world.Locations import location_data_table
     from worlds.ff12_open_world.Rules import rule_data_table
 
+    with open("./scripts/archipelago/location_mapping.lua", 'r', encoding='utf-8') as lua_file:
+        location_mapping = lua_tools.lua_to_dict("./scripts/archipelago/location_mapping.lua")
+
+
     with open("./locations/locations.json", 'r') as loc_file:
         pt_locations = json.load(loc_file)
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'r') as f:
-        lambda_to_access_rule = json.load(f)
+        lambda_to_access_rule_full = json.load(f)
+
+    lambda_to_access_rule = lambda_to_access_rule_full.get("needed", {}) | lambda_to_access_rule_full.get("inactive", {}) |  lambda_to_access_rule_full.get("active", {})
+    lambda_counter: Counter[str] = Counter()
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
     all_locations = {}
@@ -28,11 +37,11 @@ def main() -> None:
             all_locations[section['name']] = region['name']
     todays_treasures = None
     warned_regions = set()
+    check_counter: Counter[str] = Counter()
 
     for name, loc in location_data_table.items():
         region_name = loc.region
         shortname = get_shortname(name, region_name)
-
 
         if match := without_parentheses_re.match(shortname):
             shortname = match.group(1)
@@ -69,6 +78,8 @@ def main() -> None:
                 region['sections'].append(pt_loc)
                 todays_treasures = region_name
             else:
+                if 'Starting Items' in shortname:
+                    continue
                 if not warned_regions:
                     print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
                 continue
@@ -79,10 +90,17 @@ def main() -> None:
         rule = rule_data_table.get(name)
         rulep = from_lambda.parse_lambda(rule)
         rule_str = from_lambda.to_str(rulep)
+        lambda_counter[rule_str] += 1
         access_rule = lambda_to_access_rule.setdefault(rule_str, None)
         if access_rule is not None and difficulty:
             access_rule += f',[$scaled_difficulty|{difficulty}]'
             access_rule = access_rule.strip(',')
+
+        if access_rule and len(region.get('access_rules', [])) == 1:
+            region_reqs = region['access_rules'][0].split(',')
+            access_rule_reqs = access_rule.split(',')
+            pruned_reqs = [req for req in access_rule_reqs if req not in region_reqs]
+            access_rule = ','.join(pruned_reqs)
 
         if access_rule is not None:
             if pt_loc.get('access_rules', []):
@@ -96,22 +114,60 @@ def main() -> None:
             py_visibility_rules = pt_loc.setdefault('visibility_rules', [])
             if visibility_rule not in py_visibility_rules:
                 py_visibility_rules.append(visibility_rule)
+        mapping = location_mapping.get(loc.address)
+        ref = "@Main/" + region_name + "/" + pt_loc['name']
+        if mapping:
+            mapping[0] = ref
+        else:
+            location_mapping[loc.address] = [ref]
+        check_counter[ref] += 1
+        # if check_counter[ref] != 1:
+        #     pt_loc['item_count'] = check_counter[ref]
+        pass
+
 
     for region in pt_locations[0]['children']:
         for section in region['sections']:
             all_names.append("Main/" + region['name'] + "/" + section['name'])
         pass
 
+    lambda_to_access_rule_full = {
+        "active": {},
+        "needed": {},
+        "inactive": {},
+    }
+    for rule_str, access_rule in lambda_to_access_rule.items():
+        count = lambda_counter[rule_str]
+        if count > 0 and access_rule is not None:
+            lambda_to_access_rule_full["active"][rule_str] = access_rule
+        elif count > 0:
+            lambda_to_access_rule_full["needed"][rule_str] = access_rule
+        elif access_rule is not None:
+            lambda_to_access_rule_full["inactive"][rule_str] = access_rule
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
-        json.dump(lambda_to_access_rule, f, indent=4)
+        json.dump(lambda_to_access_rule_full, f, indent=4, sort_keys=True)
         f.write('\n')
     with open("./locations/locations.json", 'w') as loc_file:
         json.dump(pt_locations, loc_file, indent=2)
         loc_file.write('\n')
+
+    location_mapping = {int(k): v for k, v in sorted(location_mapping.items(), key=lambda item: item[0])}
+    with open("./scripts/archipelago/location_mapping.lua", 'w', encoding='utf-8') as lua_file:
+        lua_file.write("return {\n")
+        for address, mapping in location_mapping.items():
+            lua_file.write(f"\t[{address}] = ")
+            lua_file.write("{")
+            lua_file.write(", ".join(f'"{m}"' for m in mapping))
+            lua_file.write("},\n")
+        lua_file.write("}\n")
     validate(all_names)
 
 def validate(all_names):
     referenced = {}
+    add_to_world_map = []
+    add_to_map_select = []
+    remove_from_map_select = []
+
     for file in glob.glob("*.json", root_dir="locations"):
         if file == "locations.json":
             continue
@@ -130,6 +186,8 @@ def validate(all_names):
                         pt_loc['ref'] = found
                         print(f'Updated reference {old} to {found} in {file}')
                         changed = True
+                    elif file == "map_select.json":
+                        remove_from_map_select.append(pt_loc['ref'])
                     else:
                         print(f'WARNING: Reference {pt_loc["ref"]} not found in locations!')
                 else:
@@ -146,8 +204,6 @@ def validate(all_names):
                 json.dump(ref_locations, loc_file, indent=2)
                 loc_file.write('\n')
 
-    add_to_world_map = []
-    add_to_map_select = []
     for name in all_names:
         if "world_map.json" not in referenced.get(name, []):
             add_to_world_map.append(name)
@@ -157,6 +213,8 @@ def validate(all_names):
             add_to_map_select.append(name)
         elif len(referenced[name]) == 0:
             print(f'WARNING: Location {name} not referenced anywhere')
+        elif len(referenced[name]) > 2 and "map_select.json" in referenced[name]:
+            remove_from_map_select.append(name)
 
     if add_to_world_map:
         with open(os.path.join("locations", "world_map.json"), 'r') as loc_file:
@@ -187,6 +245,24 @@ def validate(all_names):
         with open(os.path.join("locations", "map_select.json"), 'w') as loc_file:
             json.dump(map_select, loc_file, indent=2)
             loc_file.write('\n')
+
+    if remove_from_map_select:
+        with open(os.path.join("locations", "map_select.json"), 'r') as loc_file:
+            map_select = json.load(loc_file)
+        map_select_sections = map_select[0].setdefault('sections', [])
+        changed = False
+        for name in remove_from_map_select:
+            shortname = name.split('/')[-1]
+            for section in map_select_sections:
+                if section['ref'] == name:
+                    print(f'Removing {name} from map_select.json')
+                    map_select_sections.remove(section)
+                    changed = True
+                    break
+        if changed:
+            with open(os.path.join("locations", "map_select.json"), 'w') as loc_file:
+                json.dump(map_select, loc_file, indent=2)
+                loc_file.write('\n')
 
 
 def get_shortname(name, region_name):

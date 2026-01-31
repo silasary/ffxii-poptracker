@@ -8,7 +8,8 @@
         "y": 0
       }
     ],
-    "sections": []
+    "sections": [
+    ]
   },
   {
     "name": "Rabanastre",
@@ -2114,28 +2115,28 @@
         "ref": "Main/Archades/Grand Arcade Treasure 1"
       },
       {
-        "name": "Hunt Club Owner: 5",
-        "ref": "Main/Archades/Hunt Club Owner: 5"
+        "name": "Hunt Club Owner 5 Trophy Rares Defeated",
+        "ref": "Main/Archades/Hunt Club Owner 5 Trophy Rares Defeated"
       },
       {
-        "name": "Hunt Club Owner: 10",
-        "ref": "Main/Archades/Hunt Club Owner: 10"
+        "name": "Hunt Club Owner 10 Trophy Rares Defeated",
+        "ref": "Main/Archades/Hunt Club Owner 10 Trophy Rares Defeated"
       },
       {
-        "name": "Hunt Club Owner: 15",
-        "ref": "Main/Archades/Hunt Club Owner: 15"
+        "name": "Hunt Club Owner 15 Trophy Rares Defeated",
+        "ref": "Main/Archades/Hunt Club Owner 15 Trophy Rares Defeated"
       },
       {
-        "name": "Hunt Club Owner: 20",
-        "ref": "Main/Archades/Hunt Club Owner: 20"
+        "name": "Hunt Club Owner 20 Trophy Rares Defeated",
+        "ref": "Main/Archades/Hunt Club Owner 20 Trophy Rares Defeated"
       },
       {
-        "name": "Hunt Club Owner: 25",
-        "ref": "Main/Archades/Hunt Club Owner: 25"
+        "name": "Hunt Club Owner 25 Trophy Rares Defeated",
+        "ref": "Main/Archades/Hunt Club Owner 25 Trophy Rares Defeated"
       },
       {
-        "name": "Hunt Club Owner: 30",
-        "ref": "Main/Archades/Hunt Club Owner: 30"
+        "name": "Hunt Club Owner 30 Trophy Rares Defeated",
+        "ref": "Main/Archades/Hunt Club Owner 30 Trophy Rares Defeated"
       }
     ]
   },
@@ -3837,6 +3838,10 @@
         "ref": "Main/Clan Hall/Clan Rank: Knight of the Round"
       },
       {
+        "name": "Clan Rank: Order of Ambrosia",
+        "ref": "Main/Clan Hall/Clan Rank: Order of Ambrosia"
+      },
+      {
         "name": "Clan Boss: Flans",
         "ref": "Main/Clan Hall/Clan Boss: Flans"
       },
@@ -3877,8 +3882,8 @@
         "ref": "Main/Clan Hall/Clan Boss: King Bomb"
       },
       {
-        "name": "Clan Boss: Mandragoras",
-        "ref": "Main/Clan Hall/Clan Boss: Mandragoras"
+        "name": "Clan Boss: Mandragora",
+        "ref": "Main/Clan Hall/Clan Boss: Mandragora"
       },
       {
         "name": "Clan Boss: Ahriman",
@@ -3893,8 +3898,8 @@
         "ref": "Main/Clan Hall/Clan Boss: Rafflesia"
       },
       {
-        "name": "Clan Boss: Daedalus",
-        "ref": "Main/Clan Hall/Clan Boss: Daedalus"
+        "name": "Clan Boss: Daedulus",
+        "ref": "Main/Clan Hall/Clan Boss: Daedulus"
       },
       {
         "name": "Clan Boss: Tyrant",
@@ -5974,11 +5979,11 @@
       },
       {
         "name": "Bluesang - Cruel Trophy",
-        "ref": "Main/Cerobi Steppe/Bluesang - (Cruel Trophy)"
+        "ref": "Main/Cerobi Steppe/Bluesang - Cruel Trophy"
       },
       {
         "name": "Aspidochelon - Adamantine Trophy",
-        "ref": "Main/Cerobi Steppe/Aspidochelon - (Adamantine Trophy)"
+        "ref": "Main/Cerobi Steppe/Aspidochelon - Adamantine Trophy"
       }
     ]
   },
@@ -7175,7 +7180,7 @@
       },
       {
         "name": "Rageclaw - Sickle Trophy",
-        "ref": "Main/Salikawood/Rageclaw - Sickle Trophy"
+        "ref": "Main/Salikawood NW/Rageclaw - Sickle Trophy"
       },
       {
         "name": "Defeat Carrot",
