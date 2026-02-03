@@ -28,8 +28,7 @@ TROPHY_RARES = {
     'bluesang',
     'aspidochelon',
     'abelisk',
-    'avenger',
-    'thalassinon'
+    'avenger'
 }
 
 function hunt_club_kills(n)
