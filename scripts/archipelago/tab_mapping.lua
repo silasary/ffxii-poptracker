@@ -90,7 +90,7 @@ TAB_MAPPING = {
     [229] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Sand-swept Naze
     [230] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Banks of the Nebra
     [231] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Passage Entrance
-    [231] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Murmuring Defile
+    [232] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Murmuring Defile
     [233] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Outpost
 
     [236] = { "Map Select", "Giza Plains", "Dry Season" }, --Throne Road

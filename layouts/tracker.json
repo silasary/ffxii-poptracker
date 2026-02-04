@@ -726,6 +726,15 @@
                         "lhusu_mines"
                       ]
                     }
+                  },
+                  {
+                    "title": "Dreadnought Leviathan",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dreadnought_leviathan"
+                      ]
+                    }
                   }
                 ]
               }

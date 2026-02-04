@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Dreadnought Leviathan",
+    "children": [
+      {
+        "name": "Port Launch",
+        "map_locations": [
+          {
+            "map": "dreadnought_leviathan",
+            "x": 110,
+            "y": 455
+          }
+        ],
+        "sections": [
+          {
+            "name": "Guest (Vossler)",
+            "ref": "Main/Dreadnought Leviathan/Guest (Vossler)"
+          },
+          {
+            "name": "Manufacted Nethicite",
+            "ref": "Main/Dreadnought Leviathan/Manufacted Nethicite"
+          }
+        ]
+      },
+      {
+        "name": "Brig Key",
+        "map_locations": [
+          {
+            "map": "dreadnought_leviathan",
+            "x": 875,
+            "y": 620
+          }
+        ],
+        "sections": [
+          {
+            "name": "No. 1 Brig Key",
+            "ref": "Main/Dreadnought Leviathan/No. 1 Brig Key"
+          }
+        ]
+      },
+      {
+        "name": "Cells",
+        "map_locations": [
+          {
+            "map": "dreadnought_leviathan",
+            "x": 845,
+            "y": 708
+          }
+        ],
+        "sections": [
+          {
+            "name": "Systems Access Key",
+            "ref": "Main/Dreadnought Leviathan/Systems Access Key"
+          },
+          {
+            "name": "Party Member (Ashe)",
+            "ref": "Main/Dreadnought Leviathan/Party Member (Ashe)"
+          }
+        ]
+      },
+      {
+        "name": "Unmapped Chests",
+        "map_locations": [
+          {
+            "map": "dreadnought_leviathan",
+            "x": 170,
+            "y": 200
+          }
+        ],
+        "sections": [
+          {
+            "name": "Port Section Treasure 1",
+            "ref": "Main/Dreadnought Leviathan/Port Section Treasure 1"
+          },
+          {
+            "name": "Port Section Treasure 2",
+            "ref": "Main/Dreadnought Leviathan/Port Section Treasure 2"
+          },
+          {
+            "name": "Port Section Treasure 3",
+            "ref": "Main/Dreadnought Leviathan/Port Section Treasure 3"
+          },
+          {
+            "name": "Port Section Treasure 4",
+            "ref": "Main/Dreadnought Leviathan/Port Section Treasure 4"
+          },
+          {
+            "name": "Large Freight Stores Treasure 1",
+            "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 1"
+          },
+          {
+            "name": "Large Freight Stores Treasure 2",
+            "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 2"
+          },
+          {
+            "name": "Large Freight Stores Treasure 3",
+            "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 3"
+          },
+          {
+            "name": "Large Freight Stores Treasure 4",
+            "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 4"
+          },
+          {
+            "name": "Large Freight Stores Treasure 5",
+            "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 5"
+          },
+          {
+            "name": "Large Freight Stores Treasure 6",
+            "ref": "Main/Dreadnought Leviathan/Large Freight Stores Treasure 6"
+          },
+          {
+            "name": "Starboard Section Treasure 1",
+            "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 1"
+          },
+          {
+            "name": "Starboard Section Treasure 2",
+            "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 2"
+          },
+          {
+            "name": "Starboard Section Treasure 3",
+            "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 3"
+          },
+          {
+            "name": "Starboard Section Treasure 4",
+            "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 4"
+          },
+          {
+            "name": "Starboard Section Treasure 5",
+            "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 5"
+          },
+          {
+            "name": "Starboard Section Treasure 6",
+            "ref": "Main/Dreadnought Leviathan/Starboard Section Treasure 6"
+          },
+          {
+            "name": "Sub-control Room Treasure 1",
+            "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 1"
+          },
+          {
+            "name": "Sub-control Room Treasure 2",
+            "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 2"
+          },
+          {
+            "name": "Sub-control Room Treasure 3",
+            "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 3"
+          },
+          {
+            "name": "Sub-control Room Treasure 4",
+            "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 4"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -11,6 +11,7 @@
   { "name": "dalmasca_estersand_south", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_estersand_south.png" },
   { "name": "dalmasca_westersand", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_westersand.png" },
   { "name": "draklor_laboratory", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/draklor_laboratory.png" },
+  { "name": "dreadnought_leviathan", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dreadnought_leviathan.png"},
   { "name": "eruyt_village", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/eruyt_village.png" },
   { "name": "feywood_top", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/feywood_top.png" },
   { "name": "feywood_bottom", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/feywood_bottom.png" },
