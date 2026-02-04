@@ -285,13 +285,13 @@ TAB_MAPPING = {
     [549] = { "Map Select", "The Feywood" }, --Ice Field of Clearsight
     [550] = { "Map Select", "The Feywood" }, --The Edge of Reason
 
-    [552] = { "World Map" }, --Dreadnought Leviathan/Port Launch
-    [555] = { "World Map" }, --Dreadnought Leviathan/Port Section
-    [556] = { "World Map" }, --Dreadnought Leviathan/Large Freight Stores
-    [557] = { "World Map" }, --Dreadnought Leviathan/Starboard Section
-    [558] = { "World Map" }, --Dreadnought Leviathan/Sub-control Room
-    [561] = { "World Map" }, --Dreadnought Leviathan/Airship Berth Access
-    [564] = { "World Map" }, --Dreadnought Leviathan/Central Brig Access
+    [552] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Port Launch
+    [555] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Port Section
+    [556] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Large Freight Stores
+    [557] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Starboard Section
+    [558] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Sub-control Room
+    [561] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Airship Berth Access
+    [564] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Central Brig Access
 
     [567] = { "Rabanastre", "Royal Palace" }, --Cellar Stores
     [568] = { "Rabanastre", "Royal Palace" }, --Cellars
