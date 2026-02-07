@@ -3,15 +3,19 @@
     "name": "Royal Palace",
     "children": [
       {
-        "name": "Placeholder",
+        "name": "Goddess's Magicite",
         "map_locations": [
           {
             "map": "royal_palace",
-            "x": 0,
-            "y": 0
+            "x": 455,
+            "y": 307
           }
         ],
-        "sections": []
+        "sections": [
+          {
+            "ref": "Main/Lowtown/Royal Palace - Goddess's Magicite"
+          }
+        ]
       }
     ]
   }
