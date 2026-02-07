@@ -16,5 +16,29 @@
         "type": "toggle",
         "img": "images/items/hunt.png",
         "codes": "earth_tyrant"
+    },
+    {
+      "name": "Mimic Queen",
+      "type": "toggle",
+      "img": "images/items/hunt.png",
+      "codes": "mimic_queen"
+    },
+    {
+      "name": "Demon Wall 1",
+      "type": "toggle",
+      "img": "images/items/hunt.png",
+      "codes": "demon_wall_1"
+    },
+    {
+      "name": "Demon Wall 2",
+      "type": "toggle",
+      "img": "images/items/hunt.png",
+      "codes": "demon_wall_2"
+    },
+    {
+      "name": "Elder Wyrm",
+      "type": "toggle",
+      "img": "images/items/hunt.png",
+      "codes": "elder_wyrm"
     }
 ]

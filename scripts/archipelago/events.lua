@@ -31,6 +31,19 @@ QUEST_MAPPING = {
     }
 }
 
+KILL_FLAGS = {
+    [0x0A03] = "earth_tyrant",
+    [0x0A04] = "mimic_queen",
+    [0x0A05] = "flans",
+    [0x0A06] = "firemane",
+    [0x0A07] = "hydro",
+    [0x0A08] = "tiamat",
+    [0x0A09] = "daedalus",
+    [0x0A0A] = "tyrant",
+
+
+}
+
 HUNT_MAPPING = {  -- IDs are zero-indexed, And the first 40 in order of appearance in the game
     [10] = "croakadile",
     [11] = "ixtab",
@@ -106,6 +119,7 @@ HUNT_STAGE_MAPPING = {  -- 200 means I haven't figured out where the kill is yet
     [43] = 200,
     [44] = 2000
 }
+
 function on_hunt_updated(hunt_id, stage)
     local code = HUNT_MAPPING[tonumber(hunt_id)]
     local needed = HUNT_STAGE_MAPPING[tonumber(hunt_id)] or 0
@@ -127,6 +141,19 @@ function on_hunt_updated(hunt_id, stage)
 end
 
 function on_event_updated(offset, value)
+    local code = KILL_FLAGS[offset]
+    if code then
+        print(string.format("Kill flag %s updated to %d", code, value))
+        if value > 1 then
+            local object = Tracker:FindObjectForCode(code)
+            if object then
+                object.Active = true
+            else
+                print(string.format("onEventUpdated: could not find object for kill code %s", code))
+            end
+        end
+        return
+    end
     if offset >= 0x1064 then
         local quest_id = offset - 0x1064
         -- print(string.format("Quest %d updated to stage %d", offset - 0x1064, value))
@@ -141,8 +168,6 @@ function on_event_updated(offset, value)
                             print(string.format("onEventUpdated: could not find object for quest code %s", code))
                         end
                     end
-                else
-                    -- print(string.format("No stage data for quest %d stage %d", quest_id, value))
                 end
             end
             return
@@ -154,5 +179,5 @@ function on_event_updated(offset, value)
             return
         end
     end
-    print(string.format("Event %x updated to %s", offset, value))
+    -- print(string.format("Event %x updated to %s", offset, value))
 end
