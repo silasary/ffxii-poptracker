@@ -8690,6 +8690,16 @@
             "hosted_item": "wraith"
           },
           {
+            "name": "Defeat Firemane",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1],crescent_stone"
+            ],
+            "hosted_item": "firemane"
+          },
+          {
             "name": "Party Members (Balthier, Fran, Guest)",
             "access_rules": [
               "crescent_stone,[$scaled_difficulty|1]"

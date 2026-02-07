@@ -31,6 +31,10 @@
           {
             "name": "Defeat Wraith",
             "ref": "Main/Garamsythe Waterway/Defeat Wraith"
+          },
+          {
+            "name": "Defeat Firemane",
+            "ref": "Main/Garamsythe Waterway/Defeat Firemane"
           }
         ]
       },

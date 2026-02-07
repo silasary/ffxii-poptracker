@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Flans",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "flans"
+    },
+    {
+      "name": "Firemane",
+      "type": "toggle",
+      "img": "images/items/hunt.png",
+      "codes": "firemane"
+    },
+    {
+        "name": "Earth Tyrant",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "earth_tyrant"
+    }
+]

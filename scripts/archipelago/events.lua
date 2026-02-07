@@ -1,14 +1,37 @@
+QUEST_MAPPING = {
+    [128] = {
+        [50] = {"rogue_tomato"},
+    },
+    [129] = {
+        [50] = {"thextera"},
+    },
+    [130] = {
+        [70] = {"flowering_cactoid"},
+    },
+    [131] = {
+        [50] = {"wraith"},
+    },
+    [132] = {
+        [70] = {"nidhogg"},
+    },
+    [133] = {
+        [50] = {"white_mousse"},
+    },
+    [134] = {
+        [70] = {"ring_wyrm"},
+    },
+    [135] = {
+        [70] = {"wyvern_lord"},
+    },
+    [136] = {
+        [70] = {"marilith"},
+    },
+    [137] = {
+        [50] = {"enkelados"},
+    }
+}
+
 HUNT_MAPPING = {  -- IDs are zero-indexed, And the first 40 in order of appearance in the game
-    [0] = "rogue_tomato",
-    [1] = "thextera",
-    [2] = "flowering_cactoid",
-    [3] = "wraith",
-    [4] = "nidhogg",
-    [5] = "white_mousse",
-    [6] = "ring_wyrm",
-    [7] = "wyvern_lord",
-    [8] = "marilith",
-    [9] = "enkelados",
     [10] = "croakadile",
     [11] = "ixtab",
     [12] = "feral_retriever",
@@ -47,16 +70,6 @@ HUNT_MAPPING = {  -- IDs are zero-indexed, And the first 40 in order of appearan
 }
 
 HUNT_STAGE_MAPPING = {  -- 200 means I haven't figured out where the kill is yet
-    [0] = 50,
-    [1] = 50,
-    [2] = 70,
-    [3] = 70,
-    [4] = 70,
-    [5] = 50,
-    [6] = 70,
-    [7] = 70,
-    [8] = 70,
-    [9] = 90,
     [10] = 50,
     [11] = 70,
     [12] = 70,
@@ -111,4 +124,35 @@ function on_hunt_updated(hunt_id, stage)
     else
         print(string.format("hunt %d: Stage %d/%d, %s", hunt_id, stage, needed, code))
     end
+end
+
+function on_event_updated(offset, value)
+    if offset >= 0x1064 then
+        local quest_id = offset - 0x1064
+        -- print(string.format("Quest %d updated to stage %d", offset - 0x1064, value))
+        if QUEST_MAPPING[quest_id] then
+            for stage, codes in pairs(QUEST_MAPPING[quest_id]) do
+                if value >= stage then
+                    for _, code in pairs(codes) do
+                        local object = Tracker:FindObjectForCode(code)
+                        if object then
+                            object.Active = true
+                        else
+                            print(string.format("onEventUpdated: could not find object for quest code %s", code))
+                        end
+                    end
+                else
+                    -- print(string.format("No stage data for quest %d stage %d", quest_id, value))
+                end
+            end
+            return
+        else
+            -- print(string.format("No quest data for quest %d", quest_id))
+        end
+        if quest_id >= 128 then
+            on_hunt_updated(quest_id - 128, value)
+            return
+        end
+    end
+    print(string.format("Event %x updated to %s", offset, value))
 end
