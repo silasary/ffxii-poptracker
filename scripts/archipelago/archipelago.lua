@@ -66,6 +66,13 @@ function ClearItems(slot_data)
 
     if options['bahamut_unlock'] == 0 then
         Tracker:AddLayouts("var_cid2/layouts/items.json")
+        Tracker:AddItems("var_cid2/items/swords_and_stones.json")  -- I was hoping this would work, but it doesn't like overriding items that have already been loaded.
+
+        -- for _, code in ipairs({ "goddess_magicite", "nethicite", "dawn_shard", "sword_of_kings", "treaty_blade" }) do
+        --     local obj = Tracker:FindObjectForCode(code)
+        --     ---@cast obj JsonItem
+        --     obj.Icon = ImageReference:FromPackRelativePath("images/items/" .. code .. "_large.png")
+        -- end
     end
 
 
