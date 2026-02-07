@@ -1,8 +1,6 @@
 .vscode/*
-api/*
 todo.*
 .~lock.*
 *.xcf
-.luarc.json
 *.zip
 *.pyc
