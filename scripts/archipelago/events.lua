@@ -28,7 +28,113 @@ QUEST_MAPPING = {
     },
     [137] = {
         [50] = {"enkelados"},
-    }
+    },
+    [138] = {
+        [50] = {"croakadile"},
+    },
+    [139] = {
+        [70] = {"ixtab"},
+    },
+    [140] = {
+        [70] = {"feral_retriever"},
+    },
+    [141] = {
+        [50] = {"vorpal_bunny"},
+    },
+    [142] = {
+        [70] = {"mindflayer"},
+    },
+    [143] = {
+        [70] = {"bloodwing"},
+    },
+    [144] = {
+        [30] = {"atomos"},
+    },
+    [145] = {
+        [30] = {"roblon"},
+    },
+    [146] = {
+        [50] = {"braegh"},
+    },
+    [147] = {
+        [100] = {"darksteel"},
+    },
+    [148] = {
+        [100] = {"vyraal"},
+    },
+    [149] = {
+        [100] = {"lindwyrm"},
+    },
+    [150] = {
+        [100] = {"overlord"},
+    },
+    [151] = {
+        [30] = {"goliath"},
+    },
+    [152] = {
+        [30] = {"deathscythe"},
+    },
+    [153] = {
+        [70] = {"deathgaze"},
+    },
+    [154] = {
+        [70] = {"diabolos"},
+    },
+    [155] = {
+        [70] = {"piscodaemon"},
+    },
+    [156] = {
+        [50] = {"wild_malboro"},
+    },
+    [157] = {
+        [70] = {"catoblepas"},
+    },
+    [158] = {
+        [70] = {"fafnir"},
+    },
+    [159] = {
+        [100] = {"pylraster"},
+    },
+    [160] = {
+        [50] = {"cluckatrice"},
+    },
+    [161] = {
+        [70] = {"rocktoise"},
+    },
+    [162] = {
+        [70] = {"orthros"},
+    },
+    [163] = {
+        [70] = {"gil_snapper"},
+    },
+    [164] = {
+        [70] = {"trickster"},
+    },
+    [165] = {
+        [90] = {"antlion"},
+    },
+    [166] = {
+        [30] = {"carrot"},
+    },
+    [167] = {
+        [50] = {"gilgamesh1"},
+        [100] = {"gilgamesh2"},
+    },
+    [168] = {
+        [70] = {"behemoth_king"},
+    },
+    [169] = {
+        [100] = {"ixion"},
+    },
+    [170] = {
+        [70] = {"shadowseer"},
+    },
+    [171] = {
+        [70] = {"yiazmat"},
+    },
+    [172] = {
+        [70] = {"belito"},
+    },
 }
 
 KILL_FLAGS = {
@@ -43,102 +149,6 @@ KILL_FLAGS = {
 
 
 }
-
-HUNT_MAPPING = {  -- IDs are zero-indexed, And the first 40 in order of appearance in the game
-    [10] = "croakadile",
-    [11] = "ixtab",
-    [12] = "feral_retriever",
-    [13] = "vorpal_bunny",
-    [14] = "mindflayer",
-    [15] = "bloodwing",
-    [16] = "atomos",
-    [17] = "roblon",
-    [18] = "braegh",
-    [19] = "darksteel",
-    [20] = "vyraal",
-    [21] = "lindwyrm",
-    [22] = "overlord",
-    [23] = "goliath",
-    [24] = "deathscythe",
-    [25] = "deathgaze",
-    [26] = "diabolos",
-    [27] = "piscodaemon",
-    [28] = "wild_malboro",
-    [29] = "catoblepas",
-    [30] = "fafnir",
-    [31] = "pylraster",
-    [32] = "cluckatrice",
-    [33] = "rocktoise",
-    [34] = "orthros",
-    [35] = "gil_snapper",
-    [36] = "trickster",
-    [37] = "antlion",
-    [38] = "carrot",
-    [39] = "gilgamesh",
-    [40] = "behemoth_king",
-    [41] = "ixion",
-    [42] = "shadowseer",
-    [43] = "yiazmat",
-    [44] = "belito",
-}
-
-HUNT_STAGE_MAPPING = {  -- 200 means I haven't figured out where the kill is yet
-    [10] = 50,
-    [11] = 70,
-    [12] = 70,
-    [13] = 90,
-    [14] = 200,
-    [15] = 70,
-    [16] = 30,
-    [17] = 30,
-    [18] = 50,
-    [19] = 90,
-    [20] = 100,
-    [21] = 100,
-    [22] = 200,
-    [23] = 30,
-    [24] = 30,
-    [25] = 200,
-    [26] = 70,
-    [27] = 70,
-    [28] = 50,
-    [29] = 70,
-    [30] = 70,
-    [31] = 50,
-    [32] = 50,  -- Cluckatrice
-    [33] = 70,
-    [34] = 70,
-    [35] = 70,
-    [36] = 70,
-    [37] = 90,
-    [38] = 200,
-    [39] = 100,
-    [40] = 200,
-    [41] = 200,
-    [42] = 200,
-    [43] = 200,
-    [44] = 2000
-}
-
-function on_hunt_updated(hunt_id, stage)
-    local code = HUNT_MAPPING[tonumber(hunt_id)]
-    local needed = HUNT_STAGE_MAPPING[tonumber(hunt_id)] or 0
-    if stage >= needed then
-        -- Mark the hunt as complete
-        local object = Tracker:FindObjectForCode(code)
-        if object then
-            if code:sub(1, 1) == "@" then
-                object.AvailableChestCount = object.AvailableChestCount - 1
-            else
-                object.Active = true
-            end
-        else
-            print(string.format("onHuntUpdated: could not find object for hunt code %s", code))
-        end
-    else
-        print(string.format("hunt %d: Stage %d/%d, %s", hunt_id, stage, needed, code))
-    end
-end
 
 function on_event_updated(offset, value)
     local code = KILL_FLAGS[offset]
@@ -173,10 +183,6 @@ function on_event_updated(offset, value)
             return
         else
             -- print(string.format("No quest data for quest %d", quest_id))
-        end
-        if quest_id >= 128 then
-            on_hunt_updated(quest_id - 128, value)
-            return
         end
     end
     -- print(string.format("Event %x updated to %s", offset, value))

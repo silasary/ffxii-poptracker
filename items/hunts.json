@@ -234,10 +234,16 @@
         "codes": "carrot"
     },
     {
-        "name": "Gilgamesh",
+        "name": "Gilgamesh 1",
         "type": "toggle",
         "img": "images/items/hunt.png",
-        "codes": "gilgamesh"
+        "codes": "gilgamesh1"
+    },
+    {
+        "name": "Gilgamesh 2",
+        "type": "toggle",
+        "img": "images/items/hunt.png",
+        "codes": "gilgamesh2"
     },
     {
         "name": "Belito",

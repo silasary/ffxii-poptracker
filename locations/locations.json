@@ -14702,7 +14702,7 @@
             "hosted_item": "diabolos"
           },
           {
-            "name": "Defeat Gilgamesh",
+            "name": "Defeat Gilgamesh 1",
             "visibility_rules": [
               "place_clan_rank",
               "place_hunts"
@@ -14710,7 +14710,18 @@
             "access_rules": [
               "site_3_key,site_11_key,clan_primer,[$scaled_difficulty|7]"
             ],
-            "hosted_item": "gilgamesh"
+            "hosted_item": "gilgamesh1"
+          },
+          {
+            "name": "Defeat Gilgamesh 2",
+            "visibility_rules": [
+              "place_clan_rank",
+              "place_hunts"
+            ],
+            "access_rules": [
+              "site_3_key,site_11_key,clan_primer,[$scaled_difficulty|7]"
+            ],
+            "hosted_item": "gilgamesh2"
           },
           {
             "name": "Disma - Accursed Trophy",
