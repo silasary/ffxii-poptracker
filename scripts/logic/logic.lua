@@ -30,6 +30,14 @@ function get_char_count()
         Tracker:ProviderCountForCode('penelo') + Tracker:ProviderCountForCode('guest')
 end
 
+function goal(n)
+    local goal = Tracker:FindObjectForCode("goal")
+    if goal then
+        return goal.CurrentStage == tonumber(n)
+    end
+    return false
+end
+
 function cerobi_access()	-- Why does this function exist?
     return tchita_uplands() or aero('bal_aero')
 end
