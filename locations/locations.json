@@ -4349,7 +4349,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|4]"
+              "$sochen_cave_palace,[$scaled_difficulty|4],darksteel"
             ]
           },
           {
@@ -4358,7 +4358,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,[$scaled_difficulty|6],overlord"
             ]
           },
           {
@@ -6918,7 +6918,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|3]"
+              "[$scaled_difficulty|3],feral_retriever"
             ]
           },
           {
