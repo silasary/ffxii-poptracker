@@ -8025,7 +8025,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,[$scaled_difficulty|1]"
+              "crescent_stone,[$scaled_difficulty|1],flans"
             ]
           },
           {
@@ -8034,7 +8034,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,[$scaled_difficulty|1]"
+              "crescent_stone,[$scaled_difficulty|1],firemane"
             ]
           },
           {
@@ -8043,13 +8043,13 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$earth_tyrant,[$scaled_difficulty|4]"
+              "^$earth_tyrant,[$scaled_difficulty|4],earth_tyrant"
             ]
           },
           {
             "name": "Clan Boss: Mimic Queen",
             "access_rules": [
-              "crescent_stone,tube_fuse,[$scaled_difficulty|1]"
+              "crescent_stone,tube_fuse,[$scaled_difficulty|1],mimic_queen"
             ]
           },
           {
@@ -8058,7 +8058,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$sandseas,[$scaled_difficulty|3]"
+              "^$sandseas,[$scaled_difficulty|3],demon_wall_1"
             ]
           },
           {
@@ -8067,7 +8067,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$sandseas,[$scaled_difficulty|1]"
+              "^$sandseas,[$scaled_difficulty|1],demon_wall_2"
             ]
           },
           {
