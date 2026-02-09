@@ -98,7 +98,7 @@
           {
             "name": "Grimy Fragment",
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5],grimy_quest_complete"
             ]
           }
         ]
@@ -1030,6 +1030,13 @@
             ]
           },
           {
+            "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
+            "access_rules": [
+              "^$tchita_uplands,[$scaled_difficulty|1],medallion_makleou"
+            ],
+            "hosted_item": "grimy_rohkenmou"
+          },
+          {
             "name": "Party Member (Basch)",
             "access_rules": [
               "sword_of_the_order,[$scaled_difficulty|0]"
@@ -1146,13 +1153,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|1], wraith"
             ]
           },
           {
             "name": "Dusty Letter",
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2], wraith"
             ]
           },
           {
@@ -1161,7 +1168,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5], ring_wyrm"
             ]
           },
           {
@@ -1922,6 +1929,20 @@
           "^$sandseas"
         ],
         "sections": [
+          {
+            "name": "Defeat Demon Wall 1",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "demon_wall_1"
+          },
+          {
+            "name": "Defeat Demon Wall 2",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "demon_wall_2"
+          },
           {
             "name": "Royal Passage Treasure 1",
             "visibility_rules": [

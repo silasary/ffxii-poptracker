@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Medallion Questline",
+    "type": "progressive",
+    "stages": [
+      {
+        "codes": "medallion_not_started"
+      },
+      {
+        "codes": "medallion_makleou"
+      },
+      {
+        "codes": "medallion_makleou_2"
+      },
+      {
+        "codes": "medallion_complete"
+      }
+    ]
+  },
+  {
+    "name": "Grimy Fragment Questline Progress",
+    "type": "progressive",
+    "stages": [
+      {
+        "codes": "grimy_not_started"
+      },
+      {
+        "codes": "grimy_rohkenmou"
+      },
+      {
+        "codes": "grimy_filo"
+      },
+      {
+        "codes": "grimy_woman"
+      },
+      {
+        "codes": "grimy_bangaa"
+      },
+      {
+        "codes": "grimy_imperial"
+      },
+      {
+        "codes": "grimy_filo2"
+      },
+      {
+        "codes": "grimy_quest_complete"
+      }
+    ]
+  }
+]

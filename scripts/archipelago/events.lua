@@ -1,4 +1,9 @@
 QUEST_MAPPING = {
+    [57] = {
+        [50] = { "medallion_makleou" },
+        [75] = { "medallion_makleou_2" },
+        [100] = { "medallion_complete" },
+    },
     [128] = {
         [50] = {"rogue_tomato"},
     },
@@ -147,7 +152,8 @@ KILL_FLAGS = {
     [0x0A09] = "daedalus",
     [0x0A0A] = "tyrant",
 
-
+    [0x0A14] = "demon_wall_1",
+    [0x0A15] = "demon_wall_2",
 }
 
 function on_event_updated(offset, value)
@@ -162,6 +168,11 @@ function on_event_updated(offset, value)
                 print(string.format("onEventUpdated: could not find object for kill code %s", code))
             end
         end
+        return
+    end
+    if offset == 0x0416 then
+        print(string.format("Grimy questline updated to stage %d", value))
+        grimy_questline(value)
         return
     end
     if offset >= 0x1064 then
@@ -186,4 +197,24 @@ function on_event_updated(offset, value)
         end
     end
     -- print(string.format("Event %x updated to %s", offset, value))
+end
+
+function grimy_questline(stage)
+    local stages = {
+        [0] = "grimy_not_started",
+        [1] = "grimy_rohkenmou",
+        [2] = "grimy_filo",
+        [3] = "grimy_woman",
+        [4] = "grimy_bangaa",
+        [5] = "grimy_imperial",
+        [6] = "grimy_filo2",
+        [7] = "grimy_quest_complete",
+    }
+    local progress = Tracker:FindObjectForCode(stages[stage])
+    ---@cast progress JsonItem
+    if progress then
+        progress.Active = true
+    else
+        print(string.format("grimy_questline: could not find object for stage %d", stage))
+    end
 end

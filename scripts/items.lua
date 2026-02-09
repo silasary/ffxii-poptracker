@@ -1,4 +1,5 @@
 Tracker:AddItems("items/clan_boss.json")
+Tracker:AddItems("items/event_items.json")
 Tracker:AddItems("items/hunts.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/swords_and_stones.json")

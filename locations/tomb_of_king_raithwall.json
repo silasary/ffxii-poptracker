@@ -157,6 +157,36 @@
             "ref": "Main/Tomb of Raithwall/Zombie Lord - Soulless Trophy"
           }
         ]
+      },
+      {
+        "name": "Demon Wall 1",
+        "map_locations": [
+          {
+            "map": "tomb_of_king_raithwall",
+            "x": 1785,
+            "y": 665
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Tomb of Raithwall/Defeat Demon Wall 1"
+          }
+        ]
+      },
+            {
+        "name": "Demon Wall 2",
+        "map_locations": [
+          {
+            "map": "tomb_of_king_raithwall",
+            "x": 1300,
+            "y": 665
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Tomb of Raithwall/Defeat Demon Wall 2"
+          }
+        ]
       }
     ]
   }
