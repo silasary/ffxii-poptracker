@@ -422,7 +422,8 @@ TAB_MAPPING = {
 
     [800] = { "Nalbina", "Nalbina Town" }, --Aerodrome
 
-    [804] = { "Bhujerba", "Bhujerba" }, --Travica Way
+    [803] = { "Bhujerba", "Bhujerba" }, --Travica Way
+    [804] = { "Bhujerba", "Bhujerba" }, --Cloudborne Row
     [805] = { "Bhujerba", "Bhujerba" }, --Miners' End
     [806] = { "Bhujerba", "Bhujerba" }, --Lhusu Square
     [809] = { "Bhujerba", "Bhujerba" }, --Khus Skygrounds
@@ -465,7 +466,7 @@ TAB_MAPPING = {
 
     [872] = { "World Map" }, --Light Cruiser Shiva (Vossler)
 
-    [876] = { "World Map" }, --Dreadnought Leviathan/Brig No. 1
+    [876] = { "Bhujerba", "Dreadnought Leviathan" }, --Dreadnought Leviathan/Brig No. 1
 
     [888] = { "Map Select", "The Feywood", "The Great Crystal", "Upper" }, --Crystal Peak (Ultima)
 
