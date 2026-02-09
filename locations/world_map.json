@@ -6395,6 +6395,11 @@
         "map": "world_map",
         "x": 800,
         "y": 1000
+      },
+      {
+        "map": "ozmone_plain",
+        "x": 1230,
+        "y": 1030
       }
     ],
     "sections": [
