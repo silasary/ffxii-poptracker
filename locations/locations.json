@@ -1934,12 +1934,18 @@
             "visibility_rules": [
               "place_clan_boss"
             ],
+            "access_rules": [
+              "[$scaled_difficulty|3],[clan_primer]"
+            ],
             "hosted_item": "demon_wall_1"
           },
           {
             "name": "Defeat Demon Wall 2",
             "visibility_rules": [
               "place_clan_boss"
+            ],
+            "access_rules": [
+              "[clan_primer],[$scaled_difficulty|3]"
             ],
             "hosted_item": "demon_wall_2"
           },
@@ -2982,7 +2988,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "errmonea_leaf,[$scaled_difficulty|2]"
+              "errmonea_leaf,[$scaled_difficulty|2],enkelados"
             ]
           },
           {
@@ -2991,7 +2997,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2],ixtab"
             ]
           },
           {
@@ -3000,7 +3006,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$henne_mines,[$scaled_difficulty|4]"
+              "$henne_mines,[$scaled_difficulty|4],mindflayer"
             ]
           },
           {
@@ -3009,7 +3015,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|6]"
+              "rainstone,[$scaled_difficulty|6],catoblepas"
             ]
           }
         ]
@@ -3059,7 +3065,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,rabbit_tail,[$scaled_difficulty|3]"
+              "^$paramina_rift,rabbit_tail,[$scaled_difficulty|3],vorpal_bunny"
             ]
           },
           {
@@ -3068,7 +3074,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|6]"
+              "^$paramina_rift,[$scaled_difficulty|6],wild_malboro"
             ]
           }
         ]
@@ -7628,7 +7634,7 @@
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5],medallion_makleou"
             ]
           },
           {
@@ -8076,7 +8082,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|3]"
+              "^$paramina_rift,[$scaled_difficulty|3],elder_wyrm"
             ]
           },
           {
@@ -8085,7 +8091,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$henne_mines,[$scaled_difficulty|2]"
+              "$henne_mines,[$scaled_difficulty|2],tiamat"
             ]
           },
           {
@@ -8094,7 +8100,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,dawn_shard,[$scaled_difficulty|2]"
+              "^$paramina_rift,dawn_shard,[$scaled_difficulty|2],vinuskar"
             ]
           },
           {
@@ -8103,7 +8109,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5]"
+              "^$tchita_uplands,[$scaled_difficulty|5],king_bomb"
             ]
           },
           {
@@ -8112,7 +8118,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|4]"
+              "$sochen_cave_palace,[$scaled_difficulty|4],mandragora"
             ]
           },
           {
@@ -8121,7 +8127,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|5]"
+              "$sochen_cave_palace,[$scaled_difficulty|5],ahriman"
             ]
           },
           {
@@ -8130,7 +8136,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "ageworn_key,$sochen_cave_palace,[$scaled_difficulty|7]"
+              "ageworn_key,$sochen_cave_palace,[$scaled_difficulty|7],hell_wyrm"
             ]
           },
           {
@@ -8139,7 +8145,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|4]"
+              "^$paramina_rift,[$scaled_difficulty|4],rafflesia"
             ]
           },
           {
@@ -8148,7 +8154,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|5]"
+              "belias,^$paramina_rift,[$scaled_difficulty|5],daedulus"
             ]
           },
           {
@@ -8157,7 +8163,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|5]"
+              "belias,^$paramina_rift,[$scaled_difficulty|5],tyrant"
             ]
           },
           {
@@ -8166,7 +8172,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,[$scaled_difficulty|5]"
+              "$has_n_system_access_keys|2,[$scaled_difficulty|5],hydro"
             ]
           },
           {
@@ -8175,7 +8181,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_bravery,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7]"
+              "med_bravery,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7],humbaba_mistant"
             ]
           },
           {
@@ -8184,7 +8190,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_love,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7]"
+              "med_love,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7],fury"
             ]
           },
           {
@@ -8193,7 +8199,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|8]"
+              "belias,^$paramina_rift,[$scaled_difficulty|8],omega_mark_xii"
             ]
           },
           {
@@ -9620,6 +9626,16 @@
           "^$paramina_rift"
         ],
         "sections": [
+          {
+            "name": "Defeat Elder Wyrm",
+            "visibility_rules": [
+              "place_clan_rank"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ],
+            "hosted_item": "elder_wyrm"
+          },
           {
             "name": "The Parting Glade Treasure 1",
             "visibility_rules": [
