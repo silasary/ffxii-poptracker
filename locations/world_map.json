@@ -8,8 +8,7 @@
         "y": 0
       }
     ],
-    "sections": [
-    ]
+    "sections": []
   },
   {
     "name": "Rabanastre",
@@ -1062,6 +1061,12 @@
       {
         "name": "Zombie Lord - Soulless Trophy",
         "ref": "Main/Tomb of Raithwall/Zombie Lord - Soulless Trophy"
+      },
+      {
+        "ref": "Main/Tomb of Raithwall/Defeat Demon Wall 1"
+      },
+      {
+        "ref": "Main/Tomb of Raithwall/Defeat Demon Wall 2"
       }
     ]
   },
