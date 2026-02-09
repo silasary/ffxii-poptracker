@@ -64,6 +64,10 @@ function ClearItems(slot_data)
         end
     end
 
+    local goal = Tracker:FindObjectForCode("goal")
+    if goal then
+        goal.CurrentStage = options['bahamut_unlock']
+    end
     if options['bahamut_unlock'] == 0 then
         Tracker:AddLayouts("var_cid2/layouts/items.json")
         Tracker:AddItems("var_cid2/items/swords_and_stones.json")  -- I was hoping this would work, but it doesn't like overriding items that have already been loaded.

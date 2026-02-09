@@ -4312,7 +4312,8 @@
               "$has_n_chops|28,[$scaled_difficulty|2]"
             ],
             "visibility_rules": [
-              "place_chops"
+              "place_chops",
+              "$goal|1"
             ]
           },
           {

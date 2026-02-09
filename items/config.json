@@ -67,5 +67,10 @@
     "type": "consumable",
     "codes": "map_id",
     "img": "images/items/map_id.png"
+  },
+  {
+    "name": "Goal",
+    "type": "consumable",
+    "codes": "goal"
   }
 ]
