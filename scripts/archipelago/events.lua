@@ -7,9 +7,7 @@ QUEST_MAPPING = {
         [60] = { "earth_tyrant_complete" },
     },
     [57] = {
-        [50] = { "medallion_makleou" },
-        [75] = { "medallion_makleou_2" },
-        [100] = { "medallion_complete" },
+        [50] = { "medallion_started" },
     },
     [128] = {
         [50] = {"rogue_tomato"},

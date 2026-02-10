@@ -563,7 +563,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1]"
+              "clan_primer,[$scaled_difficulty|1],cluckatrice"
             ]
           },
           {
@@ -572,7 +572,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,silent_urn,rainstone,[$scaled_difficulty|3]"
+              "clan_primer,silent_urn,rainstone,[$scaled_difficulty|3],gil_snapper"
             ]
           },
           {
@@ -1053,7 +1053,7 @@
           {
             "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|1],medallion_makleou"
+              "^$tchita_uplands,[$scaled_difficulty|1],medallion_started"
             ],
             "hosted_item": "grimy_rohkenmou"
           },
@@ -6515,7 +6515,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "barheim_key,[$scaled_difficulty|5]"
+              "barheim_key,[$scaled_difficulty|5],bloodwing"
             ]
           },
           {
@@ -7470,7 +7470,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|4]"
+              "[$scaled_difficulty|4],braegh"
             ]
           }
         ]
@@ -7614,7 +7614,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "viera_rucksack,^$tchita_uplands,[$scaled_difficulty|5]"
+              "viera_rucksack,^$tchita_uplands,[$scaled_difficulty|5],vyraal"
             ]
           },
           {
@@ -7623,7 +7623,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$has_n_system_access_keys|2,[$scaled_difficulty|6]"
+              "clan_primer,$has_n_system_access_keys|2,[$scaled_difficulty|6],ixion"
             ]
           },
           {
@@ -7632,7 +7632,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,[$scaled_difficulty|7]"
+              "$has_n_system_access_keys|2,[$scaled_difficulty|7],pylraster"
             ]
           }
         ]
@@ -7649,7 +7649,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,rusted_scrap_of_armor,[$scaled_difficulty|5]"
+              "^$tchita_uplands,rusted_scrap_of_armor,[$scaled_difficulty|5],lindwyrm"
             ]
           },
           {
@@ -7882,7 +7882,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|7]"
+              "[$scaled_difficulty|7],deathgaze"
             ]
           },
           {
@@ -7908,7 +7908,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "rainstone,[$scaled_difficulty|5],belito"
             ]
           },
           {
@@ -7917,7 +7917,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,$has_n_black_orbs|24,[$scaled_difficulty|6]"
+              "$has_n_system_access_keys|2,$has_n_black_orbs|24,[$scaled_difficulty|6],shadowseer"
             ]
           },
           {
@@ -7926,7 +7926,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$aero|bhu_aero,[$scaled_difficulty|7]"
+              "site_3_key,site_11_key,$aero|bhu_aero,[$scaled_difficulty|7],gilgamesh1,gilgamesh2"
             ]
           },
           {
@@ -7935,7 +7935,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,[$scaled_difficulty|8]"
+              "$has_n_system_access_keys|2,[$scaled_difficulty|8],yiazmat"
             ]
           },
           {
@@ -8747,6 +8747,16 @@
               "[$scaled_difficulty|1],crescent_stone"
             ],
             "hosted_item": "firemane"
+          },
+          {
+            "name": "Defeat Flans",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|1],crescent_stone"
+            ],
+            "hosted_item": "flans"
           },
           {
             "name": "Party Members (Balthier, Fran, Guest)",

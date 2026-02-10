@@ -1,25 +1,9 @@
 [
   {
-    "name": "Medallion Questline",
-    "type": "progressive",
-    "stages": [
-      {
-        "codes": "medallion_not_started",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "medallion_makleou",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "medallion_makleou_2",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "medallion_complete",
-        "img": "images/items/target.png"
-      }
-    ]
+    "name": "Three Medallions: Speak to Ma'kleou",
+    "type": "toggle",
+    "codes": "medallion_started",
+    "img": "images/items/target.png"
   },
   {
     "name": "Grimy Fragment Questline Progress",
