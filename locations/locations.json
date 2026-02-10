@@ -32,7 +32,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|1],rogue_tomato"
             ]
           },
           {
@@ -41,7 +41,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|1],thextera"
             ]
           },
           {
@@ -52,6 +52,20 @@
             "access_rules": [
               "[$scaled_difficulty|1]"
             ]
+          },
+          {
+            "name": "Earth Tyrant Quest: Speak to Rimzat",
+            "access_rules":[
+              "^$defeat_vossler"
+            ],
+            "hosted_item": "earth_tyrant_rimzat"
+          },
+          {
+            "name": "Earth Tyrant Quest: Speak to Cotze",
+            "access_rules":[
+              "earth_tyrant_rimzat"
+            ],
+            "hosted_item": "earth_tyrant_cotze"
           },
           {
             "name": "Earth Tyrant Quest Windvane",
@@ -65,7 +79,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$sandseas,[$scaled_difficulty|2]"
+              "^$sandseas,[$scaled_difficulty|2],wyvern_lord"
             ]
           },
           {
@@ -83,7 +97,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "broken_key,[$scaled_difficulty|5]"
+              "broken_key,[$scaled_difficulty|5],white_mousse"
             ]
           },
           {
@@ -92,7 +106,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "serpentwyne,[$scaled_difficulty|5]"
+              "serpentwyne,[$scaled_difficulty|5],marilith"
             ]
           },
           {
@@ -1028,6 +1042,13 @@
             "access_rules": [
               "sword_of_the_order"
             ]
+          },
+          {
+            "name": "Earth Tyrant Quest: Speak to Northon",
+            "access_rules":[
+              "earth_tyrant_cotze"
+            ],
+            "hosted_item": "earth_tyrant_northon"
           },
           {
             "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
@@ -6841,7 +6862,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1]"
+              "[$scaled_difficulty|1],nidhogg"
             ]
           },
           {
@@ -6850,7 +6871,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1]"
+              "clan_primer,[$scaled_difficulty|1],rocktoise"
             ]
           },
           {
@@ -6883,7 +6904,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,site_3_key,[$scaled_difficulty|5]"
+              "clan_primer,site_3_key,[$scaled_difficulty|5],antlion"
             ]
           },
           {
@@ -6892,7 +6913,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,[$scaled_difficulty|7]"
+              "site_3_key,site_11_key,[$scaled_difficulty|7],diabolos"
             ]
           }
         ]
@@ -8660,7 +8681,7 @@
           {
             "name": "Earth Tyrant Quest Wind Globe",
             "access_rules": [
-              "^$defeat_vossler,[$scaled_difficulty|1]"
+              "^$defeat_vossler,[$scaled_difficulty|1],earth_tyrant_northon"
             ]
           },
           {

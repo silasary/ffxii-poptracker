@@ -4,16 +4,20 @@
     "type": "progressive",
     "stages": [
       {
-        "codes": "medallion_not_started"
+        "codes": "medallion_not_started",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "medallion_makleou"
+        "codes": "medallion_makleou",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "medallion_makleou_2"
+        "codes": "medallion_makleou_2",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "medallion_complete"
+        "codes": "medallion_complete",
+        "img": "images/items/target.png"
       }
     ]
   },
@@ -22,28 +26,66 @@
     "type": "progressive",
     "stages": [
       {
-        "codes": "grimy_not_started"
+        "codes": "grimy_not_started",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_rohkenmou"
+        "codes": "grimy_rohkenmou",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_filo"
+        "codes": "grimy_filo",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_woman"
+        "codes": "grimy_woman",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_bangaa"
+        "codes": "grimy_bangaa",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_imperial"
+        "codes": "grimy_imperial",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_filo2"
+        "codes": "grimy_filo2",
+        "img": "images/items/target.png"
       },
       {
-        "codes": "grimy_quest_complete"
+        "codes": "grimy_quest_complete",
+        "img": "images/items/target.png"
+      }
+    ]
+  },
+  {
+    "name": "Earth Tyrant Questline",
+    "type": "progressive",
+    "stages": [
+      {
+        "codes": "earth_tyrant_not_started",
+        "img": "images/items/target.png"
+      },
+      {
+        "codes": "earth_tyrant_rimzat",
+        "img": "images/items/target.png"
+      },
+      {
+        "codes": "earth_tyrant_cotze",
+        "img": "images/items/target.png"
+      },
+      {
+        "codes": "earth_tyrant_northon",
+        "img": "images/items/target.png"
+      },
+      {
+        "codes": "earth_tyrant_wind_globe",
+        "img": "images/items/target.png"
+      },
+      {
+        "codes": "earth_tyrant_complete",
+        "img": "images/items/target.png"
       }
     ]
   }

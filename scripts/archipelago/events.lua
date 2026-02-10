@@ -1,4 +1,11 @@
 QUEST_MAPPING = {
+    [53] = {
+        [20] = { "earth_tyrant_rimzat" },
+        [30] = { "earth_tyrant_cotze"},
+        [40] = { "earth_tyrant_northon" },
+        [50] = { "earth_tyrant_wind_globe" },
+        [60] = { "earth_tyrant_complete" },
+    },
     [57] = {
         [50] = { "medallion_makleou" },
         [75] = { "medallion_makleou_2" },
@@ -154,6 +161,8 @@ KILL_FLAGS = {
 
     [0x0A14] = "demon_wall_1",
     [0x0A15] = "demon_wall_2",
+
+    [0x0A28] = "judge_ghis"
 }
 
 function on_event_updated(offset, value)
