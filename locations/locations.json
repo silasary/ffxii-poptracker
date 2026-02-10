@@ -32,7 +32,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1],rogue_tomato"
+              "rogue_tomato"
             ]
           },
           {
@@ -41,7 +41,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1],thextera"
+              "thextera"
             ]
           },
           {
@@ -55,14 +55,14 @@
           },
           {
             "name": "Earth Tyrant Quest: Speak to Rimzat",
-            "access_rules":[
+            "access_rules": [
               "^$defeat_vossler"
             ],
             "hosted_item": "earth_tyrant_rimzat"
           },
           {
             "name": "Earth Tyrant Quest: Speak to Cotze",
-            "access_rules":[
+            "access_rules": [
               "earth_tyrant_rimzat"
             ],
             "hosted_item": "earth_tyrant_cotze"
@@ -79,7 +79,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$sandseas,[$scaled_difficulty|2],wyvern_lord"
+              "^$sandseas,wyvern_lord"
             ]
           },
           {
@@ -97,7 +97,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "broken_key,[$scaled_difficulty|5],white_mousse"
+              "broken_key,white_mousse"
             ]
           },
           {
@@ -106,7 +106,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "serpentwyne,[$scaled_difficulty|5],marilith"
+              "serpentwyne,marilith"
             ]
           },
           {
@@ -1045,7 +1045,7 @@
           },
           {
             "name": "Earth Tyrant Quest: Speak to Northon",
-            "access_rules":[
+            "access_rules": [
               "earth_tyrant_cotze"
             ],
             "hosted_item": "earth_tyrant_northon"
@@ -1174,13 +1174,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1], wraith"
+              "wraith"
             ]
           },
           {
             "name": "Dusty Letter",
             "access_rules": [
-              "[$scaled_difficulty|2], wraith"
+              "[$scaled_difficulty|2],wraith"
             ]
           },
           {
@@ -1189,7 +1189,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5], ring_wyrm"
+              "[$scaled_difficulty|5],ring_wyrm"
             ]
           },
           {
@@ -3018,7 +3018,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|2],ixtab"
+              "ixtab"
             ]
           },
           {
@@ -3027,7 +3027,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$henne_mines,[$scaled_difficulty|4],mindflayer"
+              "$henne_mines,mindflayer"
             ]
           },
           {
@@ -3036,7 +3036,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|6],catoblepas"
+              "catoblepas"
             ]
           }
         ]
@@ -3086,7 +3086,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,rabbit_tail,[$scaled_difficulty|3],vorpal_bunny"
+              "^$paramina_rift,rabbit_tail,vorpal_bunny"
             ]
           },
           {
@@ -3095,7 +3095,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|6],wild_malboro"
+              "^$paramina_rift,wild_malboro"
             ]
           }
         ]
@@ -4370,7 +4370,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|4],darksteel"
+              "$sochen_cave_palace,darksteel"
             ]
           },
           {
@@ -6862,7 +6862,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|1],nidhogg"
+              "nidhogg"
             ]
           },
           {
@@ -6871,7 +6871,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1],rocktoise"
+              "rocktoise"
             ]
           },
           {
@@ -6904,7 +6904,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,site_3_key,[$scaled_difficulty|5],antlion"
+              "antlion"
             ]
           },
           {
@@ -6913,7 +6913,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,[$scaled_difficulty|7],diabolos"
+              "diabolos"
             ]
           }
         ]
@@ -6939,7 +6939,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|3],feral_retriever"
+              "feral_retriever"
             ]
           },
           {
@@ -8061,7 +8061,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,[$scaled_difficulty|1],firemane"
+              "firemane"
             ]
           },
           {
@@ -8085,7 +8085,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$sandseas,[$scaled_difficulty|3],demon_wall_1"
+              "^$sandseas,demon_wall_1"
             ]
           },
           {
@@ -8103,7 +8103,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|3],elder_wyrm"
+              "^$paramina_rift,elder_wyrm"
             ]
           },
           {

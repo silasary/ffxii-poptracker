@@ -8,7 +8,44 @@
         "y": 0
       }
     ],
-    "sections": []
+    "sections": [
+      {
+        "name": "Earth Tyrant Quest: Speak to Rimzat",
+        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Cotze",
+        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Northon",
+        "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
+        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Roh'kenmou"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 1",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 2",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 3",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
+      },
+      {
+        "name": "Skyreach Ridge Treasure 4",
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
+      },
+      {
+        "name": "Defeat Elder Wyrm",
+        "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
+      }
+    ]
   },
   {
     "name": "Rabanastre",
@@ -4339,6 +4376,10 @@
       {
         "name": "Gavial - Fur-scaled Trophy",
         "ref": "Main/Garamsythe Waterway/Gavial - Fur-scaled Trophy"
+      },
+      {
+        "name": "Defeat Firemane",
+        "ref": "Main/Garamsythe Waterway/Defeat Firemane"
       }
     ]
   },

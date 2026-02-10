@@ -32,9 +32,14 @@ def main() -> None:
     regions = {v['name']: v for v in pt_locations[0]['children']}
     all_locations = {}
     all_names = []
+    hosted_items: dict[str, dict] = {}
+
     for region in pt_locations[0]['children']:
         for section in region.setdefault('sections', []):
             all_locations[section['name']] = region['name']
+            if 'hosted_item' in section:
+                hosted_items[section['hosted_item']] = section
+
     todays_treasures = None
     warned_regions = set()
     check_counter: Counter[str] = Counter()
@@ -85,6 +90,14 @@ def main() -> None:
                 continue
 
         access_rule: str | None = None
+        existing_rule = pt_loc.get('access_rules', [""])[0]
+        events = [i.strip() for i in existing_rule.split(',') if i in hosted_items]
+        event_reqs = []
+        for e in events:
+            e_loc = hosted_items[e]
+            e_rules = e_loc.get('access_rules', [])
+            for er in e_rules:
+                event_reqs.extend(er.split(','))
 
         difficulty = loc.difficulty
         rule = rule_data_table.get(name)
@@ -101,7 +114,9 @@ def main() -> None:
             access_rule_reqs = access_rule.split(',')
             pruned_reqs = [req for req in access_rule_reqs if req not in region_reqs]
             access_rule = ','.join(pruned_reqs)
-
+        if access_rule and events:
+            pruned_reqs = [req for req in access_rule.split(',') if req not in event_reqs]
+            access_rule = ','.join(pruned_reqs + events)
         if access_rule is not None:
             if pt_loc.get('access_rules', []):
                 if pt_loc['access_rules'][0] != access_rule:
@@ -209,7 +224,7 @@ def validate(all_names):
             add_to_world_map.append(name)
         elif len(referenced[name]) != len(set(referenced[name])):
             print(f'WARNING: Location {name} referenced in {referenced[name]}')
-        elif len(referenced[name]) == 1:
+        elif len(referenced[name]) == 1 and '/Clan Hall/' not in name:
             add_to_map_select.append(name)
         elif len(referenced[name]) == 0:
             print(f'WARNING: Location {name} not referenced anywhere')

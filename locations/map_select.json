@@ -10,158 +10,6 @@
     ],
     "sections": [
       {
-        "name": "Croakadile Drop",
-        "ref": "Main/Giza Plains Rains/Croakadile Drop"
-      },
-      {
-        "name": "Hunt 41: Belito",
-        "ref": "Main/Clan Hall/Hunt 41: Belito"
-      },
-      {
-        "name": "Hunt 44: Shadowseer",
-        "ref": "Main/Clan Hall/Hunt 44: Shadowseer"
-      },
-      {
-        "name": "Hunt 40: Gilgamesh",
-        "ref": "Main/Clan Hall/Hunt 40: Gilgamesh"
-      },
-      {
-        "name": "Hunt 45: Yiazmat",
-        "ref": "Main/Clan Hall/Hunt 45: Yiazmat"
-      },
-      {
-        "name": "Clan Rank: Moppet",
-        "ref": "Main/Clan Hall/Clan Rank: Moppet"
-      },
-      {
-        "name": "Clan Rank: Hedge Knight",
-        "ref": "Main/Clan Hall/Clan Rank: Hedge Knight"
-      },
-      {
-        "name": "Clan Rank: Rear Guard",
-        "ref": "Main/Clan Hall/Clan Rank: Rear Guard"
-      },
-      {
-        "name": "Clan Rank: Vanguard",
-        "ref": "Main/Clan Hall/Clan Rank: Vanguard"
-      },
-      {
-        "name": "Clan Rank: Headhunter",
-        "ref": "Main/Clan Hall/Clan Rank: Headhunter"
-      },
-      {
-        "name": "Clan Rank: Ward of Justice",
-        "ref": "Main/Clan Hall/Clan Rank: Ward of Justice"
-      },
-      {
-        "name": "Clan Rank: Brave Companion",
-        "ref": "Main/Clan Hall/Clan Rank: Brave Companion"
-      },
-      {
-        "name": "Clan Rank: Riskbreaker",
-        "ref": "Main/Clan Hall/Clan Rank: Riskbreaker"
-      },
-      {
-        "name": "Clan Rank: Paragon of Justice",
-        "ref": "Main/Clan Hall/Clan Rank: Paragon of Justice"
-      },
-      {
-        "name": "Clan Rank: High Guardian",
-        "ref": "Main/Clan Hall/Clan Rank: High Guardian"
-      },
-      {
-        "name": "Clan Rank: Knight of the Round",
-        "ref": "Main/Clan Hall/Clan Rank: Knight of the Round"
-      },
-      {
-        "name": "Clan Boss: Flans",
-        "ref": "Main/Clan Hall/Clan Boss: Flans"
-      },
-      {
-        "name": "Clan Boss: Firemane",
-        "ref": "Main/Clan Hall/Clan Boss: Firemane"
-      },
-      {
-        "name": "Clan Boss: Demon Wall 1",
-        "ref": "Main/Clan Hall/Clan Boss: Demon Wall 1"
-      },
-      {
-        "name": "Clan Boss: Demon Wall 2",
-        "ref": "Main/Clan Hall/Clan Boss: Demon Wall 2"
-      },
-      {
-        "name": "Clan Boss: Elder Wyrm",
-        "ref": "Main/Clan Hall/Clan Boss: Elder Wyrm"
-      },
-      {
-        "name": "Clan Boss: Tiamat",
-        "ref": "Main/Clan Hall/Clan Boss: Tiamat"
-      },
-      {
-        "name": "Clan Boss: Vinuskar",
-        "ref": "Main/Clan Hall/Clan Boss: Vinuskar"
-      },
-      {
-        "name": "Clan Boss: King Bomb",
-        "ref": "Main/Clan Hall/Clan Boss: King Bomb"
-      },
-      {
-        "name": "Clan Boss: Mandragora",
-        "ref": "Main/Clan Hall/Clan Boss: Mandragora"
-      },
-      {
-        "name": "Clan Boss: Ahriman",
-        "ref": "Main/Clan Hall/Clan Boss: Ahriman"
-      },
-      {
-        "name": "Clan Boss: Hell Wyrm",
-        "ref": "Main/Clan Hall/Clan Boss: Hell Wyrm"
-      },
-      {
-        "name": "Clan Boss: Rafflesia",
-        "ref": "Main/Clan Hall/Clan Boss: Rafflesia"
-      },
-      {
-        "name": "Clan Boss: Daedulus",
-        "ref": "Main/Clan Hall/Clan Boss: Daedulus"
-      },
-      {
-        "name": "Clan Boss: Tyrant",
-        "ref": "Main/Clan Hall/Clan Boss: Tyrant"
-      },
-      {
-        "name": "Clan Boss: Hydro",
-        "ref": "Main/Clan Hall/Clan Boss: Hydro"
-      },
-      {
-        "name": "Clan Boss: Humbaba Mistant",
-        "ref": "Main/Clan Hall/Clan Boss: Humbaba Mistant"
-      },
-      {
-        "name": "Clan Boss: Fury",
-        "ref": "Main/Clan Hall/Clan Boss: Fury"
-      },
-      {
-        "name": "Clan Esper: Control 1",
-        "ref": "Main/Clan Hall/Clan Esper: Control 1"
-      },
-      {
-        "name": "Clan Esper: Control 4",
-        "ref": "Main/Clan Hall/Clan Esper: Control 4"
-      },
-      {
-        "name": "Clan Esper: Control 8",
-        "ref": "Main/Clan Hall/Clan Esper: Control 8"
-      },
-      {
-        "name": "Clan Esper: Control 13",
-        "ref": "Main/Clan Hall/Clan Esper: Control 13"
-      },
-      {
-        "name": "Earth Tyrant Quest Wind Globe",
-        "ref": "Main/Dalmasca Westersand/Earth Tyrant Quest Wind Globe"
-      },
-      {
         "name": "Skyreach Ridge Treasure 1",
         "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
       },
@@ -334,8 +182,24 @@
         "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
       },
       {
-        "name": "Clan Rank: Order of Ambrosia",
-        "ref": "Main/Clan Hall/Clan Rank: Order of Ambrosia"
+        "name": "Grimy Fragment",
+        "ref": "Main/Rabanastre/Grimy Fragment"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Rimzat",
+        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Cotze",
+        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Northon",
+        "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
+      },
+      {
+        "name": "Defeat Elder Wyrm",
+        "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
       }
     ]
   }

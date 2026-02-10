@@ -199,6 +199,10 @@
           {
             "name": "Defeat Croakadile",
             "ref": "Main/Giza Plains Rains/Defeat Croakadile"
+          },
+          {
+            "name": "Croakadile Drop",
+            "ref": "Main/Giza Plains Rains/Croakadile Drop"
           }
         ]
       },

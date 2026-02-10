@@ -3,7 +3,7 @@ QUEST_MAPPING = {
         [20] = { "earth_tyrant_rimzat" },
         [30] = { "earth_tyrant_cotze"},
         [40] = { "earth_tyrant_northon" },
-        [50] = { "earth_tyrant_wind_globe" },
+        [50] = { "earth_tyrant_cactus" },
         [60] = { "earth_tyrant_complete" },
     },
     [57] = {

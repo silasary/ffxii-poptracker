@@ -60,33 +60,33 @@
     ]
   },
   {
-    "name": "Earth Tyrant Questline",
-    "type": "progressive",
-    "stages": [
-      {
-        "codes": "earth_tyrant_not_started",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "earth_tyrant_rimzat",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "earth_tyrant_cotze",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "earth_tyrant_northon",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "earth_tyrant_wind_globe",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "earth_tyrant_complete",
-        "img": "images/items/target.png"
-      }
-    ]
+    "name": "Earth Tyrant Spoken to Rimzat",
+    "type": "toggle",
+    "codes": "earth_tyrant_rimzat",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Earth Tyrant Spoken to Cotze",
+    "type": "toggle",
+    "codes": "earth_tyrant_cotze",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Earth Tyrant Spoken to Northon",
+    "type": "toggle",
+    "codes": "earth_tyrant_northon",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Earth Tyrant Checked Cactus",
+    "type": "toggle",
+    "codes": "earth_tyrant_cactus",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Earth Tyrant Complete",
+    "type": "toggle",
+    "codes": "earth_tyrant_complete",
+    "img": "images/items/target.png"
   }
 ]
