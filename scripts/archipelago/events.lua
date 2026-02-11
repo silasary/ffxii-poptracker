@@ -208,7 +208,6 @@ end
 
 function grimy_questline(stage)
     local stages = {
-        [0] = "grimy_not_started",
         [1] = "grimy_rohkenmou",
         [2] = "grimy_filo",
         [3] = "grimy_woman",

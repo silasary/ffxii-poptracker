@@ -6,42 +6,46 @@
     "img": "images/items/target.png"
   },
   {
-    "name": "Grimy Fragment Questline Progress",
-    "type": "progressive",
-    "stages": [
-      {
-        "codes": "grimy_not_started",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_rohkenmou",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_filo",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_woman",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_bangaa",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_imperial",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_filo2",
-        "img": "images/items/target.png"
-      },
-      {
-        "codes": "grimy_quest_complete",
-        "img": "images/items/target.png"
-      }
-    ]
+    "name": "Grimy Fragment Questline: Speak to Roh'kenmou",
+    "codes": "grimy_rohkenmou",
+    "type": "toggle",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Grimy Fragment Questline: Speak to Filo",
+    "codes": "grimy_filo",
+    "img": "images/items/target.png",
+    "type": "toggle"
+  },
+  {
+    "name": "Grimy Fragment Questline: Speak to Curious Woman",
+    "type": "toggle",
+    "codes": "grimy_woman",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Grimy Fragment Questline: Speak to Baanga",
+    "type": "toggle",
+    "codes": "grimy_bangaa",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Grimy Fragment Questline: Speak to Imperial",
+    "type": "toggle",
+    "codes": "grimy_imperial",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Grimy Fragment Questline: Speak to Filo again",
+    "type": "toggle",
+    "codes": "grimy_filo2",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Grimy Fragment Questline Completed",
+    "type": "toggle",
+    "codes": "grimy_quest_complete",
+    "img": "images/items/target.png"
   },
   {
     "name": "Earth Tyrant Spoken to Rimzat",

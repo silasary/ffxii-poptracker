@@ -10,18 +10,6 @@
     ],
     "sections": [
       {
-        "name": "Earth Tyrant Quest: Speak to Rimzat",
-        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
-      },
-      {
-        "name": "Earth Tyrant Quest: Speak to Cotze",
-        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
-      },
-      {
-        "name": "Earth Tyrant Quest: Speak to Northon",
-        "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
-      },
-      {
         "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
         "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Roh'kenmou"
       },
@@ -172,6 +160,14 @@
       {
         "name": "Grimy Fragment",
         "ref": "Main/Rabanastre/Grimy Fragment"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Rimzat",
+        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Cotze",
+        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
       }
     ]
   },
@@ -629,6 +625,10 @@
       {
         "name": "Party Member (Basch)",
         "ref": "Main/Lowtown/Party Member (Basch)"
+      },
+      {
+        "name": "Earth Tyrant Quest: Speak to Northon",
+        "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
       },
       {
         "name": "North Sprawl Treasure 1",

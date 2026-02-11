@@ -1928,7 +1928,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$ozmone_plain,[$scaled_difficulty|5]"
+              "clan_primer,rainstone,[$scaled_difficulty|5]"
             ],
             "hosted_item": "belito"
           },
