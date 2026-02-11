@@ -204,6 +204,22 @@
       {
         "name": "Defeat Flans",
         "ref": "Main/Garamsythe Waterway/Defeat Flans"
+      },
+      {
+        "name": "Defeat Mimic Queen",
+        "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
+      },
+      {
+        "name": "Defeat Earth Tyrant",
+        "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
+      },
+      {
+        "name": "Start Medallion Questline",
+        "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
+      },
+      {
+        "name": "Defeat Tiamat",
+        "ref": "Main/Henne Mines/Defeat Tiamat"
       }
     ]
   }

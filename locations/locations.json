@@ -576,7 +576,7 @@
             ]
           },
           {
-            "name": "Give Errmonea Leaf",
+            "name": "Lesina Give Errmonea Leaf",
             "access_rules": [
               "errmonea_leaf,$ozmone_plain,[$scaled_difficulty|3]"
             ]
@@ -8123,7 +8123,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$henne_mines,[$scaled_difficulty|2],tiamat"
+              "$henne_mines,tiamat"
             ]
           },
           {

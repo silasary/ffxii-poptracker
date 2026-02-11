@@ -64,6 +64,10 @@
       {
         "name": "Start Medallion Questline",
         "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
+      },
+      {
+        "name": "Defeat Tiamat",
+        "ref": "Main/Henne Mines/Defeat Tiamat"
       }
     ]
   },
@@ -338,8 +342,8 @@
         "ref": "Main/Giza Plains Dry/Hunt 36: Gil Snapper"
       },
       {
-        "name": "Give Errmonea Leaf",
-        "ref": "Main/Giza Plains Dry/Give Errmonea Leaf"
+        "name": "Lesina Give Errmonea Leaf",
+        "ref": "Main/Giza Plains Dry/Lesina Give Errmonea Leaf"
       },
       {
         "name": "Nazarnir - Maned Trophy",
