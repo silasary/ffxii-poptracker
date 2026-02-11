@@ -200,6 +200,10 @@
       {
         "name": "Defeat Elder Wyrm",
         "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
+      },
+      {
+        "name": "Defeat Flans",
+        "ref": "Main/Garamsythe Waterway/Defeat Flans"
       }
     ]
   }

@@ -563,7 +563,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1],cluckatrice"
+              "cluckatrice"
             ]
           },
           {
@@ -572,7 +572,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,silent_urn,rainstone,[$scaled_difficulty|3],gil_snapper"
+              "rainstone,gil_snapper"
             ]
           },
           {
@@ -2219,7 +2219,24 @@
         "access_rules": [
           "crescent_stone"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Burrough Tube Fuse",
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Defeat Mimic Queen",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ],
+            "hosted_item": "mimic_queen"
+          }
+        ]
       },
       {
         "name": "Barheim Passage",
@@ -2227,12 +2244,6 @@
           "barheim_key"
         ],
         "sections": [
-          {
-            "name": "Burrough Tube Fuse",
-            "access_rules": [
-              "crescent_stone,[$scaled_difficulty|1]"
-            ]
-          },
           {
             "name": "Defeat Zalera",
             "visibility_rules": [
@@ -6488,7 +6499,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "cactus_flower,[$scaled_difficulty|1]"
+              "cactus_flower,flowering_cactoid"
             ]
           },
           {
@@ -6515,7 +6526,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "barheim_key,[$scaled_difficulty|5],bloodwing"
+              "bloodwing"
             ]
           },
           {
@@ -6954,7 +6965,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belias,[$scaled_difficulty|5]"
+              "belias,piscodaemon"
             ]
           },
           {
@@ -6963,7 +6974,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|5]"
+              "trickster"
             ]
           },
           {
@@ -6972,7 +6983,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_light,[$scaled_difficulty|7]"
+              "ring_of_light,fafnir"
             ]
           }
         ]
@@ -6986,7 +6997,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|3]"
+              "^$tchita_uplands,atomos"
             ]
           },
           {
@@ -6995,7 +7006,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,roblon"
             ]
           },
           {
@@ -7004,7 +7015,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,goliath"
             ]
           },
           {
@@ -7013,7 +7024,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|6]"
+              "^$tchita_uplands,deathscythe"
             ]
           },
           {
@@ -7028,7 +7039,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7]"
+              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7],carrot"
             ]
           }
         ]
@@ -7470,7 +7481,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|4],braegh"
+              "braegh"
             ]
           }
         ]
@@ -7614,7 +7625,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "viera_rucksack,^$tchita_uplands,[$scaled_difficulty|5],vyraal"
+              "viera_rucksack,^$tchita_uplands,vyraal"
             ]
           },
           {
@@ -7623,7 +7634,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,$has_n_system_access_keys|2,[$scaled_difficulty|6],ixion"
+              "$has_n_system_access_keys|2,ixion"
             ]
           },
           {
@@ -7632,7 +7643,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,[$scaled_difficulty|7],pylraster"
+              "$has_n_system_access_keys|2,pylraster"
             ]
           }
         ]
@@ -7649,13 +7660,13 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,rusted_scrap_of_armor,[$scaled_difficulty|5],lindwyrm"
+              "^$tchita_uplands,rusted_scrap_of_armor,lindwyrm"
             ]
           },
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5],medallion_makleou"
+              "^$tchita_uplands,medallion_makleou"
             ]
           },
           {
@@ -7882,7 +7893,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "[$scaled_difficulty|7],deathgaze"
+              "deathgaze"
             ]
           },
           {
@@ -7908,7 +7919,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5],belito"
+              "rainstone,belito"
             ]
           },
           {
@@ -7917,7 +7928,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,$has_n_black_orbs|24,[$scaled_difficulty|6],shadowseer"
+              "$has_n_system_access_keys|2,shadowseer"
             ]
           },
           {
@@ -7926,7 +7937,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,$aero|bhu_aero,[$scaled_difficulty|7],gilgamesh1,gilgamesh2"
+              "$aero|bhu_aero,gilgamesh1,gilgamesh2"
             ]
           },
           {
@@ -7935,7 +7946,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$has_n_system_access_keys|2,[$scaled_difficulty|8],yiazmat"
+              "$has_n_system_access_keys|2,yiazmat"
             ]
           },
           {
@@ -8052,7 +8063,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,[$scaled_difficulty|1],flans"
+              "flans"
             ]
           },
           {
@@ -8070,7 +8081,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$earth_tyrant,[$scaled_difficulty|4],earth_tyrant"
+              "earth_tyrant"
             ]
           },
           {
@@ -8705,6 +8716,16 @@
               "[$scaled_difficulty|3]"
             ],
             "hosted_item": "ring_wyrm"
+          },
+          {
+            "name": "Defeat Earth Tyrant",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [
+              "^$earth_tyrant,[$scaled_difficulty|4]"
+            ],
+            "hosted_item": "earth_tyrant"
           },
           {
             "name": "Kaiser Wolf - Fanged Trophy",
@@ -12759,6 +12780,13 @@
           "^$tchita_uplands"
         ],
         "sections": [
+          {
+            "name": "Start Medallion Questline",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ],
+            "hosted_item": "medallion_makleou"
+          },
           {
             "name": "Greencrag Treasure 1",
             "visibility_rules": [

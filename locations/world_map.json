@@ -44,6 +44,26 @@
       {
         "name": "Defeat Elder Wyrm",
         "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
+      },
+      {
+        "name": "Defeat Flans",
+        "ref": "Main/Garamsythe Waterway/Defeat Flans"
+      },
+      {
+        "name": "Burrough Tube Fuse",
+        "ref": "Main/Barheim Passage Story/Burrough Tube Fuse"
+      },
+      {
+        "name": "Defeat Mimic Queen",
+        "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
+      },
+      {
+        "name": "Defeat Earth Tyrant",
+        "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
+      },
+      {
+        "name": "Start Medallion Questline",
+        "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
       }
     ]
   },
@@ -1119,7 +1139,7 @@
     "sections": [
       {
         "name": "Burrough Tube Fuse",
-        "ref": "Main/Barheim Passage/Burrough Tube Fuse"
+        "ref": "Main/Barheim Passage Story/Burrough Tube Fuse"
       },
       {
         "name": "Defeat Zalera",
