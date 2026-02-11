@@ -3,7 +3,7 @@
     "name": "Ozmone Plain",
     "children": [
       {
-        "name": "Chests",
+        "name": "Unmapped Chests",
         "map_locations": [
           {
             "map": "ozmone_plain",
@@ -45,10 +45,6 @@
             "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 8"
           },
           {
-            "name": "Field of Fallen Wings Treasure 9",
-            "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 9"
-          },
-          {
             "name": "The Switchback Treasure 1",
             "ref": "Main/Ozmone Plain/The Switchback Treasure 1"
           },
@@ -79,14 +75,6 @@
           {
             "name": "The Switchback Treasure 8",
             "ref": "Main/Ozmone Plain/The Switchback Treasure 8"
-          },
-          {
-            "name": "Haulo Green Treasure 1",
-            "ref": "Main/Ozmone Plain/Haulo Green Treasure 1"
-          },
-          {
-            "name": "Haulo Green Treasure 2",
-            "ref": "Main/Ozmone Plain/Haulo Green Treasure 2"
           },
           {
             "name": "Haulo Green Treasure 3",
@@ -243,6 +231,42 @@
           {
             "name": "Killbug - Metallic Trophy",
             "ref": "Main/Ozmone Plain/Killbug - Metallic Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 9",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 537,
+            "y": 445
+          }
+        ],
+        "sections": [
+          {
+            "name": "Field of Fallen Wings Treasure 9",
+            "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 9"
+          }
+        ]
+      },
+      {
+        "name": "Haulo Green Treasures 1 and 2",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 887,
+            "y": 920
+          }
+        ],
+        "sections": [
+          {
+            "name": "Haulo Green Treasure 1",
+            "ref": "Main/Ozmone Plain/Haulo Green Treasure 1"
+          },
+          {
+            "name": "Haulo Green Treasure 2",
+            "ref": "Main/Ozmone Plain/Haulo Green Treasure 2"
           }
         ]
       }

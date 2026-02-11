@@ -13700,6 +13700,16 @@
             "hosted_item": "mindflayer"
           },
           {
+            "name": "Defeat Tiamat",
+            "visibility_rules": [
+              "place_clan_rank"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ],
+            "hosted_item": "tiamat"
+          },
+          {
             "name": "Melt - Slimy Trophy",
             "visibility_rules": [
               "trophies"
