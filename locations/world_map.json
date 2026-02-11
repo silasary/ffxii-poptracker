@@ -68,6 +68,54 @@
       {
         "name": "Defeat Tiamat",
         "ref": "Main/Henne Mines/Defeat Tiamat"
+      },
+      {
+        "name": "Defeat Vinuskar",
+        "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
+      },
+      {
+        "name": "Defeat Mandragora",
+        "ref": "Main/Tchita Uplands/Defeat Mandragora"
+      },
+      {
+        "name": "Defeat Ahriman",
+        "ref": "Main/Tchita Uplands/Defeat Ahriman"
+      },
+      {
+        "name": "Defeat Daedulus",
+        "ref": "Main/Giruvegan/Defeat Daedulus"
+      },
+      {
+        "name": "Defeat Tyrant",
+        "ref": "Main/Giruvegan/Defeat Tyrant"
+      },
+      {
+        "name": "Defeat Omega Mark XII",
+        "ref": "Main/Great Crystal/Defeat Omega Mark XII"
+      },
+      {
+        "name": "Defeat Hydro",
+        "ref": "Main/Pharos of Ridorana/Defeat Hydro"
+      },
+      {
+        "name": "Defeat Humbaba Mistant",
+        "ref": "Main/Necrohol of Nabudis/Defeat Humbaba Mistant"
+      },
+      {
+        "name": "Defeat Fury",
+        "ref": "Main/Necrohol of Nabudis/Defeat Fury"
+      },
+      {
+        "name": "Defeat King Bomb",
+        "ref": "Main/Salikawood/Defeat King Bomb"
+      },
+      {
+        "name": "Defeat Rafflesia",
+        "ref": "Main/Feywood/Defeat Rafflesia"
+      },
+      {
+        "name": "Defeat Hell Wyrm",
+        "ref": "Main/Sochen Cave Palace Middle/Defeat Hell Wyrm"
       }
     ]
   },

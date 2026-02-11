@@ -3124,6 +3124,16 @@
             ]
           },
           {
+            "name": "Defeat Vinuskar",
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ],
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "vinuskar"
+          },
+          {
             "name": "Sword of Kings",
             "access_rules": [
               "dawn_shard,[$scaled_difficulty|2]"
@@ -4183,6 +4193,26 @@
             ]
           },
           {
+            "name": "Defeat Mandragora",
+            "access_rules": [
+              "$sochen_cave_palace,[$scaled_difficulty|3]"
+            ],
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "mandragora"
+          },
+          {
+            "name": "Defeat Ahriman",
+            "access_rules": [
+              "$sochen_cave_palace,[$scaled_difficulty|3]"
+            ],
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "ahriman"
+          },
+          {
             "name": "Defeat Lindwyrm",
             "visibility_rules": [
               "place_clan_rank",
@@ -4465,6 +4495,20 @@
         ],
         "sections": [
           {
+            "name": "Defeat Daedulus",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "daedulus"
+          },
+          {
+            "name": "Defeat Tyrant",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "tyrant"
+          },
+          {
             "name": "The Trimahla Water-Steps Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - The Trimahla Water-Steps Treasure 1"
@@ -4624,6 +4668,13 @@
             "access_rules": [
               "[$scaled_difficulty|6]"
             ]
+          },
+          {
+            "name": "Defeat Omega Mark XII",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "omega_mark_xii"
           },
           {
             "name": "Kabonii Jilaam Pratii'vaa Treasure 1",
@@ -4933,6 +4984,13 @@
           "$has_n_system_access_keys|2"
         ],
         "sections": [
+          {
+            "name": "Defeat Hydro",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "hydro"
+          },
           {
             "name": "They Who Thirst Not Treasure 1",
             "visibility_rules": [
@@ -8132,7 +8190,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,dawn_shard,[$scaled_difficulty|2],vinuskar"
+              "^$paramina_rift,vinuskar"
             ]
           },
           {
@@ -8150,7 +8208,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|4],mandragora"
+              "[$scaled_difficulty|4],mandragora"
             ]
           },
           {
@@ -8159,7 +8217,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|5],ahriman"
+              "[$scaled_difficulty|5],ahriman"
             ]
           },
           {
@@ -8168,7 +8226,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "ageworn_key,$sochen_cave_palace,[$scaled_difficulty|7],hell_wyrm"
+              "$sochen_cave_palace,[$scaled_difficulty|7],hell_wyrm"
             ]
           },
           {
@@ -8213,7 +8271,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_bravery,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7],humbaba_mistant"
+              "^$tchita_uplands,humbaba_mistant"
             ]
           },
           {
@@ -8222,7 +8280,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "med_love,med_lusterless,^$tchita_uplands,[$scaled_difficulty|7],fury"
+              "^$tchita_uplands,fury"
             ]
           },
           {
@@ -13227,6 +13285,26 @@
             ]
           },
           {
+            "name": "Defeat Humbaba Mistant",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [
+              "med_bravery,med_lusterless,[$scaled_difficulty|7]"
+            ],
+            "hosted_item": "humbaba_mistant"
+          },
+          {
+            "name": "Defeat Fury",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [
+              "med_love,med_lusterless,[$scaled_difficulty|7]"
+            ],
+            "hosted_item": "fury"
+          },
+          {
             "name": "Defeat Goliath",
             "visibility_rules": [
               "place_clan_rank",
@@ -15411,6 +15489,14 @@
             "hosted_item": "carrot"
           },
           {
+            "name": "Defeat King Bomb",
+            "access_rules": [],
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "king_bomb"
+          },
+          {
             "name": "The Omen-Spur Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Salikawood - The Omen-Spur Treasure 1"
@@ -15889,6 +15975,14 @@
               "clan_primer,[$scaled_difficulty|7]"
             ],
             "hosted_item": "behemoth_king"
+          },
+          {
+            "name": "Defeat Rafflesia",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "access_rules": [],
+            "hosted_item": "rafflesia"
           },
           {
             "name": "Dreadguard - Feathered Trophy",
@@ -16630,6 +16724,16 @@
               "[$scaled_difficulty|4]"
             ],
             "hosted_item": "darksteel"
+          },
+          {
+            "name": "Defeat Hell Wyrm",
+            "access_rules": [
+              "ageworn_key,[$scaled_difficulty|8]"
+            ],
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
+            "hosted_item": "hell_wyrm"
           },
           {
             "name": "Wendice - Frigid Trophy",
