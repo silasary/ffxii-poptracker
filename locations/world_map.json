@@ -4,47 +4,11 @@
     "map_locations": [
       {
         "map": "world_map",
-        "x": 0,
-        "y": 0
+        "x": 24,
+        "y": 24
       }
     ],
     "sections": [
-      {
-        "name": "Skyreach Ridge Treasure 1",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 2",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 3",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 4",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
-      },
-      {
-        "name": "Defeat Elder Wyrm",
-        "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
-      },
-      {
-        "name": "Defeat Flans",
-        "ref": "Main/Garamsythe Waterway/Defeat Flans"
-      },
-      {
-        "name": "Burrough Tube Fuse",
-        "ref": "Main/Barheim Passage Story/Burrough Tube Fuse"
-      },
-      {
-        "name": "Defeat Mimic Queen",
-        "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
-      },
-      {
-        "name": "Defeat Earth Tyrant",
-        "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
-      },
       {
         "name": "Start Medallion Questline",
         "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
@@ -1192,6 +1156,10 @@
       {
         "name": "Burrough Tube Fuse",
         "ref": "Main/Barheim Passage Story/Burrough Tube Fuse"
+      },
+      {
+        "name": "Defeat Mimic Queen",
+        "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
       },
       {
         "name": "Defeat Zalera",
@@ -3555,19 +3523,19 @@
       },
       {
         "name": "Skyreach Ridge Treasure 1",
-        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 1"
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
       },
       {
         "name": "Skyreach Ridge Treasure 2",
-        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 2"
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
       },
       {
         "name": "Skyreach Ridge Treasure 3",
-        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 3"
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
       },
       {
         "name": "Skyreach Ridge Treasure 4",
-        "ref": "Main/Mosphoran Highwaste/Skyreach Ridge Treasure 4"
+        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
       },
       {
         "name": "Trail of Sky-flung Stone Treasure 1",
@@ -4244,8 +4212,8 @@
         "ref": "Main/Dalmasca Westersand/Defeat Ring Wyrm"
       },
       {
-        "name": "Clan Boss: Earth Tyrant",
-        "ref": "Main/Clan Hall/Clan Boss: Earth Tyrant"
+        "name": "Defeat Earth Tyrant",
+        "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
       },
       {
         "name": "Kaiser Wolf - Fanged Trophy",
@@ -4452,6 +4420,10 @@
       {
         "name": "Defeat Firemane",
         "ref": "Main/Garamsythe Waterway/Defeat Firemane"
+      },
+      {
+        "name": "Defeat Flans",
+        "ref": "Main/Garamsythe Waterway/Defeat Flans"
       }
     ]
   },
@@ -4760,6 +4732,10 @@
       {
         "name": "Biding Mantis - Scythe Trophy",
         "ref": "Main/Golmore Jungle S/Biding Mantis - Scythe Trophy"
+      },
+      {
+        "name": "Defeat Elder Wyrm",
+        "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
       }
     ]
   },
