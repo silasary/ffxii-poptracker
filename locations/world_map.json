@@ -10,10 +10,6 @@
     ],
     "sections": [
       {
-        "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
-        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Roh'kenmou"
-      },
-      {
         "name": "Skyreach Ridge Treasure 1",
         "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
       },
@@ -629,6 +625,10 @@
       {
         "name": "Earth Tyrant Quest: Speak to Northon",
         "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
+        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Roh'kenmou"
       },
       {
         "name": "North Sprawl Treasure 1",

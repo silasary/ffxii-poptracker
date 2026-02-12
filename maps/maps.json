@@ -8,6 +8,7 @@
   { "name": "cerobi_steppe", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/cerobi_steppe.png" },
   { "name": "dalmasca_estersand", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_estersand.png" },
   { "name": "dalmasca_estersand_north", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_estersand_north.png" },
+  { "name": "dalmasca_estersand_middle", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_estersand_middle.png" },
   { "name": "dalmasca_estersand_south", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_estersand_south.png" },
   { "name": "dalmasca_westersand", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/dalmasca_westersand.png" },
   { "name": "draklor_laboratory", "location_size": 24, "location_border_thickness": 4, "img": "images/maps/draklor_laboratory.png" },

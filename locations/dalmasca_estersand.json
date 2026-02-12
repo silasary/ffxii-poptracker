@@ -189,6 +189,11 @@
             "map": "dalmasca_estersand",
             "x": 424,
             "y": 740
+          },
+          {
+            "map": "dalmasca_estersand_middle",
+            "x": 315,
+            "y": 97
           }
         ],
         "sections": [

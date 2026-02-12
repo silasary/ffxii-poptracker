@@ -91,6 +91,15 @@
                                 }
                               },
                               {
+                                "title": "Middle",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "dalmasca_estersand_middle"
+                                  ]
+                                }
+                              },
+                              {
                                 "title": "North",
                                 "content": {
                                   "type": "map",
