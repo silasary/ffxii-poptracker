@@ -7307,42 +7307,6 @@
             ]
           },
           {
-            "name": "Skyreach Ridge Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 1"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Skyreach Ridge Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 2"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Skyreach Ridge Treasure 3",
-            "visibility_rules": [
-              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 3"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Skyreach Ridge Treasure 4",
-            "visibility_rules": [
-              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 4"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Trail of Sky-flung Stone Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Mosphoran Highwaste - Trail of Sky-flung Stone Treasure 1"
@@ -7569,6 +7533,7 @@
           {
             "name": "Skyreach Ridge Treasure 1",
             "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 1",
               "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 1"
             ],
             "access_rules": [
@@ -7578,6 +7543,7 @@
           {
             "name": "Skyreach Ridge Treasure 2",
             "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 2",
               "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 2"
             ],
             "access_rules": [
@@ -7587,6 +7553,7 @@
           {
             "name": "Skyreach Ridge Treasure 3",
             "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 3",
               "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 3"
             ],
             "access_rules": [
@@ -7596,6 +7563,7 @@
           {
             "name": "Skyreach Ridge Treasure 4",
             "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Skyreach Ridge Treasure 4",
               "$chest_visibility|Mosphoran Highwaste Upper - Skyreach Ridge Treasure 4"
             ],
             "access_rules": [
@@ -7724,7 +7692,7 @@
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "^$tchita_uplands,medallion_makleou"
+              "^$tchita_uplands,medallion_started"
             ]
           },
           {
