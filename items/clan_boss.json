@@ -40,5 +40,11 @@
       "type": "toggle",
       "img": "images/items/hunt.png",
       "codes": "elder_wyrm"
+    },
+    {
+      "name": "Tiamat",
+      "type": "toggle",
+      "img": "images/items/hunt.png",
+      "codes": "tiamat"
     }
 ]

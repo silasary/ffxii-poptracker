@@ -10,14 +10,6 @@
     ],
     "sections": [
       {
-        "name": "Start Medallion Questline",
-        "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
-      },
-      {
-        "name": "Defeat Tiamat",
-        "ref": "Main/Henne Mines/Defeat Tiamat"
-      },
-      {
         "name": "Defeat Vinuskar",
         "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
       },
@@ -6256,6 +6248,10 @@
         "ref": "Main/Nabreus Deadlands/Defeat Roblon"
       },
       {
+        "name": "Start Medallion Questline",
+        "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
+      },
+      {
         "name": "Nabreus Medallion",
         "ref": "Main/Nabreus Deadlands/Nabreus Medallion"
       },
@@ -6493,6 +6489,26 @@
     ],
     "sections": [
       {
+        "name": "Defeat Tiamat",
+        "ref": "Main/Henne Mines/Defeat Tiamat"
+      },
+      {
+        "name": "Defeat Ixtab",
+        "ref": "Main/Henne Mines/Defeat Ixtab"
+      },
+      {
+        "name": "Defeat Mindflayer",
+        "ref": "Main/Henne Mines/Defeat Mindflayer"
+      },
+      {
+        "name": "Defeat Zodiark",
+        "ref": "Main/Henne Mines Deep/Defeat Zodiark"
+      },
+      {
+        "name": "Melt - Slimy Trophy",
+        "ref": "Main/Henne Mines/Melt - Slimy Trophy"
+      },
+      {
         "name": "Phase 1 Dig Treasure 1",
         "ref": "Main/Henne Mines/Phase 1 Dig Treasure 1"
       },
@@ -6559,22 +6575,6 @@
       {
         "name": "Crossover A Treasure 4",
         "ref": "Main/Henne Mines/Crossover A Treasure 4"
-      },
-      {
-        "name": "Defeat Ixtab",
-        "ref": "Main/Henne Mines/Defeat Ixtab"
-      },
-      {
-        "name": "Defeat Mindflayer",
-        "ref": "Main/Henne Mines/Defeat Mindflayer"
-      },
-      {
-        "name": "Defeat Zodiark",
-        "ref": "Main/Henne Mines Deep/Defeat Zodiark"
-      },
-      {
-        "name": "Melt - Slimy Trophy",
-        "ref": "Main/Henne Mines/Melt - Slimy Trophy"
       },
       {
         "name": "Phase 2 Dig Treasure 1",
