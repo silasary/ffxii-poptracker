@@ -322,6 +322,10 @@
           {
             "name": "Defeat Wild Malboro",
             "ref": "Main/Feywood/Defeat Wild Malboro"
+          },
+          {
+            "name": "Defeat Rafflesia",
+            "ref": "Main/Feywood/Defeat Rafflesia"
           }
         ]
       },

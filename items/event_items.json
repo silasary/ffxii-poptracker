@@ -76,5 +76,11 @@
     "type": "toggle",
     "codes": "earth_tyrant_complete",
     "img": "images/items/target.png"
+  },
+  {
+    "name": "Defeat Judge Ghis",
+    "type": "toggle",
+    "codes": "judge_ghis",
+    "img": "images/items/hunt.png"
   }
 ]

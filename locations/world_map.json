@@ -10,10 +10,6 @@
     ],
     "sections": [
       {
-        "name": "Defeat Vinuskar",
-        "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
-      },
-      {
         "name": "Defeat Mandragora",
         "ref": "Main/Tchita Uplands/Defeat Mandragora"
       },
@@ -34,24 +30,12 @@
         "ref": "Main/Great Crystal/Defeat Omega Mark XII"
       },
       {
-        "name": "Defeat Hydro",
-        "ref": "Main/Pharos of Ridorana/Defeat Hydro"
-      },
-      {
         "name": "Defeat Humbaba Mistant",
         "ref": "Main/Necrohol of Nabudis/Defeat Humbaba Mistant"
       },
       {
         "name": "Defeat Fury",
         "ref": "Main/Necrohol of Nabudis/Defeat Fury"
-      },
-      {
-        "name": "Defeat King Bomb",
-        "ref": "Main/Salikawood/Defeat King Bomb"
-      },
-      {
-        "name": "Defeat Rafflesia",
-        "ref": "Main/Feywood/Defeat Rafflesia"
       },
       {
         "name": "Defeat Hell Wyrm",
@@ -1681,6 +1665,10 @@
         "ref": "Main/Stilshrine of Miriam/Sword of Kings"
       },
       {
+        "name": "Defeat Vinuskar",
+        "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
+      },
+      {
         "name": "Defeat Zeromus",
         "ref": "Main/Stilshrine of Miriam/Defeat Zeromus"
       },
@@ -2442,6 +2430,30 @@
     ],
     "sections": [
       {
+        "name": "Defeat Hydro",
+        "ref": "Main/Pharos of Ridorana/Defeat Hydro"
+      },
+      {
+        "name": "Black Orbs 1-3",
+        "ref": "Main/Pharos of Ridorana/Black Orbs 1-3"
+      },
+      {
+        "name": "Defeat Hashmal",
+        "ref": "Main/Pharos of Ridorana/Defeat Hashmal"
+      },
+      {
+        "name": "Defeat Famfrit and Cid 2",
+        "ref": "Main/Pharos of Ridorana/Defeat Famfrit and Cid 2"
+      },
+      {
+        "name": "Defeat Pylraster",
+        "ref": "Main/Pharos of Ridorana/Defeat Pylraster"
+      },
+      {
+        "name": "Avenger - Vile Trophy",
+        "ref": "Main/Pharos of Ridorana/Avenger - Vile Trophy"
+      },
+      {
         "name": "They Who Thirst Not Treasure 1",
         "ref": "Main/Pharos of Ridorana/They Who Thirst Not Treasure 1"
       },
@@ -2764,26 +2776,6 @@
       {
         "name": "Empyrean Ravel Treasure 4",
         "ref": "Main/Pharos of Ridorana/Empyrean Ravel Treasure 4"
-      },
-      {
-        "name": "Black Orbs 1-3",
-        "ref": "Main/Pharos of Ridorana/Black Orbs 1-3"
-      },
-      {
-        "name": "Defeat Hashmal",
-        "ref": "Main/Pharos of Ridorana/Defeat Hashmal"
-      },
-      {
-        "name": "Defeat Famfrit and Cid 2",
-        "ref": "Main/Pharos of Ridorana/Defeat Famfrit and Cid 2"
-      },
-      {
-        "name": "Defeat Pylraster",
-        "ref": "Main/Pharos of Ridorana/Defeat Pylraster"
-      },
-      {
-        "name": "Avenger - Vile Trophy",
-        "ref": "Main/Pharos of Ridorana/Avenger - Vile Trophy"
       }
     ]
   },
@@ -7269,6 +7261,10 @@
       {
         "name": "Defeat Braegh",
         "ref": "Main/Salikawood/Defeat Braegh"
+      },
+      {
+        "name": "Defeat King Bomb",
+        "ref": "Main/Salikawood/Defeat King Bomb"
       },
       {
         "name": "Rageclaw - Sickle Trophy",

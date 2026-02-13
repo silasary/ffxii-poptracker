@@ -156,9 +156,15 @@ KILL_FLAGS = {
     [0x0A08] = "tiamat",
     [0x0A09] = "daedalus",
     [0x0A0A] = "tyrant",
+    [0x0A0B] = "vinuskar",
+    [0x0A0C] = "ahriman",
+    [0x0A0D] = "rafflesia",
+
+    [0x0A11] = "elder_wyrm",
 
     [0x0A14] = "demon_wall_1",
     [0x0A15] = "demon_wall_2",
+    [0x0A16] = "king_bomb",
 
     [0x0A28] = "judge_ghis"
 }

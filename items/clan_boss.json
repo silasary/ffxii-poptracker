@@ -1,50 +1,86 @@
 [
+  {
+    "name": "Flans",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "flans"
+  },
+  {
+    "name": "Firemane",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "firemane"
+  },
+  {
+    "name": "Earth Tyrant",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "earth_tyrant"
+  },
+  {
+    "name": "Mimic Queen",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "mimic_queen"
+  },
+  {
+    "name": "Demon Wall 1",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "demon_wall_1"
+  },
+  {
+    "name": "Demon Wall 2",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "demon_wall_2"
+  },
+  {
+    "name": "Elder Wyrm",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "elder_wyrm"
+  },
+  {
+    "name": "Tiamat",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "tiamat"
+  },
+  {
+    "name": "Vinuskar",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "vinuskar"
+  },
+  {
+    "name": "King Bomb",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "king_bomb"
+  },
+  {
+    "name": "Rafflesia",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "rafflesia"
+  },
+  {
+    "name": "Daedulus",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "daedulus"
+  },
     {
-        "name": "Flans",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "flans"
-    },
-    {
-      "name": "Firemane",
-      "type": "toggle",
-      "img": "images/items/hunt.png",
-      "codes": "firemane"
-    },
-    {
-        "name": "Earth Tyrant",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "earth_tyrant"
-    },
-    {
-      "name": "Mimic Queen",
-      "type": "toggle",
-      "img": "images/items/hunt.png",
-      "codes": "mimic_queen"
-    },
-    {
-      "name": "Demon Wall 1",
-      "type": "toggle",
-      "img": "images/items/hunt.png",
-      "codes": "demon_wall_1"
-    },
-    {
-      "name": "Demon Wall 2",
-      "type": "toggle",
-      "img": "images/items/hunt.png",
-      "codes": "demon_wall_2"
-    },
-    {
-      "name": "Elder Wyrm",
-      "type": "toggle",
-      "img": "images/items/hunt.png",
-      "codes": "elder_wyrm"
-    },
-    {
-      "name": "Tiamat",
-      "type": "toggle",
-      "img": "images/items/hunt.png",
-      "codes": "tiamat"
-    }
+    "name": "Tyrant",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "tyrant"
+  },
+  {
+    "name": "Hydro",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "hydro"
+  }
 ]
