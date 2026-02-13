@@ -87,8 +87,8 @@
         "map_locations": [
           {
             "map": "henne_mines",
-            "x": 637,
-            "y": 621
+            "x": 755,
+            "y": 665
           }
         ],
         "sections": [
@@ -104,7 +104,7 @@
           {
             "map": "henne_mines",
             "x": 335,
-            "y": 1005
+            "y": 1070
           }
         ],
         "sections": [
