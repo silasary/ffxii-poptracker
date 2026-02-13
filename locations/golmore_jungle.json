@@ -113,6 +113,22 @@
             "ref": "Main/Golmore Jungle S/Biding Mantis - Scythe Trophy"
           }
         ]
+      },
+      {
+        "name": "Defeat Elder Wyrm",
+        "map_locations": [
+          {
+            "map": "golmore_jungle",
+            "x": 1185,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Elder Wyrm",
+            "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
+          }
+        ]
       }
     ]
   }

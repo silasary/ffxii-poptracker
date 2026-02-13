@@ -261,6 +261,22 @@
             "ref": "Main/Salikawood/Defeat Carrot"
           }
         ]
+      },
+      {
+        "name": "Defeat King Bomb",
+        "map_locations": [
+          {
+            "map": "salikawood",
+            "x": 765,
+            "y": 620
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat King Bomb",
+            "ref": "Main/Salikawood/Defeat King Bomb"
+          }
+        ]
       }
     ]
   }

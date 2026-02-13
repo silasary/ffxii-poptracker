@@ -1535,6 +1535,11 @@
         "map": "world_map",
         "x": 980,
         "y": 970
+      },
+      {
+        "map": "golmore_jungle",
+        "x": 777,
+        "y": 445
       }
     ],
     "sections": [

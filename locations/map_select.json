@@ -10,22 +10,6 @@
     ],
     "sections": [
       {
-        "name": "Skyreach Ridge Treasure 1",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 1"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 2",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 2"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 3",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 3"
-      },
-      {
-        "name": "Skyreach Ridge Treasure 4",
-        "ref": "Main/Mosphoran Highwaste Upper/Skyreach Ridge Treasure 4"
-      },
-      {
         "name": "Air Deck Treasure 1",
         "ref": "Main/Skyferry/Air Deck Treasure 1"
       },
@@ -198,10 +182,6 @@
         "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
       },
       {
-        "name": "Defeat Elder Wyrm",
-        "ref": "Main/Golmore Jungle E/Defeat Elder Wyrm"
-      },
-      {
         "name": "Defeat Flans",
         "ref": "Main/Garamsythe Waterway/Defeat Flans"
       },
@@ -212,10 +192,6 @@
       {
         "name": "Defeat Earth Tyrant",
         "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
-      },
-      {
-        "name": "Start Medallion Questline",
-        "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
       },
       {
         "name": "Defeat Tiamat",
@@ -256,10 +232,6 @@
       {
         "name": "Defeat Fury",
         "ref": "Main/Necrohol of Nabudis/Defeat Fury"
-      },
-      {
-        "name": "Defeat King Bomb",
-        "ref": "Main/Salikawood/Defeat King Bomb"
       },
       {
         "name": "Defeat Rafflesia",

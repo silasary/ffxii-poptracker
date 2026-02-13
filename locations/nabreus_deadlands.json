@@ -3,7 +3,7 @@
     "name": "Nabreus Deadlands",
     "children": [
       {
-        "name": "Chests",
+        "name": "Unmapped Chests",
         "map_locations": [
           {
             "map": "nabreus_deadlands",
@@ -187,6 +187,22 @@
           {
             "name": "Field of the Fallen Lord Treasure 7",
             "ref": "Main/Nabreus Deadlands/Field of the Fallen Lord Treasure 7"
+          }
+        ]
+      },
+      {
+        "name": "Ma'kleou",
+        "map_locations": [
+          {
+            "map": "nabreus_deadlands",
+            "x": 335,
+            "y": 1080
+          }
+        ],
+        "sections": [
+          {
+            "name": "Start Medallion Questline",
+            "ref": "Main/Nabreus Deadlands/Start Medallion Questline"
           }
         ]
       },
