@@ -38,10 +38,6 @@
             "ref": "Main/Barheim Passage/The Lightworks Treasure 1"
           },
           {
-            "name": "The Lightworks Treasure 2",
-            "ref": "Main/Barheim Passage/The Lightworks Treasure 2"
-          },
-          {
             "name": "The Lightworks Treasure 3",
             "ref": "Main/Barheim Passage/The Lightworks Treasure 3"
           },
@@ -120,10 +116,6 @@
           {
             "name": "Op Sector 29 Treasure 1",
             "ref": "Main/Barheim Passage/Op Sector 29 Treasure 1"
-          },
-          {
-            "name": "Op Sector 29 Treasure 2",
-            "ref": "Main/Barheim Passage/Op Sector 29 Treasure 2"
           },
           {
             "name": "Op Sector 29 Treasure 3",
@@ -435,6 +427,28 @@
           {
             "name": "Clan Boss: Mimic Queen",
             "ref": "Main/Clan Hall/Clan Boss: Mimic Queen"
+          }
+        ]
+      }
+      ,
+      {
+        "name": "The Lightworks Treasure 2",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 1238,
+            "y": 88
+          },
+          {
+            "map": "barheim_passage_top",
+            "x": 965,
+            "y": 155
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Lightworks Treasure 2",
+            "ref": "Main/Barheim Passage/The Lightworks Treasure 2"
           }
         ]
       }
