@@ -15,7 +15,19 @@
           {
             "name": "The Elderknoll Treasure 1",
             "ref": "Main/Jahara/The Elderknoll Treasure 1"
-          },
+          }
+        ]
+      },
+      {
+        "name": "The Elderknoll Treasure 2",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 670,
+            "y": 950
+          }
+        ],
+        "sections": [
           {
             "name": "The Elderknoll Treasure 2",
             "ref": "Main/Jahara/The Elderknoll Treasure 2"

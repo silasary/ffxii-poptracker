@@ -85,24 +85,12 @@
             "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 5"
           },
           {
-            "name": "North Spur Sluiceway Treasure 6",
-            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 6"
-          },
-          {
-            "name": "North Spur Sluiceway Treasure 7",
-            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 7"
-          },
-          {
             "name": "North Spur Sluiceway Treasure 8",
             "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 8"
           },
           {
             "name": "Northern Sluiceway Treasure 1",
             "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 1"
-          },
-          {
-            "name": "Northern Sluiceway Treasure 2",
-            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 2"
           },
           {
             "name": "Northern Sluiceway Treasure 3",
@@ -275,6 +263,54 @@
           {
             "name": "Gavial - Fur-scaled Trophy",
             "ref": "Main/Garamsythe Waterway/Gavial - Fur-scaled Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Northern Sluiceway Treasure 2",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 405,
+            "y": 413
+          }
+        ],
+        "sections": [
+                    {
+            "name": "Northern Sluiceway Treasure 2",
+            "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Northern Spur Sluiceway Treasure 6",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 568,
+            "y": 383
+          }
+        ],
+        "sections": [
+          {
+            "name": "Northern Spur Sluiceway Treasure 6",
+            "ref": "Main/Garamsythe Waterway/Northern Spur Sluiceway Treasure 6"
+          }
+        ]
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 7",
+        "map_locations": [
+          {
+            "map": "garamsythe_waterway",
+            "x": 485,
+            "y": 323
+          }
+        ],
+        "sections": [
+          {
+            "name": "North Spur Sluiceway Treasure 7",
+            "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 7"
           }
         ]
       }

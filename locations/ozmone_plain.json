@@ -93,14 +93,6 @@
             "ref": "Main/Ozmone Plain/Haulo Green Treasure 6"
           },
           {
-            "name": "Haulo Green Treasure 7",
-            "ref": "Main/Ozmone Plain/Haulo Green Treasure 7"
-          },
-          {
-            "name": "Haulo Green Treasure 8",
-            "ref": "Main/Ozmone Plain/Haulo Green Treasure 8"
-          },
-          {
             "name": "Haulo Green Treasure 9",
             "ref": "Main/Ozmone Plain/Haulo Green Treasure 9"
           },
@@ -108,10 +100,7 @@
             "name": "Haulo Green Treasure 10",
             "ref": "Main/Ozmone Plain/Haulo Green Treasure 10"
           },
-          {
-            "name": "Haulo Green Treasure 11",
-            "ref": "Main/Ozmone Plain/Haulo Green Treasure 11"
-          },
+
           {
             "name": "Dagan Flats Treasure 1",
             "ref": "Main/Ozmone Plain/Dagan Flats Treasure 1"
@@ -267,6 +256,54 @@
           {
             "name": "Haulo Green Treasure 2",
             "ref": "Main/Ozmone Plain/Haulo Green Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Haulo Green Treasures 7",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 630,
+            "y": 1045
+          }
+        ],
+        "sections": [
+          {
+            "name": "Haulo Green Treasure 7",
+            "ref": "Main/Ozmone Plain/Haulo Green Treasure 7"
+          }
+        ]
+      },
+      {
+        "name": "Haulo Green Treasures 8",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 670,
+            "y": 950
+          }
+        ],
+        "sections": [
+          {
+            "name": "Haulo Green Treasure 8",
+            "ref": "Main/Ozmone Plain/Haulo Green Treasure 8"
+          }
+        ]
+      },
+      {
+        "name": "Haulo Green Treasures 11",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 765,
+            "y": 1015
+          }
+        ],
+        "sections": [
+          {
+            "name": "Haulo Green Treasure 11",
+            "ref": "Main/Ozmone Plain/Haulo Green Treasure 11"
           }
         ]
       }
