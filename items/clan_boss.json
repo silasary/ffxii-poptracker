@@ -60,6 +60,24 @@
     "codes": "king_bomb"
   },
   {
+    "name": "Mandragora",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "mandragora"
+  },
+  {
+    "name": "Ahriman",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "ahriman"
+  },
+  {
+    "name": "Hell Wyrm",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "hell_wyrm"
+  },
+  {
     "name": "Rafflesia",
     "type": "toggle",
     "img": "images/items/hunt.png",
@@ -71,7 +89,7 @@
     "img": "images/items/hunt.png",
     "codes": "daedulus"
   },
-    {
+  {
     "name": "Tyrant",
     "type": "toggle",
     "img": "images/items/hunt.png",
@@ -82,5 +100,23 @@
     "type": "toggle",
     "img": "images/items/hunt.png",
     "codes": "hydro"
+  },
+  {
+    "name": "Humbaba Mistant",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "humbaba_mistant"
+  },
+  {
+    "name": "Fury",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "fury"
+  },
+  {
+    "name": "Omega Mark XII",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "omega_mark_xii"
   }
 ]
