@@ -8,7 +8,9 @@
         "y": 24
       }
     ],
-    "sections": []
+    "sections": [
+
+    ]
   },
   {
     "name": "Rabanastre",
@@ -2161,6 +2163,10 @@
         "ref": "Main/Archades/Sandalwood Chop"
       },
       {
+        "name": "Moonsilver Medallion Questline: Speak to Ro'kenmu",
+        "ref": "Main/Archades/Moonsilver Medallion Questline: Speak to Ro'kenmu"
+      },
+      {
         "name": "Hunt 20: Darksteel",
         "ref": "Main/Archades/Hunt 20: Darksteel"
       },
@@ -3354,6 +3360,10 @@
     ],
     "sections": [
       {
+        "name": "Defeat Judge Bergan",
+        "ref": "Main/Mt. Bur-Omisace/Defeat Judge Bergan"
+      },
+      {
         "name": "Temple Grounds Treasure 1",
         "ref": "Main/Mt. Bur-Omisace/Temple Grounds Treasure 1"
       },
@@ -3813,6 +3823,34 @@
       {
         "name": "Hunt 26: Deathgaze",
         "ref": "Main/Skyferry/Hunt 26: Deathgaze"
+      },
+{
+        "name": "Deliver Letter on Rabanastre <-> Nalbina",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Nalbina"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Bhujerba",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Bhujerba"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Archades",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Archades"
+      },
+      {
+        "name": "Deliver Letter on Nalbina <-> Archades",
+        "ref": "Main/Skyferry/Deliver Letter on Nalbina <-> Archades"
+      },
+      {
+        "name": "Deliver Letter on Nalbina <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Nalbina <-> Balfonheim"
+      },
+      {
+        "name": "Deliver Letter on Bhujerba <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Bhujerba <-> Balfonheim"
+      },
+      {
+        "name": "Deliver Letter on Archades <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Archades <-> Balfonheim"
       },
       {
         "name": "Ann's Sisters Quest",

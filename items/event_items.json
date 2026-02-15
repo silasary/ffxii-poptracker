@@ -48,6 +48,18 @@
     "img": "images/items/target.png"
   },
   {
+    "name": "Moonsilver Medallion Questline: Speak to Roh'kenmu",
+    "codes": "love_rohkenmu",
+    "type": "toggle",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Moonsilver Medallion Questline: Speak to Otto",
+    "codes": "love_otto",
+    "type": "toggle",
+    "img": "images/items/target.png"
+  },
+  {
     "name": "Earth Tyrant Spoken to Rimzat",
     "type": "toggle",
     "codes": "earth_tyrant_rimzat",
@@ -82,5 +94,53 @@
     "type": "toggle",
     "codes": "judge_ghis",
     "img": "images/items/hunt.png"
+  },
+  {
+    "name": "Defeat Judge Bergan",
+    "type": "toggle",
+    "codes": "judge_bergan",
+    "img": "images/items/hunt.png"
+  },
+  {
+    "name": "Deliver Letter on Rabanastre <-> Nalbina",
+    "type": "toggle",
+    "codes": "letter_rab_nal",
+    "img": "images/items/letter.png"
+  },
+  {
+    "name": "Deliver Letter on Rabanastre <-> Bhujerba",
+    "type": "toggle",
+    "codes": "letter_rab_bhu",
+    "img": "images/items/letter.png"
+  },
+  {
+    "name": "Deliver Letter on Rabanastre <-> Archades",
+    "type": "toggle",
+    "codes": "letter_rab_arc",
+    "img": "images/items/letter.png"
+  },
+  {
+    "name": "Deliver Letter on Nalbina <-> Archades",
+    "type": "toggle",
+    "codes": "letter_nal_arc",
+    "img": "images/items/letter.png"
+  },
+  {
+    "name": "Deliver Letter on Nalbina <-> Balfonheim",
+    "type": "toggle",
+    "codes": "letter_nal_bal",
+    "img": "images/items/letter.png"
+  },
+  {
+    "name": "Deliver Letter on Bhujerba <-> Balfonheim",
+    "type": "toggle",
+    "codes": "letter_bhu_bal",
+    "img": "images/items/letter.png"
+  },
+  {
+    "name": "Deliver Letter on Archades <-> Balfonheim",
+    "type": "toggle",
+    "codes": "letter_arc_bal",
+    "img": "images/items/letter.png"
   }
 ]

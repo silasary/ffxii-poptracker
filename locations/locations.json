@@ -4459,6 +4459,13 @@
             ]
           },
           {
+            "name": "Moonsilver Medallion Questline: Speak to Ro'kenmu",
+            "access_rules": [
+              "medallion_started"
+            ],
+            "hosted_item": "love_rohkenmu"
+          },
+          {
             "name": "Hunt 20: Darksteel",
             "visibility_rules": [
               "place_hunts"
@@ -7047,6 +7054,13 @@
         ],
         "sections": [
           {
+            "name": "Defeat Judge Bergan",
+            "access_rules": [
+              "$defeat_bergan"
+            ],
+            "hosted_item": "judge_bergan"
+          },
+          {
             "name": "Temple Grounds Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Mt. Bur-Omisace - Temple Grounds Treasure 1"
@@ -7745,7 +7759,7 @@
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "^$tchita_uplands,medallion_started"
+              "^$tchita_uplands,[$scaled_difficulty|5],love_rohkenmu"
             ]
           },
           {
@@ -7983,6 +7997,55 @@
             "access_rules": [
               "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero,[$scaled_difficulty|7]"
             ]
+          },
+          {
+            "name": "Deliver Letter on Rabanastre <-> Nalbina",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|nal_aero"
+            ],
+            "hosted_item": "letter_rab_nal"
+          },
+          {
+            "name": "Deliver Letter on Rabanastre <-> Bhujerba",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|bhu_aero"
+            ],
+            "hosted_item": "letter_rab_bhu"
+          },
+          {
+            "name": "Deliver Letter on Rabanastre <-> Archades",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|rab_aero,$aeroNoStrahl|arc_aero"
+            ],
+            "hosted_item": "letter_rab_arc"
+          },
+          {
+            "name": "Deliver Letter on Nalbina <-> Archades",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|nal_aero,$aeroNoStrahl|arc_aero"
+            ],
+            "hosted_item": "letter_nal_arc"
+          },
+          {
+            "name": "Deliver Letter on Nalbina <-> Balfonheim",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|nal_aero,$aeroNoStrahl|bal_aero"
+            ],
+            "hosted_item": "letter_nal_bal"
+          },
+          {
+            "name": "Deliver Letter on Bhujerba <-> Balfonheim",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|bhu_aero,$aeroNoStrahl|bal_aero"
+            ],
+            "hosted_item": "letter_bhu_bal"
+          },
+          {
+            "name": "Deliver Letter on Archades <-> Balfonheim",
+            "access_rules": [
+              "anns_letter,$aeroNoStrahl|arc_aero,$aeroNoStrahl|bal_aero"
+            ],
+            "hosted_item": "letter_arc_bal"
           }
         ]
       },

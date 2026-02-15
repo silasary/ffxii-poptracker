@@ -112,6 +112,22 @@
             "ref": "Main/Archades/Hunt Club Owner 30 Trophy Rares Defeated"
           }
         ]
+      },
+      {
+        "name": "Charlotte's Magickery",
+        "map_locations": [
+          {
+            "map": "archades",
+            "x": 923,
+            "y": 393
+          }
+        ],
+        "sections": [
+          {
+            "name": "Moonsilver Medallion Questline: Speak to Ro'kenmu",
+            "ref": "Main/Archades/Moonsilver Medallion Questline: Speak to Ro'kenmu"
+          }
+        ]
       }
     ]
   }

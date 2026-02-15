@@ -9,6 +9,14 @@ QUEST_MAPPING = {
     [57] = {
         [50] = { "medallion_started" },
     },
+    [58] = {
+        [10] = { "bravery_rohkenmou"},
+        [150] = { "bravery_all_fragments"},
+    },
+    [59] = {
+        [10] = { "love_rohkenmu" },
+        [20] = { "love_otto" },
+    },
     [128] = {
         [50] = {"rogue_tomato"},
     },
@@ -166,7 +174,24 @@ KILL_FLAGS = {
     [0x0A15] = "demon_wall_2",
     [0x0A16] = "king_bomb",
 
-    [0x0A28] = "judge_ghis"
+    [0x0A28] = "judge_ghis",
+    [0x0A3C] = "judge_bergan",
+}
+
+bool_flags = {
+    [0x05AF] = "letter_rab_nal",
+    [0x05B0] = "letter_rab_bhu",
+    [0x05B1] = "letter_rab_arc",
+    [0x05B2] = "letter_nal_arc",
+    [0x05B3] = "letter_nal_bal",
+    [0x05B4] = "letter_bhu_bal",
+    [0x05B5] = "letter_arc_bal",
+    [0x0999] = "giza_tree_9",
+    [0x099A] = "giza_tree_A",
+    [0x099B] = "giza_tree_B",
+    [0x099C] = "giza_tree_C",
+    [0x099D] = "giza_tree_D",
+    [0x099E] = "giza_tree_E",
 }
 
 function on_event_updated(offset, value)
@@ -179,6 +204,19 @@ function on_event_updated(offset, value)
                 object.Active = true
             else
                 print(string.format("onEventUpdated: could not find object for kill code %s", code))
+            end
+        end
+        return
+    end
+    code = bool_flags[offset]
+    if code then
+        print(string.format("Bool flag %s updated to %d", code[1], value))
+        if value == 1 then
+            local object = Tracker:FindObjectForCode(code)
+            if object then
+                object.Active = true
+            else
+                print(string.format("onEventUpdated: could not find object for bool code %s", code))
             end
         end
         return
