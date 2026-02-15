@@ -8,36 +8,7 @@
         "y": 24
       }
     ],
-    "sections": [
-      {
-        "name": "Defeat Mandragora",
-        "ref": "Main/Tchita Uplands/Defeat Mandragora"
-      },
-      {
-        "name": "Defeat Ahriman",
-        "ref": "Main/Tchita Uplands/Defeat Ahriman"
-      },
-      {
-        "name": "Defeat Omega Mark XII",
-        "ref": "Main/Great Crystal/Defeat Omega Mark XII"
-      },
-      {
-        "name": "Defeat Humbaba Mistant",
-        "ref": "Main/Necrohol of Nabudis/Defeat Humbaba Mistant"
-      },
-      {
-        "name": "Defeat Fury",
-        "ref": "Main/Necrohol of Nabudis/Defeat Fury"
-      },
-      {
-        "name": "Defeat Hell Wyrm",
-        "ref": "Main/Sochen Cave Palace Middle/Defeat Hell Wyrm"
-      },
-      {
-        "name": "Grimy Fragment Quest: Speak to Filo again",
-        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Filo again"
-      }
-    ]
+    "sections": []
   },
   {
     "name": "Rabanastre",
@@ -2073,6 +2044,10 @@
         "ref": "Main/Tchita Uplands/Soul Ward Key"
       },
       {
+        "name": "Defeat Ahriman",
+        "ref": "Main/Tchita Uplands/Defeat Ahriman"
+      },
+      {
         "name": "Mandragora Reward",
         "ref": "Main/Tchita Uplands/Mandragora Reward"
       },
@@ -2272,6 +2247,10 @@
       {
         "name": "Defeat Ultima",
         "ref": "Main/Great Crystal/Defeat Ultima"
+      },
+      {
+        "name": "Defeat Omega Mark XII",
+        "ref": "Main/Great Crystal/Defeat Omega Mark XII"
       },
       {
         "name": "The Trimahla Water-Steps Treasure 1",
@@ -6305,6 +6284,14 @@
         "ref": "Main/Necrohol of Nabudis/Defeat Deathscythe"
       },
       {
+        "name": "Defeat Humbaba Mistant",
+        "ref": "Main/Necrohol of Nabudis/Defeat Humbaba Mistant"
+      },
+      {
+        "name": "Defeat Fury",
+        "ref": "Main/Necrohol of Nabudis/Defeat Fury"
+      },
+      {
         "name": "Medallion of Might",
         "ref": "Main/Necrohol of Nabudis/Medallion of Might"
       },
@@ -7807,12 +7794,20 @@
     ],
     "sections": [
       {
+        "name": "Defeat Mandragoras",
+        "ref": "Main/Tchita Uplands/Defeat Mandragora"
+      },
+      {
         "name": "Defeat Darksteel",
         "ref": "Main/Sochen Cave Palace Middle/Defeat Darksteel"
       },
       {
         "name": "Defeat Overlord",
         "ref": "Main/Sochen Cave Palace S/Defeat Overlord"
+      },
+      {
+        "name": "Defeat Hell Wyrm",
+        "ref": "Main/Sochen Cave Palace Middle/Defeat Hell Wyrm"
       },
       {
         "name": "Wendice - Frigid Trophy",

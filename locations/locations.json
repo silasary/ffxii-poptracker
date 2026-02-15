@@ -114,7 +114,9 @@
             "access_rules": [
               "^$tchita_uplands,[$scaled_difficulty|1],grimy_filo"
             ],
-            "visibility_rules": ["medallion_started"],
+            "visibility_rules": [
+              "medallion_started"
+            ],
             "hosted_item": "grimy_woman"
           },
           {
@@ -122,7 +124,9 @@
             "access_rules": [
               "^$tchita_uplands,[$scaled_difficulty|1],grimy_woman"
             ],
-            "visibility_rules": ["medallion_started"],
+            "visibility_rules": [
+              "medallion_started"
+            ],
             "hosted_item": "grimy_bangaa"
           },
           {
@@ -130,7 +134,9 @@
             "access_rules": [
               "^$tchita_uplands,[$scaled_difficulty|1],grimy_bangaa"
             ],
-            "visibility_rules": ["medallion_started"],
+            "visibility_rules": [
+              "medallion_started"
+            ],
             "hosted_item": "grimy_imperial"
           },
           {
@@ -1079,7 +1085,9 @@
             "access_rules": [
               "^$tchita_uplands,[$scaled_difficulty|1],medallion_started"
             ],
-            "visibility_rules": ["medallion_started"],
+            "visibility_rules": [
+              "medallion_started"
+            ],
             "hosted_item": "grimy_rohkenmou"
           },
           {
@@ -1087,7 +1095,9 @@
             "access_rules": [
               "^$tchita_uplands,[$scaled_difficulty|1],grimy_rohkenmou"
             ],
-            "visibility_rules": ["medallion_started"],
+            "visibility_rules": [
+              "medallion_started"
+            ],
             "hosted_item": "grimy_filo"
           },
           {
@@ -1095,7 +1105,9 @@
             "access_rules": [
               "^$tchita_uplands,[$scaled_difficulty|1],grimy_imperial"
             ],
-            "visibility_rules": ["medallion_started"],
+            "visibility_rules": [
+              "medallion_started"
+            ],
             "hosted_item": "grimy_filo2"
           },
           {
