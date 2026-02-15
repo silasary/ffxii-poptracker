@@ -18,14 +18,6 @@
         "ref": "Main/Tchita Uplands/Defeat Ahriman"
       },
       {
-        "name": "Defeat Daedulus",
-        "ref": "Main/Giruvegan/Defeat Daedulus"
-      },
-      {
-        "name": "Defeat Tyrant",
-        "ref": "Main/Giruvegan/Defeat Tyrant"
-      },
-      {
         "name": "Defeat Omega Mark XII",
         "ref": "Main/Great Crystal/Defeat Omega Mark XII"
       },
@@ -40,6 +32,10 @@
       {
         "name": "Defeat Hell Wyrm",
         "ref": "Main/Sochen Cave Palace Middle/Defeat Hell Wyrm"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Filo again",
+        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Filo again"
       }
     ]
   },
@@ -92,6 +88,18 @@
       {
         "name": "Hunt 9: Marilith",
         "ref": "Main/Rabanastre/Hunt 9: Marilith"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Curious Woman",
+        "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Curious Woman"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Bangaa",
+        "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Bangaa"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Sotted Imperial",
+        "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Sotted Imperial"
       },
       {
         "name": "Grimy Fragment",
@@ -569,6 +577,14 @@
       {
         "name": "Grimy Fragment Quest: Speak to Roh'kenmou",
         "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Roh'kenmou"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Filo",
+        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Filo"
+      },
+      {
+        "name": "Grimy Fragment Quest: Speak to Filo again",
+        "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Filo again"
       },
       {
         "name": "North Sprawl Treasure 1",
@@ -2217,6 +2233,14 @@
       }
     ],
     "sections": [
+      {
+        "name": "Defeat Tyrant",
+        "ref": "Main/Giruvegan/Defeat Tyrant"
+      },
+      {
+        "name": "Defeat Daedulus",
+        "ref": "Main/Giruvegan/Defeat Daedulus"
+      },
       {
         "name": "Defeat Piscodaemon",
         "ref": "Main/Giruvegan/Defeat Piscodaemon"
@@ -7486,6 +7510,10 @@
       }
     ],
     "sections": [
+      {
+        "name": "Defeat Rafflesia",
+        "ref": "Main/Feywood/Defeat Rafflesia"
+      },
       {
         "name": "Defeat Wild Malboro",
         "ref": "Main/Feywood/Defeat Wild Malboro"

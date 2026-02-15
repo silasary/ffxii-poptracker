@@ -110,9 +110,30 @@
             ]
           },
           {
+            "name": "Grimy Fragment Quest: Speak to Curious Woman",
+            "access_rules": [
+              "^$tchita_uplands,[$scaled_difficulty|1],grimy_filo"
+            ],
+            "hosted_item": "grimy_woman"
+          },
+          {
+            "name": "Grimy Fragment Quest: Speak to Bangaa",
+            "access_rules": [
+              "^$tchita_uplands,[$scaled_difficulty|1],grimy_woman"
+            ],
+            "hosted_item": "grimy_bangaa"
+          },
+          {
+            "name": "Grimy Fragment Quest: Speak to Sotted Imperial",
+            "access_rules": [
+              "^$tchita_uplands,[$scaled_difficulty|1],grimy_bangaa"
+            ],
+            "hosted_item": "grimy_imperial"
+          },
+          {
             "name": "Grimy Fragment",
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5],grimy_quest_complete"
+              "[$scaled_difficulty|5],grimy_filo2"
             ]
           }
         ]
@@ -1056,6 +1077,20 @@
               "^$tchita_uplands,[$scaled_difficulty|1],medallion_started"
             ],
             "hosted_item": "grimy_rohkenmou"
+          },
+          {
+            "name": "Grimy Fragment Quest: Speak to Filo",
+            "access_rules": [
+              "^$tchita_uplands,[$scaled_difficulty|1],grimy_rohkenmou"
+            ],
+            "hosted_item": "grimy_filo"
+          },
+          {
+            "name": "Grimy Fragment Quest: Speak to Filo again",
+            "access_rules": [
+              "^$tchita_uplands,[$scaled_difficulty|1],grimy_imperial"
+            ],
+            "hosted_item": "grimy_filo2"
           },
           {
             "name": "Party Member (Basch)",

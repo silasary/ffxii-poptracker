@@ -118,8 +118,8 @@
         "name": "Clan Boss: Mimic Queen",
         "sections": [
           {
-            "name": "Clan Boss: Mimic Queen",
-            "ref": "Main/Clan Hall/Clan Boss: Mimic Queen"
+            "name": "Defeat Mimic Queen",
+            "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
           }
         ],
         "map_locations": [

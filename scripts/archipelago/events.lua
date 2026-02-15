@@ -222,14 +222,13 @@ function grimy_questline(stage)
         [6] = "grimy_filo2",
         [7] = "grimy_quest_complete",
     }
-    code = stages[stage]
-    if code then
+    for index, code in pairs(stages) do
         local progress = Tracker:FindObjectForCode(code)
         ---@cast progress JsonItem
         if progress then
-            progress.Active = true
+            progress.Active = stage >= index
         else
-            print(string.format("grimy_questline: could not find object for stage %d", stage))
+            print(string.format("grimy_questline: could not find object for stage %d", index))
         end
     end
 end

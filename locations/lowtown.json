@@ -26,10 +26,6 @@
           {
             "name": "Hunt 42: Behemoth King - Koqmihn",
             "ref": "Main/Lowtown/Hunt 42: Behemoth King"
-          },
-          {
-            "name": "Medallions - Roh\u2019kenmou - Dummy Check",
-            "ref": "Main/Lowtown/Medallions - Roh\u2019kenmou"
           }
         ]
       },
@@ -54,6 +50,24 @@
           {
             "name": "Hunt 7: Ring Wyrm",
             "ref": "Main/Lowtown/Hunt 7: Ring Wyrm"
+          }
+        ]
+      },
+      {
+        "name": "Filo",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 565,
+            "y": 737
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Filo"
+          },
+          {
+            "ref": "Main/Lowtown/Grimy Fragment Quest: Speak to Filo again"
           }
         ]
       },
@@ -126,6 +140,14 @@
           {
             "name": "Goddess's Magicite",
             "ref": "Main/Lowtown/Royal Palace - Goddess's Magicite"
+          },
+          {
+            "name": "Burrough Tube Fuse",
+            "ref": "Main/Barheim Passage Story/Burrough Tube Fuse"
+          },
+          {
+            "name": "Defeat Mimic Queen",
+            "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
           }
         ]
       },

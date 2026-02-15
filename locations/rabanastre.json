@@ -51,6 +51,58 @@
         ]
       },
       {
+        "name": "Curious Woman",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 893,
+            "y": 730
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grimy Fragment Quest: Speak to Curious Woman",
+            "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Curious Woman"
+          }
+        ]
+      },
+      {
+        "name": "Bangaa Merchant",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 893,
+            "y": 730
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grimy Fragment Quest: Speak to Bangaa Merchant",
+            "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Bangaa"
+          }
+        ]
+      },
+      {
+        "name": "Yugri's Magicks",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 985,
+            "y": 460
+          }
+        ],
+        "sections": [
+          {
+            "name": "Grimy Fragment Quest: Speak to Sotted Imperial",
+            "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Sotted Imperial"
+          },
+          {
+            "name": "Grimy Fragment",
+            "ref": "Main/Rabanastre/Grimy Fragment"
+          }
+        ]
+      },
+      {
         "name": "Windvane - Rimzat",
         "map_locations": [
           {

@@ -166,10 +166,6 @@
         "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
       },
       {
-        "name": "Grimy Fragment",
-        "ref": "Main/Rabanastre/Grimy Fragment"
-      },
-      {
         "name": "Earth Tyrant Quest: Speak to Rimzat",
         "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
       },
@@ -184,10 +180,6 @@
       {
         "name": "Defeat Flans",
         "ref": "Main/Garamsythe Waterway/Defeat Flans"
-      },
-      {
-        "name": "Defeat Mimic Queen",
-        "ref": "Main/Barheim Passage Story/Defeat Mimic Queen"
       },
       {
         "name": "Defeat Earth Tyrant",
@@ -232,10 +224,6 @@
       {
         "name": "Defeat Fury",
         "ref": "Main/Necrohol of Nabudis/Defeat Fury"
-      },
-      {
-        "name": "Defeat Rafflesia",
-        "ref": "Main/Feywood/Defeat Rafflesia"
       },
       {
         "name": "Defeat Hell Wyrm",
