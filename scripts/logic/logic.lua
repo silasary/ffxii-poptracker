@@ -100,8 +100,8 @@ function sandseas()
 end
 
 function tchita_uplands()
-    if defeat_bergan() == AccessibilityLevel.Normal or 
-        (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or 
+    if defeat_bergan() == AccessibilityLevel.Normal or
+        (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or
         earth_tyrant() == AccessibilityLevel.Normal or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero') and scaled_difficulty(4)) or
         cid2() == AccessibilityLevel.Normal or
@@ -147,7 +147,7 @@ end
 
 function sochen_cave_palace()
     if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.Normal or aero('arc_aero')) and scaled_difficulty(4) then
-        return AccessibilityLevel.Normal 
+        return AccessibilityLevel.Normal
     end
     if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.SequenceBreak or aero('arc_aero')) then
 		return AccessibilityLevel.SequenceBreak
