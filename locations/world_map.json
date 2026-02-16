@@ -9,7 +9,6 @@
       }
     ],
     "sections": [
-
     ]
   },
   {
@@ -67,8 +66,8 @@
         "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Curious Woman"
       },
       {
-        "name": "Grimy Fragment Quest: Speak to Bangaa",
-        "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Bangaa"
+        "name": "Grimy Fragment Quest: Speak to Bangaa Merchant",
+        "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Bangaa Merchant"
       },
       {
         "name": "Grimy Fragment Quest: Speak to Sotted Imperial",
@@ -3824,7 +3823,7 @@
         "name": "Hunt 26: Deathgaze",
         "ref": "Main/Skyferry/Hunt 26: Deathgaze"
       },
-{
+      {
         "name": "Deliver Letter on Rabanastre <-> Nalbina",
         "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Nalbina"
       },

@@ -142,5 +142,67 @@
     "type": "toggle",
     "codes": "letter_arc_bal",
     "img": "images/items/letter.png"
+  },
+  {
+    "name": "Shrine of South Wind active",
+    "type": "toggle",
+    "codes": "shrine_of_south_wind"
+  },
+  {
+    "name": "Shrine of Northwest Wind active",
+    "type": "toggle",
+    "codes": "shrine_of_northwest_wind"
+  },
+  {
+    "name": "Shrine of West Wind active",
+    "type": "toggle",
+    "codes": "shrine_of_west_wind"
+  },
+  {
+    "name": "Weathered Rock Broken",
+    "type": "toggle",
+    "codes": "weathered_rock_babbling_vale"
+  },
+  {
+    "name": "Defeat Exodus",
+    "type": "toggle",
+    "img": "images/items/exodus.png",
+    "codes": "defeat_exodus"
+  },
+  {
+    "name": "Strike withered tree",
+    "codes": "giza_tree_throne",
+    "type": "toggle",
+    "img": "images/items/tree.png"
+  },
+  {
+    "name": "Strike withered tree",
+    "codes": "giza_tree_village",
+    "type": "toggle",
+    "img": "images/items/tree.png"
+  },
+  {
+    "name": "Strike withered tree",
+    "codes": "giza_tree_northbank",
+    "type": "toggle",
+    "img": "images/items/tree.png"
+  },
+  {
+    "name": "Strike withered tree",
+    "codes": "giza_tree_toam",
+    "type": "toggle",
+    "img": "images/items/tree.png"
+  },
+  {
+    "name": "Strike withered tree",
+    "codes": "giza_tree_starfall",
+    "type": "toggle",
+    "img": "images/items/tree.png"
+  },
+  {
+    "name": "Strike withered tree",
+    "codes": "giza_tree_glade",
+    "type": "toggle",
+    "img": "images/items/tree.png"
   }
 ]

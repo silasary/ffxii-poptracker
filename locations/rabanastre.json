@@ -71,14 +71,14 @@
         "map_locations": [
           {
             "map": "rabanastre",
-            "x": 893,
-            "y": 730
+            "x": 680,
+            "y": 600
           }
         ],
         "sections": [
           {
             "name": "Grimy Fragment Quest: Speak to Bangaa Merchant",
-            "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Bangaa"
+            "ref": "Main/Rabanastre/Grimy Fragment Quest: Speak to Bangaa Merchant"
           }
         ]
       },

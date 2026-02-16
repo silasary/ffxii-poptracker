@@ -249,11 +249,12 @@
           }
         ],
         "visibility_rules": [
-          "$show_withered_trees"
+
         ],
         "sections": [
           {
-            "name": "North Bank Withered Tree"
+            "name": "North Bank Withered Tree",
+            "hosted_item": "giza_tree_northbank"
           }
         ]
       },
@@ -268,11 +269,12 @@
           }
         ],
         "visibility_rules": [
-          "$show_withered_trees"
+
         ],
         "sections": [
           {
-            "name": "Throne Road Withered Tree"
+            "name": "Throne Road Withered Tree",
+            "hosted_item": "giza_tree_throne"
           }
         ]
       },
@@ -287,11 +289,12 @@
           }
         ],
         "visibility_rules": [
-          "$show_withered_trees"
+
         ],
         "sections": [
           {
-            "name": "Nomad Village Withered Tree"
+            "name": "Nomad Village Withered Tree",
+            "hosted_item": "giza_tree_village"
           }
         ]
       },
@@ -306,11 +309,12 @@
           }
         ],
         "visibility_rules": [
-          "$show_withered_trees"
+
         ],
         "sections": [
           {
-            "name": "Toam Hills Withered Tree"
+            "name": "Toam Hills Withered Tree",
+            "hosted_item": "giza_tree_toam"
           }
         ]
       },
@@ -325,11 +329,12 @@
           }
         ],
         "visibility_rules": [
-          "$show_withered_trees"
+
         ],
         "sections": [
           {
-            "name": "Starfall Field Withered Tree"
+            "name": "Starfall Field Withered Tree",
+            "hosted_item": "giza_tree_starfall"
           }
         ]
       },
@@ -344,11 +349,12 @@
           }
         ],
         "visibility_rules": [
-          "$show_withered_trees"
+
         ],
         "sections": [
           {
-            "name": "Crystal Glade Withered Tree"
+            "name": "Crystal Glade Withered Tree",
+            "hosted_item": "giza_tree_glade"
           }
         ]
       }

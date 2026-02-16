@@ -210,24 +210,44 @@
         "ref": "Main/Giruvegan/Defeat Tyrant"
       },
       {
-        "name": "Defeat Omega Mark XII",
-        "ref": "Main/Great Crystal/Defeat Omega Mark XII"
-      },
-      {
-        "name": "Defeat Hydro",
-        "ref": "Main/Pharos of Ridorana/Defeat Hydro"
-      },
-      {
         "name": "Defeat Humbaba Mistant",
         "ref": "Main/Necrohol of Nabudis/Defeat Humbaba Mistant"
       },
       {
-        "name": "Defeat Fury",
-        "ref": "Main/Necrohol of Nabudis/Defeat Fury"
-      },
-      {
         "name": "Defeat Hell Wyrm",
         "ref": "Main/Sochen Cave Palace Middle/Defeat Hell Wyrm"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Nalbina",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Nalbina"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Bhujerba",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Bhujerba"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Archades",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Archades"
+      },
+      {
+        "name": "Deliver Letter on Nalbina <-> Archades",
+        "ref": "Main/Skyferry/Deliver Letter on Nalbina <-> Archades"
+      },
+      {
+        "name": "Deliver Letter on Nalbina <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Nalbina <-> Balfonheim"
+      },
+      {
+        "name": "Deliver Letter on Bhujerba <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Bhujerba <-> Balfonheim"
+      },
+      {
+        "name": "Deliver Letter on Archades <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Archades <-> Balfonheim"
+      },
+      {
+        "name": "North Spur Sluiceway Treasure 6",
+        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 6"
       }
     ]
   }

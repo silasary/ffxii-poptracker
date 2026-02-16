@@ -273,6 +273,97 @@
             "ref": "Main/Mosphoran Highwaste Upper/Dheed - Leathern Trophy"
           }
         ]
+      },
+      {
+        "name": "Shrine of South Wind",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "shape": "diamond",
+            "x": 540,
+            "y": 755
+          }
+        ],
+        "access_rules": [
+          "^$blue"
+        ],
+        "visibility_rules": [
+          "^$tchita_uplands,[$defeat_bergan],$show_shrine_of_south_wind"
+        ],
+        "sections": [
+          {
+            "name": "Activate Shrine of South Wind",
+            "hosted_item": "shrine_of_south_wind"
+          }
+        ]
+      },
+      {
+        "name": "Weathered Rock",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "x": 435,
+            "y": 720
+          }
+        ],
+        "access_rules": [
+          "^$blue"
+        ],
+        "visibility_rules": [
+          "^$tchita_uplands,[$defeat_bergan],$show_shrine_of_south_wind,shrine_of_south_wind"
+        ],
+        "sections": [
+          {
+            "name": "Break Weathered Rock via Chocobo",
+            "hosted_item": "weathered_rock_babbling_vale"
+          }
+        ]
+      },
+      {
+        "name": "Shrine of West Wind",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "shape": "diamond",
+            "x": 462,
+            "y": 725
+          }
+        ],
+        "access_rules": [
+          "^$blue"
+        ],
+        "visibility_rules": [
+          "^$tchita_uplands,[$defeat_bergan],$show_shrine_of_northwest_wind"
+        ],
+        "sections": [
+          {
+            "name": "Activate Shrine of West Wind",
+            "hosted_item": "shrine_of_west_wind"
+          }
+        ]
+      },
+      {
+        "name": "Shrine of Northwest Wind",
+        "map_locations": [
+          {
+            "map": "mosphoran_highwaste",
+            "shape": "diamond",
+            "x": 520,
+            "y": 695
+          }
+        ],
+        "access_rules": [
+          "^$blue"
+        ],
+        "visibility_rules": [
+          "^$tchita_uplands,[$defeat_bergan],$show_shrine_of_northwest_wind"
+        ],
+        "sections": [
+          {
+            "name": "Activate Shrine of Northwest Wind",
+            "hosted_item": "shrine_of_northwest_wind"
+          }
+        ]
       }
     ]
   }

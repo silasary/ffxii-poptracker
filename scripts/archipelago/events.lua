@@ -174,6 +174,8 @@ KILL_FLAGS = {
     [0x0A15] = "demon_wall_2",
     [0x0A16] = "king_bomb",
 
+    [0x0A23] = "defeat_exodus",
+
     [0x0A28] = "judge_ghis",
     [0x0A3C] = "judge_bergan",
 }
@@ -186,12 +188,25 @@ bool_flags = {
     [0x05B3] = "letter_nal_bal",
     [0x05B4] = "letter_bhu_bal",
     [0x05B5] = "letter_arc_bal",
-    [0x0999] = "giza_tree_9",
-    [0x099A] = "giza_tree_A",
-    [0x099B] = "giza_tree_B",
-    [0x099C] = "giza_tree_C",
-    [0x099D] = "giza_tree_D",
-    [0x099E] = "giza_tree_E",
+    [0x0999] = "giza_tree_throne",
+    [0x099A] = "giza_tree_village",
+    [0x099B] = "giza_tree_northbank",
+    [0x099C] = "giza_tree_toam",
+    [0x099D] = "giza_tree_starfall",
+    [0x099E] = "giza_tree_glade",
+}
+
+bitwise_flags = {
+    [0x0919] = {
+        -- [1] = "shrine_of_northeast_wind",
+        -- [2] = "shrine_of_east_wind",
+        -- [4] = "shrine_of_southeast_wind",
+        [8] = "shrine_of_south_wind",
+        [16] = "shrine_of_west_wind",
+        [32] = "shrine_of_northwest_wind",
+        [64] = "weathered_rock_babbling_vale",
+        -- [128] = "weathered_rock_skyflung_stone",
+    }
 }
 
 function on_event_updated(offset, value)
@@ -217,6 +232,19 @@ function on_event_updated(offset, value)
                 object.Active = true
             else
                 print(string.format("onEventUpdated: could not find object for bool code %s", code))
+            end
+        end
+        return
+    end
+    local flags = bitwise_flags[offset]
+    if flags then
+        for bit, code in pairs(flags) do
+            local object = Tracker:FindObjectForCode(code)
+            local f = value & bit
+            if object then
+                object.Active = f == bit
+            else
+                print(string.format("onEventUpdated: could not find object for bitwise code %s (%s)", code, f == bit))
             end
         end
         return

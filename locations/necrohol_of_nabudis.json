@@ -255,7 +255,7 @@
         ]
       },
       {
-        "name": "Fury Room Chest",
+        "name": "Fury Room",
         "map_locations": [
           {
             "map": "necrohol_of_nabudis",
@@ -264,6 +264,10 @@
           }
         ],
         "sections": [
+          {
+            "name": "Defeat Fury",
+            "ref": "Main/Necrohol of Nabudis/Defeat Fury"
+          },
           {
             "name": "Cloister of Reason Treasure 1",
             "ref": "Main/Necrohol of Nabudis/Cloister of Reason Treasure 1"
