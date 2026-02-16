@@ -56,6 +56,27 @@
         ]
       },
       {
+        "name": "Mandragoras",
+        "map_locations": [
+          {
+            "map": "sochen_cave_palace",
+            "x": 167,
+            "y": 1072
+          },
+          {
+            "map": "sochen_cave_palace_bottom",
+            "x": 333,
+            "y": 240
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Mandragora",
+            "ref": "Main/Tchita Uplands/Defeat Mandragora"
+          }
+        ]
+      },
+      {
         "name": "Hall of Lambent Darkness Chests",
         "map_locations": [
           {
@@ -86,18 +107,6 @@
             "name": "Hall of Lambent Darkness Treasure 4",
             "ref": "Main/Sochen Cave Palace Middle/Hall of Lambent Darkness Treasure 4"
           }
-        ]
-      },
-      {
-        "name": "Chests",
-        "map_locations": [
-          {
-            "map": "sochen_cave_palace",
-            "x": 320,
-            "y": 830
-          }
-        ],
-        "sections": [
         ]
       },
       {
