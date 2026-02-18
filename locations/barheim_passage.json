@@ -471,6 +471,25 @@
           }
         ]
       },
+      {
+        "name": "Op Sector 36 Treasure 3",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 1085,
+            "y": 580
+          },
+          {
+            "map": "barheim_passage_top",
+            "x": 695,
+            "y": 1023
+          }
+        ],
+        "sections": [
+          {
+            "ref": "Main/Barheim Passage/Op Sector 36 Treasure 3"
+          }
+        ]
       }
     ]
   }
