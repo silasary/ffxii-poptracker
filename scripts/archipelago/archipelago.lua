@@ -4,7 +4,7 @@ local LOCATION_MAPPING = require "archipelago.location_mapping"
 local OPTION_MAPPING = require "archipelago.option_mapping"
 local CHAR_ITEMS = { 'vaan', 'ashe', 'fran', 'balthier', 'basch', 'penelo', 'guest' }
 local TREASURE_MAPPING = require "archipelago.treasure_mapping"
-require "archipelago.hunts"
+require "archipelago.events"
 require "archipelago.tab_mapping"
 
 AP_INDEX = -1
@@ -46,9 +46,12 @@ function ClearItems(slot_data)
     -- }
 
     HuntKey = string.format("ffxiiow_hunts_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
+    EventKey = string.format("ffxiiow_events_%s_%s", Archipelago.TeamNumber, Archipelago.PlayerNumber)
 
     Archipelago:SetNotify({ HuntKey })
     Archipelago:Get({ HuntKey })
+    Archipelago:SetNotify({ EventKey })
+    Archipelago:Get({ EventKey })
 
     local options = slot_data.options
     for key, mapped in pairs(OPTION_MAPPING) do
@@ -225,9 +228,20 @@ function OnReply(key, value, old_value)
             return
         end
         for i, v in pairs(hunt_data) do
-            local hunt_id = i
+            local hunt_id = tonumber(i)
             local stage = v
-            on_hunt_updated(hunt_id, stage)
+            on_event_updated(0x1064 + 128 + hunt_id, stage)
+        end
+    end
+    if starts_with(key, "ffxiiow_events_") then
+        for i, v in pairs(value) do
+            if old_value and old_value[i] == v then
+                -- print(string.format("Event %s stage unchanged at %s, skipping", i, v))
+                goto continue
+            end
+            local offset = tonumber(i)
+            on_event_updated(offset, v)
+        ::continue::
         end
     end
 end

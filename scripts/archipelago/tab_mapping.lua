@@ -22,7 +22,7 @@ TAB_MAPPING = {
     [125] = { "World Map" }, --Skyferry/Sky Saloon
     [126] = { "World Map" }, --Skyferry/Air Deck
 
-    [129] = { "Map Select", "Estersand", "Dalmasca Estersand", "South"}, --South Bank Village
+    [129] = { "Map Select", "Estersand", "Dalmasca Estersand", "Middle"}, --South Bank Village
     [130] = { "Map Select", "Estersand", "Dalmasca Estersand", "North"}, --North Bank Village
     [132] = { "Map Select", "Estersand", "Dalmasca Estersand", "North"}, --The Yoma
     [133] = { "Map Select", "Estersand", "Dalmasca Estersand", "North"}, --Broken Sands
@@ -87,10 +87,10 @@ TAB_MAPPING = {
 
     [227] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --The Stepping
     [228] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Yardang Labyrinth
-    [229] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Sand-swept Naze
-    [230] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Banks of the Nebra
-    [231] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Passage Entrance
-    [232] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Murmuring Defile
+    [229] = { "Map Select", "Estersand", "Dalmasca Estersand", "Middle" }, --Sand-swept Naze
+    [230] = { "Map Select", "Estersand", "Dalmasca Estersand", "Middle" }, --Banks of the Nebra
+    [231] = { "Map Select", "Estersand", "Dalmasca Estersand", "Middle" }, --Passage Entrance
+    [232] = { "Map Select", "Estersand", "Dalmasca Estersand", "Middle" }, --Murmuring Defile
     [233] = { "Map Select", "Estersand", "Dalmasca Estersand", "South" }, --Outpost
 
     [236] = { "Map Select", "Giza Plains", "Dry Season" }, --Throne Road
