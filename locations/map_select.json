@@ -166,10 +166,6 @@
         "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
       },
       {
-        "name": "Earth Tyrant Quest: Speak to Rimzat",
-        "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
-      },
-      {
         "name": "Earth Tyrant Quest: Speak to Cotze",
         "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
       },
@@ -186,14 +182,9 @@
         "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
       },
       {
-        "name": "Defeat Tiamat",
-        "ref": "Main/Henne Mines/Defeat Tiamat"
-      },
-      {
         "name": "Defeat Vinuskar",
         "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
       },
-
       {
         "name": "Defeat Ahriman",
         "ref": "Main/Tchita Uplands/Defeat Ahriman"

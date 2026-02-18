@@ -8,8 +8,7 @@
         "y": 24
       }
     ],
-    "sections": [
-    ]
+    "sections": []
   },
   {
     "name": "Rabanastre",
@@ -3858,7 +3857,7 @@
     ]
   },
   {
-    "name": "Clan Hall",
+    "name": "Clan Hall Hunts",
     "map_locations": [
       {
         "map": "world_map",
@@ -3872,6 +3871,10 @@
       }
     ],
     "sections": [
+      {
+        "name": "Hunt 33: Cluckatrice Started",
+        "ref": "Main/Clan Hall/Hunt 33: Cluckatrice Started"
+      },
       {
         "name": "Hunt 41: Belito",
         "ref": "Main/Clan Hall/Hunt 41: Belito"
@@ -3887,7 +3890,24 @@
       {
         "name": "Hunt 45: Yiazmat",
         "ref": "Main/Clan Hall/Hunt 45: Yiazmat"
+      }
+    ]
+  },
+  {
+    "name": "Clan Hall Rewards",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 710,
+        "y": 580
       },
+      {
+        "map": "rabanastre",
+        "x": 840,
+        "y": 260
+      }
+    ],
+    "sections": [
       {
         "name": "Clan Rank: Moppet",
         "ref": "Main/Clan Hall/Clan Rank: Moppet"

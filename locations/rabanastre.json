@@ -113,6 +113,10 @@
         ],
         "sections": [
           {
+            "name": "Earth Tyrant Quest: Speak to Rimzat",
+            "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Rimzat"
+          },
+          {
             "name": "Windvane - Rimzat",
             "ref": "Main/Rabanastre/Earth Tyrant Quest Windvane"
           }
@@ -135,7 +139,7 @@
         ]
       },
       {
-        "name": "Ktjn Reward",
+        "name": "Ktjn",
         "map_locations": [
           {
             "map": "rabanastre",

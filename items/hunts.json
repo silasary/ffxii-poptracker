@@ -192,6 +192,12 @@
         "codes": "pylraster"
     },
     {
+      "name": "Cluckatrice Started",
+      "type": "toggle",
+      "img": "images/items/montblanc.png",
+      "codes": "cluckatrice_started"
+    },
+    {
         "name": "Cluckatrice",
         "type": "toggle",
         "img": "images/items/hunt.png",

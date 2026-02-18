@@ -8056,6 +8056,13 @@
         ],
         "sections": [
           {
+            "name": "Hunt 33: Cluckatrice Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "cluckatrice_started"
+          },
+          {
             "name": "Hunt 41: Belito",
             "visibility_rules": [
               "place_hunts"
@@ -8228,6 +8235,9 @@
           },
           {
             "name": "Clan Boss: Mimic Queen",
+            "visibility_rules": [
+              "place_clan_boss"
+            ],
             "access_rules": [
               "crescent_stone,tube_fuse,[$scaled_difficulty|1],mimic_queen"
             ]

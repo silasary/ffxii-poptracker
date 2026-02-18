@@ -114,6 +114,7 @@ QUEST_MAPPING = {
         [100] = {"pylraster"},
     },
     [160] = {
+        [10] = {"cluckatrice_started"},
         [50] = {"cluckatrice"},
     },
     [161] = {
@@ -249,6 +250,10 @@ function on_event_updated(offset, value)
         end
         return
     end
+    if offset == 0x0408 then
+        -- Ktjn Location
+        move_ktjn(value)
+    end
     if offset == 0x0416 then
         print(string.format("Grimy questline updated to stage %d", value))
         grimy_questline(value)
@@ -297,4 +302,9 @@ function grimy_questline(stage)
             print(string.format("grimy_questline: could not find object for stage %d", index))
         end
     end
+end
+
+function move_ktjn(value)
+    local ktjn = Tracker:FindObjectForCode("@Rabanastre/Ktjn")
+    print(string.format("Moving Ktjn to location %d", value))
 end

@@ -3,6 +3,26 @@
     "name": "Henne Mines",
     "children": [
       {
+        "name": "Tiamat",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 915,
+            "y": 250
+          }
+        ],
+        "sections": [
+          {
+            "name": "Defeat Tiamat",
+            "ref": "Main/Henne Mines/Defeat Tiamat"
+          },
+          {
+            "name": "Lente's Tear",
+            "ref": "Main/Eruyt Village/Lente's Tear"
+          }
+        ]
+      },
+      {
         "name": "Henne Chests",
         "map_locations": [
           {
