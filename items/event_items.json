@@ -42,20 +42,8 @@
     "img": "images/items/target.png"
   },
   {
-    "name": "Grimy Fragment Questline Completed",
-    "type": "toggle",
-    "codes": "grimy_quest_complete",
-    "img": "images/items/target.png"
-  },
-  {
     "name": "Moonsilver Medallion Questline: Speak to Roh'kenmu",
     "codes": "love_rohkenmu",
-    "type": "toggle",
-    "img": "images/items/target.png"
-  },
-  {
-    "name": "Moonsilver Medallion Questline: Speak to Otto",
-    "codes": "love_otto",
     "type": "toggle",
     "img": "images/items/target.png"
   },
@@ -164,12 +152,6 @@
     "codes": "weathered_rock_babbling_vale"
   },
   {
-    "name": "Defeat Exodus",
-    "type": "toggle",
-    "img": "images/items/exodus.png",
-    "codes": "defeat_exodus"
-  },
-  {
     "name": "Strike withered tree",
     "codes": "giza_tree_throne",
     "type": "toggle",
@@ -204,11 +186,5 @@
     "codes": "giza_tree_glade",
     "type": "toggle",
     "img": "images/items/tree.png"
-  },
-    {
-    "name": "Ktjn Location",
-    "type": "consumable",
-    "codes": "ktjn_pos",
-    "img": "images/items/debug.png"
   }
 ]

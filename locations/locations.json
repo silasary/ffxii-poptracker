@@ -588,6 +588,13 @@
             "hosted_item": "cluckatrice"
           },
           {
+            "name": "Hunt 33: Cluckatrice Accepted",
+            "access_rules": [
+              "cluckatrice_started"
+            ],
+            "hosted_item": "cluckatrice_accepted"
+          },
+          {
             "name": "Hunt 33: Cluckatrice",
             "visibility_rules": [
               "place_hunts"
@@ -1246,12 +1253,22 @@
             ]
           },
           {
+            "name": "Hunt 35: Orthros Accepted",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "access_rules": [
+              "orthros_started"
+            ],
+            "hosted_item": "orthros_accepted"
+          },
+          {
             "name": "Hunt 35: Orthros",
             "visibility_rules": [
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,stolen_articles,fran,ashe,penelo,[$scaled_difficulty|5]"
+              "stolen_articles,orthros"
             ]
           },
           {
@@ -1282,6 +1299,13 @@
             "access_rules": [
               "brig_key,[$scaled_difficulty|1]"
             ]
+          },
+          {
+            "name": "Defeat Judge Ghis",
+            "access_rules": [
+              "brig_key,[$scaled_difficulty|1]"
+            ],
+            "hosted_item": "judge_ghis"
           },
           {
             "name": "Port Section Treasure 1",
@@ -6995,6 +7019,13 @@
             ]
           },
           {
+            "name": "Hunt 34: Rocktoise Accepted",
+            "access_rules": [
+              "rocktoise_started"
+            ],
+            "hosted_item": "rocktoise_accepted"
+          },
+          {
             "name": "Hunt 34: Rocktoise",
             "visibility_rules": [
               "place_hunts"
@@ -7155,7 +7186,7 @@
           {
             "name": "Jovy Reward",
             "access_rules": [
-              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7]"
+              "^$tchita_uplands,atomos,roblon,goliath,deathscythe,carrot"
             ]
           },
           {
@@ -8061,6 +8092,20 @@
               "place_hunts"
             ],
             "hosted_item": "cluckatrice_started"
+          },
+          {
+            "name": "Hunt 34: Rocktoise Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "rocktoise_started"
+          },
+          {
+            "name": "Hunt 35: Orthros Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "orthros_started"
           },
           {
             "name": "Hunt 41: Belito",
@@ -9276,14 +9321,14 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,fran,ashe,penelo,[$scaled_difficulty|5]"
+              "clan_primer,fran,ashe,penelo,[$scaled_difficulty|5],orthros_accepted"
             ],
             "hosted_item": "orthros"
           },
           {
             "name": "Orthros Drop",
             "access_rules": [
-              "clan_primer,fran,ashe,penelo,[$scaled_difficulty|5]"
+              "clan_primer,fran,ashe,penelo,[$scaled_difficulty|5],orthros_accepted"
             ]
           },
           {

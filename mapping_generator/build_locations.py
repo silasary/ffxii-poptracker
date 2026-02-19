@@ -162,9 +162,6 @@ def main() -> None:
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
         json.dump(lambda_to_access_rule_full, f, indent=4, sort_keys=True)
         f.write('\n')
-    with open("./locations/locations.json", 'w') as loc_file:
-        json.dump(pt_locations, loc_file, indent=2)
-        loc_file.write('\n')
 
     location_mapping = {int(k): v for k, v in sorted(location_mapping.items(), key=lambda item: item[0])}
     with open("./scripts/archipelago/location_mapping.lua", 'w', encoding='utf-8') as lua_file:
@@ -175,9 +172,31 @@ def main() -> None:
             lua_file.write(", ".join(f'"{m}"' for m in mapping))
             lua_file.write("},\n")
         lua_file.write("}\n")
-    validate(all_names)
 
-def validate(all_names):
+    validate(all_names, hosted_items)
+
+    event_items = []
+    with open('./items/event_items.json') as f:
+        event_items.extend(json.load(f))
+    with open('./items/hunts.json') as f:
+        event_items.extend(json.load(f))
+
+    for event in event_items:
+        if event['codes'] not in hosted_items.keys():
+            print(f"{event['codes']} is not hosted")
+            regions['Initial']['sections'].append(
+                {
+                    "name": event['name'],
+                    "access_rules": [],
+                    # "visibility_rules": [],
+                    "hosted_item": event['codes'],
+                }
+            )
+    with open("./locations/locations.json", 'w') as loc_file:
+        json.dump(pt_locations, loc_file, indent=2)
+        loc_file.write('\n')
+
+def validate(all_names, hosted_items):
     referenced = {}
     add_to_world_map = []
     add_to_map_select = []
@@ -207,7 +226,8 @@ def validate(all_names):
                         print(f'WARNING: Reference {pt_loc["ref"]} not found in locations!')
                 else:
                     referenced.setdefault(pt_loc['ref'], []).append(file)
-
+            elif "hosted_item" in pt_loc:
+                hosted_items.setdefault(pt_loc['hosted_item'], pt_loc)
 
             if 'children' in pt_loc:
                 queue.extend(pt_loc['children'].copy())
@@ -234,11 +254,14 @@ def validate(all_names):
     if add_to_world_map:
         with open(os.path.join("locations", "world_map.json"), 'r') as loc_file:
             world_map = json.load(loc_file)
-        world_map_sections = world_map[0].setdefault('sections', [])
+        world_map_sections = {loc['name']: loc.setdefault('sections',[]) for loc in world_map}
+        default_section = world_map_sections.get("World Map", [])
         for name in add_to_world_map:
-            shortname = name.split('/')[-1]
+            name_parts = name.split('/')
+            shortname = name_parts[-1]
             print(f'Adding {name} as {shortname} to world_map.json')
-            world_map_sections.append({
+            sections = world_map_sections.get(name_parts[1], default_section)
+            sections.append({
                 "name": shortname,
                 "ref": name,
             })
@@ -268,10 +291,10 @@ def validate(all_names):
         changed = False
         for name in remove_from_map_select:
             shortname = name.split('/')[-1]
-            for section in map_select_sections:
-                if section['ref'] == name:
+            for sections in map_select_sections:
+                if sections['ref'] == name:
                     print(f'Removing {name} from map_select.json')
-                    map_select_sections.remove(section)
+                    map_select_sections.remove(sections)
                     changed = True
                     break
         if changed:

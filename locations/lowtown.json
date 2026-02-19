@@ -182,6 +182,10 @@
         ],
         "sections": [
           {
+            "name": "Hunt 35: Orthros Accepted",
+            "ref": "Main/Lowtown/Hunt 35: Orthros Accepted"
+          },
+          {
             "name": "Hunt 35: Orthros - Contrite Thief",
             "ref": "Main/Lowtown/Hunt 35: Orthros"
           }

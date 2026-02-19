@@ -72,5 +72,11 @@
     "name": "Goal",
     "type": "consumable",
     "codes": "goal"
+  },
+  {
+    "name": "Ktjn Location",
+    "type": "consumable",
+    "codes": "ktjn_pos",
+    "img": "images/items/debug.png"
   }
 ]

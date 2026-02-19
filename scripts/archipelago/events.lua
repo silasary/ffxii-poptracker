@@ -115,12 +115,18 @@ QUEST_MAPPING = {
     },
     [160] = {
         [10] = {"cluckatrice_started"},
+        [30] = {"cluckatrice_accepted"},
         [50] = {"cluckatrice"},
     },
     [161] = {
+        [10] = {"rocktoise_started"},
+        [30] = {"rocktoise_accepted"},
         [70] = {"rocktoise"},
+
     },
     [162] = {
+        [10] = {"orthros_started"},
+        [30] = {"orthros_accepted"},
         [70] = {"orthros"},
     },
     [163] = {
@@ -175,8 +181,6 @@ KILL_FLAGS = {
     [0x0A15] = "demon_wall_2",
     [0x0A16] = "king_bomb",
 
-    [0x0A23] = "defeat_exodus",
-
     [0x0A28] = "judge_ghis",
     [0x0A3C] = "judge_bergan",
 }
@@ -195,6 +199,11 @@ bool_flags = {
     [0x099C] = "giza_tree_toam",
     [0x099D] = "giza_tree_starfall",
     [0x099E] = "giza_tree_glade",
+    [0x06D7] = "traveller_arc",
+    [0x06D8] = "traveller_bhu",
+    [0x06D9] = "traveller_nal",
+    [0x06DA] = "traveller_bal",
+    [0x06DB] = "traveller_rab",
 }
 
 bitwise_flags = {

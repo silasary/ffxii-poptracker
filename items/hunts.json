@@ -198,16 +198,46 @@
       "codes": "cluckatrice_started"
     },
     {
+      "name": "Cluckatrice Accepted",
+      "type": "toggle",
+      "img": "images/items/target.png",
+      "codes": "cluckatrice_accepted"
+    },
+    {
         "name": "Cluckatrice",
         "type": "toggle",
         "img": "images/items/hunt.png",
         "codes": "cluckatrice"
     },
     {
+      "name": "Rocktoise Started",
+      "type": "toggle",
+      "img": "images/items/montblanc.png",
+      "codes": "rocktoise_started"
+    },
+    {
+      "name": "Rocktoise Accepted",
+      "type": "toggle",
+      "img": "images/items/target.png",
+      "codes": "rocktoise_accepted"
+    },
+    {
         "name": "Rocktoise",
         "type": "toggle",
         "img": "images/items/hunt.png",
         "codes": "rocktoise"
+    },
+    {
+      "name": "Orthros Started",
+      "type": "toggle",
+      "img": "images/items/montblanc.png",
+      "codes": "orthros_started"
+    },
+    {
+      "name": "Orthros Accepted",
+      "type": "toggle",
+      "img": "images/items/target.png",
+      "codes": "orthros_accepted"
     },
     {
         "name": "Orthros",

@@ -289,6 +289,10 @@
         "ref": "Main/Giza Plains Dry/Giza Sunstone"
       },
       {
+        "name": "Hunt 33: Cluckatrice Accepted",
+        "ref": "Main/Giza Plains Dry/Hunt 33: Cluckatrice Accepted"
+      },
+      {
         "name": "Defeat Cluckatrice",
         "ref": "Main/Giza Plains Dry/Defeat Cluckatrice"
       },
@@ -618,6 +622,10 @@
         "ref": "Main/Lowtown/Hunt 7: Ring Wyrm"
       },
       {
+        "name": "Hunt 35: Orthros Accepted",
+        "ref": "Main/Lowtown/Hunt 35: Orthros Accepted"
+      },
+      {
         "name": "Hunt 35: Orthros",
         "ref": "Main/Lowtown/Hunt 35: Orthros"
       },
@@ -647,8 +655,24 @@
         "ref": "Main/Dreadnought Leviathan/Guest (Vossler)"
       },
       {
+        "name": "No. 1 Brig Key",
+        "ref": "Main/Dreadnought Leviathan/No. 1 Brig Key"
+      },
+      {
+        "name": "Systems Access Key",
+        "ref": "Main/Dreadnought Leviathan/Systems Access Key"
+      },
+      {
         "name": "Party Member (Ashe)",
         "ref": "Main/Dreadnought Leviathan/Party Member (Ashe)"
+      },
+      {
+        "name": "Manufacted Nethicite",
+        "ref": "Main/Dreadnought Leviathan/Manufacted Nethicite"
+      },
+      {
+        "name": "Defeat Judge Ghis",
+        "ref": "Main/Dreadnought Leviathan/Defeat Judge Ghis"
       },
       {
         "name": "Port Section Treasure 1",
@@ -729,18 +753,6 @@
       {
         "name": "Sub-control Room Treasure 4",
         "ref": "Main/Dreadnought Leviathan/Sub-control Room Treasure 4"
-      },
-      {
-        "name": "No. 1 Brig Key",
-        "ref": "Main/Dreadnought Leviathan/No. 1 Brig Key"
-      },
-      {
-        "name": "Systems Access Key",
-        "ref": "Main/Dreadnought Leviathan/Systems Access Key"
-      },
-      {
-        "name": "Manufacted Nethicite",
-        "ref": "Main/Dreadnought Leviathan/Manufacted Nethicite"
       }
     ]
   },
@@ -3317,6 +3329,10 @@
         "ref": "Main/Bhujerba/Hunt 5: Nidhogg"
       },
       {
+        "name": "Hunt 34: Rocktoise Accepted",
+        "ref": "Main/Bhujerba/Hunt 34: Rocktoise Accepted"
+      },
+      {
         "name": "Hunt 34: Rocktoise",
         "ref": "Main/Bhujerba/Hunt 34: Rocktoise"
       },
@@ -3339,6 +3355,10 @@
       {
         "name": "Hunt 27: Diabolos",
         "ref": "Main/Bhujerba/Hunt 27: Diabolos"
+      },
+      {
+        "name": "Rocktoise Accepted",
+        "ref": "Main/Bhujerba/Rocktoise Accepted"
       }
     ]
   },
@@ -3874,6 +3894,14 @@
       {
         "name": "Hunt 33: Cluckatrice Started",
         "ref": "Main/Clan Hall/Hunt 33: Cluckatrice Started"
+      },
+      {
+        "name": "Hunt 34: Rocktoise Started",
+        "ref": "Main/Clan Hall/Hunt 34: Rocktoise Started"
+      },
+      {
+        "name": "Hunt 35: Orthros Started",
+        "ref": "Main/Clan Hall/Hunt 35: Orthros Started"
       },
       {
         "name": "Hunt 41: Belito",
