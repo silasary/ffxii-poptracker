@@ -305,6 +305,10 @@ function grimy_questline(stage)
 end
 
 function move_ktjn(value)
-    local ktjn = Tracker:FindObjectForCode("@Rabanastre/Ktjn")
-    print(string.format("Moving Ktjn to location %d", value))
+    local ktjn = Tracker:FindObjectForCode("ktjn_pos")
+    if ktjn then
+        ktjn.CurrentStage = value
+    else
+        print(string.format("move_ktjn: could not find object for ktjn_pos"))
+    end
 end

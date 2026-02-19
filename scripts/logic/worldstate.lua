@@ -13,6 +13,16 @@ function at_map_id(id)
     return false
 end
 
+function ktjn_pos(id)
+    local ktjn = Tracker:FindObjectForCode("ktjn_pos")
+    if ktjn then
+        return ktjn.AcquiredCount == tonumber(id)
+    else
+        print("ktjn_pos: could not find object for ktjn_pos")
+        return false
+    end
+end
+
 function blue()
     -- Silly little rule to make things ^$blue
     return AccessibilityLevel.Inspect

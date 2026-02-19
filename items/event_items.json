@@ -204,5 +204,11 @@
     "codes": "giza_tree_glade",
     "type": "toggle",
     "img": "images/items/tree.png"
+  },
+    {
+    "name": "Ktjn Location",
+    "type": "consumable",
+    "codes": "ktjn_pos",
+    "img": "images/items/debug.png"
   }
 ]

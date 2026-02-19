@@ -139,17 +139,80 @@
         ]
       },
       {
-        "name": "Ktjn",
+        "name": "Ktjn - Bazaar Stairs",
         "map_locations": [
           {
             "map": "rabanastre",
-            "x": 709,
-            "y": 530
+            "x": 730,
+            "y": 443,
+            "restrict_visibility_rules": [
+              "$ktjn_pos|0"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ktjn has questions for you",
+            "ref": "Main/Rabanastre/Ktjn Reward"
+          }
+        ]
+      },
+      {
+        "name": "Ktjn - Clan Hall",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 795,
+            "y": 245,
+            "size": 12,
+            "restrict_visibility_rules": [
+              "$ktjn_pos|1",
+              "$ktjn_pos|2"
+            ]
           }
         ],
         "sections": [
           {
             "name": "Ktjn Reward",
+            "ref": "Main/Rabanastre/Ktjn Reward"
+          }
+        ]
+      },
+      {
+        "name": "Ktjn - Migelo's Sundries",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 1057,
+            "y": 645,
+            "restrict_visibility_rules": [
+              "$ktjn_pos|3",
+              "$ktjn_pos|4"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ktjn Reward",
+            "ref": "Main/Rabanastre/Ktjn Reward"
+          }
+        ]
+      },
+      {
+        "name": "Ktjn - Roaming",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 958,
+            "y": 265,
+            "restrict_visibility_rules": [
+              "$ktjn_pos|5"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "name": "Ktjn Reward.  This would have been easier if you weren't so nice",
             "ref": "Main/Rabanastre/Ktjn Reward"
           }
         ]
