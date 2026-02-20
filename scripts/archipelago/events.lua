@@ -174,6 +174,8 @@ KILL_FLAGS = {
     [0x0A0B] = "vinuskar",
     [0x0A0C] = "ahriman",
     [0x0A0D] = "rafflesia",
+    [0x0A0E] = "mandragora",
+
 
     [0x0A11] = "elder_wyrm",
 

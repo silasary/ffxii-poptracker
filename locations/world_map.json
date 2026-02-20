@@ -3317,6 +3317,11 @@
         "map": "world_map",
         "x": 1458,
         "y": 710
+      },
+      {
+        "map": "lhusu_mines",
+        "x": 1550,
+        "y": 730
       }
     ],
     "sections": [
