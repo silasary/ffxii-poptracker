@@ -7875,6 +7875,11 @@
         "map": "world_map",
         "x": 1242,
         "y": 206
+      },
+      {
+        "map": "tchita_uplands",
+        "x": 1350,
+        "y": 245
       }
     ],
     "sections": [

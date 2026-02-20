@@ -14603,7 +14603,7 @@
             "name": "Defeat Rocktoise",
             "visibility_rules": [],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1]"
+              "clan_primer,[$scaled_difficulty|1],rocktoise_accepted"
             ],
             "hosted_item": "rocktoise"
           },
@@ -15032,7 +15032,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,clan_primer,[$scaled_difficulty|7]"
+              "site_3_key,clan_primer,[$scaled_difficulty|7]"
             ],
             "hosted_item": "gilgamesh1"
           },

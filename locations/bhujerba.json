@@ -42,6 +42,10 @@
         "name": "Pilika's Quest",
         "sections": [
           {
+            "name": "Hunt 34: Rocktoise Accepted",
+            "ref": "Main/Bhujerba/Hunt 34: Rocktoise Accepted"
+          },
+          {
             "name": "Hunt 34: Rocktoise - Pilika",
             "ref": "Main/Bhujerba/Hunt 34: Rocktoise"
           },
