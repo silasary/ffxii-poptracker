@@ -7049,7 +7049,7 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1]"
+              "clan_primer,[$scaled_difficulty|1],rocktoise"
             ]
           },
           {
@@ -7058,13 +7058,13 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,merchants_armband,[$scaled_difficulty|1]"
+              "clan_primer,merchants_armband,[$scaled_difficulty|1],rocktoise"
             ]
           },
           {
             "name": "Pilika Give Pilika's Diary",
             "access_rules": [
-              "clan_primer,merchants_armband,pilikas_diary,[$scaled_difficulty|1]"
+              "clan_primer,merchants_armband,pilikas_diary,[$scaled_difficulty|1],rocktoise"
             ]
           },
           {
