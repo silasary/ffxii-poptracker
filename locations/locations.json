@@ -1037,7 +1037,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ring_of_the_toad,[$scaled_difficulty|2]"
+              "ring_of_the_toad,croakadile"
             ]
           },
           {
