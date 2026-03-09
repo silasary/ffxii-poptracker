@@ -225,6 +225,10 @@
         ],
         "sections": [
           {
+            "name": "Defeat Flans",
+            "ref": "Main/Garamsythe Waterway/Defeat Flans"
+          },
+          {
             "name": "Defeat Orthros",
             "ref": "Main/Garamsythe Waterway/Defeat Orthros"
           },
@@ -276,7 +280,7 @@
           }
         ],
         "sections": [
-                    {
+          {
             "name": "Northern Sluiceway Treasure 2",
             "ref": "Main/Garamsythe Waterway/Northern Sluiceway Treasure 2"
           }
