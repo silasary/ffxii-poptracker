@@ -4580,6 +4580,9 @@
         "sections": [
           {
             "name": "Defeat Daedulus",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ],
             "visibility_rules": [
               "place_clan_boss"
             ],
@@ -4587,6 +4590,9 @@
           },
           {
             "name": "Defeat Tyrant",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ],
             "visibility_rules": [
               "place_clan_boss"
             ],
@@ -4755,6 +4761,9 @@
           },
           {
             "name": "Defeat Omega Mark XII",
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ],
             "visibility_rules": [
               "place_clan_boss"
             ],
@@ -8383,7 +8392,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|5],daedulus"
+              "belias,^$paramina_rift,daedulus"
             ]
           },
           {
@@ -8392,7 +8401,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|5],tyrant"
+              "belias,^$paramina_rift,tyrant"
             ]
           },
           {
@@ -8428,7 +8437,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,[$scaled_difficulty|8],omega_mark_xii"
+              "belias,^$paramina_rift,omega_mark_xii"
             ]
           },
           {
@@ -10903,7 +10912,7 @@
           {
             "name": "Site 11 Key",
             "access_rules": [
-              "clan_primer,site_3_key,$aero|bhu_aero,[$scaled_difficulty|5],antlion"
+              "$aero|bhu_aero,antlion"
             ]
           },
           {
