@@ -184,6 +184,7 @@ KILL_FLAGS = {
     [0x0A16] = "king_bomb",
 
     [0x0A28] = "judge_ghis",
+    [0x0A3B] = "defeat_vossler",
     [0x0A3C] = "judge_bergan",
 }
 

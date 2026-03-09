@@ -56,7 +56,7 @@
           {
             "name": "Earth Tyrant Quest: Speak to Rimzat",
             "access_rules": [
-              "^$defeat_vossler"
+              "^$defeat_vossler,defeat_vossler"
             ],
             "hosted_item": "earth_tyrant_rimzat"
           },

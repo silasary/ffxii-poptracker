@@ -42,8 +42,20 @@
     "img": "images/items/target.png"
   },
   {
+    "name": "Medallion of Bravery: Return to Roh'kenmou with three fragments",
+    "codes": "bravery_rohkenmou",
+    "type": "toggle",
+    "img": "images/items/target.png"
+  },
+  {
     "name": "Moonsilver Medallion Questline: Speak to Roh'kenmu",
     "codes": "love_rohkenmu",
+    "type": "toggle",
+    "img": "images/items/target.png"
+  },
+  {
+    "name": "Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion",
+    "codes": "love_rohkenmu2",
     "type": "toggle",
     "img": "images/items/target.png"
   },
@@ -76,6 +88,12 @@
     "type": "toggle",
     "codes": "earth_tyrant_complete",
     "img": "images/items/target.png"
+  },
+  {
+    "name": "Defeat Vossler",
+    "type": "toggle",
+    "codes": "defeat_vossler",
+    "img": "images/items/hunt.png"
   },
   {
     "name": "Defeat Judge Ghis",
