@@ -249,12 +249,26 @@
             "map": "nam_yensa_sandsea",
             "x": 1375,
             "y": 815
+          },
+          {
+            "map": "ogir_yensa_sandsea",
+            "x": 1110,
+            "y": 683
+          },
+          {
+            "map": "zertinan_caverns",
+            "x": 425,
+            "y": 120
           }
         ],
         "sections": [
           {
             "name": "Defeat Belito",
             "ref": "Main/Nam-Yensa Sandsea/Defeat Belito"
+          },
+          {
+            "name": "Hunt 41: Belito",
+            "ref": "Main/Clan Hall/Hunt 41: Belito"
           }
         ]
       },
