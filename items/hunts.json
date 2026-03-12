@@ -228,16 +228,16 @@
         "codes": "rocktoise"
     },
     {
-      "name": "Orthros Started",
-      "type": "toggle",
-      "img": "images/items/montblanc.png",
-      "codes": "orthros_started"
-    },
-    {
       "name": "Orthros Accepted",
       "type": "toggle",
       "img": "images/items/target.png",
       "codes": "orthros_accepted"
+    },
+    {
+      "name": "Orthros Started",
+      "type": "toggle",
+      "img": "images/items/montblanc.png",
+      "codes": "orthros_started"
     },
     {
         "name": "Orthros",
@@ -286,6 +286,18 @@
         "type": "toggle",
         "img": "images/items/hunt.png",
         "codes": "belito"
+    },
+    {
+      "name": "Behemoth King Accepted",
+      "type": "toggle",
+      "img": "images/items/target.png",
+      "codes": "behemoth_king_accepted"
+    },
+    {
+      "name": "Behemoth King Started",
+      "type": "toggle",
+      "img": "images/items/montblanc.png",
+      "codes": "behemoth_king_started"
     },
     {
         "name": "Behemoth King",

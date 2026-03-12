@@ -218,6 +218,22 @@
         ]
       },
       {
+        "name": "Cotze",
+        "map_locations": [
+          {
+            "map": "rabanastre",
+            "x": 880,
+            "y": 725
+          }
+        ],
+        "sections": [
+          {
+            "name": "Earth Tyrant Quest: Speak to Cotze",
+            "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
+          }
+        ]
+      },
+      {
         "name": "White Mousse - Sorbet",
         "map_locations": [
           {
