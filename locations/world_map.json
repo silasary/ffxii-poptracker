@@ -93,6 +93,11 @@
         "map": "world_map",
         "x": 780,
         "y": 770
+      },
+      {
+        "map": "rabanastre",
+        "x": 865,
+        "y": 1055
       }
     ],
     "sections": [
@@ -321,6 +326,11 @@
         "map": "world_map",
         "x": 834,
         "y": 770
+      },
+      {
+        "map": "rabanastre",
+        "x": 900,
+        "y": 1055
       }
     ],
     "sections": [
@@ -2989,6 +2999,11 @@
         "map": "world_map",
         "x": 880,
         "y": 632
+      },
+            {
+        "map": "rabanastre",
+        "x": 1245,
+        "y": 730
       }
     ],
     "sections": [
@@ -4102,6 +4117,11 @@
         "map": "world_map",
         "x": 650,
         "y": 680
+      },
+      {
+        "map": "rabanastre",
+        "x": 500,
+        "y": 730
       }
     ],
     "sections": [
