@@ -250,6 +250,8 @@ def validate(all_names, hosted_items):
             print(f'WARNING: Location {name} not referenced anywhere')
         elif len(referenced[name]) > 2 and "map_select.json" in referenced[name]:
             remove_from_map_select.append(name)
+        elif len(referenced[name]) == 2 and "map_select.json" in referenced[name] and '/Clan Hall/' in name:
+            remove_from_map_select.append(name)
 
     if add_to_world_map:
         with open(os.path.join("locations", "world_map.json"), 'r') as loc_file:

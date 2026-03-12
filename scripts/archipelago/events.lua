@@ -146,6 +146,8 @@ QUEST_MAPPING = {
         [100] = {"gilgamesh2"},
     },
     [168] = {
+        [10] = {"behemoth_king_started"},
+        [30] = {"behemoth_king_accepted"},
         [70] = {"behemoth_king"},
     },
     [169] = {

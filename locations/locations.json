@@ -1272,12 +1272,22 @@
             ]
           },
           {
+            "name": "Behemoth King Accepted",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "access_rules": [
+              "behemoth_king_started"
+            ],
+            "hosted_item": "behemoth_king_accepted"
+          },
+          {
             "name": "Hunt 42: Behemoth King",
             "visibility_rules": [
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,clan_primer,[$scaled_difficulty|7]"
+              "^$paramina_rift,behemoth_king"
             ]
           }
         ]
@@ -7049,7 +7059,7 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,[$scaled_difficulty|1],rocktoise"
+              "rocktoise"
             ]
           },
           {
@@ -7058,13 +7068,13 @@
               "side_quests"
             ],
             "access_rules": [
-              "clan_primer,merchants_armband,[$scaled_difficulty|1],rocktoise"
+              "merchants_armband,rocktoise"
             ]
           },
           {
             "name": "Pilika Give Pilika's Diary",
             "access_rules": [
-              "clan_primer,merchants_armband,pilikas_diary,[$scaled_difficulty|1],rocktoise"
+              "merchants_armband,pilikas_diary,rocktoise"
             ]
           },
           {
@@ -8115,6 +8125,13 @@
               "place_hunts"
             ],
             "hosted_item": "orthros_started"
+          },
+          {
+            "name": "Hunt 42: Behemoth King Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "behemoth_king_started"
           },
           {
             "name": "Hunt 41: Belito",

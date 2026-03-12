@@ -190,6 +190,22 @@
             "ref": "Main/Lowtown/Hunt 35: Orthros"
           }
         ]
+      },
+      {
+        "name": "Northon",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 410,
+            "y": 425
+          }
+        ],
+        "sections": [
+          {
+            "name": "Earth Tyrant Quest: Speak to Northon",
+            "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
+          }
+        ]
       }
     ]
   }

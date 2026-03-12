@@ -632,6 +632,10 @@
       {
         "name": "Hunt 42: Behemoth King",
         "ref": "Main/Lowtown/Hunt 42: Behemoth King"
+      },
+      {
+        "name": "Behemoth King Accepted",
+        "ref": "Main/Lowtown/Behemoth King Accepted"
       }
     ]
   },
@@ -3911,6 +3915,10 @@
       {
         "name": "Hunt 35: Orthros Started",
         "ref": "Main/Clan Hall/Hunt 35: Orthros Started"
+      },
+      {
+        "name": "Hunt 42: Behemoth King Started",
+        "ref": "Main/Clan Hall/Hunt 42: Behemoth King Started"
       },
       {
         "name": "Hunt 44: Shadowseer",
