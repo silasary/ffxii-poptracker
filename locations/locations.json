@@ -4772,7 +4772,7 @@
           {
             "name": "Defeat Omega Mark XII",
             "access_rules": [
-              "[$scaled_difficulty|8],yiazmat"
+              "[$scaled_difficulty|8],yiazmat_accepted"
             ],
             "visibility_rules": [
               "place_clan_boss"
