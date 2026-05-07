@@ -2319,7 +2319,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "[$scaled_difficulty|2]"
+              "tube_fuse,[$scaled_difficulty|2]"
             ],
             "hosted_item": "mimic_queen"
           }
