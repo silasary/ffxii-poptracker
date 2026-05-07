@@ -130,18 +130,28 @@ QUEST_MAPPING = {
         [70] = {"orthros"},
     },
     [163] = {
+        [10] = {"gil_snapper_started"},
+        [50] = {"gil_snapper_accepted"},
         [70] = {"gil_snapper"},
     },
     [164] = {
+        [10] = {"trickster_started"},
+        [50] = {"trickster_accepted"},
         [70] = {"trickster"},
     },
     [165] = {
+        [10] = {"antlion_started"},
+        [50] = {"antlion_accepted"},
         [90] = {"antlion"},
     },
     [166] = {
+        [10] = {"carrot_started"},
+        [20] = {"carrot_accepted"},
         [30] = {"carrot"},
     },
     [167] = {
+        [10] = {"gilgamesh_started"},
+        [30] = {"gilgamesh_accepted"},
         [50] = {"gilgamesh1"},
         [100] = {"gilgamesh2"},
     },
@@ -151,15 +161,23 @@ QUEST_MAPPING = {
         [70] = {"behemoth_king"},
     },
     [169] = {
+        [10] = {"ixion_started"},
+        [50] = {"ixion_accepted"},
         [100] = {"ixion"},
     },
     [170] = {
+        [10] = {"shadowseer_started"},
+        [30] = {"shadowseer_accepted"},
         [70] = {"shadowseer"},
     },
     [171] = {
+        [10] = {"yiazmat_started"},
+        [30] = {"yiazmat_accepted"},
         [70] = {"yiazmat"},
     },
     [172] = {
+        [10] = {"belito_started"},
+        [30] = {"belito_accepted"},
         [70] = {"belito"},
     },
 }

@@ -166,10 +166,6 @@
         "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
       },
       {
-        "name": "Defeat Earth Tyrant",
-        "ref": "Main/Dalmasca Westersand/Defeat Earth Tyrant"
-      },
-      {
         "name": "Defeat Vinuskar",
         "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
       },
@@ -222,12 +218,36 @@
         "ref": "Main/Skyferry/Deliver Letter on Archades <-> Balfonheim"
       },
       {
-        "name": "North Spur Sluiceway Treasure 6",
-        "ref": "Main/Garamsythe Waterway/North Spur Sluiceway Treasure 6"
-      },
-      {
         "name": "Defeat Judge Ghis",
         "ref": "Main/Dreadnought Leviathan/Defeat Judge Ghis"
+      },
+      {
+        "name": "Earth Tyrant Checked Cactus",
+        "ref": "Main/Initial/Earth Tyrant Checked Cactus"
+      },
+      {
+        "name": "Earth Tyrant Complete",
+        "ref": "Main/Initial/Earth Tyrant Complete"
+      },
+      {
+        "name": "Hunt 33: Cluckatrice Accepted",
+        "ref": "Main/Giza Plains Dry/Hunt 33: Cluckatrice Accepted"
+      },
+      {
+        "name": "Medallion of Bravery: Return to Roh'kenmou with three fragments",
+        "ref": "Main/Initial/Medallion of Bravery: Return to Roh'kenmou with three fragments"
+      },
+      {
+        "name": "Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion",
+        "ref": "Main/Initial/Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion"
+      },
+      {
+        "name": "Defeat Vossler",
+        "ref": "Main/Tomb of Raithwall/Defeat Vossler"
+      },
+      {
+        "name": "Behemoth King Accepted",
+        "ref": "Main/Lowtown/Behemoth King Accepted"
       }
     ]
   }

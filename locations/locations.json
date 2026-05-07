@@ -8127,11 +8127,74 @@
             "hosted_item": "orthros_started"
           },
           {
+            "name": "Hunt 36: Gil Snapper Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "gil_snapper_started"
+          },
+          {
+            "name": "Hunt 37: Trickster Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "trickster_started"
+          },
+          {
+            "name": "Hunt 38: Antlion Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "antlion_started"
+          },
+          {
+            "name": "Hunt 39: Carrot Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "carrot_started"
+          },
+          {
+            "name": "Hunt 40: Gilgamesh Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "gilgamesh_started"
+          },
+          {
+            "name": "Hunt 41: Belito Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "belito_started"
+          },
+          {
             "name": "Hunt 42: Behemoth King Started",
             "visibility_rules": [
               "place_hunts"
             ],
             "hosted_item": "behemoth_king_started"
+          },
+          {
+            "name": "Hunt 43: Ixion Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "ixion_started"
+          },
+          {
+            "name": "Hunt 44: Shadowseer Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "shadowseer_started"
+          },
+          {
+            "name": "Hunt 45: Yiazmat Started",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "hosted_item": "yiazmat_started"
           },
           {
             "name": "Hunt 41: Belito",

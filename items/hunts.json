@@ -1,326 +1,434 @@
 [
-    {
-        "name": "Rogue Tomato",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "rogue_tomato"
-    },
-    {
-        "name": "Thextera",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "thextera"
-    },
-    {
-        "name": "Flowering Cactoid",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "flowering_cactoid"
-    },
-    {
-        "name": "Wraith",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "wraith"
-    },
-    {
-        "name": "Nidhogg",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "nidhogg"
-    },
-    {
-        "name": "White Mousse",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "white_mousse"
-    },
-    {
-        "name": "Ring Wyrm",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "ring_wyrm"
-    },
-    {
-        "name": "Wyvern Lord",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "wyvern_lord"
-    },
-    {
-        "name": "Marilith",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "marilith"
-    },
-    {
-        "name": "Enkelados",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "enkelados"
-    },
-    {
-        "name": "Croakadile",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "croakadile"
-    },
-    {
-        "name": "Ixtab",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "ixtab"
-    },
-    {
-        "name": "Feral Retriever",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "feral_retriever"
-    },
-    {
-        "name": "Vorpal Bunny",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "vorpal_bunny"
-    },
-    {
-        "name": "Mindflayer",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "mindflayer"
-    },
-    {
-        "name": "Bloodwing",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "bloodwing"
-    },
-    {
-        "name": "Atomos",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "atomos"
-    },
-    {
-        "name": "Roblon",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "roblon"
-    },
-    {
-        "name": "Braegh",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "braegh"
-    },
-    {
-        "name": "Darksteel",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "darksteel"
-    },
-    {
-        "name": "Vyraal",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "vyraal"
-    },
-    {
-        "name": "Lindwyrm",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "lindwyrm"
-    },
-    {
-        "name": "Overlord",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "overlord"
-    },
-    {
-        "name": "Goliath",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "goliath"
-    },
-    {
-        "name": "Deathscythe",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "deathscythe"
-    },
-    {
-        "name": "Deathgaze",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "deathgaze"
-    },
-    {
-        "name": "Diabolos",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "diabolos"
-    },
-    {
-        "name": "Piscodaemon",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "piscodaemon"
-    },
-    {
-        "name": "Wild Malboro",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "wild_malboro"
-    },
-    {
-        "name": "Catoblepas",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "catoblepas"
-    },
-    {
-        "name": "Fafnir",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "fafnir"
-    },
-    {
-        "name": "Pylraster",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "pylraster"
-    },
-    {
-      "name": "Cluckatrice Started",
-      "type": "toggle",
-      "img": "images/items/montblanc.png",
-      "codes": "cluckatrice_started"
-    },
-    {
-      "name": "Cluckatrice Accepted",
-      "type": "toggle",
-      "img": "images/items/target.png",
-      "codes": "cluckatrice_accepted"
-    },
-    {
-        "name": "Cluckatrice",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "cluckatrice"
-    },
-    {
-      "name": "Rocktoise Started",
-      "type": "toggle",
-      "img": "images/items/montblanc.png",
-      "codes": "rocktoise_started"
-    },
-    {
-      "name": "Rocktoise Accepted",
-      "type": "toggle",
-      "img": "images/items/target.png",
-      "codes": "rocktoise_accepted"
-    },
-    {
-        "name": "Rocktoise",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "rocktoise"
-    },
-    {
-      "name": "Orthros Accepted",
-      "type": "toggle",
-      "img": "images/items/target.png",
-      "codes": "orthros_accepted"
-    },
-    {
-      "name": "Orthros Started",
-      "type": "toggle",
-      "img": "images/items/montblanc.png",
-      "codes": "orthros_started"
-    },
-    {
-        "name": "Orthros",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "orthros"
-    },
-    {
-        "name": "Gil Snapper",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "gil_snapper"
-    },
-    {
-        "name": "Trickster",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "trickster"
-    },
-    {
-        "name": "Antlion",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "antlion"
-    },
-    {
-        "name": "Carrot",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "carrot"
-    },
-    {
-        "name": "Gilgamesh 1",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "gilgamesh1"
-    },
-    {
-        "name": "Gilgamesh 2",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "gilgamesh2"
-    },
-    {
-        "name": "Belito",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "belito"
-    },
-    {
-      "name": "Behemoth King Accepted",
-      "type": "toggle",
-      "img": "images/items/target.png",
-      "codes": "behemoth_king_accepted"
-    },
-    {
-      "name": "Behemoth King Started",
-      "type": "toggle",
-      "img": "images/items/montblanc.png",
-      "codes": "behemoth_king_started"
-    },
-    {
-        "name": "Behemoth King",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "behemoth_king"
-    },
-    {
-        "name": "Ixion",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "ixion"
-    },
-    {
-        "name": "Shadowseer",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "shadowseer"
-    },
-    {
-        "name": "Yiazmat",
-        "type": "toggle",
-        "img": "images/items/hunt.png",
-        "codes": "yiazmat"
-    }
+  {
+    "name": "Rogue Tomato",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "rogue_tomato"
+  },
+  {
+    "name": "Thextera",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "thextera"
+  },
+  {
+    "name": "Flowering Cactoid",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "flowering_cactoid"
+  },
+  {
+    "name": "Wraith",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "wraith"
+  },
+  {
+    "name": "Nidhogg",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "nidhogg"
+  },
+  {
+    "name": "White Mousse",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "white_mousse"
+  },
+  {
+    "name": "Ring Wyrm",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "ring_wyrm"
+  },
+  {
+    "name": "Wyvern Lord",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "wyvern_lord"
+  },
+  {
+    "name": "Marilith",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "marilith"
+  },
+  {
+    "name": "Enkelados",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "enkelados"
+  },
+  {
+    "name": "Croakadile",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "croakadile"
+  },
+  {
+    "name": "Ixtab",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "ixtab"
+  },
+  {
+    "name": "Feral Retriever",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "feral_retriever"
+  },
+  {
+    "name": "Vorpal Bunny",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "vorpal_bunny"
+  },
+  {
+    "name": "Mindflayer",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "mindflayer"
+  },
+  {
+    "name": "Bloodwing",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "bloodwing"
+  },
+  {
+    "name": "Atomos",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "atomos"
+  },
+  {
+    "name": "Roblon",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "roblon"
+  },
+  {
+    "name": "Braegh",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "braegh"
+  },
+  {
+    "name": "Darksteel",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "darksteel"
+  },
+  {
+    "name": "Vyraal",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "vyraal"
+  },
+  {
+    "name": "Lindwyrm",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "lindwyrm"
+  },
+  {
+    "name": "Overlord",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "overlord"
+  },
+  {
+    "name": "Goliath",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "goliath"
+  },
+  {
+    "name": "Deathscythe",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "deathscythe"
+  },
+  {
+    "name": "Deathgaze",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "deathgaze"
+  },
+  {
+    "name": "Diabolos",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "diabolos"
+  },
+  {
+    "name": "Piscodaemon",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "piscodaemon"
+  },
+  {
+    "name": "Wild Malboro",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "wild_malboro"
+  },
+  {
+    "name": "Catoblepas",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "catoblepas"
+  },
+  {
+    "name": "Fafnir",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "fafnir"
+  },
+  {
+    "name": "Pylraster",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "pylraster"
+  },
+  {
+    "name": "Cluckatrice Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "cluckatrice_started"
+  },
+  {
+    "name": "Cluckatrice Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "cluckatrice_accepted"
+  },
+  {
+    "name": "Cluckatrice",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "cluckatrice"
+  },
+  {
+    "name": "Rocktoise Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "rocktoise_started"
+  },
+  {
+    "name": "Rocktoise Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "rocktoise_accepted"
+  },
+  {
+    "name": "Rocktoise",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "rocktoise"
+  },
+  {
+    "name": "Orthros Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "orthros_accepted"
+  },
+  {
+    "name": "Orthros Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "orthros_started"
+  },
+  {
+    "name": "Orthros",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "orthros"
+  },
+  {
+    "name": "Gil Snapper Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "gil_snapper_started"
+  },
+  {
+    "name": "Gil Snapper Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "gil_snapper_accepted"
+  },
+  {
+    "name": "Gil Snapper",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "gil_snapper"
+  },
+  {
+    "name": "Trickster Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "trickster_started"
+  },
+  {
+    "name": "Trickster Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "trickster_accepted"
+  },
+  {
+    "name": "Trickster",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "trickster"
+  },
+  {
+    "name": "Antlion Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "antlion_started"
+  },
+  {
+    "name": "Antlion Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "antlion_accepted"
+  },
+  {
+    "name": "Antlion",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "antlion"
+  },
+  {
+    "name": "Carrot Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "carrot_started"
+  },
+  {
+    "name": "Carrot Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "carrot_accepted"
+  },
+  {
+    "name": "Carrot",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "carrot"
+  },
+  {
+    "name": "Gilgamesh Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "gilgamesh_started"
+  },
+  {
+    "name": "Gilgamesh Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "gilgamesh_accepted"
+  },
+  {
+    "name": "Gilgamesh 1",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "gilgamesh1"
+  },
+  {
+    "name": "Gilgamesh 2",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "gilgamesh2"
+  },
+  {
+    "name": "Belito Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "belito_accepted"
+  },
+  {
+    "name": "Belito Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "belito_started"
+  },
+  {
+    "name": "Belito",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "belito"
+  },
+  {
+    "name": "Behemoth King Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "behemoth_king_started"
+  },
+  {
+    "name": "Behemoth King Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "behemoth_king_accepted"
+  },
+  {
+    "name": "Behemoth King",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "behemoth_king"
+  },
+  {
+    "name": "Ixion Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "ixion_started"
+  },
+  {
+    "name": "Ixion Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "ixion_accepted"
+  },
+  {
+    "name": "Ixion",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "ixion"
+  },
+  {
+    "name": "Shadowseer Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "shadowseer_started"
+  },
+  {
+    "name": "Shadowseer Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "shadowseer_accepted"
+  },
+  {
+    "name": "Shadowseer",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "shadowseer"
+  },
+  {
+    "name": "Yiazmat Started",
+    "type": "toggle",
+    "img": "images/items/montblanc.png",
+    "codes": "yiazmat_started"
+  },
+  {
+    "name": "Yiazmat Accepted",
+    "type": "toggle",
+    "img": "images/items/target.png",
+    "codes": "yiazmat_accepted"
+  },
+  {
+    "name": "Yiazmat",
+    "type": "toggle",
+    "img": "images/items/hunt.png",
+    "codes": "yiazmat"
+  }
 ]
