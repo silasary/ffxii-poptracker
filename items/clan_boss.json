@@ -84,10 +84,10 @@
     "codes": "rafflesia"
   },
   {
-    "name": "Daedulus",
+    "name": "Daedalus",
     "type": "toggle",
     "img": "images/items/hunt.png",
-    "codes": "daedulus"
+    "codes": "daedalus"
   },
   {
     "name": "Tyrant",

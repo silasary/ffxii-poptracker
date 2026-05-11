@@ -4589,14 +4589,14 @@
         ],
         "sections": [
           {
-            "name": "Defeat Daedulus",
+            "name": "Defeat Daedalus",
             "access_rules": [
               "[$scaled_difficulty|5]"
             ],
             "visibility_rules": [
               "place_clan_boss"
             ],
-            "hosted_item": "daedulus"
+            "hosted_item": "daedalus"
           },
           {
             "name": "Defeat Tyrant",
@@ -8477,12 +8477,12 @@
             ]
           },
           {
-            "name": "Clan Boss: Daedulus",
+            "name": "Clan Boss: Daedalus",
             "visibility_rules": [
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,daedulus"
+              "belias,^$paramina_rift,daedalus"
             ]
           },
           {
