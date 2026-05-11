@@ -8,7 +8,60 @@
         "y": 24
       }
     ],
-    "sections": []
+    "sections": [
+      {
+        "name": "Earth Tyrant Complete",
+        "ref": "Main/Initial/Earth Tyrant Complete"
+      },
+      {
+        "name": "Medallion of Bravery: Return to Roh'kenmou with three fragments",
+        "ref": "Main/Initial/Medallion of Bravery: Return to Roh'kenmou with three fragments"
+      },
+      {
+        "name": "Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion",
+        "ref": "Main/Initial/Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion"
+      },
+      {
+        "name": "Defeat Vossler",
+        "ref": "Main/Tomb of Raithwall/Defeat Vossler"
+      },
+      {
+        "name": "Hunt 36: Gil Snapper Started",
+        "ref": "Main/Clan Hall/Hunt 36: Gil Snapper Started"
+      },
+      {
+        "name": "Hunt 37: Trickster Started",
+        "ref": "Main/Clan Hall/Hunt 37: Trickster Started"
+      },
+      {
+        "name": "Hunt 38: Antlion Started",
+        "ref": "Main/Clan Hall/Hunt 38: Antlion Started"
+      },
+      {
+        "name": "Hunt 39: Carrot Started",
+        "ref": "Main/Clan Hall/Hunt 39: Carrot Started"
+      },
+      {
+        "name": "Hunt 40: Gilgamesh Started",
+        "ref": "Main/Clan Hall/Hunt 40: Gilgamesh Started"
+      },
+      {
+        "name": "Hunt 41: Belito Started",
+        "ref": "Main/Clan Hall/Hunt 41: Belito Started"
+      },
+      {
+        "name": "Hunt 43: Ixion Started",
+        "ref": "Main/Clan Hall/Hunt 43: Ixion Started"
+      },
+      {
+        "name": "Hunt 44: Shadowseer Started",
+        "ref": "Main/Clan Hall/Hunt 44: Shadowseer Started"
+      },
+      {
+        "name": "Hunt 45: Yiazmat Started",
+        "ref": "Main/Clan Hall/Hunt 45: Yiazmat Started"
+      }
+    ]
   },
   {
     "name": "Rabanastre",

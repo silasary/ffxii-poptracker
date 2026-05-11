@@ -7772,6 +7772,16 @@
             ]
           },
           {
+            "name": "Hunt 43: Ixion Accepted",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "access_rules": [
+              "ixion_started"
+            ],
+            "hosted_item": "ixion_accepted"
+          },
+          {
             "name": "Hunt 43: Ixion",
             "visibility_rules": [
               "place_hunts"
