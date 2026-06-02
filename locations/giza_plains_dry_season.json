@@ -121,10 +121,6 @@
             "ref": "Main/Giza Plains Dry/Toam Hills Treasure 4"
           },
           {
-            "name": "Toam Hills Treasure 5",
-            "ref": "Main/Giza Plains Dry/Toam Hills Treasure 5"
-          },
-          {
             "name": "Toam Hills Treasure 6",
             "ref": "Main/Giza Plains Dry/Toam Hills Treasure 6"
           },
@@ -159,10 +155,6 @@
           {
             "name": "Starfall Field Treasure 7",
             "ref": "Main/Giza Plains Dry/Starfall Field Treasure 7"
-          },
-          {
-            "name": "Starfall Field Treasure 8",
-            "ref": "Main/Giza Plains Dry/Starfall Field Treasure 8"
           },
           {
             "name": "Starfall Field Treasure 9",
@@ -247,6 +239,54 @@
           {
             "name": "Nazarnir - Maned Trophy",
             "ref": "Main/Giza Plains Dry/Nazarnir - Maned Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Toam Hills Treasure 5",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 553,
+            "y": 595
+          }
+        ],
+        "sections": [
+          {
+            "name": "Toam Hills Treasure 5",
+            "ref": "Main/Giza Plains Dry/Toam Hills Treasure 5"
+          }
+        ]
+      },
+      {
+        "name": "Starfall Field Treasure 4",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 660,
+            "y": 905
+          }
+        ],
+        "sections": [
+          {
+            "name": "Starfall Field Treasure 4",
+            "ref": "Main/Giza Plains Dry/Starfall Field Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Starfall Field Treasure 8",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 525,
+            "y": 925
+          }
+        ],
+        "sections": [
+          {
+            "name": "Starfall Field Treasure 8",
+            "ref": "Main/Giza Plains Dry/Starfall Field Treasure 8"
           }
         ]
       }

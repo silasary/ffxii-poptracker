@@ -114,10 +114,6 @@
             "ref": "Main/Lowtown/South Sprawl Treasure 2"
           },
           {
-            "name": "South Sprawl Treasure 3",
-            "ref": "Main/Lowtown/South Sprawl Treasure 3"
-          },
-          {
             "name": "South Sprawl Treasure 4",
             "ref": "Main/Lowtown/South Sprawl Treasure 4"
           },
@@ -204,6 +200,22 @@
           {
             "name": "Earth Tyrant Quest: Speak to Northon",
             "ref": "Main/Lowtown/Earth Tyrant Quest: Speak to Northon"
+          }
+        ]
+      },
+      {
+        "name": "South Sprawl Chest 3",
+        "map_locations": [
+          {
+            "map": "lowtown",
+            "x": 417,
+            "y": 745
+          }
+        ],
+        "sections": [
+          {
+            "name": "South Sprawl Treasure 3",
+            "ref": "Main/Lowtown/South Sprawl Treasure 3"
           }
         ]
       }
