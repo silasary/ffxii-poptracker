@@ -98,12 +98,12 @@ function sandseas()
         return AccessibilityLevel.SequenceBreak
     end
 end
-
 function tchita_uplands()
     if defeat_bergan() == AccessibilityLevel.Normal or
         (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or
         earth_tyrant() == AccessibilityLevel.Normal or
         (Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero') and scaled_difficulty(4)) or
+        (Tracker:ProviderCountForCode('lab_access_card') > 0 and aero('arc_aero') and (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0) and scaled_difficulty(5)) or
         cid2() == AccessibilityLevel.Normal or
 		has_n_system_access_keys(3) or
         (aero('bal_aero') and scaled_difficulty(5)) then
@@ -113,6 +113,7 @@ function tchita_uplands()
 		(Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.SequenceBreak) or
 		earth_tyrant() == AccessibilityLevel.SequenceBreak or
 		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and aero('arc_aero')) or
+        (Tracker:ProviderCountForCode('lab_access_card') > 0 and aero('arc_aero') and (Tracker:ProviderCountForCode('pw_chop') >= 3 or Tracker:ProviderCountForCode('sw_chop') > 0)) or
         cid2() == AccessibilityLevel.SequenceBreak or
         aero('bal_aero') then
 			return AccessibilityLevel.SequenceBreak
