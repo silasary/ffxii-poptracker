@@ -21,10 +21,6 @@
             "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 2"
           },
           {
-            "name": "Field of Fallen Wings Treasure 3",
-            "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 3"
-          },
-          {
             "name": "Field of Fallen Wings Treasure 4",
             "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 4"
           },
@@ -220,6 +216,22 @@
           {
             "name": "Killbug - Metallic Trophy",
             "ref": "Main/Ozmone Plain/Killbug - Metallic Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Field of Fallen Wings Treasure 3",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 485,
+            "y": 285
+          }
+        ],
+        "sections": [
+          {
+            "name": "Field of Fallen Wings Treasure 3",
+            "ref": "Main/Ozmone Plain/Field of Fallen Wings Treasure 3"
           }
         ]
       },

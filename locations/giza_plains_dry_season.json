@@ -3,23 +3,15 @@
     "name": "Giza Plains Dry",
     "children": [
       {
-        "name": "Nomad Village Group",
+        "name": "Unmapped Chests",
         "map_locations": [
           {
             "map": "giza_plains_dry_season",
-            "x": 700,
-            "y": 550
+            "x": 100,
+            "y": 100
           }
         ],
         "sections": [
-          {
-            "name": "Party Member (Penelo)",
-            "ref": "Main/Giza Plains Dry/Party Member (Penelo)"
-          },
-          {
-            "name": "Masyua Shadestone (pick up - check only)",
-            "ref": "Main/Giza Plains Dry/Masyua Shadestone"
-          },
           {
             "name": "Throne Road Treasure 1",
             "ref": "Main/Giza Plains Dry/Throne Road Treasure 1"
@@ -137,14 +129,6 @@
             "ref": "Main/Giza Plains Dry/Starfall Field Treasure 2"
           },
           {
-            "name": "Starfall Field Treasure 3",
-            "ref": "Main/Giza Plains Dry/Starfall Field Treasure 3"
-          },
-          {
-            "name": "Starfall Field Treasure 4",
-            "ref": "Main/Giza Plains Dry/Starfall Field Treasure 4"
-          },
-          {
             "name": "Starfall Field Treasure 5",
             "ref": "Main/Giza Plains Dry/Starfall Field Treasure 5"
           },
@@ -191,6 +175,26 @@
           {
             "name": "Gizas South Bank Treasure 6",
             "ref": "Main/Giza Plains Dry/Gizas South Bank Treasure 6"
+          }
+        ]
+      },
+      {
+        "name": "Nomad Village Group",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 700,
+            "y": 550
+          }
+        ],
+        "sections": [
+          {
+            "name": "Party Member (Penelo)",
+            "ref": "Main/Giza Plains Dry/Party Member (Penelo)"
+          },
+          {
+            "name": "Masyua Shadestone (pick up - check only)",
+            "ref": "Main/Giza Plains Dry/Masyua Shadestone"
           },
           {
             "name": "Sunstone Turn-in",
@@ -255,6 +259,22 @@
           {
             "name": "Toam Hills Treasure 5",
             "ref": "Main/Giza Plains Dry/Toam Hills Treasure 5"
+          }
+        ]
+      },
+      {
+        "name": "Starfall Field Treasure 3",
+        "map_locations": [
+          {
+            "map": "giza_plains_dry_season",
+            "x": 465,
+            "y": 905
+          }
+        ],
+        "sections": [
+          {
+            "name": "Starfall Field Treasure 3",
+            "ref": "Main/Giza Plains Dry/Starfall Field Treasure 3"
           }
         ]
       },
