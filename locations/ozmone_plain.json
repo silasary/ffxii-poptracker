@@ -96,7 +96,6 @@
             "name": "Haulo Green Treasure 10",
             "ref": "Main/Ozmone Plain/Haulo Green Treasure 10"
           },
-
           {
             "name": "Dagan Flats Treasure 1",
             "ref": "Main/Ozmone Plain/Dagan Flats Treasure 1"
@@ -112,10 +111,6 @@
           {
             "name": "Dagan Flats Treasure 4",
             "ref": "Main/Ozmone Plain/Dagan Flats Treasure 4"
-          },
-          {
-            "name": "Dagan Flats Treasure 5",
-            "ref": "Main/Ozmone Plain/Dagan Flats Treasure 5"
           },
           {
             "name": "Dagan Flats Treasure 6",
@@ -148,14 +143,6 @@
           {
             "name": "The Shred Treasure 1",
             "ref": "Main/Ozmone Plain/The Shred Treasure 1"
-          },
-          {
-            "name": "The Shred Treasure 2",
-            "ref": "Main/Ozmone Plain/The Shred Treasure 2"
-          },
-          {
-            "name": "The Shred Treasure 3",
-            "ref": "Main/Ozmone Plain/The Shred Treasure 3"
           },
           {
             "name": "The Shred Treasure 4",
@@ -316,6 +303,42 @@
           {
             "name": "Haulo Green Treasure 11",
             "ref": "Main/Ozmone Plain/Haulo Green Treasure 11"
+          }
+        ]
+      },
+      {
+        "name": "Dagan Flats Treasure 5",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 985,
+            "y": 650
+          }
+        ],
+        "sections": [
+          {
+            "name": "Dagan Flats Treasure 5",
+            "ref": "Main/Ozmone Plain/Dagan Flats Treasure 5"
+          }
+        ]
+      },
+      {
+        "name": "The Shred Treasures 2 & 3",
+        "map_locations": [
+          {
+            "map": "ozmone_plain",
+            "x": 1170,
+            "y": 852
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Shred Treasure 2",
+            "ref": "Main/Ozmone Plain/The Shred Treasure 2"
+          },
+          {
+            "name": "The Shred Treasure 3",
+            "ref": "Main/Ozmone Plain/The Shred Treasure 3"
           }
         ]
       }

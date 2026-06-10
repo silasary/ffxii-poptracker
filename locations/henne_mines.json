@@ -33,10 +33,6 @@
         ],
         "sections": [
           {
-            "name": "Phase 1 Dig Treasure 1",
-            "ref": "Main/Henne Mines/Phase 1 Dig Treasure 1"
-          },
-          {
             "name": "Phase 1 Dig Treasure 2",
             "ref": "Main/Henne Mines/Phase 1 Dig Treasure 2"
           },
@@ -151,7 +147,7 @@
         ]
       },
       {
-        "name": "Henn Mines Deep Chests",
+        "name": "Henne Mines Deep Chests",
         "map_locations": [
           {
             "map": "henne_mines",
@@ -327,6 +323,22 @@
           {
             "name": "Melt - Slimy Trophy",
             "ref": "Main/Henne Mines/Melt - Slimy Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Phase 1 Dig Treasure 1",
+        "map_locations": [
+          {
+            "map": "henne_mines",
+            "x": 342,
+            "y": 811
+          }
+        ],
+        "sections": [
+          {
+            "name": "Phase 1 Dig Treasure 1",
+            "ref": "Main/Henne Mines/Phase 1 Dig Treasure 1"
           }
         ]
       }
