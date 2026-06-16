@@ -147,6 +147,22 @@
         ]
       },
       {
+        "name": "The Reseta Strand Treasure 5",
+        "map_locations": [
+          {
+            "map": "phon_coast",
+            "x": 499,
+            "y": 523
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Reseta Strand Treasure 5",
+            "ref": "Main/Phon Coast/The Reseta Strand Treasure 5"
+          }
+        ]
+      },
+      {
         "name": "Unmapped Chests",
         "map_locations": [
           {
@@ -171,10 +187,6 @@
           {
             "name": "The Reseta Strand Treasure 4",
             "ref": "Main/Phon Coast/The Reseta Strand Treasure 4"
-          },
-          {
-            "name": "The Reseta Strand Treasure 5",
-            "ref": "Main/Phon Coast/The Reseta Strand Treasure 5"
           },
           {
             "name": "The Reseta Strand Treasure 6",

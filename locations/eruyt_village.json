@@ -19,10 +19,6 @@
           {
             "name": "The Spiritwood Treasure 1",
             "ref": "Main/Eruyt Village/The Spiritwood Treasure 1"
-          },
-          {
-            "name": "The Spiritwood Treasure 2",
-            "ref": "Main/Eruyt Village/The Spiritwood Treasure 2"
           }
         ]
       },
@@ -71,6 +67,22 @@
           {
             "name": "Hunt 29: Wild Malboro - Rena",
             "ref": "Main/Eruyt Village/Hunt 29: Wild Malboro"
+          }
+        ]
+      },
+      {
+        "name": "The Spiritwood Treasure 2",
+        "map_locations": [
+          {
+            "map": "eruyt_village",
+            "x": 415,
+            "y": 412
+          }
+        ],
+        "sections": [
+          {
+            "name": "The Spiritwood Treasure 2",
+            "ref": "Main/Eruyt Village/The Spiritwood Treasure 2"
           }
         ]
       }

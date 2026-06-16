@@ -3,12 +3,12 @@
     "name": "Westersand",
     "children": [
       {
-        "name": "Chests",
+        "name": "Unmapped Chests",
         "map_locations": [
           {
             "map": "dalmasca_westersand",
-            "x": 340,
-            "y": 765
+            "x": 100,
+            "y": 100
           }
         ],
         "sections": [
@@ -23,10 +23,6 @@
           {
             "name": "Galtea Downs Treasure 3",
             "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 3"
-          },
-          {
-            "name": "Galtea Downs Treasure 4",
-            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 4"
           },
           {
             "name": "Galtea Downs Treasure 5",
@@ -275,6 +271,54 @@
           {
             "name": "Kaiser Wolf - Fanged Trophy",
             "ref": "Main/Dalmasca Westersand/Kaiser Wolf - Fanged Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Galtea Downs Treasure 2",
+        "map_locations": [
+          {
+            "map": "dalmasca_westersand",
+            "x": 1550,
+            "y": 640
+          }
+        ],
+        "sections": [
+          {
+            "name": "Galtea Downs Treasure 2",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Galtea Downs Treasure 4",
+        "map_locations": [
+          {
+            "map": "dalmasca_westersand",
+            "x": 1455,
+            "y": 600
+          }
+        ],
+        "sections": [
+          {
+            "name": "Galtea Downs Treasure 4",
+            "ref": "Main/Dalmasca Westersand/Galtea Downs Treasure 4"
+          }
+        ]
+      },
+            {
+        "name": "Windtrace Dunes Treasure 8",
+        "map_locations": [
+          {
+            "map": "dalmasca_westersand",
+            "x": 725,
+            "y": 688
+          }
+        ],
+        "sections": [
+          {
+            "name": "Windtrace Dunes Treasure 8",
+            "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 8"
           }
         ]
       }

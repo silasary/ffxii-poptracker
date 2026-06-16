@@ -177,10 +177,6 @@
             "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 7"
           },
           {
-            "name": "Northern Skirts Treasure 8",
-            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 8"
-          },
-          {
             "name": "Northern Skirts Treasure 9",
             "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 9"
           },
@@ -239,6 +235,10 @@
           {
             "name": "Defeat Atomos",
             "ref": "Main/Mosphoran Highwaste/Defeat Atomos"
+          },
+          {
+            "name": "Northern Skirts Treasure 8",
+            "ref": "Main/Mosphoran Highwaste/Northern Skirts Treasure 8"
           }
         ]
       },
