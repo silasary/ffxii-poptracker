@@ -25,10 +25,6 @@
             "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 3"
           },
           {
-            "name": "Alley of Muted Sighs Treasure 4",
-            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 4"
-          },
-          {
             "name": "Alley of Muted Sighs Treasure 5",
             "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 5"
           },
@@ -41,16 +37,8 @@
             "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 7"
           },
           {
-            "name": "Alley of Muted Sighs Treasure 8",
-            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 8"
-          },
-          {
             "name": "Alley of Muted Sighs Treasure 9",
             "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 9"
-          },
-          {
-            "name": "Alley of Low Whispers Treasure 1",
-            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 1"
           },
           {
             "name": "Alley of Low Whispers Treasure 2",
@@ -71,10 +59,6 @@
           {
             "name": "Alley of Low Whispers Treasure 6",
             "ref": "Main/Old Archades/Alley of Low Whispers Treasure 6"
-          },
-          {
-            "name": "Alley of Low Whispers Treasure 7",
-            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 7"
           },
           {
             "name": "Alley of Low Whispers Treasure 8",
@@ -123,6 +107,86 @@
           {
             "name": "Moonsilver Medallion",
             "ref": "Main/Old Archades/Moonsilver Medallion"
+          }
+        ]
+      },
+      {
+        "name": "Alley of Low Whispers Treasure 1",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 1532,
+            "y": 175
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alley of Low Whispers Treasure 1",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 1"
+          }
+        ]
+      },
+      {
+        "name": "Alley of Low Whispers Treasure 4",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 1462,
+            "y": 253
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alley of Low Whispers Treasure 4",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Alley of Low Whispers Treasure 7",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 1472,
+            "y": 462
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alley of Low Whispers Treasure 7",
+            "ref": "Main/Old Archades/Alley of Low Whispers Treasure 7"
+          }
+        ]
+      },
+      {
+        "name": "Alley of Muted Sighs Treasure 4",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 581,
+            "y": 177
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alley of Muted Sighs Treasure 4",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Alley of Muted Sighs Treasure 8",
+        "map_locations": [
+          {
+            "map": "old_archades",
+            "x": 234,
+            "y": 318
+          }
+        ],
+        "sections": [
+          {
+            "name": "Alley of Muted Sighs Treasure 8",
+            "ref": "Main/Old Archades/Alley of Muted Sighs Treasure 8"
           }
         ]
       }

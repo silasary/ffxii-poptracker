@@ -28,26 +28,35 @@
           }
         ],
         "sections": [
+          
+        ]
+      },
+      {
+        "name": "Cid Fight",
+        "map_locations": [
           {
-            "name": "6613 East Treasure 1",
-            "ref": "Main/Draklor Laboratory/6613 East Treasure 1"
-          },
+            "map": "draklor_laboratory",
+            "x": 250,
+            "y": 65
+          }
+        ],
+        "sections": [
           {
-            "name": "6613 East Treasure 2",
-            "ref": "Main/Draklor Laboratory/6613 East Treasure 2"
-          },
+            "name": "Defeat Cid 1",
+            "ref": "Main/Draklor Laboratory/Defeat Cid 1"
+          }
+        ]
+      },
+      {
+        "name": "6711 West",
+        "map_locations": [
           {
-            "name": "6613 East Treasure 3",
-            "ref": "Main/Draklor Laboratory/6613 East Treasure 3"
-          },
-          {
-            "name": "7002 East Treasure 1",
-            "ref": "Main/Draklor Laboratory/7002 East Treasure 1"
-          },
-          {
-            "name": "7002 East Treasure 2",
-            "ref": "Main/Draklor Laboratory/7002 East Treasure 2"
-          },
+            "map": "draklor_laboratory",
+            "x": 184,
+            "y": 678
+          }
+        ],
+        "sections": [
           {
             "name": "6711 West Treasure 1",
             "ref": "Main/Draklor Laboratory/6711 West Treasure 1"
@@ -59,7 +68,43 @@
           {
             "name": "6711 West Treasure 3",
             "ref": "Main/Draklor Laboratory/6711 West Treasure 3"
+          }
+        ]
+      },
+      {
+        "name": "6613 East",
+        "map_locations": [
+          {
+            "map": "draklor_laboratory",
+            "x": 323,
+            "y": 790
+          }
+        ],
+        "sections": [
+          {
+            "name": "6613 East Treasure 1",
+            "ref": "Main/Draklor Laboratory/6613 East Treasure 1"
           },
+          {
+            "name": "6613 East Treasure 2",
+            "ref": "Main/Draklor Laboratory/6613 East Treasure 2"
+          },
+          {
+            "name": "6613 East Treasure 3",
+            "ref": "Main/Draklor Laboratory/6613 East Treasure 3"
+          }
+        ]
+      },
+      {
+        "name": "6801 West",
+        "map_locations": [
+          {
+            "map": "draklor_laboratory",
+            "x": 219,
+            "y": 460
+          }
+        ],
+        "sections": [
           {
             "name": "6801 West Treasure 1",
             "ref": "Main/Draklor Laboratory/6801 West Treasure 1"
@@ -79,18 +124,22 @@
         ]
       },
       {
-        "name": "Cid Fight",
+        "name": "7002 East",
         "map_locations": [
           {
             "map": "draklor_laboratory",
-            "x": 250,
-            "y": 65
+            "x": 284,
+            "y": 190
           }
         ],
         "sections": [
           {
-            "name": "Defeat Cid 1",
-            "ref": "Main/Draklor Laboratory/Defeat Cid 1"
+            "name": "7002 East Treasure 1",
+            "ref": "Main/Draklor Laboratory/7002 East Treasure 1"
+          },
+          {
+            "name": "7002 East Treasure 2",
+            "ref": "Main/Draklor Laboratory/7002 East Treasure 2"
           }
         ]
       }
