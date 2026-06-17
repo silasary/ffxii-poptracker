@@ -225,10 +225,6 @@
                 "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 10"
               },
               {
-                "name": "North Liavell Hills Treasure 11",
-                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 11"
-              },
-              {
                 "name": "North Liavell Hills Treasure 12",
                 "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 12"
               },
@@ -291,10 +287,6 @@
               {
                 "name": "South Liavell Hills Treasure 14",
                 "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 14"
-              },
-              {
-                "name": "South Liavell Hills Treasure 15",
-                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 15"
               },
               {
                 "name": "Feddik River Treasure 1",
@@ -488,7 +480,57 @@
                 "y": 825
               }
             ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 11",
+            "sections": [
+              {
+                "name": "North Liavell Hills Treasure 11",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 11"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 817,
+                "y": 1056
+              }
+            ]
+          },
+          {
+            "name": "North Liavell Hills Treasure 11",
+            "sections": [
+              {
+                "name": "North Liavell Hills Treasure 11",
+                "ref": "Main/Cerobi Steppe/North Liavell Hills Treasure 11"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 852,
+                "y": 1112
+              }
+            ]
+          },
+          {
+            "name": "South Liavell Hills Treasure 15",
+            "sections": [
+              {
+                "name": "South Liavell Hills Treasure 15",
+                "ref": "Main/Cerobi Steppe/South Liavell Hills Treasure 15"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "cerobi_steppe",
+                "x": 1171,
+                "y": 1203
+              }
+            ]
           }
+
+          
         ]
       }
     ]

@@ -37,10 +37,6 @@
         ],
         "sections": [
           {
-            "name": "Sea Breeze Lane Treasure 1",
-            "ref": "Main/Balfonheim/Sea Breeze Lane Treasure 1"
-          },
-          {
             "name": "Sea Breeze Lane Treasure 2",
             "ref": "Main/Balfonheim/Sea Breeze Lane Treasure 2"
           },
@@ -81,7 +77,25 @@
             "ref": "Main/Balfonheim/Hunt 43: Ixion"
           }
         ]
+      },
+      {
+        "name": "Sea Breeze Lane Treasure 1",
+        "map_locations": [
+          {
+            "map": "balfonheim_port",
+            "x": 901,
+            "y": 279
+          }
+        ],
+        "sections": [
+          {
+            "name": "Sea Breeze Lane Treasure 1",
+            "ref": "Main/Balfonheim/Sea Breeze Lane Treasure 1"
+          }
+        ]
       }
+
+      
     ]
   }
 ]
