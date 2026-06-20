@@ -62,10 +62,6 @@
             "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 5"
           },
           {
-            "name": "Great Eastern Passage Treasure 6",
-            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 6"
-          },
-          {
             "name": "Great Eastern Passage Treasure 7",
             "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 7"
           },
@@ -490,7 +486,29 @@
             "ref": "Main/Barheim Passage/Op Sector 36 Treasure 3"
           }
         ]
+      },
+            {
+        "name": "Great Eastern Passage Treasure 6",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 1245,
+            "y": 530
+          },
+          {
+            "map": "barheim_passage_top",
+            "x": 977,
+            "y": 940
+          }
+        ],
+        "sections": [
+          {
+            "name": "Great Eastern Passage Treasure 6",
+            "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 6"
+          }
+        ]
       }
+
     ]
   }
 ]
