@@ -50,10 +50,6 @@
             "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 8"
           },
           {
-            "name": "Walk of Flitting Rifts Treasure 9",
-            "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 9"
-          },
-          {
             "name": "Walk of Flitting Rifts Treasure 10",
             "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 10"
           },
@@ -64,10 +60,6 @@
           {
             "name": "Walk of Stolen Truths Treasure 1",
             "ref": "Main/Feywood/Walk of Stolen Truths Treasure 1"
-          },
-          {
-            "name": "Walk of Stolen Truths Treasure 2",
-            "ref": "Main/Feywood/Walk of Stolen Truths Treasure 2"
           },
           {
             "name": "Walk of Stolen Truths Treasure 3",
@@ -146,10 +138,6 @@
             "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 11"
           },
           {
-            "name": "Antiquity's End Treasure 1",
-            "ref": "Main/Feywood/Antiquity's End Treasure 1"
-          },
-          {
             "name": "Redolent Glade Treasure 1",
             "ref": "Main/Feywood/Redolent Glade Treasure 1"
           },
@@ -185,10 +173,6 @@
           {
             "name": "White Magick's Embrace Treasure 3",
             "ref": "Main/Feywood/White Magick's Embrace Treasure 3"
-          },
-          {
-            "name": "White Magick's Embrace Treasure 4",
-            "ref": "Main/Feywood/White Magick's Embrace Treasure 4"
           },
           {
             "name": "White Magick's Embrace Treasure 5",
@@ -368,6 +352,90 @@
           {
             "name": "Dreadguard - Feathered Trophy",
             "ref": "Main/Feywood/Dreadguard - Feathered Trophy"
+          }
+        ]
+      },
+      {
+        "name": "Walk of Flitting Rifts Treasure 9",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 380,
+            "y": 225
+          },
+          {
+            "map": "feywood_top",
+            "x": 460,
+            "y": 447
+          }
+        ],
+        "sections": [
+          {
+            "name": "Walk of Flitting Rifts Treasure 9",
+            "ref": "Main/Feywood/Walk of Flitting Rifts Treasure 9"
+          }
+        ]
+      },
+      {
+        "name": "Walk of Stolen Truths Treasure 2",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 380,
+            "y": 225
+          },
+          {
+            "map": "feywood_top",
+            "x": 627,
+            "y": 377
+          }
+        ],
+        "sections": [
+          {
+            "name": "Walk of Stolen Truths Treasure 2",
+            "ref": "Main/Feywood/Walk of Stolen Truths Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Antiquity's End Treasure 1",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 488,
+            "y": 513
+          },
+          {
+            "map": "feywood_top",
+            "x": 675,
+            "y": 1026
+          }
+        ],
+        "sections": [
+          {
+            "name": "Antiquity's End Treasure 1",
+            "ref": "Main/Feywood/Antiquity's End Treasure 1"
+          }
+        ]
+      },
+      {
+        "name": "White Magick's Embrace Treasure 4",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 527,
+            "y": 762
+          },
+          {
+            "map": "feywood_bottom",
+            "x": 1260,
+            "y": 180
+          }
+        ],
+        "sections": [
+          {
+            "name": "White Magick's Embrace Treasure 4",
+            "ref": "Main/Feywood/White Magick's Embrace Treasure 4"
           }
         ]
       }

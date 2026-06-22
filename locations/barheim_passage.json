@@ -340,10 +340,6 @@
             "ref": "Main/Barheim Passage/West Annex Treasure 6"
           },
           {
-            "name": "West Annex Treasure 7",
-            "ref": "Main/Barheim Passage/West Annex Treasure 7"
-          },
-          {
             "name": "West Annex Treasure 8",
             "ref": "Main/Barheim Passage/West Annex Treasure 8"
           },
@@ -383,8 +379,8 @@
           },
           {
             "map": "barheim_passage_bottom",
-            "x": 1200,
-            "y": 1100
+            "x": 1057,
+            "y": 1360
           }
         ],
         "sections": [
@@ -487,7 +483,7 @@
           }
         ]
       },
-            {
+      {
         "name": "Great Eastern Passage Treasure 6",
         "map_locations": [
           {
@@ -507,8 +503,49 @@
             "ref": "Main/Barheim Passage/Great Eastern Passage Treasure 6"
           }
         ]
+      },
+      {
+        "name": "West Annex Treasure 7",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 580,
+            "y": 1575
+          },
+          {
+            "map": "barheim_passage_bottom",
+            "x": 1025,
+            "y": 1280
+          }
+        ],
+        "sections": [
+          {
+            "name": "West Annex Treasure 7",
+            "ref": "Main/Barheim Passage/West Annex Treasure 7"
+          }
+        ]
+      },
+      {
+        "name": "West Annex Treasure 10",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 505,
+            "y": 1553
+          },
+          {
+            "map": "barheim_passage_bottom",
+            "x": 895,
+            "y": 1240
+          }
+        ],
+        "sections": [
+          {
+            "name": "West Annex Treasure 10",
+            "ref": "Main/Barheim Passage/West Annex Treasure 10"
+          }
+        ]
       }
-
     ]
   }
 ]

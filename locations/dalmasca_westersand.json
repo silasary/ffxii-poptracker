@@ -53,10 +53,6 @@
             "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 3"
           },
           {
-            "name": "Corridor of Sand Treasure 4",
-            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 4"
-          },
-          {
             "name": "Corridor of Sand Treasure 5",
             "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 5"
           },
@@ -67,10 +63,6 @@
           {
             "name": "Corridor of Sand Treasure 7",
             "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 7"
-          },
-          {
-            "name": "Corridor of Sand Treasure 8",
-            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 8"
           },
           {
             "name": "Corridor of Sand Treasure 9",
@@ -306,7 +298,7 @@
           }
         ]
       },
-            {
+      {
         "name": "Windtrace Dunes Treasure 8",
         "map_locations": [
           {
@@ -319,6 +311,38 @@
           {
             "name": "Windtrace Dunes Treasure 8",
             "ref": "Main/Dalmasca Westersand/Windtrace Dunes Treasure 8"
+          }
+        ]
+      },
+      {
+        "name": "Corridor of Sand Treasure 4",
+        "map_locations": [
+          {
+            "map": "dalmasca_westersand",
+            "x": 1520,
+            "y": 300
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corridor of Sand Treasure 4",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Corridor of Sand Treasure 8",
+        "map_locations": [
+          {
+            "map": "dalmasca_westersand",
+            "x": 1190,
+            "y": 300
+          }
+        ],
+        "sections": [
+          {
+            "name": "Corridor of Sand Treasure 8",
+            "ref": "Main/Dalmasca Westersand/Corridor of Sand Treasure 8"
           }
         ]
       }
