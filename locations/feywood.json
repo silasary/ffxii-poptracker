@@ -98,10 +98,6 @@
             "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 1"
           },
           {
-            "name": "Walk of Dancing Shadow Treasure 2",
-            "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 2"
-          },
-          {
             "name": "Walk of Dancing Shadow Treasure 3",
             "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 3"
           },
@@ -120,10 +116,6 @@
           {
             "name": "Walk of Dancing Shadow Treasure 7",
             "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 7"
-          },
-          {
-            "name": "Walk of Dancing Shadow Treasure 8",
-            "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 8"
           },
           {
             "name": "Walk of Dancing Shadow Treasure 9",
@@ -436,6 +428,48 @@
           {
             "name": "White Magick's Embrace Treasure 4",
             "ref": "Main/Feywood/White Magick's Embrace Treasure 4"
+          }
+        ]
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 2",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 418,
+            "y": 478
+          },
+          {
+            "map": "feywood_top",
+            "x": 535,
+            "y": 956
+          }
+        ],
+        "sections": [
+          {
+            "name": "Walk of Dancing Shadow Treasure 2",
+            "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 2"
+          }
+        ]
+      },
+      {
+        "name": "Walk of Dancing Shadow Treasure 8",
+        "map_locations": [
+          {
+            "map": "feywood",
+            "x": 305,
+            "y": 398
+          },
+          {
+            "map": "feywood_top",
+            "x": 312,
+            "y": 797
+          }
+        ],
+        "sections": [
+          {
+            "name": "Walk of Dancing Shadow Treasure 8",
+            "ref": "Main/Feywood/Walk of Dancing Shadow Treasure 8"
           }
         ]
       }
