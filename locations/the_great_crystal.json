@@ -434,6 +434,623 @@
           }
         ]
       },
+      // The Great Crystal Lower
+      {
+        "name": "Dha Vikaari Kabonii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 455,
+            "y": 542,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|939"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A Vikaari Kanbhru Ra",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 415,
+            "y": 477,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|940"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dhebon Jilaam Praa'dii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 457,
+            "y": 402,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|941"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dhebon Jilaam Pratii'dii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 375,
+            "y": 402,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|942"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sthaana Sagittarius",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 415,
+            "y": 336,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|943"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A Vikaari Sirhru Pratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 331,
+            "y": 477,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|944"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A Vikaari Sirhru Praa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 495,
+            "y": 477,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|945"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dhebon Jilaam Avaapratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 370,
+            "y": 542,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|946"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dha Vikaari Dhebon Praa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 189,
+            "y": 184,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|952"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dha Vikaari Dhebon Pratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 635,
+            "y": 184,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|953"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Phullam Praa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 113,
+            "y": 142,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|954"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sthaana Leo",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 716,
+            "y": 142,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|955"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Phullam Praa'vaa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 113,
+            "y": 68,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|956"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Phullam Pratii'vaa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 716,
+            "y": 68,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|957"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sthaana Gemini",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 265,
+            "y": 221,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|958"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Phullam Udiipratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 569,
+            "y": 216,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|959"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Praa'dii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 341,
+            "y": 184,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|960"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Pratii'dii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 493,
+            "y": 184,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|961"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Praa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 255,
+            "y": 142,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|962"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Pratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 559,
+            "y": 142,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|963"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Praa'vaa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 265,
+            "y": 68,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|964"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Pratii'vaa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 569,
+            "y": 76,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|965"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Pis Praa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 341,
+            "y": 110,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|966"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Pis Pratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 493,
+            "y": 110,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|967"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Pis Avaa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 417,
+            "y": 73,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|968"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Avaapratii",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 493,
+            "y": 31,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|969"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sirhru Jilaam Avaapraa",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 331,
+            "y": 31,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|970"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "A Vikaari Uldobi",
+        "map_locations": [
+          {
+            "map": "the_great_crystal_middle",
+            "x": 412,
+            "y": 50,
+            "shape": "trapezoid"
+          }
+        ],
+        "sections": [
+          {
+            "name": "You Are Here",
+            "access_rules": [
+              "^$blue"
+            ],
+            "visibility_rules": [
+              "$at_map_id|971"
+            ]
+          }
+        ]
+      },
       // Waystone 5-4
       {
         "name": "A Vikaari Bhrum",
