@@ -91,7 +91,7 @@ function ghis()
 end
 
 function sandseas()
-    if Tracker:ProviderCountForCode('access_key') > 0 or ghis() or (Tracker:ProviderCountForCode('rainstone') > 0 and scaled_difficulty(3)) then
+    if Tracker:ProviderCountForCode('access_key') > 0 or (Tracker:ProviderCountForCode('rainstone') > 0 and scaled_difficulty(3)) or ghis() then
         return AccessibilityLevel.Normal
     end
     if Tracker:ProviderCountForCode('rainstone') > 0 then
