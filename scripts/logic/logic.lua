@@ -2,7 +2,7 @@
 
 function scaled_difficulty(n)
     if Tracker:ProviderCountForCode('character_scaled_depth') == 0 then
-        return 1
+        return 99
     end
 
     local char_count = get_char_count()
@@ -98,6 +98,7 @@ function sandseas()
         return AccessibilityLevel.SequenceBreak
     end
 end
+
 function tchita_uplands()
     if defeat_bergan() == AccessibilityLevel.Normal or
         (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or
@@ -161,6 +162,28 @@ function draklor_laboratory()
 			return AccessibilityLevel.SequenceBreak
 		elseif archades() then
 			return AccessibilityLevel.Normal
+		end
+	end
+end
+
+function early_balfonheim()
+	if Tracker:ProviderCountForCode('bal_aero') > 0 then
+		if Tracker:ProviderCountForCode('nal_aero') > 0 or
+			(Tracker:ProviderCountForCode('rab_aero') > 0 and
+				(Tracker:ProviderCountForCode('arc_aero') > 0 or Tracker:ProviderCountForCode('bhu_aero') > 0)) then
+			return AccessibilityLevel.Normal
+		end
+	end
+end
+
+function bhujerba_skyferry()
+	if Tracker:ProviderCountForCode('bhu_aero') > 0 then
+		if early_balfonheim() or
+			Tracker:ProviderCountForCode('rab_aero') > 0 or
+			(tchita_uplands() and scaled_difficulty(5)) then
+				return AccessibilityLevel.Normal
+		elseif tchita_uplands() then
+			return AccessibilityLevel.SequenceBreak
 		end
 	end
 end
