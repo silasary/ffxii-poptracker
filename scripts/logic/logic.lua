@@ -2,7 +2,7 @@
 
 function scaled_difficulty(n)
     if Tracker:ProviderCountForCode('character_scaled_depth') == 0 then
-        return 99
+        return 1
     end
 
     local char_count = get_char_count()
@@ -81,9 +81,9 @@ function earth_tyrant()
 end
 
 function leviathan()
-    return
-        (Tracker:ProviderCountForCode('basch') > 0 or Tracker:ProviderCountForCode('goddess_magicite') > 0) and
-        aero('bhu_aero')
+    if (Tracker:ProviderCountForCode('basch') > 0 or Tracker:ProviderCountForCode('goddess_magicite') > 0) then
+		return bhujerba_skyferry()
+	end
 end
 
 function ghis()
@@ -139,19 +139,21 @@ function dawn_shard()  -- Why is this a function?
 end
 
 function archades()
-    if aero('arc_aero') or (Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.Normal) then
-        return AccessibilityLevel.Normal
+    if archades_skyferry() == AccessibilityLevel.Normal or 
+		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.Normal) then
+			return AccessibilityLevel.Normal
     end
-    if sochen_cave_palace() == AccessibilityLevel.SequenceBreak then
-		return AccessibilityLevel.SequenceBreak
+    if archades_skyferry() == AccessibilityLevel.SequenceBreak or
+		aero('arc_aero') == AccessibilityLevel.SequenceBreak then
+			return AccessibilityLevel.SequenceBreak
 	end
 end
 
 function sochen_cave_palace()
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.Normal or aero('arc_aero')) and scaled_difficulty(4) then
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.Normal or aero('arc_aero') == AccessibilityLevel.Normal) and scaled_difficulty(4) then
         return AccessibilityLevel.Normal
     end
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.SequenceBreak or aero('arc_aero')) then
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.SequenceBreak or aero('arc_aero') == AccessibilityLevel.SequenceBreak) then
 		return AccessibilityLevel.SequenceBreak
 	end
 end
@@ -178,11 +180,24 @@ end
 
 function bhujerba_skyferry()
 	if Tracker:ProviderCountForCode('bhu_aero') > 0 then
+		if early_balfonheim() or 
+			(Tracker:ProviderCountForCode('bal_aero') > 0 and tchita_uplands() == AccessibilityLevel.Normal and scaled_difficulty(5)) or
+			Tracker:ProviderCountForCode('rab_aero') > 0 then
+				return AccessibilityLevel.Normal
+		elseif tchita_uplands() >= AccessibilityLevel.SequenceBreak and Tracker:ProviderCountForCode('bal_aero') > 0 then
+			return AccessibilityLevel.SequenceBreak
+		end
+	end
+end
+
+function archades_skyferry()
+	if Tracker:ProviderCountForCode('arc_aero') > 0 then
 		if early_balfonheim() or
 			Tracker:ProviderCountForCode('rab_aero') > 0 or
-			(tchita_uplands() and scaled_difficulty(5)) then
+			Tracker:ProviderCountForCode('nal_aero') > 0 or
+			(Tracker:ProviderCountForCode('bal_aero') > 0 and tchita_uplands() == AccessibilityLevel.Normal and scaled_difficulty(5)) then
 				return AccessibilityLevel.Normal
-		elseif tchita_uplands() then
+		elseif tchita_uplands() >= AccessibilityLevel.SequenceBreak and Tracker:ProviderCountForCode('bal_aero') > 0 then
 			return AccessibilityLevel.SequenceBreak
 		end
 	end

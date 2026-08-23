@@ -1295,7 +1295,7 @@
       {
         "name": "Dreadnought Leviathan",
         "access_rules": [
-          "$leviathan"
+          "^$leviathan"
         ],
         "sections": [
           {
@@ -7019,7 +7019,7 @@
       {
         "name": "Bhujerba",
         "access_rules": [
-          "$aero|bhu_aero"
+          "^$bhujerba_skyferry"
         ],
         "sections": [
           {
@@ -8010,7 +8010,7 @@
           "$aeroNoStrahl|rab_aero",
           "$aeroNoStrahl|nal_aero",
           "^$bhujerba_skyferry",
-          "$aeroNoStrahl|arc_aero",
+          "^$archades_skyferry",
           "$early_balfonheim"
         ],
         "sections": [
@@ -14549,7 +14549,7 @@
       {
         "name": "Lhusu Mines",
         "access_rules": [
-          "$aero|bhu_aero"
+          "^$bhujerba_skyferry"
         ],
         "sections": [
           {
