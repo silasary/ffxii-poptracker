@@ -1814,7 +1814,7 @@ return {
 	[1943] = {"@Main/Bhujerba/Hunt 38: Antlion", "antlion"},
 	[1944] = {"@Main/Bhujerba/Hunt 38: Antlion"},
 	[1945] = {"@Main/Bhujerba/Hunt 38: Antlion"},
-	[1946] = {"@Main/Nalbina/Hunt 39: Carrot", "carrot"},
+	[1946] = {"@Main/Nalbina Fortress/Hunt 39: Carrot", "carrot"},
 	[1949] = {"@Main/Clan Hall/Hunt 40: Gilgamesh", "gilgamesh"},
 	[1950] = {"@Main/Clan Hall/Hunt 40: Gilgamesh"},
 	[1951] = {"@Main/Clan Hall/Hunt 40: Gilgamesh"},
