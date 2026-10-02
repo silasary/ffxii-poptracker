@@ -143,17 +143,16 @@ function archades()
 		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.Normal) then
 			return AccessibilityLevel.Normal
     end
-    if archades_skyferry() == AccessibilityLevel.SequenceBreak or
-		aero('arc_aero') == AccessibilityLevel.SequenceBreak then
-			return AccessibilityLevel.SequenceBreak
+    if archades_skyferry() == AccessibilityLevel.SequenceBreak
+		return AccessibilityLevel.SequenceBreak
 	end
 end
 
 function sochen_cave_palace()
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.Normal or aero('arc_aero') == AccessibilityLevel.Normal) and scaled_difficulty(4) then
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.Normal or aero('arc_aero')) and scaled_difficulty(4) then
         return AccessibilityLevel.Normal
     end
-    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.SequenceBreak or aero('arc_aero') == AccessibilityLevel.SequenceBreak) then
+    if Tracker:ProviderCountForCode('soul_ward_key') > 0 and (tchita_uplands() == AccessibilityLevel.SequenceBreak or aero('arc_aero')) then
 		return AccessibilityLevel.SequenceBreak
 	end
 end
@@ -169,16 +168,22 @@ function draklor_laboratory()
 end
 
 function early_balfonheim()
+    if has_n_system_access_keys(3) then
+		return AccessibilityLevel.Normal
+	end
 	if Tracker:ProviderCountForCode('bal_aero') > 0 then
 		if Tracker:ProviderCountForCode('nal_aero') > 0 or
-			(Tracker:ProviderCountForCode('rab_aero') > 0 and
-				(Tracker:ProviderCountForCode('arc_aero') > 0 or Tracker:ProviderCountForCode('bhu_aero') > 0)) then
+			(Tracker:ProviderCountForCode('bhu_aero') > 0 and (Tracker:ProviderCountForCode('rab_aero') > 0 or has_n_system_access_keys(1))) or
+			(Tracker:ProviderCountForCode('arc_aero') > 0 and Tracker:ProviderCountForCode('rab_aero') > 0) then
 			return AccessibilityLevel.Normal
 		end
 	end
 end
 
 function bhujerba_skyferry()
+	if has_n_system_access_keys(1) then
+		return AccessibilityLevel.Normal
+	end
 	if Tracker:ProviderCountForCode('bhu_aero') > 0 then
 		if early_balfonheim() or 
 			(Tracker:ProviderCountForCode('bal_aero') > 0 and tchita_uplands() == AccessibilityLevel.Normal and scaled_difficulty(5)) or
@@ -191,6 +196,9 @@ function bhujerba_skyferry()
 end
 
 function archades_skyferry()
+	if has_n_system_access_keys(3) then
+		return AccessibilityLevel.Normal
+	end
 	if Tracker:ProviderCountForCode('arc_aero') > 0 then
 		if early_balfonheim() or
 			Tracker:ProviderCountForCode('rab_aero') > 0 or
