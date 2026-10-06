@@ -1295,7 +1295,7 @@
       {
         "name": "Dreadnought Leviathan",
         "access_rules": [
-          "^$leviathan"
+          "$leviathan"
         ],
         "sections": [
           {
@@ -7019,7 +7019,7 @@
       {
         "name": "Bhujerba",
         "access_rules": [
-          "^$bhujerba_skyferry"
+          "$aero|bhu_aero"
         ],
         "sections": [
           {
@@ -7693,7 +7693,7 @@
         "name": "Balfonheim",
         "access_rules": [
           "^$tchita_uplands,[$scaled_difficulty|5]",
-          "^$early_balfonheim"
+          "$aero|bal_aero"
         ],
         "sections": [
           {
@@ -8009,9 +8009,9 @@
         "access_rules": [
           "$aeroNoStrahl|rab_aero",
           "$aeroNoStrahl|nal_aero",
-          "^$bhujerba_skyferry",
-          "^$archades_skyferry",
-          "$early_balfonheim"
+          "$aeroNoStrahl|bhu_aero",
+          "$aeroNoStrahl|arc_aero",
+          "$aeroNoStrahl|bal_aero"
         ],
         "sections": [
           {
@@ -14549,7 +14549,7 @@
       {
         "name": "Lhusu Mines",
         "access_rules": [
-          "^$bhujerba_skyferry"
+          "$aero|bhu_aero"
         ],
         "sections": [
           {
