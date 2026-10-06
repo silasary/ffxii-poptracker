@@ -1,3 +1,10 @@
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "jsoncomment",
+#     "luaparser",
+# ]
+# ///
 from collections import Counter
 import glob
 import os
@@ -10,11 +17,15 @@ import lua_tools
 json = jsoncomment.JsonComment()
 sys.path.append("D:\\source\\repos\\Archipelago.worktrees\\ff12_openworld")
 
+from rule_builder.rules import Rule
+
 without_parentheses_re = re.compile(r'^(.*?)\s*\((\d*)\)\s*$')
 
 def main() -> None:
     from worlds.ff12_open_world.Locations import location_data_table
     from worlds.ff12_open_world.Rules import rule_data_table
+
+    os.chdir(os.path.dirname(os.path.dirname(__file__)))
 
     with open("./scripts/archipelago/location_mapping.lua", 'r', encoding='utf-8') as lua_file:
         location_mapping = lua_tools.lua_to_dict("./scripts/archipelago/location_mapping.lua")
@@ -90,7 +101,11 @@ def main() -> None:
                 continue
 
         access_rule: str | None = None
-        existing_rule = pt_loc.get('access_rules', [""])[0]
+        existing_rules = pt_loc.get('access_rules', [""])
+        if existing_rules:
+            existing_rule = existing_rules[0]
+        else:
+            existing_rule = ""
         events = [i.strip() for i in existing_rule.split(',') if i in hosted_items]
         event_reqs = []
         for e in events:
@@ -101,8 +116,11 @@ def main() -> None:
 
         difficulty = loc.difficulty
         rule = rule_data_table.get(name)
-        rulep = from_lambda.parse_lambda(rule)
-        rule_str = from_lambda.to_str(rulep)
+        if isinstance(rule, Rule):
+            rule_str = str(rule)
+        else:
+            rulep = from_lambda.parse_lambda(rule)
+            rule_str = from_lambda.to_str(rulep)
         lambda_counter[rule_str] += 1
         access_rule = lambda_to_access_rule.setdefault(rule_str, None)
         if access_rule is not None and difficulty:

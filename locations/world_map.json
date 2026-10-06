@@ -60,6 +60,46 @@
       {
         "name": "Hunt 45: Yiazmat Started",
         "ref": "Main/Clan Hall/Hunt 45: Yiazmat Started"
+      },
+      {
+        "name": "Babbling Vale Treasure 1",
+        "ref": "Main/Mosphoran Highwaste Upper/Babbling Vale Treasure 1"
+      },
+      {
+        "name": "The Needlebrake Treasure 1",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 1"
+      },
+      {
+        "name": "The Needlebrake Treasure 2",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 2"
+      },
+      {
+        "name": "The Needlebrake Treasure 3",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 3"
+      },
+      {
+        "name": "The Needlebrake Treasure 5",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 5"
+      },
+      {
+        "name": "Paths of Chained Light Treasure 1",
+        "ref": "Main/Golmore Jungle S/Paths of Chained Light Treasure 1"
+      },
+      {
+        "name": "Paths of Chained Light Treasure 2",
+        "ref": "Main/Golmore Jungle S/Paths of Chained Light Treasure 2"
+      },
+      {
+        "name": "Paths of Chained Light Treasure 3",
+        "ref": "Main/Golmore Jungle S/Paths of Chained Light Treasure 3"
+      },
+      {
+        "name": "Halls of Ardent Darkness Treasure 1",
+        "ref": "Main/Zertinan Caverns Center/Halls of Ardent Darkness Treasure 1"
+      },
+      {
+        "name": "Darkened Wharf Treasure 2",
+        "ref": "Main/Zertinan Caverns S/Darkened Wharf Treasure 2"
       }
     ]
   },
@@ -3704,7 +3744,7 @@
       },
       {
         "name": "Babbling Vale Treasure 1",
-        "ref": "Main/Mosphoran Highwaste/Babbling Vale Treasure 1"
+        "ref": "Main/Mosphoran Highwaste Upper/Babbling Vale Treasure 1"
       },
       {
         "name": "Babbling Vale Treasure 2",
@@ -3789,6 +3829,10 @@
       {
         "name": "Hunt 32: Pylraster",
         "ref": "Main/Balfonheim/Hunt 32: Pylraster"
+      },
+      {
+        "name": "Hunt 43: Ixion Accepted",
+        "ref": "Main/Balfonheim/Hunt 43: Ixion Accepted"
       }
     ]
   },
@@ -4822,15 +4866,15 @@
     "sections": [
       {
         "name": "Paths of Chained Light Treasure 1",
-        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 1"
+        "ref": "Main/Golmore Jungle S/Paths of Chained Light Treasure 1"
       },
       {
         "name": "Paths of Chained Light Treasure 2",
-        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 2"
+        "ref": "Main/Golmore Jungle S/Paths of Chained Light Treasure 2"
       },
       {
         "name": "Paths of Chained Light Treasure 3",
-        "ref": "Main/Golmore Jungle NW/Paths of Chained Light Treasure 3"
+        "ref": "Main/Golmore Jungle S/Paths of Chained Light Treasure 3"
       },
       {
         "name": "Paths of Chained Light Treasure 4",
@@ -5628,7 +5672,7 @@
       },
       {
         "name": "Halls of Ardent Darkness Treasure 1",
-        "ref": "Main/Zertinan Caverns S/Halls of Ardent Darkness Treasure 1"
+        "ref": "Main/Zertinan Caverns Center/Halls of Ardent Darkness Treasure 1"
       },
       {
         "name": "Halls of Ardent Darkness Treasure 2",
@@ -5764,7 +5808,7 @@
       },
       {
         "name": "Darkened Wharf Treasure 2",
-        "ref": "Main/Zertinan Caverns Center/Darkened Wharf Treasure 2"
+        "ref": "Main/Zertinan Caverns S/Darkened Wharf Treasure 2"
       },
       {
         "name": "Darkened Wharf Treasure 3",

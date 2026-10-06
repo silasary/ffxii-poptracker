@@ -8,7 +8,73 @@
       },
       {
         "name": "Initial",
-        "sections": []
+        "sections": [
+          {
+            "name": "Medallion of Bravery: Return to Roh'kenmou with three fragments",
+            "access_rules": [],
+            "hosted_item": "bravery_rohkenmou"
+          },
+          {
+            "name": "Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion",
+            "access_rules": [],
+            "hosted_item": "love_rohkenmu2"
+          },
+          {
+            "name": "Earth Tyrant Checked Cactus",
+            "access_rules": [],
+            "hosted_item": "earth_tyrant_cactus"
+          },
+          {
+            "name": "Earth Tyrant Complete",
+            "access_rules": [],
+            "hosted_item": "earth_tyrant_complete"
+          },
+          {
+            "name": "Defeat Vossler",
+            "access_rules": [],
+            "hosted_item": "defeat_vossler"
+          },
+          {
+            "name": "Gil Snapper Accepted",
+            "access_rules": [],
+            "hosted_item": "gil_snapper_accepted"
+          },
+          {
+            "name": "Trickster Accepted",
+            "access_rules": [],
+            "hosted_item": "trickster_accepted"
+          },
+          {
+            "name": "Antlion Accepted",
+            "access_rules": [],
+            "hosted_item": "antlion_accepted"
+          },
+          {
+            "name": "Carrot Accepted",
+            "access_rules": [],
+            "hosted_item": "carrot_accepted"
+          },
+          {
+            "name": "Gilgamesh Accepted",
+            "access_rules": [],
+            "hosted_item": "gilgamesh_accepted"
+          },
+          {
+            "name": "Belito Accepted",
+            "access_rules": [],
+            "hosted_item": "belito_accepted"
+          },
+          {
+            "name": "Shadowseer Accepted",
+            "access_rules": [],
+            "hosted_item": "shadowseer_accepted"
+          },
+          {
+            "name": "Yiazmat Accepted",
+            "access_rules": [],
+            "hosted_item": "yiazmat_accepted"
+          }
+        ]
       },
       {
         "name": "Rabanastre",
@@ -7568,15 +7634,6 @@
             ]
           },
           {
-            "name": "Babbling Vale Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 1"
-            ],
-            "access_rules": [
-              "$defeat_bergan,[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Babbling Vale Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 2"
@@ -7685,6 +7742,16 @@
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Babbling Vale Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 1",
+              "$chest_visibility|Mosphoran Highwaste Upper - Babbling Vale Treasure 1"
+            ],
+            "access_rules": [
+              "$defeat_bergan,[$scaled_difficulty|2]"
             ]
           }
         ]
@@ -9931,33 +9998,6 @@
         ],
         "sections": [
           {
-            "name": "Paths of Chained Light Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 1"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Paths of Chained Light Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 2"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
-            "name": "Paths of Chained Light Treasure 3",
-            "visibility_rules": [
-              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 3"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|2]"
-            ]
-          },
-          {
             "name": "Paths of Chained Light Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 4"
@@ -9965,6 +10005,34 @@
             "access_rules": [
               "[$scaled_difficulty|2]"
             ]
+          },
+          {
+            "name": "The Needlebrake Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 1"
+            ],
+            "access_rules": []
+          },
+          {
+            "name": "The Needlebrake Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 2"
+            ],
+            "access_rules": []
+          },
+          {
+            "name": "The Needlebrake Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 3"
+            ],
+            "access_rules": []
+          },
+          {
+            "name": "The Needlebrake Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 5"
+            ],
+            "access_rules": []
           }
         ]
       },
@@ -10122,6 +10190,36 @@
             "name": "The Rustling Chapel Treasure 4",
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle S - The Rustling Chapel Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Paths of Chained Light Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 1",
+              "$chest_visibility|Golmore Jungle S - Paths of Chained Light Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Paths of Chained Light Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 2",
+              "$chest_visibility|Golmore Jungle S - Paths of Chained Light Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Paths of Chained Light Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 3",
+              "$chest_visibility|Golmore Jungle S - Paths of Chained Light Treasure 3"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -11734,7 +11832,8 @@
           {
             "name": "Sandfalls Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 1"
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 1",
+              "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 1"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11752,7 +11851,8 @@
           {
             "name": "Sandfalls Treasure 3",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 3"
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 3",
+              "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 3"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11761,7 +11861,8 @@
           {
             "name": "Sandfalls Treasure 4",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 4"
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 4",
+              "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 4"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11770,7 +11871,8 @@
           {
             "name": "Sandfalls Treasure 5",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 5"
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 5",
+              "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 5"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11869,7 +11971,8 @@
           {
             "name": "The Balamka Fault Treasure 1",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 1"
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 1",
+              "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 1"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11878,7 +11981,8 @@
           {
             "name": "The Balamka Fault Treasure 2",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 2"
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 2",
+              "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 2"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11887,7 +11991,8 @@
           {
             "name": "The Balamka Fault Treasure 3",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 3"
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 3",
+              "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 3"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11896,7 +12001,8 @@
           {
             "name": "The Balamka Fault Treasure 4",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 4"
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 4",
+              "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 4"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11914,7 +12020,8 @@
           {
             "name": "The Balamka Fault Treasure 6",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 6"
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 6",
+              "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 6"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -11923,7 +12030,8 @@
           {
             "name": "The Balamka Fault Treasure 7",
             "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 7"
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 7",
+              "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 7"
             ],
             "access_rules": [
               "rainstone,[$scaled_difficulty|5]"
@@ -12000,16 +12108,6 @@
             ]
           },
           {
-            "name": "Darkened Wharf Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Darkened Wharf Treasure 2",
-              "$chest_visibility|Zertinan Caverns Center - Darkened Wharf Treasure 2"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
-          },
-          {
             "name": "Darkened Wharf Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Zertinan Caverns - Darkened Wharf Treasure 3",
@@ -12039,6 +12137,17 @@
               "rainstone,[$scaled_difficulty|6]"
             ],
             "hosted_item": "catoblepas"
+          },
+          {
+            "name": "Halls of Ardent Darkness Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 1",
+              "$chest_visibility|Zertinan Caverns S - Halls of Ardent Darkness Treasure 1",
+              "$chest_visibility|Zertinan Caverns Center - Halls of Ardent Darkness Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
           }
         ]
       },
@@ -12048,16 +12157,6 @@
           "$ozmone_plain"
         ],
         "sections": [
-          {
-            "name": "Halls of Ardent Darkness Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 1",
-              "$chest_visibility|Zertinan Caverns S - Halls of Ardent Darkness Treasure 1"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
-          },
           {
             "name": "Halls of Ardent Darkness Treasure 2",
             "visibility_rules": [
@@ -12103,6 +12202,17 @@
             "visibility_rules": [
               "$chest_visibility|Zertinan Caverns - Halls of Ardent Darkness Treasure 6",
               "$chest_visibility|Zertinan Caverns S - Halls of Ardent Darkness Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Darkened Wharf Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Darkened Wharf Treasure 2",
+              "$chest_visibility|Zertinan Caverns Center - Darkened Wharf Treasure 2",
+              "$chest_visibility|Zertinan Caverns S - Darkened Wharf Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"

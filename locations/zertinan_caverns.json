@@ -86,7 +86,7 @@
         "sections": [
           {
             "name": "Halls of Ardent Darkness Treasure 1",
-            "ref": "Main/Zertinan Caverns S/Halls of Ardent Darkness Treasure 1"
+            "ref": "Main/Zertinan Caverns Center/Halls of Ardent Darkness Treasure 1"
           },
           {
             "name": "Halls of Ardent Darkness Treasure 2",
@@ -282,7 +282,7 @@
         "sections": [
           {
             "name": "Darkened Wharf Treasure 2",
-            "ref": "Main/Zertinan Caverns Center/Darkened Wharf Treasure 2"
+            "ref": "Main/Zertinan Caverns S/Darkened Wharf Treasure 2"
           }
         ]
       },
