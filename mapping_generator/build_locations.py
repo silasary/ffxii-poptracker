@@ -1,29 +1,40 @@
-# /// script
-# requires-python = ">=3.12"
-# dependencies = [
-#     "jsoncomment",
-#     "luaparser",
-# ]
-# ///
 from collections import Counter
 import glob
 import os
 import sys
+import re
+from typing import Any
+
+sys.path.append("C:\\Users\\Clock\\projects\\Archipelago_ff12_openworld")
+import ModuleUpdate
+ModuleUpdate.requirements_files.add(os.path.join(os.path.dirname(__file__), "requirements.txt"))
+# ModuleUpdate.update()
+
 import jsoncomment
 import from_lambda
-import re
 import lua_tools
+from rule_builder.rules import Rule, And, Or, Has, CanReachRegion, True_, False_
 
 json = jsoncomment.JsonComment()
-sys.path.append("D:\\source\\repos\\Archipelago.worktrees\\ff12_openworld")
-
-from rule_builder.rules import Rule
 
 without_parentheses_re = re.compile(r'^(.*?)\s*\((\d*)\)\s*$')
+pt_items = []
+
+class ItemNotFound(ValueError):
+    def __init__(self, item_name: str, *args: Any) -> None:
+        self.item_name = item_name
+        super().__init__(*args)
+
+
 
 def main() -> None:
     from worlds.ff12_open_world.Locations import location_data_table
+    from worlds.ff12_open_world.Items import item_data_table
+    from worlds.ff12_open_world.Events import event_data_table
     from worlds.ff12_open_world.Rules import rule_data_table
+
+    event_items = [e.item for e in event_data_table.values()]
+
 
     os.chdir(os.path.dirname(os.path.dirname(__file__)))
 
@@ -34,11 +45,16 @@ def main() -> None:
     with open("./locations/locations.json", 'r') as loc_file:
         pt_locations = json.load(loc_file)
 
+    for file in glob.glob("./items/*.json"):
+        with open(file, 'r') as f:
+            pt_items.extend(json.load(f))
+
     with open("./mapping_generator/lambda_to_access_rule.json", 'r') as f:
         lambda_to_access_rule_full = json.load(f)
 
     lambda_to_access_rule = lambda_to_access_rule_full.get("needed", {}) | lambda_to_access_rule_full.get("inactive", {}) |  lambda_to_access_rule_full.get("active", {})
     lambda_counter: Counter[str] = Counter()
+    partials: dict[str, str] = lambda_to_access_rule_full.get("partials", {})
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
     all_locations = {}
@@ -123,6 +139,22 @@ def main() -> None:
             rule_str = from_lambda.to_str(rulep)
         lambda_counter[rule_str] += 1
         access_rule = lambda_to_access_rule.setdefault(rule_str, None)
+        if access_rule is None and isinstance(rule, Rule):
+            try:
+                access_rule = rb_to_access_rule(rule, partials, lambda_counter)
+                lambda_to_access_rule[rule_str] = access_rule
+            except ItemNotFound as e:
+                if e.item_name in item_data_table:
+                    print(f"Item not found for rule {rule}: {e}")
+                    event = False
+                elif e.item_name in event_items:
+                    print(f"Event not found for rule {rule}: {e}")
+                    event = True
+                else:
+                    print(f"Wat not found for rule {rule}: {e}")
+
+                pass
+
         if access_rule is not None and difficulty:
             access_rule += f',[$scaled_difficulty|{difficulty}]'
             access_rule = access_rule.strip(',')
@@ -165,9 +197,11 @@ def main() -> None:
         pass
 
     lambda_to_access_rule_full = {
+        "partials": {},
         "active": {},
         "needed": {},
         "inactive": {},
+        "unused_partials": {},
     }
     for rule_str, access_rule in lambda_to_access_rule.items():
         count = lambda_counter[rule_str]
@@ -177,6 +211,14 @@ def main() -> None:
             lambda_to_access_rule_full["needed"][rule_str] = access_rule
         elif access_rule is not None:
             lambda_to_access_rule_full["inactive"][rule_str] = access_rule
+
+    for partial, access_rule in partials.items():
+        count = lambda_counter.get(partial, 0)
+        if count > 0:
+            lambda_to_access_rule_full["partials"][partial] = access_rule
+        elif access_rule:
+            lambda_to_access_rule_full["unused_partials"][partial] = access_rule
+
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
         json.dump(lambda_to_access_rule_full, f, indent=4, sort_keys=True)
         f.write('\n')
@@ -213,6 +255,37 @@ def main() -> None:
     with open("./locations/locations.json", 'w') as loc_file:
         json.dump(pt_locations, loc_file, indent=2)
         loc_file.write('\n')
+
+def find_item_code(name: str) -> str:
+    for item in pt_items:
+        if item['name'] == name:
+            return item['codes']
+    raise ItemNotFound(name, f"Item with name '{name}' not found")
+
+
+def rb_to_access_rule(rule: Rule, partials: dict[str, str], lambda_counter: Counter[str]) -> str | None:
+    # if partials.get(str(rule)):
+    #     return partials[str(rule)]
+    if isinstance(rule, Has) and rule.count == 1:
+        assert isinstance(rule.item_name, str)
+        access_rule = find_item_code(rule.item_name)
+        return access_rule
+
+    if isinstance(rule, True_):
+        return ""
+
+    if isinstance(rule, And):
+        resolved = [rb_to_access_rule(subrule, partials, lambda_counter) for subrule in rule.children]
+        if any(r is None for r in resolved):
+            return None
+        return ",".join(filter(None, resolved))
+
+    partial = partials.setdefault(str(rule), None)
+    lambda_counter[str(rule)] += 1
+    if partial is not None:
+        return partial
+
+    return None
 
 def validate(all_names, hosted_items):
     referenced = {}

@@ -61,6 +61,10 @@ function paramina_rift()
     end
 end
 
+function feywood()
+    return paramina_rift()
+end
+
 function defeat_bergan()
     if paramina_rift() and Tracker:ProviderCountForCode('sword_of_kings') > 0 and scaled_difficulty(3) then
 		return AccessibilityLevel.Normal
@@ -139,7 +143,7 @@ function dawn_shard()  -- Why is this a function?
 end
 
 function archades()
-    if archades_skyferry() == AccessibilityLevel.Normal or 
+    if archades_skyferry() == AccessibilityLevel.Normal or
 		(Tracker:ProviderCountForCode('soul_ward_key') > 0 and sochen_cave_palace() == AccessibilityLevel.Normal) then
 			return AccessibilityLevel.Normal
     end
@@ -180,7 +184,7 @@ end
 
 function bhujerba_skyferry()
 	if Tracker:ProviderCountForCode('bhu_aero') > 0 then
-		if early_balfonheim() or 
+		if early_balfonheim() or
 			(Tracker:ProviderCountForCode('bal_aero') > 0 and tchita_uplands() == AccessibilityLevel.Normal and scaled_difficulty(5)) or
 			Tracker:ProviderCountForCode('rab_aero') > 0 then
 				return AccessibilityLevel.Normal
