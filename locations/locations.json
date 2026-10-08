@@ -1294,12 +1294,6 @@
             ]
           },
           {
-            "name": "Royal Palace - Goddess's Magicite",
-            "access_rules": [
-              "crescent_stone,[$scaled_difficulty|1]"
-            ]
-          },
-          {
             "name": "Hunt 4: Wraith",
             "visibility_rules": [
               "place_hunts"
@@ -2381,7 +2375,14 @@
         "access_rules": [
           "crescent_stone"
         ],
-        "sections": []
+        "sections": [
+          {
+            "name": "Goddess's Magicite",
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          }
+        ]
       },
       {
         "name": "Barheim Passage Story",
