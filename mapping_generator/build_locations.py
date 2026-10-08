@@ -81,6 +81,9 @@ def main() -> None:
         shortername = shortname
         if shortname.endswith(" Reward"):
             shortername = shortname[:-7]
+        if shortname == "Clan Boss: Daedulus":
+            # BAAARTZ!
+            shortname = "Clan Boss: Daedalus"
 
         region = regions.get(region_name)
         if not region:
@@ -109,13 +112,29 @@ def main() -> None:
                 }
                 region['sections'].append(pt_loc)
                 todays_treasures = region_name
+            elif loc.address in location_mapping:
+                pt_name = location_mapping[loc.address]
+                print(f"{shortname} is mapped to {pt_name}")
+                continue
             else:
                 if 'Starting Items' in shortname:
                     continue
+                if 'Pinewood Chop' in shortname:
+                    continue
+                if 'Black Orb' in shortname:
+                    continue
+                if name.endswith((" (2)", " (3)")):
+                    continue
                 if not warned_regions:
                     print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
-                    warned_regions.add(region_name)
-
+                if todays_treasures in [region_name, None]:
+                    pt_loc = {
+                        "name": shortname,
+                        "access_rules": [],
+                    }
+                    region['sections'].append(pt_loc)
+                    todays_treasures = region_name
+                    print(f"Creating @Main/{region_name}/{shortname}")
                 continue
 
         access_rule: str | None = None

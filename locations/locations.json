@@ -225,6 +225,16 @@
             "access_rules": [
               "^$salikawood,[$scaled_difficulty|5],grimy_filo2"
             ]
+          },
+          {
+            "name": "Sorbet Sluice Gate Key Reward",
+            "access_rules": [
+              "broken_key,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Great Cockatrice Escape Renn Reward",
+            "access_rules": []
           }
         ]
       },

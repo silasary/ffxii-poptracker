@@ -352,6 +352,14 @@
       {
         "name": "Earth Tyrant Quest: Speak to Cotze",
         "ref": "Main/Rabanastre/Earth Tyrant Quest: Speak to Cotze"
+      },
+      {
+        "name": "Sorbet Sluice Gate Key Reward",
+        "ref": "Main/Rabanastre/Sorbet Sluice Gate Key Reward"
+      },
+      {
+        "name": "Great Cockatrice Escape Renn Reward",
+        "ref": "Main/Rabanastre/Great Cockatrice Escape Renn Reward"
       }
     ]
   },

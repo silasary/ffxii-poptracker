@@ -1969,6 +1969,8 @@ return {
 	[2096] = {"@Main/Garamsythe Waterway/White Mousse Drop", "white_mousse"},
 	[2097] = {"@Main/Garamsythe Waterway/White Mousse Drop"},
 	[2098] = {"@Main/Garamsythe Waterway/White Mousse Drop"},
+	[2100] = {"@Main/Rabanastre/Sorbet Sluice Gate Key Reward"},
+	[2101] = {"@Main/Rabanastre/Sorbet Sluice Gate Key Reward"},
 	[2102] = {"@Main/Ozmone Plain/Enkelados Drop", "enkelados"},
 	[2103] = {"@Main/Ozmone Plain/Enkelados Drop"},
 	[2104] = {"@Main/Ozmone Plain/Enkelados Drop"},
@@ -2226,4 +2228,6 @@ return {
 	[2543] = {"@Main/Zertinan Caverns N/The Balamka Fault Treasure 5"},
 	[2544] = {"@Main/Zertinan Caverns Center/The Balamka Fault Treasure 6"},
 	[2545] = {"@Main/Zertinan Caverns Center/The Balamka Fault Treasure 7"},
+	[2550] = {"@Main/Rabanastre/Great Cockatrice Escape Renn Reward"},
+	[2551] = {"@Main/Rabanastre/Great Cockatrice Escape Renn Reward"},
 }

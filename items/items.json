@@ -438,5 +438,10 @@
         "type": "toggle",
         "img": "images/items/second_board.png",
         "codes": "second_board"
+    },
+    {
+      "name": "Feather of the Flock",
+      "type": "toggle",
+      "codes": "feather_of_the_flock"
     }
 ]
