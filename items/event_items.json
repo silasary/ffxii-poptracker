@@ -90,7 +90,7 @@
     "img": "images/items/target.png"
   },
   {
-    "name": "Defeat Vossler",
+    "name": "Defeated Vossler",
     "type": "toggle",
     "codes": "defeat_vossler",
     "img": "images/items/hunt.png"

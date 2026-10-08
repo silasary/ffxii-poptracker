@@ -208,7 +208,7 @@
           {
             "name": "Grimy Fragment",
             "access_rules": [
-              "[$scaled_difficulty|5],grimy_filo2"
+              "^$salikawood,[$scaled_difficulty|5],grimy_filo2"
             ]
           }
         ]
@@ -690,7 +690,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "nazarnir"
           }
@@ -1353,7 +1353,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,behemoth_king"
+              "$feywood,behemoth_king"
             ]
           }
         ]
@@ -1584,6 +1584,44 @@
         ]
       },
       {
+        "name": "Nam-Yensa Sandsea Belito",
+        "access_rules": [
+          "^$sandseas, rainstone"
+        ],
+        "sections": [
+          {
+            "name": "Withering Shores Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 1",
+              "$chest_visibility|Nam-Yensa Sandsea Belito - Withering Shores Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 2",
+              "$chest_visibility|Nam-Yensa Sandsea Belito - Withering Shores Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Withering Shores Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 3",
+              "$chest_visibility|Nam-Yensa Sandsea Belito - Withering Shores Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Nam-Yensa Sandsea",
         "access_rules": [
           "^$sandseas"
@@ -1650,33 +1688,6 @@
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
-            ]
-          },
-          {
-            "name": "Withering Shores Treasure 1",
-            "visibility_rules": [
-              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 1"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
-          },
-          {
-            "name": "Withering Shores Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 2"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
-            ]
-          },
-          {
-            "name": "Withering Shores Treasure 3",
-            "visibility_rules": [
-              "$chest_visibility|Nam-Yensa Sandsea - Withering Shores Treasure 3"
-            ],
-            "access_rules": [
-              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -2091,7 +2102,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "victanir"
           }
@@ -2354,7 +2365,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|6]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "zombie_lord"
           }
@@ -2423,7 +2434,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "ishteen"
           },
@@ -3259,7 +3270,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$paramina_rift,wild_malboro"
+              "$feywood,wild_malboro"
             ]
           }
         ]
@@ -3304,7 +3315,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,dawn_shard,[$scaled_difficulty|5]"
+              "shelled_trophy,^$hunt_club_start,dawn_shard,[$scaled_difficulty|5]"
             ],
             "hosted_item": "myath"
           },
@@ -4342,7 +4353,7 @@
           {
             "name": "Mandragora Reward",
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|3]"
+              "^$sochen_cave_palace,[$scaled_difficulty|3]"
             ]
           },
           {
@@ -4388,7 +4399,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "kris"
           },
@@ -4398,7 +4409,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "grimalkin"
           }
@@ -4571,7 +4582,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$sochen_cave_palace,darksteel"
+              "^$sochen_cave_palace,darksteel"
             ]
           },
           {
@@ -4904,12 +4915,21 @@
             "access_rules": [
               "[$scaled_difficulty|4]"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "name": "Great Crystal Deep",
+        "access_rules": [
+          "belias,^$paramina_rift,treaty_blade"
+        ],
+        "sections": [
           {
             "name": "Crystal Peak Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Crystal Peak Treasure 1",
-              "$chest_visibility|Great Crystal - Crystal Peak Treasure 1"
+              "$chest_visibility|Great Crystal - Crystal Peak Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Crystal Peak Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4919,7 +4939,8 @@
             "name": "Crystal Peak Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Crystal Peak Treasure 2",
-              "$chest_visibility|Great Crystal - Crystal Peak Treasure 2"
+              "$chest_visibility|Great Crystal - Crystal Peak Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Crystal Peak Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4929,7 +4950,8 @@
             "name": "Dhebon Jilaam Avaapratii Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Dhebon Jilaam Avaapratii Treasure 1",
-              "$chest_visibility|Great Crystal - Dhebon Jilaam Avaapratii Treasure 1"
+              "$chest_visibility|Great Crystal - Dhebon Jilaam Avaapratii Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Dhebon Jilaam Avaapratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4939,7 +4961,8 @@
             "name": "Dhebon Jilaam Avaapratii Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Dhebon Jilaam Avaapratii Treasure 2",
-              "$chest_visibility|Great Crystal - Dhebon Jilaam Avaapratii Treasure 2"
+              "$chest_visibility|Great Crystal - Dhebon Jilaam Avaapratii Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Dhebon Jilaam Avaapratii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4949,7 +4972,8 @@
             "name": "Sirhru Phullam Praa Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Praa Treasure 1",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Praa Treasure 1"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Praa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4959,7 +4983,8 @@
             "name": "Sirhru Phullam Praa Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Praa Treasure 2",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Praa Treasure 2"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Praa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4969,7 +4994,8 @@
             "name": "Sirhru Phullam Praa'vaa Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Praa'vaa Treasure 1",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Praa'vaa Treasure 1"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa'vaa Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Praa'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4979,7 +5005,8 @@
             "name": "Sirhru Phullam Praa'vaa Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Praa'vaa Treasure 2",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Praa'vaa Treasure 2"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Praa'vaa Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Praa'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4989,7 +5016,8 @@
             "name": "Sirhru Phullam Pratii'vaa Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Pratii'vaa Treasure 1",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Pratii'vaa Treasure 1"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Pratii'vaa Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Pratii'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -4999,7 +5027,8 @@
             "name": "Sirhru Phullam Pratii'vaa Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Pratii'vaa Treasure 2",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Pratii'vaa Treasure 2"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Pratii'vaa Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Pratii'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5009,7 +5038,8 @@
             "name": "Sirhru Phullam Udiipratii Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Udiipratii Treasure 1",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Udiipratii Treasure 1"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Udiipratii Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Udiipratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5019,7 +5049,8 @@
             "name": "Sirhru Phullam Udiipratii Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Phullam Udiipratii Treasure 2",
-              "$chest_visibility|Great Crystal - Sirhru Phullam Udiipratii Treasure 2"
+              "$chest_visibility|Great Crystal - Sirhru Phullam Udiipratii Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Sirhru Phullam Udiipratii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5029,7 +5060,8 @@
             "name": "Sirhru Jilaam Praa'vaa Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Jilaam Praa'vaa Treasure 1",
-              "$chest_visibility|Great Crystal - Sirhru Jilaam Praa'vaa Treasure 1"
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Praa'vaa Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Sirhru Jilaam Praa'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5039,7 +5071,8 @@
             "name": "Sirhru Jilaam Praa'vaa Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Jilaam Praa'vaa Treasure 2",
-              "$chest_visibility|Great Crystal - Sirhru Jilaam Praa'vaa Treasure 2"
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Praa'vaa Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Sirhru Jilaam Praa'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5049,7 +5082,8 @@
             "name": "Sirhru Jilaam Pratii'vaa Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Jilaam Pratii'vaa Treasure 1",
-              "$chest_visibility|Great Crystal - Sirhru Jilaam Pratii'vaa Treasure 1"
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Pratii'vaa Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Sirhru Jilaam Pratii'vaa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5059,7 +5093,8 @@
             "name": "Sirhru Jilaam Pratii'vaa Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Sirhru Jilaam Pratii'vaa Treasure 2",
-              "$chest_visibility|Great Crystal - Sirhru Jilaam Pratii'vaa Treasure 2"
+              "$chest_visibility|Great Crystal - Sirhru Jilaam Pratii'vaa Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Sirhru Jilaam Pratii'vaa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5069,7 +5104,8 @@
             "name": "Uldobi Phullam Pratii'dii Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Uldobi Phullam Pratii'dii Treasure 1",
-              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii'dii Treasure 1"
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii'dii Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Uldobi Phullam Pratii'dii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5079,7 +5115,8 @@
             "name": "Uldobi Phullam Pratii'dii Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Uldobi Phullam Pratii'dii Treasure 2",
-              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii'dii Treasure 2"
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii'dii Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Uldobi Phullam Pratii'dii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5089,7 +5126,8 @@
             "name": "Uldobi Phullam Udiipraa Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Uldobi Phullam Udiipraa Treasure 1",
-              "$chest_visibility|Great Crystal - Uldobi Phullam Udiipraa Treasure 1"
+              "$chest_visibility|Great Crystal - Uldobi Phullam Udiipraa Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Uldobi Phullam Udiipraa Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5099,7 +5137,8 @@
             "name": "Uldobi Phullam Udiipraa Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Uldobi Phullam Udiipraa Treasure 2",
-              "$chest_visibility|Great Crystal - Uldobi Phullam Udiipraa Treasure 2"
+              "$chest_visibility|Great Crystal - Uldobi Phullam Udiipraa Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Uldobi Phullam Udiipraa Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5109,7 +5148,8 @@
             "name": "Uldobi Phullam Pratii Treasure 1",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Uldobi Phullam Pratii Treasure 1",
-              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii Treasure 1"
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii Treasure 1",
+              "$chest_visibility|Great Crystal Deep - Uldobi Phullam Pratii Treasure 1"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5119,7 +5159,8 @@
             "name": "Uldobi Phullam Pratii Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Giruvegan - Uldobi Phullam Pratii Treasure 2",
-              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii Treasure 2"
+              "$chest_visibility|Great Crystal - Uldobi Phullam Pratii Treasure 2",
+              "$chest_visibility|Great Crystal Deep - Uldobi Phullam Pratii Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -5909,7 +5950,7 @@
           {
             "name": "Defeat Famfrit and Cid 2",
             "access_rules": [
-              "$has_n_black_orbs|3,$cid2,[$scaled_difficulty|7]"
+              "^$cid2,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -5929,7 +5970,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,$has_n_black_orbs|3,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,$has_n_black_orbs|3,[$scaled_difficulty|7]"
             ],
             "hosted_item": "avenger"
           }
@@ -6762,7 +6803,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "terror_tyrant"
           },
@@ -7238,7 +7279,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,atomos"
+              "^$mosphoran_highwaste,atomos"
             ]
           },
           {
@@ -7247,7 +7288,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "^$tchita_uplands,roblon"
+              "^$salikawood,roblon"
             ]
           },
           {
@@ -7639,7 +7680,7 @@
               "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 2"
             ],
             "access_rules": [
-              "$defeat_bergan,[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -7648,7 +7689,7 @@
               "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 3"
             ],
             "access_rules": [
-              "$defeat_bergan,[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -7657,7 +7698,7 @@
               "$chest_visibility|Mosphoran Highwaste - Babbling Vale Treasure 4"
             ],
             "access_rules": [
-              "$defeat_bergan,[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2]"
             ]
           },
           {
@@ -7677,7 +7718,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "braegh"
+              "^$salikawood,braegh"
             ]
           }
         ]
@@ -7700,7 +7741,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dheed"
           },
@@ -7751,7 +7792,7 @@
               "$chest_visibility|Mosphoran Highwaste Upper - Babbling Vale Treasure 1"
             ],
             "access_rules": [
-              "$defeat_bergan,[$scaled_difficulty|2]"
+              "[$scaled_difficulty|2]"
             ]
           }
         ]
@@ -7886,7 +7927,7 @@
           {
             "name": "Moonsilver Medallion",
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5],love_rohkenmu"
+              "^$salikawood,$archades,[$scaled_difficulty|5],love_rohkenmu"
             ]
           },
           {
@@ -8297,7 +8338,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "$aero|bhu_aero,gilgamesh1,gilgamesh2"
+              "^$bhujerba,gilgamesh1,gilgamesh2"
             ]
           },
           {
@@ -8414,7 +8455,7 @@
               "place_clan_rank"
             ],
             "access_rules": [
-              "ageworn_key,soul_ward_key,$hunt_club_kills|30,$espers_controlled|13,$hunts_defeated|45,[$scaled_difficulty|12]"
+              "$hunts_defeated|45,$espers_controlled|13,$hunt_club_kills|30,soul_ward_key,ageworn_key,[$scaled_difficulty|12]"
             ]
           },
           {
@@ -8441,7 +8482,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "earth_tyrant"
+              "earth_tyrant_complete,earth_tyrant"
             ]
           },
           {
@@ -8504,7 +8545,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$tchita_uplands,[$scaled_difficulty|5],king_bomb"
+              "^$salikawood,[$scaled_difficulty|5],king_bomb"
             ]
           },
           {
@@ -8513,7 +8554,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "[$scaled_difficulty|4],mandragora"
+              "^$sochen_cave_palace,[$scaled_difficulty|4],mandragora"
             ]
           },
           {
@@ -8522,7 +8563,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "[$scaled_difficulty|5],ahriman"
+              "^$sochen_cave_palace,[$scaled_difficulty|5],ahriman"
             ]
           },
           {
@@ -8531,7 +8572,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "$sochen_cave_palace,[$scaled_difficulty|7],hell_wyrm"
+              "^$archades,[$scaled_difficulty|7],hell_wyrm"
             ]
           },
           {
@@ -8540,7 +8581,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "^$paramina_rift,[$scaled_difficulty|4],rafflesia"
+              "$feywood,[$scaled_difficulty|4],rafflesia"
             ]
           },
           {
@@ -9096,7 +9137,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|5]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "kaiser_wolf"
           }
@@ -9108,7 +9149,7 @@
           {
             "name": "Dull Fragment",
             "access_rules": [
-              "sluice_gate_key,^$tchita_uplands"
+              "sluice_gate_key,^$salikawood"
             ]
           },
           {
@@ -9509,7 +9550,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|6]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "gavial"
           }
@@ -9985,7 +10026,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|6]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "killbug"
           }
@@ -10011,28 +10052,36 @@
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 1"
             ],
-            "access_rules": []
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           },
           {
             "name": "The Needlebrake Treasure 2",
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 2"
             ],
-            "access_rules": []
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           },
           {
             "name": "The Needlebrake Treasure 3",
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 3"
             ],
-            "access_rules": []
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           },
           {
             "name": "The Needlebrake Treasure 5",
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 5"
             ],
-            "access_rules": []
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
@@ -10155,7 +10204,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|6]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "biding_mantis"
           },
@@ -10220,6 +10269,15 @@
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - Paths of Chained Light Treasure 3",
               "$chest_visibility|Golmore Jungle S - Paths of Chained Light Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "The Needlebrake Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Golmore Jungle S - The Needlebrake Treasure 4"
             ],
             "access_rules": [
               "[$scaled_difficulty|2]"
@@ -11100,7 +11158,7 @@
           {
             "name": "Site 11 Key",
             "access_rules": [
-              "$aero|bhu_aero,antlion"
+              "^$bhujerba,antlion"
             ]
           },
           {
@@ -11119,7 +11177,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "skullash"
           }
@@ -11663,7 +11721,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|5]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "ancbolder"
           },
@@ -11836,7 +11894,7 @@
               "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11855,7 +11913,7 @@
               "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 3"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11865,7 +11923,7 @@
               "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 4"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11875,7 +11933,7 @@
               "$chest_visibility|Zertinan Caverns Center - Sandfalls Treasure 5"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11975,7 +12033,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 1"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11985,7 +12043,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 2"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -11995,7 +12053,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 3"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -12005,7 +12063,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 4"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -12024,7 +12082,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 6"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -12034,7 +12092,7 @@
               "$chest_visibility|Zertinan Caverns Center - The Balamka Fault Treasure 7"
             ],
             "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
+              "[$scaled_difficulty|5]"
             ]
           },
           {
@@ -12123,7 +12181,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|5]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "alteci"
           },
@@ -13164,7 +13222,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bluesang"
           },
@@ -13174,7 +13232,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "aspidochelon"
           }
@@ -13614,7 +13672,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "arioch"
           }
@@ -13686,7 +13744,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "vorres"
           },
@@ -14083,7 +14141,7 @@
               "$chest_visibility|Necrohol of Nabudis - Cloister of Solace Treasure 1"
             ],
             "access_rules": [
-              "med_lusterless,med_bravery,[$scaled_difficulty|7]"
+              "med_bravery,med_lusterless,[$scaled_difficulty|7]"
             ]
           },
           {
@@ -14092,7 +14150,7 @@
               "$chest_visibility|Necrohol of Nabudis - Cloister of Reason Treasure 1"
             ],
             "access_rules": [
-              "med_lusterless,med_love,[$scaled_difficulty|7]"
+              "med_love,med_lusterless,[$scaled_difficulty|7]"
             ]
           }
         ]
@@ -14141,7 +14199,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "melt"
           },
@@ -14649,6 +14707,42 @@
             "name": "Special Charter Shaft Treasure 15",
             "visibility_rules": [
               "$chest_visibility|Henne Mines Deep - Special Charter Shaft Treasure 15"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Phase 2 Shaft Treasure 3",
+            "visibility_rules": [
+              "$chest_visibility|Henne Mines Deep - Phase 2 Shaft Treasure 3"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Phase 2 Shaft Treasure 4",
+            "visibility_rules": [
+              "$chest_visibility|Henne Mines Deep - Phase 2 Shaft Treasure 4"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Phase 2 Shaft Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Henne Mines Deep - Phase 2 Shaft Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Phase 2 Shaft Treasure 6",
+            "visibility_rules": [
+              "$chest_visibility|Henne Mines Deep - Phase 2 Shaft Treasure 6"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -15262,7 +15356,7 @@
               "trophies"
             ],
             "access_rules": [
-              "site_3_key,site_11_key,^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,site_3_key,site_11_key,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "disma"
           }
@@ -15784,7 +15878,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bull_chocobo"
           }
@@ -15802,7 +15896,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|5]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "rageclaw"
           }
@@ -16338,7 +16432,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "dreadguard"
           },
@@ -17089,7 +17183,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|5]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|5]"
             ],
             "hosted_item": "wendice"
           },
@@ -17099,7 +17193,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "anubys"
           },
@@ -17756,7 +17850,7 @@
               "trophies"
             ],
             "access_rules": [
-              "^$hunt_club_start,[$scaled_difficulty|7]"
+              "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "abelisk"
           },

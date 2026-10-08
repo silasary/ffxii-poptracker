@@ -103,6 +103,16 @@ function sandseas()
     end
 end
 
+function mosphoran_highwaste()
+    -- This is probably incorrect under v7 logic, but we can fix that later
+    return tchita_uplands()
+end
+
+function salikawood()
+    -- This is probably incorrect under v7 logic, but we can fix that later
+    return tchita_uplands()
+end
+
 function tchita_uplands()
     if defeat_bergan() == AccessibilityLevel.Normal or
         (Tracker:ProviderCountForCode('cactus_flower') > 0 and defeat_vossler() == AccessibilityLevel.Normal) or

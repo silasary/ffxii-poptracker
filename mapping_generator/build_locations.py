@@ -54,7 +54,7 @@ def main() -> None:
 
     lambda_to_access_rule = lambda_to_access_rule_full.get("needed", {}) | lambda_to_access_rule_full.get("inactive", {}) |  lambda_to_access_rule_full.get("active", {})
     lambda_counter: Counter[str] = Counter()
-    partials: dict[str, str] = lambda_to_access_rule_full.get("partials", {})
+    partials: dict[str, str | None] = lambda_to_access_rule_full.get("partials", {}) | lambda_to_access_rule_full.get("needed_partials", {})
 
     regions = {v['name']: v for v in pt_locations[0]['children']}
     all_locations = {}
@@ -114,6 +114,8 @@ def main() -> None:
                     continue
                 if not warned_regions:
                     print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
+                    warned_regions.add(region_name)
+
                 continue
 
         access_rule: str | None = None
@@ -129,6 +131,9 @@ def main() -> None:
             e_rules = e_loc.get('access_rules', [])
             for er in e_rules:
                 event_reqs.extend(er.split(','))
+
+        events = sorted(set(events))
+        event_reqs = sorted(set(event_reqs))
 
         difficulty = loc.difficulty
         rule = rule_data_table.get(name)
@@ -164,9 +169,10 @@ def main() -> None:
             access_rule_reqs = access_rule.split(',')
             pruned_reqs = [req for req in access_rule_reqs if req not in region_reqs]
             access_rule = ','.join(pruned_reqs)
-        if access_rule and events:
+        pruned_events = [req for req in events if req not in access_rule.split(',')] if access_rule else events
+        if access_rule and pruned_events:
             pruned_reqs = [req for req in access_rule.split(',') if req not in event_reqs]
-            access_rule = ','.join(pruned_reqs + events)
+            access_rule = ','.join(pruned_reqs + pruned_events)
         if access_rule is not None:
             if pt_loc.get('access_rules', []):
                 if pt_loc['access_rules'][0] != access_rule:
@@ -201,7 +207,7 @@ def main() -> None:
         "active": {},
         "needed": {},
         "inactive": {},
-        "unused_partials": {},
+        "needed_partials": {},
     }
     for rule_str, access_rule in lambda_to_access_rule.items():
         count = lambda_counter[rule_str]
@@ -214,10 +220,10 @@ def main() -> None:
 
     for partial, access_rule in partials.items():
         count = lambda_counter.get(partial, 0)
-        if count > 0:
+        if access_rule is not None:
             lambda_to_access_rule_full["partials"][partial] = access_rule
-        elif access_rule:
-            lambda_to_access_rule_full["unused_partials"][partial] = access_rule
+        elif count > 0:
+            lambda_to_access_rule_full["needed_partials"][partial] = access_rule
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'w') as f:
         json.dump(lambda_to_access_rule_full, f, indent=4, sort_keys=True)
@@ -260,16 +266,34 @@ def find_item_code(name: str) -> str:
     for item in pt_items:
         if item['name'] == name:
             return item['codes']
+
     raise ItemNotFound(name, f"Item with name '{name}' not found")
 
 
-def rb_to_access_rule(rule: Rule, partials: dict[str, str], lambda_counter: Counter[str]) -> str | None:
+def rb_to_access_rule(rule: Rule, partials: dict[str, str | None], lambda_counter: Counter[str]) -> str | None:
     # if partials.get(str(rule)):
     #     return partials[str(rule)]
-    if isinstance(rule, Has) and rule.count == 1:
+    if isinstance(rule, Has):
         assert isinstance(rule.item_name, str)
-        access_rule = find_item_code(rule.item_name)
-        return access_rule
+        assert isinstance(rule.count, int)
+        if rule.count == 1:
+            try:
+                access_rule = find_item_code(rule.item_name)
+            except ItemNotFound as e:
+                p = partials.setdefault(str(rule), None)
+                lambda_counter[str(rule)] += 1
+                if p:
+                    return p
+                raise
+            return access_rule
+        elif rule.count > 1:
+            func_partial_key = f"Has({rule.item_name}, count={{COUNT}})"
+            lambda_counter[func_partial_key] += 1
+            func_partial = partials.setdefault(func_partial_key, None)
+            if func_partial:
+                return func_partial.replace("{COUNT}", str(rule.count))
+
+
 
     if isinstance(rule, True_):
         return ""
@@ -334,7 +358,8 @@ def validate(all_names, hosted_items):
         if "world_map.json" not in referenced.get(name, []):
             add_to_world_map.append(name)
         elif len(referenced[name]) != len(set(referenced[name])):
-            print(f'WARNING: Location {name} referenced in {referenced[name]}')
+            # print(f'WARNING: Location {name} referenced in {referenced[name]}')
+            pass
         elif len(referenced[name]) == 1 and '/Clan Hall/' not in name:
             add_to_map_select.append(name)
         elif len(referenced[name]) == 0:

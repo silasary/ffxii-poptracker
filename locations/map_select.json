@@ -9,6 +9,318 @@
       }
     ],
     "sections": [
+      {
+        "name": "Medallion of Bravery: Return to Roh'kenmou with three fragments",
+        "ref": "Main/Initial/Medallion of Bravery: Return to Roh'kenmou with three fragments"
+      },
+      {
+        "name": "Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion",
+        "ref": "Main/Initial/Moonsilver Medallion Questline: Return to Roh'kenmu with Medallion"
+      },
+      {
+        "name": "Earth Tyrant Complete",
+        "ref": "Main/Initial/Earth Tyrant Complete"
+      },
+      {
+        "name": "Hunt 33: Cluckatrice Accepted",
+        "ref": "Main/Giza Plains Dry/Hunt 33: Cluckatrice Accepted"
+      },
+      {
+        "name": "Behemoth King Accepted",
+        "ref": "Main/Lowtown/Behemoth King Accepted"
+      },
+      {
+        "name": "Defeat Judge Ghis",
+        "ref": "Main/Dreadnought Leviathan/Defeat Judge Ghis"
+      },
+      {
+        "name": "Defeat Vinuskar",
+        "ref": "Main/Stilshrine of Miriam/Defeat Vinuskar"
+      },
+      {
+        "name": "Defeat Ahriman",
+        "ref": "Main/Tchita Uplands/Defeat Ahriman"
+      },
+      {
+        "name": "Defeat Daedalus",
+        "ref": "Main/Giruvegan/Defeat Daedalus"
+      },
+      {
+        "name": "Defeat Tyrant",
+        "ref": "Main/Giruvegan/Defeat Tyrant"
+      },
+      {
+        "name": "Hunt 43: Ixion Accepted",
+        "ref": "Main/Balfonheim/Hunt 43: Ixion Accepted"
+      },
+      {
+        "name": "Air Deck Treasure 1",
+        "ref": "Main/Skyferry/Air Deck Treasure 1"
+      },
+      {
+        "name": "Ann's Letter",
+        "ref": "Main/Skyferry/Ann's Letter"
+      },
+      {
+        "name": "Defeat Deathgaze",
+        "ref": "Main/Skyferry/Defeat Deathgaze"
+      },
+      {
+        "name": "Hunt 26: Deathgaze",
+        "ref": "Main/Skyferry/Hunt 26: Deathgaze"
+      },
+      {
+        "name": "Ann's Sisters Quest",
+        "ref": "Main/Skyferry/Ann's Sisters Quest"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Nalbina",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Nalbina"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Bhujerba",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Bhujerba"
+      },
+      {
+        "name": "Deliver Letter on Rabanastre <-> Archades",
+        "ref": "Main/Skyferry/Deliver Letter on Rabanastre <-> Archades"
+      },
+      {
+        "name": "Deliver Letter on Nalbina <-> Archades",
+        "ref": "Main/Skyferry/Deliver Letter on Nalbina <-> Archades"
+      },
+      {
+        "name": "Deliver Letter on Nalbina <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Nalbina <-> Balfonheim"
+      },
+      {
+        "name": "Deliver Letter on Bhujerba <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Bhujerba <-> Balfonheim"
+      },
+      {
+        "name": "Deliver Letter on Archades <-> Balfonheim",
+        "ref": "Main/Skyferry/Deliver Letter on Archades <-> Balfonheim"
+      },
+      {
+        "name": "The Needlebrake Treasure 1",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 1"
+      },
+      {
+        "name": "The Needlebrake Treasure 2",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 2"
+      },
+      {
+        "name": "The Needlebrake Treasure 3",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 3"
+      },
+      {
+        "name": "The Needlebrake Treasure 5",
+        "ref": "Main/Golmore Jungle NW/The Needlebrake Treasure 5"
+      },
+      {
+        "name": "Defeat Humbaba Mistant",
+        "ref": "Main/Necrohol of Nabudis/Defeat Humbaba Mistant"
+      },
+      {
+        "name": "Defeat Hell Wyrm",
+        "ref": "Main/Sochen Cave Palace Middle/Defeat Hell Wyrm"
+      },
+      {
+        "name": "Falls of Time Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 1"
+      },
+      {
+        "name": "Falls of Time Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 2"
+      },
+      {
+        "name": "Falls of Time Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 3"
+      },
+      {
+        "name": "Falls of Time Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 4"
+      },
+      {
+        "name": "Falls of Time Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 5"
+      },
+      {
+        "name": "Falls of Time Treasure 6",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 6"
+      },
+      {
+        "name": "Falls of Time Treasure 7",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 7"
+      },
+      {
+        "name": "Falls of Time Treasure 8",
+        "ref": "Main/Sochen Cave Palace Middle/Falls of Time Treasure 8"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 1"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 2"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 3"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 4"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 5"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 6",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 6"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 7",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 7"
+      },
+      {
+        "name": "Mirror of the Soul Treasure 8",
+        "ref": "Main/Sochen Cave Palace Middle/Mirror of the Soul Treasure 8"
+      },
+      {
+        "name": "The Acolyte's Burden Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/The Acolyte's Burden Treasure 1"
+      },
+      {
+        "name": "The Acolyte's Burden Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/The Acolyte's Burden Treasure 2"
+      },
+      {
+        "name": "Destiny's March Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 1"
+      },
+      {
+        "name": "Destiny's March Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 2"
+      },
+      {
+        "name": "Destiny's March Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 3"
+      },
+      {
+        "name": "Destiny's March Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 4"
+      },
+      {
+        "name": "Destiny's March Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 5"
+      },
+      {
+        "name": "Destiny's March Treasure 6",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 6"
+      },
+      {
+        "name": "Destiny's March Treasure 7",
+        "ref": "Main/Sochen Cave Palace Middle/Destiny's March Treasure 7"
+      },
+      {
+        "name": "Temptation Eluded Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 1"
+      },
+      {
+        "name": "Temptation Eluded Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 2"
+      },
+      {
+        "name": "Temptation Eluded Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 3"
+      },
+      {
+        "name": "Temptation Eluded Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Temptation Eluded Treasure 4"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 1",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 1"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 2",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 2"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 3",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 3"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 4",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 4"
+      },
+      {
+        "name": "Hall of Shadowlight Treasure 5",
+        "ref": "Main/Sochen Cave Palace Middle/Hall of Shadowlight Treasure 5"
+      },
+      {
+        "name": "Earth Tyrant Checked Cactus",
+        "ref": "Main/Initial/Earth Tyrant Checked Cactus"
+      },
+      {
+        "name": "Defeat Vossler",
+        "ref": "Main/Initial/Defeat Vossler"
+      },
+      {
+        "name": "Gil Snapper Accepted",
+        "ref": "Main/Initial/Gil Snapper Accepted"
+      },
+      {
+        "name": "Trickster Accepted",
+        "ref": "Main/Initial/Trickster Accepted"
+      },
+      {
+        "name": "Antlion Accepted",
+        "ref": "Main/Initial/Antlion Accepted"
+      },
+      {
+        "name": "Carrot Accepted",
+        "ref": "Main/Initial/Carrot Accepted"
+      },
+      {
+        "name": "Gilgamesh Accepted",
+        "ref": "Main/Initial/Gilgamesh Accepted"
+      },
+      {
+        "name": "Belito Accepted",
+        "ref": "Main/Initial/Belito Accepted"
+      },
+      {
+        "name": "Shadowseer Accepted",
+        "ref": "Main/Initial/Shadowseer Accepted"
+      },
+      {
+        "name": "Yiazmat Accepted",
+        "ref": "Main/Initial/Yiazmat Accepted"
+      },
+      {
+        "name": "The Needlebrake Treasure 4",
+        "ref": "Main/Golmore Jungle S/The Needlebrake Treasure 4"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 3",
+        "ref": "Main/Henne Mines Deep/Phase 2 Shaft Treasure 3"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 4",
+        "ref": "Main/Henne Mines Deep/Phase 2 Shaft Treasure 4"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 5",
+        "ref": "Main/Henne Mines Deep/Phase 2 Shaft Treasure 5"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 6",
+        "ref": "Main/Henne Mines Deep/Phase 2 Shaft Treasure 6"
+      }
     ]
   }
 ]
