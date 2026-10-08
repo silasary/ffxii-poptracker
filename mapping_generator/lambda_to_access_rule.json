@@ -51,7 +51,7 @@
         "And(Has(Site 3 Key), Has(Site 11 Key))": "site_3_key,site_11_key",
         "And(Has(Site 3 Key), Has(Site 11 Key), CanReachRegion(Lhusu Mines))": "site_3_key,site_11_key,^$bhujerba",
         "And(Has(Sluice Gate Key), CanReachRegion(Nabreus Deadlands))": "sluice_gate_key,^$salikawood",
-        "And(Has(Viera Rucksack), CanReachRegion(Cerobi Steppe))": "viera_rucksack,^$tchita_uplands",
+        "And(Has(Viera Rucksack), CanReachRegion(Cerobi Steppe))": "viera_rucksack,^$cerobi_access",
         "And(Has(Wind Globe), Has(Defeat Vossler))": "wind_globe,^$defeat_vossler",
         "CanReachRegion(Barheim Passage)": "barheim_key",
         "CanReachRegion(Clan Hall)": "clan_primer",
@@ -214,7 +214,6 @@
         "lambda state, player: state.has('Sunstone', player)": "sunstone",
         "lambda state, player: state.has('Sword of Kings', player)": "sword_of_kings",
         "lambda state, player: state.has('Sword of the Order', player)": "sword_of_the_order",
-        "lambda state, player: state.has('Viera Rucksack', player) and state.can_reach_region('Cerobi Steppe', player)": "viera_rucksack,^$tchita_uplands",
         "lambda state, player: state.has('Viera Rucksack', player) and state.has('Dragon Scale', player) and state.can_reach_region('Balfonheim', player)": "viera_rucksack,dragon_scale,^$tchita_uplands"
     },
     "needed": {
@@ -286,7 +285,7 @@
         "CanReachRegion(Archades)": "$archades",
         "CanReachRegion(Barheim Passage)": "barheim_key",
         "CanReachRegion(Bhujerba <-> Balfonheim Skyferry)": "^$bhujerba_skyferry",
-        "CanReachRegion(Cerobi Steppe)": "^$tchita_uplands",
+        "CanReachRegion(Cerobi Steppe)": "^$cerobi_access",
         "CanReachRegion(Clan Hall)": "clan_primer",
         "CanReachRegion(Dalmasca Estersand)": "",
         "CanReachRegion(Dalmasca Westersand)": "",

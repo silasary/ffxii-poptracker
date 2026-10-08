@@ -12592,7 +12592,7 @@
       {
         "name": "Cerobi Steppe",
         "access_rules": [
-          "^$tchita_uplands"
+          "^$cerobi_access"
         ],
         "sections": [
           {
