@@ -4,7 +4,17 @@
     "children": [
       {
         "name": "Aerodrome",
-        "sections": []
+        "sections": [
+          {
+            "name": "Hunt 39: Carrot",
+            "visibility_rules": [
+              "place_hunts"
+            ],
+            "access_rules": [
+              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7],carrot"
+            ]
+          }
+        ]
       },
       {
         "name": "Initial",
@@ -7319,15 +7329,6 @@
             "name": "Jovy Reward",
             "access_rules": [
               "^$tchita_uplands,atomos,roblon,goliath,deathscythe,carrot"
-            ]
-          },
-          {
-            "name": "Hunt 39: Carrot",
-            "visibility_rules": [
-              "place_hunts"
-            ],
-            "access_rules": [
-              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7],carrot"
             ]
           }
         ]
