@@ -260,6 +260,22 @@
       {
         "name": "Withering Shores Treasure 3",
         "ref": "Main/Nam-Yensa Sandsea Belito/Withering Shores Treasure 3"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 1",
+        "ref": "Main/Henne Mines Feywood/Phase 2 Shaft Treasure 1"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 2",
+        "ref": "Main/Henne Mines Feywood/Phase 2 Shaft Treasure 2"
+      },
+      {
+        "name": "Sandfalls Treasure 2",
+        "ref": "Main/Zertinan Caverns N/Sandfalls Treasure 2"
+      },
+      {
+        "name": "The Balamka Fault Treasure 5",
+        "ref": "Main/Zertinan Caverns N/The Balamka Fault Treasure 5"
       }
     ]
   },
@@ -5860,7 +5876,7 @@
       },
       {
         "name": "Sandfalls Treasure 2",
-        "ref": "Main/Zertinan Caverns Center/Sandfalls Treasure 2"
+        "ref": "Main/Zertinan Caverns N/Sandfalls Treasure 2"
       },
       {
         "name": "Sandfalls Treasure 3",
@@ -5928,7 +5944,7 @@
       },
       {
         "name": "The Balamka Fault Treasure 5",
-        "ref": "Main/Zertinan Caverns Center/The Balamka Fault Treasure 5"
+        "ref": "Main/Zertinan Caverns N/The Balamka Fault Treasure 5"
       },
       {
         "name": "The Balamka Fault Treasure 6",

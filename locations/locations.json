@@ -77,6 +77,11 @@
         ]
       },
       {
+        "name": "Starting Items",
+        "access_rules": [],
+        "sections": []
+      },
+      {
         "name": "Rabanastre",
         "sections": [
           {
@@ -11745,6 +11750,34 @@
         ]
       },
       {
+        "name": "Zertinan Caverns N",
+        "access_rules": [
+          "rainstone"
+        ],
+        "sections": [
+          {
+            "name": "Sandfalls Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 2",
+              "$chest_visibility|Zertinan Caverns N - Sandfalls Treasure 2"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "The Balamka Fault Treasure 5",
+            "visibility_rules": [
+              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 5",
+              "$chest_visibility|Zertinan Caverns N - The Balamka Fault Treasure 5"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          }
+        ]
+      },
+      {
         "name": "Zertinan Caverns NE",
         "access_rules": [],
         "sections": [
@@ -11895,15 +11928,6 @@
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
-            ]
-          },
-          {
-            "name": "Sandfalls Treasure 2",
-            "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - Sandfalls Treasure 2"
-            ],
-            "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -12064,15 +12088,6 @@
             ],
             "access_rules": [
               "[$scaled_difficulty|5]"
-            ]
-          },
-          {
-            "name": "The Balamka Fault Treasure 5",
-            "visibility_rules": [
-              "$chest_visibility|Zertinan Caverns - The Balamka Fault Treasure 5"
-            ],
-            "access_rules": [
-              "rainstone,[$scaled_difficulty|5]"
             ]
           },
           {
@@ -14743,6 +14758,32 @@
             "name": "Phase 2 Shaft Treasure 6",
             "visibility_rules": [
               "$chest_visibility|Henne Mines Deep - Phase 2 Shaft Treasure 6"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Henne Mines Feywood",
+        "access_rules": [
+          "^$feywood"
+        ],
+        "sections": [
+          {
+            "name": "Phase 2 Shaft Treasure 1",
+            "visibility_rules": [
+              "$chest_visibility|Henne Mines Feywood - Phase 2 Shaft Treasure 1"
+            ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Phase 2 Shaft Treasure 2",
+            "visibility_rules": [
+              "$chest_visibility|Henne Mines Feywood - Phase 2 Shaft Treasure 2"
             ],
             "access_rules": [
               "[$scaled_difficulty|8]"
@@ -17866,6 +17907,11 @@
             "hosted_item": "yiazmat"
           }
         ]
+      },
+      {
+        "name": "Trials",
+        "access_rules": [],
+        "sections": []
       }
     ]
   }

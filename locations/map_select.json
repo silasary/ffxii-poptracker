@@ -320,6 +320,14 @@
       {
         "name": "Phase 2 Shaft Treasure 6",
         "ref": "Main/Henne Mines Deep/Phase 2 Shaft Treasure 6"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 1",
+        "ref": "Main/Henne Mines Feywood/Phase 2 Shaft Treasure 1"
+      },
+      {
+        "name": "Phase 2 Shaft Treasure 2",
+        "ref": "Main/Henne Mines Feywood/Phase 2 Shaft Treasure 2"
       }
     ]
   }
