@@ -127,13 +127,11 @@ def main() -> None:
                     continue
                 if not warned_regions:
                     print(f"WARNING: No matching location for {name} in region {region_name} in locations.json")
-                if todays_treasures in [region_name, None]:
                     pt_loc = {
                         "name": shortname,
                         "access_rules": [],
                     }
                     region['sections'].append(pt_loc)
-                    todays_treasures = region_name
                     print(f"Creating @Main/{region_name}/{shortname}")
                 continue
 

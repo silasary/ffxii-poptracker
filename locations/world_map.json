@@ -276,6 +276,78 @@
       {
         "name": "The Balamka Fault Treasure 5",
         "ref": "Main/Zertinan Caverns N/The Balamka Fault Treasure 5"
+      },
+      {
+        "name": "Map of Royal Palace Urn Reward",
+        "ref": "Main/Royal Palace/Map of Royal Palace Urn Reward"
+      },
+      {
+        "name": "Map of Pharos of Ridorana First Ascent Urn Reward",
+        "ref": "Main/Pharos of Ridorana/Map of Pharos of Ridorana First Ascent Urn Reward"
+      },
+      {
+        "name": "Map of Pharos of Ridorana Second Ascent Urn Reward",
+        "ref": "Main/Pharos of Ridorana/Map of Pharos of Ridorana Second Ascent Urn Reward"
+      },
+      {
+        "name": "Map of Pharos of Ridorana Third Ascent Urn Reward",
+        "ref": "Main/Pharos of Ridorana/Map of Pharos of Ridorana Third Ascent Urn Reward"
+      },
+      {
+        "name": "Map of Golmore Jungle Urn Reward",
+        "ref": "Main/Golmore Jungle NW/Map of Golmore Jungle Urn Reward"
+      },
+      {
+        "name": "Map of Zertinan Caverns Urn Reward",
+        "ref": "Main/Zertinan Caverns Center/Map of Zertinan Caverns Urn Reward"
+      },
+      {
+        "name": "Candle of Henne Mines Urn Reward",
+        "ref": "Main/Henne Mines Deep/Candle of Henne Mines Urn Reward"
+      },
+      {
+        "name": "Map of Sochen Cave Palace Urn Reward",
+        "ref": "Main/Sochen Cave Palace Middle/Map of Sochen Cave Palace Urn Reward"
+      },
+      {
+        "name": "Complete Stage 10 Reward",
+        "ref": "Main/Trials/Complete Stage 10 Reward"
+      },
+      {
+        "name": "Complete Stage 20 Reward",
+        "ref": "Main/Trials/Complete Stage 20 Reward"
+      },
+      {
+        "name": "Complete Stage 30 Reward",
+        "ref": "Main/Trials/Complete Stage 30 Reward"
+      },
+      {
+        "name": "Complete Stage 40 Reward",
+        "ref": "Main/Trials/Complete Stage 40 Reward"
+      },
+      {
+        "name": "Complete Stage 50 Reward",
+        "ref": "Main/Trials/Complete Stage 50 Reward"
+      },
+      {
+        "name": "Complete Stage 60 Reward",
+        "ref": "Main/Trials/Complete Stage 60 Reward"
+      },
+      {
+        "name": "Complete Stage 70 Reward",
+        "ref": "Main/Trials/Complete Stage 70 Reward"
+      },
+      {
+        "name": "Complete Stage 80 Reward",
+        "ref": "Main/Trials/Complete Stage 80 Reward"
+      },
+      {
+        "name": "Complete Stage 90 Reward",
+        "ref": "Main/Trials/Complete Stage 90 Reward"
+      },
+      {
+        "name": "Complete Stage 100 Reward",
+        "ref": "Main/Trials/Complete Stage 100 Reward"
       }
     ]
   },
@@ -593,6 +665,10 @@
       {
         "name": "Nazarnir - Maned Trophy",
         "ref": "Main/Giza Plains Dry/Nazarnir - Maned Trophy"
+      },
+      {
+        "name": "Great Cockatrice Escape Complete Terra Reward",
+        "ref": "Main/Giza Plains Dry/Great Cockatrice Escape Complete Terra Reward"
       }
     ]
   },
@@ -798,6 +874,10 @@
       {
         "name": "Defeat Gil Snapper",
         "ref": "Main/Giza Plains Rains/Defeat Gil Snapper"
+      },
+      {
+        "name": "Feather of the Flock Urn Reward",
+        "ref": "Main/Giza Plains Rains/Feather of the Flock Urn Reward"
       }
     ]
   },
@@ -923,6 +1003,10 @@
       {
         "name": "Behemoth King Accepted",
         "ref": "Main/Lowtown/Behemoth King Accepted"
+      },
+      {
+        "name": "Samal Blackened Fragment Reward",
+        "ref": "Main/Lowtown/Samal Blackened Fragment Reward"
       }
     ]
   },
@@ -1410,6 +1494,10 @@
       },
       {
         "ref": "Main/Tomb of Raithwall/Defeat Demon Wall 2"
+      },
+      {
+        "name": "Map of Tomb of Raithwall Urn Reward",
+        "ref": "Main/Tomb of Raithwall/Map of Tomb of Raithwall Urn Reward"
       }
     ]
   },
@@ -1754,6 +1842,14 @@
       {
         "name": "Special Op Sector 5 Treasure 8",
         "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 8"
+      },
+      {
+        "name": "Map of Barheim Passage Urn Reward",
+        "ref": "Main/Barheim Passage/Map of Barheim Passage Urn Reward"
+      },
+      {
+        "name": "Candle of Barheim Passage Urn Reward",
+        "ref": "Main/Barheim Passage/Candle of Barheim Passage Urn Reward"
       }
     ]
   },
@@ -1803,6 +1899,14 @@
       {
         "name": "Hunt 30: Catoblepas",
         "ref": "Main/Jahara/Hunt 30: Catoblepas"
+      },
+      {
+        "name": "Great Cockatrice Escape Gift of the Great-chief Reward",
+        "ref": "Main/Jahara/Great Cockatrice Escape Gift of the Great-chief Reward"
+      },
+      {
+        "name": "Great Cockatrice Escape Shurry Reward",
+        "ref": "Main/Jahara/Great Cockatrice Escape Shurry Reward"
       }
     ]
   },
@@ -1844,6 +1948,10 @@
       {
         "name": "Hunt 29: Wild Malboro",
         "ref": "Main/Eruyt Village/Hunt 29: Wild Malboro"
+      },
+      {
+        "name": "Great Cockatrice Escape Chit Reward",
+        "ref": "Main/Eruyt Village/Great Cockatrice Escape Chit Reward"
       }
     ]
   },
@@ -1969,6 +2077,10 @@
       {
         "name": "Myath - Eternal Trophy",
         "ref": "Main/Stilshrine of Miriam/Myath - Eternal Trophy"
+      },
+      {
+        "name": "Map of Stilshrine of Miriam Urn Reward",
+        "ref": "Main/Stilshrine of Miriam/Map of Stilshrine of Miriam Urn Reward"
       }
     ]
   },
@@ -2506,6 +2618,10 @@
       {
         "name": "Hunt Club Owner 30 Trophy Rares Defeated",
         "ref": "Main/Archades/Hunt Club Owner 30 Trophy Rares Defeated"
+      },
+      {
+        "name": "Great Cockatrice Escape Agytha Reward",
+        "ref": "Main/Archades/Great Cockatrice Escape Agytha Reward"
       }
     ]
   },
@@ -2538,6 +2654,10 @@
       {
         "name": "Treaty-Blade",
         "ref": "Main/Giruvegan End/Treaty-Blade"
+      },
+      {
+        "name": "Map of Giruvegan Urn Reward",
+        "ref": "Main/Giruvegan/Map of Giruvegan Urn Reward"
       }
     ]
   },
@@ -3607,6 +3727,10 @@
       {
         "name": "Terror Tyrant - Hide-covered Trophy",
         "ref": "Main/Dalmasca Estersand/Terror Tyrant - Hide-covered Trophy"
+      },
+      {
+        "name": "Great Cockatrice Escape Sassan Reward",
+        "ref": "Main/Dalmasca Estersand/Great Cockatrice Escape Sassan Reward"
       }
     ]
   },
@@ -4017,6 +4141,14 @@
       {
         "name": "Hunt 43: Ixion Accepted",
         "ref": "Main/Balfonheim/Hunt 43: Ixion Accepted"
+      },
+      {
+        "name": "Viera Wayfarer Dragon Scale Reward",
+        "ref": "Main/Balfonheim/Viera Wayfarer Dragon Scale Reward"
+      },
+      {
+        "name": "Great Cockatrice Escape Moomer Reward",
+        "ref": "Main/Balfonheim/Great Cockatrice Escape Moomer Reward"
       }
     ]
   },
@@ -4815,6 +4947,14 @@
       {
         "name": "Defeat Flans",
         "ref": "Main/Garamsythe Waterway/Defeat Flans"
+      },
+      {
+        "name": "Map of Garamsythe Waterway Urn Reward",
+        "ref": "Main/Garamsythe Waterway/Map of Garamsythe Waterway Urn Reward"
+      },
+      {
+        "name": "Candle of Garamsythe Waterway Urn Reward",
+        "ref": "Main/Garamsythe Waterway/Candle of Garamsythe Waterway Urn Reward"
       }
     ]
   },
@@ -5535,6 +5675,154 @@
       {
         "name": "Skullash - Clawed Trophy",
         "ref": "Main/Phon Coast/Skullash - Clawed Trophy"
+      },
+      {
+        "name": "All Trophies Turn In 1 Reward",
+        "ref": "Main/Phon Coast/All Trophies Turn In 1 Reward"
+      },
+      {
+        "name": "All Trophies Turn In 2 Reward",
+        "ref": "Main/Phon Coast/All Trophies Turn In 2 Reward"
+      },
+      {
+        "name": "All Trophies Turn In 3 Reward",
+        "ref": "Main/Phon Coast/All Trophies Turn In 3 Reward"
+      },
+      {
+        "name": "All Trophies Turn In 4 Reward",
+        "ref": "Main/Phon Coast/All Trophies Turn In 4 Reward"
+      },
+      {
+        "name": "All Trophies Turn In 5 Reward",
+        "ref": "Main/Phon Coast/All Trophies Turn In 5 Reward"
+      },
+      {
+        "name": "All Trophies Turn In 6 Reward",
+        "ref": "Main/Phon Coast/All Trophies Turn In 6 Reward"
+      },
+      {
+        "name": "Atak 1, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 1, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 1, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 1, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 1 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 1 Outfitters Reward"
+      },
+      {
+        "name": "Atak 5, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 5, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 5, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 5, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 5 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 5 Outfitters Reward"
+      },
+      {
+        "name": "Atak 10, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 10, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 10, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 10, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 10 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 10 Outfitters Reward"
+      },
+      {
+        "name": "Atak 15, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 15, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 15, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 15, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 15 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 15 Outfitters Reward"
+      },
+      {
+        "name": "Atak 10, Blok 5, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 10, Blok 5, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 20, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 20, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 20, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 20, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 20 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 20 Outfitters Reward"
+      },
+      {
+        "name": "Atak 5, Blok 10, Stok 5 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 5, Blok 10, Stok 5 Outfitters Reward"
+      },
+      {
+        "name": "Atak 25, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 25, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 25, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 25, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 25 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 25 Outfitters Reward"
+      },
+      {
+        "name": "Atak 5, Blok 5, Stok 15 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 5, Blok 5, Stok 15 Outfitters Reward"
+      },
+      {
+        "name": "Atak 30, Blok 0, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 30, Blok 0, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 30, Stok 0 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 30, Stok 0 Outfitters Reward"
+      },
+      {
+        "name": "Atak 0, Blok 0, Stok 30 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 0, Blok 0, Stok 30 Outfitters Reward"
+      },
+      {
+        "name": "Atak 10, Blok 10, Stok 10 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 10, Blok 10, Stok 10 Outfitters Reward"
+      },
+      {
+        "name": "Atak 25, Blok 1, Stok 1 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 25, Blok 1, Stok 1 Outfitters Reward"
+      },
+      {
+        "name": "Atak 1, Blok 25, Stok 1 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 1, Blok 25, Stok 1 Outfitters Reward"
+      },
+      {
+        "name": "Atak 1, Blok 1, Stok 25 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 1, Blok 1, Stok 25 Outfitters Reward"
+      },
+      {
+        "name": "Atak 12, Blok 5, Stok 5 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 12, Blok 5, Stok 5 Outfitters Reward"
+      },
+      {
+        "name": "Atak 5, Blok 12, Stok 5 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 5, Blok 12, Stok 5 Outfitters Reward"
+      },
+      {
+        "name": "Atak 5, Blok 5, Stok 12 Outfitters Reward",
+        "ref": "Main/Phon Coast/Atak 5, Blok 5, Stok 12 Outfitters Reward"
       }
     ]
   },
@@ -6657,6 +6945,10 @@
       {
         "name": "Arioch - Vengeful Trophy",
         "ref": "Main/Nabreus Deadlands/Arioch - Vengeful Trophy"
+      },
+      {
+        "name": "Map of Nabreus Deadlands Urn Reward",
+        "ref": "Main/Nabreus Deadlands/Map of Nabreus Deadlands Urn Reward"
       }
     ]
   },
@@ -6877,6 +7169,10 @@
       {
         "name": "Cloister of Reason Treasure 1",
         "ref": "Main/Necrohol of Nabudis/Cloister of Reason Treasure 1"
+      },
+      {
+        "name": "Map of Necrohol of Nabudis Reward",
+        "ref": "Main/Necrohol of Nabudis/Map of Necrohol of Nabudis Reward"
       }
     ]
   },
@@ -7134,6 +7430,10 @@
       {
         "name": "Special Charter Shaft Treasure 15",
         "ref": "Main/Henne Mines Deep/Special Charter Shaft Treasure 15"
+      },
+      {
+        "name": "Map of Henne Mines Urn Reward",
+        "ref": "Main/Henne Mines/Map of Henne Mines Urn Reward"
       }
     ]
   },
@@ -7415,6 +7715,10 @@
       {
         "name": "Disma - Accursed Trophy",
         "ref": "Main/Lhusu Mines/Disma - Accursed Trophy"
+      },
+      {
+        "name": "Candle of Lhusu Mines Urn Reward",
+        "ref": "Main/Lhusu Mines/Candle of Lhusu Mines Urn Reward"
       }
     ]
   },
@@ -7655,6 +7959,14 @@
       {
         "name": "Bull Chocobo - Beaked Trophy",
         "ref": "Main/Ogir-Yensa Sandsea/Bull Chocobo - Beaked Trophy"
+      },
+      {
+        "name": "Map of Ogir-Yensa Sandsea Urn Reward",
+        "ref": "Main/Ogir-Yensa Sandsea/Map of Ogir-Yensa Sandsea Urn Reward"
+      },
+      {
+        "name": "Map of Nam-Yensa Sandsea Urn Reward",
+        "ref": "Main/Ogir-Yensa Sandsea/Map of Nam-Yensa Sandsea Urn Reward"
       }
     ]
   },
@@ -7883,6 +8195,18 @@
       {
         "name": "Piebald Path Treasure 3",
         "ref": "Main/Salikawood/Piebald Path Treasure 3"
+      },
+      {
+        "name": "Map of Salikawood Urn Reward",
+        "ref": "Main/Salikawood/Map of Salikawood Urn Reward"
+      },
+      {
+        "name": "Moogle Boss Accept Search Reward",
+        "ref": "Main/Salikawood/Moogle Boss Accept Search Reward"
+      },
+      {
+        "name": "Moogle Boss Repair Gate Reward",
+        "ref": "Main/Salikawood/Moogle Boss Repair Gate Reward"
       }
     ]
   },
@@ -8179,6 +8503,14 @@
       {
         "name": "The Edge of Reason Treasure 11",
         "ref": "Main/Feywood/The Edge of Reason Treasure 11"
+      },
+      {
+        "name": "Map of Feywood Urn Reward",
+        "ref": "Main/Feywood/Map of Feywood Urn Reward"
+      },
+      {
+        "name": "Candle of Feywood Urn Reward",
+        "ref": "Main/Feywood/Candle of Feywood Urn Reward"
       }
     ]
   },
@@ -8560,6 +8892,10 @@
       {
         "name": "Defeat Yiazmat",
         "ref": "Main/Ridorana Cataract/Defeat Yiazmat"
+      },
+      {
+        "name": "Map of Ridorana Cataract Urn Reward",
+        "ref": "Main/Ridorana Cataract/Map of Ridorana Cataract Urn Reward"
       }
     ]
   }

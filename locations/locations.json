@@ -11,7 +11,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "clan_primer,^$tchita_uplands,[$scaled_difficulty|7],carrot"
+              "^$tchita_uplands,carrot"
             ]
           }
         ]
@@ -234,7 +234,9 @@
           },
           {
             "name": "Great Cockatrice Escape Renn Reward",
-            "access_rules": []
+            "access_rules": [
+              "feather_of_the_flock,clan_primer"
+            ]
           }
         ]
       },
@@ -718,6 +720,10 @@
               "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "nazarnir"
+          },
+          {
+            "name": "Great Cockatrice Escape Complete Terra Reward",
+            "access_rules": []
           }
         ]
       },
@@ -1147,6 +1153,12 @@
               "clan_primer,silent_urn,[$scaled_difficulty|3]"
             ],
             "hosted_item": "gil_snapper"
+          },
+          {
+            "name": "Feather of the Flock Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
@@ -1373,6 +1385,12 @@
             ],
             "access_rules": [
               "$feywood,behemoth_king"
+            ]
+          },
+          {
+            "name": "Samal Blackened Fragment Reward",
+            "access_rules": [
+              "clan_primer,stolen_articles,fran,ashe,penelo,[$scaled_difficulty|5]"
             ]
           }
         ]
@@ -2387,6 +2405,12 @@
               "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "zombie_lord"
+          },
+          {
+            "name": "Map of Tomb of Raithwall Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
           }
         ]
       },
@@ -2398,6 +2422,12 @@
         "sections": [
           {
             "name": "Goddess's Magicite",
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Map of Royal Palace Urn Reward",
             "access_rules": [
               "[$scaled_difficulty|1]"
             ]
@@ -3165,6 +3195,18 @@
             "access_rules": [
               "[$scaled_difficulty|4]"
             ]
+          },
+          {
+            "name": "Map of Barheim Passage Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Candle of Barheim Passage Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
           }
         ]
       },
@@ -3219,7 +3261,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "ixtab"
+              "$henne_mines,ixtab"
             ]
           },
           {
@@ -3239,6 +3281,16 @@
             "access_rules": [
               "catoblepas"
             ]
+          },
+          {
+            "name": "Great Cockatrice Escape Gift of the Great-chief Reward",
+            "access_rules": [
+              "feather_of_the_flock,clan_primer"
+            ]
+          },
+          {
+            "name": "Great Cockatrice Escape Shurry Reward",
+            "access_rules": []
           }
         ]
       },
@@ -3297,6 +3349,12 @@
             ],
             "access_rules": [
               "$feywood,wild_malboro"
+            ]
+          },
+          {
+            "name": "Great Cockatrice Escape Chit Reward",
+            "access_rules": [
+              "feather_of_the_flock,clan_primer"
             ]
           }
         ]
@@ -3539,6 +3597,12 @@
             "visibility_rules": [
               "$chest_visibility|Stilshrine of Miriam - Hall of Worth Treasure 2"
             ],
+            "access_rules": [
+              "dawn_shard,[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Map of Stilshrine of Miriam Urn Reward",
             "access_rules": [
               "dawn_shard,[$scaled_difficulty|2]"
             ]
@@ -4682,6 +4746,12 @@
             "access_rules": [
               "sw_chop,$hunt_club_kills|30,[$scaled_difficulty|10]"
             ]
+          },
+          {
+            "name": "Great Cockatrice Escape Agytha Reward",
+            "access_rules": [
+              "sw_chop,feather_of_the_flock,clan_primer"
+            ]
           }
         ]
       },
@@ -4847,6 +4917,12 @@
               "[$scaled_difficulty|5]"
             ],
             "hosted_item": "piscodaemon"
+          },
+          {
+            "name": "Map of Giruvegan Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
           }
         ]
       },
@@ -5999,6 +6075,24 @@
               "shelled_trophy,^$hunt_club_start,$has_n_black_orbs|3,[$scaled_difficulty|7]"
             ],
             "hosted_item": "avenger"
+          },
+          {
+            "name": "Map of Pharos of Ridorana First Ascent Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Map of Pharos of Ridorana Second Ascent Urn Reward",
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Map of Pharos of Ridorana Third Ascent Urn Reward",
+            "access_rules": [
+              "$has_n_black_orbs|3,[$scaled_difficulty|5]"
+            ]
           }
         ]
       },
@@ -6867,6 +6961,12 @@
             ],
             "access_rules": [
               "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Great Cockatrice Escape Sassan Reward",
+            "access_rules": [
+              "cactus_flower,feather_of_the_flock,clan_primer"
             ]
           }
         ]
@@ -7923,6 +8023,18 @@
             "access_rules": [
               "$has_n_system_access_keys|2,pylraster"
             ]
+          },
+          {
+            "name": "Viera Wayfarer Dragon Scale Reward",
+            "access_rules": [
+              "viera_rucksack,^$tchita_uplands,[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Great Cockatrice Escape Moomer Reward",
+            "access_rules": [
+              "feather_of_the_flock,clan_primer"
+            ]
           }
         ]
       },
@@ -8337,7 +8449,7 @@
               "place_hunts"
             ],
             "access_rules": [
-              "belito"
+              "^$sandseas, rainstone,belito"
             ]
           },
           {
@@ -8508,7 +8620,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "crescent_stone,tube_fuse,[$scaled_difficulty|1],mimic_queen"
+              "[$scaled_difficulty|1],mimic_queen"
             ]
           },
           {
@@ -8652,7 +8764,7 @@
               "place_clan_boss"
             ],
             "access_rules": [
-              "belias,^$paramina_rift,omega_mark_xii"
+              "belias,^$paramina_rift,treaty_blade,omega_mark_xii"
             ]
           },
           {
@@ -9570,6 +9682,18 @@
               "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|6]"
             ],
             "hosted_item": "gavial"
+          },
+          {
+            "name": "Map of Garamsythe Waterway Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Candle of Garamsythe Waterway Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
           }
         ]
       },
@@ -10096,6 +10220,12 @@
             "visibility_rules": [
               "$chest_visibility|Golmore Jungle NW - The Needlebrake Treasure 5"
             ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Map of Golmore Jungle Urn Reward",
             "access_rules": [
               "[$scaled_difficulty|2]"
             ]
@@ -11197,6 +11327,154 @@
               "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "skullash"
+          },
+          {
+            "name": "All Trophies Turn In 1 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "All Trophies Turn In 2 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "All Trophies Turn In 3 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "All Trophies Turn In 4 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "All Trophies Turn In 5 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "All Trophies Turn In 6 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 1, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 1, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 1 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 5, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 5, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 5 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 10, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 10, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 10 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 15, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 15, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 15 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 10, Blok 5, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 20, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 20, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 20 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 5, Blok 10, Stok 5 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 25, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 25, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 25 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 5, Blok 5, Stok 15 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 30, Blok 0, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 30, Stok 0 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 0, Blok 0, Stok 30 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 10, Blok 10, Stok 10 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 25, Blok 1, Stok 1 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 1, Blok 25, Stok 1 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 1, Blok 1, Stok 25 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 12, Blok 5, Stok 5 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 5, Blok 12, Stok 5 Outfitters Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Atak 5, Blok 5, Stok 12 Outfitters Reward",
+            "access_rules": []
           }
         ]
       },
@@ -12230,6 +12508,12 @@
               "$chest_visibility|Zertinan Caverns S - Halls of Ardent Darkness Treasure 1",
               "$chest_visibility|Zertinan Caverns Center - Halls of Ardent Darkness Treasure 1"
             ],
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
+          },
+          {
+            "name": "Map of Zertinan Caverns Urn Reward",
             "access_rules": [
               "[$scaled_difficulty|5]"
             ]
@@ -13702,6 +13986,12 @@
               "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "arioch"
+          },
+          {
+            "name": "Map of Nabreus Deadlands Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|5]"
+            ]
           }
         ]
       },
@@ -14179,6 +14469,10 @@
             "access_rules": [
               "med_love,med_lusterless,[$scaled_difficulty|7]"
             ]
+          },
+          {
+            "name": "Map of Necrohol of Nabudis Reward",
+            "access_rules": []
           }
         ]
       },
@@ -14379,6 +14673,12 @@
             "visibility_rules": [
               "$chest_visibility|Henne Mines - Crossover A Treasure 4"
             ],
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Map of Henne Mines Urn Reward",
             "access_rules": [
               "[$scaled_difficulty|2]"
             ]
@@ -14771,6 +15071,12 @@
             "visibility_rules": [
               "$chest_visibility|Henne Mines Deep - Phase 2 Shaft Treasure 6"
             ],
+            "access_rules": [
+              "[$scaled_difficulty|8]"
+            ]
+          },
+          {
+            "name": "Candle of Henne Mines Urn Reward",
             "access_rules": [
               "[$scaled_difficulty|8]"
             ]
@@ -15412,6 +15718,12 @@
               "shelled_trophy,site_3_key,site_11_key,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "disma"
+          },
+          {
+            "name": "Candle of Lhusu Mines Urn Reward",
+            "access_rules": [
+              "site_3_key,site_11_key,[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
@@ -15934,6 +16246,18 @@
               "shelled_trophy,^$hunt_club_start,[$scaled_difficulty|7]"
             ],
             "hosted_item": "bull_chocobo"
+          },
+          {
+            "name": "Map of Ogir-Yensa Sandsea Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
+          },
+          {
+            "name": "Map of Nam-Yensa Sandsea Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|1]"
+            ]
           }
         ]
       },
@@ -16440,6 +16764,22 @@
             "access_rules": [
               "[$scaled_difficulty|5]"
             ]
+          },
+          {
+            "name": "Map of Salikawood Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Moogle Boss Accept Search Reward",
+            "access_rules": [
+              "[$scaled_difficulty|2]"
+            ]
+          },
+          {
+            "name": "Moogle Boss Repair Gate Reward",
+            "access_rules": []
           }
         ]
       },
@@ -17091,6 +17431,18 @@
             "access_rules": [
               "[$scaled_difficulty|3]"
             ]
+          },
+          {
+            "name": "Map of Feywood Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
+          },
+          {
+            "name": "Candle of Feywood Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
           }
         ]
       },
@@ -17627,6 +17979,12 @@
             "access_rules": [
               "ageworn_key,[$scaled_difficulty|8]"
             ]
+          },
+          {
+            "name": "Map of Sochen Cave Palace Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|3]"
+            ]
           }
         ]
       },
@@ -17917,13 +18275,60 @@
               "clan_primer,[$scaled_difficulty|8]"
             ],
             "hosted_item": "yiazmat"
+          },
+          {
+            "name": "Map of Ridorana Cataract Urn Reward",
+            "access_rules": [
+              "[$scaled_difficulty|4]"
+            ]
           }
         ]
       },
       {
         "name": "Trials",
         "access_rules": [],
-        "sections": []
+        "sections": [
+          {
+            "name": "Complete Stage 10 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 20 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 30 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 40 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 50 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 60 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 70 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 80 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 90 Reward",
+            "access_rules": []
+          },
+          {
+            "name": "Complete Stage 100 Reward",
+            "access_rules": []
+          }
+        ]
       }
     ]
   }
