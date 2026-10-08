@@ -194,10 +194,6 @@
             "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 6"
           },
           {
-            "name": "Special Op Sector 5 Treasure 7",
-            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 7"
-          },
-          {
             "name": "Special Op Sector 5 Treasure 8",
             "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 8"
           }
@@ -543,6 +539,27 @@
           {
             "name": "West Annex Treasure 10",
             "ref": "Main/Barheim Passage/West Annex Treasure 10"
+          }
+        ]
+      },
+      {
+        "name": "Special Op Sector 5 Treasure 7",
+        "map_locations": [
+          {
+            "map": "barheim_passage",
+            "x": 849,
+            "y": 1051
+          },
+          {
+            "map": "barheim_passage_bottom",
+            "x": 1506,
+            "y": 348
+          }
+        ],
+        "sections": [
+          {
+            "name": "Special Op Sector 5 Treasure 7",
+            "ref": "Main/Barheim Passage/Special Op Sector 5 Treasure 7"
           }
         ]
       }
