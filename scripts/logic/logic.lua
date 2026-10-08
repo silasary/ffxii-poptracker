@@ -182,6 +182,14 @@ function early_balfonheim()
 	end
 end
 
+function bhujerba()
+    if has_n_system_access_keys(1) then
+        return AccessibilityLevel.Normal
+    end
+
+    return bhujerba_skyferry()
+end
+
 function bhujerba_skyferry()
 	if Tracker:ProviderCountForCode('bhu_aero') > 0 then
 		if early_balfonheim() or
