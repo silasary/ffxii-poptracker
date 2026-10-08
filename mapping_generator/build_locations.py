@@ -165,7 +165,7 @@ def main() -> None:
         access_rule = lambda_to_access_rule.setdefault(rule_str, None)
         if access_rule is None and isinstance(rule, Rule):
             try:
-                access_rule = rb_to_access_rule(rule, partials, lambda_counter)
+                access_rule = rb_to_access_rule(rule, partials, lambda_counter, regions)
                 lambda_to_access_rule[rule_str] = access_rule
             except ItemNotFound as e:
                 if e.item_name in item_data_table:
@@ -289,7 +289,7 @@ def find_item_code(name: str) -> str:
     raise ItemNotFound(name, f"Item with name '{name}' not found")
 
 
-def rb_to_access_rule(rule: Rule, partials: dict[str, str | None], lambda_counter: Counter[str]) -> str | None:
+def rb_to_access_rule(rule: Rule, partials: dict[str, str | None], lambda_counter: Counter[str], regions: dict[str, dict]) -> str | None:
     # if partials.get(str(rule)):
     #     return partials[str(rule)]
     if isinstance(rule, Has):
@@ -318,10 +318,17 @@ def rb_to_access_rule(rule: Rule, partials: dict[str, str | None], lambda_counte
         return ""
 
     if isinstance(rule, And):
-        resolved = [rb_to_access_rule(subrule, partials, lambda_counter) for subrule in rule.children]
+        resolved = [rb_to_access_rule(subrule, partials, lambda_counter, regions) for subrule in rule.children]
         if any(r is None for r in resolved):
             return None
         return ",".join(filter(None, resolved))
+
+    if isinstance(rule, CanReachRegion):
+        region_name = rule.region_name
+        region = regions.get(region_name)
+        if region and len(region.get("access_rules", [])) == 1:
+            return region["access_rules"][0]
+        pass
 
     partial = partials.setdefault(str(rule), None)
     lambda_counter[str(rule)] += 1
