@@ -71,4 +71,6 @@ return {
 	[8471] = {"black_orb", "consumable"},
 	[8473] = {"access_key", "consumable"},
 	[49184] = {"second_board", "toggle"},
+    [32892] = {"feather_of_the_flock", "toggle"},
+    [33008] = {"kupo_nuts", "toggle"},
 }

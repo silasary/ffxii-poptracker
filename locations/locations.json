@@ -16779,7 +16779,9 @@
           },
           {
             "name": "Moogle Boss Repair Gate Reward",
-            "access_rules": []
+            "access_rules": [
+              "kupo_nuts,[$scaled_difficulty|2]"
+            ]
           }
         ]
       },
@@ -18290,7 +18292,9 @@
         "sections": [
           {
             "name": "Complete Stage 10 Reward",
-            "access_rules": []
+            "access_rules": [
+              "prog_trial_unlock,[$scaled_difficulty|1]"
+            ]
           },
           {
             "name": "Complete Stage 20 Reward",

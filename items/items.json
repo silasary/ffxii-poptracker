@@ -443,5 +443,16 @@
       "name": "Feather of the Flock",
       "type": "toggle",
       "codes": "feather_of_the_flock"
+    },
+    {
+      "name": "Kupo Nuts",
+      "type": "toggle",
+      "codes": "kupo_nuts"
+    },
+    {
+      "name": "Progressive Trial Unlock",
+      "type": "consumable",
+      "codes": "prog_trial_unlock",
+      "max_quantity": 10
     }
 ]
