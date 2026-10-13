@@ -1,2 +1,3 @@
 jsoncomment
 luaparser
+python-dotenv

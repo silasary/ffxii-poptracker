@@ -5,7 +5,14 @@ import sys
 import re
 from typing import Any
 
-sys.path.append("C:\\Users\\Clock\\projects\\Archipelago_ff12_openworld")
+import dotenv
+
+dotenv.load_dotenv()
+if ap_path := os.getenv("AP_PATH"):
+    sys.path.append(ap_path)
+else:
+    raise EnvironmentError("AP_PATH environment variable is not set")
+
 import ModuleUpdate
 ModuleUpdate.requirements_files.add(os.path.join(os.path.dirname(__file__), "requirements.txt"))
 # ModuleUpdate.update()
@@ -46,8 +53,12 @@ def main() -> None:
         pt_locations = json.load(loc_file)
 
     for file in glob.glob("./items/*.json"):
-        with open(file, 'r') as f:
-            pt_items.extend(json.load(f))
+        try:
+            with open(file, 'r') as f:
+                pt_items.extend(json.load(f))
+        except json.decoder.JSONDecodeError as e:
+            print(f"WARNING: Failed to load {file}: {e}")
+            raise
 
     with open("./mapping_generator/lambda_to_access_rule.json", 'r') as f:
         lambda_to_access_rule_full = json.load(f)

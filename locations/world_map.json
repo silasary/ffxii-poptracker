@@ -8898,5 +8898,16 @@
         "ref": "Main/Ridorana Cataract/Map of Ridorana Cataract Urn Reward"
       }
     ]
+  },
+  {
+    "name": "Trial Mode",
+    "map_locations": [
+      {
+        "map": "world_map",
+        "x": 300,
+        "y": 1000
+      }
+    ],
+    "sections": []
   }
 ]
